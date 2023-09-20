@@ -4,7 +4,7 @@
 Name = Normal
 IconPosition = 0
 Weaknesses = FIGHTING
-Immunities = GHOST
+Immunities = GHOST,ANGEL,DEMON
 #-------------------------------
 [FIGHTING]
 Name = Fighting
@@ -127,3 +127,19 @@ IsSpecialType = true
 Weaknesses = POISON,STEEL
 Resistances = FIGHTING,BUG,DARK
 Immunities = DRAGON
+#-------------------------------
+[ANGEL]
+Name = Angel
+IconPosition = 19
+IsSpecialType = true 
+Weaknesses = NORMAL,ICE
+Resistances = DARK,GHOST, FAIRY
+Immunities = DEMON, NORMAL
+#-------------------------------
+[DEMON]
+Name = Demon
+IconPosition = 20
+IsSpecialType = true
+Weaknesses = ANGEL,ICE
+Resistances = DARK,GHOST, FAIRY
+Immunities = NORMAL

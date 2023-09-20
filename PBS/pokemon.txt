@@ -23079,3 +23079,267 @@ Category = King
 Pokedex = Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.
 Generation = 8
 Flags = Legendary
+#-------------------------------
+#
+#
+#-------------------------------
+# //Pokémon God Specieis\\
+#-------------------------------
+#
+#
+#-------------------------------
+[GRALING]
+Name = Graling
+Types = GRASS
+BaseStats = 60,63,58,45,44,38
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = ATTACK,1
+CatchRate = 45
+Happiness = 50
+Abilities = OVERGROW
+HiddenAbilities = MOXIE
+Moves = 1,TACKLE,1,TAILWHIP,5,LEAFAGE
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Bipedal
+Habitat = Grassland
+Category = Seed
+Pokedex = WIP
+Evolutions = EVIRASS,Level,18
+#-------------------------------
+[EVIRASS]
+Name = Evirass
+Types = GRASS, DARK
+BaseStats = 90,95,72,55,54,52
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = OVERGROW
+HiddenAbilities = MOXIE
+Moves = 1,TACKLE,1,TAILWHIP,5,LEAFAGE
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Bipedal
+Habitat = Grassland
+Category = Seed
+Pokedex = WIP
+Evolutions = JUNVIL,Level,36
+#-------------------------------
+[JUNVIL]
+Name = Junvil
+Types = GRASS, DARK
+BaseStats = 110,120,100,61,60,80
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = ATTACK,3
+CatchRate = 45
+Happiness = 50
+Abilities = OVERGROW
+HiddenAbilities = MOXIE
+Moves = 1,TACKLE,1,TAILWHIP,5,LEAFAGE
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Bipedal
+Habitat = Grassland
+Category = Seed
+Pokedex = WIP
+#-------------------------------
+[EGDON]
+Name = Egdon
+Types = FIRE
+BaseStats = 44,62,38,64,62,38
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = SPECIAL_ATTACK,1
+CatchRate = 45
+Happiness = 50
+Abilities = BLAZE
+#HiddenAbilities = 
+Moves = 1,SCRATCH,1,LEER,5,EMBER
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field,Dragon
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Black
+Shape = Bipedal
+Habitat = Mountain
+Category = Baby Komo-do
+Pokedex = WIP
+Evolutions = DRAMODO,Level,18
+#-------------------------------
+[DRAMODO]
+Name = Egdon
+Types = FIRE, DRAGON
+BaseStats = 56,86,50,90,86,50
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = SPECIAL_ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = BLAZE
+#HiddenAbilities = 
+Moves = 1,SCRATCH,1,LEER,5,EMBER
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field,Dragon
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Black
+Shape = Bipedal
+Habitat = Mountain
+Category = Komo-dro
+Pokedex = WIP
+Evolutions = KOMODRA,Level,36
+#-------------------------------
+[KOMODRA]
+Name = Komo-dra
+Types = FIRE, DRAGON
+BaseStats = 75,105,70,115,105,60
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = SPECIAL_ATTACK,3
+CatchRate = 45
+Happiness = 50
+Abilities = BLAZE
+#HiddenAbilities = 
+Moves = 1,SCRATCH,1,LEER,5,EMBER
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field,Dragon
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Black
+Shape = Bipedal
+Habitat = Mountain
+Category = Burning Flame
+Pokedex = WIP
+#-------------------------------
+[AXOLOBY]
+Name = Axoloby
+Types = WATER
+BaseStats = 50,45,54,45,52,63
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = SPECIAL_DEFENSE,1
+CatchRate = 45
+Happiness = 50
+Abilities = TORRENT
+HiddenAbilities = MARVELSCALE
+Moves = 1,SCRATCH,1,LEER,5,WATERGUN
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Water1
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Pink
+Shape = Bipedal
+Habitat = Sea
+Category = Axolot
+Pokedex = WIP
+Evolutions = PSYLOTE,Level, 18
+#-------------------------------
+[PSYLOTE]
+Name = PSYLOTE
+Types = WATER, PSYCHIC
+BaseStats = 70,53,75,50,80,85
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = SPECIAL_DEFENSE,2
+CatchRate = 45
+Happiness = 50
+Abilities = TORRENT
+HiddenAbilities = MARVELSCALE
+Moves = 1,SCRATCH,1,LEER,5,WATERGUN
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Water1
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Pink
+Shape = Bipedal
+Habitat = Sea
+Category = Axolot
+Pokedex = WIP
+Evolutions = AXOLYSTIC,Level, 36
+#-------------------------------
+[AXOLYSTIC]
+Name = Axolystic
+Types = WATER, PSYCHIC
+BaseStats = 100,56,108,60,80,120
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = SPECIAL_DEFENSE,3
+CatchRate = 45
+Happiness = 50
+Abilities = TORRENT
+HiddenAbilities = MARVELSCALE
+Moves = 1,SCRATCH,1,LEER,5,WATERGUN
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Water1
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Pink
+Shape = Bipedal
+Habitat = Sea
+Category = Axolot
+Pokedex = WIP
+#-------------------------------
+[PURIRD]
+Name = Purird
+Types = FLYING
+BaseStats = 40,30,30,60,55,30
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = SPEED,1
+CatchRate = 45
+Happiness = 50
+Abilities = TORRENT
+HiddenAbilities = QUICKFEET
+Moves = 1,GUST,1,LEER
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Axolot
+Pokedex = WIP

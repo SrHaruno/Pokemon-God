@@ -1,0 +1,5 @@
+Name = BW Party Screen
+Version = 2.1.0
+Essentials = 20.1
+Credits = DeepBlue PacificWaves,Shashu-Greninja, Golisopod User
+Website = https://reliccastle.com/resources/569/

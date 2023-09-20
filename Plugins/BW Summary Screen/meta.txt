@@ -1,0 +1,5 @@
+Name = BW Summary Screen
+Version = 2.3.0
+Essentials = 20.1
+Credits = DeepBlue PacificWaves, Tommaniacal, Lucidious89, Weibrot, Kobi2604, Dirkriptide, Ploaj, Mr. Gela, Shashu-Greninja, Golisopod User
+Website = https://reliccastle.com/resources/569/
