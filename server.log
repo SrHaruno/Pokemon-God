@@ -1,0 +1,16 @@
+2023-09-19 23:49:35,864: INFO: ---------------
+2023-09-19 23:49:38,335: INFO: Started Server on 127.0.0.1:9999
+2023-09-19 23:51:11,489: INFO: 127.0.0.1:54750/connecting: connect
+2023-09-19 23:51:19,383: INFO: 127.0.0.1:54751/connecting: connect
+2023-09-19 23:51:19,421: INFO: 127.0.0.1:54750/connected: connected to 127.0.0.1:54751/connected
+2023-09-19 23:51:19,421: INFO: 127.0.0.1:54751/connected: connected to 127.0.0.1:54750/connected
+2023-09-19 23:52:01,132: INFO: 127.0.0.1:54750/connected: disconnected (client disconnected)
+2023-09-19 23:52:01,133: INFO: 127.0.0.1:54751/connected: disconnected (peer disconnected)
+2023-09-20 00:21:39,331: INFO: ---------------
+2023-09-20 00:21:42,496: INFO: Started Server on 127.0.0.1:9999
+2023-09-20 00:26:13,681: INFO: 127.0.0.1:54903/connecting: connect
+2023-09-20 00:26:18,376: INFO: 127.0.0.1:54904/connecting: connect
+2023-09-20 00:26:19,097: INFO: 127.0.0.1:54903/connected: connected to 127.0.0.1:54904/connected
+2023-09-20 00:26:19,098: INFO: 127.0.0.1:54904/connected: connected to 127.0.0.1:54903/connected
+2023-09-20 00:29:55,143: INFO: 127.0.0.1:54903/connected: disconnected (client disconnected)
+2023-09-20 00:29:55,179: INFO: 127.0.0.1:54904/connected: disconnected (peer disconnected)

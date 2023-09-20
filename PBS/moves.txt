@@ -8710,3 +8710,47 @@ TotalPP = 40
 Target = User
 FunctionCode = RaiseUserDefense1
 Description = The user withdraws its body into its hard shell, raising its Defense stat.
+#-------------------------------
+#
+#
+#-------------------------------
+# \\Pokémon God Moves//
+#-------------------------------
+#
+#
+#-------------------------------
+[DARKNESSFURY]
+Name = Darkness Fury
+Type = DARK
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RecoilThirdOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The users rushes recklesly into the foe, taking a big recoil.
+#-------------------------------
+[DRACOSPHEAR]
+Name = Draco Sphear
+Type = Dragon
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbility
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks and sphere of energy. This move category depends on the user highest offensive stat.
+#-------------------------------
+[MENTALPRESSURE]
+Name = Mental Pressure
+Type = Psychic
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks with it's mental power. The power depends on the foe Sp.Defense.

@@ -1,0 +1,8 @@
+Name      = Cable Club
+Version   = 3.6
+Essentials = 20.1, 21.1
+Optional  = v20.1 Hotfixes
+Optional  = PLA Battle Styles
+Optional  = Focus Meter System
+Website   = https://reliccastle.com/resources/640/
+Credits   = mGriffin,Khaikaa,Vendily
