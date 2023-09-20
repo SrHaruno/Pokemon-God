@@ -1,16 +1,11 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[002] # Lappet Town
-Land,21
-    20,GRALING,5
-    20,EVIRASS,5
-    20,JUNVIL,5
-    20,EGDON,5
-    20,DRAMODO,5
-	20,KOMODRA,5
-	20,AXOLOBY,5
-	20,PSYLOTE,5
-	20,AXOLYSTIC,5
-    15,PURIRD,5
-    15,PURIRD,5
-
+[005] # Route 1
+LandDay,21
+	40,PURIRD,2,5
+	40,DWILD,2,5
+	10,CAPYBURA,2,5
+LandNight,21
+	40,PURIRD,2,5
+	10,DWILD,2,5
+	40,CAPYBURA,2,5

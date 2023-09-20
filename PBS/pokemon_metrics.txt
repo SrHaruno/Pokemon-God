@@ -4043,3 +4043,45 @@ BackSprite = 0,0
 FrontSprite = -3,18
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[GRALING]
+BackSprite = 0,0
+FrontSprite = 3,15
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[EVIRASS]
+BackSprite = 0,0
+FrontSprite = 2,2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[JUNVIL]
+BackSprite = 0,0
+FrontSprite = -5,15
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[EGDON]
+BackSprite = 0,0
+FrontSprite = 2,4
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[DRAMODO]
+BackSprite = 0,0
+FrontSprite = 5,6
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[KOMODRA]
+BackSprite = 0,0
+FrontSprite = 5,5
+ShadowX = -5
+ShadowSize = 3
+#-------------------------------
+[DWILD]
+BackSprite = 0,0
+FrontSprite = 0,10
+ShadowX = 0
+ShadowSize = 3

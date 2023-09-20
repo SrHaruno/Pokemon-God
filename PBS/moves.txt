@@ -8731,9 +8731,9 @@ FunctionCode = RecoilThirdOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The users rushes recklesly into the foe, taking a big recoil.
 #-------------------------------
-[DRACOSPHEAR]
-Name = Draco Sphear
-Type = Dragon
+[DRACOSPHERE]
+Name = Draco Sphere
+Type = DRAGON
 Category = Special
 Power = 90
 Accuracy = 100
@@ -8745,7 +8745,7 @@ Description = The user attacks and sphere of energy. This move category depends 
 #-------------------------------
 [MENTALPRESSURE]
 Name = Mental Pressure
-Type = Psychic
+Type = PSYCHIC		
 Category = Special
 Power = 80
 Accuracy = 100
@@ -8754,3 +8754,15 @@ Target = NearOther
 FunctionCode = None
 Flags = CanProtect,CanMirrorMove,CannotMetronome
 Description = The user attacks with it's mental power. The power depends on the foe Sp.Defense.
+#-------------------------------
+[CUPIDARROW]
+Name = Cupid Arrow
+Type = ANGEL		
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 40
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = Basic angel-type move

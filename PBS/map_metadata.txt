@@ -18,4 +18,10 @@ MapPosition = 0,13,12
 [004]   # Pokémon Lab
 Name = Pokémon Lab
 MapPosition = 0,13,12
+#-------------------------------
+[005]   # Rondor Town
+Name = Route 1
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,12
 

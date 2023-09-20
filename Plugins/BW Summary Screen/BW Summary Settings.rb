@@ -8,7 +8,7 @@
 # original post that I'll try to fix it. Thanks in advance, for your time =D
 #------------------------------------------------------------------------------
 
-SHOW_IV_RATINGS = true
+SHOW_IV_RATINGS = false
 
 # If TRUE, it makes Lucidious89's IV star script by Tommaniacal visible in Page 3
 # of the Summary Screen.
@@ -17,7 +17,7 @@ SHOW_EV_IV = true
 
 # If TRUE, it shows EVs and IVs in Summary visible in Page 3 of the Summary Screen.
 
-SUMMARY_B2W2_STYLE = false
+SUMMARY_B2W2_STYLE = true
 
 # If TRUE, it changes the Summary Screen BW to B2W2 style.
 
