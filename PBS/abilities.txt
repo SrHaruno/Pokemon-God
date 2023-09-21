@@ -1070,3 +1070,7 @@ Description = Combines Unnerve and Chilling Neigh Abilities.
 [ASONEGRIMNEIGH]
 Name = As One
 Description = Combines Unnerve and Grim Neigh Abilities.
+#-------------------------------
+[UNLEASH]
+Name = Unleash
+Description = Raises it's highest attack stat when knocking a foe.

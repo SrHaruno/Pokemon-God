@@ -47,13 +47,10 @@
 # * Hash containing base species call rates
   SOS_WHITELIST_RATES={
   
-  #Route 1
   :DWILD=>10,
   :PURIRD=>10,
   :CAPYBURA=>10,
-  
-  #Gigantopolis Sewers
-  :DITTO=>10, #IV chain
+  :DITTO=>10,
   } 
 # * Hash containing blacklisted Pokemon.
   SOS_BLACKLIST=[
@@ -186,7 +183,7 @@
       ivs.shuffle!
       if ivchain>0
         for i in 0...ivchain
-          break if ivs.length==0
+          break if iv.length==0
           iv=ivs.shift
           genwildpoke.ivs[iv]=31
         end
