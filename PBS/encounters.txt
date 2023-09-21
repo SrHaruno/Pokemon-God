@@ -1,11 +1,11 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [005] # Route 1
-LandDay,21
+LandDay,10
 	40,PURIRD,2,5
 	50,DWILD,2,5
 	10,CAPYBURA,5
-LandNight,21
+LandNight,10
 	40,PURIRD,2,5
 	10,DWILD,2,5
 	50,CAPYBURA,5

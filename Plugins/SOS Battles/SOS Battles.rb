@@ -40,13 +40,20 @@
 
 
 # * Switch id to enable/disable SOS battles. Set to <1 to not check.
-  NO_SOS_BATTLES = 0 #59
+  NO_SOS_BATTLES = 59
 # * Setting to Toggle between Whitelist or Blacklist, if WHITELIST = True, only Pokemon in SOS_WHITELIST_RATES will appear.
 # * If WHITELIST = False, it will check the SOS_BLACKLIST to see if a Pokemon is banned from calling. If Whitelist is false, a SOS_RATE must be defined. 
   WHITELIST = true 
 # * Hash containing base species call rates
   SOS_WHITELIST_RATES={
-  :DWILD=>100,
+  
+  #Route 1
+  :DWILD=>10,
+  :PURIRD=>10,
+  :CAPYBURA=>10,
+  
+  #Gigantopolis Sewers
+  :DITTO=>10, #IV chain
   } 
 # * Hash containing blacklisted Pokemon.
   SOS_BLACKLIST=[
@@ -56,7 +63,7 @@
     :MELOETTA,:GENESECT,:XERNEAS,:YVELTAL,:ZYGARDE,:TYPENULL,:SILVALLY,:TAPUBULU,:TAPUFINI,:TAPULELE,:TAPUKOKO,:COSMOG,:COSMOEM,:SOLGALEO,
 	:LUNALA,:NECROZMA,:NIHILEGO,:ZACIAN,:ZAMAZENTA,:ETERNATUS,:KUBFU,:URSHIFU,:REGIELEKI,:REGIDRAGO,:GLASTRIER,:SPECTRIER,:CALYREX]
 # * If using the Blacklist, all Pokemon have the same rate of being called.
-  SOS_RATE=5
+  SOS_RATE=20
   # * Hash containing species called allies
   SOS_CALL_MONS={}
   
@@ -124,7 +131,7 @@
         ally=pbGenerateSOSPokemon(GameData::Species.get(mon).species,alevel)
         if @battlers[idxOther].nil?
           pbCreateBattler(idxOther,ally,@party2.length)
-		  AIBattler.new(self, i) if battler
+		  @battleAI.create_ai_objects
         else
           @battlers[idxOther].pbInitialize(ally,@party2.length)
 		  
@@ -145,7 +152,7 @@
     end
     
     def pbGenerateSOSPokemon(species,level)
-      genwildpoke = Pokemon.new(species,level,$Trainer)
+      genwildpoke = Pokemon.new(species,level)
       items = genwildpoke.wildHoldItems
       firstpoke = @battlers[0]
       chances = [50,5,1]

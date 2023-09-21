@@ -19,9 +19,21 @@ MapPosition = 0,13,12
 Name = Pokémon Lab
 MapPosition = 0,13,12
 #-------------------------------
-[005]   # Rondor Town
+[006]   # Rondor Gate
+Name = Rondor Town
+Outdoor = false
+ShowArea = false
+MapPosition = 0,13,12
+#-------------------------------
+[005]   # Route 1
 Name = Route 1
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,12
-
+BattleBack = field
+#-------------------------------
+[007]   # Route 1 Gate
+Name = Route 1
+Outdoor = false
+ShowArea = false
+MapPosition = 0,13,12
