@@ -2,10 +2,16 @@
 #-------------------------------
 [005] # Route 1
 LandDay,10
-	40,PURIRD,2,5
-	50,DWILD,2,5
+	40,PURIRD,3,5
+	50,DWILD,3,5
 	10,CAPYBURA,5
 LandNight,10
-	40,PURIRD,2,5
-	10,DWILD,2,5
+	40,PURIRD,3,5
+	10,DWILD,3,5
 	50,CAPYBURA,5
+#-------------------------------
+[014] # Route 2
+LandDay,10
+	5,MOSLEEP,2,5
+LandNight,10
+	40,MOSLEEP,2,5
