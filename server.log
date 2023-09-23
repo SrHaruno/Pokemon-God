@@ -35,3 +35,20 @@
 2023-09-23 00:37:00,193: INFO: Started Server on 127.0.0.1:9999
 2023-09-23 00:37:19,639: INFO: 127.0.0.1:63547/connecting: connect
 2023-09-23 00:37:19,695: INFO: 127.0.0.1:63547/connecting: disconnected (invalid party)
+2023-09-23 12:09:16,726: INFO: ---------------
+2023-09-23 12:09:17,764: INFO: Started Server on 127.0.0.1:9999
+2023-09-23 12:10:48,035: INFO: 127.0.0.1:64268/connecting: connect
+2023-09-23 12:10:48,080: INFO: 127.0.0.1:64268/connecting: disconnected (invalid party)
+2023-09-23 12:11:25,235: INFO: 127.0.0.1:64270/connecting: connect
+2023-09-23 12:11:25,257: INFO: 127.0.0.1:64270/connecting: disconnected (invalid party)
+2023-09-23 12:21:04,618: INFO: ---------------
+2023-09-23 12:21:06,086: INFO: Started Server on 127.0.0.1:9999
+2023-09-23 12:21:19,078: INFO: 127.0.0.1:64317/connecting: connect
+2023-09-23 12:22:03,960: INFO: 127.0.0.1:64317/finding: message dropped (no peer)
+2023-09-23 12:22:03,986: INFO: 127.0.0.1:64317/finding: disconnected (client disconnected)
+2023-09-23 12:23:36,817: INFO: 127.0.0.1:64328/connecting: connect
+2023-09-23 12:23:47,626: INFO: 127.0.0.1:64329/connecting: connect
+2023-09-23 12:23:47,658: INFO: 127.0.0.1:64328/connected: connected to 127.0.0.1:64329/connected
+2023-09-23 12:23:47,658: INFO: 127.0.0.1:64329/connected: connected to 127.0.0.1:64328/connected
+2023-09-23 12:25:23,797: INFO: 127.0.0.1:64328/connected: disconnected (client disconnected)
+2023-09-23 12:25:23,798: INFO: 127.0.0.1:64329/connected: disconnected (peer disconnected)
