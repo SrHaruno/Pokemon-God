@@ -124,7 +124,7 @@
         mons=pbSpecialSOSMons(caller,mons)
         mon=mons[pbRandom(mons.length)]
         alevel=caller.level-1
-        alevel=1 if alevel<1
+        alevel=2 if alevel<1
         ally=pbGenerateSOSPokemon(GameData::Species.get(mon).species,alevel)
         if @battlers[idxOther].nil?
           pbCreateBattler(idxOther,ally,@party2.length)
