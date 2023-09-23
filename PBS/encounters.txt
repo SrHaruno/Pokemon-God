@@ -12,6 +12,10 @@ LandNight,10
 #-------------------------------
 [014] # Route 2
 LandDay,10
-	5,MOSLEEP,2,5
+	40,PURIRD,3,5
+	50,DWILD,3,5
+	5,MOSLEEP,5
 LandNight,10
-	40,MOSLEEP,2,5
+	40,PURIRD,3,5
+	50,MOSLEEP,5
+	5,DWILD,3,5

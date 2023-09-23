@@ -47,10 +47,8 @@
 # * Hash containing base species call rates
   SOS_WHITELIST_RATES={
   
-  :DWILD=>10,
-  :PURIRD=>10,
-  :CAPYBURA=>10,
-  :DITTO=>10,
+  :DWILD=>15,
+  :DITTO=>5,
   } 
 # * Hash containing blacklisted Pokemon.
   SOS_BLACKLIST=[
@@ -123,8 +121,8 @@
         mons=SOS_CALL_MONS[cspecies] || [caller.species]
         mons=pbSpecialSOSMons(caller,mons)
         mon=mons[pbRandom(mons.length)]
-        alevel=caller.level-1
-        alevel=2 if alevel<1
+        alevel =  caller.level-1
+        alevel = 1 if alevel<1
         ally=pbGenerateSOSPokemon(GameData::Species.get(mon).species,alevel)
         if @battlers[idxOther].nil?
           pbCreateBattler(idxOther,ally,@party2.length)
@@ -179,11 +177,11 @@
       end
       ivchain=(chain/10)
       ivchain+=1 if chain>=5
-      ivs=(0..5).to_a
+      ivs = [:HP,:ATTACK,:DEFENSE,:SPEED,:SPECIAL_ATTACK,:SPECIAL_DEFENSE]
       ivs.shuffle!
       if ivchain>0
         for i in 0...ivchain
-          break if iv.length==0
+          break if ivs.length==0
           iv=ivs.shift
           genwildpoke.ivs[iv]=31
         end

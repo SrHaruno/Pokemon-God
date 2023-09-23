@@ -6,7 +6,7 @@
 # https://github.com/Maruno17/pokemon-essentials
 #===============================================================================
 
-Essentials::ERROR_TEXT += "[v21.1 Hotfixes 1.0.1]\r\n"
+Essentials::ERROR_TEXT += "[v21.1 Hotfixes 1.0.2]\r\n"
 
 #===============================================================================
 # Fixed Pokédex not showing male/female options for species with gender
@@ -82,7 +82,7 @@ class Battle::AI
     if @trainer.high_skill? && @user.can_switch_lax?
       badMoves = false
       if max_score <= MOVE_USELESS_SCORE
-        badMoves = user_battler.can_attack?
+        badMoves = user.can_attack?
         badMoves = true if !badMoves && pbAIRandom(100) < 25
       elsif max_score < MOVE_BASE_SCORE * move_score_threshold && user_battler.turnCount > 2
         badMoves = true if pbAIRandom(100) < 80
@@ -256,5 +256,214 @@ class Battle::Battler
       end
     end    
     __hotfixes__pbEffectsOnMakingHit(move, user, target)
+  end
+end
+
+#===============================================================================
+# Fixed crash when a phone contact tries to call you while you're on a map with
+# no map metadata.
+#===============================================================================
+class Phone
+  module Call
+    module_function
+
+    def can_make?
+      return false if $game_map.metadata&.has_flag?("NoPhoneSignal")
+      return true
+    end
+  end
+end
+
+#===============================================================================
+# Fixed Pokémon sent from the party to storage in battle not having certain
+# battle-only conditions removed.
+#===============================================================================
+module Battle::CatchAndStoreMixin
+  def pbStorePokemon(pkmn)
+    # Nickname the Pokémon (unless it's a Shadow Pokémon)
+    if !pkmn.shadowPokemon?
+      if $PokemonSystem.givenicknames == 0 &&
+         pbDisplayConfirm(_INTL("Would you like to give a nickname to {1}?", pkmn.name))
+        nickname = @scene.pbNameEntry(_INTL("{1}'s nickname?", pkmn.speciesName), pkmn)
+        pkmn.name = nickname
+      end
+    end
+    # Store the Pokémon
+    if pbPlayer.party_full? && (@sendToBoxes == 0 || @sendToBoxes == 2)   # Ask/must add to party
+      cmds = [_INTL("Add to your party"),
+              _INTL("Send to a Box"),
+              _INTL("See {1}'s summary", pkmn.name),
+              _INTL("Check party")]
+      cmds.delete_at(1) if @sendToBoxes == 2
+      loop do
+        cmd = pbShowCommands(_INTL("Where do you want to send {1} to?", pkmn.name), cmds, 99)
+        break if cmd == 99   # Cancelling = send to a Box
+        cmd += 1 if cmd >= 1 && @sendToBoxes == 2
+        case cmd
+        when 0   # Add to your party
+          pbDisplay(_INTL("Choose a Pokémon in your party to send to your Boxes."))
+          party_index = -1
+          @scene.pbPartyScreen(0, (@sendToBoxes != 2), 1) do |idxParty, _partyScene|
+            party_index = idxParty
+            next true
+          end
+          next if party_index < 0   # Cancelled
+          party_size = pbPlayer.party.length
+          # Get chosen Pokémon and clear battle-related conditions
+          send_pkmn = pbPlayer.party[party_index]
+          @peer.pbOnLeavingBattle(self, send_pkmn, @usedInBattle[0][party_index], true)
+          send_pkmn.statusCount = 0 if send_pkmn.status == :POISON   # Bad poison becomes regular
+          send_pkmn.makeUnmega
+          send_pkmn.makeUnprimal
+          # Send chosen Pokémon to storage
+          stored_box = @peer.pbStorePokemon(pbPlayer, send_pkmn)
+          pbPlayer.party.delete_at(party_index)
+          box_name = @peer.pbBoxName(stored_box)
+          pbDisplayPaused(_INTL("{1} has been sent to Box \"{2}\".", send_pkmn.name, box_name))
+          # Rearrange all remembered properties of party Pokémon
+          (party_index...party_size).each do |idx|
+            if idx < party_size - 1
+              @initialItems[0][idx] = @initialItems[0][idx + 1]
+              $game_temp.party_levels_before_battle[idx] = $game_temp.party_levels_before_battle[idx + 1]
+              $game_temp.party_critical_hits_dealt[idx] = $game_temp.party_critical_hits_dealt[idx + 1]
+              $game_temp.party_direct_damage_taken[idx] = $game_temp.party_direct_damage_taken[idx + 1]
+            else
+              @initialItems[0][idx] = nil
+              $game_temp.party_levels_before_battle[idx] = nil
+              $game_temp.party_critical_hits_dealt[idx] = nil
+              $game_temp.party_direct_damage_taken[idx] = nil
+            end
+          end
+          break
+        when 1   # Send to a Box
+          break
+        when 2   # See X's summary
+          pbFadeOutIn do
+            summary_scene = PokemonSummary_Scene.new
+            summary_screen = PokemonSummaryScreen.new(summary_scene, true)
+            summary_screen.pbStartScreen([pkmn], 0)
+          end
+        when 3   # Check party
+          @scene.pbPartyScreen(0, true, 2)
+        end
+      end
+    end
+    # Store as normal (add to party if there's space, or send to a Box if not)
+    stored_box = @peer.pbStorePokemon(pbPlayer, pkmn)
+    if stored_box < 0
+      pbDisplayPaused(_INTL("{1} has been added to your party.", pkmn.name))
+      @initialItems[0][pbPlayer.party.length - 1] = pkmn.item_id if @initialItems
+      return
+    end
+    # Messages saying the Pokémon was stored in a PC box
+    box_name = @peer.pbBoxName(stored_box)
+    pbDisplayPaused(_INTL("{1} has been sent to Box \"{2}\"!", pkmn.name, box_name))
+  end
+end
+
+class Battle
+  include Battle::CatchAndStoreMixin
+end
+
+#===============================================================================
+# Fixed long messages in battle not appearing/lingering properly, especially
+# when making them appear faster by pressing Use/Back.
+#===============================================================================
+class Window_AdvancedTextPokemon < SpriteWindow_Base
+  def skipAhead
+    return if !busy?
+    return if @textchars[@curchar] == "\n"
+    resume
+    if curcharSkip(true)
+      visiblelines = (self.height - self.borderY) / @lineHeight
+      if @textchars[@curchar] == "\n" && @linesdrawn >= visiblelines - 1
+        @scroll_timer_start = System.uptime
+      elsif @textchars[@curchar] == "\1"
+        @pausing = true if @curchar < @numtextchars - 1
+        self.startPause
+        refresh
+      end
+    end
+  end
+end
+
+class Battle::Scene
+  def pbDisplayMessage(msg, brief = false)
+    pbWaitMessage
+    pbShowWindow(MESSAGE_BOX)
+    cw = @sprites["messageWindow"]
+    cw.setText(msg)
+    PBDebug.log_message(msg)
+    yielded = false
+    timer_start = nil
+    loop do
+      pbUpdate(cw)
+      if !cw.busy?
+        if !yielded
+          yield if block_given?   # For playing SE as soon as the message is all shown
+          yielded = true
+        end
+        if brief
+          # NOTE: A brief message lingers on-screen while other things happen. A
+          #       regular message has to end before the game can continue.
+          @briefMessage = true
+          break
+        end
+        timer_start = System.uptime if !timer_start
+        if System.uptime - timer_start >= MESSAGE_PAUSE_TIME   # Autoclose after 1 second
+          cw.text = ""
+          cw.visible = false
+          break
+        end
+      end
+      if Input.trigger?(Input::BACK) || Input.trigger?(Input::USE) || @abortable
+        if cw.busy?
+          pbPlayDecisionSE if cw.pausing? && !@abortable
+          cw.skipAhead
+        elsif !@abortable
+          cw.text = ""
+          cw.visible = false
+          break
+        end
+      end
+    end
+  end
+  alias pbDisplay pbDisplayMessage
+
+  def pbDisplayPausedMessage(msg)
+    pbWaitMessage
+    pbShowWindow(MESSAGE_BOX)
+    cw = @sprites["messageWindow"]
+    cw.text = msg + "\1"
+    PBDebug.log_message(msg)
+    yielded = false
+    timer_start = nil
+    loop do
+      pbUpdate(cw)
+      if !cw.busy?
+        if !yielded
+          yield if block_given?   # For playing SE as soon as the message is all shown
+          yielded = true
+        end
+        if !@battleEnd
+          timer_start = System.uptime if !timer_start
+          if System.uptime - timer_start >= MESSAGE_PAUSE_TIME * 3   # Autoclose after 3 seconds
+            cw.text = ""
+            cw.visible = false
+            break
+          end
+        end
+      end
+      if Input.trigger?(Input::BACK) || Input.trigger?(Input::USE) || @abortable
+        if cw.busy?
+          pbPlayDecisionSE if cw.pausing? && !@abortable
+          cw.skipAhead
+        elsif !@abortable
+          cw.text = ""
+          pbPlayDecisionSE
+          break
+        end
+      end
+    end
   end
 end

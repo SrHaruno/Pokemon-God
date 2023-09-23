@@ -1,5 +1,5 @@
 ﻿Name       = v21.1 Hotfixes
-Version    = 1.0.1
+Version    = 1.0.2
 Essentials = 21.1
 Conflicts  = v19 Hotfixes
 Conflicts  = v19.1 Updates
@@ -23,5 +23,12 @@ Credits    = Maruno
 # - Fixed being unable to replace a NamedEvent.
 # - Fixed Cramorant's form not reverting after coughing up its Gulp
 #   Missile.
+#
+# 1.0.2:
+# - Fixed crash when a phone contact tries to call you while you're on
+#   a map with no map metadata.
+# - Fixed error from previous version relating to AI switching.
+# - Fixed long messages in battle not appearing/lingering properly,
+#   especially when making them appear faster by pressing Use/Back.
 #
 #=====================================================================

@@ -7,65 +7,53 @@ Name = Intro
 Name = Rondor Town
 Outdoor = true
 ShowArea = true
-MapPosition = 0,13,12
 BattleBack = field
 #-------------------------------
 [003]   # Player's house
 Name = \PN's house
 HealingSpot = 2,8,8
-MapPosition = 0,13,12
 #-------------------------------
 [004]   # Pokémon Lab
 Name = Pokémon Lab
-MapPosition = 0,13,12
-#-------------------------------
-[006]   # Rondor Gate
-Name = Rondor Town
-Outdoor = false
-ShowArea = false
-MapPosition = 0,13,12
 #-------------------------------
 [005]   # Route 1
 Name = Route 1
 Outdoor = true
 ShowArea = true
-MapPosition = 0,13,12
 BattleBack = field
+#-------------------------------
+[006]   # Rondor_Gate
+Name = Rondor Town
 #-------------------------------
 [007]   # Route 1 Gate
 Name = Route 1
-Outdoor = false
-ShowArea = false
-MapPosition = 0,13,12
 #-------------------------------
 [013]   # Indi Town
 Name = Indi Town
 Outdoor = true
 ShowArea = true
-MapPosition = 0,13,12
-BattleBack = field
-#-------------------------------
-[016]   # Indi Town Pokecenter
-Name = Indi Town
-Outdoor = false
-ShowArea = false
-MapPosition = 0,13,12
-#-------------------------------
-[017]   # Indi Town Pokecenter 2F
-Name = Indi Town
-Outdoor = false
-ShowArea = false
-MapPosition = 0,13,12
 #-------------------------------
 [014]   # Route 2
 Name = Route 2
 Outdoor = true
 ShowArea = true
-MapPosition = 0,13,12
 BattleBack = field
 #-------------------------------
 [015]   # Route 2 Gate
 Name = Route 2
 Outdoor = false
 ShowArea = false
-MapPosition = 0,13,12
+Bicycle = true
+#-------------------------------
+[016]   # Poke Center
+Name = Indi Town
+#-------------------------------
+[017]   # Poke Center 2F
+Name = Indi Town
+#-------------------------------
+[018]   # Route 3
+Name = Route 3
+Outdoor = true
+ShowArea = true
+Bicycle = true
+BattleBack = field
