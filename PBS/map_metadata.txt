@@ -57,3 +57,8 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 BattleBack = field
+#-------------------------------
+[019]   # Day-Care
+Name = Day-Care
+Outdoor = false
+ShowArea = false
