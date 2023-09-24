@@ -41,8 +41,6 @@ BattleBack = field
 #-------------------------------
 [015]   # Route 2 Gate
 Name = Route 2
-Outdoor = false
-ShowArea = false
 Bicycle = true
 #-------------------------------
 [016]   # Poke Center
@@ -60,5 +58,9 @@ BattleBack = field
 #-------------------------------
 [019]   # Day-Care
 Name = Day-Care
-Outdoor = false
-ShowArea = false
+#-------------------------------
+[020]   # Indi Forest
+Name = Indi Forest
+Outdoor = true
+ShowArea = true
+BattleBack = Forest

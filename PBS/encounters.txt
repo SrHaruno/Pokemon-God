@@ -20,6 +20,11 @@ LandNight,10
 	50,MOSLEEP,5
 	5,DWILD,3,5
 #-------------------------------
+[020] # Indi Forest
+Land,10
+	40,TATURUG,5
+	20,PURIRD,3,5
+#-------------------------------
 [018] # Route 3
 LandDay,10
 	50,MOMBER,4,6
