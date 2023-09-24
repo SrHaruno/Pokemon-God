@@ -22,8 +22,12 @@ LandNight,10
 #-------------------------------
 [020] # Indi Forest
 Land,10
-	40,TATURUG,5
-	20,PURIRD,3,5
+	40,TATURUG,3,5
+	40,LARVENGUE,3,5
+	20,PURIRD,6
+	5,ELECOON,5
+	5,PUPENGUE,5
+	5,SQUILAZE,8
 #-------------------------------
 [018] # Route 3
 LandDay,10
