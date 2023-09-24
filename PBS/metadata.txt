@@ -16,11 +16,11 @@ BicycleBGM = Bicycle
 TrainerType = POKEMONTRAINER_Blair
 WalkCharset = hero_walk
 RunCharset = hero_run
-CycleCharset = boy_bike
-SurfCharset = boy_surf
-DiveCharset = boy_surf
-FishCharset = boy_fish_offset
-SurfFishCharset = boy_fish_offset
+CycleCharset = hero_bike
+SurfCharset = hero_surf
+DiveCharset = hero_surf
+FishCharset = hero_fish_offset
+SurfFishCharset = hero_fish_offset
 #-------------------------------
 [2]
 TrainerType = POKEMONTRAINER_Whitlea
