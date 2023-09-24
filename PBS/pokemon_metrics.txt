@@ -4082,6 +4082,6 @@ ShadowSize = 3
 #-------------------------------
 [DWILD]
 BackSprite = 0,0
-FrontSprite = 0,10
+FrontSprite = 2,17
 ShadowX = 0
 ShadowSize = 3
