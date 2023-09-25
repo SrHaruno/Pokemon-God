@@ -77,6 +77,16 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
+[009]   # Plateau Poké Center
+Name = Plateau City
+Outdoor = false
+ShowArea = false
+#-------------------------------
+[024]   # Plateau Poké Center 2F
+Name = Plateau City
+Outdoor = false
+ShowArea = false
+#-------------------------------
 [023]   # Mt.Solar
 Name = Mt.Solar
 Outdoor = false
