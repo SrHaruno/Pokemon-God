@@ -27,6 +27,7 @@ Name = Rondor Town
 #-------------------------------
 [007]   # Route 1 Gate
 Name = Route 1
+Bicycle = true
 #-------------------------------
 [013]   # Indi Town
 Name = Indi Town
@@ -42,6 +43,7 @@ BattleBack = field
 [015]   # Route 2 Gate
 Name = Route 2
 Bicycle = true
+Outdoor = false
 #-------------------------------
 [016]   # Poke Center
 Name = Indi Town
@@ -64,3 +66,19 @@ Name = Indi Forest
 Outdoor = true
 ShowArea = true
 BattleBack = Forest
+#-------------------------------
+[021]   # Route 3 Gate
+Name = Route 3
+Bicycle = true
+#-------------------------------
+[022]   # Plateau City
+Name = Plateau City
+Outdoor = true
+ShowArea = true
+BattleBack = field
+#-------------------------------
+[023]   # Mt.Solar
+Name = Mt.Solar
+Outdoor = false
+ShowArea = true
+BattleBack = cave1

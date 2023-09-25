@@ -5,5 +5,11 @@ LoseText = Aww, I lost.
 Pokemon = DWILD,5
 #-------------------------------
 [LASS,Bianca]
-LoseText = Noo!/nMy precious Pokémon!
-Pokemon = MOSLEEP,5
+LoseText = Noo! My precious Pokémon!
+Pokemon = ORBEAF,5
+	Gender = female
+#-------------------------------
+[HIKER,Scott]
+LoseText = My strategy wasn't rock solid!
+Pokemon = MOSLEEP,4
+Pokemon = MOSSELIN,6

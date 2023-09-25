@@ -33,3 +33,7 @@ Land,10
 LandDay,10
 	50,MOMBER,4,6
 	5,EEVEE,8,9
+	#-------------------------------
+[023] # Mt.Solar
+Cave,10
+	50,MOMBER,5
