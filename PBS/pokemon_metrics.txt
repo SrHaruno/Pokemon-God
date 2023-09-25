@@ -4085,3 +4085,9 @@ BackSprite = 0,0
 FrontSprite = 2,17
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[PURIRD]
+BackSprite = 0,0
+FrontSprite = 0,19
+ShadowX = 0
+ShadowSize = 2
