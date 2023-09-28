@@ -23142,7 +23142,7 @@ Evolutions = JUNVIL,Level,36
 [JUNVIL]
 Name = Junvil
 Types = GRASS, DARK
-BaseStats = 110,120,100,61,60,80
+BaseStats = 110,120,100,59,60,80
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 64
@@ -23217,7 +23217,7 @@ Evolutions = KOMODRA,Level,36
 [KOMODRA]
 Name = Komo-dra
 Types = FIRE, DRAGON
-BaseStats = 75,105,70,115,105,60
+BaseStats = 80,105,70,115,105,60
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 64
@@ -23292,7 +23292,7 @@ Evolutions = AXOLYSTIC,Level, 36
 [AXOLYSTIC]
 Name = Axolystic
 Types = WATER, PSYCHIC
-BaseStats = 100,56,108,60,80,120
+BaseStats = 104,58,108,60,80,120
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 64

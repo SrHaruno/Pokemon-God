@@ -2,38 +2,38 @@
 #-------------------------------
 [005] # Route 1
 LandDay,10
-	40,PURIRD,3,5
-	50,DWILD,3,5
-	10,CAPYBURA,5
+    50,DWILD,3,5
+    40,PURIRD,3,5
+    10,CAPYBURA,5
 LandNight,10
-	40,PURIRD,3,5
-	10,DWILD,3,5
-	50,CAPYBURA,5
+    50,CAPYBURA,5
+    40,PURIRD,3,5
+    10,DWILD,3,5
 #-------------------------------
 [014] # Route 2
 LandDay,10
-	40,PURIRD,3,5
-	50,DWILD,3,5
-	5,MOSLEEP,5
+    50,DWILD,3,5
+    40,PURIRD,3,5
+    5,MOSLEEP,5
 LandNight,10
-	40,PURIRD,3,5
-	50,MOSLEEP,5
-	5,DWILD,3,5
-#-------------------------------
-[020] # Indi Forest
-Land,10
-	40,TATURUG,3,5
-	40,LARVENGUE,3,5
-	20,PURIRD,6
-	5,ELECOON,5
-	5,PUPENGUE,5
-	5,SQUILAZE,8
+    50,MOSLEEP,5
+    40,PURIRD,3,5
+    5,DWILD,3,5
 #-------------------------------
 [018] # Route 3
 LandDay,10
-	50,MOMBER,4,6
-	5,EEVEE,8,9
-	#-------------------------------
+    50,MOMBER,4,6
+    5,EEVEE,8,9
+#-------------------------------
+[020] # Indi Forest
+Land,10
+    40,LARVENGUE,3,5
+    40,TATURUG,3,5
+    20,PURIRD,6
+    5,ELECOON,5
+    5,PUPENGUE,5
+    5,SQUILAZE,8
+#-------------------------------
 [023] # Mt.Solar
 Cave,10
-	50,MOMBER,5
+    50,MOMBER,5
