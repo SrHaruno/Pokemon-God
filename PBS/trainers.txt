@@ -1,5 +1,17 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+[RIVAL1,Bruno] #Graling
+LoseText = Aww, I lost.
+Pokemon = GRALING,5
+#-------------------------------
+[RIVAL1,Bruno,1] #Egdon
+LoseText = Aww, I lost.
+Pokemon = EGDON,5
+#-------------------------------
+[RIVAL1,Bruno,2] #Axoloby
+LoseText = Aww, I lost.
+Pokemon = AXOLOBY,5
+#-------------------------------
 [YOUNGSTER,Arthur]
 LoseText = Aww, I lost.
 Pokemon = DWILD,5

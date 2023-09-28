@@ -13,6 +13,9 @@ BattleBack = field
 Name = \PN's house
 HealingSpot = 2,8,8
 #-------------------------------
+[028]   # Player's house 2F
+Name = \PN's house
+#-------------------------------
 [004]   # Pokémon Lab
 Name = Pokémon Lab
 #-------------------------------
