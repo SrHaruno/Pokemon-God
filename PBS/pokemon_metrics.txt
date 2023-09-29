@@ -4080,6 +4080,12 @@ FrontSprite = 5,5
 ShadowX = -5
 ShadowSize = 3
 #-------------------------------
+[AXOLOBY]
+BackSprite = 0,0
+FrontSprite = -2,18
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
 [DWILD]
 BackSprite = 0,0
 FrontSprite = 2,17

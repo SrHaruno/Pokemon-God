@@ -8719,6 +8719,32 @@ Description = The user withdraws its body into its hard shell, raising its Defen
 #
 #
 #-------------------------------
+[MUNCH]
+Name = Munch
+Type = NORMAL
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 30
+Description = The target is bitten with viciously sharp fangs. It may make the target flinch.
+#-------------------------------
+[MEGAMUNCH]
+Name = Mega Munch
+Type = NORMAL
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 20
+Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+#-------------------------------
 [DARKNESSFURY]
 Name = Darkness Fury
 Type = DARK

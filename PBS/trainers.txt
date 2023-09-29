@@ -1,16 +1,19 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [RIVAL1,Bruno] #Graling
-LoseText = Aww, I lost.
+LoseText = Dammit!
 Pokemon = GRALING,5
+	Moves = TACKLE,TAILWHIP
 #-------------------------------
 [RIVAL1,Bruno,1] #Egdon
-LoseText = Aww, I lost.
+LoseText = Dammit!
 Pokemon = EGDON,5
+	Moves = SCRATCH,LEER
 #-------------------------------
 [RIVAL1,Bruno,2] #Axoloby
-LoseText = Aww, I lost.
+LoseText = Dammit!
 Pokemon = AXOLOBY,5
+Moves = TACKLE,TAILWHIP
 #-------------------------------
 [YOUNGSTER,Arthur]
 LoseText = Aww, I lost.
