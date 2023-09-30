@@ -29,7 +29,7 @@ MENU_COMPONENTS = [
 DEFAULT_MENU_THEME = 0
 
 # Change Theme in the Options Menu
-CHANGE_THEME_IN_OPTIONS = true
+CHANGE_THEME_IN_OPTIONS = false
 
 #-------------------------------------------------------------------------------
 # Look and Feel

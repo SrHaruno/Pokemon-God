@@ -178,13 +178,13 @@ Name = Picnicker
 Gender = Female
 BaseMoney = 16
 #-------------------------------
-[COOLTRAINER_M]
-Name = Cool Trainer
+[ACETRAINER_M]
+Name = Ace Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[COOLTRAINER_F]
-Name = Cool Trainer
+[ACETRAINER_F]
+Name = Ace Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
@@ -294,108 +294,12 @@ Gender = Unknown
 BaseMoney = 60
 SkillLevel = 32
 #-------------------------------
-[TEAMROCKET_M]
-Name = Team Rocket
+[FARMER]
+Name = Farmer
 Gender = Male
-BaseMoney = 32
+BaseMoney = 16
 #-------------------------------
-[TEAMROCKET_F]
-Name = Team Rocket
+[COWGIRL]
+Name = Cowgirl
 Gender = Female
-BaseMoney = 32
-#-------------------------------
-[ROCKETBOSS]
-Name = Rocket Boss
-Gender = Male
-BaseMoney = 100
-#-------------------------------
-[LEADER_Brock]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Misty]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Surge]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Erika]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Koga]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Sabrina]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Blaine]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Giovanni]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[ELITEFOUR_Lorelei]
-Name = Elite Four
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Elite
-VictoryBGM = Battle victory leader
-#-------------------------------
-[ELITEFOUR_Bruno]
-Name = Elite Four
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Elite
-VictoryBGM = Battle victory leader
-#-------------------------------
-[ELITEFOUR_Agatha]
-Name = Elite Four
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Elite
-VictoryBGM = Battle victory leader
-#-------------------------------
-[ELITEFOUR_Lance]
-Name = Elite Four
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Elite
-VictoryBGM = Battle victory leader
-#-------------------------------
-[CHAMPION]
-Name = Champion
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Champion
-VictoryBGM = Battle victory leader
+BaseMoney = 16

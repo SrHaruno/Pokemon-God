@@ -2352,3 +2352,10 @@ HiddenAbilities = MARVELSCALE
 Height = 2.4
 Weight = 155.5
 Pokedex = In order to support its flower, which has grown larger due to Mega Evolution, its back and legs have become stronger.
+#-------------------------------
+[ORBEAF,1]
+FormName = Female
+HiddenAbilities = COMPETITIVE
+Moves = 1,SCRATCH,1,LEER,5,ABSORB
+Color = White
+Pokedex = WIP

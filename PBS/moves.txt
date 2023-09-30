@@ -8745,6 +8745,18 @@ Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 20
 Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
 #-------------------------------
+[SHUMERANG]
+Name = SHUMERANG
+Type = GRASS
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = The target is bitten with viciously sharp fangs. It may make the target flinch.
+#-------------------------------
 [DARKNESSFURY]
 Name = Darkness Fury
 Type = DARK

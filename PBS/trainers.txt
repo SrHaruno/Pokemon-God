@@ -1,4 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+#First Rival Battle
 #-------------------------------
 [RIVAL1,Bruno] #Graling
 LoseText = Dammit!
@@ -14,6 +15,9 @@ Pokemon = EGDON,5
 LoseText = Dammit!
 Pokemon = AXOLOBY,5
 Moves = TACKLE,TAILWHIP
+#
+#
+#Route 2
 #-------------------------------
 [YOUNGSTER,Arthur]
 LoseText = Aww, I lost.
@@ -27,4 +31,30 @@ Pokemon = ORBEAF,5
 [HIKER,Scott]
 LoseText = My strategy wasn't rock solid!
 Pokemon = MOSLEEP,4
-Pokemon = MOSSELIN,6
+Pokemon = MOSSELIN,5
+#
+#
+#Route 3
+#-------------------------------
+[FARMER, Ethan]
+LoseText = That's how farm life works.
+Pokemon = MOMBER,6
+Pokemon = CHIKATE,7
+#-------------------------------
+[COWGIRL, Hannah]
+LoseText = Yeehaw!
+Pokemon = DWILD,6
+Pokemon = CHIKATE,7
+#
+#
+#Indi Forest
+#-------------------------------
+[BUGCATCHER, Satoshi]
+LoseText = No!
+Pokemon = TATURUG,4
+Pokemon = PUPENGUE,5
+#-------------------------------
+[BUGCATCHER, Tajiri]
+LoseText = No way!
+Pokemon = LARVENGUE,4
+Pokemon = ELECOON,5
