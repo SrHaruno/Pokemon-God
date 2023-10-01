@@ -9,6 +9,12 @@ LandNight,10
     50,CAPYBURA,5
     50,PURIRD,3,5
     10,DWILD,3,5
+OldRod,50
+    100,MAGIKARP,5
+#-------------------------------
+[013] # Indi Town
+OldRod,50
+    100,MAGIKARP,5
 #-------------------------------
 [014] # Route 2
 LandDay,10
@@ -19,6 +25,8 @@ LandNight,10
     50,MOSLEEP,5
     40,PURIRD,3,5
     5,DWILD,3,5
+OldRod,50
+    100,MAGIKARP,5
 #-------------------------------
 [018] # Route 3
 LandDay,10

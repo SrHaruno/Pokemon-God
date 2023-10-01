@@ -62,15 +62,23 @@ Pokemon = ELECOON,5
 #
 #Plateau Gym
 #-------------------------------
+[SCHOOLKID_M, Thomas]
+LoseText = No way!
+Pokemon = ORBEAF,8
+#-------------------------------
+[SCHOOLKID_F, Hikari]
+LoseText = No way!
+Pokemon = ORBEAF,8
+	Gender = female
+#-------------------------------
 [LEADER_Daniel,Daniel]
 Items = POTION
 LoseText = Very good.
 Pokemon = ORBEAF,10
-    Moves = LEECHSEED,RAZORLEAF,SHADOWSNEAK,LEER
+    Moves = LEECHSEED,SHADOWSNEAK,RAZORLEAF,WORKUP
 	Item = OCCABERRY
     AbilityIndex = 1
 Pokemon = GRALING,12
-    Moves = LEECHSEED,RAZORLEAF,TAILWHIP
-	Item = OCCABERRY
+    Moves = LEECHSEED,RAZORLEAF,AGILITY,WORKUP
+	Item = WEAKNESSPOLICY
     AbilityIndex = 0
-    Gender = male

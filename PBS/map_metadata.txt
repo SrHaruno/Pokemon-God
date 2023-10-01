@@ -36,6 +36,7 @@ Name = Plateau City
 Name = Indi Town
 Outdoor = true
 ShowArea = true
+BattleBack = field
 #-------------------------------
 [014]   # Route 2
 Name = Route 2
@@ -91,7 +92,8 @@ Name = \PN's house
 #-------------------------------
 [029]   # Pokémon School 2F
 Name = Plateau City
-BattleBack = inside
+BattleBack = indoor1
 #-------------------------------
 [030]   # Pokémon School 3F
 Name = Plateau City
+BattleBack = indoor1

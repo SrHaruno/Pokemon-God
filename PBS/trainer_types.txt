@@ -310,3 +310,13 @@ BaseMoney = 16
 Name = Cowgirl
 Gender = Female
 BaseMoney = 16
+#-------------------------------
+[SCHOOLKID_M]
+Name = School Kid
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[SCHOOLKID_F]
+Name = School Kid
+Gender = Male
+BaseMoney = 16
