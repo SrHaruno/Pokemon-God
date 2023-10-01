@@ -30,6 +30,13 @@ Name = Rival
 Gender = Male
 BaseMoney = 36
 #-------------------------------
+[LEADER_Daniel]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
 [AROMALADY]
 Name = Aroma Lady
 Gender = Female

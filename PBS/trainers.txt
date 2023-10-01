@@ -58,3 +58,19 @@ Pokemon = PUPENGUE,5
 LoseText = No way!
 Pokemon = LARVENGUE,4
 Pokemon = ELECOON,5
+#
+#
+#Plateau Gym
+#-------------------------------
+[LEADER_Daniel,Daniel]
+Items = POTION
+LoseText = Very good.
+Pokemon = ORBEAF,10
+    Moves = LEECHSEED,RAZORLEAF,SHADOWSNEAK,LEER
+	Item = OCCABERRY
+    AbilityIndex = 1
+Pokemon = GRALING,12
+    Moves = LEECHSEED,RAZORLEAF,TAILWHIP
+	Item = OCCABERRY
+    AbilityIndex = 0
+    Gender = male

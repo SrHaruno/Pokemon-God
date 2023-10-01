@@ -13,9 +13,6 @@ BattleBack = field
 Name = \PN's house
 HealingSpot = 2,8,8
 #-------------------------------
-[028]   # Player's house 2F
-Name = \PN's house
-#-------------------------------
 [004]   # Pokémon Lab
 Name = Pokémon Lab
 #-------------------------------
@@ -32,6 +29,9 @@ Name = Rondor Town
 Name = Route 1
 Bicycle = true
 #-------------------------------
+[009]   # Plateau Poke Center
+Name = Plateau City
+#-------------------------------
 [013]   # Indi Town
 Name = Indi Town
 Outdoor = true
@@ -46,12 +46,11 @@ BattleBack = field
 [015]   # Route 2 Gate
 Name = Route 2
 Bicycle = true
-Outdoor = false
 #-------------------------------
-[016]   # Poke Center
+[016]   # Indi Town Poke Center
 Name = Indi Town
 #-------------------------------
-[017]   # Poke Center 2F
+[017]   # Indit Town Poke Center 2F
 Name = Indi Town
 #-------------------------------
 [018]   # Route 3
@@ -68,7 +67,7 @@ Name = Day-Care
 Name = Indi Forest
 Outdoor = true
 ShowArea = true
-BattleBack = Forest
+BattleBack = forest
 #-------------------------------
 [021]   # Route 3 Gate
 Name = Route 3
@@ -80,18 +79,19 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
-[009]   # Plateau Poké Center
+[024]   # Plateau Poke Center 2F
 Name = Plateau City
-Outdoor = false
-ShowArea = false
 #-------------------------------
-[024]   # Plateau Poké Center 2F
+[026]   # Pokémon School
 Name = Plateau City
-Outdoor = false
-ShowArea = false
+BattleBack = inside
 #-------------------------------
-[023]   # Mt.Solar
-Name = Mt.Solar
-Outdoor = false
-ShowArea = true
-BattleBack = cave1
+[028]   # Player's House 2F
+Name = \PN's house
+#-------------------------------
+[029]   # Pokémon School 2F
+Name = Plateau City
+BattleBack = inside
+#-------------------------------
+[030]   # Pokémon School 3F
+Name = Plateau City
