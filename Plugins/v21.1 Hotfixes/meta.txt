@@ -1,5 +1,5 @@
 ﻿Name       = v21.1 Hotfixes
-Version    = 1.0.2
+Version    = 1.0.3
 Essentials = 21.1
 Conflicts  = v19 Hotfixes
 Conflicts  = v19.1 Updates
@@ -30,5 +30,17 @@ Credits    = Maruno
 # - Fixed error from previous version relating to AI switching.
 # - Fixed long messages in battle not appearing/lingering properly,
 #   especially when making them appear faster by pressing Use/Back.
+#
+# 1.0.3:
+# - Fixed being able to fly from the Town Map even if the
+#   CAN_FLY_FROM_TOWN_MAP Setting is false.
+# - Made some unhelpful error messages when compiling more helpful.
+# - Language files are now loaded properly even if the game is
+#   encrypted.
+# - Fixed trying to load non-existent language files not reverting the
+#   messages to the default messages if other language files are
+#   already loaded.
+# - Fixed standing on an event preventing you from interacting with an
+#   event you're facing.
 #
 #=====================================================================

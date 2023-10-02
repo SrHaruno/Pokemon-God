@@ -2355,7 +2355,8 @@ Pokedex = In order to support its flower, which has grown larger due to Mega Evo
 #-------------------------------
 [ORBEAF,1]
 FormName = Female
+BaseStats = 55,30,40,60,65,40
 HiddenAbilities = COMPETITIVE
-Moves = 1,SCRATCH,1,LEER,5,ABSORB
+Moves = 1,SCRATCH,1,LEER,5,ABSORB,9,SHADOWSNEAK,13,MAGICALLEAF,17,LEECHSEED,22,MEGADRAIN,27,SLASH,33,GROWTH
 Color = White
 Pokedex = WIP
