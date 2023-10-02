@@ -8745,6 +8745,18 @@ Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 20
 Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
 #-------------------------------
+[INFERNORAZOR]
+Name = Inferno Razor
+Type = FIRE
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user handles a sharp sword made out of fire and attacks by slashing. It has a high critical-hit ratio.
+#-------------------------------
 [SHUMERANG]
 Name = SHUMERANG
 Type = GRASS

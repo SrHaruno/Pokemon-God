@@ -4045,55 +4045,90 @@ ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [GRALING]
-BackSprite = 0,0
 FrontSprite = 3,15
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [EVIRASS]
-BackSprite = 0,0
 FrontSprite = 2,2
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [JUNVIL]
-BackSprite = 0,0
 FrontSprite = -5,15
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [EGDON]
-BackSprite = 0,0
 FrontSprite = 2,4
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [DRAMODO]
-BackSprite = 0,0
 FrontSprite = 5,6
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [KOMODRA]
-BackSprite = 0,0
 FrontSprite = 5,5
 ShadowX = -5
 ShadowSize = 3
 #-------------------------------
 [AXOLOBY]
-BackSprite = 0,0
 FrontSprite = -2,18
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [DWILD]
-BackSprite = 0,0
 FrontSprite = 2,17
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [PURIRD]
-BackSprite = 0,0
 FrontSprite = 0,19
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TATURUG]
+FrontSprite = -2,18
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ELECOON]
+FrontSprite = -2,17
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[THUNDOTH]
+FrontSprite = 2,10
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[MOSLEEP]
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[ORBEAF]
+FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ORIKEN]
+FrontSprite = 0,5
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[KATAGAMI]
+FrontSprite = 2,10
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[MOMBER]
+FrontSprite = -4,2
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[CHIKATE]
+FrontSprite = 0,18
 ShadowX = 0
 ShadowSize = 2
