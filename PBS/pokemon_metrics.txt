@@ -4079,15 +4079,25 @@ FrontSprite = -2,18
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
+[PURIRD]
+FrontSprite = 0,19
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[YOUNROW]
+FrontSprite = 2,20
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
 [DWILD]
 FrontSprite = 2,17
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
-[PURIRD]
-FrontSprite = 0,19
+[HOGGO]
+FrontSprite = -2,20
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 3
 #-------------------------------
 [TATURUG]
 FrontSprite = -2,18
@@ -4103,6 +4113,16 @@ ShadowSize = 2
 FrontSprite = 2,10
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[LARVENGUE]
+FrontSprite = -2,18
+ShadowX = -8
+ShadowSize = 2
+#-------------------------------
+[SQUILAZE]
+FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 2
 #-------------------------------
 [MOSLEEP]
 ShadowX = 0
@@ -4127,6 +4147,11 @@ ShadowSize = 3
 FrontSprite = -4,2
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[FLAMMUNY]
+FrontSprite = 0,18
+ShadowX = 0
+ShadowSize = 2
 #-------------------------------
 [CHIKATE]
 FrontSprite = 0,18

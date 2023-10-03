@@ -44,6 +44,9 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
+[036]   # Route 2 Research Lab
+Name = Route 2
+#-------------------------------
 [015]   # Route 2 Gate
 Name = Route 2
 Bicycle = true

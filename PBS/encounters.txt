@@ -32,11 +32,11 @@ OldRod,50
 LandDay,10
     50,MOMBER,4,6
 	50,CHIKATE,4,6
-    5,EEVEE,8,9
+    5,EEVEE,10
 LandNight,10
     50,FLAMMUNY,4,6
 	50,PURIRD,4,6
-    5,EEVEE,8,10
+    5,EEVEE,10
 #-------------------------------
 [020] # Indi Forest
 Land,10
@@ -46,4 +46,8 @@ Land,10
 	20,PURIRD,6
     5,ELECOON,5
     5,PUPENGUE,5
-    5,SQUILAZE,8
+    5,PANPOUR,5
+	5,PANSEAR,5
+	5,PANSAGE,5
+	5,SQUILAZE,8
+	
