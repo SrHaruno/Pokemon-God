@@ -1,0 +1,6 @@
+Name         = Improved Field Skills
+Version      = 1.0
+Essentials   = 21.1
+Requires     = Modular UI Scenes,2.0.3
+Website      = https://www.pokecommunity.com/showthread.php?t=501989
+Credits      = Lucidious89
