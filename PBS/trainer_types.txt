@@ -35,7 +35,7 @@ BaseMoney = 36
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
+BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------
 [AROMALADY]
