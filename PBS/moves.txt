@@ -8745,6 +8745,19 @@ Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 20
 Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
 #-------------------------------
+[FLAMEHORN]
+Name = Flame Horn
+Type = FIRE
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is attacked with burning horns. It may also leave the target with a burn.
+#-------------------------------
 [INFERNORAZOR]
 Name = Inferno Razor
 Type = FIRE
@@ -8816,3 +8829,28 @@ Target = NearOther
 FunctionCode = None
 Flags = CanProtect,CanMirrorMove
 Description = Basic angel-type move.
+#-------------------------------
+[DEMON1]
+Name = ???
+Type = DEMON		
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = TBD
+#-------------------------------
+[BERSERKASSAULT]
+Name = Beserk Assault
+Type = DEMON
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RecoilThirdOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user attacks the foe recklesly. The user also takes damage and may burn the target.
