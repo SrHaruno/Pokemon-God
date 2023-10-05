@@ -10,7 +10,7 @@ ShowArea = true
 BattleBack = field
 #-------------------------------
 [003]   # Player's house
-Name = \PN's house
+Name = \PN's House
 HealingSpot = 2,8,8
 #-------------------------------
 [004]   # Pokémon Lab
@@ -28,6 +28,10 @@ Name = Rondor Town
 [007]   # Route 1 Gate
 Name = Route 1
 Bicycle = true
+#-------------------------------
+[008]   # Bruno House
+Name = Rondor Town
+HealingSpot = 2,8,8
 #-------------------------------
 [009]   # Plateau Poke Center
 Name = Plateau City
