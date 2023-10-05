@@ -21,12 +21,13 @@ Gender = Female
 BaseMoney = 60
 #-------------------------------
 [RIVAL1]
-Name = Rival
+Name = Neighbour
 Gender = Male
 BaseMoney = 16
+BattleBGM = Battle! Vs Rival
 #-------------------------------
 [RIVAL2]
-Name = Rival
+Name = Friend
 Gender = Male
 BaseMoney = 36
 #-------------------------------
