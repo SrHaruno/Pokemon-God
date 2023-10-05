@@ -48,9 +48,6 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
-[036]   # Route 2 Research Lab
-Name = Route 2
-#-------------------------------
 [015]   # Route 2 Gate
 Name = Route 2
 Bicycle = true
@@ -87,6 +84,12 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
+[023]   # Mt.Solar
+Name = Mt.Solar
+ShowArea = true
+BattleBack = cave1
+Environment = Cave
+#-------------------------------
 [024]   # Plateau Poke Center 2F
 Name = Plateau City
 #-------------------------------
@@ -104,3 +107,6 @@ BattleBack = indoor1
 [030]   # Pokémon School 3F
 Name = Plateau City
 BattleBack = indoor1
+#-------------------------------
+[036]   # Route 2
+Name = Route 2
