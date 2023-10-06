@@ -1,2 +1,6 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+# Route 2 (14) - Route 4 (39)
+14,South,0,39,North,12
+# Route 5 (40) - Route 4 (39)
+40,North,0,39,South,9

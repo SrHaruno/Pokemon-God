@@ -110,3 +110,9 @@ BattleBack = indoor1
 #-------------------------------
 [036]   # Route 2
 Name = Route 2
+#-------------------------------
+[039]   # Route 4
+Name = Route 4
+Outdoor = true
+ShowArea = true
+BattleBack = field

@@ -2355,9 +2355,11 @@ Pokedex = In order to support its flower, which has grown larger due to Mega Evo
 #-------------------------------
 [DWILD,1]
 FormName = Halloween
+Evolutions = HOGGO,None,
 #-------------------------------
 [DWILD,2]
 FormName = Christmas
+Evolutions = HOGGO,None,
 #-------------------------------
 [ORBEAF,1]
 FormName = Female
