@@ -23453,7 +23453,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Loyal
 Pokedex = WIP
 #-------------------------------
 [HOGGO]
@@ -23476,7 +23476,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Hope
 Pokedex = WIP
 #-------------------------------
 [CAPYBURA]
@@ -23500,7 +23500,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Capybara
 Pokedex = WIP
 #-------------------------------
 [CAPYJAW]
@@ -23546,7 +23546,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Taturana
 Pokedex = WIP
 Evolution = ELECOON, Level, 20
 #-------------------------------
@@ -23569,7 +23569,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Shell
 Pokedex = WIP
 Evolution = THUNDOTH, Level, 30
 #-------------------------------
@@ -23592,7 +23592,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Moth
 Pokedex = WIP
 #-------------------------------
 [LARVENGUE]
@@ -23662,7 +23662,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Aedes Aegypti
 Pokedex = WIP
 #-------------------------------
 [ORBEAF]
@@ -23687,7 +23687,7 @@ Weight = 6.9
 Color = White
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Origami
 Pokedex = WIP
 Evolutions = ORIKEN,LevelMale,14,BLOSSIGAMI,LevelFemale,14
 #-------------------------------
@@ -23711,7 +23711,7 @@ Weight = 6.9
 Color = White
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Shuriken
 Pokedex = WIP
 Evolutions = KATAGAMI,Level,32
 #-------------------------------
@@ -23735,7 +23735,7 @@ Weight = 6.9
 Color = White
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Forest Guardian
 Pokedex = WIP
 #-------------------------------
 [BLOSSIGAMI]
@@ -23855,7 +23855,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = WIP
-Evolutions = DREAMETEOR,Item,MOONSTONE
+Evolutions = DREAMETEOR,Trade,
 #-------------------------------
 [DREAMETEOR]
 Name = Dreameteor
@@ -23922,7 +23922,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = Baby bull
+Category = Bull
 Pokedex = WIP
 Evolutions = DEMITOUR,Level,36
 #-------------------------------
@@ -23945,7 +23945,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = Baby bull
+Category = Reckless
 Pokedex = WIP
 #-------------------------------
 [CHIKATE]

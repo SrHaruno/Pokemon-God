@@ -116,3 +116,8 @@ Name = Route 4
 Outdoor = true
 ShowArea = true
 BattleBack = field
+#-------------------------------
+[040]   # Route 5
+Name = Route 5
+Outdoor = true
+ShowArea = true
