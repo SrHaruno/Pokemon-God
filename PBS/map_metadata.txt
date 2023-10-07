@@ -121,4 +121,4 @@ BattleBack = field
 Name = Route 5
 Outdoor = true
 ShowArea = true
-BattleBack = water
+BattleBack = field
