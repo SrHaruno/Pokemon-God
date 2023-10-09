@@ -481,9 +481,9 @@
       elsif @pokemon.pokerusStage == 1
         status = GameData::Status.count
       end
-      status -= 1
+      #status -= 1
       if status >= 0
-        imagepos.push(["Graphics/Pictures/statuses", 410, 88, 0, 16 * status, 44, 16])
+        imagepos.push(["Graphics/Pictures/statuses", 410, 88, 0, 16 * status, 44, 16]) #410, 88, 0, 16 * status, 44, 16
       end
       # Show Pokérus cured icon
       if @pokemon.pokerusStage == 2

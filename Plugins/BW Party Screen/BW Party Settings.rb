@@ -9,6 +9,6 @@
 # original post that I'll try to fix it. Thanks in advance, for your time =D
 #------------------------------------------------------------------------------
 
-PARTY_B2W2_STYLE = true
+PARTY_B2W2_STYLE = false
 
 # If TRUE, it changes the Party Screen BW to B2W2 style.

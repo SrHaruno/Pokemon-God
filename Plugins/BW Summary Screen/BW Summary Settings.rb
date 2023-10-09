@@ -8,21 +8,18 @@
 # original post that I'll try to fix it. Thanks in advance, for your time =D
 #------------------------------------------------------------------------------
 
-SHOW_IV_RATINGS = false
-
 # If TRUE, it makes Lucidious89's IV star script by Tommaniacal visible in Page 3
 # of the Summary Screen.
+SHOW_IV_RATINGS = false
 
-SHOW_EV_IV = true
 
 # If TRUE, it shows EVs and IVs in Summary visible in Page 3 of the Summary Screen.
-
-SUMMARY_B2W2_STYLE = true
+SHOW_EV_IV = true
 
 # If TRUE, it changes the Summary Screen BW to B2W2 style.
-
-INVERTED_SHADOW_STATS = false
+SUMMARY_B2W2_STYLE = false
 
 # If TRUE, it inverts the Increasing EV from Nature Shadow Text. Usually, the
 # Increased Stat Text Shadow is Red and the Deacresed Stat Text Shadow is Blue.
 # This option inverts this dynamic, so it makes it easier to tell them apart in a hurry.
+INVERTED_SHADOW_STATS = false
