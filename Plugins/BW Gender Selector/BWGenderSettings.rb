@@ -26,5 +26,5 @@
 # CUSTOMITAZION
 
 WRITETRAINERNAME  = true
-TRAINERMALE       = "Graphics/Pictures/introBoy"
-TRAINERFEMALE     = "Graphics/Pictures/introGirl"
+TRAINERMALE       = "Graphics/Trainers/POKEMONTRAINER_Blair"
+TRAINERFEMALE     = "Graphics/Trainers/POKEMONTRAINER_Whitlea"
