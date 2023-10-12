@@ -6298,10 +6298,9 @@ Description = A very convenient map that can be viewed anytime. It even shows yo
 [ESCAPEROPE]
 Name = Escape Rope
 NamePlural = Escape Ropes
-Pocket = 8
+Pocket = 1
 Price = 0
 FieldUse = Direct
-Flags = KeyItem
 Description = A long, durable rope. Use it to escape instantly from a cave or a dungeon.
 #-------------------------------
 [COINCASE]

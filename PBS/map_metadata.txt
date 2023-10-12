@@ -140,3 +140,8 @@ BattleBack = cave1
 [045]   # Lunar Cave 1BF
 Name = Lunar Cave
 BattleBack = cave1
+#-------------------------------
+[046]   # Mt.Hope
+Name = Mt.Hope
+ShowArea = true
+BattleBack = cave1
