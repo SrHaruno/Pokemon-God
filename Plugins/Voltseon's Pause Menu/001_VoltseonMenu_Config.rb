@@ -26,7 +26,7 @@ MENU_COMPONENTS = [
 ]
 
 # The default theme for the menu screen
-DEFAULT_MENU_THEME = 0
+DEFAULT_MENU_THEME = 10
 
 # Change Theme in the Options Menu
 CHANGE_THEME_IN_OPTIONS = false
@@ -92,6 +92,6 @@ LOCATION_TEXTOUTLINE = [
 ]
 
 # Sound Options
-MENU_OPEN_SOUND   = "GUI menu open"
-MENU_CLOSE_SOUND  = "GUI menu close"
-MENU_CURSOR_SOUND = "GUI sel cursor"
+MENU_OPEN_SOUND   = "BW2OpenMenu"
+MENU_CLOSE_SOUND  = "BW2CloseMenu"
+MENU_CURSOR_SOUND = "BW2MenuSelect"

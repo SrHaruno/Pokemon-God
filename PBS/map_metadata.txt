@@ -122,3 +122,26 @@ Name = Route 5
 Outdoor = true
 ShowArea = true
 BattleBack = field
+#-------------------------------
+[042]   # Route 6
+Name = Route 6
+Outdoor = true
+ShowArea = true
+BattleBack = field
+#-------------------------------
+[043]   # Route 5 Gate
+Name = Route 5
+#-------------------------------
+[044]   # Lunar Cave
+Name = Lunar Cave
+ShowArea = true
+BattleBack = cave1
+#-------------------------------
+[045]   # Lunar Cave 1BF
+Name = Lunar Cave
+BattleBack = cave1
+#-------------------------------
+[046]   # Mt.Hope
+Name = Mt.Hope
+ShowArea = true
+BattleBack = cave1

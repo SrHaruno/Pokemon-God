@@ -23111,7 +23111,7 @@ Color = Green
 Shape = Bipedal
 Habitat = Grassland
 Category = Seed
-Pokedex = WIP
+Pokedex = These Pokémon use their tail as desguise. Once they feel threatened, they burie them selfs and use their tail as desguise, making them look like a sappling.
 Evolutions = EVIRASS,Level,18
 #-------------------------------
 [EVIRASS]
@@ -23136,7 +23136,7 @@ Color = Green
 Shape = Bipedal
 Habitat = Grassland
 Category = Seed
-Pokedex = WIP
+
 Evolutions = JUNVIL,Level,36
 #-------------------------------
 [JUNVIL]
@@ -23161,7 +23161,7 @@ Color = Green
 Shape = Bipedal
 Habitat = Grassland
 Category = Seed
-Pokedex = WIP
+
 #-------------------------------
 [EGDON]
 Name = Egdon
@@ -23186,7 +23186,7 @@ Color = Black
 Shape = Bipedal
 Habitat = Mountain
 Category = Baby Komo-do
-Pokedex = WIP
+
 Evolutions = DRAMODO,Level,18
 #-------------------------------
 [DRAMODO]
@@ -23211,7 +23211,7 @@ Color = Black
 Shape = Bipedal
 Habitat = Mountain
 Category = Komodo Dragon
-Pokedex = WIP
+
 Evolutions = KOMODRA,Level,36
 #-------------------------------
 [KOMODRA]
@@ -23236,7 +23236,7 @@ Color = Black
 Shape = Bipedal
 Habitat = Mountain
 Category = Burning Flame
-Pokedex = WIP
+
 #-------------------------------
 [AXOLOBY]
 Name = Axoloby
@@ -23261,7 +23261,7 @@ Color = Pink
 Shape = Bipedal
 Habitat = Sea
 Category = Axolot
-Pokedex = WIP
+
 Evolutions = PSYLOTE,Level, 18
 #-------------------------------
 [PSYLOTE]
@@ -23286,7 +23286,7 @@ Color = Pink
 Shape = Bipedal
 Habitat = Sea
 Category = Axolot
-Pokedex = WIP
+
 Evolutions = AXOLYSTIC,Level, 36
 #-------------------------------
 [AXOLYSTIC]
@@ -23311,7 +23311,7 @@ Color = Pink
 Shape = Bipedal
 Habitat = Sea
 Category = Axolot
-Pokedex = WIP
+
 #-------------------------------
 [PURIRD]
 Name = Purird
@@ -23336,7 +23336,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Pure
-Pokedex = WIP
+
 Evolution = PEACIRD,LevelDay,14,YOUNROW,LevelNight,14
 #-------------------------------
 [PEACIRD]
@@ -23406,7 +23406,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Crow
-Pokedex = Purird evolves into Younrow after being consumed by darkness, Younrows like to tag with people with bad intentions
+Pokedex = Purird evolves into Younrow after being consumed by darkness, Younrows like to tag with people with bad intentions.
 Evolution = CRORIRD,Level,34
 #-------------------------------
 [CRORIRD]
@@ -23440,8 +23440,8 @@ GrowthRate = Parabolic
 BaseExp = 56
 EVs = ATTACK,1
 CatchRate = 255
-Happiness = 50
-Abilities = PICKUP
+Happiness = 60
+Abilities = PICKUP, INNERFOCUS
 HiddenAbilities = INTIMIDATE
 Moves = 1,TACKLE,1,GROWL,5,ODORSLEUTH,8,SANDATTACK,12,MUNCH,15,HOWL,21,HEADBUTT,24,AGILITY
 TutorMoves = TACKLE
@@ -23454,7 +23454,8 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Loyal
-Pokedex = WIP
+Pokedex = Dwilds are very loyal, always protecting their owners.
+Evolution = Hoggo, Happiness,
 #-------------------------------
 [HOGGO]
 Name = Hoggo
@@ -23466,7 +23467,7 @@ BaseExp = 147
 EVs = ATTACK,2
 CatchRate = 45
 Happiness = 50
-Abilities = PICKUP
+Abilities = PICKUP, INNERFOCUS
 HiddenAbilities = STRONGJAW
 Moves = 1,TACKLE,1,GROWL,5,ODORSLEUTH,9,MUNCH,12,HOWL,16,HEADBUTT,21,AGILITY
 TutorMoves = TACKLE
@@ -23477,7 +23478,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Hope
-Pokedex = WIP
+Pokedex = Dwild evolve into Hoggo, an angelic being, due to their overflow of kindness.
 #-------------------------------
 [CAPYBURA]
 Name = Capybura
@@ -23501,7 +23502,6 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Capybara
-Pokedex = WIP
 #-------------------------------
 [CAPYJAW]
 Name = Capyjaw
@@ -23523,7 +23523,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 #-------------------------------
 [TATURUG]
 Name = Taturug
@@ -23547,7 +23547,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Taturana
-Pokedex = WIP
+
 Evolution = ELECOON, Level, 20
 #-------------------------------
 [ELECOON]
@@ -23570,7 +23570,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Shell
-Pokedex = WIP
+
 Evolution = THUNDOTH, Level, 30
 #-------------------------------
 [THUNDOTH]
@@ -23593,7 +23593,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Moth
-Pokedex = WIP
+
 #-------------------------------
 [LARVENGUE]
 Name = Larvengue
@@ -23617,7 +23617,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 Evolution = PUPENGUE, Level, 20
 #-------------------------------
 [PUPENGUE]
@@ -23640,7 +23640,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 Evolution = MOSQUENTE, Level, 30
 #-------------------------------
 [MOSQUENTE]
@@ -23663,7 +23663,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Aedes Aegypti
-Pokedex = WIP
+
 #-------------------------------
 [ORBEAF]
 Name = Orbeaf
@@ -23688,7 +23688,7 @@ Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = Origami
-Pokedex = WIP
+
 Evolutions = ORIKEN,LevelMale,14,BLOSSIGAMI,LevelFemale,14
 #-------------------------------
 [ORIKEN]
@@ -23712,7 +23712,7 @@ Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = Shuriken
-Pokedex = WIP
+
 Evolutions = KATAGAMI,Level,32
 #-------------------------------
 [KATAGAMI]
@@ -23736,7 +23736,7 @@ Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = Forest Guardian
-Pokedex = WIP
+
 #-------------------------------
 [BLOSSIGAMI]
 Name = Blossigami
@@ -23759,7 +23759,7 @@ Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 Evolutions = SWAMIGAMI,Level,32
 #-------------------------------
 [SWAMIGAMI]
@@ -23783,7 +23783,7 @@ Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 #-------------------------------
 [SQUILAZE]
 Name = Squilaze
@@ -23807,7 +23807,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 #-------------------------------
 [MOSLEEP]
 Name = Mosleep
@@ -23854,7 +23854,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 Evolutions = DREAMETEOR,Trade,
 #-------------------------------
 [DREAMETEOR]
@@ -23877,7 +23877,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 #-------------------------------
 [MOMBER]
 Name = Momber
@@ -23900,7 +23900,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Baby bull
-Pokedex = WIP
+
 Evolutions = BUHELL,Level,18
 #-------------------------------
 [BUHELL]
@@ -23923,7 +23923,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Bull
-Pokedex = WIP
+
 Evolutions = DEMITOUR,Level,36
 #-------------------------------
 [DEMITOUR]
@@ -23946,7 +23946,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Reckless
-Pokedex = WIP
+
 #-------------------------------
 [CHIKATE]
 Name = Chikate
@@ -23970,7 +23970,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 Evolution = BOXICKEN, Level, 14
 #-------------------------------
 [BOXICKEN]
@@ -23993,7 +23993,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 #-------------------------------
 [JUHOOSTER]
 Name = Juhooster
@@ -24015,7 +24015,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 #-------------------------------
 [FLAMMUNY]
 Name = Flammuny
@@ -24039,7 +24039,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+
 Evolution = SAMURUNNY, Level, 36
 #-------------------------------
 [SAMURUNNY]
@@ -24063,7 +24063,30 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
+#-------------------------------
+[SPARKATIEL]
+Name = Sparkatiel
+Types = FLYING, ELECTRIC
+BaseStats = 50,30,65,70,75,65
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = SPECIAL_ATTACK,1
+CatchRate = 255
+Happiness = 50
+Abilities = STATIC
+#HiddenAbilities = 
+Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,21,ROUND
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Cockatiel
 #-------------------------------
 [MOSSELIN]
 Name = Mosselin
@@ -24072,7 +24095,7 @@ BaseStats = 50,75,90,20,50,20
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 62
-EVs = SPEED,1
+EVs = DEFENSE,1
 CatchRate = 200
 Happiness = 50
 Abilities = STURDY, WATERABSORB 
@@ -24087,7 +24110,6 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
 Evolution = MOSSENGE, Level, 25
 #-------------------------------
 [MOSSENGE]
@@ -24097,7 +24119,7 @@ BaseStats = 80,105,105,30,25,60
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 122
-EVs = SPEED,1
+EVs = DEFENSE,2
 CatchRate = 200
 Happiness = 50
 Abilities = STURDY, WATERABSORB 
@@ -24110,7 +24132,6 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP
 Evolution = MOSSENGE, Level, 36
 #-------------------------------
 [MOSSOLEM]
@@ -24120,7 +24141,7 @@ BaseStats = 100,125,135,40,30,95
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 240
-EVs = SPEED,1
+EVs = DEFENSE,3
 CatchRate = 200
 Happiness = 50
 Abilities = STURDY, WATERABSORB 
@@ -24133,4 +24154,3 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = WIP

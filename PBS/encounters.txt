@@ -1,7 +1,7 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [002] # Rondor Town
-OldRod,
+OldRod
     70,MAGIKARP,5
 #-------------------------------
 [005] # Route 1
@@ -13,11 +13,11 @@ LandNight,21
     50,CAPYBURA,5
     50,PURIRD,3,5
     10,DWILD,3,5
-OldRod,
+OldRod
     70,MAGIKARP,5
 #-------------------------------
 [013] # Indi Town
-OldRod,
+OldRod
     70,MAGIKARP,5
 #-------------------------------
 [014] # Route 2
@@ -29,21 +29,17 @@ LandNight,21
     50,MOSLEEP,5
     40,PURIRD,3,5
     5,DWILD,3,5
-OldRod,
+OldRod
     70,MAGIKARP,5
-#-------------------------------
-[023] # Mt.Solar
-Cave,5
-    50,MOMBER,2,5
 #-------------------------------
 [018] # Route 3
 LandDay,21
+    50,CHIKATE,4,6
     50,MOMBER,4,6
-	50,CHIKATE,4,6
     5,EEVEE,10
 LandNight,21
     50,FLAMMUNY,4,6
-	50,PURIRD,4,6
+    50,PURIRD,4,6
     5,EEVEE,10
 #-------------------------------
 [020] # Indi Forest
@@ -51,20 +47,40 @@ Land,21
     50,LARVENGUE,3,5
     50,TATURUG,3,5
     40,ORBEAF,5
-	20,PURIRD,6
+    20,PURIRD,6
     5,ELECOON,5
-    5,PUPENGUE,5
     5,PANPOUR,5
-	5,PANSEAR,5
-	5,PANSAGE,5
-	5,SQUILAZE,8
+    5,PANSAGE,5
+    5,PANSEAR,5
+    5,PUPENGUE,5
+    5,SQUILAZE,8
+#-------------------------------
+[022] # Plateau City
+OldRod
+    70,MAGIKARP,5
+#-------------------------------
+[023] # Mt.Solar
+Cave,5
+    50,MOMBER,2,5
 #-------------------------------
 [039] # Route 4
 LandDay,21
-	50,DWILD,8
+    50,DWILD,8
 LandNight,21
     50,CAPYBURA,8
 #-------------------------------
 [040] # Route 5
-OldRod,
+OldRod
     70,MAGIKARP,8,10
+#-------------------------------
+[044] # Lunar Cave
+Cave,5
+    40,MOSSELIN,10,12
+#-------------------------------
+[045] # Lunar Cave 1BF
+Cave,5
+    40,MOSSELIN,10,12
+#-------------------------------
+[046] # Mt.Hope
+Cave,5
+    50,UNOWN,8,10
