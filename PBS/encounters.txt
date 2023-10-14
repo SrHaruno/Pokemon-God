@@ -65,11 +65,23 @@ Cave,5
 #-------------------------------
 [039] # Route 4
 LandDay,21
-    50,DWILD,8
+    50,SPARKATIEL,7,9
+	40,SPARCUB,7,9
+	5,HUMMIRD,10
 LandNight,21
-    50,CAPYBURA,8
+    50,SPARKATIEL,7,9
+	40,SPARCUB,7,9
+	5,FRUCTERA,10
 #-------------------------------
 [040] # Route 5
+LandDay,21
+    50,SPARKATIEL,7,9
+	40,SPARCUB,7,9
+	5,HUMMIRD,10
+LandNight,21
+    50,SPARKATIEL,7,9
+	40,SPARCUB,7,9
+	5,FRUCTERA,10
 OldRod
     70,MAGIKARP,8,10
 #-------------------------------
@@ -84,3 +96,4 @@ Cave,5
 [046] # Mt.Hope
 Cave,5
     50,UNOWN,8,10
+	5,SNAKRE,10

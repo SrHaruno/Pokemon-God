@@ -23900,7 +23900,6 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Baby bull
-
 Evolutions = BUHELL,Level,18
 #-------------------------------
 [BUHELL]
@@ -23923,7 +23922,6 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Bull
-
 Evolutions = DEMITOUR,Level,36
 #-------------------------------
 [DEMITOUR]
@@ -23946,7 +23944,6 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Reckless
-
 #-------------------------------
 [CHIKATE]
 Name = Chikate
@@ -23970,7 +23967,6 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
 Evolution = BOXICKEN, Level, 14
 #-------------------------------
 [BOXICKEN]
@@ -23993,7 +23989,6 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
 #-------------------------------
 [JUHOOSTER]
 Name = Juhooster
@@ -24015,7 +24010,6 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
 #-------------------------------
 [FLAMMUNY]
 Name = Flammuny
@@ -24039,7 +24033,6 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
 Evolution = SAMURUNNY, Level, 36
 #-------------------------------
 [SAMURUNNY]
@@ -24072,7 +24065,7 @@ GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 50
 EVs = SPECIAL_ATTACK,1
-CatchRate = 255
+CatchRate = 200
 Happiness = 50
 Abilities = STATIC
 #HiddenAbilities = 
@@ -24087,6 +24080,126 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Cockatiel
+#-------------------------------
+[ELECKATIEL]
+Name = Eleckatiel
+Types = FLYING, ELECTRIC
+BaseStats = 80,50,75,100,105,75
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = SPECIAL_ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = STATIC
+#HiddenAbilities = 
+Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,21,ROUND
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Cockatiel
+#-------------------------------
+[HUMMIRD]
+Name = Hummird
+Types = GRASS, FLYING
+BaseStats = 48,85,30,100,48,30
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = SPEED,1
+CatchRate = 200
+Happiness = 50
+Abilities = BIGPECKS
+Moves = 1,PECK,1,GROWL
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Humming bird
+Evolution = CHIROPEEL,Level,30
+#-------------------------------
+[POLLING]
+Name = Polling
+Types = GRASS, FLYING
+BaseStats = 74,109,40,133,70,40
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = SPEED,2
+CatchRate = 45
+Happiness = 50
+Abilities = BIGPECKS
+Moves = 1,PECK,1,GROWL
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Melody
+Evolution = CHIROPEEL,Level,25
+#-------------------------------
+[SPARCUB]
+Name = Sparcub
+Types = ELECTRIC
+BaseStats = 60,60,40,95,50,40
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = SPEED,1
+CatchRate = 200
+Happiness = 50
+Abilities = TOUGHCLAWS
+HiddenAbilities = MOTORDRIVE
+Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,21,ROUND
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Cub
+#-------------------------------
+[CHELECTRIC]
+Name = Chelectric
+Types = ELECTRIC
+BaseStats = 70,100,50,135,60,50
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = SPEED,2
+CatchRate = 45
+Happiness = 50
+Abilities = TOUGHCLAWS
+HiddenAbilities = MOTORDRIVE
+Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,21,ROUND
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Cheetah
 #-------------------------------
 [MOSSELIN]
 Name = Mosselin
@@ -24154,3 +24267,123 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
+#-------------------------------
+[FRUCTERA]
+Name = Fructera
+Types = GRASS, FLYING
+BaseStats = 55,70,50,60,40,50
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = ATTACK,1
+CatchRate = 255
+Happiness = 50
+Abilities = GLUTTONY
+HiddenAbilities = HARVEST
+Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,21,ROUND
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Bat
+Evolution = CHIROPEEL,Level,25
+#-------------------------------
+[CHIROPEEL]
+Name = Chiropeel
+Types = GRASS, FLYING
+BaseStats = 70,105,60,100,50,60
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = ATTACK,1
+CatchRate = 45
+Happiness = 50
+Abilities = GLUTTONY
+HiddenAbilities = HARVEST
+Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,21,ROUND
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Fruit Eater
+#-------------------------------
+[SNAKRE]
+Name = Snakre
+Types = ANGEL
+BaseStats = 50,60,40,45,50,45
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 50
+EVs = ATTACK,1
+CatchRate = 45
+Happiness = 50
+Abilities = SHEDSKIN
+Moves = 1,TACKLE,1,LEER
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Dragon
+HatchSteps = 10240
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Snake
+Evolution = JIARAGON,Level,30
+#-------------------------------
+[JIARAGON]
+Name = Jiaragon
+Types = ANGEL, DRAGON
+BaseStats = 70,80,60,70,75,65
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 50
+EVs = ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = LEVITATE
+Moves = 1,TACKLE,1,LEER
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Dragon
+HatchSteps = 10240
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Chinese Dragon
+Evolution = SHENRAGON,Level,50
+#-------------------------------
+[SHENRAGON]
+Name = Shenragon
+Types = ANGEL, DRAGON
+BaseStats = 80,130,85,100,120,85
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 50
+EVs = ATTACK,3
+CatchRate = 45
+Happiness = 50
+Abilities = LEVITATE
+Moves = 1,TACKLE,1,LEER
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Dragon
+HatchSteps = 10240
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Ancient Dragon
