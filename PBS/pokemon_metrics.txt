@@ -4045,7 +4045,7 @@ ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [GRALING]
-BackSprite = 0,-8
+BackSprite = 0,0
 FrontSprite = 3,15
 ShadowX = 0
 ShadowSize = 2
@@ -5257,6 +5257,42 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [PYUKUMUKU]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[BARBARACLE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[BARRASKEWDA]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ESPURR]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ETERNATUS]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[FROGADIER]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[FOMANTIS]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0

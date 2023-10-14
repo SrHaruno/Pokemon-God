@@ -117,6 +117,12 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
+[048]   # Route 4 Safe point
+Name = Route 4
+#-------------------------------
+[049]   # Route 4 Cafe
+Name = Route 4
+#-------------------------------
 [040]   # Route 5
 Name = Route 5
 Outdoor = true
