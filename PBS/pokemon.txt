@@ -23080,14 +23080,6 @@ Pokedex = Calyrex is a merciful Pokémon, capable of providing healing and bless
 Generation = 8
 Flags = Legendary
 #-------------------------------
-#
-#
-#-------------------------------
-# //Pokémon God Specieis\\
-#-------------------------------
-#
-#
-#-------------------------------
 [GRALING]
 Name = Graling
 Types = GRASS
@@ -23116,7 +23108,7 @@ Evolutions = EVIRASS,Level,18
 #-------------------------------
 [EVIRASS]
 Name = Evirass
-Types = GRASS, DARK
+Types = GRASS,DARK
 BaseStats = 90,95,72,55,54,52
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -23136,12 +23128,12 @@ Color = Green
 Shape = Bipedal
 Habitat = Grassland
 Category = Seed
-
+Pokedex = ???
 Evolutions = JUNVIL,Level,36
 #-------------------------------
 [JUNVIL]
 Name = Junvil
-Types = GRASS, DARK
+Types = GRASS,DARK
 BaseStats = 110,120,100,59,60,80
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -23161,7 +23153,7 @@ Color = Green
 Shape = Bipedal
 Habitat = Grassland
 Category = Seed
-
+Pokedex = ???
 #-------------------------------
 [EGDON]
 Name = Egdon
@@ -23186,12 +23178,12 @@ Color = Black
 Shape = Bipedal
 Habitat = Mountain
 Category = Baby Komo-do
-
+Pokedex = ???
 Evolutions = DRAMODO,Level,18
 #-------------------------------
 [DRAMODO]
 Name = Dramodo
-Types = FIRE, DRAGON
+Types = FIRE,DRAGON
 BaseStats = 56,86,50,90,86,50
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -23211,12 +23203,12 @@ Color = Black
 Shape = Bipedal
 Habitat = Mountain
 Category = Komodo Dragon
-
+Pokedex = ???
 Evolutions = KOMODRA,Level,36
 #-------------------------------
 [KOMODRA]
 Name = Komo-dra
-Types = FIRE, DRAGON
+Types = FIRE,DRAGON
 BaseStats = 80,105,70,115,105,60
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -23236,7 +23228,7 @@ Color = Black
 Shape = Bipedal
 Habitat = Mountain
 Category = Burning Flame
-
+Pokedex = ???
 #-------------------------------
 [AXOLOBY]
 Name = Axoloby
@@ -23261,12 +23253,12 @@ Color = Pink
 Shape = Bipedal
 Habitat = Sea
 Category = Axolot
-
-Evolutions = PSYLOTE,Level, 18
+Pokedex = ???
+Evolutions = PSYLOTE,Level,18
 #-------------------------------
 [PSYLOTE]
 Name = Psylote
-Types = WATER, PSYCHIC
+Types = WATER,PSYCHIC
 BaseStats = 70,53,75,50,80,85
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -23286,12 +23278,12 @@ Color = Pink
 Shape = Bipedal
 Habitat = Sea
 Category = Axolot
-
-Evolutions = AXOLYSTIC,Level, 36
+Pokedex = ???
+Evolutions = AXOLYSTIC,Level,36
 #-------------------------------
 [AXOLYSTIC]
 Name = Axolystic
-Types = WATER, PSYCHIC
+Types = WATER,PSYCHIC
 BaseStats = 104,58,108,60,80,120
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -23311,7 +23303,7 @@ Color = Pink
 Shape = Bipedal
 Habitat = Sea
 Category = Axolot
-
+Pokedex = ???
 #-------------------------------
 [PURIRD]
 Name = Purird
@@ -23324,7 +23316,6 @@ EVs = SPEED,1
 CatchRate = 255
 Happiness = 50
 Abilities = QUICKFEET
-#HiddenAbilities = 
 Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,21,ROUND
 TutorMoves = TACKLE
 EggMoves = TACKLE
@@ -23336,12 +23327,12 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Pure
-
-Evolution = PEACIRD,LevelDay,14,YOUNROW,LevelNight,14
+Pokedex = ???
+Evolutions = PEACIRD,LevelDay,14,YOUNROW,LevelNight,14,
 #-------------------------------
 [PEACIRD]
 Name = Peacird
-Types = FLYING, ANGEL
+Types = FLYING,ANGEL
 BaseStats = 55,40,80,40,50,75
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -23350,10 +23341,10 @@ EVs = SPECIAL_DEFENSE,2
 CatchRate = 45
 Happiness = 50
 Abilities = QUICKFEET
-#HiddenAbilities = 
 Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,22,ROUND,29,ROOST,31,REFRESH,36,FEATHERDANCE,41,AIRSLASH,42,DEFOG
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
@@ -23361,11 +23352,11 @@ Shape = Bipedal
 Habitat = Urban
 Category = Peace bringer
 Pokedex = Purird evolves into Peacird once it's consume by pure kindness, Peacerird bring joys just by flying by.
-Evolution = DOVENESS,Level 34
+Evolutions = DOVENESS, Level, 32
 #-------------------------------
 [DOVENESS]
 Name = Doveness
-Types = FLYING, ANGEL
+Types = FLYING,ANGEL
 BaseStats = 85,50,100,60,70,120
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -23374,10 +23365,10 @@ EVs = SPECIAL_DEFENSE,3
 CatchRate = 45
 Happiness = 50
 Abilities = QUICKFEET
-#HiddenAbilities = 
 Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,22,ROUND,29,ROOST,31,REFRESH,34,FEATHERDANCE,39,AIRSLASH,44,DEFOG
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
@@ -23388,7 +23379,7 @@ Pokedex = Doveness presence makes anyone around be filled with hopes and dreams.
 #-------------------------------
 [YOUNROW]
 Name = Younrow
-Types = FLYING, DARK
+Types = FLYING,DARK
 BaseStats = 55,40,40,80,75,50
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -23400,6 +23391,7 @@ Abilities = INTIMIDATE
 Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,22,ROUND,27,SNARL,32,TAUNT,38,NASTYPLOT
 TutorMoves = TOXIC
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
@@ -23407,11 +23399,11 @@ Shape = Bipedal
 Habitat = Urban
 Category = Crow
 Pokedex = Purird evolves into Younrow after being consumed by darkness, Younrows like to tag with people with bad intentions.
-Evolution = CRORIRD,Level,34
+Evolutions = CRORIRD, Level, 32
 #-------------------------------
 [CRORIRD]
 Name = Crorird
-Types = FLYING, DARK
+Types = FLYING,DARK
 BaseStats = 55,40,40,100,120,70
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -23423,6 +23415,7 @@ Abilities = INTIMIDATE
 Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,22,ROUND,27,SNARL,32,TAUNT,36,NASTYPLOT,41,AIRSLASH,46,DARKPULSE,51,HURRICANE
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
@@ -23441,7 +23434,7 @@ BaseExp = 56
 EVs = ATTACK,1
 CatchRate = 255
 Happiness = 60
-Abilities = PICKUP, INNERFOCUS
+Abilities = PICKUP,INNERFOCUS
 HiddenAbilities = INTIMIDATE
 Moves = 1,TACKLE,1,GROWL,5,ODORSLEUTH,8,SANDATTACK,12,MUNCH,15,HOWL,21,HEADBUTT,24,AGILITY
 TutorMoves = TACKLE
@@ -23455,11 +23448,11 @@ Shape = Bipedal
 Habitat = Urban
 Category = Loyal
 Pokedex = Dwilds are very loyal, always protecting their owners.
-Evolution = Hoggo, Happiness,
+Evolutions = HOGGO,None,
 #-------------------------------
 [HOGGO]
 Name = Hoggo
-Types = NORMAL, ANGEL
+Types = NORMAL,ANGEL
 BaseStats = 70,110,80,100,60,80
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -23467,11 +23460,12 @@ BaseExp = 147
 EVs = ATTACK,2
 CatchRate = 45
 Happiness = 50
-Abilities = PICKUP, INNERFOCUS
+Abilities = PICKUP,INNERFOCUS
 HiddenAbilities = STRONGJAW
 Moves = 1,TACKLE,1,GROWL,5,ODORSLEUTH,9,MUNCH,12,HOWL,16,HEADBUTT,21,AGILITY
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
@@ -23502,6 +23496,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Capybara
+Pokedex = ???
 #-------------------------------
 [CAPYJAW]
 Name = Capyjaw
@@ -23517,13 +23512,14 @@ Abilities = STRONGJAW
 Moves = 1,GUST,1,LEER,7,BITE
 TutorMoves = BULKUP
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
+Pokedex = ???
 #-------------------------------
 [TATURUG]
 Name = Taturug
@@ -23535,7 +23531,7 @@ BaseExp = 62
 EVs = SPECIAL_ATTACK,1
 CatchRate = 255
 Happiness = 50
-Abilities = FLAMEBODY, STATIC
+Abilities = FLAMEBODY,STATIC
 Moves = 1,TACKLE,1,STRINGSHOT,5,THUNDERSHOCK,9,STRUGGLEBUG,13,THUNDERWAVE,17,FLAMEBURST,21,CHARGEBEAM,26,SILVERWIND,31,SHOCKWAVE,36,DISCHARGE,42,FLAMETHROWER,49,THUNDERBOLT,56,BUGBUZZ,63,QUIVERDANCE
 TutorMoves = THUNDERWAVE
 EggMoves = QUIVERDANCE
@@ -23547,12 +23543,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Taturana
-
-Evolution = ELECOON, Level, 20
+Pokedex = ???
 #-------------------------------
 [ELECOON]
 Name = Elecoon
-Types = BUG, ELECTRIC
+Types = BUG,ELECTRIC
 BaseStats = 65,40,80,60,72,80
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -23560,22 +23555,22 @@ BaseExp = 133
 EVs = DEFENSE,1,SPECIAL_DEFENSE,1
 CatchRate = 45
 Happiness = 50
-Abilities = SHEDSKIN, STATIC
+Abilities = SHEDSKIN,STATIC
 Moves = 0,PROTECT,1,TACKLE,1,STRINGSHOT,5,THUNDERSHOCK,9,STRUGGLEBUG,13,THUNDERWAVE,17,FLAMEBURST,23,CHARGEBEAM,25,SILVERWIND,30,SHOCKWAVE,34,DISCHARGE,40,FLAMETHROWER,47,THUNDERBOLT,54,BUGBUZZ,61,QUIVERDANCE
 TutorMoves = THUNDERWAVE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Shell
-
-Evolution = THUNDOTH, Level, 30
+Pokedex = ???
 #-------------------------------
 [THUNDOTH]
 Name = Thundoth
-Types = BUG, ELECTRIC
+Types = BUG,ELECTRIC
 BaseStats = 80,40,75,100,120,75
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -23587,13 +23582,14 @@ Abilities = LEVITATE
 Moves = 1,TACKLE,1,STRINGSHOT,5,THUNDERSHOCK,9,STRUGGLEBUG,13,THUNDERWAVE,17,FLAMEBURST,23,CHARGEBEAM,25,SILVERWIND,32,SHOCKWAVE,34,DISCHARGE,48,FLAMETHROWER,45,THUNDERBOLT,52,BUGBUZZ,59,QUIVERDANCE
 TutorMoves = THUNDERBOLT
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Moth
-
+Pokedex = ???
 #-------------------------------
 [LARVENGUE]
 Name = Larvengue
@@ -23602,7 +23598,7 @@ BaseStats = 55,60,55,65,30,55
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 62
-EVs = SPEED, 1
+EVs = SPEED,1
 CatchRate = 255
 Happiness = 50
 Abilities = SWARM
@@ -23617,8 +23613,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
-Evolution = PUPENGUE, Level, 20
+Pokedex = ???
 #-------------------------------
 [PUPENGUE]
 Name = Pupengue
@@ -23634,36 +23629,37 @@ Abilities = SHEDSKIN
 Moves = 0,HARDEN,1,TACKLE,1,STRINGSHOT,1,BUGBITE,1,FEINTATTACK,22,STRUGGLEBUG,29,ENDURE,31,STICKYWEB,36,BUGBUZZ,43,FLAIL
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
-Evolution = MOSQUENTE, Level, 30
+Pokedex = ???
 #-------------------------------
 [MOSQUENTE]
 Name = Mosquente
-Types = BUG, DARK
+Types = BUG,DARK
 BaseStats = 80,120,75,100,40,75
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 225
-EVs = ATTACK, 3
+EVs = ATTACK,3
 CatchRate = 45
 Happiness = 50
 Abilities = SWARM
 Moves = 1,LEECHLIFE,1,TACKLE,1,STRINGSHOT,1,BUGBITE,1,FEINTATTACK,22,STRUGGLEBUG,29,FELLSTINGER,32,UTURN,36,NIGHTSLASH,39,XSCISSOR,43,SUCKERPUNCH,46,SWORDSDANCE,56,FIRSTIMPRESSION
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Aedes Aegypti
-
+Pokedex = ???
 #-------------------------------
 [ORBEAF]
 Name = Orbeaf
@@ -23688,7 +23684,7 @@ Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = Origami
-
+Pokedex = ???
 Evolutions = ORIKEN,LevelMale,14,BLOSSIGAMI,LevelFemale,14
 #-------------------------------
 [ORIKEN]
@@ -23706,13 +23702,14 @@ HiddenAbilities = STEADFAST
 Moves = 0,SHUMERANG,1,SCRATCH,1,LEER,5,LEAFAGE,9,SHADOWSNEAK,13,RAZORLEAF,17,LEECHSEED,20,METALCLAW,25,SLASH,31,GROWTH,35,NIGHTSLASH
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = Shuriken
-
+Pokedex = ???
 Evolutions = KATAGAMI,Level,32
 #-------------------------------
 [KATAGAMI]
@@ -23730,13 +23727,14 @@ HiddenAbilities = SPEEDBOOST
 Moves = 0,SHUMERANG,1,SCRATCH,1,LEER,5,LEAFAGE,9,SHADOWSNEAK,13,RAZORLEAF,17,LEECHSEED,20,METALCLAW,25,SLASH,31,GROWTH,33,NIGHTSLASH,37,SMARTSTRIKE,41,LEAFBLADE,45,SACREDSWORD,50,SWORDSDANCE
 TutorMoves = SWORDSDANCE,PROTECT
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = Forest Guardian
-
+Pokedex = ???
 #-------------------------------
 [BLOSSIGAMI]
 Name = Blossigami
@@ -23753,13 +23751,14 @@ HiddenAbilities = COMPETITIVE
 Moves = 1,SCRATCH,1,LEER,5,ABSORB,9,NIGHTSHADE,18,MAGICALLEAF,22,LEECHSEED,26,MEGADRAIN,31,SWIFT,36,GROWTH,41,GIGADRAIN,46,ENERGYBALL,51,SYNTHESIS,56,SOLARBEAM
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
+Pokedex = ???
 Evolutions = SWAMIGAMI,Level,32
 #-------------------------------
 [SWAMIGAMI]
@@ -23777,17 +23776,18 @@ HiddenAbilities = STEADFAST
 Moves = 1,SCRATCH,1,LEER,5,ABSORB,9,NIGHTSHADE,18,MAGICALLEAF,22,LEECHSEED,26,MEGADRAIN,31,SWIFT,33,GROWTH,39,GIGADRAIN,44,ENERGYBALL,47,SYNTHESIS,52,SOLARBEAM
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
+Pokedex = ???
 #-------------------------------
 [SQUILAZE]
 Name = Squilaze
-Types = ELECTRIC, FIRE
+Types = ELECTRIC,FIRE
 BaseStats = 75,90,55,95,90,55
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -23795,7 +23795,7 @@ BaseExp = 147
 EVs = ATTACK,1
 CatchRate = 120
 Happiness = 50
-Abilities = MOTORDRIVE, LIGHTNINGROD
+Abilities = MOTORDRIVE,LIGHTNINGROD
 Moves = 1,SCRATCH,1,TAILWHIP,1,THUNDERWAVE,5,THUNDERSHOCK,9,EMBER,13,FLAMECHARGE,18,SLAM,21,AGILITY,23,SHOCKWAVE,26,FLAMEWHEEL,29,FLAMEBURST,32,VOLTSWITCH,35,THUNDERBOLT,41,FLAMETHROWER,47,FLAREBLITZ,53,VOLTTACKLE
 TutorMoves = TACKLE
 EggMoves = WILDCHARGE
@@ -23807,11 +23807,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
+Pokedex = ???
 #-------------------------------
 [MOSLEEP]
 Name = Mosleep
-Types = ROCK, PSYCHIC
+Types = ROCK,PSYCHIC
 BaseStats = 55,25,25,15,75,85
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -23819,7 +23819,7 @@ BaseExp = 62
 EVs = SPECIAL_DEFENSE,1
 CatchRate = 235
 Happiness = 50
-Abilities = STURDY, LEVITATE
+Abilities = STURDY,LEVITATE
 Moves = 1,TACKLE,1,DEFENSECURL,5,CONFUSION,9,MUDSLAP,14,SELFDESTRUCT,19,AMNESIA,24,PSYBEAM,29,ANCIENTPOWER,35,SCORCHINGSANDS,41,POWERGEM,47,CALMMIND,53,RECOVER
 TutorMoves = TACKLE
 EggMoves = TACKLE
@@ -23836,7 +23836,7 @@ Evolutions = DROWSKY,Level,25
 #-------------------------------
 [DROWSKY]
 Name = Drowsky
-Types = ROCK, PSYCHIC
+Types = ROCK,PSYCHIC
 BaseStats = 70,50,40,20,105,105
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -23844,22 +23844,23 @@ BaseExp = 144
 EVs = SPECIAL_DEFENSE,2
 CatchRate = 235
 Happiness = 50
-Abilities = STURDY, LEVITATE
+Abilities = STURDY,LEVITATE
 Moves = 1,TACKLE,1,DEFENSECURL,5,CONFUSION,9,MUDSLAP,14,SELFDESTRUCT,19,AMNESIA,24,PSYBEAM,27,ANCIENTPOWER,32,SCORCHINGSANDS,35,EARTHPOWER,38,POWERGEM,44,CALMMIND,49,RECOVER,55,METEORBEAM
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
+Pokedex = ???
 Evolutions = DREAMETEOR,Trade,
 #-------------------------------
 [DREAMETEOR]
 Name = Dreameteor
-Types = ROCK, PSYCHIC
+Types = ROCK,PSYCHIC
 BaseStats = 100,40,95,30,130,135
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -23867,17 +23868,18 @@ BaseExp = 225
 EVs = SPECIAL_DEFENSE,3
 CatchRate = 235
 Happiness = 50
-Abilities = STURDY, LEVITATE
+Abilities = STURDY,LEVITATE
 Moves = 1,TACKLE,1,DEFENSECURL,5,CONFUSION,9,MUDSLAP,14,SELFDESTRUCT,19,AMNESIA,24,PSYBEAM,27,ANCIENTPOWER,32,SCORCHINGSANDS,35,EARTHPOWER,38,POWERGEM,44,CALMMIND,49,RECOVER,55,METEORBEAM
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-
+Pokedex = ???
 #-------------------------------
 [MOMBER]
 Name = Momber
@@ -23889,7 +23891,7 @@ BaseExp = 62
 EVs = ATTACK,1
 CatchRate = 200
 Happiness = 50
-Abilities = HUSTLE, FLAMEBODY
+Abilities = HUSTLE,FLAMEBODY
 Moves = 1,TACKLE,1,TAILWHIP,5,HORNATTACK,10,FLAMEHORN,15,FLAIL,20,DEMON1,25,AGILITY,30,BELLYDRUM,35,WILLOWISP,40,BULKUP,45,FLAREBLITZ,50,BERSERKASSAULT
 TutorMoves = TACKLE
 EggGroups = Field
@@ -23900,11 +23902,12 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Baby bull
+Pokedex = ???
 Evolutions = BUHELL,Level,18
 #-------------------------------
 [BUHELL]
 Name = Buhell
-Types = FIRE, DEMON
+Types = FIRE,DEMON
 BaseStats = 80,85,60,55,40,55
 GenderRatio = AlwaysMale
 GrowthRate = Parabolic
@@ -23912,21 +23915,23 @@ BaseExp = 144
 EVs = ATTACK,2
 CatchRate = 235
 Happiness = 50
-Abilities = HUSTLE, FLAMEBODY
+Abilities = HUSTLE,FLAMEBODY
 Moves = 0,FLAMECHARGE,1,TACKLE,1,TAILWHIP,1,HORNATTACK,1,FLAMEHORN,15,FLAIL,22,DEMON1,29,AGILITY,36,BELLYDRUM,43,WILLOWISP,50,BULKUP,57,FLAREBLITZ,64,BERSERKASSAULT
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Bull
+Pokedex = ???
 Evolutions = DEMITOUR,Level,36
 #-------------------------------
 [DEMITOUR]
 Name = Demitour
-Types = FIRE, DEMON
+Types = FIRE,DEMON
 BaseStats = 105,120,100,61,45,68
 GenderRatio = AlwaysMale
 GrowthRate = Parabolic
@@ -23934,20 +23939,22 @@ BaseExp = 265
 EVs = ATTACK,3
 CatchRate = 235
 Happiness = 50
-Abilities = HUSTLE, FLAMEBODY
+Abilities = HUSTLE,FLAMEBODY
 Moves = 1,TACKLE,1,TAILWHIP,1,HORNATTACK,1,FLAMEHORN,15,FLAIL,22,DEMON1,29,AGILITY,38,BELLYDRUM,47,WILLOWISP,56,BULKUP,65,FLAREBLITZ,74,BERSERKASSAULT,83,DOUBLEEDGE
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Reckless
+Pokedex = ???
 #-------------------------------
 [CHIKATE]
 Name = Chikate
-Types = FLYING, FIGHTING
+Types = FLYING,FIGHTING
 BaseStats = 62,65,56,30,30,35
 GenderRatio = AlwaysMale
 GrowthRate = Parabolic
@@ -23955,7 +23962,7 @@ BaseExp = 50
 EVs = ATTACK,1
 CatchRate = 225
 Happiness = 50
-Abilities = HUSTLE 
+Abilities = HUSTLE
 Moves = 1,PECK,1,LEER,5,FOCUSENERGY,10,WINGATTACK,15,FURYATTACK,20,KARATECHOP,25,AGILITY,30,LOWSWEEP,35,ACROBATICS,40,BULKUP,45,BRAVEBIRD,50,CLOSECOMBAT
 TutorMoves = TACKLE
 EggMoves = TACKLE
@@ -23967,11 +23974,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Evolution = BOXICKEN, Level, 14
+Pokedex = ???
 #-------------------------------
 [BOXICKEN]
 Name = Boxicken
-Types = FLYING, FIGHTING
+Types = FLYING,FIGHTING
 BaseStats = 82,85,75,45,40,55
 GenderRatio = AlwaysMale
 GrowthRate = Parabolic
@@ -23979,20 +23986,22 @@ BaseExp = 122
 EVs = ATTACK,2
 CatchRate = 45
 Happiness = 50
-Abilities = HUSTLE 
+Abilities = HUSTLE
 Moves = 0,LOWKICK,1,PECK,1,LEER,1,WINGATTACK,1,FOCUSENERGY,15,FURYATTACK,22,KARATECHOP,29,AGILITY,36,LOWSWEEP,43,ACROBATICS,50,BULKUP,57,BRAVEBIRD,64,CLOSECOMBAT
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
+Pokedex = ???
 #-------------------------------
 [JUHOOSTER]
 Name = Juhooster
-Types = FLYING, FIGHTING
+Types = FLYING,FIGHTING
 BaseStats = 100,120,85,70,50,60
 GenderRatio = AlwaysMale
 GrowthRate = Parabolic
@@ -24000,20 +24009,22 @@ BaseExp = 240
 EVs = ATTACK,2
 CatchRate = 45
 Happiness = 50
-Abilities = GUTS 
+Abilities = GUTS
 Moves = 1,PECK,1,LEER,1,WINGATTACK,1,FOCUSENERGY,15,FURYATTACK,22,KARATECHOP,29,AGILITY,38,LOWSWEEP,47,ACROBATICS,56,BULKUP,65,BRAVEBIRD,74,CLOSECOMBAT,83,HIGHJUMPKICK
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
+Pokedex = ???
 #-------------------------------
 [FLAMMUNY]
 Name = Flammuny
-Types = FIRE, FIGHTING
+Types = FIRE,FIGHTING
 BaseStats = 55,75,55,65,50,55
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24021,7 +24032,7 @@ BaseExp = 62
 EVs = SPEED,1
 CatchRate = 128
 Happiness = 50
-Abilities = INNERFOCUS 
+Abilities = INNERFOCUS
 Moves = 1,SCRATCH,1,LEER,4,TAUNT,8,SHADOWSNEAK,12,KARATECHOP,16,WORKUP,20,FLAMEWHEEL,24,FEINTATTACK,28,FIREPUNCH,32,LOWSWEEP,36,SWORDSDANCE,40,FLAREBLITZ,44,NIGHTSLASH,48,CLOSECOMBAT
 TutorMoves = PROTECT
 EggMoves = BULKUP
@@ -24033,11 +24044,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Evolution = SAMURUNNY, Level, 36
+Pokedex = ???
 #-------------------------------
 [SAMURUNNY]
 Name = Samurunny
-Types = FIRE, FIGHTING
+Types = FIRE,FIGHTING
 BaseStats = 80,120,70,80,70,70
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24045,21 +24056,23 @@ BaseExp = 147
 EVs = SPEED,2
 CatchRate = 200
 Happiness = 50
-Abilities = INNERFOCUS 
+Abilities = INNERFOCUS
 HiddenAbilities = SPEEDBOOST
 Moves = 0,INFERNORAZOR,1,SCRATCH,1,LEER,1,TAUNT,1,SHADOWSNEAK,12,KARATECHOP,16,WORKUP,20,FLAMEWHEEL,24,FEINTATTACK,28,FIREPUNCH,32,LOWSWEEP,38,SWORDSDANCE,44,FLAREBLITZ,50,NIGHTSLASH,56,CLOSECOMBAT
 TutorMoves = PROTECT
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
+Pokedex = ???
 #-------------------------------
 [SPARKATIEL]
 Name = Sparkatiel
-Types = FLYING, ELECTRIC
+Types = FLYING,ELECTRIC
 BaseStats = 50,30,65,70,75,65
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24068,7 +24081,6 @@ EVs = SPECIAL_ATTACK,1
 CatchRate = 200
 Happiness = 50
 Abilities = STATIC
-#HiddenAbilities = 
 Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,21,ROUND
 TutorMoves = TACKLE
 EggMoves = TACKLE
@@ -24080,10 +24092,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Cockatiel
+Pokedex = ???
 #-------------------------------
 [ELECKATIEL]
 Name = Eleckatiel
-Types = FLYING, ELECTRIC
+Types = FLYING,ELECTRIC
 BaseStats = 80,50,75,100,105,75
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24092,7 +24105,6 @@ EVs = SPECIAL_ATTACK,2
 CatchRate = 45
 Happiness = 50
 Abilities = STATIC
-#HiddenAbilities = 
 Moves = 1,GUST,1,GROWL,5,QUICKATTACK,13,SING,17,AIRCUTTER,21,ROUND
 TutorMoves = TACKLE
 EggMoves = TACKLE
@@ -24104,10 +24116,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Cockatiel
+Pokedex = ???
 #-------------------------------
 [HUMMIRD]
 Name = Hummird
-Types = GRASS, FLYING
+Types = GRASS,FLYING
 BaseStats = 48,85,30,100,48,30
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24127,11 +24140,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Humming bird
-Evolution = CHIROPEEL,Level,30
+Pokedex = ???
 #-------------------------------
 [POLLING]
 Name = Polling
-Types = GRASS, FLYING
+Types = GRASS,FLYING
 BaseStats = 74,109,40,133,70,40
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24151,7 +24164,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Melody
-Evolution = CHIROPEEL,Level,25
+Pokedex = ???
 #-------------------------------
 [SPARCUB]
 Name = Sparcub
@@ -24176,6 +24189,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Cub
+Pokedex = ???
 #-------------------------------
 [CHELECTRIC]
 Name = Chelectric
@@ -24200,10 +24214,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Cheetah
+Pokedex = ???
 #-------------------------------
 [TURTEED]
 Name = Turteed
-Types = WATER, STEEL
+Types = WATER,STEEL
 BaseStats = 60,40,70,30,60,70
 GenderRatio = Female50Percent
 GrowthRate = Slow
@@ -24224,10 +24239,11 @@ Color = Blue
 Shape = Quadruped
 Habitat = Sea
 Category = Turtle
+Pokedex = ???
 #-------------------------------
 [TURTLOW]
 Name = Turtlow
-Types = WATER, STEEL
+Types = WATER,STEEL
 BaseStats = 70,50,90,40,80,90
 GenderRatio = Female50Percent
 GrowthRate = Slow
@@ -24248,10 +24264,11 @@ Color = Blue
 Shape = Quadruped
 Habitat = Sea
 Category = Turtle
+Pokedex = ???
 #-------------------------------
 [TURTANK]
 Name = Turtank
-Types = WATER, STEEL
+Types = WATER,STEEL
 BaseStats = 108,60,105,50,110,105
 GenderRatio = Female50Percent
 GrowthRate = Slow
@@ -24272,11 +24289,11 @@ Color = Blue
 Shape = Quadruped
 Habitat = Sea
 Category = Turtle
-
+Pokedex = ???
 #-------------------------------
 [MOSSELIN]
 Name = Mosselin
-Types = ROCK, GRASS
+Types = ROCK,GRASS
 BaseStats = 50,75,90,20,50,20
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24284,7 +24301,7 @@ BaseExp = 62
 EVs = DEFENSE,1
 CatchRate = 200
 Happiness = 50
-Abilities = STURDY, WATERABSORB 
+Abilities = STURDY,WATERABSORB
 Moves = 1,TACKLE,1,DEFENSECURL,5,LEECHSEED,7,ROCKTHROW,10,MUDSLAP,13,VINEWHIP,16,HEADBUTT,20,IRONDEFENSE,24,ROCKTOMB,28,ROCKPOLISH,33,BODYPRESS,38,ROCKSLIDE,42,STEALTHROCK,48,EARTHQUAKE,54,STONEEDGE
 TutorMoves = TACKLE
 EggMoves = CURSE
@@ -24296,11 +24313,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Evolution = MOSSENGE, Level, 25
+Pokedex = ???
 #-------------------------------
 [MOSSENGE]
 Name = Mossenge
-Types = ROCK, GRASS
+Types = ROCK,GRASS
 BaseStats = 80,105,105,30,25,60
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24308,21 +24325,22 @@ BaseExp = 122
 EVs = DEFENSE,2
 CatchRate = 200
 Happiness = 50
-Abilities = STURDY, WATERABSORB 
+Abilities = STURDY,WATERABSORB
 Moves = 1,TACKLE,1,DEFENSECURL,5,LEECHSEED,7,ROCKTHROW,10,MUDSLAP,13,VINEWHIP,16,HEADBUTT,20,IRONDEFENSE,24,ROCKTOMB,26,ROCKPOLISH,30,BODYPRESS,33,ROCKSLIDE,34,STEALTHROCK,45,EARTHQUAKE,49,STONEEDGE
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Evolution = MOSSENGE, Level, 36
+Pokedex = ???
 #-------------------------------
 [MOSSOLEM]
 Name = Mossolem
-Types = ROCK, GRASS
+Types = ROCK,GRASS
 BaseStats = 100,125,135,40,30,95
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24330,20 +24348,22 @@ BaseExp = 240
 EVs = DEFENSE,3
 CatchRate = 200
 Happiness = 50
-Abilities = STURDY, WATERABSORB 
+Abilities = STURDY,WATERABSORB
 Moves = 1,TACKLE,1,DEFENSECURL,5,LEECHSEED,7,ROCKTHROW,10,MUDSLAP,13,VINEWHIP,16,HEADBUTT,20,IRONDEFENSE,24,ROCKTOMB,26,ROCKPOLISH,30,BODYPRESS,33,ROCKSLIDE,34,STEALTHROCK,43,EARTHQUAKE,47,STONEEDGE,53,POWERWHIP
 TutorMoves = TACKLE
 EggGroups = Field
+HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
+Pokedex = ???
 #-------------------------------
 [FRUCTERA]
 Name = Fructera
-Types = GRASS, FLYING
+Types = GRASS,FLYING
 BaseStats = 55,70,50,60,40,50
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24364,11 +24384,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Bat
-Evolution = CHIROPEEL,Level,25
+Pokedex = ???
 #-------------------------------
 [CHIROPEEL]
 Name = Chiropeel
-Types = GRASS, FLYING
+Types = GRASS,FLYING
 BaseStats = 70,105,60,100,50,60
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24389,6 +24409,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Fruit Eater
+Pokedex = ???
 #-------------------------------
 [SNAKRE]
 Name = Snakre
@@ -24412,11 +24433,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Snake
-Evolution = JIARAGON,Level,30
+Pokedex = ???
 #-------------------------------
 [JIARAGON]
 Name = Jiaragon
-Types = ANGEL, DRAGON
+Types = ANGEL,DRAGON
 BaseStats = 70,80,60,70,75,65
 GenderRatio = Female50Percent
 GrowthRate = Slow
@@ -24436,11 +24457,11 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Chinese Dragon
-Evolution = SHENRAGON,Level,50
+Pokedex = ???
 #-------------------------------
 [SHENRAGON]
 Name = Shenragon
-Types = ANGEL, DRAGON
+Types = ANGEL,DRAGON
 BaseStats = 80,130,85,100,120,85
 GenderRatio = Female50Percent
 GrowthRate = Slow
@@ -24460,3 +24481,4 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Ancient Dragon
+Pokedex = ???

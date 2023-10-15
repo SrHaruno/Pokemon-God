@@ -4519,8 +4519,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [MOSSELIN]
-BackSprite = 0,27
-FrontSprite = 0,12
+BackSprite = 0,20
+FrontSprite = -1,27
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5461,6 +5461,66 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [SIRFETCHD]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ZARUDE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TYRUNT]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TYPENULL]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TURTEED]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TREVENANT]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TORRACAT]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TAPULELE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TALONFLAME]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[STONJOURNER]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[POLLING]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0

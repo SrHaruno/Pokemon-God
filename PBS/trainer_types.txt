@@ -200,11 +200,13 @@ BaseMoney = 60
 Name = Youngster
 Gender = Male
 BaseMoney = 16
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [LASS]
 Name = Lass
 Gender = Female
 BaseMoney = 16
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [POKEMONRANGER_M]
 Name = Pokémon Ranger

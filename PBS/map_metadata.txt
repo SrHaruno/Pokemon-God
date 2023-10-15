@@ -141,6 +141,7 @@ BattleBack = cave1
 #-------------------------------
 [045]   # Lunar Cave 1BF
 Name = Lunar Cave
+DarkMap = true
 BattleBack = cave1
 #-------------------------------
 [046]   # Mt.Hope

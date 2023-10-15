@@ -43,11 +43,10 @@
   NO_SOS_BATTLES = 59
 # * Setting to Toggle between Whitelist or Blacklist, if WHITELIST = True, only Pokemon in SOS_WHITELIST_RATES will appear.
 # * If WHITELIST = False, it will check the SOS_BLACKLIST to see if a Pokemon is banned from calling. If Whitelist is false, a SOS_RATE must be defined. 
-  WHITELIST = true 
+  WHITELIST = false 
 # * Hash containing base species call rates
   SOS_WHITELIST_RATES={
-  
-  :DWILD=>15,
+  :MOSSELIN=>5,
   :DITTO=>5,
   } 
 # * Hash containing blacklisted Pokemon.
@@ -58,7 +57,7 @@
     :MELOETTA,:GENESECT,:XERNEAS,:YVELTAL,:ZYGARDE,:TYPENULL,:SILVALLY,:TAPUBULU,:TAPUFINI,:TAPULELE,:TAPUKOKO,:COSMOG,:COSMOEM,:SOLGALEO,
 	:LUNALA,:NECROZMA,:NIHILEGO,:ZACIAN,:ZAMAZENTA,:ETERNATUS,:KUBFU,:URSHIFU,:REGIELEKI,:REGIDRAGO,:GLASTRIER,:SPECTRIER,:CALYREX]
 # * If using the Blacklist, all Pokemon have the same rate of being called.
-  SOS_RATE=20
+  SOS_RATE=10
   # * Hash containing species called allies
   SOS_CALL_MONS={}
   
