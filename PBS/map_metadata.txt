@@ -33,8 +33,9 @@ Bicycle = true
 Name = Rondor Town
 HealingSpot = 2,8,8
 #-------------------------------
-[009]   # Plateau Poke Center
+[009]   # Plateau PC
 Name = Plateau City
+HealingSpot = 9,10,12
 #-------------------------------
 [013]   # Indi Town
 Name = Indi Town
@@ -52,8 +53,9 @@ BattleBack = field
 Name = Route 2
 Bicycle = true
 #-------------------------------
-[016]   # Indi Town Poke Center
+[016]   # Indi Town PC
 Name = Indi Town
+HealingSpot = 16,10,11
 #-------------------------------
 [017]   # Indit Town Poke Center 2F
 Name = Indi Town
@@ -117,12 +119,6 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
-[048]   # Route 4 Safe point
-Name = Route 4
-#-------------------------------
-[049]   # Route 4 Cafe
-Name = Route 4
-#-------------------------------
 [040]   # Route 5
 Name = Route 5
 Outdoor = true
@@ -151,3 +147,20 @@ BattleBack = cave1
 Name = Mt.Hope
 ShowArea = true
 BattleBack = cave1
+#-------------------------------
+[047]   # Marine City
+Name = Marine City
+BattleBack = field
+#-------------------------------
+[048]   # Route 4 Safepoint
+Name = Route 4
+#-------------------------------
+[049]   # Cafe
+Name = Route 4
+#-------------------------------
+[050]   # Route 6 Gate
+Name = Route 6
+#-------------------------------
+[051]   # Marine Town PC
+Name = Marine Town
+HealingSpot = 51,10,12
