@@ -24201,6 +24201,79 @@ Shape = Bipedal
 Habitat = Urban
 Category = Cheetah
 #-------------------------------
+[TURTEED]
+Name = Turteed
+Types = WATER, STEEL
+BaseStats = 60,40,70,30,60,70
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 66
+EVs = DEFENSE,1
+CatchRate = 180
+Happiness = 50
+Abilities = CLEARBODY,STURDY
+HiddenAbilities = SWIFTSWIM
+Moves = 1,TACKLE,1,HARDEN
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Water1
+HatchSteps = 8960
+Height = 0.4
+Weight = 60.0
+Color = Blue
+Shape = Quadruped
+Habitat = Sea
+Category = Turtle
+#-------------------------------
+[TURTLOW]
+Name = Turtlow
+Types = WATER, STEEL
+BaseStats = 70,50,90,40,80,90
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 66
+EVs = DEFENSE,1
+CatchRate = 180
+Happiness = 50
+Abilities = CLEARBODY,STURDY
+HiddenAbilities = SWIFTSWIM
+Moves = 1,TACKLE,1,HARDEN
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Water1
+HatchSteps = 8960
+Height = 0.4
+Weight = 60.0
+Color = Blue
+Shape = Quadruped
+Habitat = Sea
+Category = Turtle
+#-------------------------------
+[TURTANK]
+Name = Turtank
+Types = WATER, STEEL
+BaseStats = 108,60,105,50,110,105
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 66
+EVs = DEFENSE,1
+CatchRate = 180
+Happiness = 50
+Abilities = CLEARBODY,STURDY
+HiddenAbilities = SWIFTSWIM
+Moves = 1,TACKLE,1,HARDEN
+TutorMoves = STEALTHROCK
+EggMoves = TACKLE
+EggGroups = Water1
+HatchSteps = 8960
+Height = 0.4
+Weight = 60.0
+Color = Blue
+Shape = Quadruped
+Habitat = Sea
+Category = Turtle
+
+#-------------------------------
 [MOSSELIN]
 Name = Mosselin
 Types = ROCK, GRASS
