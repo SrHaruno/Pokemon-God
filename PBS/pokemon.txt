@@ -24219,7 +24219,7 @@ Pokedex = ???
 [TURTEED]
 Name = Turteed
 Types = WATER,STEEL
-BaseStats = 60,40,70,30,60,70
+BaseStats = 60,40,70,60,60,70
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 66
@@ -24244,7 +24244,7 @@ Pokedex = ???
 [TURTLOW]
 Name = Turtlow
 Types = WATER,STEEL
-BaseStats = 70,50,90,40,80,90
+BaseStats = 70,50,90,30,80,90
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 66
@@ -24269,7 +24269,7 @@ Pokedex = ???
 [TURTANK]
 Name = Turtank
 Types = WATER,STEEL
-BaseStats = 108,60,105,50,110,105
+BaseStats = 108,60,105,40,120,105
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 66
@@ -24277,7 +24277,7 @@ EVs = DEFENSE,1
 CatchRate = 180
 Happiness = 50
 Abilities = CLEARBODY,STURDY
-HiddenAbilities = SWIFTSWIM
+HiddenAbilities = MEGALAUNCHER
 Moves = 1,TACKLE,1,HARDEN
 TutorMoves = STEALTHROCK
 EggMoves = TACKLE

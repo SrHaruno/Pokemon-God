@@ -1,4 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+
 #First Rival Battle
 #-------------------------------
 [RIVAL1,Bruno] #Graling
@@ -15,8 +16,8 @@ Pokemon = EGDON,5
 LoseText = Dammit!
 Pokemon = AXOLOBY,5
 Moves = TACKLE,TAILWHIP
-#
-#
+
+
 #Route 2
 #-------------------------------
 [YOUNGSTER,Arthur]
@@ -32,8 +33,8 @@ Pokemon = ORBEAF,5
 LoseText = My strategy wasn't rock solid!
 Pokemon = MOSLEEP,4
 Pokemon = MOSSELIN,5
-#
-#
+
+
 #Route 3
 #-------------------------------
 [FARMER, Ethan]
@@ -45,8 +46,8 @@ Pokemon = CHIKATE,7
 LoseText = Yeehaw!
 Pokemon = DWILD,6
 Pokemon = CHIKATE,7
-#
-#
+
+
 #Indi Forest
 #-------------------------------
 [BUGCATCHER, Satoshi]
@@ -58,8 +59,8 @@ Pokemon = PUPENGUE,5
 LoseText = No way!
 Pokemon = LARVENGUE,4
 Pokemon = ELECOON,5
-#
-#
+
+
 #Plateau Gym
 #-------------------------------
 [SCHOOLKID_M, Thomas]
@@ -67,18 +68,55 @@ LoseText = No way!
 Pokemon = ORBEAF,8
 #-------------------------------
 [SCHOOLKID_F, Hikari]
-LoseText = No way!
+LoseText = Sorry my math failed!
 Pokemon = ORBEAF,8
 	Gender = female
 #-------------------------------
 [LEADER_Daniel,Daniel]
 Items = POTION
 LoseText = Very good.
-Pokemon = ORBEAF,10
-    Moves = LEECHSEED,SHADOWSNEAK,RAZORLEAF,WORKUP
+Pokemon = MOSSELIN,10
+    Moves = LEECHSEED,VINEWHIP,WORKUP
 	Item = ORANBERRY
-    AbilityIndex = 1
 Pokemon = GRALING,12
     Moves = RAZORLEAF,KNOCKOFF,WORKUP
 	Item = ORANBERRY
     AbilityIndex = 0
+	
+
+#Route 5
+#-------------------------------
+[TUBER_M, João]
+LoseText = Buaaaaaaaah!
+Pokemon = TURTEED,8
+#-------------------------------
+[TUBER_F, Maria]
+LoseText = Atleast my tube is still cute!
+Pokemon = AXOLOBY,8
+#-------------------------------
+[YOUNGSTER, Rafael]
+LoseText = Dammit, your are super strong!
+Pokemon = SPARCUB,9
+Pokemon = HUMMIRD,9
+
+
+#Route 6
+#-------------------------------
+[CRUSHGIRL, Sakura]
+LoseText = Back to training I should go!
+Pokemon = CHIKATE,8
+#-------------------------------
+[BLACKBELT, Haruno]
+LoseText = Even if I lose, im not giving up!
+Pokemon = FLAMMUNY,8
+#-------------------------------
+[YOUNGSTER, Tobias]
+LoseText = My Pokémon!
+Pokemon = DWILD,8
+Pokemon = TURTEED,9
+#-------------------------------
+[AROMALADY, Rafaela]
+LoseText = My sweet babies!
+Pokemon = ORBEAF,9
+	Gender = Female
+Pokemon = GRALING,9

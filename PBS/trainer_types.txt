@@ -42,159 +42,190 @@ VictoryBGM = Battle victory leader
 Name = Aroma Lady
 Gender = Female
 BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [BEAUTY]
 Name = Beauty
 Gender = Female
 BaseMoney = 56
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [BIKER]
 Name = Biker
 Gender = Male
 BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [BIRDKEEPER]
 Name = Bird Keeper
 Gender = Male
 BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [BUGCATCHER]
 Name = Bug Catcher
 Gender = Male
 BaseMoney = 16
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [BURGLAR]
 Name = Burglar
 Gender = Male
 BaseMoney = 88
 SkillLevel = 32
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [CHANNELER]
 Name = Channeler
 Gender = Female
 BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [CUEBALL]
 Name = Cue Ball
 Gender = Male
 BaseMoney = 24
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [ENGINEER]
 Name = Engineer
 Gender = Male
 BaseMoney = 48
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [FISHERMAN]
 Name = Fisherman
 Gender = Male
 BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [GAMBLER]
 Name = Gambler
 Gender = Male
 BaseMoney = 72
 SkillLevel = 32
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [GENTLEMAN]
 Name = Gentleman
 Gender = Male
 BaseMoney = 72
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [HIKER]
 Name = Hiker
 Gender = Male
 BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [JUGGLER]
 Name = Juggler
 Gender = Male
 BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [LADY]
 Name = Lady
 Gender = Female
 BaseMoney = 160
 SkillLevel = 72
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [PAINTER]
 Name = Painter
 Gender = Female
 BaseMoney = 16
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [POKEMANIAC]
 Name = Poké Maniac
 Gender = Male
 BaseMoney = 64
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [POKEMONBREEDER]
 Name = Pokémon Breeder
 Gender = Female
 BaseMoney = 48
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [PROFESSOR]
 Name = Professor
 Gender = Male
 BaseMoney = 100
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [ROCKER]
 Name = Rocker
 Gender = Male
 BaseMoney = 24
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [RUINMANIAC]
 Name = Ruin Maniac
 Gender = Male
 BaseMoney = 48
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [SAILOR]
 Name = Sailor
 Gender = Male
 BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [SCIENTIST]
 Name = Scientist
 Gender = Male
 BaseMoney = 48
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [SUPERNERD]
 Name = Super Nerd
 Gender = Male
 BaseMoney = 48
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [TAMER]
 Name = Tamer
 Gender = Male
 BaseMoney = 40
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [BLACKBELT]
 Name = Black Belt
 Gender = Male
 BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [CRUSHGIRL]
 Name = Crush Girl
 Gender = Female
 BaseMoney = 24
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [CAMPER]
 Name = Camper
 Gender = Male
 BaseMoney = 16
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [PICNICKER]
 Name = Picnicker
 Gender = Female
 BaseMoney = 16
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [ACETRAINER_M]
 Name = Ace Trainer
 Gender = Male
 BaseMoney = 60
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [ACETRAINER_F]
 Name = Ace Trainer
 Gender = Female
 BaseMoney = 60
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [YOUNGSTER]
 Name = Youngster
@@ -212,11 +243,13 @@ IntroBGM = Trainer Eyes Meet! Lass
 Name = Pokémon Ranger
 Gender = Male
 BaseMoney = 60
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [POKEMONRANGER_F]
 Name = Pokémon Ranger
 Gender = Female
 BaseMoney = 60
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [PSYCHIC_M]
 Name = Psychic
@@ -227,99 +260,84 @@ BaseMoney = 32
 Name = Psychic
 Gender = Female
 BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [SWIMMER_M]
 Name = Swimmer
 Gender = Male
 BaseMoney = 16
 SkillLevel = 32
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [SWIMMER_F]
 Name = Swimmer
 Gender = Female
 BaseMoney = 16
 SkillLevel = 32
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [SWIMMER2_M]
 Name = Swimmer
 Gender = Male
 BaseMoney = 16
 SkillLevel = 32
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [SWIMMER2_F]
 Name = Swimmer
 Gender = Female
 BaseMoney = 16
 SkillLevel = 32
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [TUBER_M]
 Name = Tuber
 Gender = Male
 BaseMoney = 4
 SkillLevel = 16
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [TUBER_F]
 Name = Tuber
 Gender = Female
 BaseMoney = 4
 SkillLevel = 16
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [TUBER2_M]
 Name = Tuber
 Gender = Male
 BaseMoney = 4
 SkillLevel = 16
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [TUBER2_F]
 Name = Tuber
 Gender = Female
 BaseMoney = 4
 SkillLevel = 16
-#-------------------------------
-[COOLCOUPLE]
-Name = Cool Couple
-Gender = Unknown
-BaseMoney = 72
-SkillLevel = 48
-#-------------------------------
-[CRUSHKIN]
-Name = Crush Kin
-Gender = Unknown
-BaseMoney = 48
-#-------------------------------
-[SISANDBRO]
-Name = Sis and Bro
-Gender = Unknown
-BaseMoney = 16
-SkillLevel = 48
-#-------------------------------
-[TWINS]
-Name = Twins
-Gender = Unknown
-BaseMoney = 24
-#-------------------------------
-[YOUNGCOUPLE]
-Name = Young Couple
-Gender = Unknown
-BaseMoney = 60
-SkillLevel = 32
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [FARMER]
 Name = Farmer
 Gender = Male
 BaseMoney = 16
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [COWGIRL]
 Name = Cowgirl
 Gender = Female
 BaseMoney = 16
+IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [SCHOOLKID_M]
 Name = School Kid
 Gender = Male
 BaseMoney = 16
+IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
 [SCHOOLKID_F]
 Name = School Kid
-Gender = Male
+Gender = Female
 BaseMoney = 16
+IntroBGM = Trainer Eyes Meet! Lass
