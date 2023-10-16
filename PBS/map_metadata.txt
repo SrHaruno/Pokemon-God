@@ -151,6 +151,9 @@ BattleBack = cave1
 #-------------------------------
 [047]   # Marine City
 Name = Marine City
+Outdoor = true
+ShowArea = true
+HealingSpot = 47,16,68
 BattleBack = field
 #-------------------------------
 [048]   # Route 4 Safepoint
@@ -161,7 +164,18 @@ Name = Route 4
 #-------------------------------
 [050]   # Route 6 Gate
 Name = Route 6
+Bicycle = true
 #-------------------------------
 [051]   # Marine Town PC
 Name = Marine Town
 HealingSpot = 51,10,12
+#-------------------------------
+[052]   # Route 7
+Name = Route 7
+Outdoor = true
+ShowArea = true
+BattleBack = field
+#-------------------------------
+[053]   # Route 7 Gate
+Name = Route 7
+Bicycle = true
