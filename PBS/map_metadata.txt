@@ -106,9 +106,10 @@ Name = \PN's house
 Name = Plateau City
 BattleBack = indoor1
 #-------------------------------
-[030]   # Pokémon School 3F
-Name = Plateau City
-BattleBack = indoor1
+[030]   # House
+Name = Marine City
+Outdoor = false
+ShowArea = false
 #-------------------------------
 [036]   # Route 2
 Name = Route 2
@@ -179,3 +180,22 @@ BattleBack = field
 [053]   # Route 7 Gate
 Name = Route 7
 Bicycle = true
+#-------------------------------
+[055]   # Police Departament
+Name = Marine City
+Outdoor = false
+ShowArea = false
+#-------------------------------
+[054]   # Hotel_Gym
+Name = Marine City
+Outdoor = false
+ShowArea = false
+BattleBack = indoor1
+DarkMap = true
+#-------------------------------
+[056]   # Hotel_Gym 3F
+Name = Marine City
+Outdoor = false
+ShowArea = false
+BattleBack = indoor1
+DarkMap = true

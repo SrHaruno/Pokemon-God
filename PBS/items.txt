@@ -6299,7 +6299,7 @@ Description = A very convenient map that can be viewed anytime. It even shows yo
 Name = Escape Rope
 NamePlural = Escape Ropes
 Pocket = 1
-Price = 0
+Price = 550
 FieldUse = Direct
 Description = A long, durable rope. Use it to escape instantly from a cave or a dungeon.
 #-------------------------------
@@ -6562,3 +6562,21 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
+#-------------------------------
+[SECONDKEY]
+Name =  Second Floor Key
+NamePlural = Second Floor Keys
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = It's an key I found in the Marine Abandoned Hotel.
+#-------------------------------
+[THIRDKEY]
+Name =  Third Floor Key
+NamePlural = Third Floor Keys
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = It's an key I found in the Marine Abandoned Hotel.
