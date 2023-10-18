@@ -6580,3 +6580,12 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = It's an key I found in the Marine Abandoned Hotel.
+#-------------------------------
+[PACKAGE]
+Name =  Package
+NamePlural = Packages
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = I received it from looker. Looks like a bunch of parts of some type of ring.

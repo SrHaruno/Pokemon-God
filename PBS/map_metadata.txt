@@ -199,3 +199,8 @@ Outdoor = false
 ShowArea = false
 BattleBack = indoor1
 DarkMap = true
+#-------------------------------
+[057]   # Police Departament
+Name = Marine City
+Outdoor = false
+ShowArea = false
