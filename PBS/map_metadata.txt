@@ -20,6 +20,7 @@ Name = Pokémon Lab
 Name = Route 1
 Outdoor = true
 ShowArea = true
+MapPosition = 0,13,1
 BattleBack = field
 #-------------------------------
 [006]   # Rondor_Gate
@@ -47,6 +48,7 @@ BattleBack = field
 Name = Route 2
 Outdoor = true
 ShowArea = true
+MapPosition = 0,8,4
 BattleBack = field
 #-------------------------------
 [015]   # Route 2 Gate
@@ -65,6 +67,7 @@ Name = Route 3
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,10,4
 BattleBack = field
 #-------------------------------
 [019]   # Day-Care
@@ -108,8 +111,6 @@ BattleBack = indoor1
 #-------------------------------
 [030]   # House
 Name = Marine City
-Outdoor = false
-ShowArea = false
 #-------------------------------
 [036]   # Route 2
 Name = Route 2
@@ -181,26 +182,18 @@ BattleBack = field
 Name = Route 7
 Bicycle = true
 #-------------------------------
-[055]   # Police Departament
-Name = Marine City
-Outdoor = false
-ShowArea = false
-#-------------------------------
 [054]   # Hotel_Gym
 Name = Marine City
-Outdoor = false
-ShowArea = false
-BattleBack = indoor1
 DarkMap = true
+BattleBack = indoor1
+#-------------------------------
+[055]   # Police Departament
+Name = Marine City
 #-------------------------------
 [056]   # Hotel_Gym 3F
 Name = Marine City
-Outdoor = false
-ShowArea = false
-BattleBack = indoor1
 DarkMap = true
+BattleBack = indoor1
 #-------------------------------
-[057]   # Police Departament
+[057]   # Police Departament 3F
 Name = Marine City
-Outdoor = false
-ShowArea = false

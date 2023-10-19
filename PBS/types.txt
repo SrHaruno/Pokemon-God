@@ -9,7 +9,7 @@ Immunities = GHOST,ANGEL,DEMON
 [FIGHTING]
 Name = Fighting
 IconPosition = 1
-Weaknesses = FLYING,PSYCHIC,FAIRY
+Weaknesses = FLYING,PSYCHIC,FAIRY,DEMON
 Resistances = ROCK,BUG,DARK
 #-------------------------------
 [FLYING]
@@ -47,7 +47,7 @@ Resistances = FIGHTING,GROUND,GRASS
 [GHOST]
 Name = Ghost
 IconPosition = 7
-Weaknesses = GHOST,DARK
+Weaknesses = GHOST,DARK,DEMON,ANGEL
 Resistances = POISON,BUG
 Immunities = NORMAL,FIGHTING
 #-------------------------------
@@ -95,7 +95,7 @@ Resistances = FLYING,STEEL,ELECTRIC
 Name = Psychic
 IconPosition = 14
 IsSpecialType = true
-Weaknesses = BUG,GHOST,DARK
+Weaknesses = BUG,GHOST,DARK,DEMON
 Resistances = FIGHTING,PSYCHIC
 #-------------------------------
 [ICE]
@@ -103,20 +103,20 @@ Name = Ice
 IconPosition = 15
 IsSpecialType = true
 Weaknesses = FIGHTING,ROCK,STEEL,FIRE
-Resistances = ICE
+Resistances = WATER,ICE
 #-------------------------------
 [DRAGON]
 Name = Dragon
 IconPosition = 16
 IsSpecialType = true
-Weaknesses = ICE,DRAGON,FAIRY
+Weaknesses = ICE,DRAGON,FAIRY,ANGEL
 Resistances = FIRE,WATER,GRASS,ELECTRIC
 #-------------------------------
 [DARK]
 Name = Dark
 IconPosition = 17
 IsSpecialType = true
-Weaknesses = FIGHTING,BUG,FAIRY
+Weaknesses = FIGHTING,BUG,FAIRY,DEMON,ANGEL
 Resistances = GHOST,DARK
 Immunities = PSYCHIC
 #-------------------------------
@@ -133,13 +133,13 @@ Name = Angel
 IconPosition = 19
 IsSpecialType = true 
 Weaknesses = NORMAL,ICE
-Resistances = DARK,GHOST, FAIRY
-Immunities = DEMON, NORMAL
+Resistances = FIGHTING,GHOST,DRAGON,DARK,STEEL,FAIRY,POISON
+Immunities = DEMON
 #-------------------------------
 [DEMON]
 Name = Demon
 IconPosition = 20
-IsSpecialType = true
-Weaknesses = ANGEL,ICE
-Resistances = DARK,GHOST, FAIRY
+IsSpecialType = false
+Weaknesses = ANGEL,ICE,NORMAL
+Resistances = DARK,GHOST,PSYCHIC,FAIRY
 Immunities = NORMAL
