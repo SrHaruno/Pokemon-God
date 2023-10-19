@@ -23975,6 +23975,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
+Evolution = BOXICKEN, Level, 14
 #-------------------------------
 [BOXICKEN]
 Name = Boxicken
@@ -23998,6 +23999,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
+Evolution = JUHOOSTER, Level, 34
 #-------------------------------
 [JUHOOSTER]
 Name = Juhooster
@@ -24093,6 +24095,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = Cockatiel
 Pokedex = ???
+Evolution = ELECKATIEL, Level, 22
 #-------------------------------
 [ELECKATIEL]
 Name = Eleckatiel
@@ -24141,6 +24144,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = Humming bird
 Pokedex = ???
+Evolution = POLLING, Level, 22
 #-------------------------------
 [POLLING]
 Name = Polling
@@ -24190,6 +24194,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = Cub
 Pokedex = ???
+Evolution = CHELECTRIC, Level, 30
 #-------------------------------
 [CHELECTRIC]
 Name = Chelectric
@@ -24221,7 +24226,7 @@ Name = Turteed
 Types = WATER,STEEL
 BaseStats = 60,40,70,60,60,70
 GenderRatio = Female50Percent
-GrowthRate = Slow
+GrowthRate = Parabolic
 BaseExp = 66
 EVs = DEFENSE,1
 CatchRate = 180
@@ -24240,16 +24245,17 @@ Shape = Quadruped
 Habitat = Sea
 Category = Turtle
 Pokedex = ???
+Evolution = TURTLOW, Level, 16
 #-------------------------------
 [TURTLOW]
 Name = Turtlow
 Types = WATER,STEEL
 BaseStats = 70,50,90,30,80,90
 GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 66
+GrowthRate = Parabolic
+BaseExp = 148
 EVs = DEFENSE,1
-CatchRate = 180
+CatchRate = 45
 Happiness = 50
 Abilities = CLEARBODY,STURDY
 HiddenAbilities = SWIFTSWIM
@@ -24265,16 +24271,17 @@ Shape = Quadruped
 Habitat = Sea
 Category = Turtle
 Pokedex = ???
+Evolution = TURTANK, Level, 36
 #-------------------------------
 [TURTANK]
 Name = Turtank
 Types = WATER,STEEL
 BaseStats = 108,60,105,40,120,105
 GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 66
+GrowthRate = Parabolic
+BaseExp = 200
 EVs = DEFENSE,1
-CatchRate = 180
+CatchRate = 45
 Happiness = 50
 Abilities = CLEARBODY,STURDY
 HiddenAbilities = MEGALAUNCHER
@@ -24314,6 +24321,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
+Evolution = MOSSENGE, Level, 25
 #-------------------------------
 [MOSSENGE]
 Name = Mossenge
@@ -24337,6 +24345,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
+Evolution = MOSSOLEM, Level, 36
 #-------------------------------
 [MOSSOLEM]
 Name = Mossolem
@@ -24385,6 +24394,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = Bat
 Pokedex = ???
+Evolution = CHIROPEEL, Level, 25
 #-------------------------------
 [CHIROPEEL]
 Name = Chiropeel
@@ -24409,6 +24419,55 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Fruit Eater
+Pokedex = ???
+#-------------------------------
+[BOTOLPHIN]
+Name = Botolphin
+Types = WATER, PSYCHIC
+BaseStats = 70,105,60,100,50,60
+GenderRatio = AlwaysMale
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = SPECIAL_ATTACK,1
+CatchRate = 180
+Happiness = 50
+Abilities = CUTECHARM
+Moves = 1,WATERGUN
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Dolphin
+Pokedex = ???
+Evolution = ENCANTACEAN, Level, 35
+#-------------------------------
+[ENCANTACEAN]
+Name = Encantacean
+Types = WATER, PSYCHIC
+BaseStats = 70,105,60,100,50,60
+GenderRatio = AlwaysMale
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = SPECIAL_ATTACK,1
+CatchRate = 180
+Happiness = 50
+Abilities = CUTECHARM
+Moves = 1,WATERGUN
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Dolphin
 Pokedex = ???
 #-------------------------------
 [SNAKRE]
