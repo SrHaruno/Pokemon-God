@@ -7,7 +7,7 @@ module Settings
   # The scale to zoom the front sprite of a Pokemon. (1 for no scaling)
   FRONT_BATTLER_SPRITE_SCALE    = 2
   # The scale to zoom the back sprite of a Pokemon. (1 for no scaling)
-  BACK_BATTLER_SPRITE_SCALE     = 3
+  BACK_BATTLER_SPRITE_SCALE     = 2
 
   # Whether the game should run at a smooth 60 FPS (true) or the default 40 FPS
   # of RPG Maker (false).
