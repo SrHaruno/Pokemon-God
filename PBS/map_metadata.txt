@@ -50,6 +50,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,8,4
 BattleBack = field
+MapSize = 1,
 #-------------------------------
 [015]   # Route 2 Gate
 Name = Route 2
@@ -69,6 +70,7 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,10,4
 BattleBack = field
+MapSize = 1,
 #-------------------------------
 [019]   # Day-Care
 Name = Day-Care
@@ -156,6 +158,7 @@ Name = Marine City
 Outdoor = true
 ShowArea = true
 HealingSpot = 47,16,68
+MapPosition = 0,20,4
 BattleBack = field
 #-------------------------------
 [048]   # Route 4 Safepoint
@@ -183,7 +186,7 @@ Name = Route 7
 Bicycle = true
 #-------------------------------
 [054]   # Hotel_Gym
-Name = Marine City
+Name = Abandoned Hotel
 DarkMap = true
 BattleBack = indoor1
 #-------------------------------
@@ -191,7 +194,7 @@ BattleBack = indoor1
 Name = Marine City
 #-------------------------------
 [056]   # Hotel_Gym 3F
-Name = Marine City
+Name = Abandoned Hotel
 DarkMap = true
 BattleBack = indoor1
 #-------------------------------

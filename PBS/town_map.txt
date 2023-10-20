@@ -1,8 +1,14 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [0]
-Filename = mapRegion0.png
 Name = Sehand
-Point = 16,1,Rondor Town,Pokémon Lab,,,,
-Point = 11,1,Route 1,,,,,
-Point = 9,1,Indi Town,,,,,
+Filename = mapRegion0.png
+Point = 16,1,Rondor Town,Pokémon Lab
+Point = 11,1,Route 1
+Point = 9,1,Indi Town
+Point = 8,5,Route 2,
+Point = 21,2,Route 7,
+Point = 18,10,Route 6,
+Point = 13,8,Mt.Hope,
+Point = 6,5,Mt.Solar,
+Point = 2,14,Thundra Cave,

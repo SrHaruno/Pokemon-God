@@ -38,6 +38,16 @@ BaseMoney = 100
 BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------
+[REAPER_BOSS]
+Name = Reaper Boss
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle! Vs Gym Leader
+VictoryBGM = Battle victory leader
+
+
+
+#-------------------------------
 [AROMALADY]
 Name = Aroma Lady
 Gender = Female
@@ -341,3 +351,10 @@ Name = School Kid
 Gender = Female
 BaseMoney = 16
 IntroBGM = Trainer Eyes Meet! Lass
+#-------------------------------
+[REAPER]
+Name = Reaper
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Youngster
+BattleBGM = Battle! Vs Rival

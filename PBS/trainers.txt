@@ -145,3 +145,60 @@ Pokemon = ORBEAF,10
 	Gender = Female
 Pokemon = GRALING,12
 Pokemon = PANSAGE,14
+
+
+#Marine City
+#-------------------------------
+[REAPER, Carl]
+LoseText = How I lost to a kid!
+Pokemon = YOUNROW,14
+#-------------------------------
+[REAPER, Tony]
+LoseText = How I lost to a kid!
+Pokemon = YOUNROW,14
+#-------------------------------
+[REAPER, Leandro]
+LoseText = How I lost to a kid!
+Pokemon = YOUNROW,14
+#-------------------------------
+[REAPER, Pedro]
+LoseText = How I lost to a kid!
+Pokemon = YOUNROW,14
+
+#Abandoned Hotel 1F
+#-------------------------------
+[REAPER, Niko]
+LoseText = How I lost to a kid!
+Pokemon = YOUNROW,14
+#-------------------------------
+[REAPER, Nathan]
+LoseText = How I lost to a kid!
+Pokemon = YOUNROW,14
+#-------------------------------
+[REAPER, Drake]
+LoseText = How I lost to a kid!
+Pokemon = YOUNROW,14
+
+#Abandoned Hotel 2F
+#-------------------------------
+[REAPER, Drake]
+LoseText = How I lost to a kid!
+Pokemon = YOUNROW,14
+#-------------------------------
+[REAPER, Chris]
+LoseText = How I lost to a kid!
+Pokemon = YOUNROW,14
+#-------------------------------
+[REAPER, Nick]
+LoseText = How I lost to a kid!
+Pokemon = YOUNROW,14
+
+#Abandoned Hotel 3F
+#-------------------------------
+[REAPER_BOSS, Alcapone]
+LoseText = Huh?! What's this...
+Pokemon = CAPYBURA,14
+	Moves = BULKUP,BITE
+Pokemon = EVIRASS,16
+    Moves = BULKUP,LEECHSEED,VINEWHIP,KNOCKOFF
+	Item = SITRUSBERRY
