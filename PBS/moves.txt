@@ -8771,7 +8771,7 @@ Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
 Description = The user handles a sharp sword made out of fire and attacks by slashing. It has a high critical-hit ratio.
 #-------------------------------
 [SHUMERANG]
-Name = SHUMERANG
+Name = Shumerang
 Type = GRASS
 Category = Physical
 Power = 25
@@ -8780,7 +8780,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove,Bomb
-Description = The target is bitten with viciously sharp fangs. It may make the target flinch.
+Description = The user spins slashing the foe multiple times like a boomerang. This moves hits 2-5 times.
 #-------------------------------
 [DARKNESSFURY]
 Name = Darkness Fury

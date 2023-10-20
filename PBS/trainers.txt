@@ -1,21 +1,45 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 
-#First Rival Battle
+#First Rival Battle#
 #-------------------------------
 [RIVAL1,Bruno] #Graling
-LoseText = Dammit!
+LoseText = Nice Battle!
 Pokemon = GRALING,5
 	Moves = TACKLE,TAILWHIP
+	
 #-------------------------------
 [RIVAL1,Bruno,1] #Egdon
-LoseText = Dammit!
+LoseText = Nice Battle!
 Pokemon = EGDON,5
 	Moves = SCRATCH,LEER
+	
 #-------------------------------
 [RIVAL1,Bruno,2] #Axoloby
-LoseText = Dammit!
+LoseText = Nice Battle!
 Pokemon = AXOLOBY,5
 Moves = TACKLE,TAILWHIP
+
+#Second Rival Battle
+#-------------------------------
+[RIVAL1,Bruno,3] #Graling
+LoseText = Nice Battle!
+Pokemon = PURIRD,10
+Pokemon = MAGIKARP,10
+Pokemon = GRALING,12
+	
+#-------------------------------
+[RIVAL1,Bruno,4] #Egdon
+LoseText = Nice Battle!
+Pokemon = PURIRD,10
+Pokemon = MAGIKARP,10
+Pokemon = EGDON,12
+	
+#-------------------------------
+[RIVAL1,Bruno,5] #Axoloby
+LoseText = Nice Battle!
+Pokemon = PURIRD,10
+Pokemon = MOMBER,10
+Pokemon = AXOLOBY,12
 
 
 #Route 2
@@ -88,35 +112,36 @@ Pokemon = GRALING,12
 #-------------------------------
 [TUBER_M, João]
 LoseText = Buaaaaaaaah!
-Pokemon = TURTEED,8
+Pokemon = TURTEED,9
 #-------------------------------
 [TUBER_F, Maria]
 LoseText = Atleast my tube is still cute!
-Pokemon = AXOLOBY,8
+Pokemon = AXOLOBY,9
 #-------------------------------
 [YOUNGSTER, Rafael]
 LoseText = Dammit, your are super strong!
-Pokemon = SPARCUB,9
-Pokemon = HUMMIRD,9
+Pokemon = SPARCUB,12
+Pokemon = HUMMIRD,10
 
 
 #Route 6
 #-------------------------------
 [CRUSHGIRL, Sakura]
 LoseText = Back to training I should go!
-Pokemon = CHIKATE,8
+Pokemon = CHIKATE,10
 #-------------------------------
 [BLACKBELT, Haruno]
 LoseText = Even if I lose, im not giving up!
-Pokemon = FLAMMUNY,8
+Pokemon = FLAMMUNY,10
 #-------------------------------
 [YOUNGSTER, Tobias]
 LoseText = My Pokémon!
-Pokemon = DWILD,8
-Pokemon = TURTEED,9
+Pokemon = DWILD,11
+Pokemon = TURTEED,12
 #-------------------------------
 [AROMALADY, Rafaela]
 LoseText = My sweet babies!
-Pokemon = ORBEAF,9
+Pokemon = ORBEAF,10
 	Gender = Female
-Pokemon = GRALING,9
+Pokemon = GRALING,12
+Pokemon = PANSAGE,14
