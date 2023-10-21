@@ -38,7 +38,7 @@ BaseMoney = 100
 BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------
-[REAPER_BOSS]
+[REAPERBOSS]
 Name = Reaper Boss
 Gender = Male
 BaseMoney = 100

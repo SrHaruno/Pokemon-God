@@ -19,6 +19,7 @@ LoseText = Nice Battle!
 Pokemon = AXOLOBY,5
 Moves = TACKLE,TAILWHIP
 
+
 #Second Rival Battle
 #-------------------------------
 [RIVAL1,Bruno,3] #Graling
@@ -88,8 +89,8 @@ Pokemon = ELECOON,5
 #Plateau Gym
 #-------------------------------
 [SCHOOLKID_M, Thomas]
-LoseText = No way!
-Pokemon = ORBEAF,8
+LoseText = I need to study my strategies all over again!
+Pokemon = MOSSELIN,8
 #-------------------------------
 [SCHOOLKID_F, Hikari]
 LoseText = Sorry my math failed!
@@ -98,14 +99,13 @@ Pokemon = ORBEAF,8
 #-------------------------------
 [LEADER_Daniel,Daniel]
 Items = POTION
-LoseText = Very good.
+LoseText = Very good. You deserve the Knowedge Badge!
 Pokemon = MOSSELIN,10
-    Moves = LEECHSEED,VINEWHIP,WORKUP
+    Moves = LEECHSEED,VINEWHIP,ROCKTHROW,DEFENSECURL
 	Item = ORANBERRY
 Pokemon = GRALING,12
     Moves = RAZORLEAF,KNOCKOFF,WORKUP
 	Item = ORANBERRY
-    AbilityIndex = 0
 	
 
 #Route 5
@@ -147,59 +147,88 @@ Pokemon = GRALING,12
 Pokemon = PANSAGE,14
 
 
-#Marine City
+#Lunar Cave
 #-------------------------------
 [REAPER, Carl]
 LoseText = How I lost to a kid!
-Pokemon = YOUNROW,14
+Pokemon = BOUDYENA,12
 #-------------------------------
 [REAPER, Tony]
-LoseText = How I lost to a kid!
-Pokemon = YOUNROW,14
+LoseText = What! RUN AWAY!
+Pokemon = CAPYBURA,12
+
+#Lunar Cave 1F
+#-------------------------------
+[ENGINEER, Beto]
+LoseText = Back to work!
+Pokemon = MOSSELIN,10
+#-------------------------------
+[ENGINEER, Neto]
+LoseText = Atleast I found Rare rocks!
+Pokemon = MOSSELIN,10
+
+#-------------------------------
+[REAPER, Sebastian]
+LoseText = The world is ours!
+Pokemon = BOUDYENA,12
+#-------------------------------
+[REAPER, Stefan]
+LoseText = Man I hate this job!
+Pokemon = CAPYBURA,12
+Pokemon = FRUCTERA,12
+#-------------------------------
+[REAPER, Alvin]
+LoseText = I wasn't good enought to defeat you!
+Pokemon = BOUDYENA,14
+
+#Marine City
 #-------------------------------
 [REAPER, Leandro]
-LoseText = How I lost to a kid!
-Pokemon = YOUNROW,14
+LoseText = This won't end like this.
+Pokemon = BOUDYENA,12
+Pokemon = CAPYBURA,13
 #-------------------------------
 [REAPER, Pedro]
-LoseText = How I lost to a kid!
+LoseText = Atleast I tried
+Pokemon = CAPYBURA,12
 Pokemon = YOUNROW,14
+
 
 #Abandoned Hotel 1F
 #-------------------------------
 [REAPER, Niko]
-LoseText = How I lost to a kid!
-Pokemon = YOUNROW,14
+LoseText = Reeeeeeeeeeeee!
+Pokemon = CAPYBURA,14
 #-------------------------------
 [REAPER, Nathan]
-LoseText = How I lost to a kid!
-Pokemon = YOUNROW,14
+LoseText = I tought I had a chance!
+Pokemon = BOUDYENA,12
+Pokemon = FRUCTERA,14
 #-------------------------------
 [REAPER, Drake]
-LoseText = How I lost to a kid!
-Pokemon = YOUNROW,14
+LoseText = I may have lost, but I lost with style!
+Pokemon = BOUDYENA,12
+Pokemon = BOUDYENA,12
 
 #Abandoned Hotel 2F
 #-------------------------------
-[REAPER, Drake]
-LoseText = How I lost to a kid!
-Pokemon = YOUNROW,14
-#-------------------------------
 [REAPER, Chris]
-LoseText = How I lost to a kid!
-Pokemon = YOUNROW,14
+LoseText = Not even scaring gave me an advantage!
+Pokemon = CAPYBURA,12
 #-------------------------------
 [REAPER, Nick]
-LoseText = How I lost to a kid!
+LoseText = The forces of evil weren't enought for you!
+Pokemon = BOUDYENA,12
+Pokemon = CAPYBURA,13
 Pokemon = YOUNROW,14
 
 #Abandoned Hotel 3F
 #-------------------------------
-[REAPER_BOSS, Alcapone]
+[REAPERBOSS, Alcapone]
 LoseText = Huh?! What's this...
 Pokemon = CAPYBURA,14
-	Moves = BULKUP,BITE
-Pokemon = EVIRASS,16
+	Moves = BULKUP,BITE,LEER
+Pokemon = EVIRASS,18
     Moves = BULKUP,LEECHSEED,VINEWHIP,KNOCKOFF
 	Item = SITRUSBERRY
 	

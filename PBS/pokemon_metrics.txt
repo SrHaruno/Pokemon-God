@@ -5701,7 +5701,7 @@ ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [AXOLOBY]
-BackSprite = 0,0
+BackSprite = 0,-8
 FrontSprite = -2,17
 ShadowX = 0
 ShadowSize = 1
