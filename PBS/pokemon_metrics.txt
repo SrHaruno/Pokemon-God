@@ -4243,14 +4243,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [AEGISLASH]
-BackSprite = 0,50
-FrontSprite = 5,7
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[AEGISLASH,1]
-BackSprite = 0,57
-FrontSprite = 5,9
+BackSprite = 0,0
+FrontSprite = 5,10
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -4351,14 +4345,14 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [AMAURA]
-BackSprite = -4,46
-FrontSprite = -1,23
+BackSprite = -4,0
+FrontSprite = -1,14
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [AURORUS]
-BackSprite = -4,34
-FrontSprite = 5,9
+BackSprite = -4,0
+FrontSprite = 5,6
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -4441,8 +4435,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [AVALUGG]
-BackSprite = 0,64
-FrontSprite = -4,28
+BackSprite = 0,8
+FrontSprite = -4,12
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
@@ -4735,8 +4729,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [ARAQUANID]
-BackSprite = 0,52
-FrontSprite = -1,25
+BackSprite = 0,0
+FrontSprite = -1,12
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
@@ -5293,8 +5287,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [APPLIN]
-BackSprite = -2,48
-FrontSprite = 0,32
+BackSprite = -2,0
+FrontSprite = 0,18
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
@@ -5305,8 +5299,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [APPLETUN]
-BackSprite = -2,42
-FrontSprite = 0,18
+BackSprite = -2,0
+FrontSprite = 0,10
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5341,7 +5335,7 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [ARROKUDA]
-BackSprite = 0,62
+BackSprite = 0,0
 FrontSprite = 0,19
 ShadowX = 0
 ShadowSize = 2
