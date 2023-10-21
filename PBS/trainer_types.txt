@@ -357,4 +357,3 @@ Name = Reaper
 Gender = Male
 BaseMoney = 32
 IntroBGM = Trainer Eyes Meet! Youngster
-BattleBGM = Battle! Vs Rival

@@ -202,3 +202,15 @@ Pokemon = CAPYBURA,14
 Pokemon = EVIRASS,16
     Moves = BULKUP,LEECHSEED,VINEWHIP,KNOCKOFF
 	Item = SITRUSBERRY
+	
+
+#Route 7
+#-------------------------------
+[PICNICKER, Sabrina]
+LoseText = My cuties!
+Pokemon = DWILD,12
+Pokemon = ORBEAF,14
+	Gender = Female
+[CAMPER, Hamilton]
+LoseText = Atleast I learn about the region!
+Pokemon = CHIKATE,12
