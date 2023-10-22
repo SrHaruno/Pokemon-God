@@ -97,6 +97,12 @@ ShowArea = true
 BattleBack = cave1
 Environment = Cave
 #-------------------------------
+[059]   # Mt.Solar
+Name = Mt.Solar
+ShowArea = true
+BattleBack = cave1
+Environment = Cave
+#-------------------------------
 [024]   # Plateau Poke Center 2F
 Name = Plateau City
 #-------------------------------

@@ -24222,7 +24222,7 @@ Pokedex = ???
 #-------------------------------
 [TURTEED]
 Name = Turteed
-Types = WATER,STEEL
+Types = WATER
 BaseStats = 60,40,70,60,60,70
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -24323,7 +24323,7 @@ Pokedex = ???
 Evolution = MURAMARIS,Level,28
 #-------------------------------
 [MURAMARIS]
-Name = Boudyena
+Name = Muramaris
 Types = DEMON,DARK
 BaseStats = 108,110,100,60,60,75
 GenderRatio = Female50Percent

@@ -149,6 +149,11 @@ Pokemon = PANSAGE,14
 
 #Lunar Cave
 #-------------------------------
+[REAPER, Stefan]
+LoseText = Man I hate this job!
+Pokemon = CAPYBURA,12
+Pokemon = FRUCTERA,12
+#-------------------------------
 [REAPER, Carl]
 LoseText = How I lost to a kid!
 Pokemon = BOUDYENA,12
@@ -156,30 +161,6 @@ Pokemon = BOUDYENA,12
 [REAPER, Tony]
 LoseText = What! RUN AWAY!
 Pokemon = CAPYBURA,12
-
-#Lunar Cave 1F
-#-------------------------------
-[ENGINEER, Beto]
-LoseText = Back to work!
-Pokemon = MOSSELIN,10
-#-------------------------------
-[ENGINEER, Neto]
-LoseText = Atleast I found Rare rocks!
-Pokemon = MOSSELIN,10
-
-#-------------------------------
-[REAPER, Sebastian]
-LoseText = The world is ours!
-Pokemon = BOUDYENA,12
-#-------------------------------
-[REAPER, Stefan]
-LoseText = Man I hate this job!
-Pokemon = CAPYBURA,12
-Pokemon = FRUCTERA,12
-#-------------------------------
-[REAPER, Alvin]
-LoseText = I wasn't good enought to defeat you!
-Pokemon = BOUDYENA,14
 
 #Marine City
 #-------------------------------
@@ -192,7 +173,6 @@ Pokemon = CAPYBURA,13
 LoseText = Atleast I tried
 Pokemon = CAPYBURA,12
 Pokemon = YOUNROW,14
-
 
 #Abandoned Hotel 1F
 #-------------------------------

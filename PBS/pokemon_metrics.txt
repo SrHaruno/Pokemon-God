@@ -5852,9 +5852,9 @@ ShadowSize = 2
 #-------------------------------
 [MOSSELIN]
 BackSprite = 0,20
-FrontSprite = 0,29
+FrontSprite = -1,26
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [PEACIRD]
 BackSprite = 0,20
@@ -6057,5 +6057,17 @@ ShadowSize = 2
 [SHENRAGON]
 BackSprite = 0,20
 FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[BOUDYENA]
+BackSprite = 0,20
+FrontSprite = 0,24
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[MURAMARIS]
+BackSprite = 0,20
+FrontSprite = -1,6
 ShadowX = 0
 ShadowSize = 2
