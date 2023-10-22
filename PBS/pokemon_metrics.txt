@@ -4831,8 +4831,8 @@ ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [SANDYGAST]
-BackSprite = 0,48
-FrontSprite = 0,30
+BackSprite = 0,0
+FrontSprite = 0,15
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5599,8 +5599,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [DRAGAPULT]
-BackSprite = 0,44
-FrontSprite = 1,3
+BackSprite = 0,0
+FrontSprite = 1,8
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5701,7 +5701,7 @@ ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [AXOLOBY]
-BackSprite = 0,-8
+BackSprite = 0,0
 FrontSprite = -2,17
 ShadowX = 0
 ShadowSize = 1
@@ -5780,9 +5780,9 @@ ShadowSize = 2
 #-------------------------------
 [GRALING]
 BackSprite = 0,0
-FrontSprite = 0,17
+FrontSprite = 3,15
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [HOGGO]
 BackSprite = 0,0
@@ -5828,9 +5828,9 @@ ShadowSize = 2
 #-------------------------------
 [PURIRD]
 BackSprite = 0,0
-FrontSprite = 0,20
+FrontSprite = -1,19
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [KOMODRA]
 BackSprite = 0,0
@@ -5864,9 +5864,9 @@ ShadowSize = 2
 #-------------------------------
 [ORIKEN]
 BackSprite = 0,20
-FrontSprite = 0,20
+FrontSprite = 0,0
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [PSYLOTE]
 BackSprite = 0,0
