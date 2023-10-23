@@ -135,17 +135,8 @@ LandNight,21
 #-------------------------------
 [044] # Lunar Cave
 Cave,5
-    40,MOSSELIN,10,12
-OldRod
-    70,MAGIKARP,8,10
-GoodRod
-	60,MAGIKARP,8,10
-SuperRod
-	20,GYARADOS,30,33
-#-------------------------------
-[045] # Lunar Cave 1BF
-Cave,5
-    40,MOSSELIN,10,12
+    50,MOSSELIN,10,12
+	50,FRUCTERA,10,12
 OldRod
     70,MAGIKARP,8,10
 GoodRod

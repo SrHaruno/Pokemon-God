@@ -5803,10 +5803,10 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [YOUNROW]
-BackSprite = 0,20
-FrontSprite = 0,20
+BackSprite = 0,0
+FrontSprite = 2,20
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [THUNDOTH]
 BackSprite = 0,13
@@ -5936,7 +5936,7 @@ ShadowSize = 2
 #-------------------------------
 [MOMBER]
 BackSprite = 0,0
-FrontSprite = 0,20
+FrontSprite = -4,2
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------

@@ -100,10 +100,10 @@ Pokemon = ORBEAF,8
 [LEADER_Daniel,Daniel]
 Items = POTION
 LoseText = Very good. You deserve the Knowedge Badge!
-Pokemon = MOSSELIN,10
+Pokemon = MOSSELIN,8
     Moves = LEECHSEED,VINEWHIP,ROCKTHROW,DEFENSECURL
 	Item = ORANBERRY
-Pokemon = GRALING,12
+Pokemon = GRALING,10
     Moves = RAZORLEAF,KNOCKOFF,WORKUP
 	Item = ORANBERRY
 	
@@ -112,16 +112,24 @@ Pokemon = GRALING,12
 #-------------------------------
 [TUBER_M, João]
 LoseText = Buaaaaaaaah!
-Pokemon = TURTEED,9
+Pokemon = TURTEED,10
 #-------------------------------
 [TUBER_F, Maria]
 LoseText = Atleast my tube is still cute!
-Pokemon = AXOLOBY,9
+Pokemon = AXOLOBY,10
 #-------------------------------
 [YOUNGSTER, Rafael]
 LoseText = Dammit, your are super strong!
 Pokemon = SPARCUB,12
 Pokemon = HUMMIRD,10
+[FISHERMAN, Berg]
+LoseText = My Pokémon!!!
+Pokemon = MAGIKARP,5
+Pokemon = MAGIKARP,5
+Pokemon = MAGIKARP,6
+Pokemon = MAGIKARP,8
+Pokemon = MAGIKARP,9
+Pokemon = MAGIKARP,15
 
 
 #Route 6
