@@ -208,16 +208,14 @@ Pokemon = CAPYBURA,12
 LoseText = The forces of evil weren't enought for you!
 Pokemon = BOUDYENA,12
 Pokemon = CAPYBURA,13
-Pokemon = YOUNROW,14
 
 #Abandoned Hotel 3F
 #-------------------------------
 [REAPERBOSS, Alcapone]
 LoseText = Huh?! What's this...
-Pokemon = CAPYBURA,14
-	Moves = BULKUP,BITE,LEER
+Pokemon = YOUNROW,14
 Pokemon = EVIRASS,18
-    Moves = BULKUP,LEECHSEED,VINEWHIP,KNOCKOFF
+    Moves = BULKUP,LEECHSEED,RAZORLEAF,KNOCKOFF
 	Item = SITRUSBERRY
 	
 
@@ -225,9 +223,8 @@ Pokemon = EVIRASS,18
 #-------------------------------
 [PICNICKER, Sabrina]
 LoseText = My cuties!
-Pokemon = DWILD,12
 Pokemon = ORBEAF,14
 	Gender = Female
 [CAMPER, Hamilton]
 LoseText = Atleast I learn about the region!
-Pokemon = CHIKATE,12
+Pokemon = BABRAGON,12
