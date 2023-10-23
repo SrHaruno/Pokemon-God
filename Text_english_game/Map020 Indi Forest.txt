@@ -1,0 +1,26 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map020]
+Oh, are you \pn?\nIm one of Prof.Will AIDES.\nIm researching about the elemental monkeys.\nWe heard they seem stronger in this region.\nCould you keep one of these monkeys and gather information?
+Oh, are you \pn?\nIm one of Prof.Will AIDES.\nIm researching about the elemental monkeys.\nWe heard they seem stronger in this region.\nCould you keep one of these monkeys and gather information?
+Prof.Will
+Prof.Will
+\bOh, you don't have any space for it.
+\bOh, you don't have any space for it.
+Understandable, if you change your mind, come back to me.
+Understandable, if you change your mind, come back to me.
+We heard rumor of an fourth monkey\nbut we were never able to confirm it.
+We heard rumor of an fourth monkey\nbut we were never able to confirm it. 
+Two trainer meet eyes, that means a battle begins!
+Two trainer meet eyes, that means a battle begins!
+Bug-type son!
+Bug-type son!
+My bug Pokémon are unbeatable!
+My bug Pokémon are unbeatable!
+Aaron is my main inspiration\nfor becoming an Bug catcher. I wanna become strong just like him!
+Aaron is my main inspiration\nfor becoming an Bug catcher.  I wanna become strong just like him!
+Yes
+Yes
+No
+No

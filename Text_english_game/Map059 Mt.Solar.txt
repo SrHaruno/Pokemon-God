@@ -1,0 +1,8 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map059]
+I heard there was an town built around this volcano three years ago.
+I heard there was an town built around this volcano three years ago.
+However, the part that led to it seem to have collapsed.
+However, the part that led to it seem to have collapsed.

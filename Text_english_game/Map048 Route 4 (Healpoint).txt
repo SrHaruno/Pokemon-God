@@ -1,0 +1,20 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map048]
+Ow, your pokemon seem to be tired.
+Ow, your pokemon seem to be tired.
+Wanna get a rest?
+Wanna get a rest?
+Your Pokémon where healed.
+Your Pokémon where healed.
+All healed!
+All healed!
+Feel free to come back once your hurt!
+Feel free to come back once your hurt!
+First, you should restore your Pokémon to full health.
+First, you should restore your Pokémon to full health.
+Yes
+Yes
+No
+No

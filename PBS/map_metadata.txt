@@ -38,6 +38,9 @@ HealingSpot = 2,8,8
 Name = Plateau City
 HealingSpot = 9,10,12
 #-------------------------------
+[010]   # Towns/Cities
+Name = Nothing
+#-------------------------------
 [013]   # Indi Town
 Name = Indi Town
 Outdoor = true
@@ -92,12 +95,6 @@ ShowArea = true
 BattleBack = field
 #-------------------------------
 [023]   # Mt.Solar
-Name = Mt.Solar
-ShowArea = true
-BattleBack = cave1
-Environment = Cave
-#-------------------------------
-[059]   # Mt.Solar
 Name = Mt.Solar
 ShowArea = true
 BattleBack = cave1
@@ -167,10 +164,10 @@ HealingSpot = 47,16,68
 MapPosition = 0,20,4
 BattleBack = field
 #-------------------------------
-[048]   # Route 4 Safepoint
+[048]   # Route 4 (Healpoint)
 Name = Route 4
 #-------------------------------
-[049]   # Cafe
+[049]   # Route 4 (Cafe)
 Name = Route 4
 #-------------------------------
 [050]   # Route 6 Gate
@@ -206,3 +203,9 @@ BattleBack = indoor1
 #-------------------------------
 [057]   # Police Departament 3F
 Name = Marine City
+#-------------------------------
+[059]   # Mt.Solar
+Name = Mt.Solar
+ShowArea = true
+BattleBack = cave1
+Environment = Cave

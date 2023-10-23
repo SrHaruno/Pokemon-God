@@ -1,0 +1,42 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map056]
+It's an door.
+It's an door.
+It's locked!\nThe door nob is broken!
+It's locked!\nThe door nob is broken!
+Hmph...\nWhat do you want?
+Hmph...\nWhat do you want?
+Hah!\nStop my goons?
+Hah!\nStop my goons?
+Why would I?\nThey just keep those stinky people\nout of the town.
+Why would I?\nThey just keep those stinky people\nout of the town.
+I can't see their face...\nIt just makes me disgusted.
+I can't see their face...\nIt just makes me disgusted.
+You want me to get out?
+You want me to get out?
+Then come get me!
+Then come get me!
+What was this?\nI didn't felt this feeling in a long time!
+What was this?\nI didn't felt this feeling in a long time!
+I used to be so happy.\nChallenging trainers, seeing their smile after receiving the badge.\wtnp[60]
+I used to be so happy.\nChallenging trainers, seeing their smile after receiving the badge.\wtnp[60] 
+It all changed after \c[1]Darkai\c[12] appeared\..\..\..\wtnp[60]
+It all changed after \c[1]Darkai\c[12] appeared\..\..\..\wtnp[60]
+My parents fell in an deep sleep. I heard getting a lunar wing would heal...\wtnp[60]
+My parents fell in an deep sleep. I heard getting a lunar wing would heal...\wtnp[60] 
+But I was too late\..\..\..\wtnp[60]
+But I was too late\..\..\..\wtnp[60] 
+People tought those bad dreams were contagious... \|NO ONE HELPED ME!\wtnp[60]
+People tought those bad dreams were contagious... \|NO ONE HELPED ME!\wtnp[60] 
+That's why I banished EVERYONE!\nSeeing their face just makes me angry!\wtnp[60]
+That's why I banished EVERYONE!\nSeeing their face just makes me angry!\wtnp[60] 
+You made me feel somenthing\nI didn't felt in a long time!
+You made me feel somenthing\nI didn't felt in a long time!
+You can have this.
+You can have this.
+\me[Badge get]You've earned the Wave Badge.\wtnp[110]
+\me[Badge get]You've earned the Wave Badge.\wtnp[110]
+\me[Item get]Here, have this TM too.\wtnp[30]
+\me[Item get]Here, have this TM too.\wtnp[30]

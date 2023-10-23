@@ -1,0 +1,54 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map024]
+\bBill: Hello! I'm \v[2].
+\bBill: Hello! I'm \v[2].
+\bI invented the Pokémon Storage System.
+\bI invented the Pokémon Storage System.
+\bWhat do you want to know?
+\bWhat do you want to know?
+\bAll storage box wallpapers need to be listed in class PokemonStorage, in def allWallpapers.
+\bAll storage box wallpapers need to be listed in class PokemonStorage, in def allWallpapers.
+\bThey correspond to box_0.png, box_1.png, etc. in order without gaps. These images are in the folder Graphics/Pictures/Storage.
+\bThey correspond to box_0.png, box_1.png, etc. in order without gaps. These images are in the folder Graphics/Pictures/Storage.
+\bStorage wallpapers are split into two categories: basic and special.All basic wallpapers are listed before the special wallpapers.
+\bStorage wallpapers are split into two categories: basic and special.All basic wallpapers are listed before the special wallpapers.
+\bBasic wallpapers are always accessible, and boxes use these wallpapers by default. Numbers 0 to 15 inclusive are basic wallpapers.
+\bBasic wallpapers are always accessible, and boxes use these wallpapers by default. Numbers 0 to 15 inclusive are basic wallpapers.
+\bSpecial wallpapers start off locked and unavailable. You can unlock them with pbUnlockWallpaper(id), where id is the wallpaper's number.
+\bSpecial wallpapers start off locked and unavailable.  You can unlock them with pbUnlockWallpaper(id), where id is the wallpaper's number.
+\rHello, and welcome to the Pokémon Center.
+\rHello, and welcome to the Pokémon Center.
+\rWe restore your tired Pokémon to full health.
+\rWe restore your tired Pokémon to full health.
+\rWould you like to rest your Pokémon?
+\rWould you like to rest your Pokémon?
+\rOK, I'll take your Pokémon for a few seconds.
+\rOK, I'll take your Pokémon for a few seconds.
+\rYour Pokémon may be infected by Pokérus.
+\rYour Pokémon may be infected by Pokérus.
+\rLittle is known about the Pokérus except that they are microscopic life-forms that attach to Pokémon.
+\rLittle is known about the Pokérus except that they are microscopic life-forms that attach to Pokémon.
+\rWhile infected, Pokémon are said to grow exceptionally well.
+\rWhile infected, Pokémon are said to grow exceptionally well.
+\rThank you for waiting.
+\rThank you for waiting.
+\rWe've restored your Pokémon to full health.
+\rWe've restored your Pokémon to full health.
+\rWe hope to see you again!
+\rWe hope to see you again!
+\rFirst, you should restore your Pokémon to full health.
+\rFirst, you should restore your Pokémon to full health.
+\rYour Pokémon have been healed to perfect health.
+\rYour Pokémon have been healed to perfect health.
+\rWe hope you excel!
+\rWe hope you excel!
+Wallpapers
+Wallpapers
+Cancel
+Cancel
+Yes
+Yes
+No
+No

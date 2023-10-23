@@ -1,0 +1,38 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map063]
+\bI'll take your party for safekeeping.
+\bI'll take your party for safekeeping.
+\bThen you may choose from our selection of Pokémon.
+\bThen you may choose from our selection of Pokémon.
+\bCome with me.
+\bCome with me.
+\bBattle number \v[1] is next. Are you ready?
+\bBattle number \v[1] is next. Are you ready?
+\bWould you like to swap a Pokémon first?
+\bWould you like to swap a Pokémon first?
+\bOK, the Pokémon swap is complete.
+\bOK, the Pokémon swap is complete.
+\bWould you like to save the game and continue later?
+\bWould you like to save the game and continue later?
+Your game has been saved.
+Your game has been saved.
+\bAre you sure you want to quit your challenge?
+\bAre you sure you want to quit your challenge?
+\bWould you like to record your last battle?
+\bWould you like to record your last battle?
+\se[Pkmn exp full]The battle was recorded.
+\se[Pkmn exp full]The battle was recorded.
+Go on
+Go on
+Rest
+Rest
+Retire
+Retire
+Record
+Record
+Yes
+Yes
+No
+No

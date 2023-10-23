@@ -1,0 +1,8 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map074]
+\bSorry, you can't enter Cycle Road without a Bicycle.
+\bSorry, you can't enter Cycle Road without a Bicycle.
+\bCycling Road is a great ride.
+\bCycling Road is a great ride.

@@ -1,0 +1,10 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map028]
+What was that?\nThat was an very weird dream!
+What was that?\nThat was an very weird dream!
+Oh yeah, my brother asked me\nyesterday to go to his lab.
+Oh yeah, my brother asked me\nyesterday to go to his lab.
+I should be going right now!
+I should be going right now!

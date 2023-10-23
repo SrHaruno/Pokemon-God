@@ -1,0 +1,10 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map013]
+Huff...\nHuff...\nIm gonna become the best runner around!
+Huff...\nHuff...\nIm gonna become the best runner around!
+Teens these are so mean!\nThey were joking about pushing me into the pond!
+Teens these are so mean!\nThey were joking about pushing me into the pond!
+We are working hard to allow\npassage towards \c[1]North Sehand\c[0].
+We are working hard to allow\npassage towards \c[1]North Sehand\c[0].

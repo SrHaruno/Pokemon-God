@@ -1,0 +1,32 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map054]
+BAHAHAHA!\nKids these days are so easy to scare!
+BAHAHAHA!\nKids these days are so easy to scare!
+I was no match for you!
+I was no match for you!
+It's an door.
+It's an door.
+It's locked!\nI need an key!
+It's locked!\nI need an key!
+Nuh uh!\nYou are not foilling our boss plans
+Nuh uh!\nYou are not foilling our boss plans
+Theres somenthing written here...
+Theres somenthing written here...
+...Face your fears an you may\nproceed to the future...
+...Face your fears an you may\nproceed to the future...
+We hid all the keys!\nYou will never defeat our boss!
+We hid all the keys!\nYou will never defeat our boss!
+Trying to reach our boss?\nWell you won't get him!
+Trying to reach our boss?\nWell you won't get him!
+Boo!
+Boo!
+HA! HA!\nDid I scared ya?
+HA! HA!\nDid I scared ya?
+Theres a bunch of books.\nHm?
+Theres a bunch of books.\nHm?
+This one seems to be out of place...
+This one seems to be out of place...
+Ahead the innocent one, the future will open.
+Ahead the innocent one, the future will open.

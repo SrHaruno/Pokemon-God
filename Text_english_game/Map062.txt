@@ -1,0 +1,84 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map062]
+\bWelcome to the Battle Factory.
+\bWelcome to the Battle Factory.
+\bWould you like to participate in a double battle?
+\bWould you like to participate in a double battle?
+\bDo you want to take the Level 50 challenge, or the Open Level challenge?
+\bDo you want to take the Level 50 challenge, or the Open Level challenge?
+\bPlease come this way.
+\bPlease come this way.
+\bCome back another time.
+\bCome back another time.
+\bCongratulations for winning.
+\bCongratulations for winning.
+\bI will take your rental Pokémon back and return your own Pokémon.
+\bI will take your rental Pokémon back and return your own Pokémon.
+\bPlease accept these Battle Point(s).
+\bPlease accept these Battle Point(s).
+\PN obtained \v[1] Battle Point(s).
+\PN obtained \v[1] Battle Point(s).
+\bWould you like to record your last battle?
+\bWould you like to record your last battle?
+\se[Pkmn exp full]The battle was recorded.
+\se[Pkmn exp full]The battle was recorded.
+\bYour results will be recorded.\wtnp[15]
+\bYour results will be recorded.\wtnp[15]
+\bThanks for playing.
+\bThanks for playing.
+\bWe've been waiting for you. Please come this way.
+\bWe've been waiting for you. Please come this way.
+\bExcuse me, but you didn't save before finishing your challenge last time.
+\bExcuse me, but you didn't save before finishing your challenge last time.
+\bSorry, but your challenge has been canceled.
+\bSorry, but your challenge has been canceled.
+Check results for which challenge?
+Check results for which challenge?
+\PN's Battle Factory Level 50 Single Battle results:
+\PN's Battle Factory Level 50 Single Battle results:
+Last win streak: \v[1]\nRecord win streak: \v[2]
+Last win streak: \v[1]\nRecord win streak: \v[2]
+\PN's Battle Factory Open Level Single Battle results:
+\PN's Battle Factory Open Level Single Battle results:
+\PN's Battle Factory Level 50 Double Battle results:
+\PN's Battle Factory Level 50 Double Battle results:
+\PN's Battle Factory Open Level Double Battle results:
+\PN's Battle Factory Open Level Double Battle results:
+Which heading do you want to read?
+Which heading do you want to read?
+In the Battle Factory, you fight using Pokémon provided for you. You must use three Pokémon out of a choice of six.
+In the Battle Factory, you fight using Pokémon provided for you. You must use three Pokémon out of a choice of six.
+Pokémon in later rounds will be stronger than in earlier rounds, both yours and your opponents'.
+Pokémon in later rounds will be stronger than in earlier rounds, both yours and your opponents'.
+When you defeat a Trainer, you may swap one of your Pokémon for one of theirs.
+When you defeat a Trainer, you may swap one of your Pokémon for one of theirs.
+You can't check the details of the Trainer's Pokémon before you choose one to gain in a swap. You will have to remember what it was like from the battle.
+You can't check the details of the Trainer's Pokémon before you choose one to gain in a swap. You will have to remember what it was like from the battle.
+Your team will remain in the same order even after a swap. For example, if you swap away your second Pokémon, the new Pokémon will now be second.
+Your team will remain in the same order even after a swap. For example, if you swap away your second Pokémon, the new Pokémon will now be second.
+There is no battle recorded.
+There is no battle recorded.
+\bWould you like to participate in a single battle?
+\bWould you like to participate in a single battle?
+Yes
+Yes
+No
+No
+Level 50
+Level 50
+Open Level
+Open Level
+Cancel
+Cancel
+Battle Factory rules
+Battle Factory rules
+Play recorded battle
+Play recorded battle
+Basic Rules
+Basic Rules
+Swapping
+Swapping
+Exit
+Exit

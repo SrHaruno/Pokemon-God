@@ -1,0 +1,22 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[REGION_LOCATION_NAMES]
+Rondor Town
+Rondor Town
+Route 1
+Route 1
+Indi Town
+Indi Town
+Route 2
+Route 2
+Route 7
+Route 7
+Route 6
+Route 6
+Mt.Hope
+Mt.Hope
+Mt.Solar
+Mt.Solar
+Thundra Cave
+Thundra Cave

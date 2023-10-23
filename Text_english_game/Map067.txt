@@ -1,0 +1,42 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map067]
+\bWelcome to the Safari Zone!
+\bWelcome to the Safari Zone!
+\G\bFor just $500, you can play the Safari Game.
+\G\bFor just $500, you can play the Safari Game.
+\G\bYou can roam the wide-open Safari Zone and catch whatever you like.
+\G\bYou can roam the wide-open Safari Zone and catch whatever you like.
+\G\bWould you like to play?
+\G\bWould you like to play?
+\G\bSorry, your PC boxes are full.
+\G\bSorry, your PC boxes are full.
+\G\bOops!\nNot enough money!
+\G\bOops!\nNot enough money!
+\G\bCome again.
+\G\bCome again.
+\G\bThat'll be $500, please!\1
+\G\bThat'll be $500, please!\1
+\G\bWe only use a special kind of Poké Ball here.
+\G\bWe only use a special kind of Poké Ball here.
+\G\PN received 30 Safari Balls from the attendant. \me[Item get]\wtnp[40]
+\G\PN received 30 Safari Balls from the attendant. \me[Item get]\wtnp[40]
+\G\bWe'll call you on the PA when you run out of time or Safari Balls.
+\G\bWe'll call you on the PA when you run out of time or Safari Balls.
+\G\bWell, I'll wish you the best of luck!
+\G\bWell, I'll wish you the best of luck!
+\G\bOkay.\nPlease come again!
+\G\bOkay.\nPlease come again!
+\bAre you going to leave the Safari Zone early?
+\bAre you going to leave the Safari Zone early?
+\bPlease return any Safari Balls you may have left.
+\bPlease return any Safari Balls you may have left.
+\bGood luck!
+\bGood luck!
+\bDid you catch your fair share? Come again!
+\bDid you catch your fair share? Come again!
+Yes
+Yes
+No
+No

@@ -1,0 +1,8 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map034]
+We came here from Gigantopolis to\nget a fresh new air from the metropolis life!
+We came here from Gigantopolis to\nget a fresh new air from the metropolis life!
+The country life is an good fresh\nair from the big city life!
+The country life is an good fresh\nair from the big city life!

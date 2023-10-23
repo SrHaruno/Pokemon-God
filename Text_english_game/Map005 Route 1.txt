@@ -1,0 +1,32 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map005]
+It's an Apricorn Tree!
+It's an Apricorn Tree!
+There are no Apricorns...
+There are no Apricorns...
+Potions can help you alot trough your jorney!\nThose can save you from situations\nthat you are cornered!\nYou can buy more at PokeMarts!\nPokéMarts can be found inside PokeCenters!
+Potions can help you alot trough your jorney!\nThose can save you from situations\nthat you are cornered!\nYou can buy more at PokeMarts!\nPokéMarts can be found inside PokeCenters!
+Hello!\nYou seem to be a new trainer.\nTake these to help!
+Hello!\nYou seem to be a new trainer.\nTake these to help!
+Im trying to find an hidden item.\nSome items can't be seen by plain sight and are hidden in Routes, Caves or Forests!
+Im trying to find an hidden item.\nSome items can't be seen by plain sight and are hidden in Routes, Caves or Forests!
+Will: \pn!\nOver here!
+Will: \pn!\nOver here!
+Will: Come here!
+Will: Come here!
+Will: Do you see that over there?\nIt's an wild \c[1]Dwild\c[0]!
+Will: Do you see that over there?\nIt's an wild \c[1]Dwild\c[0]!
+Will: Here Ill show how to catch a Pokémon!\nFlygon I chose you!
+Will: Here Ill show how to catch a Pokémon!\nFlygon I chose you!
+Fly!!!
+Fly!!!
+Will: We usually weak the Pokémon\nwe are trying to catch, that makes easier to catch!\nFlygon, use Tackle!
+Will: We usually weak the Pokémon\nwe are trying to catch, that makes easier to catch!\nFlygon, use Tackle!
+Will: Now that the foe is weak, we can throw a Pokéball! \nFlygon, that's enought!
+Will: Now that the foe is weak, we can throw a Pokéball! \nFlygon, that's enought!
+Will: Pokéball, go!
+Will: Pokéball, go!
+Will: And that's it, isn't it easy?\nUsing status like Sleep or Paralyze may also help when catching!\nJust becareful of Status that can knockout a Pokémon, like Burn or Poison. \nAnyway, that's all, see ya!
+Will: And that's it, isn't it easy?\nUsing status like Sleep or Paralyze may also help when catching!\nJust becareful of Status that can knockout a Pokémon, like Burn or Poison. \nAnyway, that's all, see ya!

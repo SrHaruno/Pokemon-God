@@ -1,0 +1,30 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map044]
+We took over the city!\nNext step is taking over the world!
+We took over the city!\nNext step is taking over the world!
+Even if you defeat me, we still gonna take over the world! Some day...
+Even if you defeat me, we still gonna take over the world! Some day...
+Wait a minute!
+Wait a minute!
+Your not getting away!
+Your not getting away!
+Grunt 1: Oh ow...
+Grunt 1: Oh ow...
+Oh my \c[1]Arceus\c[0].\nCan't belive you lost to an kid!
+Oh my \c[1]Arceus\c[0].\nCan't belive you lost to an kid!
+Run away!
+Run away!
+This won't end like this!
+This won't end like this!
+Our boss told us to not let anyone pass!
+Our boss told us to not let anyone pass!
+Dirty trainers are not allowed!
+Dirty trainers are not allowed!
+No!\nCome back!
+No!\nCome back!
+Damn, he escaped!
+Damn, he escaped!
+Hey you!\nYou shall not pass!
+Hey you!\nYou shall not pass!

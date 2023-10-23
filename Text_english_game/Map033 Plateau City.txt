@@ -1,0 +1,10 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map033]
+It must be tiring to walk and explore the whole region.\nIm proud of you!
+It must be tiring to walk and explore the whole region.\nIm proud of you!
+My grandmother works at Silph Co.\nWe came here for her holidays.
+My grandmother works at Silph Co.\nWe came here for her holidays.
+Hey trainer, take this, it was a gift from my grandmother\nbut I can't use it.\nSo you can keep it!
+Hey trainer, take this, it was a gift from my grandmother\nbut I can't use it.\nSo you can keep it!

@@ -1,0 +1,38 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map014]
+Halt Trainer\nThere was an rockslide, please wait.
+Halt Trainer\nThere was an rockslide, please wait.
+Bruno: Wait!
+Bruno: Wait!
+Bruno: Have you heard?\nMarine port has been taken over by some thugs!
+Bruno: Have you heard?\nMarine port has been taken over by some thugs!
+I heard they are called \c[1]The Reapers\c[0]. They seem to be pretty strong, not even police is being able to stop them!
+I heard they are called \c[1]The Reapers\c[0]. They seem to be pretty strong, not even police is being able to stop them!
+Hey \pn, we both got our first badge, why don't we battle to see if we grew stronger?
+Hey \pn, we both got our first badge, why don't we battle to see if we grew stronger?
+This way we can know if we can deal with them!
+This way we can know if we can deal with them!
+Ready or not, here I go!
+Ready or not, here I go!
+Sheesh, your strong!
+Sheesh, your strong!
+Anyway, go ahead, Ill heal my Pokémon.\nLet's meet in Marine city alright?
+Anyway, go ahead, Ill heal my Pokémon.\nLet's meet in Marine city alright?
+Heya, do you know what happends when two trainers meet eyes?\nThey battle of course!
+Heya, do you know what happends when two trainers meet eyes?\nThey battle of course!
+I was no match for you!
+I was no match for you!
+I came here looking for some extraterrestrial rocks!
+I came here looking for some extraterrestrial rocks!
+Looks like my out of earth strategy wasn't good\nenough for you!
+Looks like my out of earth strategy wasn't good\nenough for you!
+My precious Pokémon will defeat you!
+My precious Pokémon will defeat you!
+I love cute Pokémon, you should try getting one.
+I love cute Pokémon, you should try getting one.
+Route 2 - Meteor Crash
+Route 2 - Meteor Crash
+It seems the meteor crash brought some meteors that can change forms of some Pokémon.\nI just haven't find out wich Pokémon can have it's form changed.
+It seems the meteor crash brought some meteors that can change forms of some Pokémon.\nI just haven't find out wich Pokémon can have it's form changed.

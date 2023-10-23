@@ -1,0 +1,8 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map017]
+\sign[signskin]Express yourself with gifts!\n4F: Wise Man Gifts
+\sign[signskin]Express yourself with gifts!\n4F: Wise Man Gifts
+\sign[signskin]Evolution Special!\nElement Stones on sale now!
+\sign[signskin]Evolution Special!\nElement Stones on sale now!

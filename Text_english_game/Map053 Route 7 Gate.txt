@@ -1,0 +1,6 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map053]
+Bruh.\nScrew off kid!
+Bruh.\nScrew off kid!

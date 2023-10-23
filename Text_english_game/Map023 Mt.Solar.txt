@@ -1,0 +1,70 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map023]
+\bAh, it's you!
+\bAh, it's you!
+\bWe were raising your Pokémon, and my goodness, were we surprised!
+\bWe were raising your Pokémon, and my goodness, were we surprised!
+\bYour Pokémon was holding an Egg!
+\bYour Pokémon was holding an Egg!
+\bWe don't know how it got there, but your Pokémon had it.
+\bWe don't know how it got there, but your Pokémon had it.
+\bYou do want it, don't you?
+\bYou do want it, don't you?
+\bYou have no room for it right now... Come back when you've made room.
+\bYou have no room for it right now... Come back when you've made room.
+\me[Egg get]\PN received the Egg from the Day-Care Man.
+\me[Egg get]\PN received the Egg from the Day-Care Man.
+\bYou take good care of it.
+\bYou take good care of it.
+\bI really will keep it. You do want this Egg, yes?
+\bI really will keep it. You do want this Egg, yes?
+\bWell all right then, I'll take it. Thank you.
+\bWell all right then, I'll take it. Thank you.
+\bThat is, I don't think we'll ever find another...
+\bThat is, I don't think we'll ever find another...
+\bNo, no, I'm sure we'll find another one. I'm definitely sure of it!
+\bNo, no, I'm sure we'll find another one. I'm definitely sure of it!
+\bI'm the Day-Care Man.
+\bI'm the Day-Care Man.
+\bI help take care of the precious Pokémon of trainers.
+\bI help take care of the precious Pokémon of trainers.
+\bAny Pokémon you'd like to have raised you can leave in my wife's care.
+\bAny Pokémon you'd like to have raised you can leave in my wife's care.
+\bAh, it's you!\nGood to see you!
+\bAh, it's you!\nGood to see you!
+\bYour \v[3] is doing just fine.
+\bYour \v[3] is doing just fine.
+\bYour \v[3] and \v[4] are doing just fine.
+\bYour \v[3] and \v[4] are doing just fine.
+\bThe two play with other Pokémon rather than with each other...
+\bThe two play with other Pokémon rather than with each other...
+\bThe two don't seem to like each other much.
+\bThe two don't seem to like each other much.
+\bThe two seem to get along.
+\bThe two seem to get along.
+\bThe two seem to get along very well.
+\bThe two seem to get along very well.
+\bWe're having a sale today. 25% off all Poké Balls.
+\bWe're having a sale today. 25% off all Poké Balls.
+\w[signskin]Pokémon Fan Club
+\w[signskin]Pokémon Fan Club
+\bHi! I'm super thirsty. Do you have a Lemonade? I'll trade you a Bicycle for one. I have too many Bicycles.
+\bHi! I'm super thirsty. Do you have a Lemonade? I'll trade you a Bicycle for one. I have too many Bicycles.
+\bOh, you have a Lemonade? Would you consider exchanging it for a Bicycle?
+\bOh, you have a Lemonade? Would you consider exchanging it for a Bicycle?
+\bExcellent! Here you go.
+\bExcellent! Here you go.
+\bThank you! I really needed this.
+\bThank you! I really needed this.
+\bYou have no space in your Bag. I don't want to just take your Lemonade, so come back when I can give you a Bicycle in return.
+\bYou have no space in your Bag. I don't want to just take your Lemonade, so come back when I can give you a Bicycle in return.
+\bThat's too bad. I really am thirsty.
+\bThat's too bad. I really am thirsty.
+\bAre you enjoying your Bicycle? The Lemonade you gave me was just what I needed.
+\bAre you enjoying your Bicycle? The Lemonade you gave me was just what I needed.
+Yes
+Yes
+No
+No

@@ -1,0 +1,46 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map000]
+\bHello, \PN!\nI can see you calling me over there!
+\bHello, \PN!\nI can see you calling me over there!
+\bCome over and talk to me.
+\bCome over and talk to me.
+\bHello, this is Professor Oak...\nOh, hello, \PN!
+\bHello, this is Professor Oak...\nOh, hello, \PN!
+\bSo, how's your Pokédex coming along?
+\bSo, how's your Pokédex coming along?
+\bHmm, let's see..\nYou've seen \v[1] Pokémon, and \nyou've caught \v[2] Pokémon!\nI see!
+\bHmm, let's see..\nYou've seen \v[1] Pokémon, and \nyou've caught \v[2] Pokémon!\nI see!
+\bHmm, you still have a long journey ahead of you! \nKeep on going!
+\bHmm, you still have a long journey ahead of you! \nKeep on going!
+\bHmm, you're catching Pokémon at a decent pace!
+\bHmm, you're catching Pokémon at a decent pace!
+\bYou've caught a lot of Pokémon, but make sure you're raising them carefully!
+\bYou've caught a lot of Pokémon, but make sure you're raising them carefully!
+\bI didn't even know that many Pokémon existed!
+\bI didn't even know that many Pokémon existed!
+\bShow me your Pokédex again anytime!
+\bShow me your Pokédex again anytime!
+\bShow me your Pokédex anytime!
+\bShow me your Pokédex anytime!
+\rDo you want me to stop following you?
+\rDo you want me to stop following you?
+\rI'll just vanish, then.
+\rI'll just vanish, then.
+\rLet's keep going!
+\rLet's keep going!
+Do you wish to use online features?
+Do you wish to use online features?
+Please follow-me
+Please follow-me
+Have a great day!
+Have a great day!
+Evaluate Pokédex
+Evaluate Pokédex
+Quit
+Quit
+Yes
+Yes
+No
+No

@@ -1,0 +1,12 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[Map032]
+Hm?\nExp.share parts?\nWhy would you need it.\nNow's days Exp.share is pointless, all team members get exp regardeless.
+Hm?\nExp.share parts?\nWhy would you need it.\nNow's days Exp.share is pointless, all team members get exp regardeless.
+That's how my company went bankrupt.
+That's how my company went bankrupt.
+Research says a \c[1]great beast\c[0]\nused to live here.
+Research says a \c[1]great beast\c[0]\nused to live here.
+However, it seems to have\nmoved from here to somewhere else.\nWe don't know where exactly yet.
+However, it seems to have\nmoved from here to somewhere else.\nWe don't know where exactly yet.
