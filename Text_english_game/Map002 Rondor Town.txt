@@ -2,18 +2,18 @@
 # translate every second line of this file.
 #-------------------------------
 [Map002]
-Those thugs around have\nbeen getting in my nerves!\nNot even the Police has been\nable to contain them!
-Those thugs around have\nbeen getting in my nerves!\nNot even the Police has been\nable to contain them!
-Thanks for getting rid of those thugs, take this!\nIt will increase money trainer gives!
-Thanks for getting rid of those thugs, take this!\nIt will increase money trainer gives!
+Those thugs around have\nbeen getting on my nerves!\nNot even the Police have been\nable to stop them!
+Those thugs around have\nbeen getting on my nerves!\nNot even the Police have been\nable to stop them!
+Thanks for getting rid of those thugs, take this!\nIt will increase the money trainers give!
+Thanks for getting rid of those thugs, take this!\nIt will increase the money trainers give!
 Goodbye Mom!
 Goodbye Mom!
 Grrrr
 Grrrr
 Bruno's House
 Bruno's House
-Me and my Sis used to play spies until we were\nscolded for it.
-Me and my Sis used to play spies until we were\nscolded for it.
+Me and Sis used to play spies until we were\nscolded for it.
+Me and Sis used to play spies until we were\nscolded for it.
 Blair house
 Blair house
 Whitlea house
@@ -22,8 +22,8 @@ Me and my brother love to play around!
 Me and my brother love to play around!
 \pn's House
 \pn's House
-Patience is key for anything in life!\nThat's what I learned with fishing!
-Patience is key for anything in life!\nThat's what I learned with fishing!
+Patience is key for anything in life!\nThat's what I learned from fishing!
+Patience is key for anything in life!\nThat's what I learned from fishing!
 Did you know you can mass release or mass move Pokémon in the PC storage?
 Did you know you can mass release or mass move Pokémon in the PC storage?
 Just press the ACTION button until it's green, select multiple Pokémon then press ACTION again to get the option for mass release!
