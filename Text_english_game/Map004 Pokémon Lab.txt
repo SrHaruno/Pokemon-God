@@ -2,60 +2,60 @@
 # translate every second line of this file.
 #-------------------------------
 [Map004]
-Prof.Will: So, \pn and Bruno.\nI asked for both of you to come here\nbecause a friend of mine from far away asked me to collect data\nfrom the species around this region!
-Prof.Will: So, \pn and Bruno.\nI asked for both of you to come here\nbecause a friend of mine from far away asked me to collect data\nfrom the species around this region!
+Prof.Will: So, \pn and Bruno.\nI asked for both of you to come here\nbecause a friend of mine from far away asked me to collect data\nover the species around this region!
+Prof.Will: So, \pn and Bruno.\nI asked for both of you to come here\nbecause a friend of mine from far away asked me to collect data\nover the species around this region!
 Bruno: So, we are gonna get our P-Pokémon!!!\nThat's like a dream come true!
 Bruno: So, we are gonna get our P-Pokémon!!!\nThat's like a dream come true!
-Prof.Will: Yes, I just started my research, so I also want you to collect those species for me.
-Prof.Will: Yes, I just started my research, so I also want you to collect those species for me.
-So \pn, do you wanna go on a journey catching Pokémon?
-So \pn, do you wanna go on a journey catching Pokémon?
+Prof.Will: Yes, I just started my research, so I also want you to collect those species for it.
+Prof.Will: Yes, I just started my research, so I also want you to collect those species for it.
+So \pn, do you wanna go on a jorney catching Pokémon?
+So \pn, do you wanna go on a jorney catching Pokémon?
 Will: Lead the way \pn.
 Will: Lead the way \pn.
 Prof.Will: WHAT?!?\nBruno:WHAT?!?
 Prof.Will: WHAT?!?\nBruno:WHAT?!?
 BAD ENDING
 BAD ENDING
-Prof.Will: Ah, you've made your choice!
-Prof.Will: Ah, you've made your choice!
-Prof.Will: Graling. when it's scared, it disguises itself as a tree sapling.
-Prof.Will: Graling. when it's scared, it disguises itself as a tree sapling.
-Prof.Will: Egdon. he may look goofy on the outside, but it has an burning flame inside waiting to be released!
-Prof.Will: Egdon. he may look goofy on the outside, but it has an burning flame inside waiting to be released!
-Prof.Will: Ah yes, Axoloby. It likes to sleep next to trainers when they're having nice dreams.
-Prof.Will: Ah yes, Axoloby. It likes to sleep next to trainers when they're having nice dreams.
-Prof.Will: Now, Bruno, it's your turn.
-Prof.Will: Now, Bruno, it's your turn.
+Prof.Will: Ah, you made your choice!
+Prof.Will: Ah, you made your choice!
+Prof.Will: Graling, excellent choice!
+Prof.Will: Graling, excellent choice!
+Prof.Will: Egdon, he may look goofy outside, but has an burning flame inside waiting to be released!
+Prof.Will: Egdon, he may look goofy outside, but has an burning flame inside waiting to be released!
+Prof.Will: Ah yes, Axoloby, the popular pick!
+Prof.Will: Ah yes, Axoloby, the popular pick!
+Prof.Will: Now Bruno, it's your turn.
+Prof.Will: Now Bruno, it's your turn.
 Bruno: Finally!
 Bruno: Finally!
-Prof.Will: Perfect, both of you have your Pokémon. Now take these, and you will be\nable to fill the Pokedex!
-Prof.Will: Perfect, both of you have your Pokémon. Now take these, and you will be\nable to fill the Pokedex!
-\pn and Bruno got 5 Pokeballs and a Pokédex!
-\pn and Bruno got 5 Pokeballs and a Pokédex!
+Prof.Will: Perfect, both of you have your Pokémon. Now take these, with these you will be\nable to fill the Pokedex!
+Prof.Will: Perfect, both of you have your Pokémon.  Now take these, with these you will be\nable to fill the Pokedex!
+\pn and Bruno got 5 Pokeball and a Pokédex!
+\pn and Bruno got 5 Pokeball and a Pokédex!
 Game Variable 7 should store 1 if the player chose the Grass starter, 2 if they chose the Fire starter, and 3 if they chose the Water starter.
 Game Variable 7 should store 1 if the player chose the Grass starter, 2 if they chose the Fire starter, and 3 if they chose the Water starter.
 This information can be used later in the game, e.g. to determine which Pokémon the rival uses, and to detect when the player has chosen a starter at all.
-This information can be used later in the game, e.g. to determine which Pokémon the rival uses, and to detect when the player has chosen a starter at all.
-Bruno: Hey \pn, we both have our Pokémon.\nHow about we test their strength?\nMy dream has alway been to be a \c[1]Pokémon Master\c[0] and this is my opportunity to train! \nReady or not here I go!
-Bruno: Hey \pn, we both have our Pokémon.\nHow about we test their strength?\nMy dream has alway been to be a \c[1]Pokémon Master\c[0] and this is my opportunity to train! \nReady or not here I go!
-Bruno: Nice, I got the stronger one!
-Bruno: Nice, I got the stronger one!
+This information can be used later in the game, e.g.  to determine which Pokémon the rival uses, and to detect when the player has chosen a starter at all.
+Bruno: Hey \pn, we both have our Pokémon.\nWhat about we test their strength?\nMy dream has alway been to be a \c[1]Pokémon Master\c[0] and this is my opportunity to train! \nReady or not here I go.
+Bruno: Hey \pn, we both have our Pokémon.\nWhat about we test their strength?\nMy dream has alway been to be a \c[1]Pokémon Master\c[0] and this is my opportunity to train! \nReady or not here I go.
+Bruno: Damn, I got the stronger one!
+Bruno: Damn, I got the stronger one!
 Bruno: Well, that was fun.\nIm going to search for some Pokémon so I can become stronger!!\nSmell ya later \pn!
 Bruno: Well, that was fun.\nIm going to search for some Pokémon so I can become stronger!!\nSmell ya later \pn!
 Prof.Will: Hey \pn, do you know how to catch Pokémon?
 Prof.Will: Hey \pn, do you know how to catch Pokémon?
-Prof.Will: Ok!\nTake care!
-Prof.Will: Ok!\nTake care!
-Prof.Will: Ok, I'll be waiting you in Route 1!
-Prof.Will: Ok, I'll be waiting for you in Route 1!
+Prof.Will: Ok!\nTake care of your self!
+Prof.Will: Ok!\nTake care of your self!
+Prof.Will: Ok, Ill be waiting you in Route 1!
+Prof.Will: Ok, Ill be waiting you in Route 1!
 Do you wanna get your Pokédex checked?
 Do you wanna get your Pokédex checked?
 Will: Wow, you got \v[1] Pokemon!\nAs an reward take this!
-Will: Wow, you got \v[1] Pokemon!\nAs a reward take this!
+Will: Wow, you got \v[1] Pokemon!\nAs an reward take this!
 Will: You have captured \v[1] Pokémon.\nWork harder!
-Will: You have captured \v[1] Pokémon.\nYou need to work harder!
+Will: You have captured \v[1] Pokémon.\nWork harder!
 Will: Remember, to fully fill your pokedex\nyou also need to catch the Pokémon!
-Will: Remember, to fully complete your pokedex\nyou also need to catch the Pokémon!
+Will: Remember, to fully fill your pokedex\nyou also need to catch the Pokémon!
 Will: What are you waiting for?
 Will: What are you waiting for?
 Prof.Will: Wait, don't leave yet!
@@ -63,13 +63,13 @@ Prof.Will: Wait, don't leave yet!
 Prof.Oak came this morning all the way from \c[1]Kanto\c[0].
 Prof.Oak came this morning all the way from \c[1]Kanto\c[0].
 He asked us to gather information over the species around here.
-He asked us to gather information about the species here.
+He asked us to gather information over the species around here.
 Theres Pokeballs in there.
-There's Pokeballs in there.
+Theres Pokeballs in there.
 Wich Pokémon do you want?
-Which Pokémon do you want?
+Wich Pokémon do you want?
 Prof.Will: So, you want Graling the grass Pokémon?
-Prof.Will: So, you want Graling, the grass Pokémon?
+Prof.Will: So, you want Graling the grass Pokémon?
 Prof.Will: Choose carefully!
 Prof.Will: Choose carefully!
 Prof.Will: So, you want Egdon, the fire Pokémon?
@@ -77,11 +77,11 @@ Prof.Will: So, you want Egdon, the fire Pokémon?
 Prof.Will: So, you want Axoloby, the water Pokémon?
 Prof.Will: So, you want Axoloby, the water Pokémon?
 Prof.Will: Ah, your there finally!
-Prof.Will: Ah, you're there finally!
+Prof.Will: Ah, your there finally!
 Bruno: Oh boy I can't wait to chose mine!
-Bruno: Oh boy I can't wait to choose my own pokemon!
+Bruno: Oh boy I can't wait to chose mine!
 The event next to the Professor contains the autorun commands.
-The event next to the Professor contains the auto-run commands.
+The event next to the Professor contains the autorun commands.
 There are two times it does something: when the player first enters the map, and when the player has chosen a starter.
 There are two times it does something: when the player first enters the map, and when the player has chosen a starter.
 The second time is on a higher page number. Page numbers go in order of first to last cutscene, including pages for pauses between them if relevant.

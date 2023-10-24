@@ -2,14 +2,14 @@
 # translate every second line of this file.
 #-------------------------------
 [Map005]
-It's an Apricorn Tree!
-It's an Apricorn Tree!
-There are no Apricorns...
-There are no Apricorns...
 Potions can help you alot trough your jorney!\nThose can save you from situations\nthat you are cornered!\nYou can buy more at PokeMarts!\nPokéMarts can be found inside PokeCenters!
 Potions can help you alot trough your jorney!\nThose can save you from situations\nthat you are cornered!\nYou can buy more at PokeMarts!\nPokéMarts can be found inside PokeCenters!
 Hello!\nYou seem to be a new trainer.\nTake these to help!
 Hello!\nYou seem to be a new trainer.\nTake these to help!
+It's an Apricorn Tree!
+It's an Apricorn Tree!
+There are no Apricorns...
+There are no Apricorns...
 Im trying to find an hidden item.\nSome items can't be seen by plain sight and are hidden in Routes, Caves or Forests!
 Im trying to find an hidden item.\nSome items can't be seen by plain sight and are hidden in Routes, Caves or Forests!
 Will: \pn!\nOver here!

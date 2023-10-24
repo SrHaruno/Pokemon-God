@@ -3,7 +3,6 @@
 [002] # Rondor Town
 OldRod
     70,MAGIKARP,5
-	
 #-------------------------------
 [005] # Route 1
 LandDay,21
@@ -17,19 +16,17 @@ LandNight,21
 OldRod
     70,MAGIKARP,8,10
 GoodRod
-	60,MAGIKARP,8,10
+    60,MAGIKARP,8,10
 SuperRod
-	20,GYARADOS,30,33
-	
+    20,GYARADOS,30,33
 #-------------------------------
 [013] # Indi Town
 OldRod
     70,MAGIKARP,8,10
 GoodRod
-	60,MAGIKARP,8,10
+    60,MAGIKARP,8,10
 SuperRod
-	20,GYARADOS,30,33
-	
+    20,GYARADOS,30,33
 #-------------------------------
 [014] # Route 2
 LandDay,21
@@ -43,10 +40,9 @@ LandNight,21
 OldRod
     70,MAGIKARP,8,10
 GoodRod
-	60,MAGIKARP,8,10
+    60,MAGIKARP,8,10
 SuperRod
-	20,GYARADOS,30,33
-	
+    20,GYARADOS,30,33
 #-------------------------------
 [018] # Route 3
 LandDay,21
@@ -57,8 +53,6 @@ LandNight,21
     50,FLAMMUNY,4,6
     50,PURIRD,4,6
     5,EEVEE,10
-	
-	
 #-------------------------------
 [020] # Indi Forest
 Land,21
@@ -75,37 +69,29 @@ Land,21
 OldRod
     70,MAGIKARP,8,10
 GoodRod
-	60,MAGIKARP,8,10
+    60,MAGIKARP,8,10
 SuperRod
-	20,GYARADOS,30,33
-	
-	
+    20,GYARADOS,30,33
 #-------------------------------
 [022] # Plateau City
 OldRod
     70,MAGIKARP,5
 GoodRod
-	60,MAGIKARP,8,10
-	
-	
+    60,MAGIKARP,8,10
 #-------------------------------
 [023] # Mt.Solar
 Cave,5
     50,MOMBER,2,5
-	
-	
 #-------------------------------
 [039] # Route 4
 LandDay,21
     50,SPARKATIEL,7,9
-	40,SPARCUB,7,9
-	5,HUMMIRD,10
+    40,SPARCUB,7,9
+    5,HUMMIRD,10
 LandNight,21
     50,SPARKATIEL,7,9
-	40,SPARCUB,7,9
-	5,FRUCTERA,10
-	
-	
+    40,SPARCUB,7,9
+    5,FRUCTERA,10
 #-------------------------------
 [040] # Route 5
 LandDay,21
@@ -115,50 +101,58 @@ LandNight,21
 OldRod
     70,MAGIKARP,8,10
 GoodRod
-	60,MAGIKARP,8,10
+    60,MAGIKARP,8,10
 SuperRod
-	20,GYARADOS,30,33
-	
-	
+    20,GYARADOS,30,33
 #-------------------------------
 [042] # Route 6
 LandDay,21
     50,ORBEAF,9,10
-	40,SPARCUB,9,12
-	5,HUMMIRD,10
+    40,SPARCUB,9,12
+    5,HUMMIRD,10
 LandNight,21
     50,CAPYBURA,9,10
-	40,BOUDYENA,9,12
-	5,PURIRD,10
-	
-	
+    40,BOUDYENA,9,12
+    5,PURIRD,10
 #-------------------------------
 [044] # Lunar Cave
 Cave,5
+    50,FRUCTERA,10,12
     50,MOSSELIN,10,12
-	50,FRUCTERA,10,12
 OldRod
     70,MAGIKARP,8,10
 GoodRod
-	60,MAGIKARP,8,10
+    60,MAGIKARP,8,10
 SuperRod
-	20,GYARADOS,30,33
-	
-	
+    20,GYARADOS,30,33
 #-------------------------------
 [046] # Mt.Hope
 Cave,5
     50,UNOWN,8,10
-	5,SNAKRE,10
-
-
+    5,SNAKRE,10
 #-------------------------------
 [052] # Route 7
 LandDay,21
     50,DWILD,9,10
-	40,SPARCUB,9,12
-	5,HUMMIRD,10
+    40,SPARCUB,9,12
+    5,HUMMIRD,10
 LandNight,21
     50,CAPYBURA,9,10
-	40,BOUDYENA,9,12
-	5,PURIRD,10
+    40,BOUDYENA,9,12
+    5,PURIRD,10
+#-------------------------------
+[060] # Serenity Pond
+LandDay,21
+    50,DWILD,3,5
+    50,PURIRD,3,5
+    10,CAPYBURA,5
+LandNight,21
+    50,CAPYBURA,5
+    50,PURIRD,3,5
+    10,DWILD,3,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33

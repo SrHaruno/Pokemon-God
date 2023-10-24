@@ -2,25 +2,25 @@
 # translate every second line of this file.
 #-------------------------------
 [Map003]
-Mom: Oh, your pokemon look rather tired.
-Mom: Oh, your pokemon look rather tired.
+Mom: Ow, your pokemon seem to be tired.
+Mom: Ow, your pokemon seem to be tired.
 Your Pokémon were healed.
 Your Pokémon were healed.
-Mom: Take care Sweetie!
-Mom: Take care Sweetie!
-Oh... Are you all right? Well, you'll have better luck next time.
-Oh... Are you all right? Well, you'll have better luck next time.
-It's Mom's room.
-It's Mom's room.
+Mom: Take care sweetie!
+Mom: Take care sweetie!
+Oh... Are you all right? Well, you'll have better luck this time.
+Oh... Are you all right? Well, you'll have better luck this time.
+It's my mom room.
+It's my mom room.
 It's locked.
 It's locked.
 It's our bathroom.
 It's our bathroom.
-Ah, you're finally awake!\nI thought you would sleep all day!
-Ah, you're finally awake!\nI thought you would sleep all day!
-Your brother said He needs you in the lab! It must be really important since He was in a hurry!
-Your brother said He needs you in the lab! It must be really important since He was in a hurry!
-Also, I'm done cleaning your shoes. Here you go!
-Also, I'm done cleaning your shoes. Here you go!
+Ah, finally awake!\nI tought you would sleep all day!
+Ah, finally awake!\nI tought you would sleep all day!
+Your brother said he needs you in the lab! Must be really important since he was in a hurry!
+Your brother said he needs you in the lab! Must be really important since he was in a hurry!
+Also, Im done cleaning your shoes. Take it!
+Also, Im done cleaning your shoes. Take it!
 \me[Key item get]\pn got the \c[1]Running Shoes\c[0]! \wtnp[30]
 \me[Key item get]\pn got the \c[1]Running Shoes\c[0]! \wtnp[30] 

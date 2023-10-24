@@ -38,7 +38,7 @@ HealingSpot = 2,8,8
 Name = Plateau City
 HealingSpot = 9,10,12
 #-------------------------------
-[010]   # Towns/Cities
+[010]   # Town&Cities
 Name = Nothing
 #-------------------------------
 [013]   # Indi Town
@@ -209,3 +209,10 @@ Name = Mt.Solar
 ShowArea = true
 BattleBack = cave1
 Environment = Cave
+#-------------------------------
+[060]   # Serenity Pond
+Outdoor = true
+ShowArea = true
+Weather = Rain,20
+MapPosition = 0,13,0
+BattleBack = field
