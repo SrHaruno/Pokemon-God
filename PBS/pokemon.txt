@@ -23497,7 +23497,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = Capybara
 Pokedex = ???
-Evolution = CAPYJAW, Level, 20
+Evolutions = CAPYJAW,Level,20
 #-------------------------------
 [CAPYJAW]
 Name = Capyjaw
@@ -23545,6 +23545,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = Taturana
 Pokedex = ???
+Evolutions = ELECOON,Level,20
 #-------------------------------
 [ELECOON]
 Name = Elecoon
@@ -23568,6 +23569,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = Shell
 Pokedex = ???
+Evolutions = THUNDOTH,Level,30
 #-------------------------------
 [THUNDOTH]
 Name = Thundoth
@@ -23615,6 +23617,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
+Evolutions = PUPENGUE,Level,20
 #-------------------------------
 [PUPENGUE]
 Name = Pupengue
@@ -23638,6 +23641,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
+Evolutions = MOSQUENTE,Level,30
 #-------------------------------
 [MOSQUENTE]
 Name = Mosquente
@@ -23975,7 +23979,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-Evolution = BOXICKEN, Level, 14
+Evolutions = BOXICKEN,Level,14
 #-------------------------------
 [BOXICKEN]
 Name = Boxicken
@@ -23999,7 +24003,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-Evolution = JUHOOSTER, Level, 34
+Evolutions = JUHOOSTER,Level,34
 #-------------------------------
 [JUHOOSTER]
 Name = Juhooster
@@ -24095,7 +24099,7 @@ Shape = Winged
 Habitat = Urban
 Category = Cockatiel
 Pokedex = ???
-Evolution = ELECKATIEL, Level, 22
+Evolutions = ELECKATIEL,Level,22
 #-------------------------------
 [ELECKATIEL]
 Name = Eleckatiel
@@ -24144,7 +24148,7 @@ Shape = Winged
 Habitat = Urban
 Category = Humming bird
 Pokedex = ???
-Evolution = POLLING, Level, 22
+Evolutions = POLLING,Level,22
 #-------------------------------
 [POLLING]
 Name = Polling
@@ -24194,7 +24198,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Cub
 Pokedex = ???
-Evolution = CHELECTRIC, Level, 26
+Evolutions = CHELECTRIC,Level,26
 #-------------------------------
 [CHELECTRIC]
 Name = Chelectric
@@ -24244,7 +24248,7 @@ Shape = Quadruped
 Habitat = Sea
 Category = Turtle
 Pokedex = ???
-Evolution = TURTLOW, Level, 16
+Evolutions = TURTLOW,Level,16
 #-------------------------------
 [TURTLOW]
 Name = Turtlow
@@ -24270,7 +24274,7 @@ Shape = Quadruped
 Habitat = Sea
 Category = Turtle
 Pokedex = ???
-Evolution = TURTANK, Level, 36
+Evolutions = TURTANK,Level,36
 #-------------------------------
 [TURTANK]
 Name = Turtank
@@ -24320,7 +24324,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = Yenna
 Pokedex = ???
-Evolution = MURAMARIS,Level,28
+Evolutions = MURAMARIS,Level,28
 #-------------------------------
 [MURAMARIS]
 Name = Muramaris
@@ -24369,7 +24373,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-Evolution = MOSSENGE, Level, 25
+Evolutions = MOSSENGE,Level,25
 #-------------------------------
 [MOSSENGE]
 Name = Mossenge
@@ -24393,7 +24397,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-Evolution = MOSSOLEM, Level, 36
+Evolutions = MOSSOLEM,Level,36
 #-------------------------------
 [MOSSOLEM]
 Name = Mossolem
@@ -24442,7 +24446,7 @@ Shape = Winged
 Habitat = Urban
 Category = Bat
 Pokedex = ???
-Evolution = CHIROPEEL, Level, 22
+Evolutions = CHIROPEEL,Level,22
 #-------------------------------
 [CHIROPEEL]
 Name = Chiropeel
@@ -24492,7 +24496,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = Dolphin
 Pokedex = ???
-Evolution = ENCANTACEAN, Level, 35
+Evolutions = ENCANTACEAN,Level,35
 #-------------------------------
 [ENCANTACEAN]
 Name = Encantacean
@@ -24541,7 +24545,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-Evolution = Drakiddo,Level,38
+Evolutions = DRAKIDDO,Level,38
 #-------------------------------
 [DRAKIDDO]
 Name = Drakiddo
@@ -24565,7 +24569,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-Evolution = DRAGOWER, Level, 48
+Evolutions = DRAGOWER,Level,48
 #-------------------------------
 [DRAGOWER]
 Name = Dragower

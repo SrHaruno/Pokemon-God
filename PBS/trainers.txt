@@ -181,6 +181,12 @@ Pokemon = CAPYBURA,13
 LoseText = Atleast I tried
 Pokemon = CAPYBURA,12
 Pokemon = YOUNROW,14
+#-------------------------------
+[FISHERMAN, Finn]
+LoseText = That was fishy...
+Pokemon = BOTOLPHIN,14
+Pokemon = PSYLOTE,16
+
 
 #Abandoned Hotel 1F
 #-------------------------------
