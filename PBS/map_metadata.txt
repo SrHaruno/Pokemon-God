@@ -216,3 +216,9 @@ ShowArea = true
 Weather = Rain,20
 MapPosition = 0,13,0
 BattleBack = field
+#-------------------------------
+[065]   # Battle Island
+Name = Battle Island
+Outdoor = true
+ShowArea = true
+BattleBack = field

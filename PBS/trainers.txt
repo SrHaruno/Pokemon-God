@@ -234,3 +234,23 @@ Pokemon = ORBEAF,14
 [CAMPER, Hamilton]
 LoseText = Atleast I learn about the region!
 Pokemon = BABRAGON,12
+
+
+#Battle Island
+#-------------------------------
+[ACETRAINER_M, Artur] #4 Badges
+LoseText = Nice one!
+Pokemon = HAPPINY,20
+Pokemon = CHANSEY,20
+
+[ACETRAINER_M, Artur,1] #7 Badges
+LoseText = Nice one!
+Pokemon = CHANSEY,40
+Pokemon = CHANSEY,40
+
+[ACETRAINER_M, Artur,2] #Post-Game
+LoseText = Nice one!
+Pokemon = CHANSEY,60
+Pokemon = CHANSEY,65
+Pokemon = BLISSEY,70
+Pokemon = BLISSEY,80
