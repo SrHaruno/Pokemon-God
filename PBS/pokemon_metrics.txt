@@ -4045,8 +4045,8 @@ ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [CHESPIN]
-BackSprite = 0,46
-FrontSprite = 1,28
+BackSprite = 0,0
+FrontSprite = 1,16
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
@@ -4057,8 +4057,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [CHESNAUGHT]
-BackSprite = 9,40
-FrontSprite = -4,15
+BackSprite = 9,0
+FrontSprite = -4,9
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -4309,14 +4309,14 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [CLAUNCHER]
-BackSprite = 0,56
-FrontSprite = 0,35
+BackSprite = 0,0
+FrontSprite = 0,19
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [CLAWITZER]
-BackSprite = 0,40
-FrontSprite = 0,9
+BackSprite = 0,0
+FrontSprite = 0,8
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -4375,8 +4375,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [CARBINK]
-BackSprite = 0,58
-FrontSprite = 0,22
+BackSprite = 0,0
+FrontSprite = 0,18
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
@@ -4783,8 +4783,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [BOUNSWEET]
-BackSprite = 0,54
-FrontSprite = 2,32
+BackSprite = 0,0
+FrontSprite = 2,19
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
@@ -5005,8 +5005,8 @@ ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [CELESTEELA]
-BackSprite = 10,40
-FrontSprite = 2,-3
+BackSprite = 10,0
+FrontSprite = 2,4
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
@@ -5137,8 +5137,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [CINDERACE]
-BackSprite = 0,48
-FrontSprite = 1,11
+BackSprite = 0,0
+FrontSprite = 1,8
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5185,8 +5185,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [CORVIKNIGHT]
-BackSprite = 0,48
-FrontSprite = 0,18
+BackSprite = 0,0
+FrontSprite = 0,11
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5275,8 +5275,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [CARKOL]
-BackSprite = 0,42
-FrontSprite = -1,22
+BackSprite = 0,0
+FrontSprite = -1,13
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5371,8 +5371,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [CENTISKORCH]
-BackSprite = 5,44
-FrontSprite = 5,16
+BackSprite = 5,0
+FrontSprite = 5,10
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5551,8 +5551,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [COPPERAJAH]
-BackSprite = 0,46
-FrontSprite = -3,20
+BackSprite = 0,0
+FrontSprite = -3,10
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
@@ -5881,10 +5881,10 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [CAPYBURA]
-BackSprite = 0,20
-FrontSprite = 0,24
+BackSprite = 0,0
+FrontSprite = -2,25
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [CAPYJAW]
 BackSprite = 0,20

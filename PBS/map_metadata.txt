@@ -7,6 +7,7 @@ Name = Intro
 Name = Rondor Town
 Outdoor = true
 ShowArea = true
+MapPosition = 0,24,4
 BattleBack = field
 #-------------------------------
 [003]   # Player's house
@@ -45,6 +46,7 @@ Name = Nothing
 Name = Indi Town
 Outdoor = true
 ShowArea = true
+MapPosition = 0,19,5
 BattleBack = field
 #-------------------------------
 [014]   # Route 2
@@ -53,7 +55,6 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,8,4
 BattleBack = field
-MapSize = 1,
 #-------------------------------
 [015]   # Route 2 Gate
 Name = Route 2
@@ -73,7 +74,6 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,10,4
 BattleBack = field
-MapSize = 1,
 #-------------------------------
 [019]   # Day-Care
 Name = Day-Care
@@ -82,6 +82,7 @@ Name = Day-Care
 Name = Indi Forest
 Outdoor = true
 ShowArea = true
+MapPosition = 0,22,6
 BattleBack = forest
 #-------------------------------
 [021]   # Route 3 Gate
@@ -92,6 +93,7 @@ Bicycle = true
 Name = Plateau City
 Outdoor = true
 ShowArea = true
+MapPosition = 0,22,7
 BattleBack = field
 #-------------------------------
 [023]   # Mt.Solar
@@ -119,11 +121,13 @@ Name = Marine City
 #-------------------------------
 [036]   # Route 2
 Name = Route 2
+MapPosition = 0,24,4
 #-------------------------------
 [039]   # Route 4
 Name = Route 4
 Outdoor = true
 ShowArea = true
+MapPosition = 0,24,4
 BattleBack = field
 #-------------------------------
 [040]   # Route 5
@@ -161,7 +165,7 @@ Name = Marine City
 Outdoor = true
 ShowArea = true
 HealingSpot = 47,16,68
-MapPosition = 0,20,4
+MapPosition = 0,26,6
 BattleBack = field
 #-------------------------------
 [048]   # Route 4 (Healpoint)
@@ -182,6 +186,7 @@ HealingSpot = 51,10,12
 Name = Route 7
 Outdoor = true
 ShowArea = true
+MapPosition = 0,26,4
 BattleBack = field
 #-------------------------------
 [053]   # Route 7 Gate
@@ -211,6 +216,7 @@ BattleBack = cave1
 Environment = Cave
 #-------------------------------
 [060]   # Serenity Pond
+Name = Serenity Pond
 Outdoor = true
 ShowArea = true
 Weather = Rain,20
@@ -221,4 +227,5 @@ BattleBack = field
 Name = Battle Island
 Outdoor = true
 ShowArea = true
+MapPosition = 0,28,13
 BattleBack = field
