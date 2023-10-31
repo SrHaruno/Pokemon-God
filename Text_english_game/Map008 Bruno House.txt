@@ -1,8 +1,0 @@
-﻿# To localize this text for a particular language, please
-# translate every second line of this file.
-#-------------------------------
-[Map008]
-Our son was so excited\nto get his first Pokémon\nThat he barely got any sleep!\nHe didn't even ate his breakfast!
-Our son was so excited\nto get his first Pokémon\nThat he barely got any sleep!\nHe didn't even ate his breakfast!
-It's locked.
-It's locked.
