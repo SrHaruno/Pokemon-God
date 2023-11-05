@@ -24473,6 +24473,78 @@ Habitat = Urban
 Category = Fruit Eater
 Pokedex = ???
 #-------------------------------
+[GALAKID]
+Name = Galakid
+Types = PSYCHIC
+BaseStats = 40,30,30,80,90,40
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPECIAL_ATTACK,1
+CatchRate = 235
+Happiness = 50
+Abilities = SYNCHRONIZE
+Moves = 1,CONFUSION
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Humanlike
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Psychic
+Pokedex = ???
+Evolutions = SORCALAXY,Level,25
+#-------------------------------
+[SORCALAXY]
+Name = Sorcalaxy
+Types = PSYCHIC
+BaseStats = 55,40,40,90,100,55
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPECIAL_ATTACK,2
+CatchRate = 235
+Happiness = 50
+Abilities = SYNCHRONIZE
+Moves = 1,CONFUSION
+TutorMoves = TACKLE
+EggGroups = Humanlike
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Psychic
+Pokedex = ???
+Evolutions = WIZDROMEDA,Level,35
+#-------------------------------
+[WIZDROMEDA]
+Name = Wizdromeda
+Types = PSYCHIC
+BaseStats = 60,50,45,110,120,95
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPECIAL_ATTACK,2
+CatchRate = 235
+Happiness = 50
+Abilities = SYNCHRONIZE
+Moves = 1,CONFUSION
+TutorMoves = TACKLE
+EggGroups = Humanlike
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Psychic
+Pokedex = ???
+#-------------------------------
 [CUBTURN]
 Name = Cubturn
 Types = GROUND, DARK
