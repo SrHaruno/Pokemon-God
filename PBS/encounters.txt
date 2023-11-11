@@ -119,6 +119,7 @@ LandNight,21
 Cave,5
     50,FRUCTERA,10,12
     50,MOSSELIN,10,12
+	20,GALAKID,15
 OldRod
     70,MAGIKARP,8,10
 GoodRod

@@ -3,15 +3,12 @@
 [0]
 Filename = mapRegion0.png
 Name = Sehand
-Point = 24,4,Rondor Town,Pokémon Lab,,,,
+Point = 24,4,Rondor Town,Pokémon Lab,28,23,,
 Point = 26,4,Route 7,,,,,
 Point = 23,9,Route 6,,,,,
 Point = 28,13,Battle Island,,,,,
 Point = 22,4,Route 1,,,,,
 Point = 22,6,Indi Forest,,,,,
 Point = 22,7,Plateau City,,,,,
-Point = 21,7,Route 3,,,,,44
+Point = 21,7,Route 3,,44,38,,
 Point = 20,7,Route 2,,,,,
-Point = 20,9,Route 2,,,,,
-Point = 20,12,Route 5,,,,,
-Point = 21,9,Mt.Hope,,,,,

@@ -342,3 +342,34 @@ class Battle::Scene
     end
   end
 end
+
+#===============================================================================
+# Fixed abilities triggering twice when a Pokémon with Neutralizing Gas faints
+# and is switched out.
+#===============================================================================
+class Battle::Battler
+  def pbAbilitiesOnSwitchOut
+    if abilityActive?
+      Battle::AbilityEffects.triggerOnSwitchOut(self.ability, self, false)
+    end
+    # Reset form
+    @battle.peer.pbOnLeavingBattle(@battle, @pokemon, @battle.usedInBattle[idxOwnSide][@index / 2])
+    # Check for end of Neutralizing Gas/Unnerve
+    if hasActiveAbility?(:NEUTRALIZINGGAS)
+      # Treat self as fainted
+      @hp = 0
+      @fainted = true
+      pbAbilitiesOnNeutralizingGasEnding
+    elsif hasActiveAbility?([:UNNERVE, :ASONECHILLINGNEIGH, :ASONEGRIMNEIGH])
+      # Treat self as fainted
+      @hp = 0
+      @fainted = true
+      pbItemsOnUnnerveEnding
+    end
+    # Treat self as fainted
+    @hp = 0
+    @fainted = true
+    # Check for end of primordial weather
+    @battle.pbEndPrimordialWeather
+  end
+end
