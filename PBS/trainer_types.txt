@@ -356,4 +356,5 @@ IntroBGM = Trainer Eyes Meet! Lass
 Name = Reaper
 Gender = Male
 BaseMoney = 32
+BattleBGM = Battle! Vs Reaper
 IntroBGM = Trainer Eyes Meet! Youngster

@@ -157,3 +157,11 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33
+#-------------------------------
+[068] # Haunted Desert
+LandDay,21
+    40,TRAPINCH,15
+    25,GIBLE,12,14
+LandNight,21
+    40,TRAPINCH,15
+    25,GIBLE,12,14
