@@ -3657,7 +3657,7 @@ Description = The user drains the foe's energy with its horns. The user's HP is 
 Name = Grassy Glide
 Type = GRASS
 Category = Physical
-Power = 70
+Power = 40
 Accuracy = 100
 TotalPP = 20
 Target = NearOther
@@ -8831,6 +8831,43 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 10
 Description = The foe is hit with an arrow like projectile. This may make the foe fall in love if opposite gender.
 #-------------------------------
+[SACREDSLASH]
+Name = Sacred Slash
+Type = ANGEL
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The target is attacked with an sacred slash. Critical hits land more easily.
+#-------------------------------
+[ODINSTRIKE]
+Name = Odin Strike
+Type = ANGEL
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user strikes it's foe with an powerful blow.
+#-------------------------------
+[GODBLOW]
+Name = God's Blow
+Type = ANGEL
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ConfuseTarget
+EffectChance = 10
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The target is punched with an strong fist. May Confuse the target
+#-------------------------------
 [HOLYLIGHT]
 Name = Holy Light
 Type = ANGEL		
@@ -8849,12 +8886,24 @@ Name = Lunar Spear
 Type = ANGEL
 Category = Physical
 Power = 90
-Accuracy = 95
+Accuracy = 90
 TotalPP = 15
 Target = NearOther
 FunctionCode = None
 Flags = CanProtect,CanMirrorMove
 Description = The user shoots an spear like object from the moon towards the foe.
+#-------------------------------
+[SWORDOFJUSTICE]
+Name = Sword of Justice
+Type = STEEL
+Category = Physical
+Power = 95
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user swings it's sword banishing all evil around. This move is Angel and Steel type simultaneously.
 #-------------------------------
 [BERSERKSMASH]
 Name = Berserk Smash
@@ -8880,3 +8929,15 @@ FunctionCode = RecoilHalfOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 10
 Description = The user attacks the foe recklesly. It also damages the user a lot.
+#-------------------------------
+[HOPELESSBEAM]
+Name = Hopeless Beam
+Type = DEMON		
+Category = Special
+Power = 150
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = AttackAndSkipNextTurn
+Flags = CanProtect,CanMirrorMove
+Description = The foe is attacked with a powerful beam of fear. The user must rest on the next turn to regain its energy.

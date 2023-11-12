@@ -17,7 +17,7 @@ PORT = 9999
 PBS_DIR = r"./PBS"
 LOG_DIR = r"."
 
-GAME_VERSION = StrictVersion("2.0.0")
+GAME_VERSION = StrictVersion("1.1.0")
 
 POKEMON_MAX_NAME_SIZE = 10
 PLAYER_MAX_NAME_SIZE = 10

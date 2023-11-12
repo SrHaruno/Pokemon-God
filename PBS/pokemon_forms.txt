@@ -2341,8 +2341,8 @@ FormName = Mega Axolystic
 MegaStone = VENUSAURITE
 BaseStats = 110,76,120,80,100,140
 BaseExp = 315
-Abilities = MARVELSCALE
-HiddenAbilities = MARVELSCALE
+Abilities = NATURALCURE
+HiddenAbilities = NATURALCURE
 #-------------------------------
 [DWILD,1]
 FormName = Halloween
