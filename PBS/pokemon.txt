@@ -24509,7 +24509,7 @@ EVs = SPECIAL_ATTACK,2
 CatchRate = 235
 Happiness = 50
 Abilities = SYNCHRONIZE
-Moves = 0,PSYBEAM,1,GROWL,10,CONFUSION,15,CONFUSERAY,20,DOUBLETEAM,25,AMNESIA,30,REFLECT,30,LIGHTSCREEN,35,CALMMIND,40,RECOVER,45,PSYSHOCK,55,SKILLSWAP
+Moves = 0,PSYBEAM,1,GROWL,10,CONFUSION,15,CONFUSERAY,20,DOUBLETEAM,25,AMNESIA,30,REFLECT,30,LIGHTSCREEN,35,CALMMIND,40,RECOVER,45,PSYSHOCK,45,PSYCHIC,55,SKILLSWAP,60,FUTURESIGHT
 TutorMoves = TACKLE
 EggGroups = Humanlike
 HatchSteps = 5120
@@ -24520,7 +24520,7 @@ Shape = Bipedal
 Habitat = Cave
 Category = Sorcerer
 Pokedex = ???
-Evolutions = WIZDROMEDA,Level,38
+Evolutions = WIZDROMEDA,Level,48
 #-------------------------------
 [WIZDROMEDA]
 Name = Wizdromeda
@@ -24711,6 +24711,78 @@ Color = Purple
 Shape = Quadruped
 Habitat = Mountain
 Category = Power
+Pokedex = ???
+#-------------------------------
+[ROOGRE]
+Name = Roogre
+Types = ANGEL
+BaseStats = 60,50,55,30,40,45
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = HP,1
+CatchRate = 235
+Happiness = 50
+Abilities = INNERFOCUS
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggMoves = BULKUP
+EggGroups = Humanlike,Monster
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Rookie
+Pokedex = ???
+Evolutions = WARRIOGRE,Level,28
+#-------------------------------
+[WARRIOGRE]
+Name = Warriogre
+Types = ANGEL
+BaseStats = 90,70,80,40,50,55
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = HP,2
+CatchRate = 235
+Happiness = 50
+Abilities = INNERFOCUS
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggGroups = Humanlike,Monster
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Warrior
+Pokedex = ???
+Evolutions HEROGRE,Level,48
+#-------------------------------
+[HEROGRE]
+Name = Herogre
+Types = ANGEL
+BaseStats = 130,100,108,60,50,70
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = HP,3
+CatchRate = 235
+Happiness = 50
+Abilities = INNERFOCUS
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggGroups = Humanlike,Monster
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Category = Warrior
 Pokedex = ???
 #-------------------------------
 [SNAKRE]
