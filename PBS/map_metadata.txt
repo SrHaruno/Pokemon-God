@@ -237,3 +237,8 @@ ShowArea = true
 Weather = Sandstorm,100
 MapPosition = 0,18,9
 BattleBack = Rocky
+#-------------------------------
+[069]   # Forgotten Chamber
+Name = 
+ShowArea = true
+BattleBack = cave1

@@ -158,10 +158,20 @@ GoodRod
 SuperRod
     20,GYARADOS,30,33
 #-------------------------------
+[059] # Mt.Solar
+Cave,5
+    45,FRUCTERA,12,15
+	40,MOMBER,15
+#-------------------------------
 [068] # Haunted Desert
 LandDay,21
-    40,TRAPINCH,15
+    25,TRAPINCH,15
     25,GIBLE,12,14
 LandNight,21
-    40,TRAPINCH,15
+    25,TRAPINCH,15
     25,GIBLE,12,14
+#-------------------------------
+[069] # Forgotten Chamber
+Cave,5
+    45,FRUCTERA,12,15
+	40,MOSSELIN,15

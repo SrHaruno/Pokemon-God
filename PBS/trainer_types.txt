@@ -66,6 +66,12 @@ Gender = Male
 BaseMoney = 32
 IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
+[DRAGONTAMER]
+Name = Dragon Tamer
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Youngster
+#-------------------------------
 [BIRDKEEPER]
 Name = Bird Keeper
 Gender = Male

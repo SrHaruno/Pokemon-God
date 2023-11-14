@@ -244,6 +244,23 @@ LoseText = Atleast I learn about the region!
 Pokemon = BABRAGON,12
 
 
+#Haunted Desert
+#-------------------------------
+[CAMPER, Asriel]
+LoseText = Oh noes!
+Pokemon = CUBTURN,12
+Pokemon = TRAPINCH,12
+
+[HIKER, Fuji]
+LoseText = What a shame!
+Pokemon = MOSSELIN,12
+Pokemon = MOSSELIN,12
+
+[DRAGONTAMER, Jaragon]
+LoseText = Argh!
+Pokemon = GIBLE,12
+Pokemon = DRATINI,14
+
 #Battle Island
 #-------------------------------
 [ACETRAINER_M, Artur] #4 Badges
