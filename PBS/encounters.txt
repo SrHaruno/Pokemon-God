@@ -163,6 +163,16 @@ Cave,5
     45,FRUCTERA,12,15
 	40,MOMBER,15
 #-------------------------------
+[067] # Route 8
+LandDay,21
+	40,PEACIRD,14,16
+	25,ROOGRE,14
+    5,BABRAGON,14,15
+LandNight,21
+	40,YOUNROW,14,16
+	25,ROOGRE,14
+    5,BABRAGON,14,15
+#-------------------------------
 [068] # Haunted Desert
 LandDay,21
     25,TRAPINCH,15

@@ -8831,6 +8831,18 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 10
 Description = The foe is hit with an arrow like projectile. This may make the foe fall in love if opposite gender.
 #-------------------------------
+[PUNISHINGBEAM]
+Name = Punishing Beam
+Type = ANGEL		
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The foe is attacked with beam of light.
+#-------------------------------
 [SACREDSLASH]
 Name = Sacred Slash
 Type = ANGEL
@@ -8879,7 +8891,7 @@ Target = NearOther
 FunctionCode = LowerTargetAccuracy1
 Flags = CanProtect,CanMirrorMove
 EffectChance = 30
-Description = The user calls a blinding light from the skies. This may also lowers the target Accuracy.
+Description = The user calls a blinding light from the skies towards the foe. This may also lowers the target Accuracy.
 #-------------------------------
 [LUNARSPEAR]
 Name = Lunar Spear
