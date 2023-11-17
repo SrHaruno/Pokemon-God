@@ -358,6 +358,12 @@ Gender = Female
 BaseMoney = 16
 IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
+[SHINYMANIAC]
+Name = Shiny Maniac
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Youngster
+#-------------------------------
 [REAPER]
 Name = Reaper
 Gender = Male

@@ -248,3 +248,6 @@ BattleBack = Rocky
 Name = Forgotten Chamber
 ShowArea = true
 BattleBack = cave1
+#-------------------------------
+[070]   # Food_Maniac
+Name = Route 8

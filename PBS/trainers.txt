@@ -256,10 +256,20 @@ LoseText = What a shame!
 Pokemon = MOSSELIN,12
 Pokemon = MOSSELIN,12
 
+
+#Route 8
+#-------------------------------
 [DRAGONTAMER, Jaragon]
 LoseText = Argh!
-Pokemon = GIBLE,12
-Pokemon = DRATINI,14
+Pokemon = BABRAGON,14
+Pokemon = PINATAYA,14
+
+[SHINYMANIAC, Sparkly]
+LoseText = Their shine wasn't enought for you!
+Pokemon = GRALING,12
+	Shiny = true
+Pokemon = DWILD,12
+	Shiny = true
 
 #Battle Island
 #-------------------------------
