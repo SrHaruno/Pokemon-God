@@ -1073,8 +1073,12 @@ Description = Combines Unnerve and Grim Neigh Abilities.
 #-------------------------------
 [UNLEASH]
 Name = Unleash
-Description = Raises it's highest attack stat when knocking a foe.
+Description = Raises the highest offensive stat knocking any Pokémon.
 #-------------------------------
 [COLDBLOOD]
 Name = Cold Blood
 Description = Ups resistance to Ice-type moves.
+#-------------------------------
+[PURIFICATION]
+Name = Purification
+Description = Restores HP if hit by a Poison-type move.
