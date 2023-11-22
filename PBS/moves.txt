@@ -8768,7 +8768,20 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = None
 Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user handles a sharp sword made out of fire and attacks by slashing. It has a high critical-hit ratio.
+Description = The user swings burning slash on the foe. It has a high critical-hit ratio.
+#-------------------------------
+[EXCALIBOO]
+Name = Excaliboo
+Type = GHOST
+Category = Physical
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+Priority = -6
+FunctionCode = SwitchOutTargetDamagingMove
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user knocks away the target and drags out another Pokémon in its party. In the wild, the battle ends.
 #-------------------------------
 [SHUMERANG]
 Name = Shumerang
@@ -8952,4 +8965,4 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = CanProtect,CanMirrorMove
-Description = The foe is attacked with a powerful beam of fear. The user must rest on the next turn to regain its energy.
+Description = A powerful beam filled with fear is fired. The user must rest on the next turn to regain its energy.

@@ -3512,7 +3512,7 @@ CatchRate = 45
 Happiness = 50
 Abilities = RUNAWAY,ADAPTABILITY
 HiddenAbilities = ANTICIPATION
-Moves = 1,COVET,1,HELPINGHAND,1,TACKLE,1,GROWL,1,TAILWHIP,5,SANDATTACK,10,QUICKATTACK,15,BABYDOLLEYES,20,SWIFT,25,BITE,30,COPYCAT,35,BATONPASS,40,TAKEDOWN,45,CHARM,50,DOUBLEEDGE,55,LASTRESORT
+Moves = 1,COVET,1,HELPINGHAND,1,TACKLE,1,GROWL,1,TAILWHIP,5,SANDATTACK,10,QUICKATTACK,12,PUNISHINGBEAM,15,BABYDOLLEYES,20,SWIFT,25,BITE,30,COPYCAT,35,BATONPASS,40,TAKEDOWN,45,CHARM,50,DOUBLEEDGE,55,LASTRESORT
 TutorMoves = ATTRACT,BATONPASS,BODYSLAM,CAPTIVATE,CHARM,CONFIDE,COVET,DIG,DOUBLEEDGE,DOUBLETEAM,ECHOEDVOICE,ENDURE,FACADE,FAKETEARS,FOCUSENERGY,FRUSTRATION,HEADBUTT,HEALBELL,HELPINGHAND,HIDDENPOWER,HYPERVOICE,IRONTAIL,LASERFOCUS,LASTRESORT,MIMIC,MUDSLAP,NATURALGIFT,PAYDAY,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,ROUND,SECRETPOWER,SHADOWBALL,SLEEPTALK,SNORE,STOREDPOWER,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,WEATHERBALL,WORKUP
 EggMoves = CHARM,COVET,CURSE,DETECT,DOUBLEKICK,FAKETEARS,FLAIL,MUDSLAP,STOREDPOWER,TICKLE,WISH,YAWN
 EggGroups = Field
@@ -3525,7 +3525,7 @@ Habitat = Urban
 Category = Evolution
 Pokedex = An Eevee has an unstable genetic makeup that suddenly mutates due to its environment. Radiation from various stones causes this Pokémon to evolve.
 Generation = 1
-Evolutions = VAPOREON,Item,WATERSTONE,JOLTEON,Item,THUNDERSTONE,FLAREON,Item,FIRESTONE,LEAFEON,Item,LEAFSTONE,LEAFEON,LocationFlag,MossRock,GLACEON,Item,ICESTONE,GLACEON,LocationFlag,IceRock,SYLVEON,HappinessMoveType,FAIRY,ESPEON,HappinessDay,,UMBREON,HappinessNight,
+Evolutions = VAPOREON,Item,WATERSTONE,JOLTEON,Item,THUNDERSTONE,FLAREON,Item,FIRESTONE,LEAFEON,Item,LEAFSTONE,LEAFEON,LocationFlag,MossRock,GLACEON,Item,ICESTONE,GLACEON,LocationFlag,IceRock,SYLVEON,HappinessMoveType,FAIRY,ESPEON,HappinessDay,,UMBREON,HappinessNight,,CELESTEON,HasMoveType,ANGEL
 #-------------------------------
 [VAPOREON]
 Name = Vaporeon
@@ -24076,6 +24076,27 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 #-------------------------------
+[CELESTEON]
+Name = Celesteon
+Types = ANGEL
+BaseStats = 110,60,95,65,65,130
+GenderRatio = FemaleOneEighth
+GrowthRate = Medium
+BaseExp = 184
+EVs = SPECIAL_DEFENSE,2
+CatchRate = 45
+Happiness = 50
+Abilities = PUREONE
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggGroups = Field
+HatchSteps = 8960
+Height = 1.0
+Weight = 23.5
+Color = White
+Shape = Quadruped
+Category = Pure
+#-------------------------------
 [SPARKATIEL]
 Name = Sparkatiel
 Types = FLYING,ELECTRIC
@@ -24763,7 +24784,7 @@ Pokedex = These Pokémon love to hang in trees sunbathing. It's said to have exi
 Evolutions = DRACRUIT,Level,30
 #-------------------------------
 [DRACRUIT]
-Name = DRACRUIT
+Name = Dracruit
 Types = GRASS
 BaseStats = 60,40,50,60,80,50
 GenderRatio = Female50Percent
@@ -24848,7 +24869,6 @@ Happiness = 50
 Abilities = PURIFICATION
 Moves = 1,TACKLE
 TutorMoves = TACKLE
-EggMoves = TACKLE
 EggGroups = Mineral
 HatchSteps = 5120
 Height = 0.7
@@ -24932,6 +24952,56 @@ Pokedex = ???
 
 
 #-------------------------------
+[CHINDORION]
+Name = Chindorion
+Types = GHOST, STEEL
+BaseStats = 90,60,100,30,30,100
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 50
+EVs = DEFENSE,1,SPECIAL_DEFENSE,1
+CatchRate = 190
+Happiness = 50
+Abilities = CURSEDBODY,CLEARBODY
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = White
+Shape = HeadBase
+Habitat = Urban
+Category = Ghost
+Pokedex = ???
+#-------------------------------
+[ARMOGHOUL]
+Name = Armoghoul
+Types = GHOST, STEEL
+BaseStats = 108,90,145,40,45,145
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 50
+EVs = DEFENSE,2,SPECIAL_DEFENSE,2
+CatchRate = 45
+Happiness = 50
+Abilities = DARKNESSARMOUR,RUSTYARMOUR
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = White
+Shape = HeadBase
+Habitat = Urban
+Category = Ghost
+Pokedex = ???
+
+
+
+#-------------------------------
 [CAIBORA]
 Name = Caibora
 Types = FAIRY, GRASS
@@ -24979,8 +25049,6 @@ Shape = Bipedal
 Habitat = Forest
 Category = Boar
 Pokedex = ???
-
-
 #-------------------------------
 [ZOSTEELA]
 Name = Zosteela

@@ -1077,8 +1077,20 @@ Description = Raises the highest offensive stat knocking any Pokémon.
 #-------------------------------
 [COLDBLOOD]
 Name = Cold Blood
-Description = Ups resistance to Ice-type moves.
+Description = Ups resistance to Fire- and Ice-type moves.
+#-------------------------------
+[DARKNESSARMOUR]
+Name = Darkness Armour
+Description = Ups resistance to Dark- and Ghost-type moves.
+#-------------------------------
+[RUSTYARMOUR]
+Name = Rusty Armour
+Description = Ups resistance to Fire- and Ground-type moves.
 #-------------------------------
 [PURIFICATION]
 Name = Purification
 Description = Restores HP if hit by a Poison-type move.
+#-------------------------------
+[PUREONE]
+Name = Pure One
+Description = Dark-type moves become Angel-type.
