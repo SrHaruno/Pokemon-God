@@ -10,9 +10,9 @@ LandDay,21
     50,PURIRD,3,5
     10,CAPYBURA,5
 LandNight,21
-    50,CAPYBURA,5
-    50,PURIRD,3,5
     10,DWILD,3,5
+    50,PURIRD,3,5
+    50,CAPYBURA,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -27,6 +27,7 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33
+	
 #-------------------------------
 [014] # Route 2
 LandDay,21
@@ -43,6 +44,8 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33
+	
+	
 #-------------------------------
 [018] # Route 3
 LandDay,21
@@ -53,6 +56,8 @@ LandNight,21
     50,FLAMMUNY,4,6
     50,PURIRD,4,6
     5,EEVEE,10
+	
+	
 #-------------------------------
 [020] # Indi Forest
 Land,21
@@ -148,9 +153,9 @@ LandDay,21
     50,PURIRD,3,5
     10,CAPYBURA,5
 LandNight,21
-    50,CAPYBURA,5
-    50,PURIRD,3,5
     10,DWILD,3,5
+    50,PURIRD,3,5
+    50,CAPYBURA,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -164,11 +169,7 @@ Cave,5
 	40,MOMBER,15
 #-------------------------------
 [067] # Route 8
-LandDay,21
-	40,PEACIRD,14,16
-	25,ROOGRE,14
-    5,BABRAGON,14,15
-LandNight,21
+Land,21
 	40,YOUNROW,14,16
 	25,ROOGRE,14
     5,BABRAGON,14,15

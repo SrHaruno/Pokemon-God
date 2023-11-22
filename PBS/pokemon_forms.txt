@@ -2362,6 +2362,7 @@ Color = White
 Pokedex = WIP
 #-------------------------------
 [ARMOGHOUL,1]
+FormName = Warrior Form
 BaseStats = 90,145,45,108,145,45
 Abilities = CURSEDBODY
 EVs = ATTACK,1,SPECIAL_ATTACK, 2
