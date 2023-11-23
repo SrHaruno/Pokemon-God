@@ -171,7 +171,6 @@ Cave,5
 [067] # Route 8
 Land,21
 	40,YOUNROW,14,16
-	25,ROOGRE,14
     5,BABRAGON,14,15
 #-------------------------------
 [068] # Haunted Desert
