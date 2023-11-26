@@ -4675,14 +4675,14 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [LYCANROC]
-BackSprite = 0,50
-FrontSprite = -2,23
+BackSprite = 0,0
+FrontSprite = -2,13
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [LYCANROC,1]
-BackSprite = 0,46
-FrontSprite = -9,14
+BackSprite = 0,0
+FrontSprite = -9,9
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -6056,9 +6056,9 @@ ShadowSize = 2
 #-------------------------------
 [SHENRAGON]
 BackSprite = 0,20
-FrontSprite = 0,12
+FrontSprite = 6,0
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [BOUDYENA]
 BackSprite = 0,20
@@ -6113,3 +6113,45 @@ BackSprite = 0,25
 FrontSprite = 1,11
 ShadowX = 0
 ShadowSize = 1
+#-------------------------------
+[VOODOLL]
+BackSprite = 0,0
+FrontSprite = 0,18
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[CILLUTION]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CRACKUUM]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[PECURU]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SORCALAXY]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[VAMPADGER]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[VOOlEASE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2

@@ -64,7 +64,7 @@ Bicycle = true
 Name = Indi Town
 HealingSpot = 16,10,11
 #-------------------------------
-[017]   # Indit Town Poke Center 2F
+[017]   # Indi Town Poke Center 2F
 Name = Indi Town
 #-------------------------------
 [018]   # Route 3
@@ -182,6 +182,9 @@ Bicycle = true
 Name = Marine Town
 HealingSpot = 51,10,12
 #-------------------------------
+[073]   # Marine Town Poke Center 2F
+Name = Marine Town
+#-------------------------------
 [052]   # Route 7
 Name = Route 7
 Outdoor = true
@@ -251,3 +254,19 @@ BattleBack = cave1
 #-------------------------------
 [070]   # Food_Maniac
 Name = Route 8
+#-------------------------------
+[071]   # Vituresa Town
+Outdoor = true
+ShowArea = true
+BattleBack = Forest
+#-------------------------------
+[072]   # Vituresa Poke Center
+Name = Marine Town
+#-------------------------------
+[074]   # Vituresa Poke Center 2F
+Name = Marine Town
+HealingSpot = 72,10,12
+#-------------------------------
+[075]   # Route 8 Gate
+Name = Route 8
+Bicycle = true

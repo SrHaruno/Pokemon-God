@@ -169,11 +169,11 @@ Pokemon = PANSAGE,14
 LoseText = Man I hate this job!
 Pokemon = CAPYBURA,12
 Pokemon = FRUCTERA,12
-#-------------------------------
+
 [REAPER, Carl]
 LoseText = How I lost to a kid!
 Pokemon = BOUDYENA,12
-#-------------------------------
+
 [REAPER, Tony]
 LoseText = What! RUN AWAY!
 Pokemon = CAPYBURA,12
@@ -184,12 +184,12 @@ Pokemon = CAPYBURA,12
 LoseText = This won't end like this.
 Pokemon = BOUDYENA,12
 Pokemon = CAPYBURA,13
-#-------------------------------
+
 [REAPER, Pedro]
 LoseText = Atleast I tried
 Pokemon = CAPYBURA,12
 Pokemon = YOUNROW,14
-#-------------------------------
+
 [FISHERMAN, Finn]
 LoseText = That was fishy...
 Pokemon = BOTOLPHIN,14
@@ -201,12 +201,12 @@ Pokemon = PSYLOTE,16
 [REAPER, Niko]
 LoseText = Reeeeeeeeeeeee!
 Pokemon = CAPYBURA,14
-#-------------------------------
+
 [REAPER, Nathan]
 LoseText = I tought I had a chance!
 Pokemon = BOUDYENA,12
 Pokemon = FRUCTERA,14
-#-------------------------------
+
 [REAPER, Drake]
 LoseText = I may have lost, but I lost with style!
 Pokemon = BOUDYENA,12
@@ -217,7 +217,7 @@ Pokemon = BOUDYENA,12
 [REAPER, Chris]
 LoseText = Not even scaring gave me an advantage!
 Pokemon = CAPYBURA,12
-#-------------------------------
+
 [REAPER, Nick]
 LoseText = The forces of evil weren't enought for you!
 Pokemon = BOUDYENA,12
@@ -227,6 +227,7 @@ Pokemon = CAPYBURA,13
 #-------------------------------
 [REAPERBOSS, Alcapone]
 LoseText = Huh?! What's this...
+Items = POTION
 Pokemon = YOUNROW,14
 Pokemon = EVIRASS,18
     Moves = BULKUP,LEECHSEED,RAZORLEAF,KNOCKOFF
@@ -268,8 +269,16 @@ Pokemon = PINATAYA,14
 LoseText = Their shine wasn't enought for you!
 Pokemon = GRALING,12
 	Shiny = true
-Pokemon = DWILD,12
+Pokemon = CUBTURN,12
 	Shiny = true
+
+#Vituresa Town
+#-------------------------------
+[ACETRAINER_M, Pietro]
+LoseText = You are strong!
+Pokemon = BABRAGON,18
+Pokemon = ROOGRE,18
+
 
 #Battle Island
 #-------------------------------
