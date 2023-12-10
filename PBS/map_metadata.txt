@@ -261,7 +261,7 @@ ShowArea = true
 BattleBack = Forest
 #-------------------------------
 [072]   # Vituresa Poke Center
-Name = Marine Town
+Name = Vituresa Town
 #-------------------------------
 [074]   # Vituresa Poke Center 2F
 Name = Marine Town
