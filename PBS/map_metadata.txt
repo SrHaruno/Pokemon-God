@@ -182,9 +182,6 @@ Bicycle = true
 Name = Marine Town
 HealingSpot = 51,10,12
 #-------------------------------
-[073]   # Marine Town Poke Center 2F
-Name = Marine Town
-#-------------------------------
 [052]   # Route 7
 Name = Route 7
 Outdoor = true
@@ -256,12 +253,16 @@ BattleBack = cave1
 Name = Route 8
 #-------------------------------
 [071]   # Vituresa Town
+Name = Vituresa Town
 Outdoor = true
 ShowArea = true
 BattleBack = Forest
 #-------------------------------
-[072]   # Vituresa Poke Center
+[072]   # Vituresa Town PC
 Name = Vituresa Town
+#-------------------------------
+[073]   # Marine Poke Center 2F
+Name = Marine Town
 #-------------------------------
 [074]   # Vituresa Poke Center 2F
 Name = Marine Town
@@ -270,3 +271,7 @@ HealingSpot = 72,10,12
 [075]   # Route 8 Gate
 Name = Route 8
 Bicycle = true
+#-------------------------------
+[077]   # Saintmass Town
+Outdoor = true
+ShowArea = true
