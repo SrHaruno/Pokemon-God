@@ -23315,7 +23315,7 @@ BaseExp = 50
 EVs = SPEED,1
 CatchRate = 255
 Happiness = 50
-Abilities = QUICKFEET
+Abilities = KEENEYE
 Moves = 1,GUST,1,GROWL,7,QUICKATTACK,12,SING,17,AIRCUTTER,22,ROUND,27,FEATHERDANCE,31,ROOST,35,AIRSLASH,39,HYPERVOICE,43,HURRICANE,47,MIRRORMOVE
 TutorMoves = TACKLE
 EggMoves = DEFOG
@@ -23323,12 +23323,12 @@ EggGroups = Field,Flying
 HatchSteps = 3840
 Height = 0.7
 Weight = 6.9
-Color = Gray
+Color = Blue
 Shape = Bipedal
 Habitat = Urban
 Category = Pure
 Pokedex = ???
-Evolutions = PEACIRD,LevelDay,14,YOUNROW,LevelNight,14,PEACIRD,Location,046,YOUNROW,Location,059
+Evolutions = PEACIRD,LevelDay,14,YOUNROW,LevelNight,14,PEACIRD,Location,46,YOUNROW,Location,59
 #-------------------------------
 [PEACIRD]
 Name = Peacird
@@ -23347,12 +23347,12 @@ EggGroups = Field,Flying
 HatchSteps = 1
 Height = 0.7
 Weight = 6.9
-Color = Gray
+Color = Yellow
 Shape = Bipedal
 Habitat = Urban
 Category = Peace bringer
 Pokedex = Purird evolves into Peacird once it's consume by pure kindness, Peacerird bring joys just by flying by.
-Evolutions = DOVENESS, Level, 34
+Evolutions = DOVENESS,Level,34
 #-------------------------------
 [DOVENESS]
 Name = Doveness
@@ -23371,7 +23371,7 @@ EggGroups = Field,Flying
 HatchSteps = 1
 Height = 0.7
 Weight = 6.9
-Color = Gray
+Color = Yellow
 Shape = Bipedal
 Habitat = Urban
 Category = Hope
@@ -23394,12 +23394,12 @@ EggGroups = Field,Flying
 HatchSteps = 1
 Height = 0.7
 Weight = 6.9
-Color = Gray
+Color = Black
 Shape = Bipedal
 Habitat = Urban
 Category = Crow
 Pokedex = Purird evolves into Younrow after being consumed by darkness, Younrows like to tag with people with bad intentions.
-Evolutions = CRORIRD, Level, 34
+Evolutions = CRORIRD,Level,34
 #-------------------------------
 [CRORIRD]
 Name = Crorird
@@ -23418,7 +23418,7 @@ EggGroups = Field,Flying
 HatchSteps = 1
 Height = 0.7
 Weight = 6.9
-Color = Gray
+Color = Black
 Shape = Bipedal
 Habitat = Urban
 Category = Darkness
@@ -23443,7 +23443,7 @@ EggGroups = Field
 HatchSteps = 3840
 Height = 0.7
 Weight = 6.9
-Color = Gray
+Color = Brown
 Shape = Bipedal
 Habitat = Urban
 Category = Loyal
@@ -23468,7 +23468,7 @@ EggGroups = Field
 HatchSteps = 1
 Height = 0.7
 Weight = 6.9
-Color = Gray
+Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = Hope
@@ -24096,6 +24096,7 @@ Weight = 23.5
 Color = White
 Shape = Quadruped
 Category = Pure
+Pokedex = ???
 #-------------------------------
 [SPARKATIEL]
 Name = Sparkatiel
@@ -24107,7 +24108,7 @@ BaseExp = 50
 EVs = SPECIAL_ATTACK,1
 CatchRate = 200
 Happiness = 50
-Abilities = STATIC, EARLYBIRD
+Abilities = STATIC,EARLYBIRD
 Moves = 1,GUST,1,GROWL,5,FOCUSENERGY,9,QUICKATTACK,13,THUNDERSHOCK,17,DOUBLETEAM,21,AIRCUTTER,25,QUICKGUARD,29,AGILITY,33,AIRSLASH,37,THUNDERBOLT,41,HURRICANE,45,THUNDER
 TutorMoves = TACKLE
 EggMoves = TACKLE
@@ -24132,7 +24133,7 @@ BaseExp = 50
 EVs = SPECIAL_ATTACK,2
 CatchRate = 45
 Happiness = 50
-Abilities = STATIC, EARLYBIRD
+Abilities = STATIC,EARLYBIRD
 Moves = 1,GUST,1,GROWL,5,FOCUSENERGY,9,QUICKATTACK,13,THUNDERSHOCK,17,DOUBLETEAM,21,AIRCUTTER,27,QUICKGUARD,33,AGILITY,39,AIRSLASH,45,THUNDERBOLT,51,HURRICANE,57,THUNDER
 TutorMoves = TACKLE
 EggMoves = TACKLE
@@ -24458,7 +24459,7 @@ HiddenAbilities = HARVEST
 Moves = 1,LEAFAGE,1,LEER,10,BULLETSEED,15,WINGATTACK,20,LEECHSEED,25,RAZORLEAF,30,GROWTH,35,AERIALACE,40,SEEDBOMB,45,SYNTHESIS,50,CRUNCH,55,LEECHLIFE
 TutorMoves = TACKLE
 EggMoves = TACKLE
-EggGroups = Field,Flying
+EggGroups = Grass,Flying
 HatchSteps = 3840
 Height = 0.7
 Weight = 6.9
@@ -24568,7 +24569,7 @@ Pokedex = ???
 #-------------------------------
 [CUBTURN]
 Name = Cubturn
-Types = GROUND, DARK
+Types = GROUND,DARK
 BaseStats = 46,65,60,50,40,45
 GenderRatio = Female25Percent
 GrowthRate = Parabolic
@@ -24593,7 +24594,7 @@ Evolutions = VAMPADGER,Level,30
 #-------------------------------
 [VAMPADGER]
 Name = Vampadger
-Types = GROUND, DARK
+Types = GROUND,DARK
 BaseStats = 56,120,108,61,50,55
 GenderRatio = Female25Percent
 GrowthRate = Parabolic
@@ -24612,6 +24613,7 @@ Color = Black
 Shape = Bipedal
 Habitat = Grassland
 Category = Stealth
+Pokedex = ???
 #-------------------------------
 [BABRAGON]
 Name = Babragon
@@ -24627,7 +24629,7 @@ Abilities = HUSTLE
 Moves = 1,SCRATCH,1,LEER,3,BITE,6,FALSESWIPE,9,ASSURANCE,12,TAUNT,15,SLASH,18,DRAGONCLAW,21,SCARYFACE,24,CRUNCH,27,DRAGONDANCE,30,FIREFANG,33,LASERFOCUS,36,DRAGONPULSE,39,SWORDSDANCE,42,OUTRAGE,45,GUILLOTINE,48,GIGAIMPACT
 TutorMoves = AQUATAIL,ASSURANCE,ATTRACT,CONFIDE,CRUNCH,CUT,DIG,DOUBLETEAM,DRACOMETEOR,DRAGONCLAW,DRAGONDANCE,DRAGONPULSE,DRAGONTAIL,ENDEAVOR,ENDURE,FALSESWIPE,FOCUSENERGY,FRUSTRATION,GIGAIMPACT,HIDDENPOWER,HONECLAWS,INCINERATE,LOWKICK,MIMIC,NATURALGIFT,OUTRAGE,PAYBACK,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,REVERSAL,ROAR,ROCKSMASH,ROCKTOMB,ROUND,SCALESHOT,SCARYFACE,SECRETPOWER,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SNORE,STOMPINGTANTRUM,STRENGTH,SUPERPOWER,SWAGGER,SWIFT,SWORDSDANCE,TAUNT,TOXIC
 EggMoves = IRONHEAD,IRONTAIL
-EggGroups = Dragon, Monster
+EggGroups = Dragon,Monster
 HatchSteps = 10240
 Height = 0.7
 Weight = 6.9
@@ -24854,6 +24856,7 @@ Color = Purple
 Shape = Quadruped
 Habitat = Grassland
 Category = Voodoo
+Pokedex = ???
 #-------------------------------
 [VOOTED]
 Name = Vooted
@@ -24877,6 +24880,7 @@ Color = Purple
 Shape = Quadruped
 Habitat = Grassland
 Category = Voodoo
+Pokedex = ???
 #-------------------------------
 [VOOlEASE]
 Name = Voodlease
@@ -24900,9 +24904,7 @@ Color = Purple
 Shape = Quadruped
 Habitat = Grassland
 Category = Voodoo
-
-
-
+Pokedex = ???
 #-------------------------------
 [CRACKUUM]
 Name = Crackuum
@@ -25043,14 +25045,12 @@ Color = Pink
 Shape = BipedalTail
 Habitat = Rare
 Category = Glory
+Pokedex = ???
 Flags = Mythical
-
-
-
 #-------------------------------
 [CHINDORION]
 Name = Chindorion
-Types = GHOST, STEEL
+Types = GHOST,STEEL
 BaseStats = 90,60,100,30,30,100
 GenderRatio = Female50Percent
 GrowthRate = Slow
@@ -25074,7 +25074,7 @@ Pokedex = ???
 #-------------------------------
 [ARMOGHOUL]
 Name = Armoghoul
-Types = GHOST, STEEL
+Types = GHOST,STEEL
 BaseStats = 108,90,145,40,45,145
 GenderRatio = Female50Percent
 GrowthRate = Slow
@@ -25094,13 +25094,10 @@ Shape = HeadBase
 Habitat = Urban
 Category = Ghost
 Pokedex = ???
-
-
-
 #-------------------------------
 [CAIBORA]
 Name = Caibora
-Types = FAIRY, GRASS
+Types = FAIRY,GRASS
 BaseStats = 60,55,65,40,30,50
 GenderRatio = AlwaysMale
 GrowthRate = Parabolic
@@ -25124,7 +25121,7 @@ Pokedex = ???
 #-------------------------------
 [PECURU]
 Name = Pecuru
-Types = FAIRY, GRASS
+Types = FAIRY,GRASS
 BaseStats = 108,105,115,50,40,75
 GenderRatio = AlwaysMale
 GrowthRate = Parabolic
@@ -25148,7 +25145,7 @@ Pokedex = ???
 #-------------------------------
 [ZOSTEELA]
 Name = Zosteela
-Types = WATER, GRASS
+Types = WATER,GRASS
 BaseStats = 45,70,40,50,30,40
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -25156,7 +25153,7 @@ BaseExp = 50
 EVs = ATTACK,1
 CatchRate = 128
 Happiness = 50
-Abilities = CHLOROPHYLL, SWIFTSWIM
+Abilities = CHLOROPHYLL,SWIFTSWIM
 Moves = 1,TACKLE
 TutorMoves = TACKLE
 EggMoves = TACKLE
@@ -25172,7 +25169,7 @@ Pokedex = ???
 #-------------------------------
 [BOEELNA]
 Name = Boeelna
-Types = WATER, GRASS
+Types = WATER,GRASS
 BaseStats = 50,110,60,60,40,60
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -25180,7 +25177,7 @@ BaseExp = 50
 EVs = ATTACK,2
 CatchRate = 45
 Happiness = 50
-Abilities = CHLOROPHYLL, SWIFTSWIM
+Abilities = CHLOROPHYLL,SWIFTSWIM
 Moves = 1,TACKLE
 TutorMoves = TACKLE
 EggMoves = TACKLE
@@ -25196,7 +25193,7 @@ Pokedex = ???
 #-------------------------------
 [BOTOLPHIN]
 Name = Botolphin
-Types = WATER, FAIRY
+Types = WATER,FAIRY
 BaseStats = 40,30,60,40,55,50
 GenderRatio = AlwaysMale
 GrowthRate = Parabolic
@@ -25221,7 +25218,7 @@ Evolutions = ENCANTACEAN,Level,32
 #-------------------------------
 [ENCANTACEAN]
 Name = Encantacean
-Types = WATER, FAIRY
+Types = WATER,FAIRY
 BaseStats = 80,40,95,60,120,95
 GenderRatio = AlwaysMale
 GrowthRate = Parabolic
