@@ -186,3 +186,9 @@ LandNight,21
 Cave,5
     45,FRUCTERA,12,15
 	40,MOSSELIN,15
+#-------------------------------
+[076] # Route 9
+Land,21
+	40,PEACIRD,14,16
+	40,ROOGRE,14,16
+    5,PINATAYA,15

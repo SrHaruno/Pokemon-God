@@ -272,6 +272,16 @@ HealingSpot = 72,10,12
 Name = Route 8
 Bicycle = true
 #-------------------------------
-[077]   # Saintmass Town
+[076]   # Route 9
 Outdoor = true
 ShowArea = true
+#-------------------------------
+[077]   # Saintmass Town
+Name = Saintmass Town
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[079]   # Route 10
+Outdoor = true
+ShowArea = true
+Weather = Rain,50
