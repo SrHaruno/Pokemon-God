@@ -287,7 +287,7 @@ ShowArea = true
 Name = Route 10
 Outdoor = true
 ShowArea = true
-Weather = Rain,50
+Weather = Rain,80
 BattleBack = Field
 #-------------------------------
 [080]   # Apricorn Maker
