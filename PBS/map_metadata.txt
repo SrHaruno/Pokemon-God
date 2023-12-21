@@ -273,8 +273,10 @@ Name = Route 8
 Bicycle = true
 #-------------------------------
 [076]   # Route 9
+Name = Route 9
 Outdoor = true
 ShowArea = true
+BattleBack = Field
 #-------------------------------
 [077]   # Saintmass Town
 Name = Saintmass Town
@@ -282,6 +284,11 @@ Outdoor = true
 ShowArea = true
 #-------------------------------
 [079]   # Route 10
+Name = Route 10
 Outdoor = true
 ShowArea = true
 Weather = Rain,50
+BattleBack = Field
+#-------------------------------
+[080]   # Apricorn Maker
+Name = Route 10

@@ -5743,7 +5743,7 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [DRAMODO]
-BackSprite = 0,0
+BackSprite = 0,20
 FrontSprite = 0,8
 ShadowX = 0
 ShadowSize = 2
