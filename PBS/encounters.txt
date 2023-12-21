@@ -10,9 +10,9 @@ LandDay,21
     50,PURIRD,3,5
     10,CAPYBURA,5
 LandNight,21
-    10,DWILD,3,5
-    50,PURIRD,3,5
     50,CAPYBURA,5
+    50,PURIRD,3,5
+    10,DWILD,3,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -27,7 +27,6 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33
-	
 #-------------------------------
 [014] # Route 2
 LandDay,21
@@ -44,8 +43,6 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33
-	
-	
 #-------------------------------
 [018] # Route 3
 LandDay,21
@@ -56,8 +53,6 @@ LandNight,21
     50,FLAMMUNY,4,6
     50,PURIRD,4,6
     5,EEVEE,10
-	
-	
 #-------------------------------
 [020] # Indi Forest
 Land,21
@@ -122,9 +117,9 @@ LandNight,21
 #-------------------------------
 [044] # Lunar Cave
 Cave,5
-    50,FRUCTERA,10,12
-    50,MOSSELIN,10,12
-	20,GALAKID,15
+    40,FRUCTERA,10,12
+    30,MOSSELIN,10,12
+    25,GALAKID,15
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -147,15 +142,20 @@ LandNight,21
     40,BOUDYENA,9,12
     5,PURIRD,10
 #-------------------------------
+[059] # Mt.Solar
+Cave,5
+    45,FRUCTERA,12,15
+    40,MOMBER,15
+#-------------------------------
 [060] # Serenity Pond
 LandDay,21
     50,DWILD,3,5
     50,PURIRD,3,5
     10,CAPYBURA,5
 LandNight,21
-    10,DWILD,3,5
-    50,PURIRD,3,5
     50,CAPYBURA,5
+    50,PURIRD,3,5
+    10,DWILD,3,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -163,39 +163,34 @@ GoodRod
 SuperRod
     20,GYARADOS,30,33
 #-------------------------------
-[059] # Mt.Solar
-Cave,5
-    45,FRUCTERA,12,15
-	40,MOMBER,15
-#-------------------------------
 [067] # Route 8
 Land,21
-	40,YOUNROW,14,16
-	40,VOODOLL,14,16
+    40,VOODOLL,14,16
+    40,YOUNROW,14,16
     5,BABRAGON,15
 #-------------------------------
 [068] # Haunted Desert
 LandDay,21
-    25,TRAPINCH,15
     25,GIBLE,12,14
+    25,TRAPINCH,15
 LandNight,21
-    25,TRAPINCH,15
     25,GIBLE,12,14
+    25,TRAPINCH,15
 #-------------------------------
 [069] # Forgotten Chamber
 Cave,5
     45,FRUCTERA,12,15
-	40,MOSSELIN,15
+    40,MOSSELIN,15
 #-------------------------------
 [076] # Route 9
 Land,21
-	40,PEACIRD,14,16
-	40,ROOGRE,14,16
+    40,PEACIRD,14,16
+    40,ROOGRE,14,16
     5,PINATAYA,15
 #-------------------------------
 [079] # Route 10
 Land,21
-	40,ROOGRE,14,16
+    40,ROOGRE,14,16
     5,PINATAYA,15
 OldRod
     70,MAGIKARP,8,10
