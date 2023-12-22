@@ -294,3 +294,7 @@ BattleBack = Field
 #-------------------------------
 [080]   # Apricorn Maker
 Name = Route 10
+#-------------------------------
+[083]   # Route 13
+Outdoor = true
+ShowArea = true
