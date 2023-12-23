@@ -285,6 +285,10 @@ Name = Saintmass Town
 Outdoor = true
 ShowArea = true
 #-------------------------------
+[078]   # Bridge Town
+Outdoor = true
+ShowArea = true
+#-------------------------------
 [079]   # Route 10
 Name = Route 10
 Outdoor = true
@@ -296,5 +300,6 @@ BattleBack = Field
 Name = Route 10
 #-------------------------------
 [083]   # Route 13
+Name = Route 13
 Outdoor = true
 ShowArea = true
