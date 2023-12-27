@@ -5135,6 +5135,17 @@ Flags = Fling_90
 Move = ROCKCLIMB
 Description = A charging attack that may also leave the foe confused.
 #-------------------------------
+[TM101]
+Name = NONE
+NamePlural = NONE
+Pocket = 4
+Price = 1500
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_10
+Move = WORKUP
+Description = This is a scrapped item, removed automactically in 1.1.0+
+#-------------------------------
 [HM01]
 Name = HM01
 NamePlural = HM01s
