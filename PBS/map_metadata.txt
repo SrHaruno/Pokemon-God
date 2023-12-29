@@ -286,6 +286,7 @@ Outdoor = true
 ShowArea = true
 #-------------------------------
 [078]   # Bridge Town
+Name = Bridge Town
 Outdoor = true
 ShowArea = true
 #-------------------------------
@@ -303,3 +304,14 @@ Name = Route 10
 Name = Route 13
 Outdoor = true
 ShowArea = true
+#-------------------------------
+[084]   # Power Plant
+Name = Route 11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[085]   # PowerPlant_Inisde
+Name = Power Plant
+#-------------------------------
+[086]   # Guard_House
+Name = Route 11
