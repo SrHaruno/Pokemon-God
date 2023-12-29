@@ -309,6 +309,7 @@ ShowArea = true
 Name = Route 11
 Outdoor = true
 ShowArea = true
+BattleBack = Field
 #-------------------------------
 [085]   # PowerPlant_Inisde
 Name = Power Plant

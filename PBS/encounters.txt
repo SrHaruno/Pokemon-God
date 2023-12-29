@@ -198,3 +198,8 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33
+#-------------------------------
+[084] # Power Plant
+Land,21
+    40,HOGGO,16,18
+	25,SQUILAZE,20
