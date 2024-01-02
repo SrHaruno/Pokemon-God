@@ -316,3 +316,31 @@ Name = Power Plant
 #-------------------------------
 [086]   # Guard_House
 Name = Route 11
+#-------------------------------
+[087]   # Saintmass PC
+Name = Saintmass City
+HealingSpot = 9,10,12
+#-------------------------------
+[088]   # Saintmass PC 2F
+Name = Saintmass City
+HealingSpot = 9,10,12
+#-------------------------------
+[089]   # Saintmass House_1
+Name = Saintmass City
+Outdoor = false
+ShowArea = false
+#-------------------------------
+[090]   # Saintmass House_2
+Name = Saintmass City
+Outdoor = false
+ShowArea = false
+#-------------------------------
+[091]   # Saintmass Gym
+Name = Saintmass City
+Outdoor = false
+ShowArea = false
+#-------------------------------
+[092]   # Saintmass Gym
+Name = Saintmass City
+Outdoor = false
+ShowArea = false
