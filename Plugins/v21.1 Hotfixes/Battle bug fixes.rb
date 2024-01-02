@@ -118,7 +118,7 @@ Battle::AI::Handlers::ShouldSwitch.add(:asleep,
 # Fixed Cramorant's form not reverting after coughing up its Gulp Missile.
 #===============================================================================
 class Battle::Battler
-  alias __hotfixes__pbEffectsOnMakingHit pbEffectsOnMakingHit
+  alias __hotfixes__pbEffectsOnMakingHit pbEffectsOnMakingHit unless method_defined?(:__hotfixes__pbEffectsOnMakingHit)
 
   def pbEffectsOnMakingHit(move, user, target)
     if target.damageState.calcDamage > 0 && !target.damageState.substitute
@@ -152,6 +152,7 @@ end
 #===============================================================================
 # Fixed Pokémon sent from the party to storage in battle not having certain
 # battle-only conditions removed.
+# Fixed forcing a caught Pokémon into your party not actually forcing it.
 #===============================================================================
 module Battle::CatchAndStoreMixin
   def pbStorePokemon(pkmn)
@@ -169,9 +170,10 @@ module Battle::CatchAndStoreMixin
               _INTL("Send to a Box"),
               _INTL("See {1}'s summary", pkmn.name),
               _INTL("Check party")]
-      cmds.delete_at(1) if @sendToBoxes == 2
+      cmds.delete_at(1) if @sendToBoxes == 2   # Remove "Send to a Box" option
       loop do
         cmd = pbShowCommands(_INTL("Where do you want to send {1} to?", pkmn.name), cmds, 99)
+        next if cmd == 99 && @sendToBoxes == 2   # Can't cancel if must add to party
         break if cmd == 99   # Cancelling = send to a Box
         cmd += 1 if cmd >= 1 && @sendToBoxes == 2
         case cmd
@@ -371,5 +373,18 @@ class Battle::Battler
     @fainted = true
     # Check for end of primordial weather
     @battle.pbEndPrimordialWeather
+  end
+end
+
+#===============================================================================
+# Fixed the default battle weather being a primal weather causing an endless
+# loop of that weather starting and ending.
+#===============================================================================
+class Battle
+  alias __hotfixes__pbEndPrimordialWeather pbEndPrimordialWeather unless method_defined?(:__hotfixes__pbEndPrimordialWeather)
+
+  def pbEndPrimordialWeather
+    return if @field.weather == @field.defaultWeather
+    __hotfixes__pbEndPrimordialWeather
   end
 end

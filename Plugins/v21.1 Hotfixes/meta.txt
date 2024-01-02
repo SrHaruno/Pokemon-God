@@ -1,5 +1,5 @@
 ﻿Name       = v21.1 Hotfixes
-Version    = 1.0.5
+Version    = 1.0.6
 Essentials = 21.1
 Conflicts  = v19 Hotfixes
 Conflicts  = v19.1 Updates
@@ -56,6 +56,17 @@ Credits    = Maruno
 # 1.0.5:
 #
 # - Fixed error in previous version relating to writing PBS files.
+#
+# 1.0.6:
+#
+# - Fixed forcing a caught Pokémon into your party not actually
+#   forcing it.
+# - Fixed Rotom Catalog not being able to change Rotom to its base
+#   form.
+# - Fixed the Compiler not writing some enumerables correctly when
+#   writing PBS files.
+# - Fixed the default battle weather being a primal weather causing an
+#   endless loop of that weather starting and ending.
 #
 #=====================================================================
 #

@@ -6,7 +6,7 @@
 # https://github.com/Maruno17/pokemon-essentials
 #===============================================================================
 
-Essentials::ERROR_TEXT += "[v21.1 Hotfixes 1.0.5]\r\n"
+Essentials::ERROR_TEXT += "[v21.1 Hotfixes 1.0.6]\r\n"
 
 #===============================================================================
 # Fixed Pokédex not showing male/female options for species with gender
@@ -388,3 +388,37 @@ class Window_AdvancedTextPokemon < SpriteWindow_Base
     end
   end
 end
+
+#===============================================================================
+# Fixed Rotom Catalog not being able to change Rotom to its base form.
+#===============================================================================
+ItemHandlers::UseOnPokemon.add(:ROTOMCATALOG, proc { |item, qty, pkmn, scene|
+  if !pkmn.isSpecies?(:ROTOM)
+    scene.pbDisplay(_INTL("It had no effect."))
+    next false
+  elsif pkmn.fainted?
+    scene.pbDisplay(_INTL("This can't be used on the fainted Pokémon."))
+    next false
+  end
+  choices = [
+    _INTL("Light bulb"),
+    _INTL("Microwave oven"),
+    _INTL("Washing machine"),
+    _INTL("Refrigerator"),
+    _INTL("Electric fan"),
+    _INTL("Lawn mower"),
+    _INTL("Cancel")
+  ]
+  new_form = scene.pbShowCommands(_INTL("Which appliance would you like to order?"), choices, pkmn.form)
+  if new_form == pkmn.form
+    scene.pbDisplay(_INTL("It won't have any effect."))
+    next false
+  elsif new_form >= 0 && new_form < choices.length - 1
+    pkmn.setForm(new_form) do
+      scene.pbRefresh
+      scene.pbDisplay(_INTL("{1} transformed!", pkmn.name))
+    end
+    next true
+  end
+  next false
+})

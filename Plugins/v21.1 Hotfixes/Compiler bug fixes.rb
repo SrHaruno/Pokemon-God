@@ -84,6 +84,8 @@ end
 #===============================================================================
 # Fixed being unable to write values to PBS files that were enumerated to
 # something other than a number.
+# Fixed the Compiler not writing some enumerables correctly when writing PBS
+# files.
 #===============================================================================
 module Compiler
   module_function
@@ -115,7 +117,7 @@ module Compiler
           enumer = schema[2 + i - start]
           case enumer
           when Array
-            file.write((value.is_a?(Integer) && enumer[value].nil?) ? enumer[value] : value)
+            file.write((value.is_a?(Integer) && !enumer[value].nil?) ? enumer[value] : value)
           when Symbol, String
             if GameData.const_defined?(enumer.to_sym)
               mod = GameData.const_get(enumer.to_sym)
@@ -141,7 +143,7 @@ module Compiler
           enumer = schema[2 + i - start]
           case enumer
           when Array
-            file.write((value.is_a?(Integer) && enumer[value].nil?) ? enumer[value] : value)
+            file.write((value.is_a?(Integer) && !enumer[value].nil?) ? enumer[value] : value)
           when Symbol, String
             if !Kernel.const_defined?(enumer.to_sym) && GameData.const_defined?(enumer.to_sym)
               mod = GameData.const_get(enumer.to_sym)
