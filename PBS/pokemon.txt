@@ -24613,6 +24613,53 @@ Habitat = Grassland
 Category = Stealth
 Pokedex = ???
 #-------------------------------
+[SUNCARAB]
+Name = Suncarab
+Types = BUG
+BaseStats = 50,65,90,30,20,80
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 57
+EVs = DEFENSE,1,SPECIAL_DEFENSE,1
+CatchRate = 90
+Happiness = 50
+Abilities = SANDVEIL
+Moves = 1,POUND
+TutorMoves = UTURN
+EggMoves = POUND
+EggGroups = Bug
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = RoughTerrain
+Category = God Beetle
+Pokedex = ???
+Evolutions = KHECARAB, Level, 35
+#-------------------------------
+[KHECARAB]
+Name = Khecarab
+Types = BUG,ANGEL
+BaseStats = 80,95,110,40,20,105
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 180
+EVs = DEFENSE,2,SPECIAL_DEFENSE,2
+CatchRate = 45
+Happiness = 50
+Abilities = SUNRISE
+Moves = 1,POUND
+TutorMoves = UTURN
+EggGroups = Bug
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = RoughTerrain
+Category = God Beetle
+Pokedex = ???
+#-------------------------------
 [BABRAGON]
 Name = Babragon
 Types = DRAGON
@@ -24855,6 +24902,7 @@ Shape = Quadruped
 Habitat = Grassland
 Category = Voodoo
 Pokedex = ???
+Evolutions = VOOTED,Level,25
 #-------------------------------
 [VOOTED]
 Name = Vooted
@@ -24879,6 +24927,7 @@ Shape = Quadruped
 Habitat = Grassland
 Category = Voodoo
 Pokedex = ???
+Evolutions = VOOLEASE,Level,35
 #-------------------------------
 [VOOLEASE]
 Name = Voodlease
@@ -25028,6 +25077,30 @@ Shape = Serpentine
 Habitat = Urban
 Category = Ancient Dragon
 Pokedex = ???
+#-------------------------------
+[GLORY]
+Name = GLORY
+Types = ANGEL,GRASS
+BaseStats = 100,100,100,100,100,100
+GenderRatio = Genderless
+GrowthRate = Parabolic
+BaseExp = 300
+EVs = HP,3
+CatchRate = 45
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggGroups = Undiscovered
+HatchSteps = 30720
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Category = Glory
+Pokedex = ???
+Flags = Mythical
 
 
 
@@ -25226,30 +25299,3 @@ Shape = Finned
 Habitat = Sea
 Category = Dolphin
 Pokedex = ???
-
-
-
-#-------------------------------
-[GLORY]
-Name = GLORY
-Types = ANGEL,GRASS
-BaseStats = 100,100,100,100,100,100
-GenderRatio = Genderless
-GrowthRate = Parabolic
-BaseExp = 300
-EVs = HP,3
-CatchRate = 45
-Happiness = 100
-Abilities = SYNCHRONIZE
-Moves = 1,TACKLE
-TutorMoves = TACKLE
-EggGroups = Undiscovered
-HatchSteps = 30720
-Height = 0.4
-Weight = 4.0
-Color = Pink
-Shape = BipedalTail
-Habitat = Rare
-Category = Glory
-Pokedex = ???
-Flags = Mythical

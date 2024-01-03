@@ -1,8 +1,14 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [002] # Rondor Town
+Water
+	80,MAGIKARP,5
 OldRod
-    70,MAGIKARP,5
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33
 #-------------------------------
 [005] # Route 1
 LandDay,21
@@ -13,6 +19,8 @@ LandNight,21
     50,CAPYBURA,5
     50,PURIRD,3,5
     10,DWILD,3,5
+Water
+	80,MAGIKARP,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -21,6 +29,8 @@ SuperRod
     20,GYARADOS,30,33
 #-------------------------------
 [013] # Indi Town
+Water
+	80,MAGIKARP,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -37,6 +47,8 @@ LandNight,21
     50,MOSLEEP,5
     40,PURIRD,3,5
     5,DWILD,3,5
+Water
+	80,MAGIKARP,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -66,6 +78,8 @@ Land,21
     5,PANSEAR,5
     5,PUPENGUE,5
     5,SQUILAZE,8
+Water
+	80,MAGIKARP,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -74,10 +88,14 @@ SuperRod
     20,GYARADOS,30,33
 #-------------------------------
 [022] # Plateau City
+Water
+	80,MAGIKARP,5
 OldRod
-    70,MAGIKARP,5
+    70,MAGIKARP,8,10
 GoodRod
     60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33
 #-------------------------------
 [023] # Mt.Solar
 Cave,5
@@ -98,6 +116,8 @@ LandDay,21
     40,TURTEED,8,10
 LandNight,21
     40,TURTEED,8,10
+Water
+	80,MAGIKARP,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -120,6 +140,8 @@ Cave,5
     40,FRUCTERA,10,12
     30,MOSSELIN,10,12
     25,GALAKID,15
+Water
+	80,MAGIKARP,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -156,6 +178,8 @@ LandNight,21
     50,CAPYBURA,5
     50,PURIRD,3,5
     10,DWILD,3,5
+Water
+	80,MAGIKARP,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
@@ -171,11 +195,12 @@ Land,21
 #-------------------------------
 [068] # Haunted Desert
 LandDay,21
-    25,GIBLE,12,14
-    25,TRAPINCH,15
+	40,SUNCARAB,12,14
+    25,TRAPINCH,10,12
+    10,GIBLE,15
 LandNight,21
-    25,GIBLE,12,14
-    25,TRAPINCH,15
+    25,TRAPINCH,10,12
+    10,GIBLE,15
 #-------------------------------
 [069] # Forgotten Chamber
 Cave,5
@@ -192,6 +217,18 @@ Land,21
 Land,21
     40,ROOGRE,14,16
     5,PINATAYA,15
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33
+#-------------------------------
+[077] # Saintmass Town
+Water
+	80,MAGIKARP,5
 OldRod
     70,MAGIKARP,8,10
 GoodRod
