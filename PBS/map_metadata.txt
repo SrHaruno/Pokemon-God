@@ -1,7 +1,21 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+#\\----------------------------
+#Misc
+#\\----------------------------
+
+
 #-------------------------------
 [001]   # Intro
 Name = Intro
+
+
+
+#\\----------------------------
+#TOWNS & CITIES
+#\\----------------------------
+
+
+#Rondor Town
 #-------------------------------
 [002]   # Rondor Town
 Name = Rondor Town
@@ -14,33 +28,18 @@ BattleBack = field
 Name = \PN's House
 HealingSpot = 2,8,8
 #-------------------------------
-[004]   # Pokémon Lab
-Name = Pokémon Lab
-#-------------------------------
-[005]   # Route 1
-Name = Route 1
-Outdoor = true
-ShowArea = true
-MapPosition = 0,13,1
-BattleBack = field
-#-------------------------------
-[006]   # Rondor_Gate
-Name = Rondor Town
-#-------------------------------
-[007]   # Route 1 Gate
-Name = Route 1
-Bicycle = true
-#-------------------------------
 [008]   # Bruno House
 Name = Rondor Town
 HealingSpot = 2,8,8
 #-------------------------------
-[009]   # Plateau PC
-Name = Plateau City
-HealingSpot = 9,10,12
+[004]   # Pokémon Lab
+Name = Pokémon Lab
 #-------------------------------
-[010]   # Town&Cities
-Name = Nothing
+[006]   # Rondor_Gate
+Name = Rondor Town
+
+
+#Indi Town
 #-------------------------------
 [013]   # Indi Town
 Name = Indi Town
@@ -49,45 +48,16 @@ ShowArea = true
 MapPosition = 0,19,5
 BattleBack = field
 #-------------------------------
-[014]   # Route 2
-Name = Route 2
-Outdoor = true
-ShowArea = true
-MapPosition = 0,8,4
-BattleBack = field
-#-------------------------------
-[015]   # Route 2 Gate
-Name = Route 2
-Bicycle = true
-#-------------------------------
 [016]   # Indi Town PC
 Name = Indi Town
 HealingSpot = 16,10,11
 #-------------------------------
 [017]   # Indi Town Poke Center 2F
 Name = Indi Town
-#-------------------------------
-[018]   # Route 3
-Name = Route 3
-Outdoor = true
-ShowArea = true
-Bicycle = true
-MapPosition = 0,10,4
-BattleBack = field
-#-------------------------------
-[019]   # Day-Care
-Name = Day-Care
-#-------------------------------
-[020]   # Indi Forest
-Name = Indi Forest
-Outdoor = true
-ShowArea = true
-MapPosition = 0,22,6
-BattleBack = forest
-#-------------------------------
-[021]   # Route 3 Gate
-Name = Route 3
-Bicycle = true
+
+
+
+#Plateau City
 #-------------------------------
 [022]   # Plateau City
 Name = Plateau City
@@ -95,15 +65,6 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,22,7
 BattleBack = field
-#-------------------------------
-[023]   # Mt.Solar
-Name = Mt.Solar
-ShowArea = true
-BattleBack = cave1
-Environment = Cave
-#-------------------------------
-[024]   # Plateau Poke Center 2F
-Name = Plateau City
 #-------------------------------
 [026]   # Pokémon School
 Name = Plateau City
@@ -116,51 +77,15 @@ Name = \PN's house
 Name = Plateau City
 BattleBack = indoor1
 #-------------------------------
-[030]   # House
-Name = Marine City
+[009]   # Plateau PC
+Name = Plateau City
+HealingSpot = 9,10,12
 #-------------------------------
-[036]   # Route 2
-Name = Route 2
-MapPosition = 0,24,4
-#-------------------------------
-[039]   # Route 4
-Name = Route 4
-Outdoor = true
-ShowArea = true
-MapPosition = 0,24,4
-BattleBack = field
-#-------------------------------
-[040]   # Route 5
-Name = Route 5
-Outdoor = true
-ShowArea = true
-BattleBack = field
-#-------------------------------
-[042]   # Route 6
-Name = Route 6
-Outdoor = true
-ShowArea = true
-BattleBack = field
-#-------------------------------
-[043]   # Route 5 Gate
-Name = Route 5
-#-------------------------------
-[044]   # Lunar Cave
-Name = Lunar Cave
-ShowArea = true
-Bicycle = true
-BattleBack = cave1
-#-------------------------------
-[045]   # Lunar Cave 1BF
-Name = Lunar Cave
-DarkMap = true
-BattleBack = cave1
-#-------------------------------
-[046]   # Mt.Hope
-Name = Mt.Hope
-ShowArea = true
-Bicycle = true
-BattleBack = cave1
+[024]   # Plateau Poke Center 2F
+Name = Plateau City
+
+
+#Marine City
 #-------------------------------
 [047]   # Marine City
 Name = Marine City
@@ -170,32 +95,22 @@ HealingSpot = 47,16,68
 MapPosition = 0,26,6
 BattleBack = field
 #-------------------------------
-[048]   # Route 4 (Healpoint)
-Name = Route 4
-#-------------------------------
-[049]   # Route 4 (Cafe)
-Name = Route 4
-#-------------------------------
-[050]   # Route 6 Gate
-Name = Route 6
-Bicycle = true
-#-------------------------------
-[051]   # Marine Town PC
-Name = Marine Town
+[051]   # Marine City PC
+Name = Marine City
 HealingSpot = 51,10,12
 #-------------------------------
-[052]   # Route 7
-Name = Route 7
-Outdoor = true
-ShowArea = true
-MapPosition = 0,26,4
-BattleBack = field
+[073]   # Marine Poke Center 2F
+Name = Marine City
 #-------------------------------
-[053]   # Route 7 Gate
-Name = Route 7
-Bicycle = true
+[030]   # House
+Name = Marine City
 #-------------------------------
-[054]   # Hotel_Gym
+[054]   # Hotel_Gym 1&2F
+Name = Abandoned Hotel
+DarkMap = true
+BattleBack = indoor1
+#-------------------------------
+[056]   # Hotel_Gym 3F
 Name = Abandoned Hotel
 DarkMap = true
 BattleBack = indoor1
@@ -203,119 +118,45 @@ BattleBack = indoor1
 [055]   # Police Departament
 Name = Marine City
 #-------------------------------
-[056]   # Hotel_Gym 3F
-Name = Abandoned Hotel
-DarkMap = true
-BattleBack = indoor1
-#-------------------------------
 [057]   # Police Departament 3F
 Name = Marine City
+
+
 #-------------------------------
-[059]   # Mt.Solar
-Name = Mt.Solar
-ShowArea = true
-BattleBack = cave1
-Environment = Cave
-#-------------------------------
-[060]   # Serenity Pond
-Name = Serenity Pond
-Outdoor = true
-ShowArea = true
-Weather = Rain,20
-MapPosition = 0,13,0
-BattleBack = field
-#-------------------------------
-[065]   # Battle Island
-Name = Battle Island
-Outdoor = true
-ShowArea = true
-MapPosition = 0,28,13
-BattleBack = field
-#-------------------------------
-[067]   # Route 8
-Name = Route 8
-Outdoor = true
-ShowArea = true
-BattleBack = Field
-#-------------------------------
-[068]   # Haunted Desert
-Name = Haunted Desert
-Outdoor = true
-ShowArea = true
-Weather = Sandstorm,100
-MapPosition = 0,18,9
-BattleBack = Rocky
-#-------------------------------
-[069]   # Forgotten Chamber
-Name = Forgotten Chamber
-ShowArea = true
-BattleBack = cave1
-#-------------------------------
-[070]   # Food_Maniac
-Name = Route 8
-#-------------------------------
-[071]   # Vituresa Town
-Name = Vituresa Town
+[071]   # Vituresa Village
+Name = Vituresa Village
 Outdoor = true
 ShowArea = true
 BattleBack = Forest
 #-------------------------------
-[072]   # Vituresa Town PC
-Name = Vituresa Town
-#-------------------------------
-[073]   # Marine Poke Center 2F
-Name = Marine Town
+[072]   # Vituresa Village PC
+Name = Vituresa Village
 #-------------------------------
 [074]   # Vituresa Poke Center 2F
-Name = Marine Town
+Name = Vituresa Village
 HealingSpot = 72,10,12
 #-------------------------------
-[075]   # Route 8 Gate
-Name = Route 8
-Bicycle = true
+[096]   # Vituresa Chief's House
+Name = Vituresa Village
 #-------------------------------
-[076]   # Route 9
-Name = Route 9
-Outdoor = true
-ShowArea = true
-BattleBack = Field
+[097]   # Vituresa Library
+Name = Vituresa Village
+#-------------------------------
+[093]   # Vituresa Village House 1
+Name = Vituresa Village
+#-------------------------------
+[094]   # Vituresa Village House 2
+Name = Vituresa Village
+#-------------------------------
+[095]   # Vituresa Village House 3
+Name = Vituresa Village
+
+
 #-------------------------------
 [077]   # Saintmass Town
 Name = Saintmass Town
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[078]   # Bridge Town
-Name = Bridge Town
-Outdoor = true
-ShowArea = true
-#-------------------------------
-[079]   # Route 10
-Name = Route 10
-Outdoor = true
-ShowArea = true
-Weather = Rain,80
-BattleBack = Field
-#-------------------------------
-[080]   # Apricorn Maker
-Name = Route 10
-#-------------------------------
-[083]   # Route 13
-Name = Route 13
-Outdoor = true
-ShowArea = true
-#-------------------------------
-[084]   # Power Plant
-Name = Route 11
-Outdoor = true
-ShowArea = true
-BattleBack = Field
-#-------------------------------
-[085]   # PowerPlant_Inisde
-Name = Power Plant
-#-------------------------------
-[086]   # Guard_House
-Name = Route 11
 #-------------------------------
 [087]   # Saintmass PC
 Name = Saintmass Town
@@ -344,3 +185,224 @@ ShowArea = false
 Name = Saintmass Town
 Outdoor = false
 ShowArea = false
+
+
+
+#\\----------------------------
+#ROUTES
+#\\----------------------------
+
+#-------------------------------
+[005]   # Route 1
+Name = Route 1
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,1
+BattleBack = field
+#-------------------------------
+[060]   # Serenity Pond
+Name = Serenity Pond
+Outdoor = true
+ShowArea = true
+Weather = Rain,20
+MapPosition = 0,13,0
+BattleBack = field
+#-------------------------------
+[007]   # Route 1 Gate
+Name = Route 1
+Bicycle = true
+
+
+#-------------------------------
+[014]   # Route 2
+Name = Route 2
+Outdoor = true
+ShowArea = true
+MapPosition = 0,8,4
+BattleBack = field
+#-------------------------------
+[036]   # Route 2
+Name = Route 2
+MapPosition = 0,24,4
+#-------------------------------
+[015]   # Route 2 Gate
+Name = Route 2
+Bicycle = true
+
+
+#-------------------------------
+[018]   # Route 3
+Name = Route 3
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,10,4
+BattleBack = field
+#-------------------------------
+[019]   # Day-Care
+Name = Day-Care
+#-------------------------------
+[021]   # Route 3 Gate
+Name = Route 3
+Bicycle = true
+
+
+#-------------------------------
+[039]   # Route 4
+Name = Route 4
+Outdoor = true
+ShowArea = true
+MapPosition = 0,24,4
+BattleBack = field
+#-------------------------------
+[048]   # Route 4 (Healpoint)
+Name = Route 4
+#-------------------------------
+[049]   # Route 4 (Cafe)
+Name = Route 4
+
+
+#-------------------------------
+[040]   # Route 5
+Name = Route 5
+Outdoor = true
+ShowArea = true
+BattleBack = field
+#-------------------------------
+[043]   # Route 5 Gate
+Name = Route 5
+
+
+#-------------------------------
+[042]   # Route 6
+Name = Route 6
+Outdoor = true
+ShowArea = true
+BattleBack = field
+#-------------------------------
+[050]   # Route 6 Gate
+Name = Route 6
+Bicycle = true
+
+
+#-------------------------------
+[052]   # Route 7
+Name = Route 7
+Outdoor = true
+ShowArea = true
+MapPosition = 0,26,4
+BattleBack = field
+#-------------------------------
+[053]   # Route 7 Gate
+Name = Route 7
+Bicycle = true
+
+
+#-------------------------------
+[067]   # Route 8
+Name = Route 8
+Outdoor = true
+ShowArea = true
+BattleBack = Field
+#-------------------------------
+[070]   # Food_Maniac
+Name = Route 8
+#-------------------------------
+[075]   # Route 8 Gate
+Name = Route 8
+Bicycle = true
+
+
+#-------------------------------
+[076]   # Route 9
+Name = Route 9
+Outdoor = true
+ShowArea = true
+BattleBack = Field
+
+
+#-------------------------------
+[079]   # Route 10
+Name = Route 10
+Outdoor = true
+ShowArea = true
+Weather = Rain,80
+BattleBack = Field
+#-------------------------------
+[080]   # Apricorn Maker
+Name = Route 10
+
+
+#-------------------------------
+[083]   # Route 13
+Name = Route 13
+Outdoor = true
+ShowArea = true
+
+
+
+#\\----------------------------
+#DUNGEONS
+#\\----------------------------
+
+#-------------------------------
+[020]   # Indi Forest
+Name = Indi Forest
+Outdoor = true
+ShowArea = true
+MapPosition = 0,22,6
+BattleBack = forest
+
+
+#-------------------------------
+[023]   # Mt.Solar
+Name = Mt.Solar
+ShowArea = true
+BattleBack = cave1
+Environment = Cave
+
+
+#-------------------------------
+[046]   # Mt.Hope
+Name = Mt.Hope
+ShowArea = true
+Bicycle = true
+BattleBack = cave1
+
+
+#-------------------------------
+[044]   # Lunar Cave
+Name = Lunar Cave
+ShowArea = true
+Bicycle = true
+BattleBack = cave1
+#-------------------------------
+[045]   # Lunar Cave 1BF
+Name = Lunar Cave
+DarkMap = true
+BattleBack = cave1
+
+
+#-------------------------------
+[059]   # Mt.Solar
+Name = Mt.Solar
+ShowArea = true
+BattleBack = cave1
+Environment = Cave
+
+
+#-------------------------------
+[068]   # Haunted Desert
+Name = Haunted Desert
+Outdoor = true
+ShowArea = true
+Weather = Sandstorm,100
+MapPosition = 0,18,9
+BattleBack = Rocky
+
+
+#-------------------------------
+[069]   # Forgotten Chamber
+Name = Forgotten Chamber
+ShowArea = true
+BattleBack = cave1
