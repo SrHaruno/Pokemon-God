@@ -329,6 +329,10 @@ ShowArea = true
 Weather = Rain,80
 BattleBack = Field
 #-------------------------------
+[099]   # Route 10 Gate
+Name = Route 10
+Bicycle = true
+#-------------------------------
 [080]   # Apricorn Maker
 Name = Route 10
 
@@ -338,7 +342,10 @@ Name = Route 10
 Name = Route 13
 Outdoor = true
 ShowArea = true
-
+#-------------------------------
+[098]   # Route 13 Gate
+Name = Route 13
+Bicycle = true
 
 
 #\\----------------------------
@@ -357,6 +364,14 @@ BattleBack = forest
 #-------------------------------
 [023]   # Mt.Solar
 Name = Mt.Solar
+Outdoor = false
+ShowArea = true
+BattleBack = cave1
+Environment = Cave
+#-------------------------------
+[059]   # Mt.Solar
+Name = Mt.Solar
+Outdoor = false
 ShowArea = true
 BattleBack = cave1
 Environment = Cave
@@ -384,14 +399,6 @@ BattleBack = cave1
 
 
 #-------------------------------
-[059]   # Mt.Solar
-Name = Mt.Solar
-ShowArea = true
-BattleBack = cave1
-Environment = Cave
-
-
-#-------------------------------
 [068]   # Haunted Desert
 Name = Haunted Desert
 Outdoor = true
@@ -404,5 +411,6 @@ BattleBack = Rocky
 #-------------------------------
 [069]   # Forgotten Chamber
 Name = Forgotten Chamber
+Outdoor = false
 ShowArea = true
 BattleBack = cave1
