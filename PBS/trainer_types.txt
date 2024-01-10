@@ -10,16 +10,6 @@ Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[POKEMONTRAINER_Brendan]
-Name = Pokémon Trainer
-Gender = Male
-BaseMoney = 60
-#-------------------------------
-[POKEMONTRAINER_May]
-Name = Pokémon Trainer
-Gender = Female
-BaseMoney = 60
-#-------------------------------
 [RIVAL1]
 Name = Neighbour
 Gender = Male
@@ -30,6 +20,7 @@ BattleBGM = Battle! Vs Rival
 Name = Friend
 Gender = Male
 BaseMoney = 36
+BattleBGM = Battle! Vs Rival
 #-------------------------------
 [LEADER_Daniel]
 Name = Gym Leader
