@@ -1,21 +1,7 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
-#\\----------------------------
-#Misc
-#\\----------------------------
-
-
 #-------------------------------
 [001]   # Intro
 Name = Intro
-
-
-
-#\\----------------------------
-#TOWNS & CITIES
-#\\----------------------------
-
-
-#Rondor Town
 #-------------------------------
 [002]   # Rondor Town
 Name = Rondor Town
@@ -27,26 +13,56 @@ BattleBack = field
 [003]   # Player's house
 Name = \PN's House
 HealingSpot = 2,8,8
+MapPosition = 0,24,4
+#-------------------------------
+[004]   # Pokémon Lab
+Name = Pokémon Lab
+MapPosition = 0,24,4
+#-------------------------------
+[005]   # Route 1
+Name = Route 1
+Outdoor = true
+ShowArea = true
+MapPosition = 0,22,4
+BattleBack = field
+#-------------------------------
+[006]   # Rondor_Gate
+Name = Rondor Town
+MapPosition = 0,24,4
+#-------------------------------
+[007]   # Route 1 Gate
+Name = Route 1
+Bicycle = true
+MapPosition = 0,22,4
 #-------------------------------
 [008]   # Bruno House
 Name = Rondor Town
 HealingSpot = 2,8,8
+MapPosition = 0,24,4
 #-------------------------------
-[004]   # Pokémon Lab
-Name = Pokémon Lab
-#-------------------------------
-[006]   # Rondor_Gate
-Name = Rondor Town
-
-
-#Indi Town
+[009]   # Plateau PC
+Name = Plateau City
+HealingSpot = 9,10,12
+MapPosition = 0,24,4
 #-------------------------------
 [013]   # Indi Town
 Name = Indi Town
 Outdoor = true
 ShowArea = true
-MapPosition = 0,19,5
+MapPosition = 0,20,5
 BattleBack = field
+#-------------------------------
+[014]   # Route 2
+Name = Route 2
+Outdoor = true
+ShowArea = true
+MapPosition = 0,20,7
+BattleBack = field
+#-------------------------------
+[015]   # Route 2 Gate
+Name = Route 2
+Bicycle = true
+MapPosition = 0,20,7
 #-------------------------------
 [016]   # Indi Town PC
 Name = Indi Town
@@ -54,10 +70,30 @@ HealingSpot = 16,10,11
 #-------------------------------
 [017]   # Indi Town Poke Center 2F
 Name = Indi Town
-
-
-
-#Plateau City
+#-------------------------------
+[018]   # Route 3
+Name = Route 3
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,21,7
+BattleBack = field
+#-------------------------------
+[019]   # Day-Care
+Name = Day-Care
+MapPosition = 0,21,7
+#-------------------------------
+[020]   # Indi Forest
+Name = Indi Forest
+Outdoor = true
+ShowArea = true
+MapPosition = 0,22,6
+BattleBack = forest
+#-------------------------------
+[021]   # Route 3 Gate
+Name = Route 3
+Bicycle = true
+MapPosition = 0,21,7
 #-------------------------------
 [022]   # Plateau City
 Name = Plateau City
@@ -66,26 +102,84 @@ ShowArea = true
 MapPosition = 0,22,7
 BattleBack = field
 #-------------------------------
+[023]   # Mt.Solar
+Name = Mt.Solar
+ShowArea = true
+MapPosition = 0,18,8
+BattleBack = cave1
+Environment = Cave
+#-------------------------------
+[024]   # Plateau Poke Center 2F
+Name = Plateau City
+MapPosition = 0,22,7
+#-------------------------------
 [026]   # Pokémon School
 Name = Plateau City
+MapPosition = 0,22,7
 BattleBack = inside
 #-------------------------------
 [028]   # Player's House 2F
 Name = \PN's house
+MapPosition = 0,24,4
 #-------------------------------
 [029]   # Pokémon School 2F
 Name = Plateau City
+MapPosition = 0,22,7
 BattleBack = indoor1
 #-------------------------------
-[009]   # Plateau PC
-Name = Plateau City
-HealingSpot = 9,10,12
+[030]   # House
+Name = Marine City
+MapPosition = 0,26,6
 #-------------------------------
-[024]   # Plateau Poke Center 2F
-Name = Plateau City
-
-
-#Marine City
+[036]   # Route 2
+Name = Route 2
+MapPosition = 0,20,7
+#-------------------------------
+[039]   # Route 4
+Name = Route 4
+Outdoor = true
+ShowArea = true
+MapPosition = 0,20,9
+BattleBack = field
+#-------------------------------
+[040]   # Route 5
+Name = Route 5
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,10
+BattleBack = field
+#-------------------------------
+[042]   # Route 6
+Name = Route 6
+Outdoor = true
+ShowArea = true
+MapPosition = 0,26,7
+BattleBack = field
+#-------------------------------
+[043]   # Route 5 Gate
+Name = Route 5
+MapPosition = 0,24,4
+#-------------------------------
+[044]   # Lunar Cave
+Name = Lunar Cave
+ShowArea = true
+Bicycle = true
+MapPosition = 0,24,7
+BattleBack = cave1
+#-------------------------------
+[045]   # Lunar Cave 1BF
+Name = Lunar Cave
+MapPosition = 0,24,7
+DarkMap = true
+BattleBack = cave1
+#-------------------------------
+[046]   # Mt.Hope
+Name = Mt.Hope
+ShowArea = true
+Bicycle = true
+MapPosition = 0,21,9
+BattleBack = cave1
+MapSize = 2,2
 #-------------------------------
 [047]   # Marine City
 Name = Marine City
@@ -95,196 +189,23 @@ HealingSpot = 47,16,68
 MapPosition = 0,26,6
 BattleBack = field
 #-------------------------------
-[051]   # Marine City PC
-Name = Marine City
-HealingSpot = 51,10,12
-#-------------------------------
-[073]   # Marine Poke Center 2F
-Name = Marine City
-#-------------------------------
-[030]   # House
-Name = Marine City
-#-------------------------------
-[054]   # Hotel_Gym 1&2F
-Name = Abandoned Hotel
-DarkMap = true
-BattleBack = indoor1
-#-------------------------------
-[056]   # Hotel_Gym 3F
-Name = Abandoned Hotel
-DarkMap = true
-BattleBack = indoor1
-#-------------------------------
-[055]   # Police Departament
-Name = Marine City
-#-------------------------------
-[057]   # Police Departament 3F
-Name = Marine City
-
-
-#-------------------------------
-[071]   # Vituresa Village
-Name = Vituresa Village
-Outdoor = true
-ShowArea = true
-BattleBack = Forest
-#-------------------------------
-[072]   # Vituresa Village PC
-Name = Vituresa Village
-#-------------------------------
-[074]   # Vituresa Poke Center 2F
-Name = Vituresa Village
-HealingSpot = 72,10,12
-#-------------------------------
-[096]   # Vituresa Chief's House
-Name = Vituresa Village
-#-------------------------------
-[097]   # Vituresa Library
-Name = Vituresa Village
-#-------------------------------
-[093]   # Vituresa Village House 1
-Name = Vituresa Village
-#-------------------------------
-[094]   # Vituresa Village House 2
-Name = Vituresa Village
-#-------------------------------
-[095]   # Vituresa Village House 3
-Name = Vituresa Village
-
-
-#-------------------------------
-[077]   # Saintmass Town
-Name = Saintmass Town
-Outdoor = true
-ShowArea = true
-#-------------------------------
-[087]   # Saintmass PC
-Name = Saintmass Town
-HealingSpot = 9,10,12
-#-------------------------------
-[088]   # Saintmass PC 2F
-Name = Saintmass Town
-HealingSpot = 9,10,12
-#-------------------------------
-[089]   # Saintmass House_1
-Name = Saintmass Town
-Outdoor = false
-ShowArea = false
-#-------------------------------
-[090]   # Saintmass House_2
-Name = Saintmass Town
-Outdoor = false
-ShowArea = false
-#-------------------------------
-[091]   # Saintmass Gym
-Name = Saintmass Town
-Outdoor = false
-ShowArea = false
-#-------------------------------
-[092]   # Saintmass Gym
-Name = Saintmass Town
-Outdoor = false
-ShowArea = false
-
-
-
-#\\----------------------------
-#ROUTES
-#\\----------------------------
-
-#-------------------------------
-[005]   # Route 1
-Name = Route 1
-Outdoor = true
-ShowArea = true
-MapPosition = 0,13,1
-BattleBack = field
-#-------------------------------
-[060]   # Serenity Pond
-Name = Serenity Pond
-Outdoor = true
-ShowArea = true
-Weather = Rain,20
-MapPosition = 0,13,0
-BattleBack = field
-#-------------------------------
-[007]   # Route 1 Gate
-Name = Route 1
-Bicycle = true
-
-
-#-------------------------------
-[014]   # Route 2
-Name = Route 2
-Outdoor = true
-ShowArea = true
-MapPosition = 0,8,4
-BattleBack = field
-#-------------------------------
-[036]   # Route 2
-Name = Route 2
-MapPosition = 0,24,4
-#-------------------------------
-[015]   # Route 2 Gate
-Name = Route 2
-Bicycle = true
-
-
-#-------------------------------
-[018]   # Route 3
-Name = Route 3
-Outdoor = true
-ShowArea = true
-Bicycle = true
-MapPosition = 0,10,4
-BattleBack = field
-#-------------------------------
-[019]   # Day-Care
-Name = Day-Care
-#-------------------------------
-[021]   # Route 3 Gate
-Name = Route 3
-Bicycle = true
-
-
-#-------------------------------
-[039]   # Route 4
-Name = Route 4
-Outdoor = true
-ShowArea = true
-MapPosition = 0,24,4
-BattleBack = field
-#-------------------------------
 [048]   # Route 4 (Healpoint)
 Name = Route 4
+MapPosition = 0,20,9
 #-------------------------------
 [049]   # Route 4 (Cafe)
 Name = Route 4
-
-
-#-------------------------------
-[040]   # Route 5
-Name = Route 5
-Outdoor = true
-ShowArea = true
-BattleBack = field
-#-------------------------------
-[043]   # Route 5 Gate
-Name = Route 5
-
-
-#-------------------------------
-[042]   # Route 6
-Name = Route 6
-Outdoor = true
-ShowArea = true
-BattleBack = field
+MapPosition = 0,20,9
 #-------------------------------
 [050]   # Route 6 Gate
 Name = Route 6
 Bicycle = true
-
-
+MapPosition = 0,24,4
+#-------------------------------
+[051]   # Marine Town PC
+Name = Marine City
+HealingSpot = 51,10,12
+MapPosition = 0,26,6
 #-------------------------------
 [052]   # Route 7
 Name = Route 7
@@ -296,108 +217,54 @@ BattleBack = field
 [053]   # Route 7 Gate
 Name = Route 7
 Bicycle = true
-
-
+MapPosition = 0,24,4
+#-------------------------------
+[054]   # Hotel_Gym
+Name = Abandoned Hotel
+MapPosition = 0,24,4
+DarkMap = true
+BattleBack = indoor1
+#-------------------------------
+[055]   # Police Departament
+Name = Marine City
+MapPosition = 0,26,6
+#-------------------------------
+[056]   # Hotel_Gym 3F
+Name = Abandoned Hotel
+MapPosition = 0,26,6
+DarkMap = true
+BattleBack = indoor1
+#-------------------------------
+[057]   # Police Departament 3F
+Name = Marine City
+MapPosition = 0,24,4
+#-------------------------------
+[059]   # Mt.Solar
+Name = Mt.Solar
+ShowArea = true
+MapPosition = 0,18,8
+BattleBack = cave1
+MapSize = 2,2
+Environment = Cave
+#-------------------------------
+[060]   # Serenity Pond
+Name = Serenity Pond
+Outdoor = true
+ShowArea = true
+Weather = Rain,20
+MapPosition = 0,22,4
+BattleBack = field
+#-------------------------------
+[066]   # Gigantopolis
+Name = Gigantopolis
+MapPosition = 0,11,3
 #-------------------------------
 [067]   # Route 8
 Name = Route 8
 Outdoor = true
 ShowArea = true
+MapPosition = 0,17,9
 BattleBack = Field
-#-------------------------------
-[070]   # Food_Maniac
-Name = Route 8
-#-------------------------------
-[075]   # Route 8 Gate
-Name = Route 8
-Bicycle = true
-
-
-#-------------------------------
-[076]   # Route 9
-Name = Route 9
-Outdoor = true
-ShowArea = true
-BattleBack = Field
-
-
-#-------------------------------
-[079]   # Route 10
-Name = Route 10
-Outdoor = true
-ShowArea = true
-Weather = Rain,80
-BattleBack = Field
-#-------------------------------
-[099]   # Route 10 Gate
-Name = Route 10
-Bicycle = true
-#-------------------------------
-[080]   # Apricorn Maker
-Name = Route 10
-
-
-#-------------------------------
-[083]   # Route 13
-Name = Route 13
-Outdoor = true
-ShowArea = true
-#-------------------------------
-[098]   # Route 13 Gate
-Name = Route 13
-Bicycle = true
-
-
-#\\----------------------------
-#DUNGEONS
-#\\----------------------------
-
-#-------------------------------
-[020]   # Indi Forest
-Name = Indi Forest
-Outdoor = true
-ShowArea = true
-MapPosition = 0,22,6
-BattleBack = forest
-
-
-#-------------------------------
-[023]   # Mt.Solar
-Name = Mt.Solar
-Outdoor = false
-ShowArea = true
-BattleBack = cave1
-Environment = Cave
-#-------------------------------
-[059]   # Mt.Solar
-Name = Mt.Solar
-Outdoor = false
-ShowArea = true
-BattleBack = cave1
-Environment = Cave
-
-
-#-------------------------------
-[046]   # Mt.Hope
-Name = Mt.Hope
-ShowArea = true
-Bicycle = true
-BattleBack = cave1
-
-
-#-------------------------------
-[044]   # Lunar Cave
-Name = Lunar Cave
-ShowArea = true
-Bicycle = true
-BattleBack = cave1
-#-------------------------------
-[045]   # Lunar Cave 1BF
-Name = Lunar Cave
-DarkMap = true
-BattleBack = cave1
-
-
 #-------------------------------
 [068]   # Haunted Desert
 Name = Haunted Desert
@@ -406,11 +273,133 @@ ShowArea = true
 Weather = Sandstorm,100
 MapPosition = 0,18,9
 BattleBack = Rocky
-
-
 #-------------------------------
 [069]   # Forgotten Chamber
 Name = Forgotten Chamber
-Outdoor = false
 ShowArea = true
+MapPosition = 0,18,9
 BattleBack = cave1
+#-------------------------------
+[070]   # Food_Maniac
+Name = Route 8
+MapPosition = 0,24,4
+#-------------------------------
+[071]   # Vituresa Village
+Name = Vituresa Village
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,9
+BattleBack = Forest
+#-------------------------------
+[072]   # Vituresa Town PC
+Name = Vituresa Village
+MapPosition = 0,16,9
+#-------------------------------
+[073]   # Marine Poke Center 2F
+Name = Marine City
+MapPosition = 0,26,6
+#-------------------------------
+[074]   # Vituresa Poke Center 2F
+Name = Vituresa Village
+HealingSpot = 72,10,12
+MapPosition = 0,16,9
+#-------------------------------
+[075]   # Route 8 Gate
+Name = Route 8
+Bicycle = true
+MapPosition = 0,24,4
+#-------------------------------
+[076]   # Route 9
+Name = Route 9
+Outdoor = true
+ShowArea = true
+MapPosition = 0,19,7
+BattleBack = Field
+#-------------------------------
+[077]   # Saintmass City
+Name = Saintmass City
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,3
+#-------------------------------
+[079]   # Route 10
+Name = Route 10
+Outdoor = true
+ShowArea = true
+Weather = Rain,80
+MapPosition = 0,17,5
+BattleBack = Field
+#-------------------------------
+[080]   # Apricorn Maker
+Name = Route 10
+MapPosition = 0,24,4
+#-------------------------------
+[081]   # Route 11
+Name = Route 11
+MapPosition = 0,14,3
+#-------------------------------
+[082]   # Route 12
+Name = Route 12
+MapPosition = 0,12,5
+#-------------------------------
+[083]   # Route 13
+Name = Route 13
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,10
+#-------------------------------
+[087]   # Saitmass Town PC
+Name = Saintmass City
+HealingSpot = 9,10,12
+MapPosition = 0,16,3
+#-------------------------------
+[088]   # Saintmass PC 2F
+Name = Saintmass City
+HealingSpot = 9,10,12
+MapPosition = 0,16,3
+#-------------------------------
+[089]   # ST_House1
+Name = Saintmass City
+MapPosition = 0,16,3
+#-------------------------------
+[090]   # ST_House2
+Name = Saintmass City
+MapPosition = 0,16,3
+#-------------------------------
+[091]   # Gym
+Name = Saintmass City
+MapPosition = 0,16,3
+#-------------------------------
+[092]   # Gym_2
+Name = Saintmass City
+MapPosition = 0,16,3
+#-------------------------------
+[093]   # Vituresa_HS1
+Name = Vituresa Village
+MapPosition = 0,16,9
+#-------------------------------
+[094]   # Vituresa_HS2
+Name = Vituresa Village
+MapPosition = 0,16,9
+#-------------------------------
+[095]   # Vituresa_HS3
+Name = Vituresa Village
+MapPosition = 0,16,9
+#-------------------------------
+[096]   # Library
+Name = Vituresa Village
+MapPosition = 0,24,4
+#-------------------------------
+[097]   # Chief_House
+Name = Vituresa Village
+MapPosition = 0,16,9
+#-------------------------------
+[098]   # Route 13 Gate
+Name = Route 13
+Bicycle = true
+MapPosition = 0,24,4
+#-------------------------------
+[099]   # Route 10 Gate
+Name = Route 10
+Bicycle = true
+MapPosition = 0,24,4

@@ -1098,3 +1098,7 @@ Description = Dark-type moves become Angel-type.
 [SUNRISE]
 Name = Sunrise
 Description = Turns the sunlight harsh if it is in battle.
+#-------------------------------
+[SHARPNESS]
+Name = Sharpness
+Description = Powers up slicing moves.
