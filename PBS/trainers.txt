@@ -278,23 +278,11 @@ Pokemon = CUBTURN,12
 LoseText = You are strong!
 Pokemon = BABRAGON,18
 Pokemon = ROOGRE,18
+#Chief House
+[REAPER, Drake,1]
+LoseText = Not again!
+Pokemon = BOUDYENA,14
+Pokemon = VOODOLL,14
+Pokemon = YOUNROW,16
 
 
-#Battle Island
-#-------------------------------
-[ACETRAINER_M, Artur] #4 Badges
-LoseText = Nice one!
-Pokemon = HAPPINY,20
-Pokemon = CHANSEY,20
-
-[ACETRAINER_M, Artur,1] #7 Badges
-LoseText = Nice one!
-Pokemon = CHANSEY,40
-Pokemon = CHANSEY,40
-
-[ACETRAINER_M, Artur,2] #Post-Game
-LoseText = Nice one!
-Pokemon = CHANSEY,60
-Pokemon = CHANSEY,65
-Pokemon = BLISSEY,70
-Pokemon = BLISSEY,80

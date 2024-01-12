@@ -52,6 +52,11 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33
+#-------------------------------
+[066] # Gigantopolis
+Land,21
+	100,CRACKUUM,14,16
+
 
 
 #Routes
