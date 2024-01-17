@@ -8745,6 +8745,18 @@ Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 20
 Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
 #-------------------------------
+[MENTALPRESSURE]
+Name = Mental Pressure
+Type = PSYCHIC		
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks with it's mental power. The power depends on the foe Sp.Defense.
+#-------------------------------
 [FLAMEHORN]
 Name = Flame Horn
 Type = FIRE
@@ -8819,17 +8831,29 @@ FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbility
 Flags = CanProtect,CanMirrorMove,CannotMetronome
 Description = The user attacks and sphere of energy. This move category depends on the user highest offensive stat.
 #-------------------------------
-[MENTALPRESSURE]
-Name = Mental Pressure
-Type = PSYCHIC		
+[ELECTRODRAIN]
+Name = Electro Drain
+Type = ELECTRIC
 Category = Special
-Power = 80
+Power = 75
 Accuracy = 100
-TotalPP = 15
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[MOUSEWHIP]
+Name = Mouse Whip
+Type = ELECTRIC
+Category = Physical
+Power = 120
+Accuracy = 85
+TotalPP = 10
 Target = NearOther
 FunctionCode = None
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = The user attacks with it's mental power. The power depends on the foe Sp.Defense.
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The foe is hit with an mouse like whip.
 #-------------------------------
 [CUPIDSHOT]
 Name = Cupid Shot

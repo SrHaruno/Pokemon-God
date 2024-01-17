@@ -23739,7 +23739,7 @@ Happiness = 50
 Abilities = LEAFGUARD,CHLOROPHYLL
 HiddenAbilities = SHARPNESS
 Moves = 1,SCRATCH,1,LEER,5,LEAFAGE,9,SHADOWSNEAK,13,RAZORLEAF,17,LEECHSEED,20,METALCLAW,25,SLASH,32,GROWTH,34,NIGHTSLASH,38,SMARTSTRIKE,42,LEAFBLADE,46,SACREDSWORD,52,SWORDSDANCE
-TutorMoves = SWORDSDANCE,PROTECT
+TutorMoves = SWORDSDANCE,PROTECT,AERIALACE
 EggGroups = Grass
 HatchSteps = 1
 Height = 0.7
@@ -24207,7 +24207,7 @@ Pokedex = ???
 [SPARCUB]
 Name = Sparcub
 Types = ELECTRIC
-BaseStats = 40,70,40,80,50,40
+BaseStats = 40,65,40,80,50,40
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 50
@@ -24228,12 +24228,12 @@ Shape = Quadruped
 Habitat = Urban
 Category = Cub
 Pokedex = ???
-Evolutions = CHELECTRIC,Level,26
+Evolutions = JOLTAH,Level,26
 #-------------------------------
-[CHELECTRIC]
-Name = Chelectric
+[JOLTAH]
+Name = Joltah
 Types = ELECTRIC
-BaseStats = 70,110,60,135,50,60
+BaseStats = 70,95,60,135,50,60
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 128
@@ -24908,11 +24908,59 @@ Pokedex = ???
 
 
 #-------------------------------
+[CHOPAXE]
+Name = Chopaxe
+Types = STEEL
+BaseStats = 45,70,80,31,40,50
+GenderRatio = Genderless
+GrowthRate = Medium
+BaseExp = 128
+EVs = DEFENSE,1
+CatchRate = 120
+Happiness = 50
+Abilities = CLEARBODY,KEENEYE
+Moves = 1,SCRATCH,1,SHIFTGEAR
+TutorMoves = TRIPLEAXEL
+EggGroups = Mineral
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = HeadLegs
+Habitat = Urban
+Category = Axe
+Evolutions = AXESSAUR,Level,40
+#-------------------------------
+[AXESSAUR]
+Name = Axessaur
+Types = STEEL
+BaseStats = 65,120,130,61,50,60
+GenderRatio = Genderless
+GrowthRate = Medium
+BaseExp = 220
+EVs = DEFENSE,2
+CatchRate = 45
+Happiness = 50
+Abilities = CLEARBODY,INTIMIDATE
+Moves = 1,SCRATCH,1,SHIFTGEAR
+TutorMoves = TRIPLEAXEL
+EggGroups = Mineral
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = HeadLegs
+Habitat = Urban
+Category = Axe
+
+
+
+#-------------------------------
 [CRACKUUM]
 Name = Crackuum
 Types = ROCK,POISON
 BaseStats = 65,60,90,30,20,80
-GenderRatio = Genderless
+GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 50
 EVs = DEFENSE,1
@@ -24937,7 +24985,7 @@ Evolutions = CILLUTION,Level,30
 Name = Cillution
 Types = ROCK,POISON
 BaseStats = 108,80,130,40,35,70
-GenderRatio = Genderless
+GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 240
 EVs = DEFENSE,2
@@ -24951,18 +24999,86 @@ HatchSteps = 5120
 Height = 0.7
 Weight = 6.9
 Color = Gray
-Shape = Head
+Shape = Bipedal
 Habitat = Urban
 Category = Floor
 Pokedex = Cillution wanders around big cities, feeding from their huge polluted air.
-
+#-------------------------------
+[INVARAM]
+Name = Invaram
+Types = ELECTRIC
+BaseStats = 40,50,30,100,50,30
+GenderRatio = Genderless
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = SPEED,1
+CatchRate = 235
+Happiness = 50
+Abilities = LEVITATE,STATIC
+Moves = 1,SELFDESTRUCT
+TutorMoves = THUNDERWAVE
+EggGroups = Mineral
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Head
+Habitat = Urban
+Category = RAM Stick
+Pokedex = Invaram disguises them selfs as RAM sticks, once installed in a computer they will drain the energy from it.
+Evolutions = CASEECH,Level,28
+#-------------------------------
+[CASEECH]
+Name = Caseech
+Types = ELECTRIC
+BaseStats = 60,90,100,40,95,100
+GenderRatio = Genderless
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = DEFENSE,1,SPECIAL_DEFENSE,1
+CatchRate = 235
+Happiness = 50
+Abilities = LEVITATE,STATIC
+Moves = 0,ELECTRODRAIN,1,SELFDESTRUCT,1,THUNDERSHOCK
+TutorMoves = THUNDERWAVE
+EggGroups = Mineral
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Head
+Habitat = Urban
+Category = Computer Case
+Evolutions = JOLTUTER,Level,38
+#-------------------------------
+[JOLTUTER]
+Name = Joltuter
+Types = ELECTRIC
+BaseStats = 50,130,40,110,120,40
+GenderRatio = Genderless
+GrowthRate = Parabolic
+BaseExp = 50
+EVs = SPEED,3
+CatchRate = 235
+Happiness = 50
+Abilities = BROKENSPEAKER,BAREWIRE
+Moves = 0,MOUSEWHIP,1,SELFDESTRUCT,1,THUNDERSHOCK
+TutorMoves = THUNDERWAVE
+EggGroups = Mineral
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = HeadLegs
+Habitat = Urban
+Category = Computer
 
 
 #-------------------------------
 [BABRAGON]
 Name = Babragon
 Types = DRAGON
-BaseStats = 45,60,40,55,40,40
+BaseStats = 48,60,40,45,40,40
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 62
@@ -24987,7 +25103,7 @@ Evolutions = DRAKIDDO,Level,38
 [DRAKIDDO]
 Name = Drakiddo
 Types = DRAGON
-BaseStats = 60,80,50,75,60,50
+BaseStats = 58,80,50,55,50,50
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 62
@@ -25011,7 +25127,7 @@ Evolutions = DRAGOWER,Level,48
 [DRAGOWER]
 Name = Dragower
 Types = DRAGON
-BaseStats = 70,110,60,87,65,60
+BaseStats = 68,140,60,61,60,60
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 62
@@ -25301,6 +25417,9 @@ Shape = Serpentine
 Habitat = Urban
 Category = Ancient Dragon
 Pokedex = ???
+
+
+
 #-------------------------------
 [GLORY]
 Name = GLORY
