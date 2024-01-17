@@ -1071,6 +1071,15 @@ Description = Combines Unnerve and Chilling Neigh Abilities.
 Name = As One
 Description = Combines Unnerve and Grim Neigh Abilities.
 #-------------------------------
+[SHARPNESS]
+Name = Sharpness
+Description = Powers up slicing moves.
+#\\==================================
+#\\  POKÉMON GOD ABILITIES
+#\\==================================
+
+
+#-------------------------------
 [UNLEASH]
 Name = Unleash
 Description = Raises the highest offensive stat knocking any Pokémon.
@@ -1099,6 +1108,10 @@ Description = Dark-type moves become Angel-type.
 Name = Sunrise
 Description = Turns the sunlight harsh if it is in battle.
 #-------------------------------
-[SHARPNESS]
-Name = Sharpness
-Description = Powers up slicing moves.
+[BAREWIRE]
+Name = Bare Wire
+Description = May paralyze targets when a Pokémon makes contact.
+#-------------------------------
+[BROKENSPEAKER]
+Name = Broken Speaker
+Description = Powers up sound moves.
