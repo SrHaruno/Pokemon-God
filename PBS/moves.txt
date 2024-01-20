@@ -8756,17 +8756,18 @@ FunctionCode = LowerTargetDefSpDef1SwitchOutUser
 Flags = CanProtect,CanMirrorMove,Sound
 Description = A mighty roar that frightens the foes, the user lowers the target's Defense and Sp. Def stats. Then it switches out.
 #-------------------------------
-[MENTALPRESSURE]
-Name = Mental Pressure
-Type = PSYCHIC		
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 15
+[EXCALIBOO]
+Name = Excaliboo
+Type = GHOST
+Category = Physical
+Power = 60
+Accuracy = 90
+TotalPP = 10
 Target = NearOther
-FunctionCode = None
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = The user attacks with it's mental power. The power depends on the foe Sp.Defense.
+Priority = -6
+FunctionCode = SwitchOutTargetDamagingMove
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user scares the target by slashing a ghostly sword. Drags out another Pokémon in its party. In the wild, the battle ends.
 #-------------------------------
 [FLAMEHORN]
 Name = Flame Horn
@@ -8793,19 +8794,6 @@ FunctionCode = None
 Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
 Description = The user swings burning slash on the foe. It has a high critical-hit ratio.
 #-------------------------------
-[EXCALIBOO]
-Name = Excaliboo
-Type = GHOST
-Category = Physical
-Power = 60
-Accuracy = 90
-TotalPP = 10
-Target = NearOther
-Priority = -6
-FunctionCode = SwitchOutTargetDamagingMove
-Flags = Contact,CanProtect,CanMirrorMove
-Description = The user knocks away the target and drags out another Pokémon in its party. In the wild, the battle ends.
-#-------------------------------
 [SHUMERANG]
 Name = Shumerang
 Type = GRASS
@@ -8815,32 +8803,43 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
-Flags = CanProtect,CanMirrorMove,Bomb
+Flags = CanProtect,CanMirrorMove,Slashing
 Description = The user spins slashing the foe multiple times like a boomerang. This moves hits 2-5 times.
 #-------------------------------
-[DARKNESSFURY]
-Name = Darkness Fury
-Type = DARK
-Category = Physical
-Power = 120
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = RecoilThirdOfDamageDealt
-Flags = Contact,CanProtect,CanMirrorMove
-Description = The users rushes recklesly into the foe, taking a big recoil.
-#-------------------------------
-[DRACOSPHERE]
-Name = Draco Sphere
-Type = DRAGON
+[BLOSSOMSPEAR]
+Name = Blossom Spear
+Type = GRASS
 Category = Special
-Power = 90
+Power = 25
 Accuracy = 100
-TotalPP = 15
+TotalPP = 30
 Target = NearOther
-FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbility
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = The user attacks and sphere of energy. This move category depends on the user highest offensive stat.
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove
+Description = The user throw spear like petals on the target. This moves hits 2-5 times.
+#-------------------------------
+[IAIJUTSU]
+Name = Iaijutsu
+Type = GRASS
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Slashing
+Description = The user attacks precisely at the target before they can attack. It is sure to strike first.
+#-------------------------------
+[SAKURADANCE]
+Name = Sakura Dance
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpAtk2
+Description = The user dances on a majestic way. It sharply raises the user's Sp. Atk.
 #-------------------------------
 [ELECTRODRAIN]
 Name = Electro Drain
@@ -8865,6 +8864,42 @@ Target = NearOther
 FunctionCode = None
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The foe is hit with an mouse like whip.
+#-------------------------------
+[MENTALPRESSURE]
+Name = Mental Pressure
+Type = PSYCHIC		
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks with it's mental power. The power depends on the foe Sp.Defense.
+#-------------------------------
+[DRACOSPHERE]
+Name = Draco Sphere
+Type = DRAGON
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbility
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks and sphere of energy. This move category depends on the user highest offensive stat.
+#-------------------------------
+[DARKNESSFURY]
+Name = Darkness Fury
+Type = DARK
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RecoilThirdOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The users rushes recklesly into the foe, taking a big recoil.
 #-------------------------------
 [CUPIDSHOT]
 Name = Cupid Shot
