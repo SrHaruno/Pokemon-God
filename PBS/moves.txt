@@ -8745,6 +8745,17 @@ Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 20
 Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
 #-------------------------------
+[MIGHTYROAR]
+Name = Mighty Roar
+Type = NORMAL
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetDefSpDef1SwitchOutUser
+Flags = CanProtect,CanMirrorMove,Sound
+Description = A mighty roar that frightens the foes, the user lowers the target's Defense and Sp. Def stats. Then it switches out.
+#-------------------------------
 [MENTALPRESSURE]
 Name = Mental Pressure
 Type = PSYCHIC		
