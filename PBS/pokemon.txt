@@ -24455,8 +24455,8 @@ Habitat = Urban
 Category = Fruit Eater
 Pokedex = ???
 #-------------------------------
-[GALAKID]
-Name = Galakid
+[DROMEDA]
+Name = Dromeda
 Types = PSYCHIC
 BaseStats = 45,30,30,80,90,45
 GenderRatio = Female50Percent
@@ -24478,10 +24478,10 @@ Shape = Bipedal
 Habitat = Cave
 Category = Magician
 Pokedex = ???
-Evolutions = SORCALAXY,Level,28
+Evolutions = ADEMORAN,Level,28
 #-------------------------------
-[SORCALAXY]
-Name = Sorcalaxy
+[ADEMORAN]
+Name = Ademoran
 Types = PSYCHIC
 BaseStats = 55,40,40,90,100,55
 GenderRatio = Female50Percent
@@ -24502,10 +24502,10 @@ Shape = Bipedal
 Habitat = Cave
 Category = Sorcerer
 Pokedex = ???
-Evolutions = WIZDROMEDA,Level,48
+Evolutions = ANDROWIZARD,Level,48
 #-------------------------------
-[WIZDROMEDA]
-Name = Wizdromeda
+[ANDROWIZARD]
+Name = Androwizard
 Types = PSYCHIC
 BaseStats = 65,50,50,104,130,95
 GenderRatio = Female50Percent

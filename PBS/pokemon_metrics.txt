@@ -6102,12 +6102,6 @@ FrontSprite = -9,10
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
-[WIZDROMEDA]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
 [CELESTEON]
 BackSprite = 0,25
 FrontSprite = 1,11
@@ -6133,12 +6127,6 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [PECURU]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[SORCALAXY]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
