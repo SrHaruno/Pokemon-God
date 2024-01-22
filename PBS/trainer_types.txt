@@ -27,14 +27,14 @@ Name = Gym Leader
 Gender = Male
 BaseMoney = 100
 BattleBGM = Battle! Vs Gym Leader
-VictoryBGM = Battle victory leader
+VictoryBGM = Victory! Gym Leader
 #-------------------------------
 [REAPERBOSS]
 Name = Reaper Boss
 Gender = Male
 BaseMoney = 100
 BattleBGM = Battle! Vs Gym Leader
-VictoryBGM = Battle victory leader
+VictoryBGM = Victory! Gym Leader
 
 
 

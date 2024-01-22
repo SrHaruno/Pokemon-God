@@ -105,6 +105,7 @@ BattleBack = field
 [023]   # Mt.Solar
 Name = Mt.Solar
 ShowArea = true
+Bicycle = true
 MapPosition = 0,18,8
 BattleBack = cave1
 Environment = Cave

@@ -260,10 +260,20 @@ Pokemon = MOSSELIN,12
 
 #Route 8
 #-------------------------------
+[PI, Elon]
+Items = FULLRESTORE
+LoseText = Unlike Pokémon, fortune doesn't fail me!
+Pokemon = DWILD,14
+
 [DRAGONTAMER, Jaragon]
 LoseText = Argh!
-Pokemon = BABRAGON,14
+Pokemon = BABRAGON,15
 Pokemon = PINATAYA,14
+
+[PSYCHIC_F, Haruka]
+LoseText = My mental powers failed me!
+Pokemon = DROMEDA,12
+Pokemon = MOSLEEP,13
 
 [SHINYMANIAC, Sparkly]
 LoseText = Their shine wasn't enought for you!

@@ -7,8 +7,8 @@ Home = 3,7,5,8
 StorageCreator = Bill
 WildBattleBGM = Battle! Vs Wild Pokémon
 TrainerBattleBGM = Battle! Vs Trainer
-WildVictoryBGM = Battle victory wild
-TrainerVictoryBGM = Battle victory trainer
+WildVictoryBGM = Victory! Wild Pokémon
+TrainerVictoryBGM = Victory! Trainer
 SurfBGM = Surfing
 BicycleBGM = Cycling
 #-------------------------------
