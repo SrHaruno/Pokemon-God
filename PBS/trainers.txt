@@ -120,16 +120,21 @@ Pokemon = GRALING,10
 #-------------------------------
 [TUBER_M, João]
 LoseText = Buaaaaaaaah!
-Pokemon = TURTEED,10
+Pokemon = TURTEED,9
 #-------------------------------
 [TUBER_F, Maria]
 LoseText = Atleast my tube is still cute!
-Pokemon = AXOLOBY,10
+Pokemon = AXOLOBY,8
 #-------------------------------
 [YOUNGSTER, Rafael]
-LoseText = Dammit, your are super strong!
-Pokemon = SPARCUB,12
+LoseText = Not even being relaxed made me win!
+Pokemon = SPARCUB,9
 Pokemon = HUMMIRD,10
+#-------------------------------
+[SWIMMER_F, Natalia]
+LoseText = Oh nyo!
+Pokemon = BOTOLPHIN,10
+#-------------------------------
 [FISHERMAN, Berg]
 LoseText = My Pokémon!!!
 Pokemon = MAGIKARP,5

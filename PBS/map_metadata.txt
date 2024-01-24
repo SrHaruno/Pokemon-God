@@ -150,6 +150,11 @@ ShowArea = true
 MapPosition = 0,16,10
 BattleBack = field
 #-------------------------------
+[041]   # Mt.Hope
+Name = Mt.Hope
+ShowArea = true
+Bicycle = true
+#-------------------------------
 [042]   # Route 6
 Name = Route 6
 Outdoor = true
