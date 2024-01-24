@@ -43,6 +43,38 @@ Pokemon = MOMBER,10
 Pokemon = AXOLOBY,12
 
 
+#Gym Rematches
+
+#Daniel
+#-------------------------------
+[LEADER_Daniel,Daniel,1]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = Very good. You still have the hang of it!
+Pokemon = MOSSENGE,25
+Pokemon = SIMISAGE,25
+Pokemon = ORIKEN,28
+Pokemon = EVIRASS,30
+#-------------------------------
+[LEADER_Daniel,Daniel,2]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Very good. You still have the hang of it!
+Pokemon = MOSSENGE,30
+Pokemon = SIMISAGE,30
+Pokemon = IVYSAUR,35
+Pokemon = KATAGAMI,35
+Pokemon = JUNVIL,38
+#-------------------------------
+[LEADER_Daniel,Daniel,3]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Very good. You still have the hang of it!
+Pokemon = MOSSOLEM,40
+Pokemon = SIMISAGE,40
+Pokemon = VENUSAUR,45
+Pokemon = KATAGAMI,45
+Pokemon = JUNVIL,48
+
+
+
 #Route 2
 #-------------------------------
 [YOUNGSTER,Arthur]

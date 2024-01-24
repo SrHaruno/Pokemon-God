@@ -3499,6 +3499,7 @@ Pokedex = A Ditto rearranges its cell structure to transform itself. However, if
 Generation = 1
 WildItemCommon = QUICKPOWDER
 WildItemUncommon = METALPOWDER
+CallRateSOS = 10
 #-------------------------------
 [EEVEE]
 Name = Eevee
@@ -23336,6 +23337,7 @@ Habitat = Urban
 Category = Pure
 Pokedex = ???
 Evolutions = PEACIRD,LevelDay,14,YOUNROW,LevelNight,14,PEACIRD,Location,46,YOUNROW,Location,59
+CallRateSOS = 15
 #-------------------------------
 [PEACIRD]
 Name = Peacird
@@ -23456,6 +23458,7 @@ Habitat = Urban
 Category = Loyal
 Pokedex = Dwilds are very loyal, always protecting their owners.
 Evolutions = HOGGO,Level,20
+CallRateSOS = 15
 #-------------------------------
 [HOGGO]
 Name = Hoggo

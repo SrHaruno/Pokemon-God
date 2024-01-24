@@ -1,0 +1,6 @@
+﻿Name       = [DBK] SOS Battles
+Version    = 1.0
+Essentials = 21.1
+Requires   = Deluxe Battle Kit,1.0.1
+Website    = https://reliccastle.com/resources/1473/
+Credits    = Lucidious89

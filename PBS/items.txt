@@ -1175,6 +1175,7 @@ Price = 300
 BPPrice = 10
 Flags = Fling_30
 Description = An item to be held by a Pokémon. It boosts Speed when intimidated. It can be used only once.
+BattleUse = Direct
 #-------------------------------
 [ROOMSERVICE]
 Name = Room Service

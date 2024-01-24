@@ -1,0 +1,7 @@
+### Apply changes by holding SHIFT while compiling. ###
+#-------------------------------
+[DWILD]
+CallRateSOS = 15
+#-------------------------------
+[DITTO]
+CallRateSOS = 10
