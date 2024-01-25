@@ -263,7 +263,7 @@ Pokemon = CAPYBURA,13
 #Abandoned Hotel 3F
 #-------------------------------
 [REAPERBOSS, Alcapone]
-LoseText = Huh?! What's this...
+LoseText = Huh...
 Items = POTION
 Pokemon = YOUNROW,14
 Pokemon = EVIRASS,18
