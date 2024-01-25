@@ -164,6 +164,7 @@ BattleBack = field
 #-------------------------------
 [043]   # Route 5 Gate
 Name = Route 5
+Bicycle = true
 MapPosition = 0,24,4
 #-------------------------------
 [044]   # Lunar Cave

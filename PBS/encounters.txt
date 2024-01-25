@@ -146,8 +146,11 @@ OldRod
     70,MAGIKARP,8,10
 GoodRod
     60,MAGIKARP,8,10
+	5,DRATINI,20,25
 SuperRod
     20,GYARADOS,30,33	
+	10,DRATINI,20,25
+	1,DRAGONAIR,30,35
 #-------------------------------
 [042] # Route 6
 LandDay,21
@@ -220,10 +223,26 @@ GoodRod
 SuperRod
     20,GYARADOS,30,33
 #-------------------------------
-[046] # Mt.Hope
+[041] # Mt.Hope
 Cave,5
     45,UNOWN,8,10
     5,SNAKRE,10
+#-------------------------------
+[046] # Mt.Hope Secret Cave
+Cave,5
+    45,UNOWN,8,10
+    5,SNAKRE,10
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+	5,DRATINI,20,25
+SuperRod
+    20,GYARADOS,30,33	
+	10,DRATINI,20,25
+	1,DRAGONAIR,30,35
 #-------------------------------
 [044] # Lunar Cave
 Cave,5
