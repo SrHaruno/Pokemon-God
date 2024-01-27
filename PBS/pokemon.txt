@@ -24530,6 +24530,81 @@ Shape = Bipedal
 Habitat = Cave
 Category = Galaxy
 Pokedex = ???
+#-------------------------------
+[KARAKID]
+Name = Karakid
+Types = FIGHTING
+BaseStats = 45,65,45,70,40,40
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 61
+EVs = ATTACK,1
+CatchRate = 180
+Happiness = 50
+Abilities = GUTS
+Moves = 1,TACKLE,1,TAILWHIP,4,FOCUSENERGY,8,KARATECHOP,12,TAILSLAP,16,KNOCKOFF,20,LOWKICK,24,DIZZYPUNCH,29,MEGAPUNCH,32,BULKUP,36,BRICKBREAK,40,CLOSECOMBAT,44,CROSSCHOP,48,MEGAKICK,52,SUPERPOWER
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Brown
+Shape = Bipedal
+Habitat = Forest
+Category = Karate
+Pokedex = ???
+Evolutions = KARABELT,Level,25
+#-------------------------------
+[KARABELT]
+Name = Karabelt
+Types = FIGHTING
+BaseStats = 65,80,75,85,50,50
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 142
+EVs = ATTACK,2
+CatchRate = 90
+Happiness = 50
+Abilities = GUTS
+Moves = 1,TACKLE,1,TAILWHIP,4,FOCUSENERGY,8,KARATECHOP,12,TAILSLAP,16,KNOCKOFF,20,LOWKICK,24,DIZZYPUNCH,31,MEGAPUNCH,36,BULKUP,42,BRICKBREAK,48,CLOSECOMBAT,54,CROSSCHOP,60,MEGAKICK,66,SUPERPOWER
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Brown
+Shape = Bipedal
+Habitat = Forest
+Category = Apprentiece
+Pokedex = ???
+Evolutions = KARAKING,Level,35
+WildItemUncommon = BLACKBELT
+#-------------------------------
+[KARAKING]
+Name = Karaking
+Types = FIGHTING
+BaseStats = 80,120,100,95,55,55
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 227
+EVs = ATTACK,3
+CatchRate = 45
+Happiness = 50
+Abilities = GUTS
+Moves = 1,TACKLE,1,TAILWHIP,4,FOCUSENERGY,8,KARATECHOP,12,TAILSLAP,16,KNOCKOFF,20,LOWKICK,24,DIZZYPUNCH,31,MEGAPUNCH,37,BULKUP,43,BRICKBREAK,49,CLOSECOMBAT,55,CROSSCHOP,61,MEGAKICK,68,SUPERPOWER
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Brown
+Shape = Bipedal
+Habitat = Forest
+Category = Martial Master
+Pokedex = ???
 
 
 

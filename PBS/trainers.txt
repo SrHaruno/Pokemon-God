@@ -155,20 +155,20 @@ LoseText = Buaaaaaaaah!
 Pokemon = TURTEED,9
 #-------------------------------
 [TUBER_F, Maria]
-LoseText = Atleast my tube is still cute!
+LoseText = Atleast my floaty is still cute!
 Pokemon = AXOLOBY,8
 #-------------------------------
 [YOUNGSTER, Rafael]
-LoseText = Not even being relaxed made me win!
-Pokemon = SPARCUB,9
-Pokemon = HUMMIRD,10
+LoseText = Dammit!
+Pokemon = HUMMIRD,8
+Pokemon = TURTEED,9
 #-------------------------------
 [SWIMMER_F, Natalia]
 LoseText = Oh nyo!
 Pokemon = BOTOLPHIN,10
 #-------------------------------
 [FISHERMAN, Berg]
-LoseText = My Pokémon!!!
+LoseText = One day Ill find the legendary dragon!!!
 Pokemon = MAGIKARP,5
 Pokemon = MAGIKARP,5
 Pokemon = MAGIKARP,6
@@ -181,11 +181,11 @@ Pokemon = MAGIKARP,15
 #-------------------------------
 [CRUSHGIRL, Sakura]
 LoseText = Back to training I should go!
-Pokemon = CHIKATE,10
+Pokemon = KARAKID,8
 #-------------------------------
-[BLACKBELT, Haruno]
+[BLACKBELT, Noharu]
 LoseText = Even if I lose, im not giving up!
-Pokemon = FLAMMUNY,10
+Pokemon = FLAMMUNY,8
 #-------------------------------
 [YOUNGSTER, Tobias]
 LoseText = My Pokémon!
@@ -196,7 +196,6 @@ Pokemon = TURTEED,12
 LoseText = My sweet babies!
 Pokemon = ORBEAF,10
 	Gender = Female
-Pokemon = GRALING,12
 Pokemon = PANSAGE,14
 
 
