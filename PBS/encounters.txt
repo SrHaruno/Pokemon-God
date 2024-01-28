@@ -121,7 +121,7 @@ LandDay,21
     30,MOMBER,4,6
     10,EEVEE,10
 LandNight,21
-    45,FLAMMUNY,4,6
+    45,FLAMUNNY,4,6
     30,PURIRD,4,6
     10,EEVEE,10
 #-------------------------------
@@ -160,7 +160,7 @@ LandDay,21
     10,HUMMIRD,10
 LandNight,21
 	40,CAPYBURA,9,12
-    20,FLAMMUNY,9,10
+    20,FLAMUNNY,9,10
     20,PURIRD,9,10
 	10,FRUCTERA,9,12
 #-------------------------------

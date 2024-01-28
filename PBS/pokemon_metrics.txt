@@ -5772,7 +5772,7 @@ FrontSprite = 0,20
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[FLAMMUNY]
+[FLAMUNNY]
 BackSprite = 0,1
 FrontSprite = 0,20
 ShadowX = 0

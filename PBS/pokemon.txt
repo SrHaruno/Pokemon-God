@@ -24041,8 +24041,8 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 #-------------------------------
-[FLAMMUNY]
-Name = Flammuny
+[FLAMUNNY]
+Name = Flamunny
 Types = FIRE,FIGHTING
 BaseStats = 55,75,55,65,50,55
 GenderRatio = Female50Percent

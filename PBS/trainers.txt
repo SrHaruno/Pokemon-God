@@ -185,7 +185,7 @@ Pokemon = KARAKID,8
 #-------------------------------
 [BLACKBELT, Noharu]
 LoseText = Even if I lose, im not giving up!
-Pokemon = FLAMMUNY,8
+Pokemon = FLAMUNNY,8
 #-------------------------------
 [YOUNGSTER, Tobias]
 LoseText = My Pokémon!
