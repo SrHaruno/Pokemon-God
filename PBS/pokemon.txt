@@ -8658,7 +8658,7 @@ CatchRate = 255
 Happiness = 50
 Abilities = HYPERCUTTER,ARENATRAP
 HiddenAbilities = SHEERFORCE
-Moves = 1,SANDATTACK,1,ASTONISH,4,LASERFOCUS,8,BITE,12,MUDSLAP,16,SANDTOMB,20,BULLDOZE,24,DIG,28,CRUNCH,32,SANDSTORM,36,EARTHPOWER,40,EARTHQUAKE,44,SUPERPOWER,48,FISSURE
+Moves = 1,SANDATTACK,1,ASTONISH,4,LASERFOCUS,8,BITE,12,MUDSLAP,16,SANDTOMB,20,BULLDOZE,24,DIG,28,CRUNCH,32,SANDSTORM,36,EARTHPOWER,40,SHADOWBALL,44,SUPERPOWER,48,FISSURE
 TutorMoves = ATTRACT,BODYSLAM,BUGBITE,BULLDOZE,CAPTIVATE,CONFIDE,CRUNCH,DIG,DOUBLEEDGE,DOUBLETEAM,EARTHPOWER,EARTHQUAKE,ENDURE,FACADE,FOCUSENERGY,FRUSTRATION,FURYCUTTER,GIGADRAIN,HEADBUTT,HIDDENPOWER,HYPERBEAM,MIMIC,MUDSHOT,MUDSLAP,NATURALGIFT,PROTECT,REST,RETURN,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SANDSTORM,SANDTOMB,SCORCHINGSANDS,SECRETPOWER,SIGNALBEAM,SLEEPTALK,SNORE,SOLARBEAM,STRENGTH,STRUGGLEBUG,SUBSTITUTE,SUNNYDAY,SUPERPOWER,SWAGGER
 EggMoves = BUGBITE,EARTHPOWER,FEINT,FIRSTIMPRESSION,FLAIL,FOCUSENERGY,FURYCUTTER,GUST,MUDSHOT,QUICKATTACK
 EggGroups = Bug,Dragon
@@ -8685,7 +8685,7 @@ EVs = ATTACK,1,SPEED,1
 CatchRate = 120
 Happiness = 50
 Abilities = LEVITATE
-Moves = 0,DRAGONBREATH,1,LASERFOCUS,1,BULLDOZE,1,DIG,1,CRUNCH,1,SUPERPOWER,1,FISSURE,1,SANDATTACK,1,ASTONISH,1,SUPERSONIC,1,BITE,12,MUDSLAP,16,SANDTOMB,20,DRAGONTAIL,24,SCREECH,28,BUGBUZZ,32,SANDSTORM,38,EARTHPOWER,44,EARTHQUAKE,50,UPROAR,56,DRAGONRUSH,62,BOOMBURST
+Moves = 0,DRAGONBREATH,1,LASERFOCUS,1,BULLDOZE,1,DIG,1,CRUNCH,1,SUPERPOWER,1,FISSURE,1,SANDATTACK,1,ASTONISH,1,SUPERSONIC,1,BITE,12,MUDSLAP,16,SANDTOMB,20,DRAGONTAIL,24,SCREECH,28,BUGBUZZ,32,SANDSTORM,38,EARTHPOWER,44,SHADOWBALL,50,DRACOMETEOR,56,DRAGONRUSH,62,BOOMBURST
 TutorMoves = AIRCUTTER,AIRSLASH,ATTRACT,BODYSLAM,BUGBITE,BUGBUZZ,BULLDOZE,CAPTIVATE,CONFIDE,CRUNCH,DEFOG,DIG,DOUBLEEDGE,DOUBLETEAM,DRACOMETEOR,DRAGONPULSE,DUALWINGBEAT,EARTHPOWER,EARTHQUAKE,ENDURE,FACADE,FLY,FOCUSENERGY,FRUSTRATION,FURYCUTTER,GIGADRAIN,HEADBUTT,HEATWAVE,HIDDENPOWER,HYPERBEAM,MIMIC,MUDSHOT,MUDSLAP,NATURALGIFT,OMINOUSWIND,OUTRAGE,PROTECT,REST,RETURN,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROOST,ROUND,SANDSTORM,SANDTOMB,SCORCHINGSANDS,SCREECH,SECRETPOWER,SIGNALBEAM,SILVERWIND,SLEEPTALK,SNORE,SOLARBEAM,STEELWING,STRENGTH,STRUGGLEBUG,SUBSTITUTE,SUNNYDAY,SUPERPOWER,SWAGGER,SWIFT,TAILWIND,THROATCHOP,TWISTER,UPROAR,UTURN
 EggGroups = Bug,Dragon
 HatchSteps = 5120
@@ -8710,7 +8710,7 @@ EVs = ATTACK,1,SPEED,2
 CatchRate = 45
 Happiness = 50
 Abilities = LEVITATE
-Moves = 0,DRAGONCLAW,1,OUTRAGE,1,DRAGONBREATH,1,DRAGONDANCE,1,FEINT,1,LASERFOCUS,1,BULLDOZE,1,DIG,1,CRUNCH,1,SUPERPOWER,1,FISSURE,1,SANDATTACK,1,ASTONISH,1,SUPERSONIC,1,BITE,12,MUDSLAP,16,SANDTOMB,20,DRAGONTAIL,24,SCREECH,28,BUGBUZZ,32,SANDSTORM,38,EARTHPOWER,44,EARTHQUAKE,52,UPROAR,60,DRAGONRUSH,68,BOOMBURST
+Moves = 0,DRAGONCLAW,1,OUTRAGE,1,DRAGONBREATH,1,DRAGONDANCE,1,FEINT,1,LASERFOCUS,1,BULLDOZE,1,DIG,1,CRUNCH,1,SUPERPOWER,1,FISSURE,1,SANDATTACK,1,ASTONISH,1,SUPERSONIC,1,BITE,12,MUDSLAP,16,SANDTOMB,20,DRAGONTAIL,24,SCREECH,28,BUGBUZZ,32,SANDSTORM,38,EARTHPOWER,44,SHADOWBALL,52,DRACOMETEOR,60,DRAGONRUSH,68,BOOMBURST
 TutorMoves = AERIALACE,AIRCUTTER,AIRSLASH,ATTRACT,BODYSLAM,BREAKINGSWIPE,BRUTALSWING,BUGBITE,BUGBUZZ,BULLDOZE,CAPTIVATE,CONFIDE,CRUNCH,DEFOG,DIG,DOUBLEEDGE,DOUBLETEAM,DRACOMETEOR,DRAGONCLAW,DRAGONDANCE,DRAGONPULSE,DRAGONTAIL,DUALWINGBEAT,EARTHPOWER,EARTHQUAKE,ENDURE,FACADE,FIREBLAST,FIREPUNCH,FIRESPIN,FLAMETHROWER,FLY,FOCUSENERGY,FRUSTRATION,FURYCUTTER,GIGADRAIN,GIGAIMPACT,HEADBUTT,HEATWAVE,HIDDENPOWER,HONECLAWS,HYPERBEAM,INCINERATE,IRONTAIL,LASERFOCUS,MEGAKICK,MEGAPUNCH,MIMIC,MUDSHOT,MUDSLAP,NATURALGIFT,OMINOUSWIND,OUTRAGE,POWERUPPUNCH,PROTECT,REST,RETURN,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROOST,ROUND,SANDSTORM,SANDTOMB,SCALESHOT,SCORCHINGSANDS,SCREECH,SECRETPOWER,SIGNALBEAM,SILVERWIND,SLEEPTALK,SNORE,SOLARBEAM,STEELWING,STONEEDGE,STRENGTH,STRUGGLEBUG,SUBSTITUTE,SUNNYDAY,SUPERPOWER,SWAGGER,SWIFT,TAILWIND,THROATCHOP,THUNDERPUNCH,TWISTER,UPROAR,UTURN
 EggGroups = Bug,Dragon
 HatchSteps = 5120
@@ -23140,7 +23140,7 @@ Evolutions = JUNVIL,Level,36
 [JUNVIL]
 Name = Junvil
 Types = GRASS,DARK
-BaseStats = 110,120,100,59,60,80
+BaseStats = 110,120,100,80,60,60
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 265
@@ -23290,7 +23290,7 @@ Evolutions = AXOLYSTIC,Level,36
 [AXOLYSTIC]
 Name = Axolystic
 Types = WATER,PSYCHIC
-BaseStats = 104,58,108,60,80,120
+BaseStats = 108,58,104,60,80,120
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 265
@@ -23362,6 +23362,7 @@ Habitat = Urban
 Category = Peace bringer
 Pokedex = Purird evolves into Peacird once it's consume by pure kindness, Peacerird bring joys just by flying by.
 Evolutions = DOVENESS,Level,34
+CallRateSOS = 15
 #-------------------------------
 [DOVENESS]
 Name = Doveness
@@ -23409,6 +23410,7 @@ Habitat = Urban
 Category = Crow
 Pokedex = Purird evolves into Younrow after being consumed by darkness, Younrows like to tag with people with bad intentions.
 Evolutions = CRORIRD,Level,34
+CallRateSOS = 15
 #-------------------------------
 [CRORIRD]
 Name = Crorird
@@ -23484,6 +23486,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = Hope
 Pokedex = Dwild evolve into Hoggo, an angelic being, due to their overflow of kindness.
+CallRateSOS = 15
 #-------------------------------
 [CAPYBURA]
 Name = Capybura
@@ -23509,6 +23512,7 @@ Habitat = Urban
 Category = Capybara
 Pokedex = ???
 Evolutions = CAPYJAW,Level,20
+CallRateSOS = 15
 #-------------------------------
 [CAPYJAW]
 Name = Capyjaw
@@ -23532,7 +23536,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-
+CallRateSOS = 15
 
 #-------------------------------
 [TATURUG]
@@ -23559,6 +23563,7 @@ Habitat = Urban
 Category = Taturana
 Pokedex = ???
 Evolutions = ELECOON,Level,20
+CallRateSOS = 15
 #-------------------------------
 [ELECOON]
 Name = Elecoon
@@ -23583,6 +23588,7 @@ Habitat = Urban
 Category = Shell
 Pokedex = ???
 Evolutions = THUNDOTH,Level,30
+CallRateSOS = 15
 #-------------------------------
 [THUNDOTH]
 Name = Thundoth
@@ -23631,6 +23637,7 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = PUPENGUE,Level,20
+CallRateSOS = 15
 #-------------------------------
 [PUPENGUE]
 Name = Pupengue
@@ -23655,6 +23662,7 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = MOSQUENTE,Level,30
+CallRateSOS = 15
 #-------------------------------
 [MOSQUENTE]
 Name = Mosquente
@@ -23704,6 +23712,7 @@ Habitat = Urban
 Category = Origami
 Pokedex = ???
 Evolutions = ORIKEN,LevelMale,20,BLOSSIGAMI,LevelFemale,20
+CallRateSOS = 15
 #-------------------------------
 [ORIKEN]
 Name = Oriken
@@ -23729,6 +23738,7 @@ Habitat = Urban
 Category = Shuriken
 Pokedex = ???
 Evolutions = KATAGAMI,Level,30
+CallRateSOS = 15
 #-------------------------------
 [KATAGAMI]
 Name = Katagami
@@ -23778,6 +23788,7 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = SWAMIGAMI,Level,30
+CallRateSOS = 15
 #-------------------------------
 [SWAMIGAMI]
 Name = Swamigami
@@ -23826,6 +23837,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
+CallRateSOS = 15
 #-------------------------------
 [MOSLEEP]
 Name = Mosleep
@@ -23851,6 +23863,7 @@ Habitat = Urban
 Category = Meteor Pokémon
 Pokedex = These pokémon are made of very fragile meteor rocks.
 Evolutions = DROWSKY,Level,25
+CallRateSOS = 15
 #-------------------------------
 [DROWSKY]
 Name = Drowsky
@@ -23922,6 +23935,7 @@ Habitat = Urban
 Category = Baby bull
 Pokedex = ???
 Evolutions = BUHELL,Level,18
+CallRateSOS = 15
 #-------------------------------
 [BUHELL]
 Name = Buhell
@@ -23946,6 +23960,7 @@ Habitat = Urban
 Category = Bull
 Pokedex = ???
 Evolutions = DEMITOUR,Level,36
+CallRateSOS = 15
 #-------------------------------
 [DEMITOUR]
 Name = Demitour
@@ -23993,6 +24008,7 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = BOXICKEN,Level,14
+CallRateSOS = 15
 #-------------------------------
 [BOXICKEN]
 Name = Boxicken
@@ -24017,6 +24033,7 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = JUHOOSTER,Level,34
+CallRateSOS = 15
 #-------------------------------
 [JUHOOSTER]
 Name = Juhooster
@@ -24064,6 +24081,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
+CallRateSOS = 15
 #-------------------------------
 [SAMURUNNY]
 Name = Samurunny
@@ -24135,6 +24153,7 @@ Habitat = Urban
 Category = Cockatiel
 Pokedex = ???
 Evolutions = ELECKATIEL,Level,22
+CallRateSOS = 15
 #-------------------------------
 [ELECKATIEL]
 Name = Eleckatiel
@@ -24184,6 +24203,7 @@ Habitat = Urban
 Category = Humming bird
 Pokedex = ???
 Evolutions = POLLING,Level,22
+CallRateSOS = 15
 #-------------------------------
 [POLLING]
 Name = Polling
@@ -24233,6 +24253,7 @@ Habitat = Grassland
 Category = Cub
 Pokedex = These Pokémon feed from electricity, being commonly found close to heavy thunderstorms.
 Evolutions = JOLTAH,Level,28
+CallRateSOS = 15
 #-------------------------------
 [JOLTAH]
 Name = Joltah
@@ -24282,6 +24303,7 @@ Habitat = Sea
 Category = Turtle
 Pokedex = ???
 Evolutions = TURTLOW,Level,16
+CallRateSOS = 15
 #-------------------------------
 [TURTLOW]
 Name = Turtlow
@@ -24361,6 +24383,7 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = MOSSENGE,Level,25
+CallRateSOS = 15
 #-------------------------------
 [MOSSENGE]
 Name = Mossenge
@@ -24385,6 +24408,7 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = MOSSOLEM,Level,36
+CallRateSOS = 15
 #-------------------------------
 [MOSSOLEM]
 Name = Mossolem
@@ -24419,8 +24443,8 @@ BaseExp = 50
 EVs = ATTACK,1
 CatchRate = 255
 Happiness = 50
-Abilities = GLUTTONY
-HiddenAbilities = HARVEST
+Abilities = GLUTTONY,HARVEST
+HiddenAbilities = UNBURDEN
 Moves = 1,LEAFAGE,1,LEER,10,BULLETSEED,15,WINGATTACK,20,LEECHSEED,25,RAZORLEAF,30,GROWTH,35,AERIALACE,40,SEEDBOMB,45,SYNTHESIS,50,CRUNCH,55,LEECHLIFE
 TutorMoves = TACKLE
 EggMoves = ACROBATICS
@@ -24434,6 +24458,7 @@ Habitat = Urban
 Category = Bat
 Pokedex = ???
 Evolutions = CHIROPEEL,Level,22
+CallRateSOS = 15
 #-------------------------------
 [CHIROPEEL]
 Name = Chiropeel
@@ -24445,8 +24470,8 @@ BaseExp = 50
 EVs = ATTACK,1
 CatchRate = 45
 Happiness = 50
-Abilities = GLUTTONY
-HiddenAbilities = HARVEST
+Abilities = GLUTTONY,HARVEST
+HiddenAbilities = UNBURDEN
 Moves = 0,ACROBATICS,1,LEAFAGE,1,LEER,10,BULLETSEED,15,WINGATTACK,20,LEECHSEED,27,RAZORLEAF,32,GROWTH,37,AERIALACE,42,SEEDBOMB,47,SYNTHESIS,52,CRUNCH,57,LEECHLIFE
 TutorMoves = TACKLE
 EggGroups = Grass,Flying
@@ -24483,6 +24508,7 @@ Habitat = Cave
 Category = Magician
 Pokedex = ???
 Evolutions = ADEMORAN,Level,28
+CallRateSOS = 15
 #-------------------------------
 [ADEMORAN]
 Name = Ademoran
@@ -24555,6 +24581,7 @@ Habitat = Forest
 Category = Karate
 Pokedex = ???
 Evolutions = KARABELT,Level,25
+CallRateSOS = 15
 #-------------------------------
 [KARABELT]
 Name = Karabelt
@@ -24581,6 +24608,7 @@ Category = Apprentiece
 Pokedex = ???
 Evolutions = KARAKING,Level,35
 WildItemUncommon = BLACKBELT
+CallRateSOS = 15
 #-------------------------------
 [KARAKING]
 Name = Karaking
@@ -24633,6 +24661,7 @@ Habitat = Grassland
 Category = Badger
 Pokedex = Those Pokémon work together to gather berries in trees, One lays with belly up, while other hitting the berry tree, making the berries fall in the first one.
 Evolutions = VAMPADGER,Level,30
+CallRateSOS = 15
 #-------------------------------
 [VAMPADGER]
 Name = Vampadger
@@ -24684,6 +24713,7 @@ Habitat = RoughTerrain
 Category = Beetle
 Pokedex = ???
 Evolutions = KHECARAB, Level, 35
+CallRateSOS = 15
 #-------------------------------
 [KHECARAB]
 Name = Khecarab
@@ -24734,6 +24764,7 @@ Habitat = Urban
 Category = Yenna
 Pokedex = ???
 Evolutions = MURAMARIS,Level,28
+CallRateSOS = 15
 #-------------------------------
 [MURAMARIS]
 Name = Muramaris
@@ -24783,6 +24814,7 @@ Habitat = Grassland
 Category = Voodoo
 Pokedex = ???
 Evolutions = VOOTED,Level,25
+CallRateSOS = 15
 #-------------------------------
 [VOOTED]
 Name = Vooted
@@ -24860,6 +24892,7 @@ Habitat = Urban
 Category = Rookie
 Pokedex = ???
 Evolutions = WARRIOGRE,Level,30
+CallRateSOS = 15
 #-------------------------------
 [WARRIOGRE]
 Name = Warriogre
@@ -24933,6 +24966,7 @@ Habitat = Grassland
 Category = Pinhata
 Pokedex = These Pokémon love to hang in trees sunbathing. It's said to have existed for decades, even on prehistoric times.
 Evolutions = DRACRUIT,Level,30
+CallRateSOS = 15
 #-------------------------------
 [DRACRUIT]
 Name = Dracruit
@@ -25008,6 +25042,7 @@ Shape = HeadLegs
 Habitat = Urban
 Category = Axe
 Evolutions = AXESSAUR,Level,40
+CallRateSOS = 15
 #-------------------------------
 [AXESSAUR]
 Name = Axessaur
@@ -25058,6 +25093,7 @@ Habitat = Urban
 Category = Floor
 Pokedex = Crackuum desguise themselfs amoung cracked sideways and attack once stepped. They usually feed from toxicity.
 Evolutions = CILLUTION,Level,30
+CallRateSOS = 15
 #-------------------------------
 [CILLUTION]
 Name = Cillution
@@ -25177,6 +25213,7 @@ Habitat = Mountain
 Category = Infant
 Pokedex = ???
 Evolutions = DRAKIDDO,Level,38
+CallRateSOS = 15
 #-------------------------------
 [DRAKIDDO]
 Name = Drakiddo
@@ -25238,7 +25275,7 @@ BaseExp = 50
 EVs = DEFENSE,1,SPECIAL_DEFENSE,1
 CatchRate = 190
 Happiness = 50
-Abilities = CURSEDBODY,CLEARBODY
+Abilities = CLEARBODY,LEVITATE
 Moves = 1,TACKLE
 TutorMoves = TACKLE
 EggMoves = TACKLE
@@ -25251,6 +25288,7 @@ Shape = HeadBase
 Habitat = Urban
 Category = Ghost
 Pokedex = ???
+CallRateSOS = 15
 #-------------------------------
 [ARMOGHOUL]
 Name = Armoghoul
@@ -25301,6 +25339,7 @@ Shape = Bipedal
 Habitat = Forest
 Category = Boar
 Pokedex = ???
+CallRateSOS = 15
 #-------------------------------
 [PECURU]
 Name = Pecuru
@@ -25349,6 +25388,7 @@ Shape = Serpentine
 Habitat = Sea
 Category = SeaWeed
 Pokedex = ???
+CallRateSOS = 15
 #-------------------------------
 [BOEELNA]
 Name = Boeelna
@@ -25398,6 +25438,7 @@ Habitat = Sea
 Category = Dolphin
 Pokedex = ???
 Evolutions = ENCANTACEAN,Level,32
+CallRateSOS = 15
 #-------------------------------
 [ENCANTACEAN]
 Name = Encantacean
@@ -25449,6 +25490,7 @@ Shape = Serpentine
 Habitat = Urban
 Category = Snake
 Pokedex = ???
+CallRateSOS = 15
 #-------------------------------
 [JIARAGON]
 Name = Jiaragon

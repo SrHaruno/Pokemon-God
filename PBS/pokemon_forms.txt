@@ -2322,10 +2322,16 @@ Pokedex = Legend says that by using its power to see all events from past to fut
 #
 #
 #-------------------------------
+#  //Megas\\
+#-------------------------------
+#
+#
+#-------------------------------
 [JUNVIL,1]
 FormName = Mega Junvil
 MegaStone = JUNVILITE
-BaseStats = 130,140,110,70,80,98
+Types = GRASS,NORMAL
+BaseStats = 130,140,110,98,80,70
 BaseExp = 313
 Abilities = RECKLESS
 HiddenAbilities = RECKLESS
@@ -2341,10 +2347,26 @@ HiddenAbilities = MOLDBREAKER
 [AXOLYSTIC,1]
 FormName = Mega Axolystic
 MegaStone = AXOLYSTICITE
+Types = WATER,ANGEL
 BaseStats = 110,76,120,80,100,140
 BaseExp = 315
 Abilities = NATURALCURE
 HiddenAbilities = NATURALCURE
+#-------------------------------
+[FLYGON,1]
+FormName = Mega Flygon
+MegaStone = FLYGONITE
+Types = GHOST,GROUND
+BaseStats = 80,110,90,120,130,90
+BaseExp = 317
+Abilities = LEVITATE
+#
+#
+#-------------------------------
+#  //Alternate Forms & Gender Difference\\
+#-------------------------------
+#
+#
 #-------------------------------
 [DWILD,1]
 FormName = Halloween Skin
@@ -2358,7 +2380,7 @@ Evolutions = HOGGO,None,
 FormName = Female
 BaseStats = 45,30,40,60,65,40
 HiddenAbilities = STEADFAST
-EVs = SPECIAL_ATTACK, 1
+EVs = SPECIAL_ATTACK,1
 Moves = 1,SCRATCH,1,LEER,5,ABSORB,9,SHADOWSNEAK,12,MAGICALLEAF,15,LEECHSEED,18,METALCLAW,21,GIGADRAIN,24,GROWTH,27,AIRCUTTER,30,FLASHCANNON,33,ENERGYBALL
 Color = White
 Pokedex = WIP
@@ -2367,4 +2389,4 @@ Pokedex = WIP
 FormName = Warrior Form
 BaseStats = 90,145,45,108,145,45
 Abilities = CURSEDBODY
-EVs = ATTACK,1,SPECIAL_ATTACK, 2
+EVs = SPEED,2

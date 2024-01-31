@@ -285,12 +285,11 @@ Pokemon = BABRAGON,12
 #-------------------------------
 [CAMPER, Asriel]
 LoseText = Oh noes!
-Pokemon = CUBTURN,12
+Pokemon = SUNCARAB,12
 Pokemon = TRAPINCH,12
 
 [HIKER, Fuji]
-LoseText = What a shame!
-Pokemon = MOSSELIN,12
+LoseText = Well, time to start hiking!
 Pokemon = MOSSELIN,12
 
 
