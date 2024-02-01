@@ -259,6 +259,7 @@ Category = Worm
 Pokedex = Its voracious appetite compels it to devour leaves bigger than itself without hesitation. It releases a terribly strong odor from its antennae.
 Generation = 1
 Evolutions = METAPOD,Level,7
+CallRateSOS = 15
 #-------------------------------
 [METAPOD]
 Name = Metapod
@@ -284,6 +285,8 @@ Category = Cocoon
 Pokedex = Its shell is as hard as an iron slab. A Metapod does not move very much because it is preparing its soft innards for evolution inside the shell.
 Generation = 1
 Evolutions = BUTTERFREE,Level,10
+SpeciesSOS = CATERPIE,BUTTERFREE
+CallRateSOS = 15
 #-------------------------------
 [BUTTERFREE]
 Name = Butterfree
@@ -336,6 +339,7 @@ Category = Hairy Bug
 Pokedex = A Weedle has an extremely acute sense of smell. It distinguishes its favorite kinds of leaves from those it dislikes by sniffing with its big red proboscis (nose).
 Generation = 1
 Evolutions = KAKUNA,Level,7
+CallRateSOS = 15
 #-------------------------------
 [KAKUNA]
 Name = Kakuna
@@ -361,6 +365,8 @@ Category = Cocoon
 Pokedex = It remains virtually immobile while it clings to a tree. However, on the inside, it busily prepares for evolution. This is evident from how hot its shell becomes.
 Generation = 1
 Evolutions = BEEDRILL,Level,10
+SpeciesSOS = WEEDLE,BEEDRILL
+CallRateSOS = 15
 #-------------------------------
 [BEEDRILL]
 Name = Beedrill
@@ -414,6 +420,8 @@ Category = Tiny Bird
 Pokedex = It has an extremely sharp sense of direction. It can unerringly return home to its nest, however far it may be removed from its familiar surroundings.
 Generation = 1
 Evolutions = PIDGEOTTO,Level,18
+SpeciesSOS = PIDGEY,PIDGEOTTO
+CallRateSOS = 9
 #-------------------------------
 [PIDGEOTTO]
 Name = Pidgeotto
@@ -440,6 +448,7 @@ Category = Bird
 Pokedex = This Pokémon flies around, patrolling its large territory. If its living space is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.
 Generation = 1
 Evolutions = PIDGEOT,Level,36
+CallRateSOS = 6
 #-------------------------------
 [PIDGEOT]
 Name = Pidgeot
@@ -493,6 +502,7 @@ Pokedex = A Rattata is cautious in the extreme. Even while it is asleep, it cons
 Generation = 1
 WildItemUncommon = CHILANBERRY
 Evolutions = RATICATE,Level,20
+CallRateSOS = 9
 #-------------------------------
 [RATICATE]
 Name = Raticate
@@ -519,6 +529,7 @@ Category = Mouse
 Pokedex = A Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.
 Generation = 1
 WildItemUncommon = CHILANBERRY
+CallRateSOS = 6
 #-------------------------------
 [SPEAROW]
 Name = Spearow
@@ -547,6 +558,7 @@ Pokedex = Its loud cry can be heard over half a mile away. If its high, keening 
 Generation = 1
 WildItemUncommon = SHARPBEAK
 Evolutions = FEAROW,Level,20
+CallRateSOS = 9
 #-------------------------------
 [FEAROW]
 Name = Fearow
@@ -573,6 +585,7 @@ Category = Beak
 Pokedex = Its long neck and elongated beak are ideal for catching prey in soil or water. It deftly moves this extended and skinny beak to pluck prey.
 Generation = 1
 WildItemUncommon = SHARPBEAK
+CallRateSOS = 6
 #-------------------------------
 [EKANS]
 Name = Ekans
@@ -600,6 +613,7 @@ Category = Snake
 Pokedex = An Ekans curls itself up in a spiral while it rests. This position allows it to quickly respond to an enemy from any direction with a threat from its upraised head.
 Generation = 1
 Evolutions = ARBOK,Level,22
+CallRateSOS = 9
 #-------------------------------
 [ARBOK]
 Name = Arbok
@@ -625,6 +639,7 @@ Habitat = Grassland
 Category = Cobra
 Pokedex = This Pokémon has a terrifically strong constricting power. It can even flatten steel oil drums. Once it wraps its body around its foe, escaping is impossible.
 Generation = 1
+CallRateSOS = 6
 #-------------------------------
 [PIKACHU]
 Name = Pikachu
@@ -652,6 +667,7 @@ Pokedex = It stores electricity in the electric sacs on its cheeks. When it rele
 Generation = 1
 WildItemUncommon = LIGHTBALL
 Evolutions = RAICHU,Item,THUNDERSTONE
+CallRateSOS = 6
 #-------------------------------
 [RAICHU]
 Name = Raichu
@@ -705,6 +721,7 @@ Pokedex = When it curls up in a ball, it can make any attack bounce off harmless
 Generation = 1
 WildItemUncommon = GRIPCLAW
 Evolutions = SANDSLASH,Level,22
+CallRateSOS = 9
 #-------------------------------
 [SANDSLASH]
 Name = Sandslash
@@ -759,6 +776,8 @@ Category = Poison Pin
 Pokedex = Its highly toxic barbs are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.
 Generation = 1
 Evolutions = NIDORINA,Level,16
+SpeciesSOS = NIDORANfE,NIDORANmA
+CallRateSOS = 9
 #-------------------------------
 [NIDORINA]
 Name = Nidorina
@@ -785,6 +804,8 @@ Category = Poison Pin
 Pokedex = When it is with its friends or family, its barbs are tucked away to prevent injury. It appears to become nervous if separated from the others.
 Generation = 1
 Evolutions = NIDOQUEEN,Item,MOONSTONE
+SpeciesSOS = NIDORINA,NIDORINO
+CallRateSOS = 6
 #-------------------------------
 [NIDOQUEEN]
 Name = Nidoqueen
@@ -838,6 +859,8 @@ Category = Poison Pin
 Pokedex = The male Nidoran has developed muscles that freely move its ears in any direction. Even the slightest sound does not escape this Pokémon's notice.
 Generation = 1
 Evolutions = NIDORINO,Level,16
+SpeciesSOS = NIDORANmA,NIDORANfE
+CallRateSOS = 9
 #-------------------------------
 [NIDORINO]
 Name = Nidorino
@@ -864,6 +887,8 @@ Category = Poison Pin
 Pokedex = Its horn is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.
 Generation = 1
 Evolutions = NIDOKING,Item,MOONSTONE
+SpeciesSOS = NIDORINO,NIDORINA
+CallRateSOS = 6
 #-------------------------------
 [NIDOKING]
 Name = Nidoking
@@ -916,6 +941,7 @@ Pokedex = On every night of a full moon, they come out to play. When dawn arrive
 Generation = 1
 WildItemUncommon = MOONSTONE
 Evolutions = CLEFABLE,Item,MOONSTONE
+CallRateSOS = 6
 #-------------------------------
 [CLEFABLE]
 Name = Clefable
@@ -970,6 +996,7 @@ Pokedex = It can freely control fire, making fiery orbs fly like will-o'-the-wis
 Generation = 1
 WildItemUncommon = CHARCOAL
 Evolutions = NINETALES,Item,FIRESTONE
+CallRateSOS = 9
 #-------------------------------
 [NINETALES]
 Name = Ninetales
@@ -1023,6 +1050,7 @@ Pokedex = Nothing can avoid falling asleep hearing a Jigglypuff's song. The soun
 Generation = 1
 WildItemUncommon = MOONSTONE
 Evolutions = WIGGLYTUFF,Item,MOONSTONE
+CallRateSOS = 6
 #-------------------------------
 [WIGGLYTUFF]
 Name = Wigglytuff
@@ -1076,6 +1104,7 @@ Category = Bat
 Pokedex = While living in pitch-black caverns, their eyes gradually grew shut and deprived them of vision. They use ultrasonic waves to detect obstacles.
 Generation = 1
 Evolutions = GOLBAT,Level,22
+CallRateSOS = 15
 #-------------------------------
 [GOLBAT]
 Name = Golbat
@@ -1102,6 +1131,8 @@ Category = Bat
 Pokedex = Its fangs easily puncture even thick animal hide. It loves to feast on the blood of people and Pokémon. It flits about in darkness and strikes from behind.
 Generation = 1
 Evolutions = CROBAT,Happiness,
+ConditionalSOS = CROBAT,Cave,
+CallRateSOS = 9
 #-------------------------------
 [ODDISH]
 Name = Oddish
@@ -1130,6 +1161,7 @@ Pokedex = It grows by absorbing moonlight. During the daytime, it buries itself 
 Generation = 1
 WildItemUncommon = ABSORBBULB
 Evolutions = GLOOM,Level,21
+CallRateSOS = 9
 #-------------------------------
 [GLOOM]
 Name = Gloom
@@ -1157,6 +1189,7 @@ Pokedex = A horribly noxious honey drools from its mouth. One whiff of the honey
 Generation = 1
 WildItemUncommon = ABSORBBULB
 Evolutions = VILEPLUME,Item,LEAFSTONE,BELLOSSOM,Item,SUNSTONE
+CallRateSOS = 6
 #-------------------------------
 [VILEPLUME]
 Name = Vileplume
@@ -1212,6 +1245,7 @@ Generation = 1
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 Evolutions = PARASECT,Level,24
+CallRateSOS = 9
 #-------------------------------
 [PARASECT]
 Name = Parasect
@@ -1239,6 +1273,7 @@ Pokedex = Parasect are known to infest the roots of large trees en masse and dra
 Generation = 1
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
+CallRateSOS = 6
 #-------------------------------
 [VENONAT]
 Name = Venonat
@@ -1266,6 +1301,7 @@ Category = Insect
 Pokedex = Its coat of thin, stiff hair that covers its entire body is said to have evolved for protection. Its large eyes never fail to spot even miniscule prey.
 Generation = 1
 Evolutions = VENOMOTH,Level,31
+CallRateSOS = 9
 #-------------------------------
 [VENOMOTH]
 Name = Venomoth
@@ -1292,6 +1328,7 @@ Category = Poison Moth
 Pokedex = Venomoth are nocturnal--they only are active at night. Their favorite prey are insects that gather around streetlights, attracted by the light in the darkness.
 Generation = 1
 WildItemUncommon = SHEDSHELL
+CallRateSOS = 6
 #-------------------------------
 [DIGLETT]
 Name = Diglett
@@ -1320,6 +1357,7 @@ Pokedex = Diglett are raised in most farms. The reason is simple--wherever they 
 Generation = 1
 WildItemUncommon = SOFTSAND
 Evolutions = DUGTRIO,Level,26
+CallRateSOS = 9
 #-------------------------------
 [DUGTRIO]
 Name = Dugtrio
@@ -1346,6 +1384,7 @@ Category = Mole
 Pokedex = Because the triplets originally split from one body, they think exactly alike. They work cooperatively to burrow endlessly through the ground.
 Generation = 1
 WildItemUncommon = SOFTSAND
+CallRateSOS = 6
 #-------------------------------
 [MEOWTH]
 Name = Meowth
@@ -1374,6 +1413,7 @@ Pokedex = Meowth withdraw their sharp claws into their paws to silently sneak ab
 Generation = 1
 WildItemUncommon = QUICKCLAW
 Evolutions = PERSIAN,Level,28,PERRSERKER,None,
+CallRateSOS = 9
 #-------------------------------
 [PERSIAN]
 Name = Persian
@@ -1400,6 +1440,7 @@ Category = Classy Cat
 Pokedex = A Persian's six bold whiskers sense air movements to determine what is in its vicinity. It becomes docile if grabbed by the whiskers.
 Generation = 1
 WildItemUncommon = QUICKCLAW
+CallRateSOS = 6
 #-------------------------------
 [PSYDUCK]
 Name = Psyduck
@@ -1427,6 +1468,7 @@ Category = Duck
 Pokedex = When its headache intensifies, it starts using strange powers. However, it has no recollection of its powers, so it always looks befuddled and bewildered.
 Generation = 1
 Evolutions = GOLDUCK,Level,33
+CallRateSOS = 15
 #-------------------------------
 [GOLDUCK]
 Name = Golduck
@@ -1452,6 +1494,7 @@ Habitat = WatersEdge
 Category = Duck
 Pokedex = A Golduck is an adept swimmer. It sometimes joins competitive swimmers in training. It uses psychic powers when its forehead shimmers with light.
 Generation = 1
+CallRateSOS = 6
 #-------------------------------
 [MANKEY]
 Name = Mankey
@@ -1479,6 +1522,7 @@ Category = Pig Monkey
 Pokedex = When it starts shaking and its nasal breathing turns rough, it's a sure sign of anger. However, since this happens instantly, there is no time to flee.
 Generation = 1
 Evolutions = PRIMEAPE,Level,28
+CallRateSOS = 9
 #-------------------------------
 [PRIMEAPE]
 Name = Primeape
@@ -1504,6 +1548,7 @@ Habitat = Mountain
 Category = Pig Monkey
 Pokedex = When it becomes furious, its blood circulation becomes more robust, and its muscles are made stronger. But it also becomes much less intelligent.
 Generation = 1
+CallRateSOS = 6
 #-------------------------------
 [GROWLITHE]
 Name = Growlithe
@@ -1531,6 +1576,7 @@ Category = Puppy
 Pokedex = Its superb sense of smell ensures that this Pokémon won't forget any scent, no matter what. It uses its sense of smell to detect the emotions of others.
 Generation = 1
 Evolutions = ARCANINE,Item,FIRESTONE
+CallRateSOS = 9
 #-------------------------------
 [ARCANINE]
 Name = Arcanine
@@ -1583,6 +1629,7 @@ Category = Tadpole
 Pokedex = It is possible to see this Pokémon's spiral innards right through its thin skin. However, the skin is also very flexible. Even sharp fangs bounce right off it.
 Generation = 1
 Evolutions = POLIWHIRL,Level,25
+CallRateSOS = 9
 #-------------------------------
 [POLIWHIRL]
 Name = Poliwhirl
@@ -1610,6 +1657,7 @@ Pokedex = Its body surface is always wet and slick with an oily fluid. Because o
 Generation = 1
 WildItemUncommon = KINGSROCK
 Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,TradeItem,KINGSROCK
+CallRateSOS = 6
 #-------------------------------
 [POLIWRATH]
 Name = Poliwrath
@@ -1664,6 +1712,7 @@ Pokedex = A Pokémon that sleeps 18 hours a day. Observation revealed that it us
 Generation = 1
 WildItemUncommon = TWISTEDSPOON
 Evolutions = KADABRA,Level,16
+CallRateSOS = 9
 #-------------------------------
 [KADABRA]
 Name = Kadabra
@@ -1691,6 +1740,7 @@ Pokedex = It is rumored that a boy with psychic abilities suddenly transformed i
 Generation = 1
 WildItemUncommon = TWISTEDSPOON
 Evolutions = ALAKAZAM,Trade,
+CallRateSOS = 6
 #-------------------------------
 [ALAKAZAM]
 Name = Alakazam
@@ -1745,6 +1795,7 @@ Pokedex = It continually undertakes strenuous training to master all forms of ma
 Generation = 1
 WildItemUncommon = FOCUSBAND
 Evolutions = MACHOKE,Level,28
+CallRateSOS = 9
 #-------------------------------
 [MACHOKE]
 Name = Machoke
@@ -1772,6 +1823,7 @@ Pokedex = A belt is worn by a Machoke to keep its overwhelming power under contr
 Generation = 1
 WildItemUncommon = FOCUSBAND
 Evolutions = MACHAMP,Trade,
+CallRateSOS = 6
 #-------------------------------
 [MACHAMP]
 Name = Machamp
@@ -1825,6 +1877,7 @@ Category = Flower
 Pokedex = A Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, it leaks a fluid that melts even iron.
 Generation = 1
 Evolutions = WEEPINBELL,Level,21
+CallRateSOS = 9
 #-------------------------------
 [WEEPINBELL]
 Name = Weepinbell
@@ -1851,6 +1904,7 @@ Category = Flycatcher
 Pokedex = At night, a Weepinbell hangs on to a tree branch with its hooked rear and sleeps. If it moves around in its sleep, it may wake up to find itself on the ground.
 Generation = 1
 Evolutions = VICTREEBEL,Item,LEAFSTONE
+CallRateSOS = 6
 #-------------------------------
 [VICTREEBEL]
 Name = Victreebel
@@ -1904,6 +1958,7 @@ Pokedex = Its body is almost entirely composed of water. It ensnares its foe wit
 Generation = 1
 WildItemUncommon = POISONBARB
 Evolutions = TENTACRUEL,Level,30
+CallRateSOS = 15
 #-------------------------------
 [TENTACRUEL]
 Name = Tentacruel
@@ -1930,6 +1985,7 @@ Category = Jellyfish
 Pokedex = It lives in complex rock formations on the ocean floor and traps prey using its 80 tentacles. Its red orbs glow when it grows excited or agitated.
 Generation = 1
 WildItemUncommon = POISONBARB
+CallRateSOS = 6
 #-------------------------------
 [GEODUDE]
 Name = Geodude
@@ -1958,6 +2014,7 @@ Pokedex = It climbs mountain paths using only the power of its arms. Because the
 Generation = 1
 WildItemUncommon = EVERSTONE
 Evolutions = GRAVELER,Level,25
+CallRateSOS = 9
 #-------------------------------
 [GRAVELER]
 Name = Graveler
@@ -1985,6 +2042,7 @@ Pokedex = They descend from mountains by tumbling down steep slopes. They are so
 Generation = 1
 WildItemUncommon = EVERSTONE
 Evolutions = GOLEM,Trade,
+CallRateSOS = 6
 #-------------------------------
 [GOLEM]
 Name = Golem
@@ -2038,6 +2096,7 @@ Category = Fire Horse
 Pokedex = A Ponyta is very weak at birth. It can barely stand up. Its legs become stronger as it stumbles and falls while trying to keep up with its parent.
 Generation = 1
 Evolutions = RAPIDASH,Level,40
+CallRateSOS = 9
 #-------------------------------
 [RAPIDASH]
 Name = Rapidash
@@ -2063,6 +2122,7 @@ Habitat = Grassland
 Category = Fire Horse
 Pokedex = It usually canters casually in the fields and plains. But once a Rapidash turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.
 Generation = 1
+CallRateSOS = 6
 #-------------------------------
 [SLOWPOKE]
 Name = Slowpoke
@@ -2091,6 +2151,8 @@ Pokedex = It catches prey by dipping its tail in water at the side of a river. B
 Generation = 1
 WildItemUncommon = LAGGINGTAIL
 Evolutions = SLOWBRO,Level,37,SLOWKING,TradeItem,KINGSROCK
+ConditionalSOS = SHELLDER,Water,,SLOWBRO,Land,,SLOWKING,Land,
+CallRateSOS = 9
 #-------------------------------
 [SLOWBRO]
 Name = Slowbro
@@ -2117,6 +2179,7 @@ Category = Hermit Crab
 Pokedex = Its tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore. This forces it to reluctantly swim and catch prey.
 Generation = 1
 WildItemUncommon = KINGSROCK
+CallRateSOS = 3
 #-------------------------------
 [MAGNEMITE]
 Name = Magnemite
@@ -2144,6 +2207,8 @@ Pokedex = The units at its sides are extremely powerful magnets. They generate e
 Generation = 1
 WildItemUncommon = METALCOAT
 Evolutions = MAGNETON,Level,30
+ConditionalSOS = NOSEPASS,Cave,
+CallRateSOS = 9
 #-------------------------------
 [MAGNETON]
 Name = Magneton
@@ -2171,6 +2236,8 @@ Pokedex = It is actually three Magnemite linked by magnetism. It generates power
 Generation = 1
 WildItemUncommon = METALCOAT
 Evolutions = MAGNEZONE,Item,THUNDERSTONE,MAGNEZONE,LocationFlag,Magnetic
+ConditionalSOS = NOSEPASS,Cave,
+CallRateSOS = 6
 #-------------------------------
 [FARFETCHD]
 Name = Farfetch'd
@@ -2199,6 +2266,7 @@ Pokedex = It is always seen with a stick from a plant. Apparently, there are goo
 Generation = 1
 WildItemUncommon = LEEK
 Evolutions = SIRFETCHD,None,
+CallRateSOS = 9
 #-------------------------------
 [DODUO]
 Name = Doduo
@@ -2227,6 +2295,7 @@ Pokedex = Even while eating or sleeping, one of the heads remains always vigilan
 Generation = 1
 WildItemUncommon = SHARPBEAK
 Evolutions = DODRIO,Level,31
+CallRateSOS = 9
 #-------------------------------
 [DODRIO]
 Name = Dodrio
@@ -2253,6 +2322,7 @@ Category = Triple Bird
 Pokedex = A peculiar Pokémon species with three heads. It vigorously races across grassy plains even in arid seasons with little rainfall.
 Generation = 1
 WildItemUncommon = SHARPBEAK
+CallRateSOS = 6
 #-------------------------------
 [SEEL]
 Name = Seel
@@ -2280,6 +2350,7 @@ Category = Sea Lion
 Pokedex = Seel hunt for prey in frigid, ice-covered seas. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head.
 Generation = 1
 Evolutions = DEWGONG,Level,34
+CallRateSOS = 9
 #-------------------------------
 [DEWGONG]
 Name = Dewgong
@@ -2305,6 +2376,7 @@ Habitat = Sea
 Category = Sea Lion
 Pokedex = It loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.
 Generation = 1
+CallRateSOS = 6
 #-------------------------------
 [GRIMER]
 Name = Grimer
@@ -2333,6 +2405,7 @@ Pokedex = Born from polluted sludge in the sea, Grimer's favorite food is anythi
 Generation = 1
 WildItemUncommon = BLACKSLUDGE
 Evolutions = MUK,Level,38
+CallRateSOS = 9
 #-------------------------------
 [MUK]
 Name = Muk
@@ -2359,6 +2432,7 @@ Category = Sludge
 Pokedex = It prefers warm and humid habitats. In the summertime, the toxic substances in its body intensify, making Muk reek like putrid kitchen garbage.
 Generation = 1
 WildItemCommon = BLACKSLUDGE
+CallRateSOS = 6
 #-------------------------------
 [SHELLDER]
 Name = Shellder
@@ -2388,6 +2462,7 @@ Generation = 1
 WildItemCommon = PEARL
 WildItemUncommon = BIGPEARL
 Evolutions = CLOYSTER,Item,WATERSTONE
+CallRateSOS = 9
 #-------------------------------
 [CLOYSTER]
 Name = Cloyster
@@ -2441,6 +2516,7 @@ Category = Gas
 Pokedex = When exposed to a strong wind, a Gastly's gaseous body quickly dwindles away. They cluster under the eaves of houses to escape the ravages of wind.
 Generation = 1
 Evolutions = HAUNTER,Level,25
+CallRateSOS = 9
 #-------------------------------
 [HAUNTER]
 Name = Haunter
@@ -2466,6 +2542,8 @@ Category = Gas
 Pokedex = If a Haunter beckons you while it is floating in darkness, don't approach it. This Pokémon will try to lick you with its tongue and steal your life away.
 Generation = 1
 Evolutions = GENGAR,Trade,
+SpeciesSOS = HAUNTER,GENGAR
+CallRateSOS = 6
 #-------------------------------
 [GENGAR]
 Name = Gengar
@@ -2517,6 +2595,8 @@ Category = Rock Snake
 Pokedex = There is a magnet in its brain that prevents an Onix from losing direction while tunneling. As it grows older, its body becomes steadily rounder and smoother.
 Generation = 1
 Evolutions = STEELIX,TradeItem,METALCOAT
+SpeciesSOS = GEODUDE,ONIX
+CallRateSOS = 9
 #-------------------------------
 [DROWZEE]
 Name = Drowzee
@@ -2544,6 +2624,7 @@ Category = Hypnosis
 Pokedex = If your nose becomes itchy while you are sleeping, it's a sure sign that a Drowzee is standing above your pillow and trying to eat your dream through your nostrils.
 Generation = 1
 Evolutions = HYPNO,Level,26
+CallRateSOS = 9
 #-------------------------------
 [HYPNO]
 Name = Hypno
@@ -2569,6 +2650,7 @@ Habitat = Grassland
 Category = Hypnosis
 Pokedex = The arcing movement and glitter of the pendulum in a Hypno's hand lull the foe into deep hypnosis. While searching for prey, it polishes the pendulum.
 Generation = 1
+CallRateSOS = 6
 #-------------------------------
 [KRABBY]
 Name = Krabby
@@ -2596,6 +2678,7 @@ Category = River Crab
 Pokedex = Krabby live in holes dug into beaches. On sandy shores with little in the way of food, they can be seen squabbling with each other over territory.
 Generation = 1
 Evolutions = KINGLER,Level,28
+CallRateSOS = 9
 #-------------------------------
 [KINGLER]
 Name = Kingler
@@ -2621,6 +2704,7 @@ Habitat = WatersEdge
 Category = Pincer
 Pokedex = It waves its huge, oversized claw in the air to communicate with others. But since the claw is so heavy, this Pokémon quickly tires.
 Generation = 1
+CallRateSOS = 6
 #-------------------------------
 [VOLTORB]
 Name = Voltorb
@@ -2647,6 +2731,7 @@ Category = Ball
 Pokedex = It bears an uncanny and unexplained resemblance to a Poké Ball. Because it explodes at the slightest shock, even veteran trainers treat it with caution.
 Generation = 1
 Evolutions = ELECTRODE,Level,30
+CallRateSOS = 15
 #-------------------------------
 [ELECTRODE]
 Name = Electrode
@@ -2700,6 +2785,7 @@ Pokedex = It consists of six eggs that care for each other. The eggs attract eac
 Generation = 1
 WildItemUncommon = PSYCHICSEED
 Evolutions = EXEGGUTOR,Item,LEAFSTONE
+CallRateSOS = 15
 #-------------------------------
 [EXEGGUTOR]
 Name = Exeggutor
@@ -2753,6 +2839,9 @@ Pokedex = It pines for the mother it will never see again. Seeing a likeness of 
 Generation = 1
 WildItemUncommon = THICKCLUB
 Evolutions = MAROWAK,Level,28
+SpeciesSOS = CUBONE,KANGASKHAN
+ConditionalSOS = MANDIBUZZ,Land,
+CallRateSOS = 15
 #-------------------------------
 [MAROWAK]
 Name = Marowak
@@ -2779,6 +2868,7 @@ Category = Bone Keeper
 Pokedex = A Marowak is the evolved form of a Cubone that has grown tough by overcoming the grief of losing its mother. Its tempered and hardened spirit is not easily broken.
 Generation = 1
 WildItemUncommon = THICKCLUB
+CallRateSOS = 3
 #-------------------------------
 [HITMONLEE]
 Name = Hitmonlee
@@ -2804,6 +2894,8 @@ Habitat = Urban
 Category = Kicking
 Pokedex = Its legs freely stretch and contract. Using these springlike limbs, it bowls over foes with devastating kicks. After battle, it rubs down its tired legs.
 Generation = 1
+SpeciesSOS = HITMONLEE,HITMONCHAN,HITMONTOP
+CallRateSOS = 3
 #-------------------------------
 [HITMONCHAN]
 Name = Hitmonchan
@@ -2829,6 +2921,8 @@ Habitat = Urban
 Category = Punching
 Pokedex = A Hitmonchan is said to possess the spirit of a boxer who aimed to become the world champion. Having an indomitable spirit means that it will never give up.
 Generation = 1
+SpeciesSOS = HITMONCHAN,HITMONLEE,HITMONTOP
+CallRateSOS = 3
 #-------------------------------
 [LICKITUNG]
 Name = Lickitung
@@ -2857,6 +2951,7 @@ Pokedex = Whenever it sees something unfamiliar, it always licks the object beca
 Generation = 1
 WildItemUncommon = LAGGINGTAIL
 Evolutions = LICKILICKY,HasMove,ROLLOUT
+CallRateSOS = 3
 #-------------------------------
 [KOFFING]
 Name = Koffing
@@ -2885,6 +2980,7 @@ Pokedex = Getting up close to a Koffing will give you a chance to observe, throu
 Generation = 1
 WildItemUncommon = SMOKEBALL
 Evolutions = WEEZING,Level,35
+CallRateSOS = 9
 #-------------------------------
 [WEEZING]
 Name = Weezing
@@ -2911,6 +3007,7 @@ Category = Poison Gas
 Pokedex = By diluting its toxic gases with a special process, the highest grade of perfume can be made. To Weezing, gases emanating from garbage are the ultimate feast.
 Generation = 1
 WildItemUncommon = SMOKEBALL
+CallRateSOS = 6
 #-------------------------------
 [RHYHORN]
 Name = Rhyhorn
@@ -2938,6 +3035,7 @@ Category = Spikes
 Pokedex = Once it starts running, it doesn't stop. Its tiny brain makes it so stupid that it can't remember why it started running in the first place.
 Generation = 1
 Evolutions = RHYDON,Level,42
+CallRateSOS = 9
 #-------------------------------
 [RHYDON]
 Name = Rhydon
@@ -2964,6 +3062,7 @@ Category = Drill
 Pokedex = Its horn, which rotates like a drill, destroys tall buildings with one strike. It stands on its hind legs, and its brain is well developed.
 Generation = 1
 Evolutions = RHYPERIOR,TradeItem,PROTECTOR
+CallRateSOS = 6
 #-------------------------------
 [CHANSEY]
 Name = Chansey
@@ -2992,6 +3091,8 @@ Pokedex = Chansey lay nutritionally excellent eggs every day. The eggs are so de
 Generation = 1
 WildItemCommon = LUCKYPUNCH
 Evolutions = BLISSEY,Happiness,
+SpeciesSOS = CHANSEY,BLISSEY
+CallRateSOS = 9
 #-------------------------------
 [TANGELA]
 Name = Tangela
@@ -3019,6 +3120,7 @@ Category = Vine
 Pokedex = Its vines snap off easily and painlessly if they are grabbed, allowing it to make a quick getaway. The lost vines are replaced by new growth the very next day.
 Generation = 1
 Evolutions = TANGROWTH,HasMove,ANCIENTPOWER
+CallRateSOS = 9
 #-------------------------------
 [KANGASKHAN]
 Name = Kangaskhan
@@ -3045,6 +3147,7 @@ Habitat = Grassland
 Category = Parent
 Pokedex = If you come across a young Kangaskhan playing by itself, never try to catch it. The baby's parent is sure to be in the area, and it will become violently enraged.
 Generation = 1
+CallRateSOS = 3
 #-------------------------------
 [HORSEA]
 Name = Horsea
@@ -3073,6 +3176,8 @@ Pokedex = By cleverly flicking the fins on its back side to side, it moves in an
 Generation = 1
 WildItemUncommon = DRAGONSCALE
 Evolutions = SEADRA,Level,32
+SpeciesSOS = HORSEA,SEADRA
+CallRateSOS = 9
 #-------------------------------
 [SEADRA]
 Name = Seadra
@@ -3100,6 +3205,7 @@ Pokedex = The poisonous barbs all over its body are highly valued as ingredients
 Generation = 1
 WildItemUncommon = DRAGONSCALE
 Evolutions = KINGDRA,TradeItem,DRAGONSCALE
+CallRateSOS = 6
 #-------------------------------
 [GOLDEEN]
 Name = Goldeen
@@ -3128,6 +3234,8 @@ Pokedex = In the springtime, schools of Goldeen can be seen swimming up falls an
 Generation = 1
 WildItemUncommon = MYSTICWATER
 Evolutions = SEAKING,Level,33
+SpeciesSOS = GOLDEEN,SEAKING
+CallRateSOS = 9
 #-------------------------------
 [SEAKING]
 Name = Seaking
@@ -3154,6 +3262,7 @@ Category = Goldfish
 Pokedex = It punches holes in boulders on stream- beds. This is a clever innovation that prevents its eggs from being attacked or washed away by the current.
 Generation = 1
 WildItemUncommon = MYSTICWATER
+CallRateSOS = 6
 #-------------------------------
 [STARYU]
 Name = Staryu
@@ -3182,6 +3291,8 @@ Generation = 1
 WildItemCommon = STARDUST
 WildItemUncommon = STARPIECE
 Evolutions = STARMIE,Item,WATERSTONE
+SpeciesSOS = STARYU,STARMIE
+CallRateSOS = 9
 #-------------------------------
 [STARMIE]
 Name = Starmie
@@ -3263,6 +3374,7 @@ Category = Mantis
 Pokedex = Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke.
 Generation = 1
 Evolutions = SCIZOR,TradeItem,METALCOAT
+CallRateSOS = 3
 #-------------------------------
 [JYNX]
 Name = Jynx
@@ -3315,6 +3427,7 @@ Pokedex = When a storm approaches, it competes with others to scale heights that
 Generation = 1
 WildItemUncommon = ELECTIRIZER
 Evolutions = ELECTIVIRE,TradeItem,ELECTIRIZER
+CallRateSOS = 6
 #-------------------------------
 [MAGMAR]
 Name = Magmar
@@ -3342,6 +3455,7 @@ Pokedex = In battle, it blows out intense flames from all over its body to intim
 Generation = 1
 WildItemUncommon = MAGMARIZER
 Evolutions = MAGMORTAR,TradeItem,MAGMARIZER
+CallRateSOS = 6
 #-------------------------------
 [PINSIR]
 Name = Pinsir
@@ -3368,6 +3482,7 @@ Habitat = Forest
 Category = Stag Beetle
 Pokedex = Their pincers are strong enough to shatter thick logs. Because they dislike cold, Pinsir burrow and sleep under the ground on chilly nights.
 Generation = 1
+CallRateSOS = 3
 #-------------------------------
 [TAUROS]
 Name = Tauros
@@ -3393,6 +3508,8 @@ Habitat = Grassland
 Category = Wild Bull
 Pokedex = It is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself.
 Generation = 1
+SpeciesSOS = TAUROS,MILTANK
+CallRateSOS = 3
 #-------------------------------
 [MAGIKARP]
 Name = Magikarp
@@ -3419,6 +3536,8 @@ Category = Fish
 Pokedex = Its swimming muscles are weak, so it is easily washed away by currents. In places where water pools, you can see many Magikarp deposited there by the flow.
 Generation = 1
 Evolutions = GYARADOS,Level,20
+SpeciesSOS = MAGIKARP,GYARADOS
+CallRateSOS = 9
 #-------------------------------
 [GYARADOS]
 Name = Gyarados
@@ -3444,6 +3563,7 @@ Habitat = WatersEdge
 Category = Atrocious
 Pokedex = It is an extremely vicious and violent Pokémon. When humans begin to fight, it will appear and burn everything to the ground with intensely hot flames.
 Generation = 1
+CallRateSOS = 3
 #-------------------------------
 [LAPRAS]
 Name = Lapras
@@ -3473,6 +3593,7 @@ Generation = 1
 WildItemCommon = MYSTICWATER
 WildItemUncommon = MYSTICWATER
 WildItemRare = MYSTICWATER
+CallRateSOS = 3
 #-------------------------------
 [DITTO]
 Name = Ditto
@@ -3499,7 +3620,7 @@ Pokedex = A Ditto rearranges its cell structure to transform itself. However, if
 Generation = 1
 WildItemCommon = QUICKPOWDER
 WildItemUncommon = METALPOWDER
-CallRateSOS = 10
+CallRateSOS = 9
 #-------------------------------
 [EEVEE]
 Name = Eevee
@@ -3527,6 +3648,8 @@ Category = Evolution
 Pokedex = An Eevee has an unstable genetic makeup that suddenly mutates due to its environment. Radiation from various stones causes this Pokémon to evolve.
 Generation = 1
 Evolutions = VAPOREON,Item,WATERSTONE,JOLTEON,Item,THUNDERSTONE,FLAREON,Item,FIRESTONE,LEAFEON,Item,LEAFSTONE,LEAFEON,LocationFlag,MossRock,GLACEON,Item,ICESTONE,GLACEON,LocationFlag,IceRock,SYLVEON,HappinessMoveType,FAIRY,ESPEON,HappinessDay,,UMBREON,HappinessNight,,CELESTEON,HasMoveType,ANGEL
+ConditionalSOS = ESPEON,LandDay,,UMBREON,LandNight,
+CallRateSOS = 9
 #-------------------------------
 [VAPOREON]
 Name = Vaporeon
@@ -3893,6 +4016,8 @@ Pokedex = A Dratini continually molts and sloughs off its old skin. It does so b
 Generation = 1
 WildItemUncommon = DRAGONSCALE
 Evolutions = DRAGONAIR,Level,30
+SpeciesSOS = DRATINI,DRAGONAIR
+CallRateSOS = 9
 #-------------------------------
 [DRAGONAIR]
 Name = Dragonair
@@ -3920,6 +4045,7 @@ Pokedex = A Dragonair stores an enormous amount of energy inside its body. It is
 Generation = 1
 WildItemUncommon = DRAGONSCALE
 Evolutions = DRAGONITE,Level,55
+CallRateSOS = 6
 #-------------------------------
 [DRAGONITE]
 Name = Dragonite
@@ -4261,6 +4387,7 @@ Category = Scout
 Pokedex = They take turns standing guard when it is time to sleep. The sentry awakens the others if it senses danger. If one gets separated, it turns sleepless with fear.
 Generation = 2
 Evolutions = FURRET,Level,15
+CallRateSOS = 9
 #-------------------------------
 [FURRET]
 Name = Furret
@@ -4286,6 +4413,7 @@ Habitat = Grassland
 Category = Long Body
 Pokedex = A Furret has a very slim build. When under attack, it can squirm through narrow spaces and get away. In spite of its short limbs, it is very nimble and fleet.
 Generation = 2
+CallRateSOS = 6
 #-------------------------------
 [HOOTHOOT]
 Name = Hoothoot
@@ -4313,6 +4441,8 @@ Category = Owl
 Pokedex = It has an internal organ that senses the earth's rotation. Using this special organ, a Hoothoot begins hooting at precisely the same time every day.
 Generation = 2
 Evolutions = NOCTOWL,Level,20
+SpeciesSOS = HOOTHOOT,NOCTOWL
+CallRateSOS = 9
 #-------------------------------
 [NOCTOWL]
 Name = Noctowl
@@ -4338,6 +4468,7 @@ Habitat = Forest
 Category = Owl
 Pokedex = It unfailingly catches prey in darkness. Noctowl owe their success to superior vision that allows them to see in minimal light, and to their supple and silent wings.
 Generation = 2
+CallRateSOS = 6
 #-------------------------------
 [LEDYBA]
 Name = Ledyba
@@ -4365,6 +4496,7 @@ Category = Five Star
 Pokedex = Ledyba communicate using a fluid that they secrete from where the legs join the body. They are said to convey feelings to others by altering the fluid's scent.
 Generation = 2
 Evolutions = LEDIAN,Level,18
+CallRateSOS = 9
 #-------------------------------
 [LEDIAN]
 Name = Ledian
@@ -4390,6 +4522,7 @@ Habitat = Forest
 Category = Five Star
 Pokedex = It is said that in lands with clean air, where the stars fill the sky, there live many Ledian. For good reason, they use the light of the stars as energy.
 Generation = 2
+CallRateSOS = 6
 #-------------------------------
 [SPINARAK]
 Name = Spinarak
@@ -4417,6 +4550,7 @@ Category = String Spit
 Pokedex = The web it spins can be considered its second nervous system. It is said that a Spinarak determines its prey by the tiny vibrations it feels through the web.
 Generation = 2
 Evolutions = ARIADOS,Level,22
+CallRateSOS = 9
 #-------------------------------
 [ARIADOS]
 Name = Ariados
@@ -4442,6 +4576,7 @@ Habitat = Forest
 Category = Long Leg
 Pokedex = Its feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. It constricts its foe with thin and strong silk webbing.
 Generation = 2
+CallRateSOS = 6
 #-------------------------------
 [CROBAT]
 Name = Crobat
@@ -4495,6 +4630,8 @@ Pokedex = When it senses danger, it discharges positive and negative electricity
 Generation = 2
 WildItemUncommon = DEEPSEASCALE
 Evolutions = LANTURN,Level,27
+SpeciesSOS = CHINCHOU,LANTURN
+CallRateSOS = 9
 #-------------------------------
 [LANTURN]
 Name = Lanturn
@@ -4521,6 +4658,7 @@ Category = Light
 Pokedex = The light-emitting orbs on its back are very bright. They are formed from a part of its dorsal fin. This Pokémon illuminates the inky darkness of deep seas.
 Generation = 2
 WildItemUncommon = DEEPSEASCALE
+CallRateSOS = 6
 #-------------------------------
 [PICHU]
 Name = Pichu
@@ -4548,6 +4686,9 @@ Category = Tiny Mouse
 Pokedex = It is still inept at retaining electricity. When it is startled, it discharges power accidentally. It gets better at holding power as it grows older.
 Generation = 2
 Evolutions = PIKACHU,Happiness,
+Flags = SOSForm_0
+SpeciesSOS = PICHU,PIKACHU,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [CLEFFA]
 Name = Cleffa
@@ -4576,6 +4717,8 @@ Pokedex = On nights with many shooting stars, Cleffa can be seen dancing in a ri
 Generation = 2
 WildItemUncommon = MOONSTONE
 Evolutions = CLEFAIRY,Happiness,
+SpeciesSOS = CLEFFA,CLEFAIRY,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [IGGLYBUFF]
 Name = Igglybuff
@@ -4603,6 +4746,8 @@ Category = Balloon
 Pokedex = Its soft and pliable body is very bouncy. When it sings continuously with all its might, its body steadily turns a deepening pink color.
 Generation = 2
 Evolutions = JIGGLYPUFF,Happiness,
+SpeciesSOS = IGGLYBUFF,JIGGLYPUFF,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [TOGEPI]
 Name = Togepi
@@ -4630,6 +4775,8 @@ Category = Spike Ball
 Pokedex = As its energy, it uses the feelings of compassion and pleasure exuded by people and Pokémon. It stores up happy feelings in its shell, then shares them out.
 Generation = 2
 Evolutions = TOGETIC,Happiness,
+SpeciesSOS = TOGEPI,TOGETIC,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [TOGETIC]
 Name = Togetic
@@ -4683,6 +4830,8 @@ Category = Tiny Bird
 Pokedex = It runs up short trees that grow on the savanna to peck at new shoots. A Natu's eyes look as if they are always observing something.
 Generation = 2
 Evolutions = XATU,Level,25
+SpeciesSOS = NATU,XATU
+CallRateSOS = 9
 #-------------------------------
 [XATU]
 Name = Xatu
@@ -4708,6 +4857,7 @@ Habitat = Forest
 Category = Mystic
 Pokedex = It has the enigmatic power of foreseeing the future. Some people in different lands have long believed that Xatu are emissaries from another world.
 Generation = 2
+CallRateSOS = 6
 #-------------------------------
 [MAREEP]
 Name = Mareep
@@ -4735,6 +4885,7 @@ Category = Wool
 Pokedex = Its fluffy wool rubs together and builds a static charge. The more energy is charged, the more brightly the lightbulb at the tip of its tail glows.
 Generation = 2
 Evolutions = FLAAFFY,Level,15
+CallRateSOS = 9
 #-------------------------------
 [FLAAFFY]
 Name = Flaaffy
@@ -4761,6 +4912,7 @@ Category = Wool
 Pokedex = Its fleece quality changes to generate strong static electricity with a small amount of wool. The bare, slick parts of its hide are shielded against electricity.
 Generation = 2
 Evolutions = AMPHAROS,Level,30
+CallRateSOS = 6
 #-------------------------------
 [AMPHAROS]
 Name = Ampharos
@@ -4839,6 +4991,7 @@ Category = Aqua Mouse
 Pokedex = Its body is covered with water-repellent fur. Because of the fur, it can swim through water at high speed without being slowed by the water's resistance.
 Generation = 2
 Evolutions = AZUMARILL,Level,18
+CallRateSOS = 9
 #-------------------------------
 [AZUMARILL]
 Name = Azumarill
@@ -4943,6 +5096,7 @@ Category = Cottonweed
 Pokedex = This Pokémon drifts and floats with the wind. If it senses the approach of strong winds, a Hoppip links leaves with others to prepare against being blown away.
 Generation = 2
 Evolutions = SKIPLOOM,Level,18
+CallRateSOS = 9
 #-------------------------------
 [SKIPLOOM]
 Name = Skiploom
@@ -4969,6 +5123,7 @@ Category = Cottonweed
 Pokedex = It blossoms when the temperature rises above 64 degrees F. Because its flower's blooming changes with the temperature, it is sometimes used as a thermometer.
 Generation = 2
 Evolutions = JUMPLUFF,Level,27
+CallRateSOS = 6
 #-------------------------------
 [JUMPLUFF]
 Name = Jumpluff
@@ -5021,6 +5176,8 @@ Category = Long Tail
 Pokedex = Its tail ends with a dexterous, handlike appendage. However, because it uses the tail so much, Aipom's real hands have become rather clumsy.
 Generation = 2
 Evolutions = AMBIPOM,HasMove,DOUBLEHIT
+SpeciesSOS = AIPOM,AMBIPOM
+CallRateSOS = 9
 #-------------------------------
 [SUNKERN]
 Name = Sunkern
@@ -5048,6 +5205,7 @@ Category = Seed
 Pokedex = Sunkern try to minimize movement to conserve the nutrients they have stored in their bodies for evolution. They will not eat, subsisting only on morning dew.
 Generation = 2
 Evolutions = SUNFLORA,Item,SUNSTONE
+CallRateSOS = 9
 #-------------------------------
 [SUNFLORA]
 Name = Sunflora
@@ -5101,6 +5259,8 @@ Pokedex = It can see 360 degrees without moving its eyes. It is a great flier ca
 Generation = 2
 WildItemUncommon = WIDELENS
 Evolutions = YANMEGA,HasMove,ANCIENTPOWER
+SpeciesSOS = YANMA,YANMEGA
+CallRateSOS = 9
 #-------------------------------
 [WOOPER]
 Name = Wooper
@@ -5128,6 +5288,8 @@ Category = Water Fish
 Pokedex = Wooper usually live in water but come out onto land seeking food occasionally. On land, they coat their bodies with a gooey, toxic film.
 Generation = 2
 Evolutions = QUAGSIRE,Level,20
+SpeciesSOS = WOOPER,QUAGSIRE
+CallRateSOS = 9
 #-------------------------------
 [QUAGSIRE]
 Name = Quagsire
@@ -5230,6 +5392,7 @@ Category = Darkness
 Pokedex = Murkrow were feared as the alleged bearers of ill fortune. It shows strong interest in anything that sparkles. It will even try to steal rings from women.
 Generation = 2
 Evolutions = HONCHKROW,Item,DUSKSTONE
+CallRateSOS = 9
 #-------------------------------
 [SLOWKING]
 Name = Slowking
@@ -5256,6 +5419,7 @@ Category = Royal
 Pokedex = It undertakes research every day to solve the mysteries of the world. However, it apparently forgets everything if the Shellder on its head comes off.
 Generation = 2
 WildItemUncommon = KINGSROCK
+CallRateSOS = 3
 #-------------------------------
 [MISDREAVUS]
 Name = Misdreavus
@@ -5282,6 +5446,7 @@ Category = Screech
 Pokedex = A Misdreavus frightens people with a creepy, sobbing cry. It apparently uses its red spheres to absorb the fear of foes as its nutrition.
 Generation = 2
 Evolutions = MISMAGIUS,Item,DUSKSTONE
+CallRateSOS = 9
 #-------------------------------
 [UNOWN]
 Name = Unown
@@ -5307,6 +5472,7 @@ Habitat = Rare
 Category = Symbol
 Pokedex = This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.
 Generation = 2
+CallRateSOS = 15
 #-------------------------------
 [WOBBUFFET]
 Name = Wobbuffet
@@ -5358,6 +5524,7 @@ Habitat = Grassland
 Category = Long Neck
 Pokedex = A Girafarig is an herbivore--it eats grass and tree shoots. While it is eating, its tail makes chewing and swallowing motions as if it were also eating.
 Generation = 2
+CallRateSOS = 9
 #-------------------------------
 [PINECO]
 Name = Pineco
@@ -5385,6 +5552,7 @@ Category = Bagworm
 Pokedex = A Pineco hangs from a tree branch and waits for prey. While eating, if it is disturbed by someone shaking its tree, it falls on the ground and explodes.
 Generation = 2
 Evolutions = FORRETRESS,Level,31
+CallRateSOS = 9
 #-------------------------------
 [FORRETRESS]
 Name = Forretress
@@ -5410,6 +5578,7 @@ Habitat = Forest
 Category = Bagworm
 Pokedex = It keeps itself inside its steel shell. The shell is opened when it is catching prey, but it is so quick that the shell's inside cannot be seen.
 Generation = 2
+CallRateSOS = 6
 #-------------------------------
 [DUNSPARCE]
 Name = Dunsparce
@@ -5436,6 +5605,7 @@ Habitat = Cave
 Category = Land Snake
 Pokedex = Its drill-tipped tail is used to burrow into the ground backwards. This Pokémon is known to make its nest in complex shapes deep under the ground.
 Generation = 2
+CallRateSOS = 3
 #-------------------------------
 [GLIGAR]
 Name = Gligar
@@ -5463,6 +5633,7 @@ Category = Fly Scorpion
 Pokedex = It glides without making a single sound. It grasps the face of its foe using its hind and large front claws, then stabs with its poison barb.
 Generation = 2
 Evolutions = GLISCOR,NightHoldItem,RAZORFANG
+CallRateSOS = 9
 #-------------------------------
 [STEELIX]
 Name = Steelix
@@ -5516,6 +5687,7 @@ Category = Fairy
 Pokedex = By baring its fangs and making a scary face, it sends smaller Pokémon scurrying in terror. The Snubbull does seem a little sad at making its foes flee.
 Generation = 2
 Evolutions = GRANBULL,Level,23
+CallRateSOS = 9
 #-------------------------------
 [GRANBULL]
 Name = Granbull
@@ -5541,6 +5713,7 @@ Habitat = Urban
 Category = Fairy
 Pokedex = It has a particularly well-developed lower jaw. The huge fangs are heavy, causing it to tilt its head. Unless it is startled, it will not try to bite.
 Generation = 2
+CallRateSOS = 6
 #-------------------------------
 [QWILFISH]
 Name = Qwilfish
@@ -5568,6 +5741,7 @@ Category = Balloon
 Pokedex = A Qwilfish uses the pressure of water it swallows to shoot toxic quills all at once from all over its body. It finds swimming to be somewhat challenging.
 Generation = 2
 WildItemUncommon = POISONBARB
+CallRateSOS = 9
 #-------------------------------
 [SCIZOR]
 Name = Scizor
@@ -5622,6 +5796,7 @@ Generation = 2
 WildItemCommon = BERRYJUICE
 WildItemUncommon = BERRYJUICE
 WildItemRare = BERRYJUICE
+CallRateSOS = 3
 #-------------------------------
 [HERACROSS]
 Name = Heracross
@@ -5648,6 +5823,7 @@ Habitat = Forest
 Category = Single Horn
 Pokedex = They gather in forests seeking the sweet sap of trees. It is completely clad in a steel-hard shell. It is proud of its horn, which it uses to fling foes.
 Generation = 2
+CallRateSOS = 3
 #-------------------------------
 [SNEASEL]
 Name = Sneasel
@@ -5676,6 +5852,7 @@ Pokedex = A Sneasel scales trees by punching its hooked claws into the bark. It 
 Generation = 2
 WildItemUncommon = QUICKCLAW
 Evolutions = WEAVILE,NightHoldItem,RAZORCLAW
+CallRateSOS = 9
 #-------------------------------
 [TEDDIURSA]
 Name = Teddiursa
@@ -5703,6 +5880,8 @@ Category = Little Bear
 Pokedex = It licks its palms that are sweetened by being soaked in honey. A Teddiursa makes its own honey by blending fruits and pollen collected by Beedrill.
 Generation = 2
 Evolutions = URSARING,Level,30
+SpeciesSOS = TEDDIURSA,URSARING
+CallRateSOS = 9
 #-------------------------------
 [URSARING]
 Name = Ursaring
@@ -5755,6 +5934,7 @@ Category = Lava
 Pokedex = It is a species of Pokémon that lives in volcanic areas. If its body cools, its skin hardens and immobilizes it. To avoid that, it sleeps near magma.
 Generation = 2
 Evolutions = MAGCARGO,Level,38
+CallRateSOS = 9
 #-------------------------------
 [MAGCARGO]
 Name = Magcargo
@@ -5780,6 +5960,7 @@ Habitat = Mountain
 Category = Lava
 Pokedex = The shell on its back is made of hardened magma. Tens of thousands of years spent living in volcanic craters have turned Magcargo's bodies into magma.
 Generation = 2
+CallRateSOS = 6
 #-------------------------------
 [SWINUB]
 Name = Swinub
@@ -5807,6 +5988,7 @@ Category = Pig
 Pokedex = It roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under dried grass. It occasionally roots out hot springs.
 Generation = 2
 Evolutions = PILOSWINE,Level,33
+CallRateSOS = 9
 #-------------------------------
 [PILOSWINE]
 Name = Piloswine
@@ -5833,6 +6015,7 @@ Category = Swine
 Pokedex = A Piloswine is covered by a thick coat of long hair for enduring freezing cold. It uses its tusks to dig up food that has been buried under ice.
 Generation = 2
 Evolutions = MAMOSWINE,HasMove,ANCIENTPOWER
+CallRateSOS = 6
 #-------------------------------
 [CORSOLA]
 Name = Corsola
@@ -5861,6 +6044,8 @@ Pokedex = Corsola live in warm southern seas. If the sea becomes polluted, the b
 Generation = 2
 WildItemUncommon = LUMINOUSMOSS
 Evolutions = CURSOLA,None,
+SpeciesSOS = CORSOLA,MAREANIE
+CallRateSOS = 9
 #-------------------------------
 [REMORAID]
 Name = Remoraid
@@ -5888,6 +6073,8 @@ Category = Jet
 Pokedex = A Remoraid uses its abdominal muscles to forcefully expel swallowed water, then shoot down flying prey. When evolution approaches, it travels down rivers.
 Generation = 2
 Evolutions = OCTILLERY,Level,25
+SpeciesSOS = REMORAID,OCTILLERY
+CallRateSOS = 3
 #-------------------------------
 [OCTILLERY]
 Name = Octillery
@@ -5939,6 +6126,7 @@ Habitat = Mountain
 Category = Delivery
 Pokedex = It carries food bundled up in its tail. There was a famous explorer who managed to scale Mt. Everest thanks to a Delibird sharing its food.
 Generation = 2
+CallRateSOS = 9
 #-------------------------------
 [MANTINE]
 Name = Mantine
@@ -5992,6 +6180,7 @@ Category = Armor Bird
 Pokedex = A Pokémon that has a body and wings of steel. People in the past used feathers fallen from Skarmory to make swords and knives.
 Generation = 2
 WildItemUncommon = METALCOAT
+CallRateSOS = 6
 #-------------------------------
 [HOUNDOUR]
 Name = Houndour
@@ -6019,6 +6208,7 @@ Category = Dark
 Pokedex = Houndour communicate with each other using a variety of cries to corner their prey. This Pokémon's remarkable teamwork is simply unparalleled.
 Generation = 2
 Evolutions = HOUNDOOM,Level,24
+CallRateSOS = 9
 #-------------------------------
 [HOUNDOOM]
 Name = Houndoom
@@ -6044,6 +6234,7 @@ Habitat = RoughTerrain
 Category = Dark
 Pokedex = In a Houndoom pack, the one with its horns raked sharply back serves a leadership role. They choose their leader by fighting among themselves.
 Generation = 2
+CallRateSOS = 6
 #-------------------------------
 [KINGDRA]
 Name = Kingdra
@@ -6097,6 +6288,7 @@ Category = Long Nose
 Pokedex = Phanpy's big ears serve as broad fans. When it becomes hot, it flaps the ears busily to cool down. Even the young are very strong.
 Generation = 2
 Evolutions = DONPHAN,Level,25
+CallRateSOS = 9
 #-------------------------------
 [DONPHAN]
 Name = Donphan
@@ -6174,6 +6366,7 @@ Habitat = Forest
 Category = Big Horn
 Pokedex = Stantler's magnificent antlers were once traded at high prices as works of art. As a result, this Pokémon was hunted close to extinction.
 Generation = 2
+CallRateSOS = 9
 #-------------------------------
 [SMEARGLE]
 Name = Smeargle
@@ -6198,6 +6391,7 @@ Habitat = Urban
 Category = Painter
 Pokedex = A Smeargle marks its territory using a fluid that leaks out from the tip of its tail. About 5,000 different marks left by this Pokémon have been found.
 Generation = 2
+CallRateSOS = 9
 #-------------------------------
 [TYROGUE]
 Name = Tyrogue
@@ -6225,6 +6419,8 @@ Category = Scuffle
 Pokedex = Tyrogue become stressed out if they do not get to train every day. When raising this Pokémon, the trainer must establish a regular training schedule.
 Generation = 2
 Evolutions = HITMONLEE,AttackGreater,20,HITMONCHAN,DefenseGreater,20,HITMONTOP,AtkDefEqual,20
+SpeciesSOS = TYROGUE,HITMONCHAN,HITMONLEE,HITMONTOP,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [HITMONTOP]
 Name = Hitmontop
@@ -6250,6 +6446,8 @@ Habitat = Urban
 Category = Handstand
 Pokedex = Its technique of kicking while spinning is a remarkable mix of both offense and defense. Hitmontop travel faster spinning than they do walking.
 Generation = 2
+SpeciesSOS = HITMONTOP,HITMONLEE,HITMONCHAN
+CallRateSOS = 3
 #-------------------------------
 [SMOOCHUM]
 Name = Smoochum
@@ -6277,6 +6475,8 @@ Category = Kiss
 Pokedex = It actively runs about, but also falls often. Whenever it falls, it will check its reflection on a lake's surface to make sure its face hasn't become dirty.
 Generation = 2
 Evolutions = JYNX,Level,30
+SpeciesSOS = SMOOCHUM,JYNX,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [ELEKID]
 Name = Elekid
@@ -6305,6 +6505,8 @@ Pokedex = If it touches metal and discharges the electricity it has stored in it
 Generation = 2
 WildItemUncommon = ELECTIRIZER
 Evolutions = ELECTABUZZ,Level,30
+SpeciesSOS = ELEKID,ELECTABUZZ,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [MAGBY]
 Name = Magby
@@ -6333,6 +6535,8 @@ Pokedex = If a Magby is spouting yellow flames from its mouth, it is in good hea
 Generation = 2
 WildItemUncommon = MAGMARIZER
 Evolutions = MAGMAR,Level,30
+SpeciesSOS = MAGBY,MAGMAR,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [MILTANK]
 Name = Miltank
@@ -6362,6 +6566,8 @@ Generation = 2
 WildItemCommon = MOOMOOMILK
 WildItemUncommon = MOOMOOMILK
 WildItemRare = MOOMOOMILK
+SpeciesSOS = MILTANK,TAUROS
+CallRateSOS = 3
 #-------------------------------
 [BLISSEY]
 Name = Blissey
@@ -6495,6 +6701,7 @@ Category = Rock Skin
 Pokedex = A Larvitar is born deep under the ground. It must eat its way through the soil above and reach the surface for it to see its parents' faces.
 Generation = 2
 Evolutions = PUPITAR,Level,30
+CallRateSOS = 9
 #-------------------------------
 [PUPITAR]
 Name = Pupitar
@@ -6520,6 +6727,7 @@ Category = Hard Shell
 Pokedex = A Pupitar creates a gas inside its body that it ejects under compression to propel itself like a jet. Its body can withstand a collision with solid steel.
 Generation = 2
 Evolutions = TYRANITAR,Level,55
+CallRateSOS = 9
 #-------------------------------
 [TYRANITAR]
 Name = Tyranitar
@@ -6889,6 +7097,7 @@ Category = Bite
 Pokedex = It savagely threatens foes with bared fangs. It chases after fleeing targets tenaciously. It turns tail and runs, however, if the foe strikes back.
 Generation = 3
 Evolutions = MIGHTYENA,Level,18
+CallRateSOS = 9
 #-------------------------------
 [MIGHTYENA]
 Name = Mightyena
@@ -6914,6 +7123,7 @@ Habitat = Grassland
 Category = Bite
 Pokedex = In the wild, Mightyena live in a pack. They never defy their leader's orders. They defeat foes with perfectly coordinated teamwork.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [ZIGZAGOON]
 Name = Zigzagoon
@@ -6943,6 +7153,7 @@ Generation = 3
 WildItemCommon = POTION
 WildItemUncommon = REVIVE
 Evolutions = LINOONE,Level,20
+CallRateSOS = 9
 #-------------------------------
 [LINOONE]
 Name = Linoone
@@ -6971,6 +7182,7 @@ Generation = 3
 WildItemCommon = POTION
 WildItemUncommon = MAXREVIVE
 Evolutions = OBSTAGOON,None,
+CallRateSOS = 6
 #-------------------------------
 [WURMPLE]
 Name = Wurmple
@@ -6999,6 +7211,7 @@ Generation = 3
 WildItemCommon = PECHABERRY
 WildItemUncommon = BRIGHTPOWDER
 Evolutions = SILCOON,Silcoon,7,CASCOON,Cascoon,7
+CallRateSOS = 15
 #-------------------------------
 [SILCOON]
 Name = Silcoon
@@ -7024,6 +7237,8 @@ Category = Cocoon
 Pokedex = It prepares for evolution using the energy it stored while it was a Wurmple. It keeps watch over the surroundings with its two eyes.
 Generation = 3
 Evolutions = BEAUTIFLY,Level,10
+SpeciesSOS = WURMPLE,BEAUTIFLY
+CallRateSOS = 15
 #-------------------------------
 [BEAUTIFLY]
 Name = Beautifly
@@ -7075,6 +7290,8 @@ Category = Cocoon
 Pokedex = To avoid detection by its enemies, it hides motionlessly beneath large leaves and in the gaps of branches. It also attaches dead leaves to its body for camouflage.
 Generation = 3
 Evolutions = DUSTOX,Level,10
+SpeciesSOS = WURMPLE,DUSTOX
+CallRateSOS = 15
 #-------------------------------
 [DUSTOX]
 Name = Dustox
@@ -7129,6 +7346,7 @@ Pokedex = This Pokémon lives in ponds with clean water. It is known to ferry sm
 Generation = 3
 WildItemUncommon = MENTALHERB
 Evolutions = LOMBRE,Level,14
+CallRateSOS = 9
 #-------------------------------
 [LOMBRE]
 Name = Lombre
@@ -7156,6 +7374,7 @@ Pokedex = In the evening, it takes great delight in popping out of rivers and st
 Generation = 3
 WildItemUncommon = MENTALHERB
 Evolutions = LUDICOLO,Item,WATERSTONE
+CallRateSOS = 6
 #-------------------------------
 [LUDICOLO]
 Name = Ludicolo
@@ -7210,6 +7429,7 @@ Pokedex = It hangs off branches and absorbs nutrients. When it finishes eating, 
 Generation = 3
 WildItemUncommon = POWERHERB
 Evolutions = NUZLEAF,Level,14
+CallRateSOS = 9
 #-------------------------------
 [NUZLEAF]
 Name = Nuzleaf
@@ -7237,6 +7457,7 @@ Pokedex = A forest-dwelling Pokémon that is skilled at climbing trees. Its long
 Generation = 3
 WildItemUncommon = POWERHERB
 Evolutions = SHIFTRY,Item,LEAFSTONE
+CallRateSOS = 6
 #-------------------------------
 [SHIFTRY]
 Name = Shiftry
@@ -7263,6 +7484,8 @@ Category = Wicked
 Pokedex = It is said to arrive on chilly, wintry winds. Feared from long ago as the guardian of forests, this Pokémon lives in a deep forest where people do not venture.
 Generation = 3
 WildItemUncommon = POWERHERB
+SpeciesSOS = SEEDOT,NUZLEAF
+CallRateSOS = 15
 #-------------------------------
 [TAILLOW]
 Name = Taillow
@@ -7290,6 +7513,7 @@ Category = Tiny Swallow
 Pokedex = Although it is small, it is very courageous. It will take on a larger Skarmory on an equal footing. However, its will weakens if it becomes hungry.
 Generation = 3
 Evolutions = SWELLOW,Level,22
+CallRateSOS = 9
 #-------------------------------
 [SWELLOW]
 Name = Swellow
@@ -7315,6 +7539,7 @@ Habitat = Grassland
 Category = Swallow
 Pokedex = A Swellow dives upon prey from far above. It never misses its targets. It takes to the skies in search of lands with a warm climate.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [WINGULL]
 Name = Wingull
@@ -7343,6 +7568,7 @@ Pokedex = It makes its nest on a sheer cliff at the edge of the sea. It has trou
 Generation = 3
 WildItemCommon = PRETTYFEATHER
 Evolutions = PELIPPER,Level,25
+CallRateSOS = 9
 #-------------------------------
 [PELIPPER]
 Name = Pelipper
@@ -7369,6 +7595,7 @@ Category = Water Bird
 Pokedex = It skims the tops of waves as it flies. When it spots prey, it uses its large beak to scoop up the victim with water. It protects its eggs in its beak.
 Generation = 3
 WildItemCommon = PRETTYFEATHER
+CallRateSOS = 6
 #-------------------------------
 [RALTS]
 Name = Ralts
@@ -7396,6 +7623,7 @@ Category = Feeling
 Pokedex = A Ralts has the power to sense the emotions of people and Pokémon with the horns on its head. It takes cover if it senses any hostility.
 Generation = 3
 Evolutions = KIRLIA,Level,20
+CallRateSOS = 9
 #-------------------------------
 [KIRLIA]
 Name = Kirlia
@@ -7422,6 +7650,7 @@ Category = Emotion
 Pokedex = A Kirlia has the psychic power to create a rip in the dimensions and see into the future. It is said to dance with pleasure on sunny mornings.
 Generation = 3
 Evolutions = GARDEVOIR,Level,30,GALLADE,ItemMale,DAWNSTONE
+CallRateSOS = 6
 #-------------------------------
 [GARDEVOIR]
 Name = Gardevoir
@@ -7475,6 +7704,7 @@ Pokedex = They gather on puddles after evening downpours, gliding across the sur
 Generation = 3
 WildItemCommon = HONEY
 Evolutions = MASQUERAIN,Level,22
+CallRateSOS = 9
 #-------------------------------
 [MASQUERAIN]
 Name = Masquerain
@@ -7501,6 +7731,7 @@ Category = Eyeball
 Pokedex = It intimidates foes with the large eyelike patterns on its antennae. Because it can't fly if its wings get wet, it shelters from rain under large trees and eaves.
 Generation = 3
 WildItemUncommon = SILVERPOWDER
+CallRateSOS = 6
 #-------------------------------
 [SHROOMISH]
 Name = Shroomish
@@ -7530,6 +7761,7 @@ Generation = 3
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 Evolutions = BRELOOM,Level,23
+CallRateSOS = 9
 #-------------------------------
 [BRELOOM]
 Name = Breloom
@@ -7557,6 +7789,7 @@ Pokedex = It scatters spores from holes in the cap on its head. It loves warm an
 Generation = 3
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
+CallRateSOS = 6
 #-------------------------------
 [SLAKOTH]
 Name = Slakoth
@@ -7583,6 +7816,7 @@ Category = Slacker
 Pokedex = It sleeps virtually all day and night long. It doesn't change its nest its entire life, but it sometimes travels great distances by swimming in rivers.
 Generation = 3
 Evolutions = VIGOROTH,Level,18
+CallRateSOS = 9
 #-------------------------------
 [VIGOROTH]
 Name = Vigoroth
@@ -7608,6 +7842,7 @@ Category = Wild Monkey
 Pokedex = It can't keep still because its blood boils with energy. It runs through the fields and mountains all day to calm itself. If it doesn't, it can't sleep at night.
 Generation = 3
 Evolutions = SLAKING,Level,36
+CallRateSOS = 6
 #-------------------------------
 [SLAKING]
 Name = Slaking
@@ -7660,6 +7895,7 @@ Pokedex = It makes its nest at the roots of a mighty tree. Using its whiskerlike
 Generation = 3
 WildItemUncommon = SOFTSAND
 Evolutions = NINJASK,Ninjask,20,SHEDINJA,Shedinja,20
+CallRateSOS = 9
 #-------------------------------
 [NINJASK]
 Name = Ninjask
@@ -7685,6 +7921,8 @@ Habitat = Forest
 Category = Ninja
 Pokedex = Because it darts about vigorously at high speed, it is very difficult to see. Hearing its distinctive cries for too long induces a headache.
 Generation = 3
+SpeciesSOS = NINJASK,SHEDINJA
+CallRateSOS = 6
 #-------------------------------
 [SHEDINJA]
 Name = Shedinja
@@ -7736,6 +7974,7 @@ Category = Whisper
 Pokedex = Its cries equal a jet plane in volume. It inhales through its ear canals. Because of this system, it can cry continually without having to catch its breath.
 Generation = 3
 Evolutions = LOUDRED,Level,20
+CallRateSOS = 9
 #-------------------------------
 [LOUDRED]
 Name = Loudred
@@ -7762,6 +8001,7 @@ Category = Big Voice
 Pokedex = It positions the round speakers on its head to assail foes with ultrasonic waves at massive volume. It builds power by stomping the ground.
 Generation = 3
 Evolutions = EXPLOUD,Level,40
+CallRateSOS = 6
 #-------------------------------
 [EXPLOUD]
 Name = Exploud
@@ -7815,6 +8055,7 @@ Pokedex = It loves to toughen up its body above all else. If you hear quaking ru
 Generation = 3
 WildItemUncommon = BLACKBELT
 Evolutions = HARIYAMA,Level,24
+CallRateSOS = 9
 #-------------------------------
 [HARIYAMA]
 Name = Hariyama
@@ -7841,6 +8082,7 @@ Category = Arm Thrust
 Pokedex = It has the habit of challenging others without hesitation to tests of strength. It's been known to stand on train tracks and stop trains using forearm thrusts.
 Generation = 3
 WildItemUncommon = KINGSROCK
+CallRateSOS = 6
 #-------------------------------
 [AZURILL]
 Name = Azurill
@@ -7869,6 +8111,8 @@ Category = Polka Dot
 Pokedex = Its tail, which is packed with nutrition, is very bouncy like a rubber ball. On sunny days they gather at the edge of water and splash about for fun.
 Generation = 3
 Evolutions = MARILL,Happiness,
+SpeciesSOS = AZURILL,MARILL,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [NOSEPASS]
 Name = Nosepass
@@ -7897,6 +8141,7 @@ Pokedex = Its body emits a powerful magnetism. It feeds on prey that is pulled i
 Generation = 3
 WildItemUncommon = MAGNET
 Evolutions = PROBOPASS,LocationFlag,Magnetic,PROBOPASS,Item,THUNDERSTONE
+CallRateSOS = 9
 #-------------------------------
 [SKITTY]
 Name = Skitty
@@ -7924,6 +8169,7 @@ Category = Kitten
 Pokedex = A Skitty's adorably cute behavior makes it highly popular. In battle, it makes its tail puff out. It threatens foes with a sharp growl.
 Generation = 3
 Evolutions = DELCATTY,Item,MOONSTONE
+CallRateSOS = 9
 #-------------------------------
 [DELCATTY]
 Name = Delcatty
@@ -7949,6 +8195,7 @@ Habitat = Forest
 Category = Prim
 Pokedex = Rather than keeping a permanent lair, it habitually seeks comfortable spots and sleeps there. It is nocturnal and becomes active at dusk.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [SABLEYE]
 Name = Sableye
@@ -7976,6 +8223,7 @@ Category = Darkness
 Pokedex = It digs branching holes in caves using its sharp claws in search of food--raw gems. A Sableye lurks in darkness and is seen only rarely.
 Generation = 3
 WildItemUncommon = WIDELENS
+RivalSpecies = CARBINK
 #-------------------------------
 [MAWILE]
 Name = Mawile
@@ -8003,6 +8251,7 @@ Category = Deceiver
 Pokedex = Its giant jaws are actually steel horns that transformed. It fools foes into complacency with its adorable gestures, then chomps them with its huge jaws.
 Generation = 3
 WildItemUncommon = IRONBALL
+CallRateSOS = 6
 #-------------------------------
 [ARON]
 Name = Aron
@@ -8031,6 +8280,7 @@ Pokedex = A Pokémon that is clad in steel armor. A new suit of armor is made wh
 Generation = 3
 WildItemUncommon = HARDSTONE
 Evolutions = LAIRON,Level,32
+CallRateSOS = 9
 #-------------------------------
 [LAIRON]
 Name = Lairon
@@ -8058,6 +8308,7 @@ Pokedex = When two Lairon meet in the wild, they fight for territory by bashing 
 Generation = 3
 WildItemUncommon = HARDSTONE
 Evolutions = AGGRON,Level,42
+CallRateSOS = 6
 #-------------------------------
 [AGGRON]
 Name = Aggron
@@ -8111,6 +8362,7 @@ Category = Meditate
 Pokedex = It continually meditates for hours every day. As a result of rigorous and dedicated yoga training, it has tempered its spiritual power so much it can fly.
 Generation = 3
 Evolutions = MEDICHAM,Level,37
+CallRateSOS = 9
 #-------------------------------
 [MEDICHAM]
 Name = Medicham
@@ -8136,6 +8388,7 @@ Habitat = Mountain
 Category = Meditate
 Pokedex = Through crushingly harsh yoga training, it gained the power to foretell its foe's actions. It battles with elegant, dance- like movement.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [ELECTRIKE]
 Name = Electrike
@@ -8163,6 +8416,7 @@ Category = Lightning
 Pokedex = It generates electricity using friction from the atmosphere. In seasons with especially arid air, its entire body blazes with violent showers of sparks.
 Generation = 3
 Evolutions = MANECTRIC,Level,26
+CallRateSOS = 9
 #-------------------------------
 [MANECTRIC]
 Name = Manectric
@@ -8188,6 +8442,7 @@ Habitat = Grassland
 Category = Discharge
 Pokedex = Because lightning falls in their vicinities, Manectric were thought to have been born from lightning. In battle, they create thunderclouds.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [PLUSLE]
 Name = Plusle
@@ -8215,6 +8470,8 @@ Category = Cheering
 Pokedex = It has the trait of cheering on its fellow Pokémon. By shorting out the electricity it releases from its paws, it creates pom-poms for cheering.
 Generation = 3
 WildItemUncommon = CELLBATTERY
+SpeciesSOS = PLUSLE,MINUN
+CallRateSOS = 15
 #-------------------------------
 [MINUN]
 Name = Minun
@@ -8242,6 +8499,8 @@ Category = Cheering
 Pokedex = At a meeting of Pokémon academics, it was announced that simultaneous exposure to electricity from a Plusle and Minun will promote circulation and boost vitality.
 Generation = 3
 WildItemUncommon = CELLBATTERY
+SpeciesSOS = MINUN,PLUSLE
+CallRateSOS = 15
 #-------------------------------
 [VOLBEAT]
 Name = Volbeat
@@ -8270,6 +8529,8 @@ Category = Firefly
 Pokedex = With their taillights lit, Volbeat fly in a swarm, drawing geometric designs in the night sky. They move their nests if their pond water becomes dirty.
 Generation = 3
 WildItemUncommon = BRIGHTPOWDER
+SpeciesSOS = VOLBEAT,ILLUMISE
+CallRateSOS = 9
 #-------------------------------
 [ILLUMISE]
 Name = Illumise
@@ -8298,6 +8559,8 @@ Category = Firefly
 Pokedex = A nocturnal Pokémon that becomes active upon nightfall. It leads a Volbeat swarm to draw patterns in the night sky. Over 200 different patterns have been seen.
 Generation = 3
 WildItemUncommon = BRIGHTPOWDER
+SpeciesSOS = ILLUMISE,VOLBEAT
+CallRateSOS = 9
 #-------------------------------
 [ROSELIA]
 Name = Roselia
@@ -8326,6 +8589,7 @@ Pokedex = A Roselia that drinks nutritionally rich springwater blooms with lovel
 Generation = 3
 WildItemUncommon = POISONBARB
 Evolutions = ROSERADE,Item,SHINYSTONE
+CallRateSOS = 9
 #-------------------------------
 [GULPIN]
 Name = Gulpin
@@ -8355,6 +8619,7 @@ Generation = 3
 WildItemCommon = ORANBERRY
 WildItemUncommon = SITRUSBERRY
 Evolutions = SWALOT,Level,26
+CallRateSOS = 9
 #-------------------------------
 [SWALOT]
 Name = Swalot
@@ -8382,6 +8647,7 @@ Pokedex = Its powerful stomach acid is capable of digesting almost anything. The
 Generation = 3
 WildItemCommon = ORANBERRY
 WildItemUncommon = SITRUSBERRY
+CallRateSOS = 6
 #-------------------------------
 [CARVANHA]
 Name = Carvanha
@@ -8410,6 +8676,8 @@ Pokedex = Carvanha attack ships in swarms, making them sink. Although it is said
 Generation = 3
 WildItemUncommon = DEEPSEATOOTH
 Evolutions = SHARPEDO,Level,30
+SpeciesSOS = CARVANHA,SHARPEDO
+CallRateSOS = 9
 #-------------------------------
 [SHARPEDO]
 Name = Sharpedo
@@ -8436,6 +8704,7 @@ Category = Brutal
 Pokedex = The vicious and sly gangster of the sea. Its skin is specially textured to minimize drag in water. Its speed tops out at over 75 miles per hour.
 Generation = 3
 WildItemUncommon = DEEPSEATOOTH
+CallRateSOS = 3
 #-------------------------------
 [WAILMER]
 Name = Wailmer
@@ -8463,6 +8732,8 @@ Category = Ball Whale
 Pokedex = While this Pokémon usually lives in the sea, it can survive on land, although not too long. It loses vitality if its body becomes dried out.
 Generation = 3
 Evolutions = WAILORD,Level,40
+ConditionalSOS = WAILORD,GoodRod,,WAILORD,SuperRod,
+CallRateSOS = 9
 #-------------------------------
 [WAILORD]
 Name = Wailord
@@ -8488,6 +8759,7 @@ Habitat = Sea
 Category = Float Whale
 Pokedex = It breathes through nostrils that it raises above the sea. By inhaling to its maximum capacity, a Wailord can dive close to 10,000 feet beneath the waves.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [NUMEL]
 Name = Numel
@@ -8515,6 +8787,7 @@ Category = Numb
 Pokedex = A Numel stores boiling magma in the hump on its back. It is a hardy Pokémon that can transport a 220-pound load. It has served humans at work since long ago.
 Generation = 3
 Evolutions = CAMERUPT,Level,33
+CallRateSOS = 9
 #-------------------------------
 [CAMERUPT]
 Name = Camerupt
@@ -8540,6 +8813,7 @@ Habitat = Mountain
 Category = Eruption
 Pokedex = A Pokémon that lives in the crater of a volcano. Every 10 years, the volcanoes on its back erupt violently. Research is under way on the cause of eruption.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [TORKOAL]
 Name = Torkoal
@@ -8567,6 +8841,7 @@ Category = Coal
 Pokedex = It battles using energy it gets from burning coal. When loosing smoke from its nostrils, it lets off a sound that is similar to a locomotive's horn.
 Generation = 3
 WildItemUncommon = CHARCOAL
+CallRateSOS = 6
 #-------------------------------
 [SPOINK]
 Name = Spoink
@@ -8594,6 +8869,7 @@ Category = Bounce
 Pokedex = A Pokémon that manipulates psychic power at will. It doesn't stop bouncing even when it is asleep. It loves eating mushrooms that grow underground.
 Generation = 3
 Evolutions = GRUMPIG,Level,32
+CallRateSOS = 9
 #-------------------------------
 [GRUMPIG]
 Name = Grumpig
@@ -8619,6 +8895,7 @@ Habitat = Mountain
 Category = Manipulate
 Pokedex = It stores power in the black pearls on its forehead. When it uses psychic power, it performs an odd dance step. Its style of dancing became hugely popular overseas.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [SPINDA]
 Name = Spinda
@@ -8645,6 +8922,7 @@ Habitat = Mountain
 Category = Spot Panda
 Pokedex = It is distinguished by a pattern of spots that is always different. Its unsteady, tottering walk has the effect of fouling its foe's aim.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [TRAPINCH]
 Name = Trapinch
@@ -8673,6 +8951,7 @@ Pokedex = Its big jaws crunch through boulders. Because its head is so big, it h
 Generation = 3
 WildItemUncommon = SOFTSAND
 Evolutions = VIBRAVA,Level,35
+CallRateSOS = 9
 #-------------------------------
 [VIBRAVA]
 Name = Vibrava
@@ -8698,6 +8977,7 @@ Category = Vibration
 Pokedex = It looses ultrasonic waves by rubbing its wings together. Since a Vibrava's wings are still in the process of growing, it can only fly short distances.
 Generation = 3
 Evolutions = FLYGON,Level,45
+CallRateSOS = 6
 #-------------------------------
 [FLYGON]
 Name = Flygon
@@ -8750,6 +9030,7 @@ Pokedex = Cacnea live in deserts with virtually no rainfall. It battles by swing
 Generation = 3
 WildItemUncommon = STICKYBARB
 Evolutions = CACTURNE,Level,32
+CallRateSOS = 9
 #-------------------------------
 [CACTURNE]
 Name = Cacturne
@@ -8776,6 +9057,7 @@ Category = Scarecrow
 Pokedex = After spending thousands of years in harsh deserts, its blood transformed into the same substances as sand. It is nocturnal, so it hunts at night.
 Generation = 3
 WildItemUncommon = STICKYBARB
+CallRateSOS = 6
 #-------------------------------
 [SWABLU]
 Name = Swablu
@@ -8803,6 +9085,7 @@ Category = Cotton Bird
 Pokedex = A Pokémon that has wings like cottony clouds. After enduring winter, in which little food is available, Swablu flocks move closer to towns in the spring.
 Generation = 3
 Evolutions = ALTARIA,Level,35
+CallRateSOS = 9
 #-------------------------------
 [ALTARIA]
 Name = Altaria
@@ -8828,6 +9111,7 @@ Habitat = Forest
 Category = Humming
 Pokedex = It hums in a beautiful soprano voice. It flies among white clouds in the blue sky. It launches intensely hot fireballs from its mouth.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [ZANGOOSE]
 Name = Zangoose
@@ -8855,6 +9139,9 @@ Category = Cat Ferret
 Pokedex = When it battles, it stands on its hind legs and attacks with its sharply clawed forelegs. Its fur bristles if it encounters any Seviper.
 Generation = 3
 WildItemUncommon = QUICKCLAW
+RivalSpecies = SEVIPER
+SpeciesSOS = ZANGOOSE,SEVIPER
+CallRateSOS = 9
 #-------------------------------
 [SEVIPER]
 Name = Seviper
@@ -8882,6 +9169,9 @@ Category = Fang Snake
 Pokedex = Seviper and Zangoose are eternal rivals. It counters a Zangoose's dazzling agility with its swordlike tail, which also oozes a horrible poison.
 Generation = 3
 WildItemUncommon = SHEDSHELL
+RivalSpecies = ZANGOOSE
+SpeciesSOS = SEVIPER,ZANGOOSE
+CallRateSOS = 9
 #-------------------------------
 [LUNATONE]
 Name = Lunatone
@@ -8908,6 +9198,8 @@ Pokedex = It becomes very active on the night of a full moon. This Pokémon was 
 Generation = 3
 WildItemCommon = STARDUST
 WildItemUncommon = MOONSTONE
+ConditionalSOS = SOLROCK,LandDay,,SOLROCK,CaveDay,
+CallRateSOS = 9
 #-------------------------------
 [SOLROCK]
 Name = Solrock
@@ -8934,6 +9226,8 @@ Pokedex = Solar energy is the source of this Pokémon's power. On sunny days, gr
 Generation = 3
 WildItemCommon = STARDUST
 WildItemUncommon = SUNSTONE
+ConditionalSOS = LUNATONE,LandNight,,LUNATONE,CaveNight,
+CallRateSOS = 9
 #-------------------------------
 [BARBOACH]
 Name = Barboach
@@ -8961,6 +9255,8 @@ Category = Whiskers
 Pokedex = Its body is covered with a slimy film. The film acts as a barrier to prevent germs in muddy water from entering the Barboach's body.
 Generation = 3
 Evolutions = WHISCASH,Level,30
+SpeciesSOS = BARBOACH,WHISCASH
+CallRateSOS = 9
 #-------------------------------
 [WHISCASH]
 Name = Whiscash
@@ -8986,6 +9282,7 @@ Habitat = WatersEdge
 Category = Whiskers
 Pokedex = Mysteriously, it can foretell earthquakes. In the daytime, it sleeps in mud at the bottom of a pond. When it awakens, it continually feeds throughout the night.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [CORPHISH]
 Name = Corphish
@@ -9013,6 +9310,8 @@ Category = Ruffian
 Pokedex = Once it grips prey with its large pincers, it will never let go, no matter what. It is a hardy Pokémon that can thrive in any environment.
 Generation = 3
 Evolutions = CRAWDAUNT,Level,30
+SpeciesSOS = CORPHISH,CRAWDAUNT
+CallRateSOS = 9
 #-------------------------------
 [CRAWDAUNT]
 Name = Crawdaunt
@@ -9038,6 +9337,7 @@ Habitat = WatersEdge
 Category = Rogue
 Pokedex = A brutish Pokémon that loves to battle. A veteran Crawdaunt that has prevailed in hundreds of battles has giant pincers marked with countless scars.
 Generation = 3
+CallRateSOS = 6
 #-------------------------------
 [BALTOY]
 Name = Baltoy
@@ -9064,6 +9364,7 @@ Pokedex = A Baltoy moves by spinning on its single foot. It has been depicted in
 Generation = 3
 WildItemUncommon = LIGHTCLAY
 Evolutions = CLAYDOL,Level,36
+CallRateSOS = 15
 #-------------------------------
 [CLAYDOL]
 Name = Claydol
@@ -9089,6 +9390,7 @@ Category = Clay Doll
 Pokedex = A Claydol sleeps while hovering in midair. Its arms are separate from its body. They are kept floating by the Pokémon's manipulation of psychic power.
 Generation = 3
 WildItemUncommon = LIGHTCLAY
+CallRateSOS = 15
 #-------------------------------
 [LILEEP]
 Name = Lileep
@@ -9222,6 +9524,7 @@ Category = Fish
 Pokedex = Feebas live in ponds that are heavily infested with weeds. Because of its hopelessly shabby appearance, it seems as if few trainers raise it.
 Generation = 3
 Evolutions = MILOTIC,TradeItem,PRISMSCALE,MILOTIC,Beauty,170
+CallRateSOS = 9
 #-------------------------------
 [MILOTIC]
 Name = Milotic
@@ -9302,6 +9605,7 @@ Habitat = Forest
 Category = Color Swap
 Pokedex = A Pokémon that has the ability to alter its body colors to match its surroundings. A Kecleon reverts to its original colors if it is startled.
 Generation = 3
+CallRateSOS = 9
 #-------------------------------
 [SHUPPET]
 Name = Shuppet
@@ -9330,6 +9634,7 @@ Pokedex = This Pokémon roams about deep in the night seeking such negative emot
 Generation = 3
 WildItemUncommon = SPELLTAG
 Evolutions = BANETTE,Level,37
+CallRateSOS = 9
 #-------------------------------
 [BANETTE]
 Name = Banette
@@ -9356,6 +9661,7 @@ Category = Marionette
 Pokedex = An abandoned plush doll became this Pokémon. They are said to live in garbage dumps and wander about in search of the children that threw them away.
 Generation = 3
 WildItemUncommon = SPELLTAG
+CallRateSOS = 6
 #-------------------------------
 [DUSKULL]
 Name = Duskull
@@ -9384,6 +9690,7 @@ Pokedex = A glare from its single scarlet eye makes even burly grown-ups freeze 
 Generation = 3
 WildItemUncommon = SPELLTAG
 Evolutions = DUSCLOPS,Level,37
+CallRateSOS = 9
 #-------------------------------
 [DUSCLOPS]
 Name = Dusclops
@@ -9411,6 +9718,7 @@ Pokedex = It is thought that its body is hollow with only a spectral ball of fir
 Generation = 3
 WildItemUncommon = SPELLTAG
 Evolutions = DUSKNOIR,TradeItem,REAPERCLOTH
+CallRateSOS = 6
 #-------------------------------
 [TROPIUS]
 Name = Tropius
@@ -9437,6 +9745,7 @@ Habitat = Forest
 Category = Fruit
 Pokedex = It flies by flapping its broad leaves. The bunch of fruit that grows around its neck is deliciously sweet. In the spring, it scatters pollen from its neck.
 Generation = 3
+CallRateSOS = 3
 #-------------------------------
 [CHIMECHO]
 Name = Chimecho
@@ -9463,6 +9772,7 @@ Category = Wind Chime
 Pokedex = They fly about very actively when the hot season arrives. They communicate among themselves using seven different and distinguishing cries.
 Generation = 3
 WildItemUncommon = CLEANSETAG
+CallRateSOS = 6
 #-------------------------------
 [ABSOL]
 Name = Absol
@@ -9489,6 +9799,7 @@ Habitat = Mountain
 Category = Disaster
 Pokedex = It sharply senses even subtle changes in the sky and the land to predict natural disasters. It is a long-lived Pokémon that has a life-span of 100 years.
 Generation = 3
+CallRateSOS = 3
 #-------------------------------
 [WYNAUT]
 Name = Wynaut
@@ -9544,6 +9855,7 @@ Pokedex = They tend to move about in groups of around five Snorunt. In snowy reg
 Generation = 3
 WildItemUncommon = SNOWBALL
 Evolutions = GLALIE,Level,42,FROSLASS,ItemFemale,DAWNSTONE
+CallRateSOS = 9
 #-------------------------------
 [GLALIE]
 Name = Glalie
@@ -9569,6 +9881,7 @@ Habitat = Cave
 Category = Face
 Pokedex = A Glalie has the power to instantaneously freeze moisture in the atmosphere. A dazzling cloud of diamondlike ice crystals forms around its body.
 Generation = 3
+CallRateSOS = 3
 #-------------------------------
 [SPHEAL]
 Name = Spheal
@@ -9596,6 +9909,7 @@ Category = Clap
 Pokedex = It is completely covered with plushy fur. As a result, it never feels the cold even when it is rolling about on ice floes or diving in the sea.
 Generation = 3
 Evolutions = SEALEO,Level,32
+CallRateSOS = 9
 #-------------------------------
 [SEALEO]
 Name = Sealeo
@@ -9622,6 +9936,7 @@ Category = Ball Roll
 Pokedex = Sealeo live in herds on ice floes. Using its powerful flippers, it shatters ice. It dives into the sea to hunt prey five times a day.
 Generation = 3
 Evolutions = WALREIN,Level,44
+CallRateSOS = 6
 #-------------------------------
 [WALREIN]
 Name = Walrein
@@ -9676,6 +9991,8 @@ Generation = 3
 WildItemCommon = PEARL
 WildItemUncommon = BIGPEARL
 Evolutions = HUNTAIL,TradeItem,DEEPSEATOOTH,GOREBYSS,TradeItem,DEEPSEASCALE
+ConditionalSOS = HUNTAIL,WaterNight,,GOREBYSS,WaterDay,
+CallRateSOS = 15
 #-------------------------------
 [HUNTAIL]
 Name = Huntail
@@ -9755,6 +10072,7 @@ Category = Longevity
 Pokedex = A Pokémon that was once believed to be extinct. The species has not changed its form for 100 million years. It walks on the seafloor using its pectoral fins.
 Generation = 3
 WildItemUncommon = DEEPSEASCALE
+CallRateSOS = 3
 #-------------------------------
 [LUVDISC]
 Name = Luvdisc
@@ -9782,6 +10100,7 @@ Category = Rendezvous
 Pokedex = Luvdisc make the branches of Corsola their nests. There is a custom from long ago of giving a Luvdisc as a gift to express one's feelings of love.
 Generation = 3
 WildItemCommon = HEARTSCALE
+CallRateSOS = 6
 #-------------------------------
 [BAGON]
 Name = Bagon
@@ -9810,6 +10129,7 @@ Pokedex = Although it is small, this Pokémon is very powerful because its body 
 Generation = 3
 WildItemUncommon = DRAGONFANG
 Evolutions = SHELGON,Level,30
+CallRateSOS = 9
 #-------------------------------
 [SHELGON]
 Name = Shelgon
@@ -9837,6 +10157,7 @@ Pokedex = It hardly eats while it awaits evolution. It becomes hardier by enduri
 Generation = 3
 WildItemUncommon = DRAGONFANG
 Evolutions = SALAMENCE,Level,50
+CallRateSOS = 6
 #-------------------------------
 [SALAMENCE]
 Name = Salamence
@@ -9890,6 +10211,7 @@ Pokedex = When Beldum gather in a swarm, they move in perfect unison as if they 
 Generation = 3
 WildItemUncommon = METALCOAT
 Evolutions = METANG,Level,20
+CallRateSOS = 9
 #-------------------------------
 [METANG]
 Name = Metang
@@ -9917,6 +10239,7 @@ Pokedex = The claws tipping its arms pack the destructive power to tear through 
 Generation = 3
 WildItemUncommon = METALCOAT
 Evolutions = METAGROSS,Level,45
+CallRateSOS = 6
 #-------------------------------
 [METAGROSS]
 Name = Metagross
@@ -10451,6 +10774,7 @@ Category = Starling
 Pokedex = They flock in great numbers. Though small, they flap their wings with great power.
 Generation = 4
 Evolutions = STARAVIA,Level,14
+CallRateSOS = 9
 #-------------------------------
 [STARAVIA]
 Name = Staravia
@@ -10476,6 +10800,7 @@ Category = Starling
 Pokedex = It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.
 Generation = 4
 Evolutions = STARAPTOR,Level,34
+CallRateSOS = 6
 #-------------------------------
 [STARAPTOR]
 Name = Staraptor
@@ -10526,6 +10851,7 @@ Category = Plump Mouse
 Pokedex = With nerves of steel, nothing can perturb it. It is more agile and active than it appears.
 Generation = 4
 Evolutions = BIBAREL,Level,15
+CallRateSOS = 9
 #-------------------------------
 [BIBAREL]
 Name = Bibarel
@@ -10550,6 +10876,7 @@ Shape = BipedalTail
 Category = Beaver
 Pokedex = It makes its nest by damming streams with bark and mud. It is known as an industrious worker.
 Generation = 4
+CallRateSOS = 6
 #-------------------------------
 [KRICKETOT]
 Name = Kricketot
@@ -10576,6 +10903,7 @@ Pokedex = It shakes its head back to front, causing its antennae to hit each oth
 Generation = 4
 WildItemUncommon = METRONOME
 Evolutions = KRICKETUNE,Level,10
+CallRateSOS = 15
 #-------------------------------
 [KRICKETUNE]
 Name = Kricketune
@@ -10601,6 +10929,7 @@ Category = Cricket
 Pokedex = It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.
 Generation = 4
 WildItemUncommon = METRONOME
+CallRateSOS = 9
 #-------------------------------
 [SHINX]
 Name = Shinx
@@ -10627,6 +10956,7 @@ Category = Flash
 Pokedex = All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.
 Generation = 4
 Evolutions = LUXIO,Level,15
+CallRateSOS = 9
 #-------------------------------
 [LUXIO]
 Name = Luxio
@@ -10652,6 +10982,7 @@ Category = Spark
 Pokedex = Its claws loose electricity with enough amperage to cause fainting. They live in small groups.
 Generation = 4
 Evolutions = LUXRAY,Level,30
+CallRateSOS = 6
 #-------------------------------
 [LUXRAY]
 Name = Luxray
@@ -10704,6 +11035,8 @@ Pokedex = Over the winter, it closes its bud and endures the cold. In spring, th
 Generation = 4
 WildItemUncommon = POISONBARB
 Evolutions = ROSELIA,HappinessDay,
+SpeciesSOS = BUDEW,ROSELIA,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [ROSERADE]
 Name = Roserade
@@ -10856,6 +11189,8 @@ Pokedex = To shelter itself from cold, wintry winds, it covers itself with a clo
 Generation = 4
 Flags = InheritFormFromMother
 Evolutions = WORMADAM,LevelFemale,20,MOTHIM,LevelMale,20
+SpeciesSOS = BURMY,WORMADAM,MOTHIM
+CallRateSOS = 15
 #-------------------------------
 [WORMADAM]
 Name = Wormadam
@@ -10935,6 +11270,7 @@ Pokedex = A Pokémon formed by three others. It busily carries sweet floral hone
 Generation = 4
 WildItemUncommon = HONEY
 Evolutions = VESPIQUEN,LevelFemale,21
+CallRateSOS = 15
 #-------------------------------
 [VESPIQUEN]
 Name = Vespiquen
@@ -10960,6 +11296,8 @@ Category = Beehive
 Pokedex = Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.
 Generation = 4
 WildItemUncommon = POISONBARB
+SpeciesSOS = COMBEE
+CallRateSOS = 15
 #-------------------------------
 [PACHIRISU]
 Name = Pachirisu
@@ -10985,6 +11323,7 @@ Shape = Quadruped
 Category = EleSquirrel
 Pokedex = It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.
 Generation = 4
+CallRateSOS = 9
 #-------------------------------
 [BUIZEL]
 Name = Buizel
@@ -11011,6 +11350,7 @@ Category = Sea Weasel
 Pokedex = It has a flotation sac that is like an inflatable collar. It floats on water with its head out.
 Generation = 4
 Evolutions = FLOATZEL,Level,26
+CallRateSOS = 9
 #-------------------------------
 [FLOATZEL]
 Name = Floatzel
@@ -11035,6 +11375,7 @@ Shape = Quadruped
 Category = Sea Weasel
 Pokedex = It floats using its well-developed flotation sac. It assists in the rescues of drowning people.
 Generation = 4
+CallRateSOS = 6
 #-------------------------------
 [CHERUBI]
 Name = Cherubi
@@ -11061,6 +11402,7 @@ Pokedex = The small ball holds the nutrients needed for evolution. Apparently, i
 Generation = 4
 WildItemUncommon = MIRACLESEED
 Evolutions = CHERRIM,Level,25
+CallRateSOS = 9
 #-------------------------------
 [CHERRIM]
 Name = Cherrim
@@ -11086,6 +11428,7 @@ Category = Blossom
 Pokedex = Its folded petals are pretty tough. Bird Pokémon can peck at them all they want, and Cherrim won't be bothered at all.
 Generation = 4
 WildItemUncommon = MIRACLESEED
+CallRateSOS = 6
 #-------------------------------
 [SHELLOS]
 Name = Shellos
@@ -11114,6 +11457,7 @@ Pokedex = This Pokémon's habitat shapes its physique. According to some theorie
 Generation = 4
 Flags = InheritFormFromMother
 Evolutions = GASTRODON,Level,30
+CallRateSOS = 9
 #-------------------------------
 [GASTRODON]
 Name = Gastrodon
@@ -11140,6 +11484,7 @@ Category = Sea Slug
 Pokedex = Its search for food sometimes leads it onto land, where it leaves behind a sticky trail of slime as it passes through.
 Generation = 4
 Flags = InheritFormFromMother
+CallRateSOS = 6
 #-------------------------------
 [AMBIPOM]
 Name = Ambipom
@@ -11190,6 +11535,7 @@ Category = Balloon
 Pokedex = A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.
 Generation = 4
 Evolutions = DRIFBLIM,Level,28
+CallRateSOS = 9
 #-------------------------------
 [DRIFBLIM]
 Name = Drifblim
@@ -11214,6 +11560,7 @@ Shape = HeadArms
 Category = Blimp
 Pokedex = It's drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.
 Generation = 4
+CallRateSOS = 6
 #-------------------------------
 [BUNEARY]
 Name = Buneary
@@ -11240,6 +11587,8 @@ Category = Rabbit
 Pokedex = It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.
 Generation = 4
 Evolutions = LOPUNNY,Happiness,
+ConditionalSOS = LOPUNNY,LandDay,
+CallRateSOS = 9
 #-------------------------------
 [LOPUNNY]
 Name = Lopunny
@@ -11264,6 +11613,7 @@ Shape = BipedalTail
 Category = Rabbit
 Pokedex = An extremely cautious Pokémon. It cloaks its body with its fluffy ear fur when it senses danger.
 Generation = 4
+CallRateSOS = 6
 #-------------------------------
 [MISMAGIUS]
 Name = Mismagius
@@ -11311,6 +11661,8 @@ Shape = Winged
 Category = Big Boss
 Pokedex = Becoming active at night, it is known to swarm with numerous Murkrow in tow.
 Generation = 4
+SpeciesSOS = MURKROW
+CallRateSOS = 15
 #-------------------------------
 [GLAMEOW]
 Name = Glameow
@@ -11337,6 +11689,7 @@ Category = Catty
 Pokedex = It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.
 Generation = 4
 Evolutions = PURUGLY,Level,38
+CallRateSOS = 9
 #-------------------------------
 [PURUGLY]
 Name = Purugly
@@ -11361,6 +11714,7 @@ Shape = Quadruped
 Category = Tiger Cat
 Pokedex = It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.
 Generation = 4
+CallRateSOS = 6
 #-------------------------------
 [CHINGLING]
 Name = Chingling
@@ -11388,6 +11742,8 @@ Pokedex = It emits cries by agitating an orb at the back of its throat. It moves
 Generation = 4
 WildItemUncommon = CLEANSETAG
 Evolutions = CHIMECHO,HappinessNight,
+SpeciesSOS = CHINGLING,CHIMECHO,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [STUNKY]
 Name = Stunky
@@ -11414,6 +11770,7 @@ Category = Skunk
 Pokedex = It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.
 Generation = 4
 Evolutions = SKUNTANK,Level,34
+CallRateSOS = 9
 #-------------------------------
 [SKUNTANK]
 Name = Skuntank
@@ -11438,6 +11795,7 @@ Shape = Quadruped
 Category = Skunk
 Pokedex = It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.
 Generation = 4
+CallRateSOS = 6
 #-------------------------------
 [BRONZOR]
 Name = Bronzor
@@ -11464,6 +11822,7 @@ Pokedex = Implements shaped like it were discovered in ancient tombs. It is unkn
 Generation = 4
 WildItemUncommon = METALCOAT
 Evolutions = BRONZONG,Level,33
+CallRateSOS = 9
 #-------------------------------
 [BRONZONG]
 Name = Bronzong
@@ -11489,6 +11848,7 @@ Category = Bronze Bell
 Pokedex = One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.
 Generation = 4
 WildItemUncommon = METALCOAT
+CallRateSOS = 6
 #-------------------------------
 [BONSLY]
 Name = Bonsly
@@ -11516,6 +11876,8 @@ Category = Bonsai
 Pokedex = It looks as if it is always crying. It is actually adjusting its body's fluid levels by eliminating excess.
 Generation = 4
 Evolutions = SUDOWOODO,HasMove,MIMIC
+SpeciesSOS = BONSLY,SUDOWOODO,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [MIMEJR]
 Name = Mime Jr.
@@ -11543,6 +11905,8 @@ Category = Mime
 Pokedex = It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.
 Generation = 4
 Evolutions = MRMIME,HasMove,MIMIC
+SpeciesSOS = MIMEJR,MRMIME,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [HAPPINY]
 Name = Happiny
@@ -11597,6 +11961,7 @@ Category = Music Note
 Pokedex = It can learn and speak human words. If they gather, they all learn the same saying.
 Generation = 4
 WildItemUncommon = METRONOME
+CallRateSOS = 9
 #-------------------------------
 [SPIRITOMB]
 Name = Spiritomb
@@ -11648,6 +12013,7 @@ Category = Land Shark
 Pokedex = It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.
 Generation = 4
 Evolutions = GABITE,Level,24
+CallRateSOS = 9
 #-------------------------------
 [GABITE]
 Name = Gabite
@@ -11727,6 +12093,8 @@ WildItemCommon = LEFTOVERS
 WildItemUncommon = LEFTOVERS
 WildItemRare = LEFTOVERS
 Evolutions = SNORLAX,Happiness,
+SpeciesSOS = MUNCHLAX,SNORLAX,HAPPINY
+CallRateSOS = 6
 #-------------------------------
 [RIOLU]
 Name = Riolu
@@ -11753,6 +12121,8 @@ Category = Emanation
 Pokedex = The aura that emanates from its body intensifies to alert others if it is afraid or sad.
 Generation = 4
 Evolutions = LUCARIO,HappinessDay,
+SpeciesSOS = RIOLU,LUCARIO,HAPPINY
+CallRateSOS = 15
 #-------------------------------
 [LUCARIO]
 Name = Lucario
@@ -11803,6 +12173,7 @@ Category = Hippo
 Pokedex = It lives in arid places. Instead of perspiration, it expels grainy sand from its body.
 Generation = 4
 Evolutions = HIPPOWDON,Level,34
+CallRateSOS = 9
 #-------------------------------
 [HIPPOWDON]
 Name = Hippowdon
@@ -11827,6 +12198,7 @@ Shape = Quadruped
 Category = Heavyweight
 Pokedex = It blasts internally stored sand from ports on its body to create a towering twister for attack.
 Generation = 4
+CallRateSOS = 6
 #-------------------------------
 [SKORUPI]
 Name = Skorupi
@@ -11854,6 +12226,7 @@ Pokedex = It grips prey with its tail claws and injects poison. It tenaciously h
 Generation = 4
 WildItemUncommon = POISONBARB
 Evolutions = DRAPION,Level,40
+CallRateSOS = 9
 #-------------------------------
 [DRAPION]
 Name = Drapion
@@ -11879,6 +12252,7 @@ Category = Ogre Scorpion
 Pokedex = It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.
 Generation = 4
 WildItemUncommon = POISONBARB
+CallRateSOS = 6
 #-------------------------------
 [CROAGUNK]
 Name = Croagunk
@@ -11906,6 +12280,7 @@ Pokedex = Its cheeks hold poison sacs. It tries to catch foes off guard to jab t
 Generation = 4
 WildItemUncommon = BLACKSLUDGE
 Evolutions = TOXICROAK,Level,37
+CallRateSOS = 9
 #-------------------------------
 [TOXICROAK]
 Name = Toxicroak
@@ -11931,6 +12306,7 @@ Category = Toxic Mouth
 Pokedex = Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.
 Generation = 4
 WildItemUncommon = BLACKSLUDGE
+CallRateSOS = 6
 #-------------------------------
 [CARNIVINE]
 Name = Carnivine
@@ -11955,6 +12331,7 @@ Shape = Multiped
 Category = Bug Catcher
 Pokedex = It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.
 Generation = 4
+CallRateSOS = 9
 #-------------------------------
 [FINNEON]
 Name = Finneon
@@ -11981,6 +12358,8 @@ Category = Wing Fish
 Pokedex = After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.
 Generation = 4
 Evolutions = LUMINEON,Level,31
+SpeciesSOS = FINNEON,LUMINEON
+CallRateSOS = 9
 #-------------------------------
 [LUMINEON]
 Name = Lumineon
@@ -12005,6 +12384,7 @@ Shape = Finned
 Category = Neon
 Pokedex = It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.
 Generation = 4
+CallRateSOS = 6
 #-------------------------------
 [MANTYKE]
 Name = Mantyke
@@ -12032,6 +12412,8 @@ Category = Kite
 Pokedex = A friendly Pokémon that captures the subtle flows of seawater using its two antennae.
 Generation = 4
 Evolutions = MANTINE,HasInParty,REMORAID
+SpeciesSOS = MANTYKE,REMORAID
+CallRateSOS = 15
 #-------------------------------
 [SNOVER]
 Name = Snover
@@ -12059,6 +12441,7 @@ Pokedex = It lives on snowy mountains. Having had little contact with humans, it
 Generation = 4
 WildItemUncommon = NEVERMELTICE
 Evolutions = ABOMASNOW,Level,40
+CallRateSOS = 9
 #-------------------------------
 [ABOMASNOW]
 Name = Abomasnow
@@ -12084,6 +12467,7 @@ Category = Frost Tree
 Pokedex = It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.
 Generation = 4
 WildItemUncommon = NEVERMELTICE
+CallRateSOS = 6
 #-------------------------------
 [WEAVILE]
 Name = Weavile
@@ -13170,6 +13554,7 @@ Category = Scout
 Pokedex = Extremely cautious, they take shifts to maintain a constant watch of their nest. They feel insecure without a lookout.
 Generation = 5
 Evolutions = WATCHOG,Level,20
+CallRateSOS = 9
 #-------------------------------
 [WATCHOG]
 Name = Watchog
@@ -13194,6 +13579,7 @@ Shape = BipedalTail
 Category = Lookout
 Pokedex = They make the patterns on their bodies shine in order to threaten predators. Keen eyesight lets them see in the dark.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [LILLIPUP]
 Name = Lillipup
@@ -13220,6 +13606,7 @@ Category = Puppy
 Pokedex = The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.
 Generation = 5
 Evolutions = HERDIER,Level,16
+CallRateSOS = 9
 #-------------------------------
 [HERDIER]
 Name = Herdier
@@ -13245,6 +13632,7 @@ Category = Loyal Dog
 Pokedex = It loyally follows its Trainer's orders. For ages, they have helped Trainers raise Pokémon.
 Generation = 5
 Evolutions = STOUTLAND,Level,32
+CallRateSOS = 6
 #-------------------------------
 [STOUTLAND]
 Name = Stoutland
@@ -13295,6 +13683,7 @@ Category = Devious
 Pokedex = Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws.
 Generation = 5
 Evolutions = LIEPARD,Level,20
+CallRateSOS = 9
 #-------------------------------
 [LIEPARD]
 Name = Liepard
@@ -13319,6 +13708,7 @@ Shape = Quadruped
 Category = Cruel
 Pokedex = Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [PANSAGE]
 Name = Pansage
@@ -13345,6 +13735,8 @@ Category = Grass Monkey
 Pokedex = It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.
 Generation = 5
 Evolutions = SIMISAGE,Item,LEAFSTONE
+SpeciesSOS = PANSAGE,PANSEAR,PANPOUR
+CallRateSOS = 9
 #-------------------------------
 [SIMISAGE]
 Name = Simisage
@@ -13369,6 +13761,8 @@ Shape = BipedalTail
 Category = Thorn Monkey
 Pokedex = Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.
 Generation = 5
+SpeciesSOS = SIMISAGE,SIMISEAR,SIMIPOUR
+CallRateSOS = 6
 #-------------------------------
 [PANSEAR]
 Name = Pansear
@@ -13395,6 +13789,8 @@ Category = High Temp
 Pokedex = This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600º F.
 Generation = 5
 Evolutions = SIMISEAR,Item,FIRESTONE
+SpeciesSOS = PANSEAR,PANSAGE,PANPOUR
+CallRateSOS = 9
 #-------------------------------
 [SIMISEAR]
 Name = Simisear
@@ -13419,6 +13815,8 @@ Shape = BipedalTail
 Category = Ember
 Pokedex = A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.
 Generation = 5
+SpeciesSOS = SIMISEAR,SIMISAGE,SIMIPOUR
+CallRateSOS = 6
 #-------------------------------
 [PANPOUR]
 Name = Panpour
@@ -13445,6 +13843,8 @@ Category = Spray
 Pokedex = It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.
 Generation = 5
 Evolutions = SIMIPOUR,Item,WATERSTONE
+SpeciesSOS = PANPOUR,PANSAGE,PANSEAR
+CallRateSOS = 9
 #-------------------------------
 [SIMIPOUR]
 Name = Simipour
@@ -13469,6 +13869,8 @@ Shape = BipedalTail
 Category = Geyser
 Pokedex = The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.
 Generation = 5
+SpeciesSOS = SIMIPOUR,SIMISAGE,SIMISEAR
+CallRateSOS = 6
 #-------------------------------
 [MUNNA]
 Name = Munna
@@ -13495,6 +13897,7 @@ Category = Dream Eater
 Pokedex = It eats the dreams of people and Pokémon. When it eats a pleasant dreams, it expels pink-colored mist.
 Generation = 5
 Evolutions = MUSHARNA,Item,MOONSTONE
+CallRateSOS = 9
 #-------------------------------
 [MUSHARNA]
 Name = Musharna
@@ -13545,6 +13948,7 @@ Category = Tiny Pigeon
 Pokedex = These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.
 Generation = 5
 Evolutions = TRANQUILL,Level,21
+CallRateSOS = 9
 #-------------------------------
 [TRANQUILL]
 Name = Tranquill
@@ -13570,6 +13974,7 @@ Category = Wild Pigeon
 Pokedex = Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war.
 Generation = 5
 Evolutions = UNFEZANT,Level,32
+CallRateSOS = 6
 #-------------------------------
 [UNFEZANT]
 Name = Unfezant
@@ -13620,6 +14025,7 @@ Category = Electrified
 Pokedex = When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.
 Generation = 5
 Evolutions = ZEBSTRIKA,Level,27
+CallRateSOS = 9
 #-------------------------------
 [ZEBSTRIKA]
 Name = Zebstrika
@@ -13644,6 +14050,7 @@ Shape = Quadruped
 Category = Thunderbolt
 Pokedex = This ill-tempered Pokémon is dangerous because when it's angry, it shoots lightning from its mane in all directions.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [ROGGENROLA]
 Name = Roggenrola
@@ -13672,6 +14079,7 @@ Generation = 5
 WildItemCommon = EVERSTONE
 WildItemUncommon = HARDSTONE
 Evolutions = BOLDORE,Level,25
+CallRateSOS = 9
 #-------------------------------
 [BOLDORE]
 Name = Boldore
@@ -13699,6 +14107,7 @@ Generation = 5
 WildItemCommon = EVERSTONE
 WildItemUncommon = HARDSTONE
 Evolutions = GIGALITH,Trade,
+CallRateSOS = 6
 #-------------------------------
 [GIGALITH]
 Name = Gigalith
@@ -13751,6 +14160,7 @@ Category = Bat
 Pokedex = Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind.
 Generation = 5
 Evolutions = SWOOBAT,Happiness,
+CallRateSOS = 9
 #-------------------------------
 [SWOOBAT]
 Name = Swoobat
@@ -13775,6 +14185,7 @@ Shape = Winged
 Category = Courting
 Pokedex = Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [DRILBUR]
 Name = Drilbur
@@ -13801,6 +14212,7 @@ Category = Mole
 Pokedex = It makes its way swiftly through the soil by putting both claws together and rotating at high speed.
 Generation = 5
 Evolutions = EXCADRILL,Level,31
+CallRateSOS = 9
 #-------------------------------
 [EXCADRILL]
 Name = Excadrill
@@ -13825,6 +14237,7 @@ Shape = Bipedal
 Category = Subterrene
 Pokedex = More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [AUDINO]
 Name = Audino
@@ -13878,6 +14291,7 @@ Category = Muscular
 Pokedex = These Pokémon appear at building sites and help out with construction. They always carry squared logs.
 Generation = 5
 Evolutions = GURDURR,Level,25
+CallRateSOS = 9
 #-------------------------------
 [GURDURR]
 Name = Gurdurr
@@ -13903,6 +14317,7 @@ Category = Muscular
 Pokedex = They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.
 Generation = 5
 Evolutions = CONKELDURR,Trade,
+CallRateSOS = 6
 #-------------------------------
 [CONKELDURR]
 Name = Conkeldurr
@@ -13953,6 +14368,7 @@ Category = Tadpole
 Pokedex = By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.
 Generation = 5
 Evolutions = PALPITOAD,Level,25
+CallRateSOS = 9
 #-------------------------------
 [PALPITOAD]
 Name = Palpitoad
@@ -13978,6 +14394,7 @@ Category = Vibration
 Pokedex = It lives in the water and on land. It uses its long, sticky tongue to capture prey.
 Generation = 5
 Evolutions = SEISMITOAD,Level,36
+CallRateSOS = 6
 #-------------------------------
 [SEISMITOAD]
 Name = Seismitoad
@@ -14027,6 +14444,8 @@ Category = Judo
 Pokedex = When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five.
 Generation = 5
 WildItemUncommon = BLACKBELT
+SpeciesSOS = THROH,SAWK
+CallRateSOS = 6
 #-------------------------------
 [SAWK]
 Name = Sawk
@@ -14052,6 +14471,8 @@ Category = Karate
 Pokedex = Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.
 Generation = 5
 WildItemUncommon = BLACKBELT
+SpeciesSOS = SAWK,THROH
+CallRateSOS = 6
 #-------------------------------
 [SEWADDLE]
 Name = Sewaddle
@@ -14079,6 +14500,7 @@ Pokedex = This Pokémon makes clothes for itself. It chews up leaves and sews th
 Generation = 5
 WildItemUncommon = MENTALHERB
 Evolutions = SWADLOON,Level,20
+CallRateSOS = 9
 #-------------------------------
 [SWADLOON]
 Name = Swadloon
@@ -14105,6 +14527,7 @@ Pokedex = It protects itself from the cold by wrapping up in leaves. It stays on
 Generation = 5
 WildItemUncommon = MENTALHERB
 Evolutions = LEAVANNY,Happiness,
+CallRateSOS = 6
 #-------------------------------
 [LEAVANNY]
 Name = Leavanny
@@ -14157,6 +14580,7 @@ Pokedex = It discovers what is going on around it by using the feelers on its he
 Generation = 5
 WildItemUncommon = POISONBARB
 Evolutions = WHIRLIPEDE,Level,22
+CallRateSOS = 9
 #-------------------------------
 [WHIRLIPEDE]
 Name = Whirlipede
@@ -14183,6 +14607,7 @@ Pokedex = It is usually motionless, but when attacked, it rotates at high speed 
 Generation = 5
 WildItemUncommon = POISONBARB
 Evolutions = SCOLIPEDE,Level,30
+CallRateSOS = 6
 #-------------------------------
 [SCOLIPEDE]
 Name = Scolipede
@@ -14235,6 +14660,7 @@ Pokedex = They go wherever the wind takes them. On rainy days, their bodies are 
 Generation = 5
 WildItemUncommon = ABSORBBULB
 Evolutions = WHIMSICOTT,Item,SUNSTONE
+CallRateSOS = 9
 #-------------------------------
 [WHIMSICOTT]
 Name = Whimsicott
@@ -14287,6 +14713,7 @@ Pokedex = Since they prefer moist, nutrient-rich soil, the areas where Petilil l
 Generation = 5
 WildItemUncommon = ABSORBBULB
 Evolutions = LILLIGANT,Item,SUNSTONE
+CallRateSOS = 9
 #-------------------------------
 [LILLIGANT]
 Name = Lilligant
@@ -14340,6 +14767,7 @@ Pokedex = Savage, violent Pokémon, red and blue Basculin are always fighting ea
 Generation = 5
 Flags = InheritFormFromMother
 WildItemUncommon = DEEPSEATOOTH
+CallRateSOS = 9
 #-------------------------------
 [SANDILE]
 Name = Sandile
@@ -14367,6 +14795,7 @@ Pokedex = It moves along below the sand's surface, except for its nose and eyes.
 Generation = 5
 WildItemUncommon = BLACKGLASSES
 Evolutions = KROKOROK,Level,29
+CallRateSOS = 9
 #-------------------------------
 [KROKOROK]
 Name = Krokorok
@@ -14393,6 +14822,7 @@ Pokedex = The special membrane covering its eyes can sense the heat of objects, 
 Generation = 5
 WildItemUncommon = BLACKGLASSES
 Evolutions = KROOKODILE,Level,40
+CallRateSOS = 6
 #-------------------------------
 [KROOKODILE]
 Name = Krookodile
@@ -14444,6 +14874,7 @@ Category = Zen Charm
 Pokedex = Darumaka's droppings are hot, so people used to put them in their clothes to keep themselves warm.
 Generation = 5
 Evolutions = DARMANITAN,Level,35
+CallRateSOS = 9
 #-------------------------------
 [DARMANITAN]
 Name = Darmanitan
@@ -14469,6 +14900,7 @@ Shape = Quadruped
 Category = Blazing
 Pokedex = When weakened in battle, it transforms into a stone statue. Then it sharpens its mind and fights on mentally.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [MARACTUS]
 Name = Maractus
@@ -14495,6 +14927,7 @@ Category = Cactus
 Pokedex = Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.
 Generation = 5
 WildItemUncommon = MIRACLESEED
+CallRateSOS = 9
 #-------------------------------
 [DWEBBLE]
 Name = Dwebble
@@ -14522,6 +14955,7 @@ Pokedex = It makes a hole in a suitable rock. If that rock breaks, the Pokémon 
 Generation = 5
 WildItemUncommon = HARDSTONE
 Evolutions = CRUSTLE,Level,34
+CallRateSOS = 9
 #-------------------------------
 [CRUSTLE]
 Name = Crustle
@@ -14547,6 +14981,7 @@ Category = Stone Home
 Pokedex = It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.
 Generation = 5
 WildItemUncommon = HARDSTONE
+CallRateSOS = 6
 #-------------------------------
 [SCRAGGY]
 Name = Scraggy
@@ -14574,6 +15009,7 @@ Pokedex = It immediately headbutts anyone that makes eye contact with it. Its sk
 Generation = 5
 WildItemUncommon = SHEDSHELL
 Evolutions = SCRAFTY,Level,39
+CallRateSOS = 9
 #-------------------------------
 [SCRAFTY]
 Name = Scrafty
@@ -14599,6 +15035,7 @@ Category = Hoodlum
 Pokedex = It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader.
 Generation = 5
 WildItemUncommon = SHEDSHELL
+CallRateSOS = 6
 #-------------------------------
 [SIGILYPH]
 Name = Sigilyph
@@ -14650,6 +15087,7 @@ Pokedex = These Pokémon arose from the spirits of people interred in graves in 
 Generation = 5
 WildItemUncommon = SPELLTAG
 Evolutions = COFAGRIGUS,Level,34,RUNERIGUS,None,
+CallRateSOS = 9
 #-------------------------------
 [COFAGRIGUS]
 Name = Cofagrigus
@@ -14674,6 +15112,7 @@ Category = Coffin
 Pokedex = They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold.
 Generation = 5
 WildItemUncommon = SPELLTAG
+CallRateSOS = 6
 #-------------------------------
 [TIRTOUGA]
 Name = Tirtouga
@@ -14799,6 +15238,8 @@ Pokedex = The combination of garbage bags and industrial waste caused the chemic
 Generation = 5
 WildItemUncommon = SILKSCARF
 Evolutions = GARBODOR,Level,36
+SpeciesSOS = TRUBBISH,GARBODOR
+CallRateSOS = 9
 #-------------------------------
 [GARBODOR]
 Name = Garbodor
@@ -14825,6 +15266,7 @@ Pokedex = They absorb garbage and make it part of their bodies. They shoot a poi
 Generation = 5
 WildItemCommon = SILKSCARF
 WildItemUncommon = BLACKSLUDGE
+CallRateSOS = 6
 #-------------------------------
 [ZORUA]
 Name = Zorua
@@ -14850,6 +15292,7 @@ Category = Tricky Fox
 Pokedex = To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.
 Generation = 5
 Evolutions = ZOROARK,Level,30
+CallRateSOS = 9
 #-------------------------------
 [ZOROARK]
 Name = Zoroark
@@ -14873,6 +15316,7 @@ Shape = BipedalTail
 Category = Illusion Fox
 Pokedex = Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [MINCCINO]
 Name = Minccino
@@ -14899,6 +15343,7 @@ Category = Chinchilla
 Pokedex = These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.
 Generation = 5
 Evolutions = CINCCINO,Item,SHINYSTONE
+CallRateSOS = 9
 #-------------------------------
 [CINCCINO]
 Name = Cinccino
@@ -14949,6 +15394,7 @@ Category = Fixation
 Pokedex = They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.
 Generation = 5
 Evolutions = GOTHORITA,Level,32
+CallRateSOS = 9
 #-------------------------------
 [GOTHORITA]
 Name = Gothorita
@@ -14974,6 +15420,7 @@ Category = Manipulate
 Pokedex = Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.
 Generation = 5
 Evolutions = GOTHITELLE,Level,41
+CallRateSOS = 6
 #-------------------------------
 [GOTHITELLE]
 Name = Gothitelle
@@ -15024,6 +15471,7 @@ Category = Cell
 Pokedex = Because their bodies are enveloped in a special liquid, they can survive in any environment.
 Generation = 5
 Evolutions = DUOSION,Level,32
+CallRateSOS = 9
 #-------------------------------
 [DUOSION]
 Name = Duosion
@@ -15049,6 +15497,7 @@ Category = Mitosis
 Pokedex = When their brains, now divided in two, are thinking the same thoughts, these Pokémon exhibit their maximum power.
 Generation = 5
 Evolutions = REUNICLUS,Level,41
+CallRateSOS = 6
 #-------------------------------
 [REUNICLUS]
 Name = Reuniclus
@@ -15099,6 +15548,7 @@ Category = Water Bird
 Pokedex = When attacked, it uses its feathers to splash water, escaping under cover of the spray.
 Generation = 5
 Evolutions = SWANNA,Level,35
+CallRateSOS = 9
 #-------------------------------
 [SWANNA]
 Name = Swanna
@@ -15123,6 +15573,7 @@ Shape = Winged
 Category = White Bird
 Pokedex = It administers sharp, powerful pecks with its bill. It whips its long neck to deliver forceful repeated strikes.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [VANILLITE]
 Name = Vanillite
@@ -15150,6 +15601,7 @@ Pokedex = This Pokémon formed from icicles bathed in energy from the morning su
 Generation = 5
 WildItemUncommon = NEVERMELTICE
 Evolutions = VANILLISH,Level,35
+CallRateSOS = 9
 #-------------------------------
 [VANILLISH]
 Name = Vanillish
@@ -15176,6 +15628,7 @@ Pokedex = It conceals itself from enemy eyes by creating many small ice particle
 Generation = 5
 WildItemUncommon = NEVERMELTICE
 Evolutions = VANILLUXE,Level,47
+CallRateSOS = 6
 #-------------------------------
 [VANILLUXE]
 Name = Vanilluxe
@@ -15228,6 +15681,8 @@ Category = Season
 Pokedex = The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.
 Generation = 5
 Evolutions = SAWSBUCK,Level,34
+SpeciesSOS = DEERLING,SAWSBUCK
+CallRateSOS = 9
 #-------------------------------
 [SAWSBUCK]
 Name = Sawsbuck
@@ -15253,6 +15708,8 @@ Shape = Quadruped
 Category = Season
 Pokedex = The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.
 Generation = 5
+SpeciesSOS = DEERLING
+CallRateSOS = 15
 #-------------------------------
 [EMOLGA]
 Name = Emolga
@@ -15278,6 +15735,7 @@ Shape = Quadruped
 Category = Sky Squirrel
 Pokedex = They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.
 Generation = 5
+CallRateSOS = 9
 #-------------------------------
 [KARRABLAST]
 Name = Karrablast
@@ -15304,6 +15762,8 @@ Category = Clamping
 Pokedex = When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokémon targets Shelmet.
 Generation = 5
 Evolutions = ESCAVALIER,TradeSpecies,SHELMET
+SpeciesSOS = KARRABLAST,SHELMET
+CallRateSOS = 9
 #-------------------------------
 [ESCAVALIER]
 Name = Escavalier
@@ -15356,6 +15816,7 @@ Generation = 5
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 Evolutions = AMOONGUSS,Level,39
+CallRateSOS = 9
 #-------------------------------
 [AMOONGUSS]
 Name = Amoonguss
@@ -15408,6 +15869,7 @@ Category = Floating
 Pokedex = They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.
 Generation = 5
 Evolutions = JELLICENT,Level,40
+CallRateSOS = 9
 #-------------------------------
 [JELLICENT]
 Name = Jellicent
@@ -15432,6 +15894,7 @@ Shape = Multiped
 Category = Floating
 Pokedex = They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [ALOMOMOLA]
 Name = Alomomola
@@ -15457,6 +15920,7 @@ Shape = Finned
 Category = Caring
 Pokedex = Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [JOLTIK]
 Name = Joltik
@@ -15483,6 +15947,8 @@ Category = Attaching
 Pokedex = They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.
 Generation = 5
 Evolutions = GALVANTULA,Level,36
+SpeciesSOS = JOLTIK,GALVANTULA
+CallRateSOS = 9
 #-------------------------------
 [GALVANTULA]
 Name = Galvantula
@@ -15507,6 +15973,7 @@ Shape = Insectoid
 Category = EleSpider
 Pokedex = They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [FERROSEED]
 Name = Ferroseed
@@ -15533,6 +16000,7 @@ Pokedex = They stick their spikes into cave walls and absorb the minerals they f
 Generation = 5
 WildItemUncommon = STICKYBARB
 Evolutions = FERROTHORN,Level,40
+CallRateSOS = 9
 #-------------------------------
 [FERROTHORN]
 Name = Ferrothorn
@@ -15558,6 +16026,7 @@ Category = Thorn Pod
 Pokedex = They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.
 Generation = 5
 WildItemUncommon = STICKYBARB
+CallRateSOS = 6
 #-------------------------------
 [KLINK]
 Name = Klink
@@ -15583,6 +16052,7 @@ Category = Gear
 Pokedex = Interlocking two bodies and spinning around generates the energy they need to live.
 Generation = 5
 Evolutions = KLANG,Level,38
+CallRateSOS = 9
 #-------------------------------
 [KLANG]
 Name = Klang
@@ -15608,6 +16078,7 @@ Category = Gear
 Pokedex = Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.
 Generation = 5
 Evolutions = KLINKLANG,Level,49
+CallRateSOS = 6
 #-------------------------------
 [KLINKLANG]
 Name = Klinklang
@@ -15656,6 +16127,8 @@ Category = EleFish
 Pokedex = These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.
 Generation = 5
 Evolutions = EELEKTRIK,Level,39
+SpeciesSOS = TYNAMO,EELEKTRIK
+CallRateSOS = 15
 #-------------------------------
 [EELEKTRIK]
 Name = Eelektrik
@@ -15680,6 +16153,7 @@ Category = EleFish
 Pokedex = These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.
 Generation = 5
 Evolutions = EELEKTROSS,Item,THUNDERSTONE
+CallRateSOS = 9
 #-------------------------------
 [EELEKTROSS]
 Name = Eelektross
@@ -15729,6 +16203,7 @@ Category = Cerebral
 Pokedex = This Pokémon had never been seen until it appeared from far in the desert 50 years ago.
 Generation = 5
 Evolutions = BEHEEYEM,Level,42
+CallRateSOS = 15
 #-------------------------------
 [BEHEEYEM]
 Name = Beheeyem
@@ -15753,6 +16228,7 @@ Shape = Bipedal
 Category = Cerebral
 Pokedex = It uses psychic power to control an opponent's brain and tamper with its memories.
 Generation = 5
+CallRateSOS = 15
 #-------------------------------
 [LITWICK]
 Name = Litwick
@@ -15779,6 +16255,7 @@ Category = Candle
 Pokedex = While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.
 Generation = 5
 Evolutions = LAMPENT,Level,41
+CallRateSOS = 9
 #-------------------------------
 [LAMPENT]
 Name = Lampent
@@ -15804,6 +16281,7 @@ Category = Lamp
 Pokedex = It arrives near the moment of death and steals spirit from the body.
 Generation = 5
 Evolutions = CHANDELURE,Item,DUSKSTONE
+CallRateSOS = 6
 #-------------------------------
 [CHANDELURE]
 Name = Chandelure
@@ -15854,6 +16332,7 @@ Category = Tusk
 Pokedex = They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.
 Generation = 5
 Evolutions = FRAXURE,Level,38
+CallRateSOS = 9
 #-------------------------------
 [FRAXURE]
 Name = Fraxure
@@ -15879,6 +16358,7 @@ Category = Axe Jaw
 Pokedex = Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.
 Generation = 5
 Evolutions = HAXORUS,Level,48
+CallRateSOS = 6
 #-------------------------------
 [HAXORUS]
 Name = Haxorus
@@ -15929,6 +16409,8 @@ Category = Chill
 Pokedex = Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.
 Generation = 5
 Evolutions = BEARTIC,Level,37
+SpeciesSOS = CUBCHOO,BEARTIC
+CallRateSOS = 9
 #-------------------------------
 [BEARTIC]
 Name = Beartic
@@ -15953,6 +16435,7 @@ Shape = Quadruped
 Category = Freezing
 Pokedex = It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [CRYOGONAL]
 Name = Cryogonal
@@ -15977,6 +16460,7 @@ Category = Crystallizing
 Pokedex = They are born in snow clouds. They use chains made of ice crystals to capture prey.
 Generation = 5
 WildItemUncommon = NEVERMELTICE
+CallRateSOS = 9
 #-------------------------------
 [SHELMET]
 Name = Shelmet
@@ -16003,6 +16487,8 @@ Category = Snail
 Pokedex = It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.
 Generation = 5
 Evolutions = ACCELGOR,TradeSpecies,KARRABLAST
+SpeciesSOS = SHELMET,KARRABLAST
+CallRateSOS = 9
 #-------------------------------
 [ACCELGOR]
 Name = Accelgor
@@ -16053,6 +16539,7 @@ Category = Trap
 Pokedex = It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of energy.
 Generation = 5
 WildItemUncommon = SOFTSAND
+CallRateSOS = 9
 #-------------------------------
 [MIENFOO]
 Name = Mienfoo
@@ -16079,6 +16566,7 @@ Category = Martial Arts
 Pokedex = They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.
 Generation = 5
 Evolutions = MIENSHAO,Level,50
+CallRateSOS = 6
 #-------------------------------
 [MIENSHAO]
 Name = Mienshao
@@ -16103,6 +16591,7 @@ Shape = BipedalTail
 Category = Martial Arts
 Pokedex = They use the long fur on their arms as a whip to strike their opponents.
 Generation = 5
+CallRateSOS = 3
 #-------------------------------
 [DRUDDIGON]
 Name = Druddigon
@@ -16129,6 +16618,7 @@ Category = Cave
 Pokedex = It races through narrow caves, using its sharp claws to catch prey. Then skin on its face is harder than a rock.
 Generation = 5
 WildItemUncommon = DRAGONFANG
+CallRateSOS = 3
 #-------------------------------
 [GOLETT]
 Name = Golett
@@ -16155,6 +16645,7 @@ Pokedex = These Pokémon are thought to have been created by the science of an a
 Generation = 5
 WildItemUncommon = LIGHTCLAY
 Evolutions = GOLURK,Level,43
+CallRateSOS = 15
 #-------------------------------
 [GOLURK]
 Name = Golurk
@@ -16180,6 +16671,7 @@ Category = Automaton
 Pokedex = It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.
 Generation = 5
 WildItemUncommon = LIGHTCLAY
+CallRateSOS = 15
 #-------------------------------
 [PAWNIARD]
 Name = Pawniard
@@ -16206,6 +16698,8 @@ Category = Sharp Blade
 Pokedex = They fight at Bisharp's command. They cling to their prey and inflict damage by sinking their blades into it.
 Generation = 5
 Evolutions = BISHARP,Level,52
+SpeciesSOS = PAWNIARD,TINKATUFF
+CallRateSOS = 9
 #-------------------------------
 [BISHARP]
 Name = Bisharp
@@ -16230,6 +16724,8 @@ Shape = Bipedal
 Category = Sword Blade
 Pokedex = Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.
 Generation = 5
+SpeciesSOS = PAWNIARD,TINKATUFF
+CallRateSOS = 15
 #-------------------------------
 [BOUFFALANT]
 Name = Bouffalant
@@ -16255,6 +16751,7 @@ Shape = Quadruped
 Category = Bash Buffalo
 Pokedex = They charge wildly and headbutt everything. They headbutts have enough destructive force to derail a train.
 Generation = 5
+CallRateSOS = 9
 #-------------------------------
 [RUFFLET]
 Name = Rufflet
@@ -16280,6 +16777,7 @@ Category = Eaglet
 Pokedex = They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.
 Generation = 5
 Evolutions = BRAVIARY,Level,54
+CallRateSOS = 9
 #-------------------------------
 [BRAVIARY]
 Name = Braviary
@@ -16304,6 +16802,7 @@ Shape = Winged
 Category = Valiant
 Pokedex = The more scars they have, the more respect these brave soldiers of the sky get from their peers.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [VULLABY]
 Name = Vullaby
@@ -16330,6 +16829,7 @@ Category = Diapered
 Pokedex = They tend to guard their posteriors with suitable bones they have found. They pursue weak Pokémon.
 Generation = 5
 Evolutions = MANDIBUZZ,Level,54
+CallRateSOS = 9
 #-------------------------------
 [MANDIBUZZ]
 Name = Mandibuzz
@@ -16354,6 +16854,7 @@ Shape = Winged
 Category = Bone Vulture
 Pokedex = Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.
 Generation = 5
+CallRateSOS = 6
 #-------------------------------
 [HEATMOR]
 Name = Heatmor
@@ -16379,6 +16880,7 @@ Shape = BipedalTail
 Category = Anteater
 Pokedex = Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.
 Generation = 5
+RivalSpecies = DURANT
 #-------------------------------
 [DURANT]
 Name = Durant
@@ -16404,6 +16906,8 @@ Shape = Insectoid
 Category = Iron Ant
 Pokedex = Durant dig nests in mountains. They build their complicated, interconnected tunnels in mazes.
 Generation = 5
+SpeciesSOS = DURANT,HEATMOR
+CallRateSOS = 9
 #-------------------------------
 [DEINO]
 Name = Deino
@@ -16429,6 +16933,7 @@ Category = Irate
 Pokedex = They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.
 Generation = 5
 Evolutions = ZWEILOUS,Level,50
+CallRateSOS = 9
 #-------------------------------
 [ZWEILOUS]
 Name = Zweilous
@@ -16453,6 +16958,7 @@ Category = Hostile
 Pokedex = Since their two heads do not get along and compete with each other for food, they always eat too much.
 Generation = 5
 Evolutions = HYDREIGON,Level,64
+CallRateSOS = 6
 #-------------------------------
 [HYDREIGON]
 Name = Hydreigon
@@ -16502,6 +17008,8 @@ Category = Torch
 Pokedex = The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.
 Generation = 5
 Evolutions = VOLCARONA,Level,59
+SpeciesSOS = LARVESTA,VOLCARONA
+CallRateSOS = 3
 #-------------------------------
 [VOLCARONA]
 Name = Volcarona
@@ -17080,6 +17588,7 @@ Category = Digging
 Pokedex = It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.
 Generation = 6
 Evolutions = DIGGERSBY,Level,20
+CallRateSOS = 9
 #-------------------------------
 [DIGGERSBY]
 Name = Diggersby
@@ -17104,6 +17613,7 @@ Shape = BipedalTail
 Category = Digging
 Pokedex = As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it's finished digging, it lounges lazily.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [FLETCHLING]
 Name = Fletchling
@@ -17130,6 +17640,8 @@ Category = Tiny Robin
 Pokedex = These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.
 Generation = 6
 Evolutions = FLETCHINDER,Level,17
+SpeciesSOS = FLETCHLING,FLETCHINDER
+CallRateSOS = 9
 #-------------------------------
 [FLETCHINDER]
 Name = Fletchinder
@@ -17155,6 +17667,7 @@ Category = Ember
 Pokedex = From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.
 Generation = 6
 Evolutions = TALONFLAME,Level,35
+CallRateSOS = 6
 #-------------------------------
 [TALONFLAME]
 Name = Talonflame
@@ -17205,6 +17718,7 @@ Category = Scatterdust
 Pokedex = When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact.
 Generation = 6
 Evolutions = SPEWPA,Level,9
+CallRateSOS = 15
 #-------------------------------
 [SPEWPA]
 Name = Spewpa
@@ -17230,6 +17744,8 @@ Category = Scatterdust
 Pokedex = It lives hidden within thicket shadows. When predators attack, it quickly bristles the fur covering its body in an effort to threaten them.
 Generation = 6
 Evolutions = VIVILLON,Level,12
+SpeciesSOS = SCATTERBUG,VIVILLON
+CallRateSOS = 15
 #-------------------------------
 [VIVILLON]
 Name = Vivillon
@@ -17281,6 +17797,7 @@ Category = Lion Cub
 Pokedex = They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.
 Generation = 6
 Evolutions = PYROAR,Level,35
+CallRateSOS = 9
 #-------------------------------
 [PYROAR]
 Name = Pyroar
@@ -17305,6 +17822,7 @@ Shape = Quadruped
 Category = Royal
 Pokedex = With fiery breath of more than 6,000 degrees Celsius, they viciously threaten any challenger. The females protect the pride's cubs.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [FLABEBE]
 Name = Flabébé
@@ -17333,6 +17851,7 @@ Pokedex = When it finds a flower it likes, it dwells on that flower its whole li
 Generation = 6
 Flags = InheritFormFromMother
 Evolutions = FLOETTE,Level,19
+CallRateSOS = 15
 #-------------------------------
 [FLOETTE]
 Name = Floette
@@ -17360,6 +17879,7 @@ Pokedex = It flutters around fields of flowers and cares for flowers that are st
 Generation = 6
 Flags = InheritFormFromMother
 Evolutions = FLORGES,Item,SHINYSTONE
+CallRateSOS = 9
 #-------------------------------
 [FLORGES]
 Name = Florges
@@ -17412,6 +17932,7 @@ Category = Mount
 Pokedex = If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.
 Generation = 6
 Evolutions = GOGOAT,Level,32
+CallRateSOS = 9
 #-------------------------------
 [GOGOAT]
 Name = Gogoat
@@ -17436,6 +17957,7 @@ Shape = Quadruped
 Category = Mount
 Pokedex = It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [PANCHAM]
 Name = Pancham
@@ -17463,6 +17985,8 @@ Pokedex = It does its best to be taken seriously by its enemies, but its glare i
 Generation = 6
 WildItemUncommon = MENTALHERB
 Evolutions = PANGORO,LevelDarkInParty,32
+SpeciesSOS = PANCHAM,PANGORO
+CallRateSOS = 9
 #-------------------------------
 [PANGORO]
 Name = Pangoro
@@ -17513,6 +18037,7 @@ Shape = Quadruped
 Category = Poodle
 Pokedex = Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [ESPURR]
 Name = Espurr
@@ -17539,6 +18064,7 @@ Category = Restraint
 Pokedex = The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.
 Generation = 6
 Evolutions = MEOWSTIC,Level,25
+CallRateSOS = 9
 #-------------------------------
 [MEOWSTIC]
 Name = Meowstic
@@ -17564,6 +18090,7 @@ Shape = BipedalTail
 Category = Constraint
 Pokedex = Revealing the eyelike patterns on the insides of its ears will unleash its psychic powers. It normally keeps the patterns hidden, however.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [HONEDGE]
 Name = Honedge
@@ -17589,6 +18116,7 @@ Category = Sword
 Pokedex = Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.
 Generation = 6
 Evolutions = DOUBLADE,Level,35
+CallRateSOS = 9
 #-------------------------------
 [DOUBLADE]
 Name = Doublade
@@ -17663,6 +18191,7 @@ Category = Perfume
 Pokedex = It emits a scent that enraptures those who smell it. This fragrance changes depending on what it has eaten.
 Generation = 6
 Evolutions = AROMATISSE,TradeItem,SACHET
+CallRateSOS = 9
 #-------------------------------
 [AROMATISSE]
 Name = Aromatisse
@@ -17713,6 +18242,7 @@ Category = Cotton Candy
 Pokedex = To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.
 Generation = 6
 Evolutions = SLURPUFF,TradeItem,WHIPPEDDREAM
+CallRateSOS = 9
 #-------------------------------
 [SLURPUFF]
 Name = Slurpuff
@@ -17763,6 +18293,7 @@ Category = Revolving
 Pokedex = It flashes the light-emitting spots on its body, which drains its opponent's will to fight. It takes the opportunity to scuttle away and hide.
 Generation = 6
 Evolutions = MALAMAR,Level,30
+CallRateSOS = 9
 #-------------------------------
 [MALAMAR]
 Name = Malamar
@@ -17787,6 +18318,7 @@ Shape = HeadBase
 Category = Overturning
 Pokedex = It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [BINACLE]
 Name = Binacle
@@ -17813,6 +18345,7 @@ Category = Two-Handed
 Pokedex = They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.
 Generation = 6
 Evolutions = BARBARACLE,Level,39
+CallRateSOS = 9
 #-------------------------------
 [BARBARACLE]
 Name = Barbaracle
@@ -17837,6 +18370,7 @@ Shape = MultiBody
 Category = Collective
 Pokedex = Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [SKRELP]
 Name = Skrelp
@@ -17863,6 +18397,7 @@ Category = Mock Kelp
 Pokedex = Camouflaged as rotten kelp, they spray liquid poison on prey that approaches unawares and then finish it off.
 Generation = 6
 Evolutions = DRAGALGE,Level,48
+CallRateSOS = 9
 #-------------------------------
 [DRAGALGE]
 Name = Dragalge
@@ -17887,6 +18422,7 @@ Shape = HeadBase
 Category = Mock Kelp
 Pokedex = Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [CLAUNCHER]
 Name = Clauncher
@@ -17912,6 +18448,7 @@ Category = Water Gun
 Pokedex = Through controlled expulsions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock.
 Generation = 6
 Evolutions = CLAWITZER,Level,37
+CallRateSOS = 9
 #-------------------------------
 [CLAWITZER]
 Name = Clawitzer
@@ -17935,6 +18472,7 @@ Shape = Serpentine
 Category = Howitzer
 Pokedex = By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [HELIOPTILE]
 Name = Helioptile
@@ -17961,6 +18499,7 @@ Category = Generator
 Pokedex = They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.
 Generation = 6
 Evolutions = HELIOLISK,Item,SUNSTONE
+CallRateSOS = 9
 #-------------------------------
 [HELIOLISK]
 Name = Heliolisk
@@ -17985,6 +18524,7 @@ Shape = BipedalTail
 Category = Generator
 Pokedex = They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [TYRUNT]
 Name = Tyrunt
@@ -18135,6 +18675,7 @@ Category = Wrestling
 Pokedex = With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.
 Generation = 6
 WildItemUncommon = KINGSROCK
+CallRateSOS = 3
 #-------------------------------
 [DEDENNE]
 Name = Dedenne
@@ -18160,6 +18701,8 @@ Shape = BipedalTail
 Category = Antenna
 Pokedex = Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.
 Generation = 6
+SpeciesSOS = DEDENNE,TOGEDEMARU
+CallRateSOS = 9
 #-------------------------------
 [CARBINK]
 Name = Carbink
@@ -18184,6 +18727,8 @@ Shape = Head
 Category = Jewel
 Pokedex = Born from the high temperatures and pressures deep underground, it defends itself by firing beams from the jewel part of its body.
 Generation = 6
+SpeciesSOS = CARBINK,SABLEYE
+CallRateSOS = 9
 #-------------------------------
 [GOOMY]
 Name = Goomy
@@ -18211,6 +18756,7 @@ Pokedex = Its source of protection is its slimy, germ-laden mucous membrane. Any
 Generation = 6
 WildItemUncommon = SHEDSHELL
 Evolutions = SLIGGOO,Level,40
+CallRateSOS = 9
 #-------------------------------
 [SLIGGOO]
 Name = Sliggoo
@@ -18237,6 +18783,7 @@ Pokedex = This Pokémon's mucous can dissolve anything. Toothless, it sprays muc
 Generation = 6
 WildItemUncommon = SHEDSHELL
 Evolutions = GOODRA,LevelRain,50
+CallRateSOS = 6
 #-------------------------------
 [GOODRA]
 Name = Goodra
@@ -18286,6 +18833,7 @@ Shape = Head
 Category = Key Ring
 Pokedex = It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [PHANTUMP]
 Name = Phantump
@@ -18312,6 +18860,7 @@ Category = Stump
 Pokedex = These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.
 Generation = 6
 Evolutions = TREVENANT,Trade,
+CallRateSOS = 9
 #-------------------------------
 [TREVENANT]
 Name = Trevenant
@@ -18363,6 +18912,7 @@ Pokedex = When taking spirits to the afterlife, small Pumpkaboo prefer the spiri
 Generation = 6
 Flags = InheritFormFromMother
 Evolutions = GOURGEIST,Trade,
+CallRateSOS = 9
 #-------------------------------
 [GOURGEIST]
 Name = Gourgeist
@@ -18414,6 +18964,7 @@ Category = Ice Chunk
 Pokedex = It blocks opponents' attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.
 Generation = 6
 Evolutions = AVALUGG,Level,37
+CallRateSOS = 9
 #-------------------------------
 [AVALUGG]
 Name = Avalugg
@@ -18438,6 +18989,7 @@ Shape = Quadruped
 Category = Iceberg
 Pokedex = Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [NOIBAT]
 Name = Noibat
@@ -18464,6 +19016,7 @@ Category = Sound Wave
 Pokedex = Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.
 Generation = 6
 Evolutions = NOIVERN,Level,48
+CallRateSOS = 9
 #-------------------------------
 [NOIVERN]
 Name = Noivern
@@ -18488,6 +19041,7 @@ Shape = Winged
 Category = Sound Wave
 Pokedex = They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.
 Generation = 6
+CallRateSOS = 6
 #-------------------------------
 [XERNEAS]
 Name = Xerneas
@@ -18887,6 +19441,7 @@ Pokedex = It pecks at trees with its hard beak. You can get some idea of its moo
 Generation = 7
 WildItemUncommon = ORANBERRY
 Evolutions = TRUMBEAK,Level,14
+CallRateSOS = 15
 #-------------------------------
 [TRUMBEAK]
 Name = Trumbeak
@@ -18913,6 +19468,7 @@ Pokedex = It eats berries and stores their seeds in its beak. When it encounters
 Generation = 7
 WildItemUncommon = SITRUSBERRY
 Evolutions = TOUCANNON,Level,28
+CallRateSOS = 9
 #-------------------------------
 [TOUCANNON]
 Name = Toucannon
@@ -18965,6 +19521,7 @@ Pokedex = Its stomach takes up most of its long torso. It's a big eater, so the 
 Generation = 7
 WildItemUncommon = PECHABERRY
 Evolutions = GUMSHOOS,LevelDay,20
+CallRateSOS = 9
 #-------------------------------
 [GUMSHOOS]
 Name = Gumshoos
@@ -18990,6 +19547,7 @@ Category = Stakeout
 Pokedex = When it finds a trace of its prey, it patiently stakes out the location... but it's always snoozing by nightfall.
 Generation = 7
 WildItemUncommon = PECHABERRY
+CallRateSOS = 6
 #-------------------------------
 [GRUBBIN]
 Name = Grubbin
@@ -19015,6 +19573,7 @@ Category = Larva
 Pokedex = It spits a sticky thread to stop opponents in their tracks, and then it grabs them in its sharp, sturdy mandibles to take them down.
 Generation = 7
 Evolutions = CHARJABUG,Level,20
+CallRateSOS = 9
 #-------------------------------
 [CHARJABUG]
 Name = Charjabug
@@ -19040,6 +19599,8 @@ Pokedex = It buries itself in fallen leaves and barely moves, munching away on h
 Generation = 7
 WildItemUncommon = CELLBATTERY
 Evolutions = VIKAVOLT,Item,THUNDERSTONE,VIKAVOLT,LocationFlag,Magnetic
+SpeciesSOS = GRUBBIN,CHARJABUG
+CallRateSOS = 15
 #-------------------------------
 [VIKAVOLT]
 Name = Vikavolt
@@ -19090,6 +19651,7 @@ Pokedex = It punches so much, its pincers often come off from overuse, but they 
 Generation = 7
 WildItemUncommon = ASPEARBERRY
 Evolutions = CRABOMINABLE,LocationFlag,IceRock
+CallRateSOS = 9
 #-------------------------------
 [CRABOMINABLE]
 Name = Crabominable
@@ -19142,6 +19704,7 @@ Pokedex = It beats its wings together to create fire. As it moves in the steps o
 Generation = 7
 Flags = InheritFormFromMother
 WildItemUncommon = HONEY
+CallRateSOS = 6
 #-------------------------------
 [CUTIEFLY]
 Name = Cutiefly
@@ -19169,6 +19732,7 @@ Pokedex = It feeds on the nectar and pollen of flowers. Because it's able to sen
 Generation = 7
 WildItemUncommon = HONEY
 Evolutions = RIBOMBEE,Level,25
+CallRateSOS = 9
 #-------------------------------
 [RIBOMBEE]
 Name = Ribombee
@@ -19194,6 +19758,7 @@ Category = Bee Fly
 Pokedex = Rain makes pollen damp, so Ribombee hates rain. When it sees ominous clouds, it finds a hollow in a tree, where it waits stock-still.
 Generation = 7
 WildItemUncommon = HONEY
+CallRateSOS = 6
 #-------------------------------
 [ROCKRUFF]
 Name = Rockruff
@@ -19220,6 +19785,7 @@ Category = Puppy
 Pokedex = This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side.
 Generation = 7
 Evolutions = LYCANROC,Level,25
+CallRateSOS = 9
 #-------------------------------
 [LYCANROC]
 Name = Lycanroc
@@ -19245,6 +19811,7 @@ Shape = Quadruped
 Category = Wolf
 Pokedex = Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.
 Generation = 7
+CallRateSOS = 3
 #-------------------------------
 [WISHIWASHI]
 Name = Wishiwashi
@@ -19270,6 +19837,7 @@ Shape = Finned
 Category = Small Fry
 Pokedex = It's awfully weak and notably tasty, so everyone is always out to get it. As it happens, anyone trying to bully it receives a painful lesson.
 Generation = 7
+CallRateSOS = 9
 #-------------------------------
 [MAREANIE]
 Name = Mareanie
@@ -19297,6 +19865,7 @@ Pokedex = It plunges the poison spike on its head into its prey. When the prey h
 Generation = 7
 WildItemUncommon = POISONBARB
 Evolutions = TOXAPEX,Level,38
+RivalSpecies = CORSOLA
 #-------------------------------
 [TOXAPEX]
 Name = Toxapex
@@ -19322,6 +19891,7 @@ Category = Brutal Star
 Pokedex = Those attacked by Toxapex's poison will suffer intense pain for three days and three nights. Post-recovery, there will be some aftereffects.
 Generation = 7
 WildItemUncommon = POISONBARB
+RivalSpecies = CORSOLA
 #-------------------------------
 [MUDBRAY]
 Name = Mudbray
@@ -19349,6 +19919,7 @@ Pokedex = It loves playing in the mud. If it isn't showered with mud on a daily 
 Generation = 7
 WildItemUncommon = LIGHTCLAY
 Evolutions = MUDSDALE,Level,30
+CallRateSOS = 9
 #-------------------------------
 [MUDSDALE]
 Name = Mudsdale
@@ -19374,6 +19945,7 @@ Category = Draft Horse
 Pokedex = It remains calm and unmoving no matter the situation. It mixes dirt with the saliva in its mouth to make a special kind of mud.
 Generation = 7
 WildItemUncommon = LIGHTCLAY
+CallRateSOS = 6
 #-------------------------------
 [DEWPIDER]
 Name = Dewpider
@@ -19401,6 +19973,7 @@ Pokedex = When two Dewpider meet, they display their water bubbles to each other
 Generation = 7
 WildItemUncommon = MYSTICWATER
 Evolutions = ARAQUANID,Level,22
+CallRateSOS = 9
 #-------------------------------
 [ARAQUANID]
 Name = Araquanid
@@ -19426,6 +19999,7 @@ Category = Water Bubble
 Pokedex = It delivers headbutts with the water bubble on its head. Small Pokémon get sucked into the bubble, where they drown.
 Generation = 7
 WildItemUncommon = MYSTICWATER
+CallRateSOS = 6
 #-------------------------------
 [FOMANTIS]
 Name = Fomantis
@@ -19453,6 +20027,8 @@ Pokedex = When the sun rises, Fomantis spreads its four leaves and bathes in the
 Generation = 7
 WildItemUncommon = MIRACLESEED
 Evolutions = LURANTIS,LevelDay,34
+SpeciesSOS = FOMANTIS,CUTIEFLY
+CallRateSOS = 9
 #-------------------------------
 [LURANTIS]
 Name = Lurantis
@@ -19478,6 +20054,7 @@ Category = Bloom Sickle
 Pokedex = It requires a lot of effort to maintain Lurantis's vivid coloring, but some collectors enjoy this work and treat it as their hobby.
 Generation = 7
 WildItemUncommon = MIRACLESEED
+CallRateSOS = 3
 #-------------------------------
 [MORELULL]
 Name = Morelull
@@ -19506,6 +20083,7 @@ Generation = 7
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 Evolutions = SHIINOTIC,Level,24
+CallRateSOS = 9
 #-------------------------------
 [SHIINOTIC]
 Name = Shiinotic
@@ -19532,6 +20110,7 @@ Pokedex = It puts its prey to sleep and siphons off their vitality through the t
 Generation = 7
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
+CallRateSOS = 6
 #-------------------------------
 [SALANDIT]
 Name = Salandit
@@ -19559,6 +20138,7 @@ Pokedex = It burns its bodily fluids to create a poisonous gas. When its enemies
 Generation = 7
 WildItemUncommon = SMOKEBALL
 Evolutions = SALAZZLE,LevelFemale,33
+CallRateSOS = 9
 #-------------------------------
 [SALAZZLE]
 Name = Salazzle
@@ -19584,6 +20164,8 @@ Category = Toxic Lizard
 Pokedex = Filled with pheromones, its poisonous gas can be diluted to use in the production of luscious perfumes.
 Generation = 7
 WildItemUncommon = SMOKEBALL
+SpeciesSOS = SALANDIT
+CallRateSOS = 15
 #-------------------------------
 [STUFFUL]
 Name = Stufful
@@ -19610,6 +20192,7 @@ Category = Flailing
 Pokedex = Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.
 Generation = 7
 Evolutions = BEWEAR,Level,27
+CallRateSOS = 9
 #-------------------------------
 [BEWEAR]
 Name = Bewear
@@ -19634,6 +20217,7 @@ Shape = BipedalTail
 Category = Strong Arm
 Pokedex = It waves its hands wildly in intimidation and warning. Life is over for anyone who doesn't run away as fast as possible.
 Generation = 7
+CallRateSOS = 6
 #-------------------------------
 [BOUNSWEET]
 Name = Bounsweet
@@ -19661,6 +20245,7 @@ Pokedex = Because of its sweet, delicious aroma, bird Pokémon are always after 
 Generation = 7
 WildItemUncommon = GRASSYSEED
 Evolutions = STEENEE,Level,18
+CallRateSOS = 9
 #-------------------------------
 [STEENEE]
 Name = Steenee
@@ -19687,6 +20272,7 @@ Pokedex = It's protected by its hard sepals, so it plays with bird Pokémon with
 Generation = 7
 WildItemUncommon = GRASSYSEED
 Evolutions = TSAREENA,HasMove,STOMP
+CallRateSOS = 6
 #-------------------------------
 [TSAREENA]
 Name = Tsareena
@@ -19738,6 +20324,7 @@ Category = Posy Picker
 Pokedex = Baths prepared with the flowers from its vine have a relaxing effect, so this Pokémon is a hit with many people.
 Generation = 7
 WildItemUncommon = MISTYSEED
+CallRateSOS = 9
 #-------------------------------
 [ORANGURU]
 Name = Oranguru
@@ -19763,6 +20350,7 @@ Shape = Bipedal
 Category = Sage
 Pokedex = It normally spends its time meditating in the treetops. It throws Poké Balls and gives other Pokémon orders as it pleases.
 Generation = 7
+CallRateSOS = 6
 #-------------------------------
 [PASSIMIAN]
 Name = Passimian
@@ -19788,6 +20376,8 @@ Shape = BipedalTail
 Category = Teamwork
 Pokedex = Berries are its weapons as well as the staple of its diet. The one that can throw a berry the farthest is the boss of the troop.
 Generation = 7
+SpeciesSOS = ORANGURU
+CallRateSOS = 6
 #-------------------------------
 [WIMPOD]
 Name = Wimpod
@@ -19863,6 +20453,7 @@ Pokedex = It likes the shovel on its head, so Sandygast will get serious and fig
 Generation = 7
 WildItemUncommon = SPELLTAG
 Evolutions = PALOSSAND,Level,42
+CallRateSOS = 9
 #-------------------------------
 [PALOSSAND]
 Name = Palossand
@@ -19888,6 +20479,7 @@ Category = Sand Castle
 Pokedex = Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained.
 Generation = 7
 WildItemUncommon = SPELLTAG
+CallRateSOS = 6
 #-------------------------------
 [PYUKUMUKU]
 Name = Pyukumuku
@@ -19913,6 +20505,8 @@ Shape = Serpentine
 Category = Sea Cucumber
 Pokedex = It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies.
 Generation = 7
+SpeciesSOS = PYUKUMUKU,WINGULL
+CallRateSOS = 6
 #-------------------------------
 [TYPENULL]
 Name = Type: Null
@@ -20037,6 +20631,7 @@ Category = Blast Turtle
 Pokedex = It lives in volcanoes and eats sulfur and other minerals. Materials from the food it eats form the basis of its explosive shell.
 Generation = 7
 WildItemUncommon = CHARCOAL
+CallRateSOS = 3
 #-------------------------------
 [TOGEDEMARU]
 Name = Togedemaru
@@ -20063,6 +20658,8 @@ Category = Roly-Poly
 Pokedex = The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.
 Generation = 7
 WildItemUncommon = ELECTRICSEED
+SpeciesSOS = TOGEDEMARU,DEDENNE
+CallRateSOS = 9
 #-------------------------------
 [MIMIKYU]
 Name = Mimikyu
@@ -20089,6 +20686,7 @@ Category = Disguise
 Pokedex = A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.
 Generation = 7
 WildItemUncommon = CHESTOBERRY
+CallRateSOS = 9
 #-------------------------------
 [BRUXISH]
 Name = Bruxish
@@ -20115,6 +20713,7 @@ Category = Gnash Teeth
 Pokedex = When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area.
 Generation = 7
 WildItemUncommon = RAZORFANG
+CallRateSOS = 6
 #-------------------------------
 [DRAMPA]
 Name = Drampa
@@ -20141,6 +20740,7 @@ Category = Placid
 Pokedex = This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.
 Generation = 7
 WildItemUncommon = PERSIMBERRY
+CallRateSOS = 3
 #-------------------------------
 [DHELMISE]
 Name = Dhelmise
@@ -20164,6 +20764,7 @@ Shape = HeadBase
 Category = Sea Creeper
 Pokedex = The soul of seaweed adrift in the waves became reborn as this Pokémon. It maintains itself with new infusions of seabed detritus and seaweed.
 Generation = 7
+CallRateSOS = 3
 #-------------------------------
 [JANGMOO]
 Name = Jangmo-o
@@ -20191,6 +20792,8 @@ Pokedex = It expresses its feelings by smacking its scales. Metallic sounds echo
 Generation = 7
 WildItemUncommon = RAZORCLAW
 Evolutions = HAKAMOO,Level,35
+SpeciesSOS = HAKAMOO,KOMMOO
+CallRateSOS = 9
 #-------------------------------
 [HAKAMOO]
 Name = Hakamo-o
@@ -20217,6 +20820,7 @@ Pokedex = It sheds and regrows its scales on a continuous basis. The scales beco
 Generation = 7
 WildItemUncommon = RAZORCLAW
 Evolutions = KOMMOO,Level,45
+CallRateSOS = 6
 #-------------------------------
 [KOMMOO]
 Name = Kommo-o
@@ -21101,6 +21705,7 @@ Pokedex = It eats berries nonstop—a habit that has made it more resilient than
 Generation = 8
 WildItemUncommon = ORANBERRY
 Evolutions = GREEDENT,Level,24
+CallRateSOS = 9
 #-------------------------------
 [GREEDENT]
 Name = Greedent
@@ -21126,6 +21731,7 @@ Category = Greedy
 Pokedex = It stashes berries in its tail - so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss.
 Generation = 8
 WildItemUncommon = SITRUSBERRY
+CallRateSOS = 6
 #-------------------------------
 [ROOKIDEE]
 Name = Rookidee
@@ -21152,6 +21758,7 @@ Category = Tiny Bird
 Pokedex = Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents.
 Generation = 8
 Evolutions = CORVISQUIRE,Level,18
+CallRateSOS = 9
 #-------------------------------
 [CORVISQUIRE]
 Name = Corvisquire
@@ -21177,6 +21784,7 @@ Category = Raven
 Pokedex = Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies.
 Generation = 8
 Evolutions = CORVIKNIGHT,Level,38
+CallRateSOS = 6
 #-------------------------------
 [CORVIKNIGHT]
 Name = Corviknight
@@ -21226,6 +21834,7 @@ Category = Larva
 Pokedex = Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.
 Generation = 8
 Evolutions = DOTTLER,Level,10
+CallRateSOS = 9
 #-------------------------------
 [DOTTLER]
 Name = Dottler
@@ -21252,6 +21861,7 @@ Pokedex = It barely moves, but it's still alive. Hiding in its shell without foo
 Generation = 8
 WildItemUncommon = PSYCHICSEED
 Evolutions = ORBEETLE,Level,30
+CallRateSOS = 6
 #-------------------------------
 [ORBEETLE]
 Name = Orbeetle
@@ -21303,6 +21913,7 @@ Category = Fox
 Pokedex = Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains.
 Generation = 8
 Evolutions = THIEVUL,Level,18
+CallRateSOS = 9
 #-------------------------------
 [THIEVUL]
 Name = Thievul
@@ -21327,6 +21938,7 @@ Shape = Quadruped
 Category = Fox
 Pokedex = It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [GOSSIFLEUR]
 Name = Gossifleur
@@ -21353,6 +21965,7 @@ Category = Flowering
 Pokedex = It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly.
 Generation = 8
 Evolutions = ELDEGOSS,Level,20
+CallRateSOS = 9
 #-------------------------------
 [ELDEGOSS]
 Name = Eldegoss
@@ -21377,6 +21990,7 @@ Shape = HeadBase
 Category = Cotton Bloom
 Pokedex = The seeds attached to its cotton fluff are full of nutrients. It spreads them on the wind so that plants and other Pokémon can benefit from them.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [WOOLOO]
 Name = Wooloo
@@ -21403,6 +22017,7 @@ Category = Sheep
 Pokedex = Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.
 Generation = 8
 Evolutions = DUBWOOL,Level,24
+CallRateSOS = 9
 #-------------------------------
 [DUBWOOL]
 Name = Dubwool
@@ -21427,6 +22042,7 @@ Shape = Quadruped
 Category = Sheep
 Pokedex = Its majestic horns are meant only to impress the opposite gender. They never see use in battle.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [CHEWTLE]
 Name = Chewtle
@@ -21453,6 +22069,7 @@ Category = Snapping
 Pokedex = It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go.
 Generation = 8
 Evolutions = DREDNAW,Level,22
+CallRateSOS = 9
 #-------------------------------
 [DREDNAW]
 Name = Drednaw
@@ -21477,6 +22094,7 @@ Shape = Quadruped
 Category = Bite
 Pokedex = With jaws that can shear through steel rods, this highly aggressive Pokémon chomps down on its unfortunate prey.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [YAMPER]
 Name = Yamper
@@ -21503,6 +22121,7 @@ Category = Puppy
 Pokedex = This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.
 Generation = 8
 Evolutions = BOLTUND,Level,25
+CallRateSOS = 9
 #-------------------------------
 [BOLTUND]
 Name = Boltund
@@ -21527,6 +22146,7 @@ Shape = Quadruped
 Category = Dog
 Pokedex = This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [ROLYCOLY]
 Name = Rolycoly
@@ -21553,6 +22173,7 @@ Category = Coal
 Pokedex = Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago.
 Generation = 8
 Evolutions = CARKOL,Level,18
+CallRateSOS = 9
 #-------------------------------
 [CARKOL]
 Name = Carkol
@@ -21578,6 +22199,7 @@ Category = Coal
 Pokedex = By rapidly rolling its legs, it can travel at over 18 mph. The temperature of the flames it breathes exceeds 1,000 degrees Celsius.
 Generation = 8
 Evolutions = COALOSSAL,Level,34
+CallRateSOS = 6
 #-------------------------------
 [COALOSSAL]
 Name = Coalossal
@@ -21628,6 +22250,7 @@ Category = Apple Core
 Pokedex = It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it's just an apple and nothing more.
 Generation = 8
 Evolutions = FLAPPLE,Item,TARTAPPLE,APPLETUN,Item,SWEETAPPLE
+CallRateSOS = 9
 #-------------------------------
 [FLAPPLE]
 Name = Flapple
@@ -21702,6 +22325,7 @@ Category = Sand Snake
 Pokedex = It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide.
 Generation = 8
 Evolutions = SANDACONDA,Level,36
+CallRateSOS = 9
 #-------------------------------
 [SANDACONDA]
 Name = Sandaconda
@@ -21726,6 +22350,7 @@ Shape = Serpentine
 Category = Sand Snake
 Pokedex = Its unique style of coiling allows it to blast sand out of its sand sac more efficiently.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [CRAMORANT]
 Name = Cramorant
@@ -21750,6 +22375,7 @@ Shape = Winged
 Category = Gulp
 Pokedex = It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight.
 Generation = 8
+CallRateSOS = 3
 #-------------------------------
 [ARROKUDA]
 Name = Arrokuda
@@ -21776,6 +22402,8 @@ Category = Rush
 Pokedex = If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw.
 Generation = 8
 Evolutions = BARRASKEWDA,Level,26
+SpeciesSOS = ARROKUDA,CRAMORANT
+CallRateSOS = 9
 #-------------------------------
 [BARRASKEWDA]
 Name = Barraskewda
@@ -21800,6 +22428,7 @@ Shape = Finned
 Category = Skewer
 Pokedex = This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [TOXEL]
 Name = Toxel
@@ -21826,6 +22455,8 @@ Category = Baby
 Pokedex = It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis.
 Generation = 8
 Evolutions = TOXTRICITY,Level,30
+SpeciesSOS = TOXEL,TOXTRICITY,HAPPINY
+CallRateSOS = 9
 #-------------------------------
 [TOXTRICITY]
 Name = Toxtricity
@@ -21851,6 +22482,7 @@ Shape = BipedalTail
 Category = Punk
 Pokedex = When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [SIZZLIPEDE]
 Name = Sizzlipede
@@ -21877,6 +22509,7 @@ Category = Radiator
 Pokedex = It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.
 Generation = 8
 Evolutions = CENTISKORCH,Level,28
+CallRateSOS = 9
 #-------------------------------
 [CENTISKORCH]
 Name = Centiskorch
@@ -21901,6 +22534,7 @@ Shape = Multiped
 Category = Radiator
 Pokedex = While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [CLOBBOPUS]
 Name = Clobbopus
@@ -21927,6 +22561,7 @@ Category = Tantrum
 Pokedex = It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land.
 Generation = 8
 Evolutions = GRAPPLOCT,HasMove,TAUNT
+CallRateSOS = 9
 #-------------------------------
 [GRAPPLOCT]
 Name = Grapploct
@@ -21951,6 +22586,7 @@ Shape = Multiped
 Category = Jujitsu
 Pokedex = A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [SINISTEA]
 Name = Sinistea
@@ -21977,6 +22613,7 @@ Category = Black Tea
 Pokedex = The teacup in which this Pokémon makes its home is a famous piece of antique tableware. Many forgeries are in circulation.
 Generation = 8
 Evolutions = POLTEAGEIST,Item,CRACKEDPOT
+CallRateSOS = 9
 #-------------------------------
 [POLTEAGEIST]
 Name = Polteageist
@@ -22002,6 +22639,7 @@ Shape = Head
 Category = Black Tea
 Pokedex = This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [HATENNA]
 Name = Hatenna
@@ -22028,6 +22666,7 @@ Category = Calm
 Pokedex = Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you.
 Generation = 8
 Evolutions = HATTREM,Level,32
+CallRateSOS = 9
 #-------------------------------
 [HATTREM]
 Name = Hattrem
@@ -22053,6 +22692,7 @@ Category = Serene
 Pokedex = Using the braids on its head, it pummels foes to get them to quiet down. One blow from those braids would knock out a professional boxer.
 Generation = 8
 Evolutions = HATTERENE,Level,42
+CallRateSOS = 6
 #-------------------------------
 [HATTERENE]
 Name = Hatterene
@@ -22102,6 +22742,7 @@ Category = Wily
 Pokedex = Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy.
 Generation = 8
 Evolutions = MORGREM,Level,32
+CallRateSOS = 9
 #-------------------------------
 [MORGREM]
 Name = Morgrem
@@ -22127,6 +22768,7 @@ Category = Devious
 Pokedex = With sly cunning, it tries to lure people into the woods. Some believe it to have the power to make crops grow.
 Generation = 8
 Evolutions = GRIMMSNARL,Level,42
+CallRateSOS = 6
 #-------------------------------
 [GRIMMSNARL]
 Name = Grimmsnarl
@@ -22203,6 +22845,7 @@ Category = Viking
 Pokedex = What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.
 Generation = 8
 Flags = DefaultForm_2,InheritFormWithEverStone
+CallRateSOS = 6
 #-------------------------------
 [CURSOLA]
 Name = Cursola
@@ -22229,6 +22872,7 @@ Category = Coral
 Pokedex = Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit.
 Generation = 8
 Flags = DefaultForm_1,InheritFormWithEverStone
+CallRateSOS = 6
 #-------------------------------
 [SIRFETCHD]
 Name = Sirfetch'd
@@ -22256,6 +22900,7 @@ Pokedex = After deflecting attacks with its hard leaf shield, it strikes back wi
 Generation = 8
 Flags = DefaultForm_1,InheritFormWithEverStone
 WildItemUncommon = LEEK
+CallRateSOS = 3
 #-------------------------------
 [MRRIME]
 Name = Mr. Rime
@@ -22307,6 +22952,7 @@ Category = Grudge
 Pokedex = A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move.
 Generation = 8
 Flags = DefaultForm_1,InheritFormWithEverStone
+CallRateSOS = 6
 #-------------------------------
 [MILCERY]
 Name = Milcery
@@ -22333,6 +22979,7 @@ Category = Cream
 Pokedex = This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream.
 Generation = 8
 Evolutions = ALCREMIE,HoldItem,STRAWBERRYSWEET,ALCREMIE,HoldItem,BERRYSWEET,ALCREMIE,HoldItem,LOVESWEET,ALCREMIE,HoldItem,STARSWEET,ALCREMIE,HoldItem,CLOVERSWEET,ALCREMIE,HoldItem,FLOWERSWEET,ALCREMIE,HoldItem,RIBBONSWEET
+CallRateSOS = 9
 #-------------------------------
 [ALCREMIE]
 Name = Alcremie
@@ -22382,6 +23029,7 @@ Shape = MultiBody
 Category = Formation
 Pokedex = The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.
 Generation = 8
+CallRateSOS = 3
 #-------------------------------
 [PINCURCHIN]
 Name = Pincurchin
@@ -22407,6 +23055,7 @@ Shape = Multiped
 Category = Sea Urchin
 Pokedex = It stores electricity in each spine. Even if one gets broken off, it still continues to emit electricity for at least three hours.
 Generation = 8
+CallRateSOS = 9
 #-------------------------------
 [SNOM]
 Name = Snom
@@ -22434,6 +23083,7 @@ Pokedex = It spits out thread imbued with a frigid sort of energy and uses it to
 Generation = 8
 WildItemUncommon = SNOWBALL
 Evolutions = FROSMOTH,HappinessNight,
+CallRateSOS = 15
 #-------------------------------
 [FROSMOTH]
 Name = Frosmoth
@@ -22458,6 +23108,7 @@ Shape = MultiWinged
 Category = Frost Moth
 Pokedex = It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away.
 Generation = 8
+CallRateSOS = 6
 #-------------------------------
 [STONJOURNER]
 Name = Stonjourner
@@ -22482,6 +23133,7 @@ Shape = HeadLegs
 Category = Big Rock
 Pokedex = Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle.
 Generation = 8
+CallRateSOS = 3
 #-------------------------------
 [EISCUE]
 Name = Eiscue
@@ -22507,6 +23159,7 @@ Shape = BipedalTail
 Category = Penguin
 Pokedex = It drifted in on the flow of ocean waters from a frigid place. It keeps its head iced constantly to make sure it stays nice and cold.
 Generation = 8
+CallRateSOS = 9
 #-------------------------------
 [INDEEDEE]
 Name = Indeedee
@@ -22533,6 +23186,7 @@ Shape = BipedalTail
 Category = Emotion
 Pokedex = It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need.
 Generation = 8
+CallRateSOS = 9
 #-------------------------------
 [MORPEKO]
 Name = Morpeko
@@ -22558,6 +23212,7 @@ Shape = Bipedal
 Category = Two-Sided
 Pokedex = As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity.
 Generation = 8
+CallRateSOS = 9
 #-------------------------------
 [CUFANT]
 Name = Cufant
@@ -22585,6 +23240,7 @@ Pokedex = It digs up the ground with its trunk. It's also very strong, being abl
 Generation = 8
 WildItemUncommon = LAGGINGTAIL
 Evolutions = COPPERAJAH,Level,34
+CallRateSOS = 9
 #-------------------------------
 [COPPERAJAH]
 Name = Copperajah
@@ -22610,6 +23266,7 @@ Category = Copperderm
 Pokedex = These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder.
 Generation = 8
 WildItemUncommon = LAGGINGTAIL
+CallRateSOS = 6
 #-------------------------------
 [DRACOZOLT]
 Name = Dracozolt
@@ -22731,6 +23388,7 @@ Shape = BipedalTail
 Category = Alloy
 Pokedex = Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily.
 Generation = 8
+CallRateSOS = 3
 #-------------------------------
 [DREEPY]
 Name = Dreepy
@@ -22757,6 +23415,8 @@ Category = Lingering
 Pokedex = After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.
 Generation = 8
 Evolutions = DRAKLOAK,Level,50
+SpeciesSOS = DREEPY,DRAKLOAK
+CallRateSOS = 9
 #-------------------------------
 [DRAKLOAK]
 Name = Drakloak
@@ -22782,6 +23442,7 @@ Category = Caretaker
 Pokedex = It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.
 Generation = 8
 Evolutions = DRAGAPULT,Level,60
+CallRateSOS = 6
 #-------------------------------
 [DRAGAPULT]
 Name = Dragapult
@@ -23337,7 +23998,7 @@ Habitat = Urban
 Category = Pure
 Pokedex = ???
 Evolutions = PEACIRD,LevelDay,14,YOUNROW,LevelNight,14,PEACIRD,Location,46,YOUNROW,Location,59
-CallRateSOS = 15
+
 #-------------------------------
 [PEACIRD]
 Name = Peacird
@@ -23362,7 +24023,7 @@ Habitat = Urban
 Category = Peace bringer
 Pokedex = Purird evolves into Peacird once it's consume by pure kindness, Peacerird bring joys just by flying by.
 Evolutions = DOVENESS,Level,34
-CallRateSOS = 15
+
 #-------------------------------
 [DOVENESS]
 Name = Doveness
@@ -23410,7 +24071,7 @@ Habitat = Urban
 Category = Crow
 Pokedex = Purird evolves into Younrow after being consumed by darkness, Younrows like to tag with people with bad intentions.
 Evolutions = CRORIRD,Level,34
-CallRateSOS = 15
+
 #-------------------------------
 [CRORIRD]
 Name = Crorird
@@ -23536,7 +24197,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-CallRateSOS = 15
+
 
 #-------------------------------
 [TATURUG]
@@ -23738,7 +24399,6 @@ Habitat = Urban
 Category = Shuriken
 Pokedex = ???
 Evolutions = KATAGAMI,Level,30
-CallRateSOS = 15
 #-------------------------------
 [KATAGAMI]
 Name = Katagami
@@ -23788,7 +24448,6 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = SWAMIGAMI,Level,30
-CallRateSOS = 15
 #-------------------------------
 [SWAMIGAMI]
 Name = Swamigami
@@ -23960,7 +24619,7 @@ Habitat = Urban
 Category = Bull
 Pokedex = ???
 Evolutions = DEMITOUR,Level,36
-CallRateSOS = 15
+
 #-------------------------------
 [DEMITOUR]
 Name = Demitour
@@ -24033,7 +24692,6 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = JUHOOSTER,Level,34
-CallRateSOS = 15
 #-------------------------------
 [JUHOOSTER]
 Name = Juhooster
@@ -24508,7 +25166,7 @@ Habitat = Cave
 Category = Magician
 Pokedex = ???
 Evolutions = ADEMORAN,Level,28
-CallRateSOS = 15
+CallRateSOS = 9
 #-------------------------------
 [ADEMORAN]
 Name = Ademoran
@@ -24581,7 +25239,7 @@ Habitat = Forest
 Category = Karate
 Pokedex = ???
 Evolutions = KARABELT,Level,25
-CallRateSOS = 15
+CallRateSOS = 9
 #-------------------------------
 [KARABELT]
 Name = Karabelt
@@ -24608,7 +25266,7 @@ Category = Apprentiece
 Pokedex = ???
 Evolutions = KARAKING,Level,35
 WildItemUncommon = BLACKBELT
-CallRateSOS = 15
+CallRateSOS = 3
 #-------------------------------
 [KARAKING]
 Name = Karaking
@@ -24736,8 +25394,54 @@ Shape = Bipedal
 Habitat = RoughTerrain
 Category = God Beetle
 Pokedex = ???
-
-
+#-------------------------------
+[SPYRE]
+Name = Spyre
+Types = BUG
+BaseStats = 45,60,40,50,40,40
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 59
+EVs = DEFENSE,1
+CatchRate = 120
+Happiness = 50
+Abilities = OVERCOAT
+Moves = 1,SCRATCH,1,LEER,4,STRINGSHOT,6,BUGBITE,9,FLAMEWHEEL,11,SPIDERWEB,14,FIREFANG,18,STICKYWEB,22,POISONFANG,26,UTURN,30,SUCKERPUNCH,38,EGGBOMB,41,LEECHLIFE
+TutorMoves = KNOCKOFF,SWORDSDANCE
+EggMoves = CLOSECOMBAT,SEEDBOMB
+EggGroups = Bug,Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = RoughTerrain
+Category = Spider
+Pokedex = ???
+Evolutions = CATAPYRO, Level, 24
+CallRateSOS = 15
+#-------------------------------
+[CATAPYRO]
+Name = Catapyro
+Types = BUG,FIRE
+BaseStats = 75,110,58,92,60,55
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 166
+EVs = DEFENSE,1
+CatchRate = 45
+Happiness = 50
+Abilities = SWARM
+Moves = 1,SCRATCH,1,LEER,4,STRINGSHOT,6,BUGBITE,9,FLAMEWHEEL,11,SPIDERWEB,14,FIREFANG,18,STICKYWEB,22,POISONFANG,28,UTURN,32,SUCKERPUNCH,39,EGGBOMB,43,LEECHLIFE,46,SLUDGEBOMB,49,XSCISSOR
+TutorMoves = KNOCKOFF,SWORDSDANCE
+EggGroups = Bug,Field
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = RoughTerrain
+Category = Catapult
+Pokedex = ???
 
 #-------------------------------
 [BOUDYENA]
@@ -24892,7 +25596,7 @@ Habitat = Urban
 Category = Rookie
 Pokedex = ???
 Evolutions = WARRIOGRE,Level,30
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [WARRIOGRE]
 Name = Warriogre
@@ -24966,7 +25670,7 @@ Habitat = Grassland
 Category = Pinhata
 Pokedex = These Pokémon love to hang in trees sunbathing. It's said to have existed for decades, even on prehistoric times.
 Evolutions = DRACRUIT,Level,30
-CallRateSOS = 15
+CallRateSOS = 3
 #-------------------------------
 [DRACRUIT]
 Name = Dracruit
@@ -25213,7 +25917,7 @@ Habitat = Mountain
 Category = Infant
 Pokedex = ???
 Evolutions = DRAKIDDO,Level,38
-CallRateSOS = 15
+CallRateSOS = 3
 #-------------------------------
 [DRAKIDDO]
 Name = Drakiddo
@@ -25288,7 +25992,7 @@ Shape = HeadBase
 Habitat = Urban
 Category = Ghost
 Pokedex = ???
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [ARMOGHOUL]
 Name = Armoghoul
@@ -25490,7 +26194,7 @@ Shape = Serpentine
 Habitat = Urban
 Category = Snake
 Pokedex = ???
-CallRateSOS = 15
+CallRateSOS = 3
 #-------------------------------
 [JIARAGON]
 Name = Jiaragon

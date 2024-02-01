@@ -265,14 +265,16 @@ Cave,5
 #-------------------------------
 [068] # Haunted Desert
 LandDay,21
-	40,SUNCARAB,12,14
-    20,TRAPINCH,10,12
+	40,SUNCARAB,9,14
+	30,SPYRE,9,14
+    20,TRAPINCH,9,12
     10,GIBLE,15
 LandNight,21
-    25,TRAPINCH,10,12
+	40,SPYRE,9,14
+    25,TRAPINCH,9,12
     10,GIBLE,15
 #-------------------------------
 [069] # Forgotten Chamber
 Cave,5
-    40,FRUCTERA,12,15
-    40,MOSSELIN,15
+    40,FRUCTERA,9,14
+    30,MOSSELIN,10

@@ -5906,7 +5906,7 @@ ShadowSize = 2
 #-------------------------------
 [ORBEAF]
 BackSprite = 0,20
-FrontSprite = 0,20
+FrontSprite = 0,18
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -6103,8 +6103,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [CELESTEON]
-BackSprite = 0,25
-FrontSprite = 1,11
+BackSprite = 0,13
+FrontSprite = 1,10
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
@@ -6191,3 +6191,51 @@ BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[SUNCARAB]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CATAPYRO]
+BackSprite = 0,0
+FrontSprite = -1,28
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[CHARIZARD,1]
+BackSprite = -2,0
+FrontSprite = 0,11
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[CHOPAXE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[KHECARAB]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ROOGRE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[WARRIOGRE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SPYRE]
+BackSprite = 0,0
+FrontSprite = 1,30
+ShadowX = 0
+ShadowSize = 1
