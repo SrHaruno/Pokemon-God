@@ -1,5 +1,5 @@
 ﻿Name       = v21.1 Hotfixes
-Version    = 1.0.6
+Version    = 1.0.7
 Essentials = 21.1
 Conflicts  = v19 Hotfixes
 Conflicts  = v19.1 Updates
@@ -67,6 +67,15 @@ Credits    = Maruno
 #   writing PBS files.
 # - Fixed the default battle weather being a primal weather causing an
 #   endless loop of that weather starting and ending.
+#
+# 1.0.7:
+#
+# - Fixed the AI thinking it will take End of Round damage when it
+#   won't, and switching because of that.
+# - Fixed the AI wanting to trigger a target's ability/item instead of
+#   not wanting to.
+# - Fixed an event's reflection not disappearing if its page is
+#   changed to one without a graphic.
 #
 #=====================================================================
 #

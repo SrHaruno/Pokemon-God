@@ -6,7 +6,7 @@
 # https://github.com/Maruno17/pokemon-essentials
 #===============================================================================
 
-Essentials::ERROR_TEXT += "[v21.1 Hotfixes 1.0.6]\r\n"
+Essentials::ERROR_TEXT += "[v21.1 Hotfixes 1.0.7]\r\n"
 
 #===============================================================================
 # Fixed Pokédex not showing male/female options for species with gender
@@ -422,3 +422,51 @@ ItemHandlers::UseOnPokemon.add(:ROTOMCATALOG, proc { |item, qty, pkmn, scene|
   end
   next false
 })
+
+#===============================================================================
+# Fixed an event's reflection not disappearing if its page is changed to one
+# without a graphic.
+#===============================================================================
+class Sprite_Character < RPG::Sprite
+  def refresh_graphic
+    return if @tile_id == @character.tile_id &&
+              @character_name == @character.character_name &&
+              @character_hue == @character.character_hue &&
+              @oldbushdepth == @character.bush_depth
+    @tile_id        = @character.tile_id
+    @character_name = @character.character_name
+    @character_hue  = @character.character_hue
+    @oldbushdepth   = @character.bush_depth
+    @charbitmap&.dispose
+    @charbitmap = nil
+    @bushbitmap&.dispose
+    @bushbitmap = nil
+    if @tile_id >= 384
+      @charbitmap = pbGetTileBitmap(@character.map.tileset_name, @tile_id,
+                                    @character_hue, @character.width, @character.height)
+      @charbitmapAnimated = false
+      @spriteoffset = false
+      @cw = Game_Map::TILE_WIDTH * @character.width
+      @ch = Game_Map::TILE_HEIGHT * @character.height
+      self.src_rect.set(0, 0, @cw, @ch)
+      self.ox = @cw / 2
+      self.oy = @ch
+    elsif @character_name != ""
+      @charbitmap = AnimatedBitmap.new(
+        "Graphics/Characters/" + @character_name, @character_hue
+      )
+      RPG::Cache.retain("Graphics/Characters/", @character_name, @character_hue) if @character == $game_player
+      @charbitmapAnimated = true
+      @spriteoffset = @character_name[/offset/i]
+      @cw = @charbitmap.width / 4
+      @ch = @charbitmap.height / 4
+      self.ox = @cw / 2
+    else
+      self.bitmap = nil
+      @cw = 0
+      @ch = 0
+      @reflection&.update   # HOTFIXES: Just added this line
+    end
+    @character.sprite_size = [@cw, @ch]
+  end
+end
