@@ -24886,8 +24886,8 @@ Habitat = Urban
 Category = Melody
 Pokedex = ???
 #-------------------------------
-[SPARCUB]
-Name = Sparcub
+[CUBOLT]
+Name = Cubolt
 Types = ELECTRIC
 BaseStats = 45,30,40,75,70,40
 GenderRatio = Female50Percent

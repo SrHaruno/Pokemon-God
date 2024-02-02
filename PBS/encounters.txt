@@ -63,11 +63,11 @@ Land,21
 #-------------------------------
 [005] # Route 1
 LandDay,21
-    45,DWILD,3,5
+    40,DWILD,3,5
     30,PURIRD,3,5
     10,CAPYBURA,5
 LandNight,21
-    45,CAPYBURA,5
+    40,CAPYBURA,5
     30,PURIRD,3,5
     10,DWILD,3,5
 Water
@@ -81,11 +81,11 @@ SuperRod
 #-------------------------------
 [060] # Serenity Pond
 LandDay,21
-    45,DWILD,3,5
+    40,DWILD,3,5
     30,PURIRD,3,5
     10,CAPYBURA,5
 LandNight,21
-    45,CAPYBURA,5
+    40,CAPYBURA,5
     30,PURIRD,3,5
     10,DWILD,3,5
 Water
@@ -99,11 +99,11 @@ SuperRod
 #-------------------------------
 [014] # Route 2
 LandDay,21
-    45,DWILD,3,5
+    40,DWILD,3,5
     30,PURIRD,3,5
     5,MOSLEEP,5
 LandNight,21
-    45,MOSLEEP,5
+    40,MOSLEEP,5
     30,PURIRD,3,5
     10,DWILD,3,5
 Water
@@ -117,29 +117,29 @@ SuperRod
 #-------------------------------
 [018] # Route 3
 LandDay,21
-    45,CHIKATE,4,6
+    40,CHIKATE,4,6
     30,MOMBER,4,6
     10,EEVEE,10
 LandNight,21
-    45,FLAMUNNY,4,6
+    40,FLAMUNNY,4,6
     30,PURIRD,4,6
     10,EEVEE,10
 #-------------------------------
 [039] # Route 4
 LandDay,21
-    45,DWILD,7,9
+    40,DWILD,7,9
     30,SPARKATIEL,7,9
     10,HUMMIRD,10
 LandNight,21
-    45,DWILD,7,9
+    40,DWILD,7,9
     30,SPARKATIEL,7,9
     10,FRUCTERA,10
 #-------------------------------
 [040] # Route 5
 LandDay,21
-    45,TURTEED,8,10
+    40,TURTEED,8,10
 LandNight,21
-    45,TURTEED,8,10
+    40,TURTEED,8,10
 Water
 	80,MAGIKARP,5
 OldRod
@@ -154,42 +154,42 @@ SuperRod
 #-------------------------------
 [042] # Route 6
 LandDay,21
-    40,SPARCUB,9,12
-	20,KARAKID,9,12
+    40,CUBOLT,9,12
+	30,KARAKID,9,12
 	20,PURIRD,9,12
     10,HUMMIRD,10
 LandNight,21
 	40,CAPYBURA,9,12
-    20,FLAMUNNY,9,10
+    30,FLAMUNNY,9,10
     20,PURIRD,9,10
 	10,FRUCTERA,9,12
 #-------------------------------
 [052] # Route 7
 LandDay,21
-    45,DWILD,9,10
-    30,SPARCUB,9,12
+    40,DWILD,9,10
+    30,CUBOLT,9,12
 	10,PURIRD,9,10
 LandNight,21
-    45,CAPYBURA,9,10
-    30,SPARCUB,9,12
+    40,CAPYBURA,9,10
+    30,CUBOLT,9,12
 	10,PURIRD,9,10
 #-------------------------------
 [067] # Route 8
 Land,21
-	45,BOUDYENA,12,14
+	40,BOUDYENA,12,14
     30,YOUNROW,14,16
 	10,VOODOLL,15
     5,BABRAGON,15
 #-------------------------------
 [076] # Route 9
 Land,21
-    45,PEACIRD,14,16
-    45,ROOGRE,14,16
+    40,PEACIRD,14,16
+    40,ROOGRE,14,16
     5,PINATAYA,15
 #-------------------------------
 [079] # Route 10
 Land,21
-    45,ROOGRE,14,16
+    40,ROOGRE,14,16
     5,PINATAYA,15
 Water
 	80,MAGIKARP,5
@@ -244,7 +244,7 @@ SuperRod
 Cave,5
     40,FRUCTERA,10,12
     30,MOSSELIN,10,12
-    25,DROMEDA,15
+    10,DROMEDA,15
 Water
 	80,MAGIKARP,5
 OldRod
