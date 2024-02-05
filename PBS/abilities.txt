@@ -1115,3 +1115,7 @@ Description = May paralyze targets when a Pokémon makes contact.
 [BROKENSPEAKER]
 Name = Broken Speaker
 Description = Powers up sound moves.
+#-------------------------------
+[MARTIALKING]
+Name = Martial King
+Description = Powers up moves of the same type.
