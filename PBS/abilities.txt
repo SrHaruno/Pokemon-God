@@ -1074,11 +1074,11 @@ Description = Combines Unnerve and Grim Neigh Abilities.
 [SHARPNESS]
 Name = Sharpness
 Description = Powers up slicing moves.
+#
 #\\==================================
 #\\  POKÉMON GOD ABILITIES
 #\\==================================
-
-
+#
 #-------------------------------
 [UNLEASH]
 Name = Unleash
