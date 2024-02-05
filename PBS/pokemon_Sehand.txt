@@ -2497,6 +2497,32 @@ Category = Ancient Dragon
 Pokedex = ???
 
 
+#-------------------------------
+[LORDYSIUM]
+Name = Lordysium
+Types = ANGEL
+BaseStats = 110,100,105,90,150,120
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 340
+EVs = SPECIAL_ATTACK,3
+CatchRate = 45
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggGroups = Undiscovered
+HatchSteps = 30720
+Height = 0.4
+Weight = 4.0
+Color = Yellow
+Shape = Winged
+Habitat = Rare
+Category = Overseer
+Pokedex = ???
+Flags = Legendary
+
+
 
 #-------------------------------
 [GLORY]
@@ -2504,7 +2530,7 @@ Name = GLORY
 Types = ANGEL,GRASS
 BaseStats = 100,100,100,100,100,100
 GenderRatio = Genderless
-GrowthRate = Parabolic
+GrowthRate = Slow
 BaseExp = 300
 EVs = HP,3
 CatchRate = 45
