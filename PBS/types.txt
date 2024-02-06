@@ -9,7 +9,7 @@ Immunities = GHOST,ANGEL,DEMON
 [FIGHTING]
 Name = Fighting
 IconPosition = 1
-Weaknesses = FLYING,PSYCHIC,FAIRY,DEMON,ANGEL
+Weaknesses = FLYING,PSYCHIC,FAIRY,ANGEL
 Resistances = ROCK,BUG,DARK
 #-------------------------------
 [FLYING]
@@ -22,7 +22,7 @@ Immunities = GROUND
 [POISON]
 Name = Poison
 IconPosition = 3
-Weaknesses = GROUND,PSYCHIC
+Weaknesses = GROUND,PSYCHIC,ANGEL
 Resistances = FIGHTING,POISON,BUG,GRASS,FAIRY
 #-------------------------------
 [GROUND]
@@ -116,7 +116,7 @@ Resistances = FIRE,WATER,GRASS,ELECTRIC
 Name = Dark
 IconPosition = 17
 IsSpecialType = true
-Weaknesses = FIGHTING,BUG,FAIRY,DEMON,ANGEL
+Weaknesses = FIGHTING,BUG,FAIRY,ANGEL,DEMON
 Resistances = GHOST,DARK
 Immunities = PSYCHIC
 #-------------------------------
@@ -140,6 +140,6 @@ Immunities = DEMON
 Name = Demon
 IconPosition = 20
 IsSpecialType = false
-Weaknesses = NORMAL,ICE,ANGEL
-Resistances = DARK,GHOST,PSYCHIC,FAIRY
+Weaknesses = ICE,ANGEL
+Resistances = DARK,GHOST,PSYCHIC
 Immunities = FAIRY

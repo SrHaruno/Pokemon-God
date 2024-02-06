@@ -224,8 +224,6 @@ Shape = Bipedal
 Habitat = Sea
 Category = Axolot
 Pokedex = ???
-
-
 #-------------------------------
 [PURIRD]
 Name = Purird
@@ -251,7 +249,7 @@ Habitat = Urban
 Category = Pure
 Pokedex = ???
 Evolutions = PEACIRD,LevelDay,14,YOUNROW,LevelNight,14,PEACIRD,Location,46,YOUNROW,Location,59
-
+CallRateSOS = 10
 #-------------------------------
 [PEACIRD]
 Name = Peacird
@@ -276,7 +274,7 @@ Habitat = Urban
 Category = Peace bringer
 Pokedex = Purird evolves into Peacird once it's consume by pure kindness, Peacerird bring joys just by flying by.
 Evolutions = DOVENESS,Level,34
-
+CallRateSOS = 9
 #-------------------------------
 [DOVENESS]
 Name = Doveness
@@ -324,7 +322,7 @@ Habitat = Urban
 Category = Crow
 Pokedex = Purird evolves into Younrow after being consumed by darkness, Younrows like to tag with people with bad intentions.
 Evolutions = CRORIRD,Level,34
-
+CallRateSOS = 9
 #-------------------------------
 [CRORIRD]
 Name = Crorird
@@ -400,7 +398,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = Hope
 Pokedex = Dwild evolve into Hoggo, an angelic being, due to their overflow of kindness.
-CallRateSOS = 15
+CallRateSOS = 9
 #-------------------------------
 [CAPYBURA]
 Name = Capybura
@@ -450,8 +448,6 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-
-
 #-------------------------------
 [TATURUG]
 Name = Taturug
@@ -502,7 +498,6 @@ Habitat = Urban
 Category = Shell
 Pokedex = ???
 Evolutions = THUNDOTH,Level,30
-CallRateSOS = 15
 #-------------------------------
 [THUNDOTH]
 Name = Thundoth
@@ -576,7 +571,6 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = MOSQUENTE,Level,30
-CallRateSOS = 15
 #-------------------------------
 [MOSQUENTE]
 Name = Mosquente
@@ -626,7 +620,7 @@ Habitat = Urban
 Category = Origami
 Pokedex = ???
 Evolutions = ORIKEN,LevelMale,20,BLOSSIGAMI,LevelFemale,20
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [ORIKEN]
 Name = Oriken
@@ -749,7 +743,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-CallRateSOS = 15
+CallRateSOS = 9
 #-------------------------------
 [MOSLEEP]
 Name = Mosleep
@@ -775,7 +769,7 @@ Habitat = Urban
 Category = Meteor Pokémon
 Pokedex = These pokémon are made of very fragile meteor rocks.
 Evolutions = DROWSKY,Level,25
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [DROWSKY]
 Name = Drowsky
@@ -847,7 +841,7 @@ Habitat = Urban
 Category = Baby bull
 Pokedex = ???
 Evolutions = BUHELL,Level,18
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [BUHELL]
 Name = Buhell
@@ -872,7 +866,6 @@ Habitat = Urban
 Category = Bull
 Pokedex = ???
 Evolutions = DEMITOUR,Level,36
-
 #-------------------------------
 [DEMITOUR]
 Name = Demitour
@@ -920,7 +913,7 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = BOXICKEN,Level,14
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [BOXICKEN]
 Name = Boxicken
@@ -992,7 +985,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [SAMURUNNY]
 Name = Samurunny
@@ -1493,7 +1486,7 @@ Habitat = Forest
 Category = Karate
 Pokedex = ???
 Evolutions = KARABELT,Level,25
-CallRateSOS = 9
+CallRateSOS = 10
 #-------------------------------
 [KARABELT]
 Name = Karabelt
@@ -1520,7 +1513,6 @@ Category = Apprentiece
 Pokedex = ???
 Evolutions = KARAKING,Level,35
 WildItemUncommon = BLACKBELT
-CallRateSOS = 3
 #-------------------------------
 [KARAKING]
 Name = Karaking
@@ -1746,6 +1738,56 @@ Color = Black
 Shape = Bipedal
 Habitat = Urban
 Category = Blacksmith
+Pokedex = ???
+#-------------------------------
+[BALMPOSTOR]
+Name = Balmpostor
+Types = GRASS,POISON
+BaseStats = 55,40,45,30,65,60
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 59
+EVs = SPECIAL_ATTACK,1
+CatchRate = 190
+Happiness = 50
+Abilities = EFFECTSPORE
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Blue
+Shape = HeadArms
+Habitat = Grassland
+Category = Impostor
+Pokedex = ???
+Evolutions = SOMBROOM,Level,35
+CallRateSOS = 10
+#-------------------------------
+[SOMBROOM]
+Name = Sombroom
+Types = GRASS,POISON
+BaseStats = 80,50,65,40,110,105
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 160
+EVs = SPECIAL_ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = EFFECTSPORE
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Blue
+Shape = HeadArms
+Habitat = Grassland
+Category = Sombrero
 Pokedex = ???
 #-------------------------------
 [VOODOLL]
