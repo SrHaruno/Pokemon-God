@@ -5984,9 +5984,9 @@ ShadowSize = 2
 #-------------------------------
 [CUBOLT]
 BackSprite = 0,20
-FrontSprite = 0,28
+FrontSprite = 1,28
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [JOLTAH]
 BackSprite = 0,20
@@ -6239,3 +6239,81 @@ BackSprite = 0,0
 FrontSprite = 1,30
 ShadowX = 0
 ShadowSize = 1
+#-------------------------------
+[KITSU]
+BackSprite = 0,0
+FrontSprite = -8,22
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[CAIBORA]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[DRACRUIT]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[DRAKIDDO]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[JOLTUTER]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[KITSION]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[KITSUNAR]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[HEROGRE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[VOOTED]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SOMBROOM]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[DROMEDA]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[FRUITRAGON]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GLORY]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2

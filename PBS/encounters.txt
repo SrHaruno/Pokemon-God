@@ -176,9 +176,10 @@ LandNight,21
 #-------------------------------
 [067] # Route 8
 Land,21
-	40,BOUDYENA,12,14
-    30,YOUNROW,14,16
-	10,VOODOLL,15
+	30,BOUDYENA,12,14
+	25,KITSU,10,13
+	15,VOODOLL,15
+	10,YOUNROW,14,16
     5,BABRAGON,15
 #-------------------------------
 [076] # Route 9

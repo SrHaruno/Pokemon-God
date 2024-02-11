@@ -597,6 +597,7 @@ Pokedex = ???
 #-------------------------------
 [ORBEAF]
 Name = Orbeaf
+FormName = Male
 Types = GRASS
 BaseStats = 45,65,40,60,30,40
 GenderRatio = Female50Percent
@@ -675,7 +676,7 @@ Pokedex = ???
 Name = Blossigami
 Types = GRASS
 BaseStats = 65,60,50,75,90,50
-GenderRatio = Female50Percent
+GenderRatio = AlwaysFemale
 GrowthRate = Slow
 BaseExp = 122
 EVs = SPECIAL_ATTACK,2
@@ -700,7 +701,7 @@ Evolutions = SWAMIGAMI,Level,30
 Name = Swamigami
 Types = GRASS
 BaseStats = 65,60,60,95,135,60
-GenderRatio = Female50Percent
+GenderRatio = AlwaysFemale
 GrowthRate = Slow
 BaseExp = 225
 EVs = SPECIAL_ATTACK,3
@@ -1790,6 +1791,85 @@ Habitat = Grassland
 Category = Sombrero
 Pokedex = ???
 #-------------------------------
+[KITSU]
+Name = Kitsu
+FormName = Male
+Types = DEMON
+BaseStats = 40,40,40,40,40,40
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 62
+EVs = ATTACK,1
+CatchRate = 128
+Happiness = 50
+Abilities = HUSTLE,RUNAWAY
+HiddenAbilities = TOUGHCLAWS
+Moves = 1,SCRATCH
+TutorMoves = SCRATCH
+EggMoves = SCRATCH
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Yellow
+Shape = Quadruped
+Habitat = Grassland
+Category = Fox
+Pokedex = ???
+CallRateSOS = 15
+Evolutions = KITSION,Item,DUSKSTONE
+#-------------------------------
+[KITSION]
+Name = Kitsion
+Types = DEMON
+BaseStats = 60,130,60,90,80,60
+GenderRatio = AlwaysMale
+GrowthRate = Medium
+BaseExp = 62
+EVs = ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = SHEERFORCE,RUNAWAY
+HiddenAbilities = TOUGHCLAWS
+Moves = 1,SCRATCH
+TutorMoves = SCRATCH
+EggMoves = SCRATCH
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Yellow
+Shape = Quadruped
+Habitat = Grassland
+Category = Beast
+Pokedex = ???
+CallRateSOS = 15
+#-------------------------------
+[KITSUNAR]
+Name = Kitsunar
+Types = PSYCHIC
+BaseStats = 80,40,105,60,85,110
+GenderRatio = AlwaysFemale
+GrowthRate = Medium
+BaseExp = 62
+EVs = ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = SYNCHRONIZE,TRACE
+HiddenAbilities = MAGICGUARD
+Moves = 1,SCRATCH
+TutorMoves = SCRATCH
+EggMoves = SCRATCH
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = White
+Shape = Quadruped
+Habitat = Grassland
+Category = Lunar
+Pokedex = ???
+#-------------------------------
 [VOODOLL]
 Name = Voodoll
 Types = GHOST,DEMON
@@ -1814,7 +1894,7 @@ Habitat = Grassland
 Category = Voodoo
 Pokedex = ???
 Evolutions = VOOTED,Level,25
-CallRateSOS = 15
+CallRateSOS = 9
 #-------------------------------
 [VOOTED]
 Name = Vooted

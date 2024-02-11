@@ -2382,8 +2382,18 @@ BaseStats = 45,30,40,60,65,40
 HiddenAbilities = STEADFAST
 EVs = SPECIAL_ATTACK,1
 Moves = 1,SCRATCH,1,LEER,5,ABSORB,9,SHADOWSNEAK,12,MAGICALLEAF,15,LEECHSEED,18,METALCLAW,21,GIGADRAIN,24,GROWTH,27,AIRCUTTER,30,FLASHCANNON,33,ENERGYBALL
-Color = White
 Pokedex = WIP
+#-------------------------------
+[KITSU,1]
+FormName = Female
+Types = PSYCHIC
+BaseStats = 40,40,40,40,40,40
+EVs = SPECIAL_ATTACK,1
+Abilities = SYNCHRONIZE,TRACE
+HiddenAbilities = MAGICGUARD
+Moves = 1,SCRATCH
+TutorMoves = SCRATCH
+Evolutions = KITSUNAR,Item,MOONSTONE
 #-------------------------------
 [ARMOGHOUL,1]
 FormName = Warrior Form
