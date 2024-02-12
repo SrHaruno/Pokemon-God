@@ -5791,7 +5791,7 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [JUNVIL]
-BackSprite = 0,0
+BackSprite = 0,44
 FrontSprite = 0,12
 ShadowX = 0
 ShadowSize = 2
@@ -5809,13 +5809,13 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [THUNDOTH]
-BackSprite = 0,13
-FrontSprite = 0,20
+BackSprite = 3,7
+FrontSprite = 2,6
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [TATURUG]
-BackSprite = 0,0
+BackSprite = 0,3
 FrontSprite = 0,20
 ShadowX = 0
 ShadowSize = 2
@@ -5869,10 +5869,10 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [PSYLOTE]
-BackSprite = 0,0
-FrontSprite = 0,14
+BackSprite = 0,14
+FrontSprite = 3,12
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [DOVENESS]
 BackSprite = 0,20
@@ -6313,6 +6313,30 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [GLORY]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[JUNVIL,1]
+BackSprite = 0,0
+FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[LORDYSIUM]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[MOUSELECTRIC]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[PINATAYA]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
