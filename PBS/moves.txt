@@ -9025,6 +9025,18 @@ FunctionCode = LowerUserDefSpDef1
 Flags = CanProtect,CanMirrorMove
 Description = The user summons mystical soldiers towards the foe. It also cuts the user's Defense and Sp. Def.
 #-------------------------------
+[FEARLESSSLASH]
+Name = Fearless Slash
+Type = DEMON
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The foe is cut with sharp claws.
+#-------------------------------
 [BERSERKSMASH]
 Name = Berserk Smash
 Type = DEMON		
@@ -9060,4 +9072,4 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = CanProtect,CanMirrorMove
-Description = A powerful beam filled with fear is fired. The user must rest on the next turn to regain its energy.
+Description = A powerful fear-filled beam is fired at the foe. The user must rest on the next turn to regain its energy.

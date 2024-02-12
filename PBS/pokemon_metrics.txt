@@ -6270,7 +6270,7 @@ FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[KITSION]
+[DEVITSUNE]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
