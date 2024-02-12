@@ -4159,8 +4159,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [PYROAR]
-BackSprite = 0,52
-FrontSprite = 3,18
+BackSprite = 0,0
+FrontSprite = 3,10
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -4837,8 +4837,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [PALOSSAND]
-BackSprite = 0,48
-FrontSprite = 0,24
+BackSprite = 0,0
+FrontSprite = 0,4
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
@@ -5119,8 +5119,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [RILLABOOM]
-BackSprite = 0,48
-FrontSprite = -2,14
+BackSprite = 0,0
+FrontSprite = -2,8
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
@@ -5131,8 +5131,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [RABOOT]
-BackSprite = 0,58
-FrontSprite = 4,22
+BackSprite = 0,0
+FrontSprite = 4,13
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
@@ -5173,8 +5173,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [ROOKIDEE]
-BackSprite = 0,58
-FrontSprite = 0,30
+BackSprite = 0,0
+FrontSprite = 0,18
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
@@ -5269,8 +5269,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [ROLYCOLY]
-BackSprite = 0,54
-FrontSprite = 0,30
+BackSprite = 0,0
+FrontSprite = 0,18
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
@@ -6339,5 +6339,11 @@ ShadowSize = 2
 [PINATAYA]
 BackSprite = 0,0
 FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[KITSU,1]
+BackSprite = 0,0
+FrontSprite = 2,14
 ShadowX = 0
 ShadowSize = 2
