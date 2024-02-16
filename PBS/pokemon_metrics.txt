@@ -6276,7 +6276,7 @@ FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[KITSUNAR]
+[LUNARTSUNE]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0

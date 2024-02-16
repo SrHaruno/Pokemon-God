@@ -418,3 +418,9 @@ MapPosition = 0,24,4
 [100]   # ST_House3
 Name = Saintmass City
 MapPosition = 0,16,3
+#-------------------------------
+[101]   # MAP101
+Name = Battle Island
+#-------------------------------
+[102]   # MAP102
+Name = Battle Island

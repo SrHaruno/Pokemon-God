@@ -1,0 +1,7 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#[0]-------------------------------
+JUNVIL;LEFTOVERS;JOLLY;HP,ATK,SPD;BULKUP,KNOCKOFF,POWERWHIP,EARTHQUAKE
+#[1]-------------------------------
+KOMODRA;CHOICESPECS;MODEST;HP,SA,SPD;DRACOMETEOR,DRACOSPHERE,SLUDGEWAVE,FIREBLAST
+#[2]-------------------------------
+AXOLYSTIC;LEFTOVERS;BOLD;HP,DEF,SD;RECOVER,TOXIC,MENTALPRESSURE,PROTECT
