@@ -257,12 +257,13 @@ SuperRod
 #-------------------------------
 [059] # Mt.Solar
 Cave,5
-    40,FRUCTERA,12,15
-    40,MOMBER,15
+    40,MOMBER,9,14
+	40,FRUCTERA,9,14
 #-------------------------------
-[023] # Mt.Solar
+[023] # Mt.Solar #Route 2 & 4 Side
 Cave,5
     40,MOMBER,2,5
+	40,FRUCTERA,5
 #-------------------------------
 [068] # Haunted Desert
 LandDay,21
@@ -272,7 +273,7 @@ LandDay,21
     10,GIBLE,15
 LandNight,21
 	40,SPYRE,9,14
-    25,TRAPINCH,9,12
+    20,TRAPINCH,9,12
     10,GIBLE,15
 #-------------------------------
 [069] # Forgotten Chamber

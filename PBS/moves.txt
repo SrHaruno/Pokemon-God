@@ -8865,6 +8865,18 @@ FunctionCode = None
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The foe is hit with an mouse like whip.
 #-------------------------------
+[ACECOMBAT]
+Name = Ace Combat
+Type = FLYING
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserDefSpDef1
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user engages the foe like an ace. It also cuts the user's Defense and Sp. Def.
+#-------------------------------
 [MENTALPRESSURE]
 Name = Mental Pressure
 Type = PSYCHIC		
