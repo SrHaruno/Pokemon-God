@@ -1312,7 +1312,7 @@ Shape = Bipedal
 Habitat = Urban
 Category = WIP
 Pokedex = ???
-Evolutions = MOSSOLEM,Level,36
+Evolutions = MOSSOLEM,Trade,
 CallRateSOS = 15
 #-------------------------------
 [MOSSOLEM]
