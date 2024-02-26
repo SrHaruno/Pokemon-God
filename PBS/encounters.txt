@@ -137,9 +137,11 @@ LandNight,21
 #-------------------------------
 [040] # Route 5
 LandDay,21
-    40,TURTEED,8,10
+	40,HERMOWER,7,9
+    10,TURTEED,8
 LandNight,21
-    40,TURTEED,8,10
+	40,HERMOWER,7,9
+    10,TURTEED,8
 Water
 	80,MAGIKARP,5
 OldRod

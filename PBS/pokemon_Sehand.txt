@@ -1133,55 +1133,53 @@ Habitat = Urban
 Category = Melody
 Pokedex = ???
 #-------------------------------
-[CUBOLT]
-Name = Cubolt
-Types = ELECTRIC
-BaseStats = 45,30,40,75,70,40
+[HERMOWER] 
+Name = Hermower
+Types = WATER
+BaseStats = 55,60,70,30,40,40
 GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 59
-EVs = SPEED,1
-CatchRate = 200
+GrowthRate = Parabolic
+BaseExp = 65
+EVs = DEFENSE,1
+CatchRate = 225
 Happiness = 50
-Abilities = STATIC
-HiddenAbilities = LIGHTNINGROD
-Moves = 1,SCRATCH,1,GROWL,7,THUNDERWAVE,9,THUNDERSHOCK,12,ECHOEDVOICE,15,CHARGE,18,NOBLEROAR,21,SHOCKWAVE,24,ROAR,27,THUNDERFANG,30,VOLTSWITCH,34,MIGHTYROAR,38,DISCHARGE,42,SLASH
-TutorMoves = FOCUSBLAST,NASTYPLOT
-EggMoves = FIREFANG,ICEFANG,IRONTAIL
-EggGroups = Field
+Abilities = SHELLARMOR,STURDY
+Moves = 1,SCRATCH
+TutorMoves = SCRATCH
+EggMoves = SCRATCH
+EggGroups = Water1
 HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Yellow
+Height = 0.4
+Weight = 60.0
+Color = Blue
 Shape = Quadruped
-Habitat = Grassland
-Category = Cub
-Pokedex = These Pokémon feed from electricity, being commonly found close to heavy thunderstorms.
-Evolutions = JOLTAH,Level,28
+Habitat = Sea
+Category = Crab
+Pokedex = ???
 CallRateSOS = 15
 #-------------------------------
-[JOLTAH]
-Name = Joltah
-Types = ELECTRIC
-BaseStats = 65,50,60,135,105,60
+[HERMASTLE] 
+Name = Hermastle
+Types = WATER
+BaseStats = 100,95,130,40,50,50
 GenderRatio = Female50Percent
-GrowthRate = Slow
+GrowthRate = Parabolic
 BaseExp = 166
-EVs = SPEED,2
+EVs = DEFENSE,2
 CatchRate = 45
 Happiness = 50
-Abilities = STATIC
-HiddenAbilities = LIGHTNINGROD
-Moves = 1,SCRATCH,1,GROWL,7,THUNDERWAVE,9,THUNDERSHOCK,12,ECHOEDVOICE,15,CHARGE,18,NOBLEROAR,21,SHOCKWAVE,24,ROAR,27,THUNDERFANG,32,VOLTSWITCH,36,MIGHTYROAR,40,DISCHARGE,44,SLASH,48,THUNDERBOLT,52,THUNDER,56,HYPERVOICE
-TutorMoves = FOCUSBLAST,NASTYPLOT
-EggGroups = Field
-Height = 0.7
-Weight = 6.9
-Color = Yellow
+Abilities = SHELLARMOR,STURDY
+Moves = 1,SCRATCH
+TutorMoves = SCRATCH
+EggGroups = Water1
+HatchSteps = 5120
+Height = 0.4
+Weight = 60.0
+Color = Blue
 Shape = Quadruped
-Habitat = Grassland
-Category = Thunder God
-Pokedex = This Pokémon has been venerated by many ancient civilizations. it's in constant fight for territory against Luxray.
+Habitat = Sea
+Category = Crab
+Pokedex = ???
 #-------------------------------
 [TURTEED]
 Name = Turteed
@@ -1263,6 +1261,133 @@ Pokedex = ???
 
 
 
+#-------------------------------
+[CUBOLT]
+Name = Cubolt
+Types = ELECTRIC
+BaseStats = 45,30,40,75,70,40
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 59
+EVs = SPEED,1
+CatchRate = 200
+Happiness = 50
+Abilities = STATIC
+HiddenAbilities = LIGHTNINGROD
+Moves = 1,SCRATCH,1,GROWL,7,THUNDERWAVE,9,THUNDERSHOCK,12,ECHOEDVOICE,15,CHARGE,18,NOBLEROAR,21,SHOCKWAVE,24,ROAR,27,THUNDERFANG,30,VOLTSWITCH,34,MIGHTYROAR,38,DISCHARGE,42,SLASH
+TutorMoves = FOCUSBLAST,NASTYPLOT
+EggMoves = FIREFANG,ICEFANG,IRONTAIL
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Yellow
+Shape = Quadruped
+Habitat = Grassland
+Category = Cub
+Pokedex = These Pokémon feed from electricity, being commonly found close to heavy thunderstorms.
+Evolutions = JOLTAH,Level,28
+CallRateSOS = 15
+#-------------------------------
+[JOLTAH]
+Name = Joltah
+Types = ELECTRIC
+BaseStats = 65,50,60,135,105,60
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 166
+EVs = SPEED,2
+CatchRate = 45
+Happiness = 50
+Abilities = STATIC
+HiddenAbilities = LIGHTNINGROD
+Moves = 1,SCRATCH,1,GROWL,7,THUNDERWAVE,9,THUNDERSHOCK,12,ECHOEDVOICE,15,CHARGE,18,NOBLEROAR,21,SHOCKWAVE,24,ROAR,27,THUNDERFANG,32,VOLTSWITCH,36,MIGHTYROAR,40,DISCHARGE,44,SLASH,48,THUNDERBOLT,52,THUNDER,56,HYPERVOICE
+TutorMoves = FOCUSBLAST,NASTYPLOT
+EggGroups = Field
+Height = 0.7
+Weight = 6.9
+Color = Yellow
+Shape = Quadruped
+Habitat = Grassland
+Category = Thunder God
+Pokedex = This Pokémon has been venerated by many ancient civilizations. it's in constant fight for territory against Luxray.
+#-------------------------------
+[KARAKID]
+Name = Karakid
+Types = FIGHTING
+BaseStats = 45,65,45,70,40,40
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 61
+EVs = ATTACK,1
+CatchRate = 180
+Happiness = 50
+Abilities = GUTS,INNERFOCUS
+HiddenAbilities = MARTIALKING
+Moves = 1,TACKLE,1,TAILWHIP,4,FOCUSENERGY,8,KARATECHOP,12,TAILSLAP,16,KNOCKOFF,20,LOWKICK,24,DIZZYPUNCH,29,MEGAPUNCH,32,BULKUP,36,BRICKBREAK,40,CLOSECOMBAT,44,CROSSCHOP,48,MEGAKICK,52,SUPERPOWER
+TutorMoves = FACADE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Brown
+Shape = Bipedal
+Habitat = Forest
+Category = Karate
+Pokedex = ???
+Evolutions = KARABELT,Level,25
+CallRateSOS = 10
+#-------------------------------
+[KARABELT]
+Name = Karabelt
+Types = FIGHTING
+BaseStats = 65,80,75,85,50,50
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 142
+EVs = ATTACK,2
+CatchRate = 90
+Happiness = 50
+Abilities = GUTS
+HiddenAbilities = MARTIALKING,INNERFOCUS
+Moves = 1,TACKLE,1,TAILWHIP,4,FOCUSENERGY,8,KARATECHOP,12,TAILSLAP,16,KNOCKOFF,20,LOWKICK,24,DIZZYPUNCH,31,MEGAPUNCH,36,BULKUP,42,BRICKBREAK,48,CLOSECOMBAT,54,CROSSCHOP,60,MEGAKICK,66,SUPERPOWER
+TutorMoves = FACADE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Brown
+Shape = Bipedal
+Habitat = Forest
+Category = Apprentiece
+Pokedex = ???
+Evolutions = KARAKING,Level,35
+WildItemUncommon = BLACKBELT
+#-------------------------------
+[KARAKING]
+Name = Karaking
+Types = FIGHTING
+BaseStats = 80,120,100,95,55,55
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 227
+EVs = ATTACK,3
+CatchRate = 45
+Happiness = 50
+Abilities = GUTS,INNERFOCUS
+HiddenAbilities = MARTIALKING
+Moves = 1,TACKLE,1,TAILWHIP,4,FOCUSENERGY,8,KARATECHOP,12,TAILSLAP,16,KNOCKOFF,20,LOWKICK,24,DIZZYPUNCH,31,MEGAPUNCH,37,BULKUP,43,BRICKBREAK,49,CLOSECOMBAT,55,CROSSCHOP,61,MEGAKICK,68,SUPERPOWER
+TutorMoves = FACADE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Brown
+Shape = Bipedal
+Habitat = Forest
+Category = Martial King
+Pokedex = ???
 #-------------------------------
 [MOSSELIN]
 Name = Mosselin
@@ -1457,83 +1582,6 @@ Color = Gray
 Shape = Bipedal
 Habitat = Cave
 Category = Galaxy
-Pokedex = ???
-#-------------------------------
-[KARAKID]
-Name = Karakid
-Types = FIGHTING
-BaseStats = 45,65,45,70,40,40
-GenderRatio = Female50Percent
-GrowthRate = Parabolic
-BaseExp = 61
-EVs = ATTACK,1
-CatchRate = 180
-Happiness = 50
-Abilities = GUTS,INNERFOCUS
-HiddenAbilities = MARTIALKING
-Moves = 1,TACKLE,1,TAILWHIP,4,FOCUSENERGY,8,KARATECHOP,12,TAILSLAP,16,KNOCKOFF,20,LOWKICK,24,DIZZYPUNCH,29,MEGAPUNCH,32,BULKUP,36,BRICKBREAK,40,CLOSECOMBAT,44,CROSSCHOP,48,MEGAKICK,52,SUPERPOWER
-TutorMoves = FACADE
-EggMoves = TACKLE
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Brown
-Shape = Bipedal
-Habitat = Forest
-Category = Karate
-Pokedex = ???
-Evolutions = KARABELT,Level,25
-CallRateSOS = 10
-#-------------------------------
-[KARABELT]
-Name = Karabelt
-Types = FIGHTING
-BaseStats = 65,80,75,85,50,50
-GenderRatio = Female50Percent
-GrowthRate = Parabolic
-BaseExp = 142
-EVs = ATTACK,2
-CatchRate = 90
-Happiness = 50
-Abilities = GUTS
-HiddenAbilities = MARTIALKING,INNERFOCUS
-Moves = 1,TACKLE,1,TAILWHIP,4,FOCUSENERGY,8,KARATECHOP,12,TAILSLAP,16,KNOCKOFF,20,LOWKICK,24,DIZZYPUNCH,31,MEGAPUNCH,36,BULKUP,42,BRICKBREAK,48,CLOSECOMBAT,54,CROSSCHOP,60,MEGAKICK,66,SUPERPOWER
-TutorMoves = FACADE
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Brown
-Shape = Bipedal
-Habitat = Forest
-Category = Apprentiece
-Pokedex = ???
-Evolutions = KARAKING,Level,35
-WildItemUncommon = BLACKBELT
-#-------------------------------
-[KARAKING]
-Name = Karaking
-Types = FIGHTING
-BaseStats = 80,120,100,95,55,55
-GenderRatio = Female50Percent
-GrowthRate = Parabolic
-BaseExp = 227
-EVs = ATTACK,3
-CatchRate = 45
-Happiness = 50
-Abilities = GUTS,INNERFOCUS
-HiddenAbilities = MARTIALKING
-Moves = 1,TACKLE,1,TAILWHIP,4,FOCUSENERGY,8,KARATECHOP,12,TAILSLAP,16,KNOCKOFF,20,LOWKICK,24,DIZZYPUNCH,31,MEGAPUNCH,37,BULKUP,43,BRICKBREAK,49,CLOSECOMBAT,55,CROSSCHOP,61,MEGAKICK,68,SUPERPOWER
-TutorMoves = FACADE
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Brown
-Shape = Bipedal
-Habitat = Forest
-Category = Martial Master
 Pokedex = ???
 
 

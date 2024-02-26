@@ -8754,7 +8754,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = LowerTargetDefSpDef1SwitchOutUser
 Flags = CanProtect,CanMirrorMove,Sound
-Description = A mighty roar that frightens the foes, the user lowers the target's Defense and Sp. Def stats. Then it switches out.
+Description = With a frightening roar, the user lowers the target's Defense and Sp. Def stats. Then it switches out.
 #-------------------------------
 [EXCALIBOO]
 Name = Excaliboo
@@ -8767,7 +8767,7 @@ Target = NearOther
 Priority = -6
 FunctionCode = SwitchOutTargetDamagingMove
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user scares the target by slashing a ghostly sword. Drags out another Pokémon in its party. In the wild, the battle ends.
+Description = The user scares the foe with a ghostly sword. Drags out another Pokémon in its party. In the wild, the battle ends.
 #-------------------------------
 [FLAMEHORN]
 Name = Flame Horn
