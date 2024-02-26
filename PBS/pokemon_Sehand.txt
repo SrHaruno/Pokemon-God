@@ -249,7 +249,7 @@ Habitat = Urban
 Category = Pure
 Pokedex = ???
 Evolutions = PEACIRD,LevelDay,14,YOUNROW,LevelNight,14,PEACIRD,Location,46,YOUNROW,Location,59
-CallRateSOS = 10
+CallRateSOS = 15
 #-------------------------------
 [PEACIRD]
 Name = Peacird
@@ -424,7 +424,7 @@ Habitat = Urban
 Category = Capybara
 Pokedex = ???
 Evolutions = CAPYJAW,Level,20
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [CAPYJAW]
 Name = Capyjaw
@@ -914,7 +914,7 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = BOXICKEN,Level,14
-CallRateSOS = 10
+CallRateSOS = 15
 #-------------------------------
 [BOXICKEN]
 Name = Boxicken
@@ -1288,7 +1288,7 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = MOSSENGE,Level,25
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [MOSSENGE]
 Name = Mossenge
@@ -1313,7 +1313,6 @@ Habitat = Urban
 Category = WIP
 Pokedex = ???
 Evolutions = MOSSOLEM,Trade,
-CallRateSOS = 15
 #-------------------------------
 [MOSSOLEM]
 Name = Mossolem
@@ -1564,7 +1563,7 @@ Habitat = Grassland
 Category = Badger
 Pokedex = Those Pokémon work together to gather berries in trees, One lays with belly up, while other hitting the berry tree, making the berries fall in the first one.
 Evolutions = VAMPADGER,Level,30
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [VAMPADGER]
 Name = Vampadger
@@ -1616,7 +1615,7 @@ Habitat = RoughTerrain
 Category = Beetle
 Pokedex = ???
 Evolutions = KHECARAB, Level, 35
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [KHECARAB]
 Name = Khecarab
@@ -1763,7 +1762,7 @@ Habitat = Grassland
 Category = Impostor
 Pokedex = ???
 Evolutions = SOMBROOM,Level,35
-CallRateSOS = 10
+CallRateSOS = 9
 #-------------------------------
 [SOMBROOM]
 Name = Sombroom
@@ -1814,7 +1813,7 @@ Shape = Quadruped
 Habitat = Grassland
 Category = Fox
 Pokedex = ???
-CallRateSOS = 15
+CallRateSOS = 10
 Evolutions = DEVITSUNE,Item,DUSKSTONE
 #-------------------------------
 [DEVITSUNE]
@@ -1840,7 +1839,6 @@ Shape = Quadruped
 Habitat = Grassland
 Category = Beast
 Pokedex = ???
-CallRateSOS = 15
 #-------------------------------
 [LUNARTSUNE]
 Name = Lunartsune
@@ -2117,8 +2115,8 @@ Color = Gray
 Shape = HeadLegs
 Habitat = Urban
 Category = Axe
-Evolutions = AXESSAUR,Level,40
-CallRateSOS = 15
+Evolutions = AXESSAUR,Level,35
+CallRateSOS = 10
 #-------------------------------
 [AXESSAUR]
 Name = Axessaur
@@ -2169,7 +2167,7 @@ Habitat = Urban
 Category = Floor
 Pokedex = Crackuum desguise themselfs amoung cracked sideways and attack once stepped. They usually feed from toxicity.
 Evolutions = CILLUTION,Level,30
-CallRateSOS = 15
+CallRateSOS = 10
 #-------------------------------
 [CILLUTION]
 Name = Cillution
@@ -2619,14 +2617,14 @@ Pokedex = ???
 [LORDYSIUM]
 Name = Lordysium
 Types = ANGEL
-BaseStats = 110,100,105,90,150,120
+BaseStats = 110,100,105,95,150,120
 GenderRatio = Genderless
 GrowthRate = Slow
 BaseExp = 340
 EVs = SPECIAL_ATTACK,3
 CatchRate = 45
 Happiness = 100
-Abilities = SYNCHRONIZE
+Abilities = PRESSURE
 Moves = 1,TACKLE
 TutorMoves = TACKLE
 EggGroups = Undiscovered

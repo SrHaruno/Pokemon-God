@@ -155,6 +155,7 @@ Environment = None
 Name = Mt.Hope
 ShowArea = true
 Bicycle = true
+MapPosition = 0,22,9
 #-------------------------------
 [042]   # Route 6
 Name = Route 6
@@ -419,8 +420,8 @@ MapPosition = 0,24,4
 Name = Saintmass City
 MapPosition = 0,16,3
 #-------------------------------
-[101]   # MAP101
+[101]   # Battle Tower
 Name = Battle Island
 #-------------------------------
-[102]   # MAP102
+[102]   # Battle Tower Arena
 Name = Battle Island
