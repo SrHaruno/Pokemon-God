@@ -330,4 +330,48 @@ Pokemon = BOUDYENA,14
 Pokemon = VOODOLL,14
 Pokemon = YOUNROW,16
 
+#Saitmass Town
+
+#Gym
+#-------------------------------
+[ENGINEER,Joseph]
+LoseText = Grr!
+Pokemon = CHOPAXE,20
+#-------------------------------
+[ENGINEER,Ricchard]
+LoseText = My my!
+Pokemon = CHOPAXE,20
+Pokemon = ELECOON,22
+#-------------------------------
+[ENGINEER,Bob]
+LoseText = Grr!
+Pokemon = TURTLOW,25
+#-------------------------------
+[ENGINEER,Felix]
+LoseText = Take care of it! it's very frail.
+Pokemon = TURTLOW,25
+Pokemon = CHOPAXE,22
+#-------------------------------
+[ENGINEER,John]
+LoseText = My Pokémon got shocked by your skills!
+Pokemon = CUBOLT,25
+#-------------------------------
+[ENGINEER,Fabio]
+LoseText = Be careful to not get shocked!
+Pokemon = TURTLOW,20
+#-------------------------------
+[LEADER_Nikolai,Nikolai]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = That was AMAZING!
+Pokemon = CUBOLT,20
+    Moves = THUNDERWAVE,VOLTSWITCH,NOBLEROAR
+Pokemon = TURTLOW,22
+    Moves = RAPIDSPIN,BODYPRESS,BUBBLEBEAM,METALCLAW
+Pokemon = CHOPAXE,24
+    Moves = SCRATCH
+Pokemon = JOLTUTER,26
+    Moves = THUNDERWAVE,VOLTSWITCH,MOUSEWHIP,METALSOUND
+	Item  = SITRUSBERRY
+	
+
 

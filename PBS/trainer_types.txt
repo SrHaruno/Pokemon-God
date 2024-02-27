@@ -35,6 +35,13 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Victory! Gym Leader
+#-------------------------------
+[LEADER_Nikolai]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle! Vs Gym Leader
+VictoryBGM = Victory! Gym Leader
 
 
 
