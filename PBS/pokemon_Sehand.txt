@@ -1514,7 +1514,7 @@ Pokedex = ???
 [DROMEDA]
 Name = Dromeda
 Types = PSYCHIC
-BaseStats = 45,30,30,80,90,45
+BaseStats = 45,30,30,70,80,55
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 62
@@ -1540,7 +1540,7 @@ CallRateSOS = 9
 [ADEMORAN]
 Name = Ademoran
 Types = PSYCHIC
-BaseStats = 55,40,40,90,100,55
+BaseStats = 55,40,40,90,100,75
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 62
@@ -1564,7 +1564,7 @@ Evolutions = ANDROWIZARD,Level,48
 [ANDROWIZARD]
 Name = Androwizard
 Types = PSYCHIC
-BaseStats = 65,50,50,104,130,95
+BaseStats = 65,50,50,105,130,100
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 62
@@ -1993,7 +1993,7 @@ Pokedex = ???
 [ROOGRE]
 Name = Roogre
 Types = ANGEL
-BaseStats = 60,50,55,30,30,45
+BaseStats = 70,60,65,30,30,55
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 62
@@ -2013,13 +2013,13 @@ Shape = Bipedal
 Habitat = Urban
 Category = Rookie
 Pokedex = ???
-Evolutions = WARRIOGRE,Level,30
-CallRateSOS = 10
+Evolutions = WARRIOGRE,Level,28
+CallRateSOS = 9
 #-------------------------------
 [WARRIOGRE]
 Name = Warriogre
 Types = ANGEL
-BaseStats = 90,70,80,40,40,55
+BaseStats = 100,70,90,40,40,60
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 62
@@ -2038,12 +2038,12 @@ Shape = Bipedal
 Habitat = Urban
 Category = Warrior
 Pokedex = ???
-Evolutions = HEROGRE,Level,40
+Evolutions = HEROGRE,Level,48
 #-------------------------------
 [HEROGRE]
 Name = Herogre
 Types = ANGEL
-BaseStats = 108,120,110,50,50,60
+BaseStats = 130,100,105,50,50,65
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 62
@@ -2051,7 +2051,7 @@ EVs = HP,3
 CatchRate = 235
 Happiness = 50
 Abilities = INNERFOCUS,JUSTIFIED
-Moves = 0,SWORDOFJUSTICE,1,POUND,5,SACREDSLASH,9,METALCLAW,12,HEADBUTT,16,PUNISHINGBEAM,20,TAKEDOWN,24,ODINSTRIKE,28,TAKEDOWN,34,ZEUSPUNCH,38,SWORDSDANCE,44,IRONHEAD,48,CRUSADINGBLITZ,52,GIGAIMPACT,58,SUPERPOWER
+Moves = 0,SWORDOFJUSTICE,1,POUND,5,SACREDSLASH,9,METALCLAW,12,HEADBUTT,16,PUNISHINGBEAM,20,TAKEDOWN,24,ODINSTRIKE,28,TAKEDOWN,34,ZEUSPUNCH,38,SWORDSDANCE,44,IRONHEAD,48,CRUSADINGBLITZ,54,GIGAIMPACT,60,SUPERPOWER
 TutorMoves = TACKLE
 EggGroups = Humanlike,Monster
 HatchSteps = 5120
@@ -2308,6 +2308,86 @@ Color = Gray
 Shape = HeadLegs
 Habitat = Urban
 Category = Computer
+
+#-------------------------------
+[MEOWTUNO]
+Name = Meowtuno
+Types = DARK
+BaseStats = 40,65,30,80,65,30
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPEED,1
+CatchRate = 235
+Happiness = 50
+Abilities = QUICKFEET
+Moves = 1,SCRATCH,1,TAILWHIP
+TutorMoves = SCRATCH
+EggMoves = DARKPULSE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Cave
+Category = Cat
+Pokedex = ???
+CallRateSOS = 9
+Evolutions = KLEPTUNO,Level,28
+#-------------------------------
+[KLEPTUNO]
+Name = Kleptuno
+Types = DARK
+BaseStats = 60,85,40,90,85,40
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPEED,2
+CatchRate = 235
+Happiness = 50
+Abilities = QUICKFEET
+Moves = 1,SCRATCH,1,TAILWHIP
+TutorMoves = SCRATCH
+EggMoves = DARKPULSE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Cave
+Category = Cat
+Pokedex = ???
+Evolutions = KLEPURR,Level,48
+#-------------------------------
+[KLEPURR]
+Name = Klepurr
+Types = DARK
+BaseStats = 80,95,50,130,95,50
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPEED,2
+CatchRate = 235
+Happiness = 50
+Abilities = QUICKFEET
+Moves = 1,SCRATCH,1,TAILWHIP
+TutorMoves = SCRATCH
+EggMoves = DARKPULSE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Cave
+Category = Cat
+Pokedex = ???
+
+
+
+
 
 
 #-------------------------------

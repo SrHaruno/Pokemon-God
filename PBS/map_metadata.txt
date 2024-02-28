@@ -102,11 +102,11 @@ ShowArea = true
 MapPosition = 0,22,7
 BattleBack = field
 #-------------------------------
-[023]   # Mt.Solar
+[023]   # Mt.Solar (Route 2)
 Name = Mt.Solar
 ShowArea = true
 Bicycle = true
-MapPosition = 0,18,8
+MapPosition = 0,19,7
 BattleBack = cave1
 Environment = Cave
 #-------------------------------
@@ -425,3 +425,16 @@ Name = Battle Island
 #-------------------------------
 [102]   # Battle Tower Arena
 Name = Battle Island
+#-------------------------------
+[103]   # Mt.Solar(Route 4)
+Name = Mt.Solar
+Outdoor = true
+ShowArea = true
+MapPosition = 0,19,9
+#-------------------------------
+[104]   # Klepto Cave
+Name = Klepto Cave
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,10
+BattleBack = Cave1

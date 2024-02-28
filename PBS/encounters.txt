@@ -179,15 +179,15 @@ LandNight,21
 [067] # Route 8
 Land,21
 	30,BOUDYENA,12,14
-	25,KITSU,10,13
+	25,KITSU,10,14
 	15,VOODOLL,15
 	10,YOUNROW,14,16
     5,BABRAGON,15
 #-------------------------------
 [076] # Route 9
 Land,21
-    40,PEACIRD,14,16
-    40,ROOGRE,14,16
+    40,ROOGRE,12,14
+	10,PEACIRD,14,16
     5,PINATAYA,15
 #-------------------------------
 [079] # Route 10
@@ -274,16 +274,23 @@ Cave,5
 #-------------------------------
 [068] # Haunted Desert
 LandDay,21
-	40,SUNCARAB,9,14
-	30,SPYRE,9,14
+	40,SUNCARAB,9,12
+	30,SPYRE,9,12
     20,TRAPINCH,9,12
     10,GIBLE,15
 LandNight,21
-	40,SPYRE,9,14
+	40,SPYRE,9,12
     20,TRAPINCH,9,12
     10,GIBLE,15
 #-------------------------------
 [069] # Forgotten Chamber
 Cave,5
-    40,FRUCTERA,9,10
-    30,MOSSELIN,10
+    40,FRUCTERA,9,12
+    30,MOSSELIN,9,12
+#-------------------------------
+[104] # Klepto Cave
+Cave,5
+    40,FRUCTERA,14,16
+	30,MOSSELIN,14,16
+	10,MEOWTUNO,12,14
+	
