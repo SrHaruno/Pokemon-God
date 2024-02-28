@@ -261,6 +261,15 @@ SuperRod
 Cave,5
     40,MOMBER,2,5
 	40,FRUCTERA,5
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33	
+
 #-------------------------------
 [103] # Mt.Solar #Route 4 Side
 Cave,5
@@ -271,6 +280,15 @@ Cave,5
 Cave,5
     40,MOMBER,9,14
 	40,FRUCTERA,9,14
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33	
+
 #-------------------------------
 [068] # Haunted Desert
 LandDay,21

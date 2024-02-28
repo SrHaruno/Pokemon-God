@@ -314,21 +314,17 @@ Pokemon = MOSLEEP,13
 LoseText = Their shine wasn't enought for you!
 Pokemon = GRALING,12
 	Shiny = true
-Pokemon = CUBTURN,12
+Pokemon = KITSU,12
 	Shiny = true
 
 #Vituresa Town
 #-------------------------------
-[ACETRAINER_M, Pietro]
-LoseText = You are strong!
-Pokemon = BABRAGON,18
-Pokemon = ROOGRE,18
-#Chief House
 [REAPER, Drake,1]
 LoseText = Not again!
 Pokemon = BOUDYENA,14
 Pokemon = VOODOLL,14
 Pokemon = YOUNROW,16
+
 
 #Saitmass Town
 
@@ -374,4 +370,28 @@ Pokemon = JOLTUTER,26
 	Item  = SITRUSBERRY
 	
 
-
+#Klepto Cave
+#-------------------------------
+[REAPER, Yian]
+LoseText = How this little kiddo beat me!
+Pokemon = BOUDYENA,12
+Pokemon = MEOWTUNO,10
+#-------------------------------
+[REAPER, Edgar]
+LoseText = It's time to bye-bye go! go!
+Pokemon = MEOWTUNO,12
+#-------------------------------
+[REAPER, Tulio]
+LoseText = Great, beated by a kid.
+Pokemon = CAPYBURA,10
+Pokemon = CUBTURN,12
+#-------------------------------
+[REAPER, Silva]
+LoseText = Retreat! Retreat!
+Pokemon = MEOWTUNO,14
+#-------------------------------
+[REAPER, Drake,2]
+LoseText = I was gonna make a fortune!
+Pokemon = BOUDYENA,16
+Pokemon = VOODOLL,16
+Pokemon = YOUNROW,18

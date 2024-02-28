@@ -329,9 +329,4 @@ Name = Reaper
 Gender = Male
 BaseMoney = 32
 BattleBGM = Battle! Vs Reaper
-IntroBGM = Trainer Eyes Meet! Youngster
-#-------------------------------
-[TWINS]
-Name = Twins
-Gender = Unknown
-BaseMoney = 24
+IntroBGM = Trainer Eyes Meet! Psychic
