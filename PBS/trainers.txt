@@ -390,6 +390,10 @@ Pokemon = CUBTURN,12
 LoseText = Retreat! Retreat!
 Pokemon = MEOWTUNO,14
 #-------------------------------
+[REAPER, Ryden]
+LoseText = Standing here I realised that I lost!
+Pokemon = MEOWTUNO,12
+#-------------------------------
 [REAPER, Drake,2]
 LoseText = I was gonna make a fortune!
 Pokemon = BOUDYENA,16
