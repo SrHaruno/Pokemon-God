@@ -311,4 +311,10 @@ Cave,5
     40,FRUCTERA,14,16
 	30,MOSSELIN,14,16
 	10,MEOWTUNO,12,14
+#-------------------------------
+[105] # Klepto Cave
+Cave,5
+    30,FRUCTERA,14,16
+	30,MOSSELIN,14,16
+	25,MEOWTUNO,12,14
 	

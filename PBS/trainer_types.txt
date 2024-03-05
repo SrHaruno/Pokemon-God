@@ -329,4 +329,4 @@ Name = Reaper
 Gender = Male
 BaseMoney = 32
 BattleBGM = Battle! Vs Reaper
-IntroBGM = Trainer Eyes Meet! Psychic
+IntroBGM = Trainer Eyes Meet! Reaper

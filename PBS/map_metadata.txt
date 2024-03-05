@@ -438,3 +438,9 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,17,10
 BattleBack = Cave1
+#-------------------------------
+[105]   # Klepto Cave (B1F)
+Name = Klepto Cave
+Bicycle = true
+MapPosition = 0,17,10
+BattleBack = Cave1
