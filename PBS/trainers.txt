@@ -2,45 +2,75 @@
 
 #First Rival Battle#
 #-------------------------------
-[RIVAL1,Bruno] #Graling
+[RIVAL1,Bruno] #Player has Graling
 LoseText = Nice Battle!
-Pokemon = GRALING,5
+Pokemon = AXOLOBY,5
 	Moves = TACKLE,TAILWHIP
 	
 #-------------------------------
-[RIVAL1,Bruno,1] #Egdon
+[RIVAL1,Bruno,1] #Player has Egdon
 LoseText = Nice Battle!
-Pokemon = EGDON,5
+Pokemon = GRALING,5
 	Moves = SCRATCH,LEER
 	
 #-------------------------------
-[RIVAL1,Bruno,2] #Axoloby
+[RIVAL1,Bruno,2] #Player has Axoloby
 LoseText = Nice Battle!
-Pokemon = AXOLOBY,5
-Moves = TACKLE,TAILWHIP
+Pokemon = EGDON,5
+	Moves = TACKLE,TAILWHIP
+
 
 
 #Second Rival Battle
 #-------------------------------
-[RIVAL1,Bruno,3] #Graling
+[RIVAL1,Bruno,3] #Player has Graling
+LoseText = Nice Battle!
+Pokemon = PURIRD,10
+Pokemon = ORBEAF,16
+	Gender = Male
+Pokemon = AXOLOBY,12
+	
+#-------------------------------
+[RIVAL1,Bruno,4] #Player has Egdon
 LoseText = Nice Battle!
 Pokemon = PURIRD,10
 Pokemon = MAGIKARP,10
 Pokemon = GRALING,12
 	
 #-------------------------------
-[RIVAL1,Bruno,4] #Egdon
+[RIVAL1,Bruno,5] #Player has Axoloby
 LoseText = Nice Battle!
 Pokemon = PURIRD,10
-Pokemon = MAGIKARP,10
+Pokemon = ORBEAF,16
+	Gender = Male
 Pokemon = EGDON,12
+
+
+
+#Third Rival Battle
+#-------------------------------
+[RIVAL1,Bruno,6] #Player has Graling
+LoseText = Nice Battle!
+Pokemon = YOUNROW,14
+Pokemon = ORBEAF,16
+	Gender = Male
+Pokemon = AXOLOBY,17
 	
 #-------------------------------
-[RIVAL1,Bruno,5] #Axoloby
+[RIVAL1,Bruno,7] #Player has Egdon
 LoseText = Nice Battle!
-Pokemon = PURIRD,10
-Pokemon = MOMBER,10
-Pokemon = AXOLOBY,12
+Pokemon = YOUNROW,14
+Pokemon = GYARADOS,20
+Pokemon = GRALING,17
+	
+#-------------------------------
+[RIVAL1,Bruno,8] #Player has Axoloby
+LoseText = Nice Battle!
+Pokemon = YOUNROW,14
+Pokemon = ORBEAF,16
+	Gender = Male
+Pokemon = EGDON,17
+
 
 
 #Gym Rematches
