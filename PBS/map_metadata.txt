@@ -338,7 +338,7 @@ MapPosition = 0,16,3
 Name = Route 10
 Outdoor = true
 ShowArea = true
-Weather = Rain,80
+Weather = Rain,100
 MapPosition = 0,17,5
 BattleBack = Field
 #-------------------------------
