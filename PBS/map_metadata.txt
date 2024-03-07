@@ -444,3 +444,15 @@ Name = Klepto Cave
 Bicycle = true
 MapPosition = 0,17,10
 BattleBack = Cave1
+#-------------------------------
+[106]   # Connection Cave
+Name = Connection Cave
+Bicycle = true
+MapPosition = 0,16,12
+BattleBack = Cave1
+#-------------------------------
+[107]   # Connection Cave
+Name = Connection Cave
+Bicycle = true
+MapPosition = 0,16,12
+BattleBack = Cave1
