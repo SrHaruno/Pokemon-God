@@ -268,7 +268,7 @@ BattleBack = field
 Name = Gigantopolis
 Outdoor = true
 ShowArea = true
-MapPosition = 0,11,3
+MapPosition = 0,12,4
 BattleBack = city
 #-------------------------------
 [067]   # Route 8
@@ -456,3 +456,10 @@ Name = Connection Cave
 Bicycle = true
 MapPosition = 0,16,12
 BattleBack = Cave1
+#-------------------------------
+[108]   # Gigantopolis_HS1
+Name = Gigantopolis
+MapPosition = 0,12,4
+#-------------------------------
+[109]   # Gigantopolis PC
+Name = Gigantopolis
