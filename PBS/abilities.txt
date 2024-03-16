@@ -1071,6 +1071,51 @@ Description = Combines Unnerve and Chilling Neigh Abilities.
 Name = As One
 Description = Combines Unnerve and Grim Neigh Abilities.
 #-------------------------------
+[SHARPNESS]
+Name = Sharpness
+Description = Powers up slicing moves.
+#
+#\\==================================
+#\\  POKÉMON GOD ABILITIES
+#\\==================================
+#
+#-------------------------------
 [UNLEASH]
 Name = Unleash
-Description = Raises it's highest attack stat when knocking a foe.
+Description = Raises the highest offensive stat knocking any Pokémon.
+#-------------------------------
+[COLDBLOOD]
+Name = Cold Blood
+Description = Ups resistance to Fire- and Ice-type moves.
+#-------------------------------
+[DARKNESSARMOUR]
+Name = Darkness Armour
+Description = Ups resistance to Dark- and Ghost-type moves.
+#-------------------------------
+[RUSTYARMOUR]
+Name = Rusty Armour
+Description = Ups resistance to Fire- and Ground-type moves.
+#-------------------------------
+[PURIFICATION]
+Name = Purification
+Description = Restores HP if hit by a Poison-type move.
+#-------------------------------
+[PUREONE]
+Name = Pure One
+Description = Dark-type moves become Angel-type.
+#-------------------------------
+[SUNRISE]
+Name = Sunrise
+Description = Turns the sunlight harsh if it is in battle.
+#-------------------------------
+[BAREWIRE]
+Name = Bare Wire
+Description = May paralyze targets when a Pokémon makes contact.
+#-------------------------------
+[BROKENSPEAKER]
+Name = Broken Speaker
+Description = Powers up sound moves.
+#-------------------------------
+[MARTIALKING]
+Name = Martial King
+Description = Powers up moves of the same type.

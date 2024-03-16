@@ -1,6 +1,0 @@
-﻿# To localize this text for a particular language, please
-# translate every second line of this file.
-#-------------------------------
-[Map058]
-We still fixing our boats!\nPlease come back later!
-We still fixing our boats!\nPlease come back later!

@@ -2,45 +2,107 @@
 
 #First Rival Battle#
 #-------------------------------
-[RIVAL1,Bruno] #Graling
+[RIVAL1,Bruno] #Player has Graling
 LoseText = Nice Battle!
-Pokemon = GRALING,5
+Pokemon = AXOLOBY,5
 	Moves = TACKLE,TAILWHIP
 	
 #-------------------------------
-[RIVAL1,Bruno,1] #Egdon
+[RIVAL1,Bruno,1] #Player has Egdon
 LoseText = Nice Battle!
-Pokemon = EGDON,5
+Pokemon = GRALING,5
 	Moves = SCRATCH,LEER
 	
 #-------------------------------
-[RIVAL1,Bruno,2] #Axoloby
+[RIVAL1,Bruno,2] #Player has Axoloby
 LoseText = Nice Battle!
-Pokemon = AXOLOBY,5
-Moves = TACKLE,TAILWHIP
+Pokemon = EGDON,5
+	Moves = TACKLE,TAILWHIP
+
 
 
 #Second Rival Battle
 #-------------------------------
-[RIVAL1,Bruno,3] #Graling
+[RIVAL1,Bruno,3] #Player has Graling
+LoseText = Nice Battle!
+Pokemon = PURIRD,10
+Pokemon = ORBEAF,16
+	Gender = Male
+Pokemon = AXOLOBY,12
+	
+#-------------------------------
+[RIVAL1,Bruno,4] #Player has Egdon
 LoseText = Nice Battle!
 Pokemon = PURIRD,10
 Pokemon = MAGIKARP,10
 Pokemon = GRALING,12
 	
 #-------------------------------
-[RIVAL1,Bruno,4] #Egdon
+[RIVAL1,Bruno,5] #Player has Axoloby
 LoseText = Nice Battle!
 Pokemon = PURIRD,10
-Pokemon = MAGIKARP,10
+Pokemon = ORBEAF,16
+	Gender = Male
 Pokemon = EGDON,12
+
+
+
+#Third Rival Battle
+#-------------------------------
+[RIVAL1,Bruno,6] #Player has Graling
+LoseText = Nice Battle!
+Pokemon = YOUNROW,14
+Pokemon = ORBEAF,16
+	Gender = Male
+Pokemon = AXOLOBY,17
 	
 #-------------------------------
-[RIVAL1,Bruno,5] #Axoloby
+[RIVAL1,Bruno,7] #Player has Egdon
 LoseText = Nice Battle!
-Pokemon = PURIRD,10
-Pokemon = MOMBER,10
-Pokemon = AXOLOBY,12
+Pokemon = YOUNROW,14
+Pokemon = GYARADOS,20
+Pokemon = GRALING,17
+	
+#-------------------------------
+[RIVAL1,Bruno,8] #Player has Axoloby
+LoseText = Nice Battle!
+Pokemon = YOUNROW,14
+Pokemon = ORBEAF,16
+	Gender = Male
+Pokemon = EGDON,17
+
+
+
+#Gym Rematches
+
+#Daniel
+#-------------------------------
+[LEADER_Daniel,Daniel,1]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = Very good. You still have the hang of it!
+Pokemon = MOSSENGE,25
+Pokemon = SIMISAGE,25
+Pokemon = ORIKEN,28
+Pokemon = EVIRASS,30
+#-------------------------------
+[LEADER_Daniel,Daniel,2]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Very good. You still have the hang of it!
+Pokemon = MOSSENGE,30
+Pokemon = SIMISAGE,30
+Pokemon = IVYSAUR,35
+Pokemon = KATAGAMI,35
+Pokemon = JUNVIL,38
+#-------------------------------
+[LEADER_Daniel,Daniel,3]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Very good. You still have the hang of it!
+Pokemon = MOSSOLEM,40
+Pokemon = SIMISAGE,40
+Pokemon = VENUSAUR,45
+Pokemon = KATAGAMI,45
+Pokemon = JUNVIL,48
+
 
 
 #Route 2
@@ -71,6 +133,14 @@ Pokemon = CHIKATE,7
 LoseText = Yeehaw!
 Pokemon = DWILD,6
 Pokemon = CHIKATE,7
+
+
+#Route 4
+#-------------------------------
+[GENTLEMAN, Golding]
+LoseText = Oh no! I dropped my coffee!
+Pokemon = CUBTURN,10
+Pokemon = EEVEE,10
 
 
 #Indi Forest
@@ -112,18 +182,23 @@ Pokemon = GRALING,10
 #-------------------------------
 [TUBER_M, João]
 LoseText = Buaaaaaaaah!
-Pokemon = TURTEED,10
+Pokemon = TURTEED,9
 #-------------------------------
 [TUBER_F, Maria]
-LoseText = Atleast my tube is still cute!
-Pokemon = AXOLOBY,10
+LoseText = Atleast my floaty is still cute!
+Pokemon = AXOLOBY,8
 #-------------------------------
 [YOUNGSTER, Rafael]
-LoseText = Dammit, your are super strong!
-Pokemon = SPARCUB,12
-Pokemon = HUMMIRD,10
+LoseText = Dammit!
+Pokemon = HUMMIRD,8
+Pokemon = TURTEED,9
+#-------------------------------
+[SWIMMER_F, Natalia]
+LoseText = Oh nyo!
+Pokemon = BOTOLPHIN,10
+#-------------------------------
 [FISHERMAN, Berg]
-LoseText = My Pokémon!!!
+LoseText = One day Ill find the legendary dragon!!!
 Pokemon = MAGIKARP,5
 Pokemon = MAGIKARP,5
 Pokemon = MAGIKARP,6
@@ -136,11 +211,11 @@ Pokemon = MAGIKARP,15
 #-------------------------------
 [CRUSHGIRL, Sakura]
 LoseText = Back to training I should go!
-Pokemon = CHIKATE,10
+Pokemon = KARAKID,8
 #-------------------------------
-[BLACKBELT, Haruno]
+[BLACKBELT, Noharu]
 LoseText = Even if I lose, im not giving up!
-Pokemon = FLAMMUNY,10
+Pokemon = FLAMUNNY,8
 #-------------------------------
 [YOUNGSTER, Tobias]
 LoseText = My Pokémon!
@@ -151,7 +226,6 @@ Pokemon = TURTEED,12
 LoseText = My sweet babies!
 Pokemon = ORBEAF,10
 	Gender = Female
-Pokemon = GRALING,12
 Pokemon = PANSAGE,14
 
 
@@ -161,11 +235,11 @@ Pokemon = PANSAGE,14
 LoseText = Man I hate this job!
 Pokemon = CAPYBURA,12
 Pokemon = FRUCTERA,12
-#-------------------------------
+
 [REAPER, Carl]
 LoseText = How I lost to a kid!
 Pokemon = BOUDYENA,12
-#-------------------------------
+
 [REAPER, Tony]
 LoseText = What! RUN AWAY!
 Pokemon = CAPYBURA,12
@@ -176,12 +250,12 @@ Pokemon = CAPYBURA,12
 LoseText = This won't end like this.
 Pokemon = BOUDYENA,12
 Pokemon = CAPYBURA,13
-#-------------------------------
+
 [REAPER, Pedro]
 LoseText = Atleast I tried
 Pokemon = CAPYBURA,12
 Pokemon = YOUNROW,14
-#-------------------------------
+
 [FISHERMAN, Finn]
 LoseText = That was fishy...
 Pokemon = BOTOLPHIN,14
@@ -193,12 +267,12 @@ Pokemon = PSYLOTE,16
 [REAPER, Niko]
 LoseText = Reeeeeeeeeeeee!
 Pokemon = CAPYBURA,14
-#-------------------------------
+
 [REAPER, Nathan]
 LoseText = I tought I had a chance!
 Pokemon = BOUDYENA,12
 Pokemon = FRUCTERA,14
-#-------------------------------
+
 [REAPER, Drake]
 LoseText = I may have lost, but I lost with style!
 Pokemon = BOUDYENA,12
@@ -209,7 +283,7 @@ Pokemon = BOUDYENA,12
 [REAPER, Chris]
 LoseText = Not even scaring gave me an advantage!
 Pokemon = CAPYBURA,12
-#-------------------------------
+
 [REAPER, Nick]
 LoseText = The forces of evil weren't enought for you!
 Pokemon = BOUDYENA,12
@@ -218,7 +292,8 @@ Pokemon = CAPYBURA,13
 #Abandoned Hotel 3F
 #-------------------------------
 [REAPERBOSS, Alcapone]
-LoseText = Huh?! What's this...
+LoseText = Huh...
+Items = POTION
 Pokemon = YOUNROW,14
 Pokemon = EVIRASS,18
     Moves = BULKUP,LEECHSEED,RAZORLEAF,KNOCKOFF
@@ -236,21 +311,121 @@ LoseText = Atleast I learn about the region!
 Pokemon = BABRAGON,12
 
 
-#Battle Island
+#Haunted Desert
 #-------------------------------
-[ACETRAINER_M, Artur] #4 Badges
-LoseText = Nice one!
-Pokemon = HAPPINY,20
-Pokemon = CHANSEY,20
+[CAMPER, Asriel]
+LoseText = Oh noes!
+Pokemon = SUNCARAB,12
+Pokemon = TRAPINCH,12
 
-[ACETRAINER_M, Artur,1] #7 Badges
-LoseText = Nice one!
-Pokemon = CHANSEY,40
-Pokemon = CHANSEY,40
+[HIKER, Fuji]
+LoseText = Well, time to start hiking!
+Pokemon = MOSSELIN,12
 
-[ACETRAINER_M, Artur,2] #Post-Game
-LoseText = Nice one!
-Pokemon = CHANSEY,60
-Pokemon = CHANSEY,65
-Pokemon = BLISSEY,70
-Pokemon = BLISSEY,80
+
+#Route 8
+#-------------------------------
+[PI, Elon]
+Items = FULLRESTORE
+LoseText = Unlike Pokémon, fortune doesn't fail me!
+Pokemon = DWILD,14
+
+[DRAGONTAMER, Jaragon]
+LoseText = Argh!
+Pokemon = BABRAGON,15
+Pokemon = PINATAYA,14
+
+[PSYCHIC_F, Haruka]
+LoseText = My mental powers failed me!
+Pokemon = DROMEDA,12
+Pokemon = MOSLEEP,13
+
+[SHINYMANIAC, Sparkly]
+LoseText = Their shine wasn't enought for you!
+Pokemon = GRALING,12
+	Shiny = true
+Pokemon = KITSU,12
+	Shiny = true
+
+#Vituresa Town
+#-------------------------------
+[REAPER, Drake,1]
+LoseText = Not again!
+Pokemon = BOUDYENA,14
+Pokemon = VOODOLL,14
+Pokemon = YOUNROW,16
+
+
+#Saitmass Town
+
+#Gym
+#-------------------------------
+[ENGINEER,Joseph]
+LoseText = Grr!
+Pokemon = CHOPAXE,20
+#-------------------------------
+[ENGINEER,Ricchard]
+LoseText = My my!
+Pokemon = CHOPAXE,20
+Pokemon = ELECOON,22
+#-------------------------------
+[ENGINEER,Bob]
+LoseText = Grr!
+Pokemon = TURTLOW,25
+#-------------------------------
+[ENGINEER,Felix]
+LoseText = Take care of it! it's very frail.
+Pokemon = TURTLOW,25
+Pokemon = CHOPAXE,22
+#-------------------------------
+[ENGINEER,John]
+LoseText = My Pokémon got shocked by your skills!
+Pokemon = CUBOLT,25
+#-------------------------------
+[ENGINEER,Fabio]
+LoseText = Be careful to not get shocked!
+Pokemon = TURTLOW,20
+#-------------------------------
+[LEADER_Nikolai,Nikolai]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = That was AMAZING!
+Pokemon = CUBOLT,20
+    Moves = THUNDERWAVE,SHOCKWAVE,NOBLEROAR
+Pokemon = TURTLOW,22
+    Moves = RAPIDSPIN,BODYPRESS,BUBBLEBEAM,METALCLAW
+Pokemon = CHOPAXE,24
+    Moves = SCRATCH
+Pokemon = JOLTUTER,26
+    Moves = THUNDERWAVE,VOLTSWITCH,MOUSEWHIP,METALSOUND
+	Item  = SITRUSBERRY
+	
+
+#Klepto Cave
+#-------------------------------
+[REAPER, Yian]
+LoseText = How this little kiddo beat me!
+Pokemon = BOUDYENA,12
+Pokemon = MEOWTUNO,10
+#-------------------------------
+[REAPER, Edgar]
+LoseText = It's time to bye-bye go! go!
+Pokemon = MEOWTUNO,12
+#-------------------------------
+[REAPER, Tulio]
+LoseText = Great, beated by a kid.
+Pokemon = CAPYBURA,10
+Pokemon = CUBTURN,12
+#-------------------------------
+[REAPER, Silva]
+LoseText = Retreat! Retreat!
+Pokemon = MEOWTUNO,14
+#-------------------------------
+[REAPER, Ryden]
+LoseText = Standing here I realised that I lost!
+Pokemon = MEOWTUNO,12
+#-------------------------------
+[REAPER, Drake,2]
+LoseText = I was gonna make a fortune!
+Pokemon = BOUDYENA,16
+Pokemon = VOODOLL,16
+Pokemon = YOUNROW,18

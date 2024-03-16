@@ -1,8 +1,0 @@
-﻿# To localize this text for a particular language, please
-# translate every second line of this file.
-#-------------------------------
-[Map037]
-Be careful when crossing route two!\nIt was know before as Mira town, but because of an meteor crash, it was wiped out of the map!
-Be careful when crossing route two!\nIt was know before as Mira town, but because of an meteor crash, it was wiped out of the map!
-Im sorry Trainer...\nThe road ahead is under construction.
-Im sorry Trainer...\nThe road ahead is under construction.

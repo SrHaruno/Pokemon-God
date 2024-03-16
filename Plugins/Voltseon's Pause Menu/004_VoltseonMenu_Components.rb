@@ -67,8 +67,8 @@ class VPM_PokemonPartyHud < Component
   def start_component(viewport, menu)
     super(viewport, menu)
     # Overlay stuff
-    @sprites["overlay"]   = BitmapSprite.new(Graphics.width, Graphics.height / 2, @viewport)
-    @sprites["overlay"].y = (Graphics.height / 2)
+    @sprites["overlay"]   = BitmapSprite.new(Graphics.width, Graphics.height / 2, @viewport) #2
+    @sprites["overlay"].y = (Graphics.height / 2) #2
     @info_bar_bmp = RPG::Cache.load_bitmap(MENU_FILE_PATH, "overlay_info")
     @hp_bar_bmp   = RPG::Cache.load_bitmap(MENU_FILE_PATH, "overlay_hp")
     @exp_bar_bmp  = RPG::Cache.load_bitmap(MENU_FILE_PATH, "overlay_exp")
@@ -94,7 +94,7 @@ class VPM_PokemonPartyHud < Component
       # Pokémon Icon
       @sprites["pokemon_#{i}"] = PokemonIconSprite.new(pokemon, @viewport) if !@sprites["pokemon#{i}"] || @sprites["pokemon#{i}"].disposed?
       @sprites["pokemon_#{i}"].x = spacing + (Graphics.width / 8)
-      @sprites["pokemon_#{i}"].y = Graphics.height - 164
+      @sprites["pokemon_#{i}"].y = Graphics.height - 164 #164
       @sprites["pokemon_#{i}"].y += Graphics.height / 2 if @menu.hidden && !@menu.start_up
       @sprites["pokemon_#{i}"].z = -2
       next if pokemon.egg?

@@ -118,7 +118,7 @@ Battle::AI::Handlers::ShouldSwitch.add(:asleep,
 # Fixed Cramorant's form not reverting after coughing up its Gulp Missile.
 #===============================================================================
 class Battle::Battler
-  alias __hotfixes__pbEffectsOnMakingHit pbEffectsOnMakingHit
+  alias __hotfixes__pbEffectsOnMakingHit pbEffectsOnMakingHit unless method_defined?(:__hotfixes__pbEffectsOnMakingHit)
 
   def pbEffectsOnMakingHit(move, user, target)
     if target.damageState.calcDamage > 0 && !target.damageState.substitute
@@ -152,6 +152,7 @@ end
 #===============================================================================
 # Fixed Pokémon sent from the party to storage in battle not having certain
 # battle-only conditions removed.
+# Fixed forcing a caught Pokémon into your party not actually forcing it.
 #===============================================================================
 module Battle::CatchAndStoreMixin
   def pbStorePokemon(pkmn)
@@ -169,9 +170,10 @@ module Battle::CatchAndStoreMixin
               _INTL("Send to a Box"),
               _INTL("See {1}'s summary", pkmn.name),
               _INTL("Check party")]
-      cmds.delete_at(1) if @sendToBoxes == 2
+      cmds.delete_at(1) if @sendToBoxes == 2   # Remove "Send to a Box" option
       loop do
         cmd = pbShowCommands(_INTL("Where do you want to send {1} to?", pkmn.name), cmds, 99)
+        next if cmd == 99 && @sendToBoxes == 2   # Can't cancel if must add to party
         break if cmd == 99   # Cancelling = send to a Box
         cmd += 1 if cmd >= 1 && @sendToBoxes == 2
         case cmd
@@ -342,3 +344,124 @@ class Battle::Scene
     end
   end
 end
+
+#===============================================================================
+# Fixed abilities triggering twice when a Pokémon with Neutralizing Gas faints
+# and is switched out.
+#===============================================================================
+class Battle::Battler
+  def pbAbilitiesOnSwitchOut
+    if abilityActive?
+      Battle::AbilityEffects.triggerOnSwitchOut(self.ability, self, false)
+    end
+    # Reset form
+    @battle.peer.pbOnLeavingBattle(@battle, @pokemon, @battle.usedInBattle[idxOwnSide][@index / 2])
+    # Check for end of Neutralizing Gas/Unnerve
+    if hasActiveAbility?(:NEUTRALIZINGGAS)
+      # Treat self as fainted
+      @hp = 0
+      @fainted = true
+      pbAbilitiesOnNeutralizingGasEnding
+    elsif hasActiveAbility?([:UNNERVE, :ASONECHILLINGNEIGH, :ASONEGRIMNEIGH])
+      # Treat self as fainted
+      @hp = 0
+      @fainted = true
+      pbItemsOnUnnerveEnding
+    end
+    # Treat self as fainted
+    @hp = 0
+    @fainted = true
+    # Check for end of primordial weather
+    @battle.pbEndPrimordialWeather
+  end
+end
+
+#===============================================================================
+# Fixed the default battle weather being a primal weather causing an endless
+# loop of that weather starting and ending.
+#===============================================================================
+class Battle
+  alias __hotfixes__pbEndPrimordialWeather pbEndPrimordialWeather unless method_defined?(:__hotfixes__pbEndPrimordialWeather)
+
+  def pbEndPrimordialWeather
+    return if @field.weather == @field.defaultWeather
+    __hotfixes__pbEndPrimordialWeather
+  end
+end
+
+#===============================================================================
+# Fixed the AI thinking it will take End of Round damage when it won't, and
+# switching because of that.
+#===============================================================================
+Battle::AI::Handlers::ShouldSwitch.add(:significant_eor_damage,
+  proc { |battler, reserves, ai, battle|
+    eor_damage = battler.rough_end_of_round_damage
+    next false if eor_damage <= 0
+    # Switch if battler will take significant EOR damage
+    if eor_damage >= battler.hp / 2 || eor_damage >= battler.totalhp / 4
+      PBDebug.log_ai("#{battler.name} wants to switch because it will take a lot of EOR damage")
+      next true
+    end
+    # Switch to remove certain effects that cause the battler EOR damage
+    if ai.trainer.high_skill?
+      if battler.effects[PBEffects::LeechSeed] >= 0 && ai.pbAIRandom(100) < 50
+        PBDebug.log_ai("#{battler.name} wants to switch to get rid of its Leech Seed")
+        next true
+      end
+      if battler.effects[PBEffects::Nightmare]
+        PBDebug.log_ai("#{battler.name} wants to switch to get rid of its Nightmare")
+        next true
+      end
+      if battler.effects[PBEffects::Curse]
+        PBDebug.log_ai("#{battler.name} wants to switch to get rid of its Curse")
+        next true
+      end
+      if battler.status == :POISON && battler.statusCount > 0 && !battler.has_active_ability?(:POISONHEAL)
+        poison_damage = battler.totalhp / 8
+        next_toxic_damage = battler.totalhp * (battler.effects[PBEffects::Toxic] + 1) / 16
+        if (battler.hp <= next_toxic_damage && battler.hp > poison_damage) ||
+           next_toxic_damage > poison_damage * 2
+          PBDebug.log_ai("#{battler.name} wants to switch to reduce toxic to regular poisoning")
+          next true
+        end
+      end
+    end
+    next false
+  }
+)
+
+#===============================================================================
+# Fixed the AI wanting to trigger a target's ability/item instead of not wanting
+# to.
+#===============================================================================
+Battle::AI::Handlers::GeneralMoveAgainstTargetScore.add(:trigger_target_ability_or_item_upon_hit,
+  proc { |score, move, user, target, ai, battle|
+    if ai.trainer.high_skill? && move.damagingMove? && target.effects[PBEffects::Substitute] == 0
+      if target.ability_active?
+        if Battle::AbilityEffects::OnBeingHit[target.ability] ||
+           (Battle::AbilityEffects::AfterMoveUseFromTarget[target.ability] &&
+           (!user.has_active_ability?(:SHEERFORCE) || move.move.addlEffect == 0))
+          old_score = score
+          score -= 8
+          PBDebug.log_score_change(score - old_score, "can trigger the target's ability")
+        end
+      end
+      if target.battler.isSpecies?(:CRAMORANT) && target.ability == :GULPMISSILE &&
+         target.battler.form > 0 && !target.effects[PBEffects::Transform]
+        old_score = score
+        score -= 8
+        PBDebug.log_score_change(score - old_score, "can trigger the target's ability")
+      end
+      if target.item_active?
+        if Battle::ItemEffects::OnBeingHit[target.item] ||
+           (Battle::ItemEffects::AfterMoveUseFromTarget[target.item] &&
+           (!user.has_active_ability?(:SHEERFORCE) || move.move.addlEffect == 0))
+          old_score = score
+          score -= 8
+          PBDebug.log_score_change(score - old_score, "can trigger the target's item")
+        end
+      end
+    end
+    next score
+  }
+)

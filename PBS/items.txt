@@ -1175,6 +1175,7 @@ Price = 300
 BPPrice = 10
 Flags = Fling_30
 Description = An item to be held by a Pokémon. It boosts Speed when intimidated. It can be used only once.
+BattleUse = Direct
 #-------------------------------
 [ROOMSERVICE]
 Name = Room Service
@@ -5136,15 +5137,15 @@ Move = ROCKCLIMB
 Description = A charging attack that may also leave the foe confused.
 #-------------------------------
 [TM101]
-Name = TM101
-NamePlural = TM101s
+Name = NONE
+NamePlural = NONE
 Pocket = 4
-Price = 3000
+Price = 1500
 BPPrice = 32
 FieldUse = TM
-Flags = Fling_60
-Move = BULKUP
-Description = The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.
+Flags = Fling_10
+Move = WORKUP
+Description = This is a scrapped item, removed automactically in 1.1.0+
 #-------------------------------
 [HM01]
 Name = HM01
@@ -6573,6 +6574,47 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
+#\\===============================
+#\\ Pokémon God Items
+#\\===============================
+#
+# // Megas Stones
+#
+#-------------------------------
+[JUNVILITE]
+Name = Junvilite
+NamePlural = Junvilites
+Pocket = 1
+Price = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Junvil hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[KOMODRAITE]
+Name = Komodraite
+NamePlural = Komodraites
+Pocket = 1
+Price = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Komo-dra hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[AXOLYSTICITE]
+Name = Axolysticite
+NamePlural = Axolysticites
+Pocket = 1
+Price = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Axolystic hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[FLYGONITE]
+Name = Flygonite
+NamePlural = Flygonites
+Pocket = 1
+Price = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Flygon hold it, and it will be able to Mega Evolve.
+#
+# //Key Items
+#
 #-------------------------------
 [SECONDKEY]
 Name =  Second Floor Key

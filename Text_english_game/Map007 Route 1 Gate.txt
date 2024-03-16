@@ -1,6 +1,0 @@
-﻿# To localize this text for a particular language, please
-# translate every second line of this file.
-#-------------------------------
-[Map007]
-Be careful out there trainer!\nIf low on health, you can always go\nto a pokémon center
-Be careful out there trainer!\nIf low on health, you can always go\nto a pokémon center

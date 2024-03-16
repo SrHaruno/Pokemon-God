@@ -6,7 +6,7 @@
 # https://github.com/Maruno17/pokemon-essentials
 #===============================================================================
 
-Essentials::ERROR_TEXT += "[v21.1 Hotfixes 1.0.3]\r\n"
+Essentials::ERROR_TEXT += "[v21.1 Hotfixes 1.0.7]\r\n"
 
 #===============================================================================
 # Fixed Pokédex not showing male/female options for species with gender
@@ -204,66 +204,6 @@ class PokemonRegionMap_Scene
 end
 
 #===============================================================================
-# Made some unhelpful error messages when compiling more helpful.
-#===============================================================================
-module Compiler
-  module_function
-  def cast_csv_value(value, schema, enumer = nil)
-    case schema.downcase
-    when "i"   # Integer
-      if !value || !value[/^\-?\d+$/]
-        raise _INTL("Field '{1}' is not an integer.", value) + "\n" + FileLineData.linereport
-      end
-      return value.to_i
-    when "u"   # Positive integer or zero
-      if !value || !value[/^\d+$/]
-        raise _INTL("Field '{1}' is not a positive integer or 0.", value) + "\n" + FileLineData.linereport
-      end
-      return value.to_i
-    when "v"   # Positive integer
-      if !value || !value[/^\d+$/]
-        raise _INTL("Field '{1}' is not a positive integer.", value) + "\n" + FileLineData.linereport
-      end
-      if value.to_i == 0
-        raise _INTL("Field '{1}' must be greater than 0.", value) + "\n" + FileLineData.linereport
-      end
-      return value.to_i
-    when "x"   # Hexadecimal number
-      if !value || !value[/^[A-F0-9]+$/i]
-        raise _INTL("Field '{1}' is not a hexadecimal number.", value) + "\n" + FileLineData.linereport
-      end
-      return value.hex
-    when "f"   # Floating point number
-      if !value || !value[/^\-?^\d*\.?\d*$/]
-        raise _INTL("Field '{1}' is not a number.", value) + "\n" + FileLineData.linereport
-      end
-      return value.to_f
-    when "b"   # Boolean
-      return true if value && value[/^(?:1|TRUE|YES|Y)$/i]
-      return false if value && value[/^(?:0|FALSE|NO|N)$/i]
-      raise _INTL("Field '{1}' is not a Boolean value (true, false, 1, 0).", value) + "\n" + FileLineData.linereport
-    when "n"   # Name
-      if !value || !value[/^(?![0-9])\w+$/]
-        raise _INTL("Field '{1}' must contain only letters, digits, and\nunderscores and can't begin with a number.", value) + "\n" + FileLineData.linereport
-      end
-    when "s"   # String
-    when "q"   # Unformatted text
-    when "m"   # Symbol
-      if !value || !value[/^(?![0-9])\w+$/]
-        raise _INTL("Field '{1}' must contain only letters, digits, and\nunderscores and can't begin with a number.", value) + "\n" + FileLineData.linereport
-      end
-      return value.to_sym
-    when "e"   # Enumerable
-      return checkEnumField(value, enumer)
-    when "y"   # Enumerable or integer
-      return value.to_i if value && value[/^\-?\d+$/]
-      return checkEnumField(value, enumer)
-    end
-    return value
-  end
-end
-
-#===============================================================================
 # Language files are now loaded properly even if the game is encrypted.
 # Fixed trying to load non-existent language files not reverting the messages to
 # the default messages if other language files are already loaded.
@@ -385,5 +325,148 @@ class Game_Player < Game_Character
       result = true if event.starting
     end
     return result
+  end
+end
+
+#===============================================================================
+# Fixed line breaks making some messages appear oddly at slow text speeds.
+#===============================================================================
+class Window_AdvancedTextPokemon < SpriteWindow_Base
+  def updateInternal
+    time_now = System.uptime
+    @display_last_updated = time_now if !@display_last_updated
+    delta_t = time_now - @display_last_updated
+    @display_last_updated = time_now
+    visiblelines = (self.height - self.borderY) / @lineHeight
+    @lastchar = -1 if !@lastchar
+    show_more_characters = false
+    # Pauses and new lines
+    if @textchars[@curchar] == "\1"   # Waiting
+      show_more_characters = true if !@pausing
+    elsif @textchars[@curchar] == "\n"   # Move to new line
+      if @linesdrawn >= visiblelines - 1   # Need to scroll text to show new line
+        if @scroll_timer_start
+          old_y = @scrollstate
+          new_y = lerp(0, @lineHeight, 0.1, @scroll_timer_start, time_now)
+          @scrollstate = new_y
+          @scrollY += new_y - old_y
+          if @scrollstate >= @lineHeight
+            @scrollstate = 0
+            @scroll_timer_start = nil
+            @linesdrawn += 1
+            show_more_characters = true
+          end
+        else
+          show_more_characters = true
+        end
+      else   # New line but the next line can be shown without scrolling to it
+        @linesdrawn += 1 if @lastchar < @curchar
+        show_more_characters = true
+      end
+    elsif @curchar <= @numtextchars   # Displaying more text
+      show_more_characters = true
+    else
+      @displaying = false
+      @scrollstate = 0
+      @scrollY = 0
+      @scroll_timer_start = nil
+      @linesdrawn = 0
+    end
+    @lastchar = @curchar
+    # Keep displaying more text
+    if show_more_characters
+      @display_timer += delta_t
+      if curcharSkip
+        if @textchars[@curchar] == "\n" && @linesdrawn >= visiblelines - 1
+          @scroll_timer_start = time_now
+        elsif @textchars[@curchar] == "\1"
+          @pausing = true if @curchar < @numtextchars - 1
+          self.startPause
+          refresh
+        end
+      end
+    end
+  end
+end
+
+#===============================================================================
+# Fixed Rotom Catalog not being able to change Rotom to its base form.
+#===============================================================================
+ItemHandlers::UseOnPokemon.add(:ROTOMCATALOG, proc { |item, qty, pkmn, scene|
+  if !pkmn.isSpecies?(:ROTOM)
+    scene.pbDisplay(_INTL("It had no effect."))
+    next false
+  elsif pkmn.fainted?
+    scene.pbDisplay(_INTL("This can't be used on the fainted Pokémon."))
+    next false
+  end
+  choices = [
+    _INTL("Light bulb"),
+    _INTL("Microwave oven"),
+    _INTL("Washing machine"),
+    _INTL("Refrigerator"),
+    _INTL("Electric fan"),
+    _INTL("Lawn mower"),
+    _INTL("Cancel")
+  ]
+  new_form = scene.pbShowCommands(_INTL("Which appliance would you like to order?"), choices, pkmn.form)
+  if new_form == pkmn.form
+    scene.pbDisplay(_INTL("It won't have any effect."))
+    next false
+  elsif new_form >= 0 && new_form < choices.length - 1
+    pkmn.setForm(new_form) do
+      scene.pbRefresh
+      scene.pbDisplay(_INTL("{1} transformed!", pkmn.name))
+    end
+    next true
+  end
+  next false
+})
+
+#===============================================================================
+# Fixed an event's reflection not disappearing if its page is changed to one
+# without a graphic.
+#===============================================================================
+class Sprite_Character < RPG::Sprite
+  def refresh_graphic
+    return if @tile_id == @character.tile_id &&
+              @character_name == @character.character_name &&
+              @character_hue == @character.character_hue &&
+              @oldbushdepth == @character.bush_depth
+    @tile_id        = @character.tile_id
+    @character_name = @character.character_name
+    @character_hue  = @character.character_hue
+    @oldbushdepth   = @character.bush_depth
+    @charbitmap&.dispose
+    @charbitmap = nil
+    @bushbitmap&.dispose
+    @bushbitmap = nil
+    if @tile_id >= 384
+      @charbitmap = pbGetTileBitmap(@character.map.tileset_name, @tile_id,
+                                    @character_hue, @character.width, @character.height)
+      @charbitmapAnimated = false
+      @spriteoffset = false
+      @cw = Game_Map::TILE_WIDTH * @character.width
+      @ch = Game_Map::TILE_HEIGHT * @character.height
+      self.src_rect.set(0, 0, @cw, @ch)
+      self.ox = @cw / 2
+      self.oy = @ch
+    elsif @character_name != ""
+      @charbitmap = AnimatedBitmap.new(
+        "Graphics/Characters/" + @character_name, @character_hue
+      )
+      RPG::Cache.retain("Graphics/Characters/", @character_name, @character_hue) if @character == $game_player
+      @charbitmapAnimated = true
+      @spriteoffset = @character_name[/offset/i]
+      @cw = @charbitmap.width / 4
+      @ch = @charbitmap.height / 4
+      self.ox = @cw / 2
+    else
+      self.bitmap = nil
+      @cw = 0
+      @ch = 0
+      @reflection&.update   # HOTFIXES: Just added this line
+    end
+    @character.sprite_size = [@cw, @ch]
   end
 end

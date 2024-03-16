@@ -604,6 +604,7 @@ Generation = 6
 FormName = Spiky-Eared
 Generation = 4
 Evolutions = PIKACHU,None,
+CallRateSOS = 0
 #-------------------------------
 [AMPHAROS,1]
 FormName = Mega Ampharos
@@ -1618,6 +1619,7 @@ Moves = 1,TACKLE,1,VINEWHIP,1,FAIRYWIND,6,FAIRYWIND,10,LUCKYCHANT,15,RAZORLEAF,2
 EggGroups = Undiscovered
 Pokedex = The flower it's holding can no longer be found blooming anywhere. It's also thought to contain terrifying power.
 Evolutions = FLORGES,None,
+CallRateSOS = 0
 #-------------------------------
 [FLORGES,1]
 FormName = Yellow Flower
@@ -2320,52 +2322,81 @@ Pokedex = Legend says that by using its power to see all events from past to fut
 #
 #
 #-------------------------------
+#  //Megas\\
+#-------------------------------
+#
+#
+#-------------------------------
 [JUNVIL,1]
 FormName = Mega Junvil
-MegaStone = VENUSAURITE
-BaseStats = 130,140,110,70,80,98
+MegaStone = JUNVILITE
+Types = GRASS,NORMAL
+BaseStats = 130,140,110,98,80,70
 BaseExp = 313
 Abilities = RECKLESS
 HiddenAbilities = RECKLESS
-Height = 2.4
-Weight = 155.5
-Pokedex = In order to support its flower, which has grown larger due to Mega Evolution, its back and legs have become stronger.
 #-------------------------------
 [KOMODRA,1]
 FormName = Mega Komo-dra
-MegaStone = VENUSAURITE
+MegaStone = KOMODRAITE
 BaseStats = 90,110,100,80,160,90
 BaseExp = 317
 Abilities = MOLDBREAKER
 HiddenAbilities = MOLDBREAKER
-Height = 2.4
-Weight = 155.5
-Pokedex = In order to support its flower, which has grown larger due to Mega Evolution, its back and legs have become stronger.
 #-------------------------------
 [AXOLYSTIC,1]
 FormName = Mega Axolystic
-MegaStone = VENUSAURITE
+MegaStone = AXOLYSTICITE
+Types = WATER,ANGEL
 BaseStats = 110,76,120,80,100,140
 BaseExp = 315
-Abilities = MARVELSCALE
-HiddenAbilities = MARVELSCALE
-Height = 2.4
-Weight = 155.5
-Pokedex = In order to support its flower, which has grown larger due to Mega Evolution, its back and legs have become stronger.
+Abilities = NATURALCURE
+HiddenAbilities = NATURALCURE
+#-------------------------------
+[FLYGON,1]
+FormName = Mega Flygon
+MegaStone = FLYGONITE
+Types = GHOST,GROUND
+BaseStats = 80,110,90,120,130,90
+BaseExp = 317
+Abilities = LEVITATE
+#
+#
+#-------------------------------
+#  //Alternate Forms & Gender Difference\\
+#-------------------------------
+#
+#
 #-------------------------------
 [DWILD,1]
-FormName = Halloween
+FormName = Halloween Skin
 Evolutions = HOGGO,None,
 #-------------------------------
 [DWILD,2]
-FormName = Christmas
+FormName = Christmas Skin
 Evolutions = HOGGO,None,
 #-------------------------------
 [ORBEAF,1]
 FormName = Female
-BaseStats = 55,30,40,60,65,40
-HiddenAbilities = COMPETITIVE
-EVs = SPECIAL_ATTACK, 1
-Moves = 1,SCRATCH,1,LEER,5,ABSORB,9,NIGHTSHADE,13,MAGICALLEAF,17,LEECHSEED,22,MEGADRAIN,27,SLASH,33,GROWTH
-Color = White
+BaseStats = 45,30,40,60,65,40
+HiddenAbilities = STEADFAST
+EVs = SPECIAL_ATTACK,1
+Moves = 1,SCRATCH,1,LEER,5,ABSORB,9,SHADOWSNEAK,12,MAGICALLEAF,15,LEECHSEED,18,METALCLAW,21,GIGADRAIN,24,GROWTH,27,AIRCUTTER,30,FLASHCANNON,33,ENERGYBALL
 Pokedex = WIP
+#-------------------------------
+[KITSU,1]
+FormName = Female
+Types = PSYCHIC
+BaseStats = 50,30,65,43,50,70
+EVs = SPECIAL_ATTACK,1
+Abilities = SYNCHRONIZE,TRACE
+HiddenAbilities = MAGICGUARD
+Moves = 1,SCRATCH,1,LEER,4,CONFUSION,8,TELEPORT,12,CONFUSERAY,16,PSYBEAM,20,REFLECT,24,AMNESIA,28,LIGHTSCREEN,32,CALMMIND,36,PSYCHIC,40,MOONLIGHT,44,WISH,48,DAZZLINGGLEAM,52,MOONBLAST,56,FUTURESIGHT
+TutorMoves = PROTECT
+Evolutions = LUNARTSUNE,Item,MOONSTONE
+#-------------------------------
+[ARMOGHOUL,1]
+FormName = Warrior Form
+BaseStats = 90,145,45,108,145,45
+Abilities = CURSEDBODY
+EVs = SPEED,2

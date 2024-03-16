@@ -1,5 +1,5 @@
 ﻿Name       = v21.1 Hotfixes
-Version    = 1.0.3
+Version    = 1.0.7
 Essentials = 21.1
 Conflicts  = v19 Hotfixes
 Conflicts  = v19.1 Updates
@@ -42,5 +42,46 @@ Credits    = Maruno
 #   already loaded.
 # - Fixed standing on an event preventing you from interacting with an
 #   event you're facing.
+#
+# 1.0.4:
+#
+# - Fixed error messages in def validate_all_compiled_types.
+# - Fixed line breaks making some messages appear oddly at slow text
+#   speeds.
+# - Fixed being unable to write values to PBS files that were
+#   enumerated to something other than a number.
+# - Fixed abilities triggering twice when a Pokémon with Neutralizing
+#   Gas faints and is switched out.
+#
+# 1.0.5:
+#
+# - Fixed error in previous version relating to writing PBS files.
+#
+# 1.0.6:
+#
+# - Fixed forcing a caught Pokémon into your party not actually
+#   forcing it.
+# - Fixed Rotom Catalog not being able to change Rotom to its base
+#   form.
+# - Fixed the Compiler not writing some enumerables correctly when
+#   writing PBS files.
+# - Fixed the default battle weather being a primal weather causing an
+#   endless loop of that weather starting and ending.
+#
+# 1.0.7:
+#
+# - Fixed the AI thinking it will take End of Round damage when it
+#   won't, and switching because of that.
+# - Fixed the AI wanting to trigger a target's ability/item instead of
+#   not wanting to.
+# - Fixed an event's reflection not disappearing if its page is
+#   changed to one without a graphic.
+#
+#=====================================================================
+#
+# Also included in this plugin is an updated copy of townmapgen.html,
+# which you should put in your game's main folder. It is now able to
+# find map images again, which were moved into a different folder in
+# Essentials v21.
 #
 #=====================================================================

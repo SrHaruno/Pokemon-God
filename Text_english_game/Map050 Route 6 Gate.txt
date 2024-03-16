@@ -1,8 +1,0 @@
-﻿# To localize this text for a particular language, please
-# translate every second line of this file.
-#-------------------------------
-[Map050]
-\pn!\nMarine City is up ahead!
-\pn!\nMarine City is up ahead!
-We gotta save the town!
-We gotta save the town!
