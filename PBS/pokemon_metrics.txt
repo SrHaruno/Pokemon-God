@@ -5708,7 +5708,7 @@ ShadowSize = 1
 #-------------------------------
 [AXOLYSTIC]
 BackSprite = 0,0
-FrontSprite = 0,11
+FrontSprite = 15,-3
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5870,9 +5870,9 @@ ShadowSize = 1
 #-------------------------------
 [PSYLOTE]
 BackSprite = 0,14
-FrontSprite = 3,12
+FrontSprite = -4,12
 ShadowX = 0
-ShadowSize = 1
+ShadowSize = 2
 #-------------------------------
 [DOVENESS]
 BackSprite = 0,20
@@ -6351,5 +6351,23 @@ ShadowSize = 2
 [KOMODRA,1]
 BackSprite = 0,0
 FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ANDROWIZARD]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GAMBILLO]
+BackSprite = 0,0
+FrontSprite = 0,20
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GAMBALLER]
+BackSprite = 0,0
+FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
