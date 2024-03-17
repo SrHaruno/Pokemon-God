@@ -2240,6 +2240,51 @@ Habitat = Urban
 Category = Floor
 Pokedex = Cillution wanders around big cities, feeding from their huge polluted air.
 #-------------------------------
+[GAMBILLO]
+Name = Gambillo
+Types = NORMAL
+BaseStats = 40,40,40,40,40,40
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 66
+EVs = SPEED,1
+CatchRate = 45
+Happiness = 50
+Abilities = SUPERLUCK
+Moves = 1,TACKLE,1,TAILWHIP
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+Evolutions = GAMBALLER,Level,30
+#-------------------------------
+[GAMBALLER]
+Name = Gamballer
+Types = NORMAL
+BaseStats = 40,40,40,40,40,40
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 122
+EVs = SPEED,1
+CatchRate = 45
+Happiness = 50
+Abilities = SUPERLUCK
+Moves = 1,TACKLE,1,TAILWHIP
+TutorMoves = TACKLE
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Urban
+#-------------------------------
 [MOUSELECTRIC]
 Name = Mouselectric
 Types = ELECTRIC
@@ -2308,6 +2353,8 @@ Color = Gray
 Shape = HeadLegs
 Habitat = Urban
 Category = Computer
+
+
 
 #-------------------------------
 [MEOWTUNO]
