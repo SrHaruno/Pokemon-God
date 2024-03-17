@@ -5768,7 +5768,7 @@ ShadowSize = 2
 #-------------------------------
 [EVIRASS]
 BackSprite = 0,0
-FrontSprite = 0,20
+FrontSprite = 1,18
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
