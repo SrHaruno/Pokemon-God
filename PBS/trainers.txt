@@ -54,6 +54,8 @@ LoseText = Nice Battle!
 Pokemon = YOUNROW,14
 Pokemon = ORBEAF,16
 	Gender = Male
+Pokemon = KITSU,16
+	Gender = Male
 Pokemon = AXOLOBY,17
 	
 #-------------------------------
@@ -61,6 +63,8 @@ Pokemon = AXOLOBY,17
 LoseText = Nice Battle!
 Pokemon = YOUNROW,14
 Pokemon = GYARADOS,20
+Pokemon = KITSU,16
+	Gender = Male
 Pokemon = GRALING,17
 	
 #-------------------------------
@@ -68,6 +72,8 @@ Pokemon = GRALING,17
 LoseText = Nice Battle!
 Pokemon = YOUNROW,14
 Pokemon = ORBEAF,16
+	Gender = Male
+Pokemon = KITSU,16
 	Gender = Male
 Pokemon = EGDON,17
 
