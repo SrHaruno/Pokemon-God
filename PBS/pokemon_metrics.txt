@@ -5834,9 +5834,9 @@ ShadowSize = 1
 #-------------------------------
 [KOMODRA]
 BackSprite = 0,0
-FrontSprite = 0,12
+FrontSprite = 9,13
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 3
 #-------------------------------
 [LARVENGUE]
 BackSprite = 0,20
@@ -6345,5 +6345,11 @@ ShadowSize = 2
 [KITSU,1]
 BackSprite = 0,0
 FrontSprite = 2,14
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[KOMODRA,1]
+BackSprite = 0,0
+FrontSprite = 0,12
 ShadowX = 0
 ShadowSize = 2

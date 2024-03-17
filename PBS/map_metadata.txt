@@ -463,3 +463,7 @@ MapPosition = 0,12,4
 #-------------------------------
 [109]   # Gigantopolis PC
 Name = Gigantopolis
+#-------------------------------
+[110]   # Game Corner
+Name = Gigantopolis
+MapPosition = 0,11,4
