@@ -6315,14 +6315,14 @@ Price = 550
 FieldUse = Direct
 Description = A long, durable rope. Use it to escape instantly from a cave or a dungeon.
 #-------------------------------
-[COINCASE]
-Name = Coin Case
-NamePlural = Coin Cases
+[COINCARD]
+Name = Coin Card
+NamePlural = Coin Cards
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = A case for holding coins obtained at the Game Corner. It holds up to 99,999 coins.
+Description = A card for holding coins obtained at the Game Corner. It holds up to 99,999 coins.
 #-------------------------------
 [POKEFLUTE]
 Name = Poké Flute
