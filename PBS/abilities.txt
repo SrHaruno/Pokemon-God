@@ -1119,3 +1119,7 @@ Description = Powers up sound moves.
 [MARTIALKING]
 Name = Martial King
 Description = Powers up moves of the same type.
+#-------------------------------
+[HYPEUP]
+Name = Hype Up
+Description = Boosts Speed after knocking out any Pokémon.
