@@ -5710,7 +5710,7 @@ ShadowSize = 1
 BackSprite = 0,0
 FrontSprite = 17,-6
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 3
 #-------------------------------
 [BOTOLPHIN]
 BackSprite = 0,20
@@ -6377,12 +6377,6 @@ BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
-#-------------------------------
-[AXOLYSTIC,1]
-BackSprite = 0,0
-FrontSprite = 17,-8
-ShadowX = 0
-ShadowSize = 3
 #-------------------------------
 [BALMPOSTOR]
 BackSprite = 0,0
