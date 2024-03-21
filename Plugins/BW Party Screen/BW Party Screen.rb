@@ -382,7 +382,7 @@ class PokemonPartyPanel < Sprite
     draw_gender
     draw_hp
     draw_status
-    draw_shiny_icon
+    #draw_shiny_icon
     draw_annotation
   end
 
@@ -463,11 +463,13 @@ class PokemonPartyPanel < Sprite
   end
 
   # Draw Shiny Icon
+=begin
   def draw_shiny_icon
     return if @pokemon.egg? || !@pokemon.shiny?
     pbDrawImagePositions(@overlaysprite.bitmap,
                          [["Graphics/Pictures/shiny", 80, 48, 0, 0, 16, 16]])
   end
+=end
 
   # Draw annotation text
   def draw_annotation
