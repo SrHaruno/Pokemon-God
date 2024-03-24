@@ -5731,8 +5731,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [CRORIRD]
-BackSprite = 0,8
-FrontSprite = 0,6
+BackSprite = 0,0
+FrontSprite = -2,6
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
