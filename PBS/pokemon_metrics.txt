@@ -6114,12 +6114,6 @@ FrontSprite = 0,18
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
-[CILLUTION]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
 [CRACKUUM]
 BackSprite = 0,0
 FrontSprite = 0,0

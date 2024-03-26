@@ -8901,17 +8901,17 @@ FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbility
 Flags = CanProtect,CanMirrorMove,CannotMetronome
 Description = The user attacks and sphere of energy. This move category depends on the user highest offensive stat.
 #-------------------------------
-[DARKNESSFURY]
-Name = Darkness Fury
-Type = DARK
+[LUMBERTHRASH]
+Name = Lumber Thrash
+Type = GRASS
 Category = Physical
 Power = 120
-Accuracy = 100
+Accuracy = 90
 TotalPP = 15
 Target = NearOther
-FunctionCode = RecoilThirdOfDamageDealt
-Flags = Contact,CanProtect,CanMirrorMove
-Description = The users rushes recklesly into the foe, taking a big recoil.
+FunctionCode = None
+Flags = Contact,CanMirrorMove
+Description = The foe is struck with an powerful tree lumber. It can't be protected.
 #-------------------------------
 [CUPIDSHOT]
 Name = Cupid Shot

@@ -3,7 +3,7 @@
 [GRALING]
 Name = Graling
 Types = GRASS
-BaseStats = 60,63,58,45,44,38
+BaseStats = 50,65,50,60,40,45
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 62
@@ -11,10 +11,10 @@ EVs = ATTACK,1
 CatchRate = 45
 Happiness = 50
 Abilities = OVERGROW
-HiddenAbilities = HYPEUP
-Moves = 1,TACKLE,1,TAILWHIP,5,LEAFAGE,9,LEECHSEED,13,VINEWHIP,17,KNOCKOFF,22,RAZORLEAF,27,LOWKICK
-TutorMoves = BULLETSEED,DIG,WORKUP
-EggMoves = ZENHEADBUTT,TAUNT,BULKUP,PLAYROUGH
+HiddenAbilities = MOXIE
+Moves = 1,TACKLE,1,TAILWHIP,5,LEAFAGE,8,SANDATTACK,12,RAZORLEAF,17,FEINTATTACK,20,ROCKTOMB,24,AGILITY,28,CRUSHCLAW,32,BULLDOZE,36,LOWKICK
+TutorMoves = PROTECT,WORKUP,BULLETSEED,KNOCKOFF
+EggMoves = LEECHSEED
 EggGroups = Field, Grass
 HatchSteps = 5120
 Height = 0.7
@@ -23,13 +23,13 @@ Color = Green
 Shape = Bipedal
 Habitat = Grassland
 Category = Seed
-Pokedex = These Pokémon use their tail as desguise. Once they feel threatened, they burie them selfs and use their tail as desguise, making them look like a sappling.
-Evolutions = EVIRASS,Level,18
+Pokedex = Once threated, they bury them selfs and act like a sappling. Only leaving once theres no more danger.
+Evolutions = EVIRASS,Level,16
 #-------------------------------
 [EVIRASS]
 Name = Evirass
 Types = GRASS,DARK
-BaseStats = 90,95,72,55,54,52
+BaseStats = 70,90,70,80,50,60
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 144
@@ -37,9 +37,9 @@ EVs = ATTACK,2
 CatchRate = 45
 Happiness = 50
 Abilities = OVERGROW
-HiddenAbilities = HYPEUP
-Moves = 0,BULLDOZE,1,TACKLE,1,TAILWHIP,1,LEAFAGE,9,LEECHSEED,13,VINEWHIP,17,ASSURANCE,21,RAZORLEAF,22,DIG,26,TAKEDOWN,31,KNOCKOFF,38,WOODHAMMER
-TutorMoves = BULLETSEED,BULLDOZE,STONEEDGE,EARTHQUAKE,ROCKSMASH
+HiddenAbilities = MOXIE
+Moves = 0,DIG,1,TACKLE,1,TAILWHIP,5,LEAFAGE,8,SANDATTACK,12,RAZORLEAF,19,FEINTATTACK,21,ROCKTOMB,25,AGILITY,29,CRUSHCLAW,33,BULLDOZE,37,HAMMERARM,38,WOODHAMMER
+TutorMoves = PROTECT,WORKUP,BULLETSEED,KNOCKOFF
 EggGroups = Field, Grass
 HatchSteps = 5120
 Height = 0.7
@@ -47,14 +47,14 @@ Weight = 6.9
 Color = Green
 Shape = Bipedal
 Habitat = Grassland
-Category = Seed
-Pokedex = ???
+Category = Grass
+Pokedex = Junvil's claws could cut the sturdies of rocks. It's said that the leader of the pack usually has the sharpest claws.
 Evolutions = JUNVIL,Level,36
 #-------------------------------
 [JUNVIL]
 Name = Junvil
 Types = GRASS,DARK
-BaseStats = 110,120,100,80,60,60
+BaseStats = 105,120,85,87,60,73
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 265
@@ -62,9 +62,9 @@ EVs = ATTACK,3
 CatchRate = 45
 Happiness = 50
 Abilities = OVERGROW
-HiddenAbilities = HYPEUP
-Moves = 0,DARKNESSFURY,1,TACKLE,1,TAILWHIP,1,LEAFAGE,9,LEECHSEED,13,VINEWHIP,17,ASSURANCE,21,RAZORLEAF,26,TAKEDOWN,31,KNOCKOFF,42,WOODHAMMER,44,THROATCHOP,48,SUCKERPUNCH,54,POWERWHIP,60,PRECIPICEBLADES
-TutorMoves = BULLETSEED,BULLDOZE,STONEEDGE,EARTHQUAKE,FRENZYPLANT,ROCKSMASH
+HiddenAbilities = MOXIE
+Moves = 0,LUMBERTHRASH,1,TACKLE,1,TAILWHIP,5,LEAFAGE,8,SANDATTACK,12,RAZORLEAF,19,FEINTATTACK,21,ROCKTOMB,25,AGILITY,29,CRUSHCLAW,33,BULLDOZE,38,HAMMERARM,40,WOODHAMMER,42,NIGHTSLASH
+TutorMoves = PROTECT,WORKUP,BULLETSEED,KNOCKOFF
 EggGroups = Field, Grass
 HatchSteps = 5120
 Height = 0.7
@@ -72,8 +72,8 @@ Weight = 6.9
 Color = Green
 Shape = Bipedal
 Habitat = Grassland
-Category = Seed
-Pokedex = ???
+Category = Hill
+Pokedex = Some civilizations say if you see an hill, it could be an Junvil waiting for it's pray.
 #-------------------------------
 [EGDON]
 Name = Egdon
@@ -97,9 +97,9 @@ Weight = 6.9
 Color = Black
 Shape = Bipedal
 Habitat = Mountain
-Category = Baby Komo-do
-Pokedex = ???
-Evolutions = DRAMODO,Level,18
+Category = Lizard
+Pokedex = Egdon always lives recluded, due to it's apparence, humans usually mistake it with Charmander, making it cry.
+Evolutions = DRAMODO,Level,16
 #-------------------------------
 [DRAMODO]
 Name = Dramodo
@@ -114,7 +114,7 @@ Happiness = 50
 Abilities = BLAZE
 HiddenAbilities = UNLEASH
 Moves = 0,POISONFANG,1,SCRATCH,1,LEER,1,EMBER,7,SMOG,9,SCARYFACE,11,TWISTER,13,SLUDGE,15,BITE,17,INCINERATE,20,FIREFANG,23,DRAGONRAGE,26,SLASH,30,FLAMEBURST,34,HONECLAWS,38,FLAMETHROWER,43,SLUDGEBOMB
-TutorMoves = WORKUP,SWORDSDANCE,NASTYPLOT,WILLOWISP,FIREBLAST,FLAMETHROWER,FIREPLEDGE,BLASTBURN,DRACOMETEOR,DRAGONPULSE
+TutorMoves = WORKUP,SWORDSDANCE,NASTYPLOT,WILLOWISP,FIREBLAST,FLAMETHROWER,FIREPLEDGE,DRACOMETEOR,DRAGONPULSE
 EggGroups = Field,Dragon
 HatchSteps = 5120
 Height = 0.7
@@ -122,8 +122,8 @@ Weight = 6.9
 Color = Black
 Shape = Bipedal
 Habitat = Mountain
-Category = Komodo Dragon
-Pokedex = ???
+Category = Komodo
+Pokedex = Tired of being confunded with Charmander family, Dramodo's is consumed in rage. It's flames could wipe up an castle, it's sharp claw's cut like diamond.
 Evolutions = KOMODRA,Level,36
 #-------------------------------
 [KOMODRA]
@@ -139,7 +139,7 @@ Happiness = 50
 Abilities = BLAZE
 HiddenAbilities = UNLEASH
 Moves = 0,DRACOSPHERE,1,SCRATCH,1,LEER,1,EMBER,7,SMOG,9,SCARYFACE,11,TWISTER,13,SLUDGE,15,BITE,17,INCINERATE,20,FIREFANG,23,DRAGONRAGE,26,SLASH,30,FLAMEBURST,34,HONECLAWS,39,FLAMETHROWER,44,SLUDGEBOMB,48,DRAGONPULSE,54,SLUDGEWAVE
-TutorMoves = WORKUP,SWORDSDANCE,NASTYPLOT,WILLOWISP,FIREBLAST,FLAMETHROWER,FIREPLEDGE,BLASTBURN,DRACOMETEOR,DRAGONPULSE
+TutorMoves = WORKUP,SWORDSDANCE,CUT,NASTYPLOT,WILLOWISP,FIREBLAST,FLAMETHROWER,FIREPLEDGE,BLASTBURN,DRACOMETEOR,DRAGONPULSE
 EggGroups = Field,Dragon
 HatchSteps = 5120
 Height = 0.7
@@ -148,7 +148,7 @@ Color = Black
 Shape = Bipedal
 Habitat = Mountain
 Category = Burning Flame
-Pokedex = ???
+Pokedex = Old legends say that Dramodo only evolves once it's inner flame has been lighten. Wich is only possible if it has a high bond with it's trainer.
 #-------------------------------
 [AXOLOBY]
 Name = Axoloby
@@ -174,7 +174,7 @@ Shape = Bipedal
 Habitat = Sea
 Category = Axolot
 Pokedex = ???
-Evolutions = PSYLOTE,Level,18
+Evolutions = PSYLOTE,Level,16
 #-------------------------------
 [PSYLOTE]
 Name = Psylote
@@ -197,8 +197,7 @@ Weight = 6.9
 Color = Pink
 Shape = Bipedal
 Habitat = Sea
-Category = Axolot
-Pokedex = ???
+Category = Psi
 Evolutions = AXOLYSTIC,Level,36
 #-------------------------------
 [AXOLYSTIC]
@@ -222,7 +221,7 @@ Weight = 6.9
 Color = Pink
 Shape = Bipedal
 Habitat = Sea
-Category = Axolot
+Category = Mystic
 Pokedex = ???
 #-------------------------------
 [PURIRD]
@@ -2214,11 +2213,11 @@ Shape = Head
 Habitat = Urban
 Category = Floor
 Pokedex = Crackuum desguise themselfs amoung cracked sideways and attack once stepped. They usually feed from toxicity.
-Evolutions = CILLUTION,Level,30
+Evolutions = POLLUTLAS,Level,30
 CallRateSOS = 10
 #-------------------------------
-[CILLUTION]
-Name = Cillution
+[POLLUTLAS]
+Name = Pollutlas
 Types = ROCK,POISON
 BaseStats = 108,80,130,40,35,70
 GenderRatio = Female50Percent
