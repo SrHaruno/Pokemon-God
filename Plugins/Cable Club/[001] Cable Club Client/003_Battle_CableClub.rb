@@ -1,21 +1,24 @@
 class Battle
   attr_reader :client_id
-  if PluginManager.installed?("Focus Meter System")
-    attr_accessor :focusMeter
-  end
-  if PluginManager.installed?("PLA Battle Styles")
-    attr_accessor :battleStyle
-  end
+  # Focus Meter System
+  attr_accessor :focusMeter
+  #PLA Battle Styles
+  attr_accessor :battleStyle
 end
 
 class Battle_CableClub < Battle
   attr_reader :connection
   attr_reader :battleRNG
-  def initialize(connection, client_id, scene, opponent_party, opponent, seed)
+  def initialize(connection, client_id, scene, player_party, opponent_party, opponent, seed)
     @connection = connection
     @client_id = client_id
-    player = NPCTrainer.new($player.name, $player.trainer_type)
-    super(scene, $player.party, opponent_party, [player], [opponent])
+    online_back_check = GameData::TrainerType.player_back_sprite_filename($player.online_trainer_type)
+    if online_back_check
+      player = NPCTrainer.new($player.name, $player.online_trainer_type)
+    else
+      player = NPCTrainer.new($player.name, $player.trainertype)
+    end
+    super(scene, player_party, opponent_party, [player], [opponent])
     @battleAI  = AI_CableClub.new(self)
     @battleRNG = Random.new(seed)
   end
@@ -85,8 +88,8 @@ class Battle_CableClub < Battle
     battlers = @battlers.dup
     begin
       order = CableClub::pokemon_order(@client_id)
-      for i in 0..3
-        @battlers[i] = battlers[order[i]]
+      order.each_with_index do |o,i|
+        @battlers[i] = battlers[o]
       end
       return super(*args)
     ensure
@@ -113,8 +116,8 @@ class Battle_CableClub < Battle
       # check in same order
       battlers = []
       order = CableClub::pokemon_order(@client_id)
-      for i in 0..3
-        battlers[i] = @battlers[order[i]]
+      order.each_with_index do |o,i|
+        battlers[i] = @battlers[o]
       end
       battlers.each do |b|
         next if !b || !b.fainted?
@@ -161,14 +164,18 @@ class Battle
           mega=@battle.megaEvolution[0][0]
           mega^=1 if mega>=0
           writer.int(mega)
-          # ZUD
-          if PluginManager.installed?("ZUD Mechanics")
+          # ZUD / [DBK] Z-Power
+          if PluginManager.installed?("ZUD Mechanics") ||
+             PluginManager.installed?("[DBK] Z-Power")
             zmove = @battle.zMove[0][0]
             zmove^=1 if zmove>=0
             writer.int(zmove)
             ultra = @battle.ultraBurst[0][0]
             ultra^=1 if ultra>=0
             writer.int(ultra)
+          end
+          if PluginManager.installed?("ZUD Mechanics") ||
+             PluginManager.installed?("[DBK] Dynamax")
             dmax = @battle.dynamax[0][0]
             dmax^=1 if dmax>=0
             writer.int(dmax)
@@ -184,7 +191,8 @@ class Battle
             writer.int(style)
             writer.int(style_trigger)
           end
-          if PluginManager.installed?("Terastal Phenomenon")
+          if PluginManager.installed?("Terastal Phenomenon") ||
+             PluginManager.installed?("[DBK] Terastallization")
             tera = @battle.terastallize[0][0]
             tera^=1 if tera>=0
             writer.int(tera)
@@ -243,9 +251,13 @@ class Battle
                     @battle.battleRNG.srand(seed) if @battle.client_id==1
                   when :mechanic
                     @battle.megaEvolution[1][0] = record.int
-                    if PluginManager.installed?("ZUD Mechanics")
+                    if PluginManager.installed?("ZUD Mechanics") ||
+                       PluginManager.installed?("[DBK] Z-Power")
                       @battle.zMove[1][0] = record.int
                       @battle.ultraBurst[1][0] = record.int
+                    end
+                    if PluginManager.installed?("ZUD Mechanics") || 
+                       PluginManager.installed?("[DBK] Dynamax")
                       @battle.dynamax[1][0] = record.int
                     end
                     if PluginManager.installed?("PLA Battle Styles")
@@ -254,7 +266,8 @@ class Battle
                       style_trigger = record.int
                       @battle.battlers[focus_index].style_trigger = style_trigger if focus_index >= 0
                     end
-                    if PluginManager.installed?("Terastal Phenomenon")
+                    if PluginManager.installed?("Terastal Phenomenon") ||
+                       PluginManager.installed?("[DBK] Terastallization")
                       @battle.terastallize[1][0] = record.int
                     end
                     if PluginManager.installed?("Focus Meter System")
@@ -265,6 +278,12 @@ class Battle
                     partner_pkmn = @battle.battlers[their_index]
                     @battle.choices[their_index][0] = record.sym
                     @battle.choices[their_index][1] = record.int
+                    if PluginManager.installed?("[DBK] Z-Power")
+                      partner_pkmn.display_zmoves if @battle.zMove[1][0] == their_index
+                    end
+                    if PluginManager.installed?("[DBK] Dynamax")
+                      partner_pkmn.display_dynamax_moves if @battle.dynamax[1][0] == their_index
+                    end
                     if PluginManager.installed?("ZUD Mechanics")
                       if @battle.zMove[1][0] == their_index
                         partner_pkmn.display_power_moves(1)

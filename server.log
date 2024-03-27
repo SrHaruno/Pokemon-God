@@ -1,68 +1,70 @@
-2023-09-19 23:49:35,864: INFO: ---------------
-2023-09-19 23:49:38,335: INFO: Started Server on 127.0.0.1:9999
-2023-09-19 23:51:11,489: INFO: 127.0.0.1:54750/connecting: connect
-2023-09-19 23:51:19,383: INFO: 127.0.0.1:54751/connecting: connect
-2023-09-19 23:51:19,421: INFO: 127.0.0.1:54750/connected: connected to 127.0.0.1:54751/connected
-2023-09-19 23:51:19,421: INFO: 127.0.0.1:54751/connected: connected to 127.0.0.1:54750/connected
-2023-09-19 23:52:01,132: INFO: 127.0.0.1:54750/connected: disconnected (client disconnected)
-2023-09-19 23:52:01,133: INFO: 127.0.0.1:54751/connected: disconnected (peer disconnected)
-2023-09-20 00:21:39,331: INFO: ---------------
-2023-09-20 00:21:42,496: INFO: Started Server on 127.0.0.1:9999
-2023-09-20 00:26:13,681: INFO: 127.0.0.1:54903/connecting: connect
-2023-09-20 00:26:18,376: INFO: 127.0.0.1:54904/connecting: connect
-2023-09-20 00:26:19,097: INFO: 127.0.0.1:54903/connected: connected to 127.0.0.1:54904/connected
-2023-09-20 00:26:19,098: INFO: 127.0.0.1:54904/connected: connected to 127.0.0.1:54903/connected
-2023-09-20 00:29:55,143: INFO: 127.0.0.1:54903/connected: disconnected (client disconnected)
-2023-09-20 00:29:55,179: INFO: 127.0.0.1:54904/connected: disconnected (peer disconnected)
-2023-09-23 00:13:28,182: INFO: ---------------
-2023-09-23 00:13:29,525: INFO: Started Server on 127.0.0.1:9999
-2023-09-23 00:14:16,438: INFO: 127.0.0.1:63467/connecting: connect
-2023-09-23 00:14:16,483: INFO: 127.0.0.1:63467/connecting: disconnected (invalid party)
-2023-09-23 00:15:21,811: INFO: 127.0.0.1:63469/connecting: connect
-2023-09-23 00:15:21,822: INFO: 127.0.0.1:63469/connecting: disconnected (invalid party)
-2023-09-23 00:15:26,653: INFO: 127.0.0.1:63470/connecting: connect
-2023-09-23 00:15:26,659: INFO: 127.0.0.1:63470/connecting: disconnected (invalid party)
-2023-09-23 00:16:21,413: INFO: 127.0.0.1:63471/connecting: connect
-2023-09-23 00:16:21,422: INFO: 127.0.0.1:63471/connecting: disconnected (invalid party)
-2023-09-23 00:17:06,467: INFO: 127.0.0.1:63472/connecting: connect
-2023-09-23 00:17:06,476: INFO: 127.0.0.1:63472/connecting: disconnected (invalid party)
-2023-09-23 00:17:53,827: INFO: 127.0.0.1:63473/connecting: connect
-2023-09-23 00:17:53,842: INFO: 127.0.0.1:63473/connecting: disconnected (invalid party)
-2023-09-23 00:36:08,089: INFO: ---------------
-2023-09-23 00:36:09,013: INFO: Started Server on 127.0.0.1:9999
-2023-09-23 00:36:55,406: INFO: Stopping Server
-2023-09-23 00:36:59,076: INFO: ---------------
-2023-09-23 00:37:00,193: INFO: Started Server on 127.0.0.1:9999
-2023-09-23 00:37:19,639: INFO: 127.0.0.1:63547/connecting: connect
-2023-09-23 00:37:19,695: INFO: 127.0.0.1:63547/connecting: disconnected (invalid party)
-2023-09-23 12:09:16,726: INFO: ---------------
-2023-09-23 12:09:17,764: INFO: Started Server on 127.0.0.1:9999
-2023-09-23 12:10:48,035: INFO: 127.0.0.1:64268/connecting: connect
-2023-09-23 12:10:48,080: INFO: 127.0.0.1:64268/connecting: disconnected (invalid party)
-2023-09-23 12:11:25,235: INFO: 127.0.0.1:64270/connecting: connect
-2023-09-23 12:11:25,257: INFO: 127.0.0.1:64270/connecting: disconnected (invalid party)
-2023-09-23 12:21:04,618: INFO: ---------------
-2023-09-23 12:21:06,086: INFO: Started Server on 127.0.0.1:9999
-2023-09-23 12:21:19,078: INFO: 127.0.0.1:64317/connecting: connect
-2023-09-23 12:22:03,960: INFO: 127.0.0.1:64317/finding: message dropped (no peer)
-2023-09-23 12:22:03,986: INFO: 127.0.0.1:64317/finding: disconnected (client disconnected)
-2023-09-23 12:23:36,817: INFO: 127.0.0.1:64328/connecting: connect
-2023-09-23 12:23:47,626: INFO: 127.0.0.1:64329/connecting: connect
-2023-09-23 12:23:47,658: INFO: 127.0.0.1:64328/connected: connected to 127.0.0.1:64329/connected
-2023-09-23 12:23:47,658: INFO: 127.0.0.1:64329/connected: connected to 127.0.0.1:64328/connected
-2023-09-23 12:25:23,797: INFO: 127.0.0.1:64328/connected: disconnected (client disconnected)
-2023-09-23 12:25:23,798: INFO: 127.0.0.1:64329/connected: disconnected (peer disconnected)
-2023-12-21 15:24:46,284: INFO: ---------------
-2023-12-21 15:24:48,146: INFO: Started Server on 127.0.0.1:9999
-2023-12-21 15:26:43,515: INFO: ---------------
-2023-12-21 15:26:45,947: INFO: Started Server on 127.0.0.1:9999
-2023-12-21 15:27:06,931: INFO: 127.0.0.1:58766/connecting: connect
-2023-12-21 15:27:06,976: INFO: 127.0.0.1:58766/connecting: disconnected (invalid party)
-2023-12-21 15:28:03,141: INFO: ---------------
-2023-12-21 15:28:05,870: INFO: Started Server on 127.0.0.1:9999
-2023-12-21 15:28:25,538: INFO: 127.0.0.1:58767/connecting: connect
-2023-12-21 15:28:32,599: INFO: 127.0.0.1:58768/connecting: connect
-2023-12-21 15:28:32,622: INFO: 127.0.0.1:58767/connected: connected to 127.0.0.1:58768/connected
-2023-12-21 15:28:32,622: INFO: 127.0.0.1:58768/connected: connected to 127.0.0.1:58767/connected
-2023-12-21 15:29:18,587: INFO: 127.0.0.1:58767/connected: disconnected (client disconnected)
-2023-12-21 15:29:18,588: INFO: 127.0.0.1:58768/connected: disconnected (peer disconnected)
+2024-03-27 13:58:37,657: INFO: ---------------
+2024-03-27 13:58:41,348: INFO: ---------------
+2024-03-27 13:59:09,764: INFO: ---------------
+2024-03-27 13:59:19,207: INFO: ---------------
+2024-03-27 14:12:05,180: INFO: ---------------
+2024-03-27 14:12:10,672: INFO: ---------------
+2024-03-27 14:12:14,658: INFO: ---------------
+2024-03-27 14:12:17,082: INFO: ---------------
+2024-03-27 14:12:20,032: INFO: ---------------
+2024-03-27 14:12:21,949: INFO: ---------------
+2024-03-27 14:12:23,759: INFO: ---------------
+2024-03-27 14:12:25,768: INFO: ---------------
+2024-03-27 14:12:28,996: INFO: ---------------
+2024-03-27 14:12:32,749: INFO: ---------------
+2024-03-27 14:12:35,201: INFO: ---------------
+2024-03-27 14:12:43,790: INFO: ---------------
+2024-03-27 14:12:50,752: INFO: ---------------
+2024-03-27 14:12:54,801: INFO: ---------------
+2024-03-27 14:12:59,461: INFO: ---------------
+2024-03-27 14:13:02,741: INFO: ---------------
+2024-03-27 14:13:05,528: INFO: ---------------
+2024-03-27 14:13:11,858: INFO: ---------------
+2024-03-27 14:13:14,450: INFO: ---------------
+2024-03-27 14:13:17,637: INFO: ---------------
+2024-03-27 14:13:19,820: INFO: ---------------
+2024-03-27 14:13:23,236: INFO: ---------------
+2024-03-27 14:13:25,683: INFO: ---------------
+2024-03-27 14:13:27,953: INFO: ---------------
+2024-03-27 14:49:58,603: INFO: ---------------
+2024-03-27 14:55:49,063: INFO: ---------------
+2024-03-27 14:56:06,617: INFO: ---------------
+2024-03-27 14:56:06,949: INFO: Refreshing Rules due to changes
+2024-03-27 14:56:07,065: INFO: Started Server on 127.0.0.1:9999
+2024-03-27 14:59:09,737: INFO: 127.0.0.1:55907/connecting: connect
+2024-03-27 14:59:09,801: INFO: 127.0.0.1:55907/connecting: disconnected (invalid party)
+2024-03-27 14:59:13,955: INFO: 127.0.0.1:55908/connecting: connect
+2024-03-27 14:59:13,967: INFO: 127.0.0.1:55908/connecting: disconnected (invalid party)
+2024-03-27 15:47:40,079: INFO: ---------------
+2024-03-27 15:47:41,767: INFO: Refreshing Rules due to changes
+2024-03-27 15:47:41,799: INFO: Started Server on 127.0.0.1:9999
+2024-03-27 15:50:01,243: INFO: 127.0.0.1:56009/connecting: connect
+2024-03-27 15:50:05,205: INFO: 127.0.0.1:56010/connecting: connect
+2024-03-27 15:50:05,222: INFO: 127.0.0.1:56009/connected: connected to 127.0.0.1:56010/connected
+2024-03-27 15:50:05,222: INFO: 127.0.0.1:56010/connected: connected to 127.0.0.1:56009/connected
+2024-03-27 15:51:47,132: INFO: 127.0.0.1:56010/connected: disconnected (client disconnected)
+2024-03-27 15:51:47,133: INFO: 127.0.0.1:56009/connected: disconnected (peer disconnected)
+2024-03-27 15:52:03,927: INFO: 127.0.0.1:56011/connecting: connect
+2024-03-27 15:52:06,036: INFO: 127.0.0.1:56012/connecting: connect
+2024-03-27 15:52:06,045: INFO: 127.0.0.1:56011/connected: connected to 127.0.0.1:56012/connected
+2024-03-27 15:52:06,045: INFO: 127.0.0.1:56012/connected: connected to 127.0.0.1:56011/connected
+2024-03-27 15:52:21,327: INFO: 127.0.0.1:56012/connected: disconnected (client disconnected)
+2024-03-27 15:52:21,328: INFO: 127.0.0.1:56011/connected: disconnected (peer disconnected)
+2024-03-27 15:55:13,399: INFO: Refreshing Rules due to changes
+2024-03-27 15:56:13,589: INFO: Refreshing Rules due to changes
+2024-03-27 16:05:41,069: INFO: 127.0.0.1:56054/connecting: connect
+2024-03-27 16:05:42,892: INFO: 127.0.0.1:56055/connecting: connect
+2024-03-27 16:05:42,921: INFO: 127.0.0.1:56054/connected: connected to 127.0.0.1:56055/connected
+2024-03-27 16:05:42,933: INFO: 127.0.0.1:56055/connected: connected to 127.0.0.1:56054/connected
+2024-03-27 16:08:35,270: INFO: 127.0.0.1:56055/connected: disconnected (client disconnected)
+2024-03-27 16:08:35,336: INFO: 127.0.0.1:56054/connected: disconnected (peer disconnected)
+2024-03-27 16:23:43,955: INFO: ---------------
+2024-03-27 16:23:44,861: INFO: Started Server on 127.0.0.1:9999
+2024-03-27 16:31:47,201: INFO: ---------------
+2024-03-27 16:31:47,964: INFO: Started Server on 127.0.0.1:9999
+2024-03-27 16:33:01,238: INFO: 127.0.0.1:56126/connecting: connect
+2024-03-27 16:33:03,619: INFO: 127.0.0.1:56127/connecting: connect
+2024-03-27 16:33:03,649: INFO: 127.0.0.1:56126/connected: connected to 127.0.0.1:56127/connected
+2024-03-27 16:33:03,649: INFO: 127.0.0.1:56127/connected: connected to 127.0.0.1:56126/connected
+2024-03-27 16:33:54,526: INFO: 127.0.0.1:56126/connected: disconnected (client disconnected)
+2024-03-27 16:33:54,526: INFO: 127.0.0.1:56127/connected: disconnected (peer disconnected)

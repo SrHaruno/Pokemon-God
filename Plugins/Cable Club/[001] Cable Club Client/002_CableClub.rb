@@ -15,441 +15,45 @@ module CableClub
                       :record_mix => _INTL("mix records")}
   def self.pokemon_order(client_id)
     case client_id
-    when 0; [0, 1, 2, 3]
-    when 1; [1, 0, 3, 2]
+    when 0; [0, 1, 2, 3, 4, 5]
+    when 1; [1, 0, 3, 2, 5, 4]
     else; raise "Unknown client_id: #{client_id}"
     end
   end
 
   def self.pokemon_target_order(client_id)
     case client_id
-    when 0..1; [1, 0, 3, 2]
+    when 0..1; [1, 0, 3, 2, 5, 4]
     else; raise "Unknown client_id: #{client_id}"
     end
   end
 
-  def self.connect_to(msgwindow, partner_trainer_id)
-    pbMessageDisplayDots(msgwindow, _INTL("Connecting"), 0)
-    host,port = get_server_info
-    Connection.open(host,port) do |connection|
-      state = :await_server
-      last_state = nil
-      client_id = 0
-      partner_name = nil
-      partner_trainer_type = nil
-      partner_party = nil
-      frame = 0
-      activity = nil
-      seed = nil
-      battle_type = nil
-      chosen = nil
-      partner_chosen = nil
-      partner_confirm = false
-
-      loop do
-        if state != last_state
-          last_state = state
-          frame = 0
-        else
-          frame += 1
-        end
-
-        Graphics.update
-        Input.update
-        if Input.press?(Input::BACK)
-          message = case state
-            when :await_server; _INTL("Abort connection?\\^")
-            when :await_partner; _INTL("Abort search?\\^")
-            else; _INTL("Disconnect?\\^")
-            end
-          pbMessageDisplay(msgwindow, message)
-          break if pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-        end
-
-        case state
-        # Waiting to be connected to the server.
-        # Note: does nothing without a non-blocking connection.
-        when :await_server
-          if connection.can_send?
-            connection.send do |writer|
-              writer.sym(:find)
-              writer.str(Settings::GAME_VERSION)
-              writer.int(partner_trainer_id)
-              writer.str($player.name)
-              writer.int($player.id)
-              writer.sym($player.online_trainer_type)
-              write_party(writer)
-            end
-            state = :await_partner
-          else
-            pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nConnecting",$player.public_ID($player.id)), frame)
-          end
-
-        # Waiting to be connected to the partner.
-        when :await_partner
-          pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nSearching",$player.public_ID($player.id)), frame)
-          connection.update do |record|
-            case (type = record.sym)
-            when :found
-              client_id = record.int
-              partner_name = record.str
-              partner_trainer_type = record.sym
-              partner_party = parse_party(record)
-              pbMessageDisplay(msgwindow, _INTL("{1} {2} connected!",GameData::TrainerType.get(partner_trainer_type).name, partner_name))
-              $stats.online_link_count+=1
-              if client_id == 0
-                state = :choose_activity
-              else
-                state = :await_choose_activity
-              end
-
-            else
-              raise "Unknown message: #{type}"
-            end
-          end
-
-        # Choosing an activity (leader only).
-        when :choose_activity
-          pbMessageDisplay(msgwindow, _INTL("Choose an activity.\\^"))
-          cmds = [_INTL("Single Battle"), _INTL("Double Battle"), _INTL("Trade")]
-          cmds.push(_INTL("Mix Records")) if ENABLE_RECORD_MIXER
-          command = pbShowCommands(msgwindow, cmds, -1)
-          case command
-          when 0..1 # Battle
-            if command == 1 && $player.party_count < 2
-              pbMessageDisplay(msgwindow, _INTL("I'm sorry, you must have at least two Pokémon to engage in a double battle."))
-            elsif command == 1 && partner_party.length < 2
-              pbMessageDisplay(msgwindow, _INTL("I'm sorry, your partner must have at least two Pokémon to engage in a double battle."))
-            else
-              connection.send do |writer|
-                writer.sym(:battle)
-                seed = rand(2**31)
-                writer.int(seed)
-                battle_type = case command
-                  when 0; :single
-                  when 1; :double
-                  else; raise "Unknown battle type"
-                  end
-                writer.sym(battle_type)
-              end
-              activity = :battle
-              state = :await_accept_activity
-            end
-
-          when 2 # Trade
-            connection.send do |writer|
-              writer.sym(:trade)
-            end
-            activity = :trade
-            state = :await_accept_activity
-
-          when 3 # Mix Records
-            connection.send do |writer|
-              writer.sym(:record_mix)
-            end
-            activity = :record_mix
-            state = :await_accept_activity
-            
-          else # Cancel
-            # TODO: Confirmation box?
-            break
-          end
-
-        # Waiting for the partner to accept our activity (leader only).
-        when :await_accept_activity
-          pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to accept", partner_name), frame)
-          connection.update do |record|
-            case (type = record.sym)
-            when :ok
-              case activity
-              when :battle
-                partner = NPCTrainer.new(partner_name, partner_trainer_type)
-                (partner.partyID=0) rescue nil # EBDX compat
-                do_battle(connection, client_id, seed, battle_type, partner, partner_party)
-                state = :choose_activity
-
-              when :trade
-                chosen = choose_pokemon
-                if chosen >= 0
-                  connection.send do |writer|
-                    writer.sym(:ok)
-                    writer.int(chosen)
-                  end
-                  state = :await_trade_confirm
-                else
-                  connection.send do |writer|
-                    writer.sym(:cancel)
-                  end
-                  connection.discard(1)
-                  state = :choose_activity
-                end
-
-              when :record_mix
-                do_mix_records(msgwindow,connection)
-                state = :choose_activity
-              
-              else
-                raise "Unknown activity: #{activity}"
-              end
-
-            when :cancel
-              activity_name = _INTL(ACTIVITY_OPTIONS[activity])
-              pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to {2}.", partner_name, activity_name))
-              state = :choose_activity
-
-            else
-              raise "Unknown message: #{type}"
-            end
-          end
-
-        # Waiting for the partner to select an activity (follower only).
-        when :await_choose_activity
-          pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to pick an activity", partner_name), frame)
-          connection.update do |record|
-            case (type = record.sym)
-            when :battle
-              seed = record.int
-              battle_type = record.sym
-              partner = NPCTrainer.new(partner_name, partner_trainer_type)
-              (partner.partyID=0) rescue nil # EBDX compat
-              # Auto-reject double battles that we cannot participate in.
-              if battle_type == :double && $player.party_count < 2
-                connection.send do |writer|
-                  writer.sym(:cancel)
-                end
-                state = :await_choose_activity
-              else
-                pbMessageDisplay(msgwindow, _INTL("{1} wants to battle!\\^", partner_name))
-                if pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-                  connection.send do |writer|
-                    writer.sym(:ok)
-                  end
-                  do_battle(connection, client_id, seed, battle_type, partner, partner_party)
-                else
-                  connection.send do |writer|
-                    writer.sym(:cancel)
-                  end
-                  state = :await_choose_activity
-                end
-              end
-
-            when :trade
-              pbMessageDisplay(msgwindow, _INTL("{1} wants to trade!\\^", partner_name))
-              if pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-                connection.send do |writer|
-                  writer.sym(:ok)
-                end
-                chosen = choose_pokemon
-                if chosen >= 0
-                  connection.send do |writer|
-                    writer.sym(:ok)
-                    writer.int(chosen)
-                  end
-                  state = :await_trade_confirm
-                else
-                  connection.send do |writer|
-                    writer.sym(:cancel)
-                  end
-                  connection.discard(1)
-                  state = :await_choose_activity
-                end
-              else
-                connection.send do |writer|
-                  writer.sym(:cancel)
-                end
-                state = :await_choose_activity
-              end
-
-            when :record_mix
-              pbMessageDisplay(msgwindow, _INTL("{1} wants to mix records!\\^", partner_name))
-              if pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-                connection.send do |writer|
-                  writer.sym(:ok)
-                end
-                do_mix_records(msgwindow,connection)
-              else
-                connection.send do |writer|
-                  writer.sym(:cancel)
-                end
-              end
-            
-            else
-              raise "Unknown message: #{type}"
-            end
-          end
-
-        # Waiting for the partner to select a Pokémon to trade.
-        when :await_trade_pokemon
-          if partner_confirm
-            pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to resynchronize", partner_name), frame)
-          else
-            pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to confirm the trade", partner_name), frame)
-          end
-
-          connection.update do |record|
-            case (type = record.sym)
-            when :ok
-              partner = NPCTrainer.new(partner_name, $player.trainer_type)
-              $player.heal_party
-              partner_party.each{|pkmn| pkmn.heal}
-              pkmn = partner_party[partner_chosen]
-              partner_party[partner_chosen] = $player.party[chosen]
-              do_trade(chosen, partner, pkmn)
-              connection.send do |writer|
-                writer.sym(:update)
-                write_pkmn(writer, $player.party[chosen])
-              end
-              partner_confirm = true
-
-            when :update
-              partner_party[partner_chosen] = parse_pkmn(record)
-              partner_chosen = nil
-              partner_confirm = false
-              if client_id == 0
-                state = :choose_activity
-              else
-                state = :await_choose_activity
-              end
-
-            when :cancel
-              pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to trade after all.", partner_name))
-              partner_chosen = nil
-              partner_confirm = false
-              if client_id == 0
-                state = :choose_activity
-              else
-                state = :await_choose_activity
-              end
-
-            else
-              raise "Unknown message: #{type}"
-            end
-          end
-        
-        when :await_trade_confirm
-          if partner_chosen.nil?
-            pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to pick a Pokémon", partner_name), frame)
-          else
-            pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to confirm the trade", partner_name), frame)
-          end
-
-          connection.update do |record|
-            case (type = record.sym)
-            when :ok
-              partner_chosen = record.int
-              $player.heal_party
-              partner_party.each {|pkmn| pkmn.heal}
-              partner_pkmn = partner_party[partner_chosen]
-              your_pkmn = $player.party[chosen]
-              abort=$player.able_pokemon_count==1 && your_pkmn==$player.able_party[0] && partner_pkmn.egg?
-              able_party=partner_party.find_all { |p| p && !p.egg? && !p.fainted? }
-              abort|=able_party.length==1 && partner_pkmn==able_party[0] && your_pkmn.egg?
-              unless abort
-                partner_speciesname = (partner_pkmn.egg?) ? _INTL("Egg") : partner_pkmn.speciesName
-                your_speciesname = (your_pkmn.egg?) ? _INTL("Egg") : your_pkmn.speciesName
-                loop do
-                  pbMessageDisplay(msgwindow, _INTL("{1} has offered {2} ({3}) for your {4} ({5}).\\^",partner_name,
-                      partner_pkmn.name,partner_speciesname,your_pkmn.name,your_speciesname))
-                  command = pbShowCommands(msgwindow, [_INTL("Check {1}'s offer",partner_name), _INTL("Check My Offer"), _INTL("Accept/Deny Trade")], -1)
-                  case command
-                  when 0
-                    check_pokemon(partner_pkmn)
-                  when 1
-                    check_pokemon(your_pkmn)
-                  when 2
-                    pbMessageDisplay(msgwindow, _INTL("Confirm the trade of {1} ({2}) for your {3} ({4}).\\^",partner_pkmn.name,partner_speciesname,
-                        your_pkmn.name,your_speciesname))
-                    if pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-                      connection.send do |writer|
-                        writer.sym(:ok)
-                      end
-                      state = :await_trade_pokemon
-                      break
-                    else
-                      connection.send do |writer|
-                        writer.sym(:cancel)
-                      end
-                      partner_chosen = nil
-                      connection.discard(1)
-                      if client_id == 0
-                        state = :choose_activity
-                      else
-                        state = :await_choose_activity
-                      end
-                      break
-                    end
-                  end
-                end
-              else
-                pbMessageDisplay(msgwindow, _INTL("The trade was unable to be completed."))
-                partner_chosen = nil
-                if client_id == 0
-                  state = :choose_activity
-                else
-                  state = :await_choose_activity
-                end
-              end
-              
-            when :cancel
-              pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to trade after all.", partner_name))
-              partner_chosen = nil
-              if client_id == 0
-                state = :choose_activity
-              else
-                state = :await_choose_activity
-              end
-
-            else
-              raise "Unknown message: #{type}"
-            end
-          end
-        else
-          raise "Unknown state: #{state}"
-        end
-      end
-    connection.send do |writer|
-      writer.sym(:disconnect)
-    end
-    connection.dispose
-    end
-  end
-
-  def self.pbMessageDisplayDots(msgwindow, message, frame)
-    pbMessageDisplay(msgwindow, message + "...".slice(0..(frame/8) % 3) + "\\^", false)
-  end
-
-  def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party)
+  def self.do_battle(connection, client_id, seed, battle_rules, player_party, partner, partner_party)
     $player.heal_party # Avoids having to transmit damaged state.
     partner_party.each{|pkmn| pkmn.heal} # back to back battles desync without it.
-    olditems  = $player.party.transform { |p| p.item_id }
+    olditems  = player_party.transform { |p| p.item_id }
     olditems2 = partner_party.transform { |p| p.item_id }
     if !DISABLE_SKETCH_ONLINE
-      oldmoves  = $player.party.transform { |p| p.moves.dup }
+      oldmoves  = player_party.transform { |p| p.moves.dup }
       oldmoves2 = partner_party.transform { |p| p.moves.dup }
     end
-    if PluginManager.installed?("Terastal Phenomenon")
+    if PluginManager.installed?("Terastal Phenomenon") ||
+       PluginManager.installed?("[DBK] Terastallization")
       old_tera = $player.tera_charged?
       $player.tera_charged = true
     end
     scene = BattleCreationHelperMethods.create_battle_scene
-    battle = Battle_CableClub.new(connection, client_id, scene, partner_party, partner, seed)
+    battle = Battle_CableClub.new(connection, client_id, scene, player_party, partner_party, partner, seed)
     battle.items = []
     battle.internalBattle = false
-    case battle_type
-    when :single
-      setBattleRule("single")
-    when :double
-      setBattleRule("double")
-    else
-      raise "Unknown battle type: #{battle_type}"
-    end
+    battle_rules.applyBattleRules(battle)
     trainerbgm = pbGetTrainerBattleBGM(partner)
     EventHandlers.trigger(:on_start_battle)
     # XXX: Configuring Online Battle Rules
     setBattleRule("environment", :None)
     setBattleRule("weather", :None)
     setBattleRule("terrain", :None)
-    setBattleRule("backdrop", "indoor1")
+    setBattleRule("backdrop", "Online")
     BattleCreationHelperMethods.prepare_battle(battle)
     $game_temp.clear_battle_rules
     battle.time = 0
@@ -463,22 +67,53 @@ module CableClub
           scene.pbEndBattle(0)
           exc = $!
         ensure
-          if PluginManager.installed?("Terastal Phenomenon")
+          if PluginManager.installed?("Terastal Phenomenon") ||
+             PluginManager.installed?("[DBK] Terastallization")
             $player.tera_charged = old_tera
           end
-          $player.party.each_with_index do |pkmn, i|
+          player_party.each_with_index do |pkmn, i|
             pkmn.heal
             pkmn.makeUnmega
             pkmn.makeUnprimal
             pkmn.item = olditems[i]
-            pkmn.moves = oldmoves[i] if !DISABLE_SKETCH_ONLINE
+            if !DISABLE_SKETCH_ONLINE
+              pkmn.moves.clear
+              oldmoves[i].each_with_index {|move,i| pkmn.moves[i]=move}
+            end
+            pkmn.unmax if PluginManager.installed?("ZUD Mechanics")
+            if PluginManager.installed?("[DBK] Dynamax")
+               if pkmn.dynamax?
+                 pkmn.makeUndynamaxForm
+                 pkmn.makeUndynamax
+                 pkmn.calc_stats
+               end
+            end
+            if PluginManager.installed?("Terastal Phenomenon") ||
+               PluginManager.installed?("[DBK] Terastallization")
+              pkmn.terastallized = false if pkmn&.tera?
+            end
           end
           partner_party.each_with_index do |pkmn, i|
             pkmn.heal
             pkmn.makeUnmega
             pkmn.makeUnprimal
             pkmn.item = olditems2[i]
-            pkmn.moves = oldmoves2[i] if !DISABLE_SKETCH_ONLINE
+            if !DISABLE_SKETCH_ONLINE
+              pkmn.moves.clear
+              oldmoves2[i].each_with_index {|move,i| pkmn.moves[i]=move}
+            end
+            pkmn.unmax if PluginManager.installed?("ZUD Mechanics")
+            if PluginManager.installed?("[DBK] Dynamax")
+               if pkmn.dynamax?
+                 pkmn.makeUndynamaxForm
+                 pkmn.makeUndynamax
+                 pkmn.calc_stats
+               end
+            end
+            if PluginManager.installed?("Terastal Phenomenon") ||
+               PluginManager.installed?("[DBK] Terastallization")
+              pkmn.terastallized = false if pkmn&.tera?
+            end
           end
         end
       }
@@ -518,10 +153,20 @@ module CableClub
     return chosen
   end
   
+  def self.choose_team(ruleset)
+    team_order = nil
+    pbFadeOutIn(99999) {
+      scene = PokemonParty_Scene.new
+      screen = PokemonPartyScreen.new(scene, $player.party)
+      team_order = screen.pbPokemonMultipleEntryScreenOrder(ruleset)
+    }
+    return team_order
+  end
+  
   def self.check_pokemon(pkmn)
     pbFadeOutIn(99999) {
       scene = PokemonSummary_Scene.new
-      screen = PokemonSummaryScreen.new(scene)
+      screen = PokemonSummaryScreen.new(scene,true)
       screen.pbStartScreen([pkmn],0)
     }
   end
@@ -592,16 +237,22 @@ module CableClub
     pkmn.ribbons.each do |ribbon|
       writer.sym(ribbon)
     end
-    if PluginManager.installed?("Essentials Deluxe")
+    if PluginManager.installed?("Essentials Deluxe") ||
+       PluginManager.installed?("[MUI] Improved Mementos")
       writer.int(pkmn.scale)
     end
-    if PluginManager.installed?("ZUD Mechanics")
+    if PluginManager.installed?("[MUI] Improved Mementos")
+      writer.nil_or(:sym,pkmn.memento)
+    end
+    if PluginManager.installed?("ZUD Mechanics") ||
+       PluginManager.installed?("[DBK] Dynamax")
       writer.int(pkmn.dynamax_lvl)
       writer.bool(pkmn.gmax_factor?)
       writer.bool(pkmn.dynamax_able?)
     end
     # already sent PLA Battle Styles data
-    if PluginManager.installed?("Terastal Phenomenon")
+    if PluginManager.installed?("Terastal Phenomenon") ||
+       PluginManager.installed?("[DBK] Terastallization")
       writer.sym(pkmn.tera_type)
     end
     if PluginManager.installed?("Focus Meter System")
@@ -721,16 +372,22 @@ module CableClub
     record.int.times do |i|
       pkmn.giveRibbon(record.sym)
     end
-    if PluginManager.installed?("Essentials Deluxe")
+    if PluginManager.installed?("Essentials Deluxe") || 
+       PluginManager.installed?("[MUI] Improved Mementos")
       pkmn.scale = record.int
     end
-    if PluginManager.installed?("ZUD Mechanics")
+    if PluginManager.installed?("[MUI] Improved Mementos")
+      pkmn.memento = record.nil_or(:sym)
+    end
+    if PluginManager.installed?("ZUD Mechanics") ||
+       PluginManager.installed?("[DBK] Dynamax")
       pkmn.dynamax_lvl = record.int
       pkmn.gmax_factor = record.bool
       pkmn.dynamax_able = record.bool
     end
     # already received PLA Battle Styles data
-    if PluginManager.installed?("Terastal Phenomenon")
+    if PluginManager.installed?("Terastal Phenomenon") ||
+       PluginManager.installed?("[DBK] Terastallization")
       pkmn.tera_type = record.sym
     end
     if PluginManager.installed?("Focus Meter System")
@@ -785,6 +442,99 @@ module CableClub
     return pkmn
   end
   
+  def self.parse_battle_rules(record)
+    rules = []
+    record.int.times do
+      rules << parse_battle_rule(record)
+    end
+    return rules
+  end
+  
+  def self.parse_battle_rule(record)
+    name = record.str
+    desc = record.str
+    rule = PokemonOnlineRules.new
+    rule.setTeamPreview(record.int)
+    rule.setNumberRange(record.int,record.int)
+    # level adjustment
+    level_adjustment = record.nil_or(:str)
+    if level_adjustment
+      level_adjustment_data = level_adjustment.split(";")
+      level_adjustmentClass = level_adjustment_data.shift
+      level_adjustment_args = process_args_type_hint(*level_adjustment_data)
+      if Object.const_defined?(level_adjustmentClass)
+        rule.setLevelAdjustment(Kernel.const_get(level_adjustmentClass),*level_adjustment_args)
+      end
+    end
+    # battle rules
+    record.int.times do
+      clause_data = record.str.split(";")
+      clauseClass = clause_data.shift
+      clause_args = process_args_type_hint(*clause_data)
+      if Object.const_defined?(clauseClass)
+        rule.addBattleRule(Kernel.const_get(clauseClass),*clause_args)
+      end
+    end
+    # pokemon rules
+    record.int.times do
+      clause_data = record.str.split(";")
+      clauseClass = clause_data.shift
+      clause_args = process_args_type_hint(*clause_data)
+      if Object.const_defined?(clauseClass)
+        rule.addPokemonRule(Kernel.const_get(clauseClass),*clause_args)
+      end
+    end
+    # subset rules
+    record.int.times do
+      clause_data = record.str.split(";")
+      clauseClass = clause_data.shift
+      clause_args = process_args_type_hint(*clause_data)
+      if Object.const_defined?(clauseClass)
+        rule.addSubsetRule(Kernel.const_get(clauseClass),*clause_args)
+      end
+    end
+    # team rules
+    record.int.times do
+      clause_data = record.str.split(";")
+      clauseClass = clause_data.shift
+      clause_args = process_args_type_hint(*clause_data)
+      if Object.const_defined?(clauseClass)
+        rule.addTeamRule(Kernel.const_get(clauseClass),*clause_args)
+      end
+    end
+    return [name,desc,rule]
+  end
+  
+  def self.write_battle_rule(writer,battle_rule)  
+    name,desc,rule = battle_rule
+    writer.str(name)
+    writer.str(desc)
+    writer.int(rule.team_preview)
+    writer.int(rule.ruleset.minLength)
+    writer.int(rule.ruleset.maxLength)
+    if rule.rules_hash[:level_adjust]
+      writer.str(rule.rules_hash[:level_adjust].join(";"))
+    else
+      writer.nil_or(:str,nil)
+    end
+    writer.int(rule.rules_hash[:battle].length)
+    rule.rules_hash[:battle].each do |br|
+      writer.str(br.join(";"))
+    end
+    writer.int(rule.rules_hash[:pokemon].length)
+    rule.rules_hash[:pokemon].each do |pr|
+      writer.str(pr.join(";"))
+    end
+    writer.int(rule.rules_hash[:subset].length)
+    rule.rules_hash[:subset].each do |sr|
+      writer.str(sr.join(";"))
+    end
+    writer.int(rule.rules_hash[:team].length)
+    rule.rules_hash[:team].each do |tr|
+      writer.str(tr.join(";"))
+    end
+  end
+  
   def self.get_server_info
     ret = [HOST,PORT]
     if safeExists?("serverinfo.ini")
@@ -798,6 +548,47 @@ module CableClub
             ret[1] = port if port>0 && port<=65535
           end
         end
+      end
+    end
+    return ret
+  end
+  
+    # only handles int, bool, sym, and str
+  def self.apply_args_type_hint(*args)
+    ret = []
+    args.each do |arg|
+      case arg
+      when Integer; ret.push([:int,arg])
+      when TrueClass,FalseClass; ret.push([:bool,arg])
+      when String; ret.push([:str,arg])
+      when Symbol; ret.push([:sym,arg])
+      end
+    end
+    return ret
+  end
+  
+  # takes a long chain of args, every second element is the original argument
+  def self.process_args_type_hint(*args)
+    ret = []
+    r = nil
+    args.each do |arg|
+      if r
+        case r
+        when :int; ret.push(arg.to_i)
+        when :bool
+          if arg == "true"
+            ret.push(true)
+          elsif arg == "false"
+            ret.push(false)
+          else
+            raise "expected bool, got #{arg}"
+          end
+        when :str; ret.push(arg)
+        when :sym; ret.push(arg.to_sym)
+        end
+        r = nil
+      else
+        r = arg.to_sym
       end
     end
     return ret

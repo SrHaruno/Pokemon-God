@@ -21,10 +21,6 @@ module RecordMixer
     return self.call("name", sym)
   end
   
-  def self.prepare_record(sym)
-    self.call("prepareData", sym)
-  end
-  
   def self.write_record(sym, writer)
     self.call("writeData", sym, writer)
   end
@@ -48,13 +44,7 @@ module CableClub
   def self.do_mix_records(msgwindow,connection)
     RecordMixer.each do |sym|
       record_name = RecordMixer.record_name(sym)
-      pbMessageDisplay(msgwindow,_INTL("Preparing {1} Data.",record_name),false)
-      RecordMixer.prepare_record(sym)
-    end
-    
-    RecordMixer.each do |sym|
-      record_name = RecordMixer.record_name(sym)
-      pbMessageDisplay(msgwindow,_INTL("Sending {1} Data.",record_name),false)
+      yield _INTL("Preparing {1} Data",record_name) if block_given?
       connection.send do |writer|
         writer.sym(sym.to_sym)
         RecordMixer.write_record(sym, writer)
@@ -63,11 +53,9 @@ module CableClub
     
     RecordMixer.each do |sym|
       record_name = RecordMixer.record_name(sym)
-      frame = 0
       ret = false
       loop do
-        frame += 1
-        pbMessageDisplayDots(msgwindow,_INTL("Receiving {1} Data",record_name),frame)
+        yield _INTL("Receiving {1} Data",record_name) if block_given?
         Graphics.update
         Input.update
         connection.update do |record|
@@ -85,10 +73,8 @@ module CableClub
     
     RecordMixer.each do |sym|
       record_name = RecordMixer.record_name(sym)
-      pbMessageDisplay(msgwindow,_INTL("Processing {1} Data.",record_name),false)
+      yield _INTL("Processing {1} Data",record_name) if block_given?
       RecordMixer.finalize_record(sym)
     end
-    
-    pbMessageDisplay(msgwindow,_INTL("Record Mixing Completed!"))
   end
 end

@@ -16,8 +16,11 @@ HOST = r"127.0.0.1"
 PORT = 9999
 PBS_DIR = r"./PBS"
 LOG_DIR = r"."
+RULES_DIR = "./BattleRules"
+# Aprox. in seconds
+RULES_REFRESH_RATE = 60
 
-GAME_VERSION = StrictVersion("1.1.0")
+GAME_VERSION = StrictVersion("2.0.0")
 
 POKEMON_MAX_NAME_SIZE = 10
 PLAYER_MAX_NAME_SIZE = 10
@@ -28,17 +31,22 @@ EV_STAT_LIMIT = 252
 # Moves that permanently copy other moves
 SKETCH_MOVE_IDS = ["SKETCH"]
 # Essentials Deluxe Plugins
-DELUXE_INSTALLED = true
-ZUD_INSTALLED = False # ZUD Mechanics
+ESSENTIALS_DELUXE_INSTALLED = False # Specifically Essentials Deluxe, not DBK
+MUI_MEMENTOS_INSTALLED = False
+ZUD_DYNAMAX_INSTALLED = False # ZUD Mechanics / [DBK] Dynamax
 PLA_INSTALLED = False # PLA Battle Styles
-TERA_INSTALLED = False # Terastal Phenomenon
+TERA_INSTALLED = False # Terastal Phenomenon / [DBK] Terastallization
 FOCUS_INSTALLED = False # Focus Meter System
 
 class Server:
-    def __init__(self, host, port, pbs_dir):
+    def __init__(self, host, port, pbs_dir, rules_dir):
         self.valid_party = make_party_validator(pbs_dir)
+        self.loop_count = 1
+        _,self.rules_files = find_changed_files(rules_dir,{})
+        self.rules = load_rules_files(rules_dir,self.rules_files)
         self.host = host
         self.port = port
+        self.rules_dir = rules_dir
         self.socket = None
         self.clients = {}
         self.handlers = {
@@ -61,6 +69,13 @@ class Server:
                     break
 
     def loop(self):
+        if (self.loop_count % RULES_REFRESH_RATE) == 0:
+            reload_rules,rule_files = find_changed_files(self.rules_dir,self.rules_files)
+            if reload_rules:
+                self.rules_files = rule_files
+                self.rules = load_rules_files(self.rules_dir,self.rules_files)
+            self.loop_count = 0
+        self.loop_count += 1
         reads = list(self.clients)
         reads.append(self.socket)
         writes = [s for s, st in self.clients.items() if st.send_buffer]
@@ -123,7 +138,10 @@ class Server:
             writer.int(number)
             writer.str(st_.state.name)
             writer.str(st_.state.trainertype)
+            writer.int(st_.state.win_text)
+            writer.int(st_.state.lose_text)
             writer.raw(st_.state.party)
+            self.write_server_rules(writer)
             writer.send(st)
 
         for _, s, s_ in connections:
@@ -167,12 +185,14 @@ class Server:
                 name = record.str()
                 id = record.int()
                 ttype = record.str()
+                win_text = record.int()
+                lose_text = record.int()
                 party = record.raw_all()
                 logging.debug('%s: Trainer %s, id %d (%s) -> Searching %d', st, name, public_id(id), hex(id), peer_id)
                 if not self.valid_party(record):
                     self.disconnect(s, "invalid party")
                 else:
-                    st.state = Finding(peer_id, name, id, ttype, party)
+                    st.state = Finding(peer_id, name, id, ttype, party, win_text, lose_text)
                     # Is the peer already waiting?
                     for s_, st_ in self.clients.items():
                         if (st is not st_ and
@@ -192,6 +212,11 @@ class Server:
             st_.send_buffer += message + b"\n"
         else:
             logging.info('%s: message dropped (no peer)', st)
+    
+    def write_server_rules(self,writer):
+        writer.int(len(self.rules))
+        for r in self.rules:
+            writer.raw(r)
 
 
 class State:
@@ -205,7 +230,7 @@ class State:
         return f"{self.address[0]}:{self.address[1]}/{type(self.state).__name__.lower()}"
 
 Connecting = collections.namedtuple('Connecting', '')
-Finding = collections.namedtuple('Finding', 'peer_id name id trainertype party')
+Finding = collections.namedtuple('Finding', 'peer_id name id trainertype party win_text lose_text')
 Connected = collections.namedtuple('Connected', 'peer')
 
 class RecordParser:
@@ -288,11 +313,6 @@ def make_party_validator(pbs_dir):
     move_syms = set()
     item_syms = set()
     pokemon_by_name = {}
-    forms_by_name = {}
-    form_abilities_by_name = {}
-    form_moves_by_name = {}
-    form_tutor_by_name = {}
-    form_egg_by_name = {}
 
     with io.open(os.path.join(pbs_dir, r'abilities.txt'), 'r', encoding='utf-8-sig') as abilities_pbs:
         abilities_pbs_ = configparser.ConfigParser()
@@ -312,76 +332,24 @@ def make_party_validator(pbs_dir):
         for internal_id in items_pbs_.sections():
             item_syms.add(internal_id)
 
-    try:
-        pokemonforms_pbs = io.open(os.path.join(pbs_dir, r'pokemon_forms.txt'), 'r', encoding='utf-8-sig')
-    except Exception:
-        default_forms = Universe()
-    else:
-        with pokemonforms_pbs:
-            pokemonforms_pbs_ = configparser.ConfigParser()
-            pokemonforms_pbs_.read_file(pokemonforms_pbs)
-            for key in pokemonforms_pbs_.sections():
-                form = pokemonforms_pbs_[key]
-                skey = key.replace(',', '-').replace(' ', '-')
-                name, _, number = skey.partition('-')
-                if name not in forms_by_name:
-                    forms_by_name[name]=[0]
-                forms_by_name[name].append(int(number))
-                if 'Abilities' in form:
-                    if name not in form_abilities_by_name:
-                        form_abilities_by_name[name] = form['Abilities']
-                    else:
-                        form_abilities_by_name[name] = ",".join([form_abilities_by_name[name],form['Abilities']])
-                if 'HiddenAbilities' in form:
-                    if name not in form_abilities_by_name:
-                        form_abilities_by_name[name] = form['HiddenAbilities']
-                    else:
-                        form_abilities_by_name[name] = ",".join([form_abilities_by_name[name],form['HiddenAbilities']])
-                if 'Moves' in form:
-                    if name not in form_moves_by_name:
-                        form_moves_by_name[name] = form['Moves']
-                    else:
-                        form_moves_by_name[name] = ",".join([form_moves_by_name[name],form['Moves']])
-                if 'TutorMoves' in form:
-                    if name not in form_tutor_by_name:
-                        form_tutor_by_name[name] = form['TutorMoves']
-                    else:
-                        form_tutor_by_name[name] = ",".join([form_tutor_by_name[name],form['TutorMoves']])
-                if 'EggMoves' in form:
-                    if name not in form_egg_by_name:
-                        form_egg_by_name[name] = form['EggMoves']
-                    else:
-                        form_egg_by_name[name] = ",".join([form_egg_by_name[name],form['EggMoves']])
-        default_forms = {0}
-
-    with io.open(os.path.join(pbs_dir, r'pokemon.txt'), 'r', encoding='utf-8-sig') as pokemon_pbs:
+    with io.open(os.path.join(pbs_dir, r'server_pokemon.txt'), 'r', encoding='utf-8-sig') as pokemon_pbs:
         pokemon_pbs_ = configparser.ConfigParser()
         pokemon_pbs_.read_file(pokemon_pbs)
-        for internal_id in pokemon_pbs_.sections():
-            species = pokemon_pbs_[internal_id]
+        for section in pokemon_pbs_.sections():
+            species = pokemon_pbs_[section]
+            if 'forms' in species:
+                forms = {int(f) for f in species['forms'].split(',') if f}
+            else:
+                forms = Universe()
             genders = {
                 'AlwaysMale': {0},
                 'AlwaysFemale': {1},
                 'Genderless': {2},
-            }.get(species['GenderRatio'], {0, 1})
-            ability_names = species['Abilities'].split(',')
-            if 'HiddenAbilities' in species:
-                ability_names.extend(species['HiddenAbilities'].split(','))
+            }.get(species['gender_ratio'], {0, 1})
+            ability_names = species['abilities'].split(',')
             abilities = {a for a in ability_names if a}
-            if internal_id in form_abilities_by_name:
-                abilities |= {a for a in form_abilities_by_name[internal_id].split(',') if a}
-            moves = {m for m in species['Moves'].split(',')[1::2] if m}
-            if 'EggMoves' in species:
-                moves |= {m for m in species['EggMoves'].split(',') if m}
-            if 'TutorMoves' in species:
-                moves |= {m for m in species['TutorMoves'].split(',') if m}
-            if internal_id in form_moves_by_name:
-                moves |= {m for m in form_moves_by_name[internal_id].split(',')[1::2] if m}
-            if internal_id in form_tutor_by_name:
-                moves |= {m for m in form_tutor_by_name[internal_id].split(',') if m}
-            if internal_id in form_egg_by_name:
-                moves |= {m for m in form_egg_by_name[internal_id].split(',') if m}
-            pokemon_by_name[internal_id] = Pokemon(genders, abilities, moves, forms_by_name.get(internal_id, default_forms))
+            moves = {m for m in species['moves'].split(',') if m}
+            pokemon_by_name[section] = Pokemon(genders, abilities, moves, forms)
 
     def validate_party(record):
         errors = []
@@ -393,6 +361,7 @@ def make_party_validator(pbs_dir):
                     if species_ is None:
                         logging.debug('invalid species: %s', species)
                         errors.append("invalid species")
+                    logging.debug('Species: %s', species)
                     level = record.int()
                     if not (1 <= level <= MAXIMUM_LEVEL):
                         logging.debug('invalid level: %d', level)
@@ -420,13 +389,14 @@ def make_party_validator(pbs_dir):
                     if item and item not in item_syms:
                         logging.debug('invalid item: %s', item)
                         errors.append("invalid item")
+                    can_use_sketch = not set(SKETCH_MOVE_IDS).isdisjoint(species_.moves)
                     for _ in range(record.int()):
                         move = record.str()
                         if move:
-                            if not set(SKETCH_MOVE_IDS).isdisjoint(species_.moves) and move not in move_syms:
+                            if can_use_sketch and move not in move_syms:
                                 logging.debug('invalid move id (Sketched): %s', move)
                                 errors.append("invalid move (Sketched)")
-                            elif move not in species_.moves:
+                            elif move not in species_.moves and not can_use_sketch:
                                 logging.debug('invalid move id: %s', move)
                                 errors.append("invalid move")
                         ppup = record.int()
@@ -438,20 +408,20 @@ def make_party_validator(pbs_dir):
                     for _ in range(record.int()):
                         move = record.str()
                         if move:
-                            if not set(SKETCH_MOVE_IDS).isdisjoint(species_.moves) and move not in move_syms:
+                            if can_use_sketch and move not in move_syms:
                                 logging.debug('invalid first move id (Sketched): %s', move)
                                 errors.append("invalid first move (Sketched)")
-                            elif move not in species_.moves:
+                            elif move not in species_.moves and not can_use_sketch:
                                 logging.debug('invalid first move id: %s', move)
                                 errors.append("invalid first move")
                     if PLA_INSTALLED:
                         for _ in range(record.int()):
                             move = record.str()
                             if move:
-                                if not set(SKETCH_MOVE_IDS).isdisjoint(species_.moves) and move not in move_syms:
+                                if can_use_sketch and move not in move_syms:
                                     logging.debug('invalid mastered move id (Sketched): %s', move)
                                     errors.append("invalid mastered move (Sketched)")
-                                elif move not in species_.moves:
+                                elif move not in species_.moves and not can_use_sketch:
                                     logging.debug('invalid mastered move id: %s', move)
                                     errors.append("invalid mastered move")
                     gender = record.int()
@@ -516,9 +486,11 @@ def make_party_validator(pbs_dir):
                     for _ in range(record.int()):
                         ribbon = record.str()
                     # Essentials Deluxe Properties
-                    if DELUXE_INSTALLED:
+                    if ESSENTIALS_DELUXE_INSTALLED or MUI_MEMENTOS_INSTALLED:
                         scale = record.int()
-                    if ZUD_INSTALLED:
+                    if MUI_MEMENTOS_INSTALLED:
+                        memento = record.str()
+                    if ZUD_DYNAMAX_INSTALLED:
                         dmax_level = record.int()
                         gmax_factor = record.bool()
                         dmax_able = record.bool()
@@ -576,17 +548,47 @@ def make_party_validator(pbs_dir):
 
     return validate_party
 
+def find_changed_files(directory,old_files_hash):
+    if os.path.isdir(directory):
+        new_files_hash = dict ([(f, os.stat(os.path.join(directory,f)).st_mtime) for f in os.listdir(directory)])
+        changed = old_files_hash.keys() != new_files_hash.keys()
+        if not changed:
+            for k in (old_files_hash.keys() & new_files_hash.keys()):
+                if old_files_hash[k] != new_files_hash[k]:
+                    changed = True
+                    break
+        if changed:
+            logging.info('Refreshing Rules due to changes')
+            return True,new_files_hash
+    return False,old_files_hash
+    
+    
+def load_rules_files(directory,files_hash):
+    rules = []
+    for f in iter(files_hash):
+        rule = []
+        with open(os.path.join(directory,f)) as rule_file:
+            for num,line in enumerate(rule_file):
+                line = line.strip()
+                if num == 3:
+                    rule.extend(line.split(','))
+                else:
+                    rule.append(line)
+        rules.append(rule)
+    return rules
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--host", default=HOST)
-    parser.add_argument("--port", default=PORT)
-    parser.add_argument("--pbs_dir", default=PBS_DIR)
-    parser.add_argument("--log", default="INFO")
+    parser.add_argument("--host", default=HOST,help='The host IP Address to run this server on. Should be 0.0.0.0 for Google Cloud.')
+    parser.add_argument("--port", default=PORT,help='The port the server is listening on.')
+    parser.add_argument("--pbs_dir", default=PBS_DIR,help='The path, relative to the working directory, where the PBS files are located.')
+    parser.add_argument("--rules_dir", default=RULES_DIR,help='The path, relative to the working directory, where the rules files are located.')
+    parser.add_argument("--log", default="INFO",help='The log level of the server. Logging messages lower than the level are not written.')
     args = parser.parse_args()
     loglevel = getattr(logging, args.log.upper())
     if not isinstance(loglevel, int):
         raise ValueError('Invalid log level: %s' % loglevel)
     logging.basicConfig(format='%(asctime)s: %(levelname)s: %(message)s', filename=os.path.join(LOG_DIR,'server.log'), level=loglevel)
     logging.info('---------------')
-    Server(args.host, int(args.port), args.pbs_dir).run()
+    Server(args.host, int(args.port), args.pbs_dir,args.rules_dir).run()
     logging.shutdown()

@@ -1,3 +1,10 @@
+# Returns false if an error occurred.
+def pbCableClub
+  scene = CableClub_Scene.new
+  screen = CableClubScreen.new(scene)
+  return screen.pbStartScreen
+end
+
 def pbChangeOnlineTrainerType
   old_trainer_type = $player.online_trainer_type
   if $player.online_trainer_type==$player.trainer_type
@@ -53,50 +60,48 @@ def pbChangeOnlineTrainerType
   end
 end
 
-# Returns false if an error occurred.
-def pbCableClub
-  if $player.party_count == 0
-    pbMessage(_INTL("I'm sorry, you must have a Pokémon to enter the Cable Club."))
-    return
+def pbChangeOnlineWinText
+  pbMessage(_INTL("When winning a battle, a powerful victory speech is the way to go.\\1"))
+  commands = []
+  CableClub::ONLINE_WIN_SPEECHES_LIST.each do |text|
+    commands.push(_INTL(text))
   end
-  msgwindow = pbCreateMessageWindow()
-  begin
-    pbMessageDisplay(msgwindow, _ISPRINTF("What's the ID of the trainer you're searching for? (Your ID: {1:05d})\\^",$player.public_ID($player.id)))
-    partner_trainer_id = ""
-    loop do
-      partner_trainer_id = pbFreeText(msgwindow, partner_trainer_id, false, 5)
-      return if partner_trainer_id.empty?
-      break if partner_trainer_id =~ /^[0-9]{5}$/
-      pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} is not a trainer ID.", partner_trainer_id))
-    end
-    CableClub::connect_to(msgwindow, partner_trainer_id)
-    raise Connection::Disconnected.new("disconnected")
-  rescue Connection::Disconnected => e
-    case e.message
-    when "disconnected"
-      pbMessageDisplay(msgwindow, _INTL("Thank you for using the Cable Club. We hope to see you again soon."))
-      return true
-    when "invalid version"
-      pbMessageDisplay(msgwindow, _INTL("I'm sorry, your game version is out of date compared to the Cable Club."))
-      return false
-    when "invalid party"
-      pbMessageDisplay(msgwindow, _INTL("I'm sorry, your party contains Pokémon not allowed in the Cable Club."))
-      return false
-    when "peer disconnected"
-      pbMessageDisplay(msgwindow, _INTL("I'm sorry, the other trainer has disconnected."))
-      return true
+  commands.push(_INTL("Cancel"))
+  loop do
+    cmd=pbMessage(_INTL("What kind of speech speaks to you?"),commands,-1)
+    if cmd>=0 && cmd<CableClub::ONLINE_WIN_SPEECHES_LIST.length-1
+      win_text=commands[cmd]
+      if pbConfirmMessage(_INTL("\"{1}\"\\nThis is what you wish to say?",win_text))
+        pbMessage(_INTL("\"{1}\"\\nThis is a powerful speech indeed.\\1",win_text))
+        $player.online_win_text=cmd
+        break
+      end
     else
-      pbMessageDisplay(msgwindow, _INTL("I'm sorry, the Cable Club server has malfunctioned!"))
-      return false
+      break
     end
-  rescue Errno::ECONNREFUSED
-    pbMessageDisplay(msgwindow, _INTL("I'm sorry, the Cable Club server is down at the moment."))
-    return false
-  rescue
-    pbPrintException($!)
-    pbMessageDisplay(msgwindow, _INTL("I'm sorry, the Cable Club has malfunctioned!"))
-    return false
-  ensure
-    pbDisposeMessageWindow(msgwindow)
   end
+  pbMessage(_INTL("Show your strength with your speech!"))
+end
+
+def pbChangeOnlineLoseText
+  pbMessage(_INTL("When you lose a battle, you still need to say something...\\1"))
+  commands = []
+  CableClub::ONLINE_LOSE_SPEECHES_LIST.each do |text|
+    commands.push(_INTL(text))
+  end
+  commands.push(_INTL("Cancel"))
+  loop do
+    cmd=pbMessage(_INTL("What kind of speech speaks to you?"),commands,-1)
+    if cmd>=0 && cmd<CableClub::ONLINE_LOSE_SPEECHES_LIST.length-1
+      lose_text=commands[cmd]
+      if pbConfirmMessage(_INTL("\"{1}\"\\nThis is what you wish to say?",lose_text))
+        pbMessage(_INTL("\"{1}\"\\nYeah... That sounds good...\\1",lose_text))
+        $player.online_lose_text=cmd
+        break
+      end
+    else
+      break
+    end
+  end
+  pbMessage(_INTL("...Hopefully you don't need to use it."))
 end
