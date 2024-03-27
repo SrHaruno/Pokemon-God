@@ -5797,8 +5797,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [KATAGAMI]
-BackSprite = 0,20
-FrontSprite = 0,12
+BackSprite = 0,0
+FrontSprite = 2,10
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5848,7 +5848,7 @@ ShadowSize = 2
 BackSprite = 0,0
 FrontSprite = -3,10
 ShadowX = 0
-ShadowSize = 1
+ShadowSize = 2
 #-------------------------------
 [MOSSELIN]
 BackSprite = 0,20
@@ -5863,10 +5863,10 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [ORIKEN]
-BackSprite = 0,20
-FrontSprite = 0,0
+BackSprite = 0,0
+FrontSprite = 3,8
 ShadowX = 0
-ShadowSize = 1
+ShadowSize = 2
 #-------------------------------
 [PSYLOTE]
 BackSprite = 0,0
@@ -5905,10 +5905,10 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [ORBEAF]
-BackSprite = 0,20
-FrontSprite = 0,18
+BackSprite = 0,0
+FrontSprite = -1,16
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [BLOSSIGAMI]
 BackSprite = 0,20

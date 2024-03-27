@@ -28,7 +28,7 @@ EV_STAT_LIMIT = 252
 # Moves that permanently copy other moves
 SKETCH_MOVE_IDS = ["SKETCH"]
 # Essentials Deluxe Plugins
-DELUXE_INSTALLED = False
+DELUXE_INSTALLED = true
 ZUD_INSTALLED = False # ZUD Mechanics
 PLA_INSTALLED = False # PLA Battle Styles
 TERA_INSTALLED = False # Terastal Phenomenon

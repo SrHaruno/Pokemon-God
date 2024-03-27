@@ -70,6 +70,8 @@ HealingSpot = 16,10,11
 #-------------------------------
 [017]   # Indi Town Poke Center 2F
 Name = Indi Town
+BattleBack = Online
+TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [018]   # Route 3
 Name = Route 3
@@ -113,6 +115,8 @@ Environment = Cave
 [024]   # Plateau Poke Center 2F
 Name = Plateau City
 MapPosition = 0,22,7
+BattleBack = Online
+TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [026]   # Pokémon School
 Name = Plateau City
@@ -310,11 +314,15 @@ MapPosition = 0,16,9
 [073]   # Marine Poke Center 2F
 Name = Marine City
 MapPosition = 0,26,6
+BattleBack = Online
+TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [074]   # Vituresa Poke Center 2F
 Name = Vituresa Village
 HealingSpot = 72,10,12
 MapPosition = 0,16,9
+BattleBack = Online
+TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [075]   # Route 8 Gate
 Name = Route 8
@@ -369,6 +377,8 @@ MapPosition = 0,16,3
 Name = Saintmass City
 HealingSpot = 9,10,12
 MapPosition = 0,16,3
+BattleBack = Online
+TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [089]   # ST_House1
 Name = Saintmass City
@@ -467,3 +477,10 @@ Name = Gigantopolis
 [110]   # Game Corner
 Name = Gigantopolis
 MapPosition = 0,11,4
+#-------------------------------
+[111]   # Gigantopolis PC 2F
+Name = Gigantopolis
+HealingSpot = 9,10,12
+MapPosition = 0,16,3
+BattleBack = Online
+TrainerBattleBGM = Battle! Vs Gym Leader
