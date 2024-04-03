@@ -5845,7 +5845,7 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [MOSLEEP]
-BackSprite = 0,0
+BackSprite = 0,13
 FrontSprite = -3,10
 ShadowX = 0
 ShadowSize = 2
