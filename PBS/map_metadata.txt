@@ -23,8 +23,9 @@ MapPosition = 0,24,4
 Name = Route 1
 Outdoor = true
 ShowArea = true
-MapPosition = 0,22,4
+MapPosition = 0,21,4
 BattleBack = field
+MapSize = 3,01111000
 #-------------------------------
 [006]   # Rondor_Gate
 Name = Rondor Town
@@ -56,8 +57,9 @@ BattleBack = field
 Name = Route 2
 Outdoor = true
 ShowArea = true
-MapPosition = 0,20,7
+MapPosition = 0,19,6
 BattleBack = field
+MapSize = 3,010010010
 #-------------------------------
 [015]   # Route 2 Gate
 Name = Route 2
@@ -151,8 +153,9 @@ BattleBack = field
 Name = Route 5
 Outdoor = true
 ShowArea = true
-MapPosition = 0,16,10
+MapPosition = 0,20,10
 BattleBack = Water
+MapSize = 3,111111111
 Environment = None
 #-------------------------------
 [041]   # Mt.Hope
@@ -165,8 +168,9 @@ MapPosition = 0,22,9
 Name = Route 6
 Outdoor = true
 ShowArea = true
-MapPosition = 0,26,7
+MapPosition = 0,23,7
 BattleBack = field
+MapSize = 6,101100100000100000100000100000100000
 #-------------------------------
 [043]   # Route 5 Gate
 Name = Route 5
@@ -224,8 +228,9 @@ MapPosition = 0,26,6
 Name = Route 7
 Outdoor = true
 ShowArea = true
-MapPosition = 0,26,4
+MapPosition = 0,25,4
 BattleBack = field
+MapSize = 2,1101
 #-------------------------------
 [053]   # Route 7 Gate
 Name = Route 7
@@ -272,8 +277,9 @@ BattleBack = field
 Name = Gigantopolis
 Outdoor = true
 ShowArea = true
-MapPosition = 0,12,4
+MapPosition = 0,11,3
 BattleBack = city
+MapSize = 3,111111000
 #-------------------------------
 [067]   # Route 8
 Name = Route 8
@@ -289,6 +295,7 @@ ShowArea = true
 Weather = Sandstorm,100
 MapPosition = 0,18,9
 BattleBack = Rocky
+MapSize = 2,1100
 #-------------------------------
 [069]   # Forgotten Chamber
 Name = Forgotten Chamber
@@ -333,8 +340,9 @@ MapPosition = 0,24,4
 Name = Route 9
 Outdoor = true
 ShowArea = true
-MapPosition = 0,19,7
+MapPosition = 0,18,7
 BattleBack = Field
+MapSize = 2,1100
 #-------------------------------
 [077]   # Saintmass City
 Name = Saintmass City
@@ -347,8 +355,9 @@ Name = Route 10
 Outdoor = true
 ShowArea = true
 Weather = Rain,100
-MapPosition = 0,17,5
+MapPosition = 0,14,4
 BattleBack = Field
+MapSize = 4,0001000100010001
 #-------------------------------
 [080]   # Apricorn Maker
 Name = Route 10
@@ -356,7 +365,10 @@ MapPosition = 0,24,4
 #-------------------------------
 [081]   # Route 11
 Name = Route 11
+Outdoor = true
+ShowArea = true
 MapPosition = 0,14,3
+MapSize = 2,1100
 #-------------------------------
 [082]   # Route 12
 Name = Route 12
@@ -478,7 +490,7 @@ Name = Gigantopolis
 Name = Gigantopolis
 MapPosition = 0,11,4
 #-------------------------------
-[111]   # Gigantopolis PC 2F
+[111]   # Gigantopolis  PC 2F
 Name = Gigantopolis
 HealingSpot = 9,10,12
 MapPosition = 0,16,3
