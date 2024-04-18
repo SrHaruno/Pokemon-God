@@ -496,3 +496,11 @@ HealingSpot = 9,10,12
 MapPosition = 0,16,3
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
+#-------------------------------
+[112]   # Departament Store
+Name = Gigantopolis
+MapPosition = 0,12,3
+#-------------------------------
+[117]   # Elevator
+Name = Gigantopolis
+MapPosition = 0,12,3
