@@ -130,12 +130,13 @@ class Battle::Battler
         #       target Cramorant attacking the user) and the ability splash
         #       shouldn't be shown.
         @battle.pbShowAbilitySplash(target)
+        target_form = target.form
         target.pbChangeForm(0, nil)
         if user.takesIndirectDamage?(Battle::Scene::USE_ABILITY_SPLASH)
           @battle.scene.pbDamageAnimation(user)
           user.pbReduceHP(user.totalhp / 4, false)
         end
-        case target.form
+        case target_form
         when 1   # Gulping Form
           user.pbLowerStatStageByAbility(:DEFENSE, 1, target, false)
         when 2   # Gorging Form
@@ -144,7 +145,7 @@ class Battle::Battler
         @battle.pbHideAbilitySplash(target)
         user.pbItemHPHealCheck if user.hp < oldHP
       end
-    end    
+    end
     __hotfixes__pbEffectsOnMakingHit(move, user, target)
   end
 end
@@ -465,3 +466,26 @@ Battle::AI::Handlers::GeneralMoveAgainstTargetScore.add(:trigger_target_ability_
     next score
   }
 )
+
+#===============================================================================
+# Fixed a replacement Pokémon being invisible if its predecessor fainted and
+# used the same sprite as it.
+#===============================================================================
+class Battle::Scene
+  def pbFaintBattler(battler)
+    @briefMessage = false
+    old_height = @sprites["pokemon_#{battler.index}"].src_rect.height
+    # Pokémon plays cry and drops down, data box disappears
+    faintAnim   = Animation::BattlerFaint.new(@sprites, @viewport, battler.index, @battle)
+    dataBoxAnim = Animation::DataBoxDisappear.new(@sprites, @viewport, battler.index)
+    loop do
+      faintAnim.update
+      dataBoxAnim.update
+      pbUpdate
+      break if faintAnim.animDone? && dataBoxAnim.animDone?
+    end
+    faintAnim.dispose
+    dataBoxAnim.dispose
+    @sprites["pokemon_#{battler.index}"].src_rect.height = old_height
+  end
+end

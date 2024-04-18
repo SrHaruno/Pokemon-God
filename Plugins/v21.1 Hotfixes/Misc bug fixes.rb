@@ -6,7 +6,7 @@
 # https://github.com/Maruno17/pokemon-essentials
 #===============================================================================
 
-Essentials::ERROR_TEXT += "[v21.1 Hotfixes 1.0.7]\r\n"
+Essentials::ERROR_TEXT += "[v21.1 Hotfixes 1.0.9]\r\n"
 
 #===============================================================================
 # Fixed Pokédex not showing male/female options for species with gender
@@ -469,4 +469,260 @@ class Sprite_Character < RPG::Sprite
     end
     @character.sprite_size = [@cw, @ch]
   end
+end
+
+#===============================================================================
+# Fixed bad conversion of old phone data in an old save file.
+#===============================================================================
+SaveData.register_conversion(:v21_replace_phone_data) do
+  essentials_version 21
+  display_title "Updating Phone data format"
+  to_value :global_metadata do |global|
+    if !global.phone
+      global.instance_eval do
+        @phone = Phone.new
+        @phoneTime = nil   # Don't bother using this
+        if @phoneNumbers
+          @phoneNumbers.each do |contact|
+            if contact.length > 4
+              # Trainer
+              @phone.add(contact[6], contact[7], contact[1], contact[2], contact[5], 0)
+              new_contact = @phone.get(contact[1], contact[2], 0)
+              new_contact.visible = contact[0]
+              new_contact.rematch_flag = [contact[4] - 1, 0].max
+            else
+              # Non-trainer
+              @phone.add(contact[3], contact[2], contact[1])
+            end
+          end
+          @phoneNumbers = nil
+        end
+      end
+    end
+  end
+end
+
+#===============================================================================
+# Fixed events with an even width/height that approach the player shuffling back
+# and forth endlessly in front of them.
+#===============================================================================
+class Game_Character
+  def move_toward_player
+    sx = @x + (@width / 2.0) - ($game_player.x + ($game_player.width / 2.0))
+    sy = @y - (@height / 2.0) - ($game_player.y - ($game_player.height / 2.0))
+    return if sx == 0 && sy == 0
+    abs_sx = sx.abs
+    abs_sy = sy.abs
+    if abs_sx == abs_sy
+      (rand(2) == 0) ? abs_sx += 1 : abs_sy += 1
+    end
+    if abs_sx > abs_sy
+      if abs_sx >= 1
+        (sx > 0) ? move_left : move_right
+      end
+      if !moving? && sy != 0
+        if abs_sy >= 1
+          (sy > 0) ? move_up : move_down
+        end
+      end
+    else
+      if abs_sy >= 1
+        (sy > 0) ? move_up : move_down
+      end
+      if !moving? && sx != 0
+        if abs_sx >= 1
+          (sx > 0) ? move_left : move_right
+        end
+      end
+    end
+  end
+end
+
+#===============================================================================
+# Fixed Event Touch events on a connected map triggering themselves by moving
+# around.
+#===============================================================================
+class Game_Event < Game_Character
+  alias __hotfixes__over_trigger? over_trigger? unless method_defined?(:__hotfixes__over_trigger?)
+  def over_trigger?
+    return false if @map_id != $game_player.map_id
+	return __hotfixes__over_trigger?
+  end
+
+  alias __hotfixes__check_event_trigger_touch check_event_trigger_touch unless method_defined?(:__hotfixes__check_event_trigger_touch)
+  def check_event_trigger_touch(dir)
+    return if @map_id != $game_player.map_id
+    __hotfixes__check_event_trigger_touch(dir)
+  end
+
+  alias __hotfixes__pbCheckEventTriggerAfterTurning pbCheckEventTriggerAfterTurning unless method_defined?(:__hotfixes__pbCheckEventTriggerAfterTurning)
+  def pbCheckEventTriggerAfterTurning
+    return if @map_id != $game_player.map_id
+	return __hotfixes__pbCheckEventTriggerAfterTurning
+  end
+
+  def onEvent?
+    return @map_id == $game_player.map_id && at_coordinate?($game_player.x, $game_player.y)
+  end
+
+  def check_event_trigger_after_moving
+    return if @map_id != $game_player.map_id
+    return if @trigger != 2   # Not Event Touch
+    return if $game_system.map_interpreter.running? || @starting
+    if self.name[/(?:sight|trainer)\((\d+)\)/i]
+      distance = $~[1].to_i
+      return if !pbEventCanReachPlayer?(self, $game_player, distance)
+    elsif self.name[/counter\((\d+)\)/i]
+      distance = $~[1].to_i
+      return if !pbEventFacesPlayer?(self, $game_player, distance)
+    else
+      return
+    end
+    return if jumping? || over_trigger?
+    start
+  end
+
+  def update
+    @to_update = should_update?(true)
+    @updated_last_frame = false
+    return if !@to_update
+    @updated_last_frame = true
+    @moveto_happened = false
+    last_moving = moving?
+    super
+    check_event_trigger_after_moving if !moving? && last_moving
+    if @need_refresh
+      @need_refresh = false
+      refresh
+    end
+    check_event_trigger_auto
+    if @interpreter
+      @interpreter.setup(@list, @event.id, @map_id) if !@interpreter.running?
+      @interpreter.update
+    end
+  end
+end
+
+class Game_Player < Game_Character
+  def pbCheckEventTriggerFromDistance(triggers)
+    events = pbTriggeredTrainerEvents(triggers)
+    events.concat(pbTriggeredCounterEvents(triggers))
+    return false if events.length == 0
+    ret = false
+    events.each do |event|
+      event.start
+      ret = true if event.starting
+    end
+    return ret
+  end
+
+  def check_event_trigger_here(triggers)
+    result = false
+    # If event is running
+    return result if $game_system.map_interpreter.running?
+    # All event loops
+    $game_map.events.each_value do |event|
+      # If event coordinates and triggers are consistent
+      next if !event.at_coordinate?(@x, @y)
+      next if !triggers.include?(event.trigger)
+      # If starting determinant is same position event (other than jumping)
+      next if event.jumping? || !event.over_trigger?
+      event.start
+      result = true if event.starting
+    end
+    return result
+  end
+
+  def check_event_trigger_there(triggers)
+    result = false
+    # If event is running
+    return result if $game_system.map_interpreter.running?
+    # Calculate front event coordinates
+    new_x = @x + (@direction == 6 ? 1 : @direction == 4 ? -1 : 0)
+    new_y = @y + (@direction == 2 ? 1 : @direction == 8 ? -1 : 0)
+    return false if !$game_map.valid?(new_x, new_y)
+    # All event loops
+    $game_map.events.each_value do |event|
+      next if !triggers.include?(event.trigger)
+      # If event coordinates and triggers are consistent
+      next if !event.at_coordinate?(new_x, new_y)
+      # If starting determinant is front event (other than jumping)
+      next if event.jumping? || event.over_trigger?
+      event.start
+      result = true if event.starting
+    end
+    # If fitting event is not found
+    if result == false && $game_map.counter?(new_x, new_y)
+      # Calculate coordinates of 1 tile further away
+      new_x += (@direction == 6 ? 1 : @direction == 4 ? -1 : 0)
+      new_y += (@direction == 2 ? 1 : @direction == 8 ? -1 : 0)
+      return false if !$game_map.valid?(new_x, new_y)
+      # All event loops
+      $game_map.events.each_value do |event|
+        next if !triggers.include?(event.trigger)
+        # If event coordinates and triggers are consistent
+        next if !event.at_coordinate?(new_x, new_y)
+        # If starting determinant is front event (other than jumping)
+        next if event.jumping? || event.over_trigger?
+        event.start
+        result = true if event.starting
+      end
+    end
+    return result
+  end
+
+  def check_event_trigger_touch(dir)
+    result = false
+    return result if $game_system.map_interpreter.running?
+    # All event loops
+    x_offset = (dir == 4) ? -1 : (dir == 6) ? 1 : 0
+    y_offset = (dir == 8) ? -1 : (dir == 2) ? 1 : 0
+    $game_map.events.each_value do |event|
+      next if ![1, 2].include?(event.trigger)   # Player touch, event touch
+      # If event coordinates and triggers are consistent
+      next if !event.at_coordinate?(@x + x_offset, @y + y_offset)
+      if event.name[/(?:sight|trainer)\((\d+)\)/i]
+        distance = $~[1].to_i
+        next if !pbEventCanReachPlayer?(event, self, distance)
+      elsif event.name[/counter\((\d+)\)/i]
+        distance = $~[1].to_i
+        next if !pbEventFacesPlayer?(event, self, distance)
+      end
+      # If starting determinant is front event (other than jumping)
+      next if event.jumping? || event.over_trigger?
+      event.start
+      result = true if event.starting
+    end
+    return result
+  end
+end
+
+def pbEventCanReachPlayer?(event, player, distance)
+  return false if event.map_id != player.map_id
+  return false if !pbEventFacesPlayer?(event, player, distance)
+  delta_x = (event.direction == 6) ? 1 : (event.direction == 4) ? -1 : 0
+  delta_y = (event.direction == 2) ? 1 : (event.direction == 8) ? -1 : 0
+  case event.direction
+  when 2   # Down
+    real_distance = player.y - event.y - 1
+  when 4   # Left
+    real_distance = event.x - player.x - 1
+  when 6   # Right
+    real_distance = player.x - event.x - event.width
+  when 8   # Up
+    real_distance = event.y - event.height - player.y
+  end
+  if real_distance > 0
+    real_distance.times do |i|
+      return false if !event.can_move_from_coordinate?(event.x + (i * delta_x), event.y + (i * delta_y), event.direction)
+    end
+  end
+  return true
+end
+
+# Returns whether the two events are standing next to each other and facing each
+# other.
+def pbFacingEachOther(event1, event2)
+  return false if event1.map_id != event2.map_id
+  return pbEventFacesPlayer?(event1, event2, 1) && pbEventFacesPlayer?(event2, event1, 1)
 end

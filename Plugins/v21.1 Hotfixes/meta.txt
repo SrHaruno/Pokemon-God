@@ -1,5 +1,5 @@
 ﻿Name       = v21.1 Hotfixes
-Version    = 1.0.7
+Version    = 1.0.9
 Essentials = 21.1
 Conflicts  = v19 Hotfixes
 Conflicts  = v19.1 Updates
@@ -77,11 +77,26 @@ Credits    = Maruno
 # - Fixed an event's reflection not disappearing if its page is
 #   changed to one without a graphic.
 #
+# 1.0.8:
+#
+# - Fixed bad conversion of old phone data in an old save file.
+# - Fixed events with an even width/height that approach the player
+#   shuffling back and forth endlessly in front of them.
+# - Fixed Event Touch events on a connected map triggering themselves
+#   by moving around.
+# - Properly fixed previous fix relating to Cramorant's form changing.
+# - Fixed a replacement Pokémon being invisible if its predecessor
+#   fainted and used the same sprite as it.
+#
+# 1.0.9:
+#
+# - Fixed the previous version of this plugin so it actually works.
+#
 #=====================================================================
 #
 # Also included in this plugin is an updated copy of townmapgen.html,
-# which you should put in your game's main folder. It is now able to
-# find map images again, which were moved into a different folder in
-# Essentials v21.
+# now called "Town Map Generator.html", which you should put in your
+# game's main folder. It is now able to find map images again, which
+# were moved into a different folder in Essentials v21.
 #
 #=====================================================================
