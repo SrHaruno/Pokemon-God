@@ -485,19 +485,35 @@ MapPosition = 0,12,4
 #-------------------------------
 [109]   # Gigantopolis PC
 Name = Gigantopolis
+MapPosition = 0,12,3
 #-------------------------------
 [110]   # Game Corner
 Name = Gigantopolis
-MapPosition = 0,11,4
+MapPosition = 0,12,3
 #-------------------------------
 [111]   # Gigantopolis  PC 2F
 Name = Gigantopolis
-HealingSpot = 9,10,12
-MapPosition = 0,16,3
+MapPosition = 0,12,3
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
-[112]   # Departament Store
+[112]   # Departament Store 1F
+Name = Gigantopolis
+MapPosition = 0,12,3
+#-------------------------------
+[113]   # Departament Store 2F
+Name = Gigantopolis
+MapPosition = 0,12,3
+#-------------------------------
+[114]   # Departament Store 3F
+Name = Gigantopolis
+MapPosition = 0,12,3
+#-------------------------------
+[115]   # Departament Store 4F
+Name = Gigantopolis
+MapPosition = 0,12,3
+#-------------------------------
+[116]   # Departament Store Rooftop
 Name = Gigantopolis
 MapPosition = 0,12,3
 #-------------------------------
