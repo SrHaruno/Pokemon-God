@@ -131,7 +131,7 @@
       @pokemon    = @party[@partyindex]
       @inbattle   = inbattle
       @page = 1
-      @typebitmap    = AnimatedBitmap.new(_INTL("Graphics/Pictures/types"))
+      @typebitmap    = AnimatedBitmap.new(_INTL("Graphics/UI/types"))
       @markingbitmap = AnimatedBitmap.new("Graphics/Pictures/Summary/markings")
       @sprites = {}
       # Sets the Summary Background
@@ -672,13 +672,13 @@
       end
       # Write Exp text OR heart gauge message (if a Shadow Pokémon)
       if @pokemon.shadowPokemon?
-        textpos.push([_INTL("Heart Gauge"), 33, 234, 0, base, shadow])
-        heartmessage = [_INTL("The door to its heart is open! Undo the final lock!"),
-                        _INTL("The door to its heart is almost fully open."),
-                        _INTL("The door to its heart is nearly open."),
-                        _INTL("The door to its heart is opening wider."),
-                        _INTL("The door to its heart is opening up."),
-                        _INTL("The door to its heart is tightly shut.")][@pokemon.heartStage]
+        textpos.push([_INTL("Bad Pokerus Gauge"), 33, 234, 0, base, shadow])
+        heartmessage = [_INTL("The virus is very frail! Time to cure it!"),
+                      _INTL("It's almost close to be cured from the virus."),
+                      _INTL("It's almost ready to cure from the virus."),
+                      _INTL("The virus is more weak."),
+                      _INTL("The virus is starting to become weak."),
+                      _INTL("The virus is still strong.")][@pokemon.heartStage]
          # Changed the text color, to the one used in BW
          memo = sprintf("<c3=404040,B0B0B0>%s\n", heartmessage)
          y_coord = SUMMARY_B2W2_STYLE ? 294 : 296

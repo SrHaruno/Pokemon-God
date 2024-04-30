@@ -41,7 +41,7 @@ Name = Rondor Town
 HealingSpot = 2,8,8
 MapPosition = 0,24,4
 #-------------------------------
-[009]   # Plateau PC
+[009]   # Plateau City PC
 Name = Plateau City
 HealingSpot = 9,10,12
 MapPosition = 0,24,4
@@ -134,7 +134,7 @@ Name = Plateau City
 MapPosition = 0,22,7
 BattleBack = indoor1
 #-------------------------------
-[030]   # House
+[030]   # Hotel
 Name = Marine City
 MapPosition = 0,26,6
 #-------------------------------
@@ -219,7 +219,7 @@ Name = Route 6
 Bicycle = true
 MapPosition = 0,24,4
 #-------------------------------
-[051]   # Marine Town PC
+[051]   # Marine City PC
 Name = Marine City
 HealingSpot = 51,10,12
 MapPosition = 0,26,6
@@ -314,7 +314,7 @@ ShowArea = true
 MapPosition = 0,16,9
 BattleBack = Forest
 #-------------------------------
-[072]   # Vituresa Town PC
+[072]   # Vituresa Village PC
 Name = Vituresa Village
 MapPosition = 0,16,9
 #-------------------------------
@@ -497,26 +497,36 @@ MapPosition = 0,12,3
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
-[112]   # Departament Store 1F
+[112]   # Departament Store
 Name = Gigantopolis
 MapPosition = 0,12,3
 #-------------------------------
-[113]   # Departament Store 2F
+[113]   # 2F
 Name = Gigantopolis
 MapPosition = 0,12,3
 #-------------------------------
-[114]   # Departament Store 3F
+[114]   # 3F
 Name = Gigantopolis
 MapPosition = 0,12,3
 #-------------------------------
-[115]   # Departament Store 4F
+[115]   # 4F
 Name = Gigantopolis
 MapPosition = 0,12,3
 #-------------------------------
-[116]   # Departament Store Rooftop
+[116]   # 5F
 Name = Gigantopolis
+Outdoor = true
 MapPosition = 0,12,3
 #-------------------------------
 [117]   # Elevator
 Name = Gigantopolis
 MapPosition = 0,12,3
+#-------------------------------
+[118]   # Lesta Lab.
+Name = Gigantopolis
+#-------------------------------
+[119]   # Purifier
+Name = Gigantopolis
+#-------------------------------
+[120]   # Fossil Reviver
+Name = Gigantopolis

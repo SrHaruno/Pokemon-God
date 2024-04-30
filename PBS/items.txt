@@ -6641,4 +6641,14 @@ Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = I received it from looker. Looks like a bunch of parts of some type of ring.
+Description = It's an package received from Looker, it looks important.
+#-------------------------------
+[DEALERSTONE]
+Name = Link Stone
+NamePlural = Link Stones
+Pocket = 1
+Price = 3000
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = A peculiar stone that makes certain species of Pokémon evolve. A stone filled with trading energy.
