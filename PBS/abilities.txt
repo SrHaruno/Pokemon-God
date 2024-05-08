@@ -1123,3 +1123,12 @@ Description = Powers up moves of the same type.
 [HYPEUP]
 Name = Hype Up
 Description = Boosts Speed after knocking out any Pokémon.
+#-------------------------------
+[UNSEENTHIEF]
+Name = Unseen Thief
+Description = Item removing moves can't be blocked.
+#-------------------------------
+[PHOTOSYNTHESIS]
+Name = Photosynthesis
+Description = Heals under harsh sunlight
+

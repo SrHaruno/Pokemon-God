@@ -515,7 +515,6 @@ MapPosition = 0,12,3
 #-------------------------------
 [116]   # 5F
 Name = Gigantopolis
-Outdoor = true
 MapPosition = 0,12,3
 #-------------------------------
 [117]   # Elevator

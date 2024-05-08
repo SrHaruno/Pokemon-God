@@ -88,7 +88,7 @@ Happiness = 50
 Abilities = BLAZE
 HiddenAbilities = UNLEASH
 Moves = 1,SCRATCH,1,LEER,5,EMBER,7,SMOG,9,SCARYFACE,11,TWISTER,13,SLUDGE,15,BITE,17,INCINERATE,21,DRAGONRAGE,25,POISONFANG
-TutorMoves = WORKUP,SWORDSDANCE,NASTYPLOT,WILLOWISP,FIREBLAST,FLAMETHROWER,FIREPLEDGE,BLASTBURN,DRACOMETEOR,DRAGONPULSE
+TutorMoves = PROTECT,WORKUP,SWORDSDANCE,NASTYPLOT,WILLOWISP,FIREBLAST,FLAMETHROWER,FIREPLEDGE,BLASTBURN,DRACOMETEOR,DRAGONPULSE
 EggMoves = TOXICSPIKES,TAUNT,SCORCHINGSANDS,OUTRAGE,MIGHTYROAR
 EggGroups = Monster,Dragon
 HatchSteps = 5120
@@ -114,7 +114,7 @@ Happiness = 50
 Abilities = BLAZE
 HiddenAbilities = UNLEASH
 Moves = 0,POISONFANG,1,SCRATCH,1,LEER,1,EMBER,7,SMOG,9,SCARYFACE,11,TWISTER,13,SLUDGE,15,BITE,17,INCINERATE,20,FIREFANG,23,DRAGONRAGE,26,SLASH,30,FLAMEBURST,34,HONECLAWS,38,FLAMETHROWER,43,SLUDGEBOMB
-TutorMoves = WORKUP,SWORDSDANCE,NASTYPLOT,WILLOWISP,FIREBLAST,FLAMETHROWER,FIREPLEDGE,DRACOMETEOR,DRAGONPULSE
+TutorMoves = PROTECT,WORKUP,SWORDSDANCE,NASTYPLOT,WILLOWISP,FIREBLAST,FLAMETHROWER,FIREPLEDGE,DRACOMETEOR,DRAGONPULSE
 EggGroups = Field,Dragon
 HatchSteps = 5120
 Height = 0.7
@@ -139,7 +139,7 @@ Happiness = 50
 Abilities = BLAZE
 HiddenAbilities = UNLEASH
 Moves = 0,DRACOSPHERE,1,SCRATCH,1,LEER,1,EMBER,7,SMOG,9,SCARYFACE,11,TWISTER,13,SLUDGE,15,BITE,17,INCINERATE,20,FIREFANG,23,DRAGONRAGE,26,SLASH,30,FLAMEBURST,34,HONECLAWS,39,FLAMETHROWER,44,SLUDGEBOMB,48,DRAGONPULSE,54,SLUDGEWAVE
-TutorMoves = WORKUP,SWORDSDANCE,CUT,NASTYPLOT,WILLOWISP,FIREBLAST,FLAMETHROWER,FIREPLEDGE,BLASTBURN,DRACOMETEOR,DRAGONPULSE
+TutorMoves = PROTECT,WORKUP,SWORDSDANCE,CUT,NASTYPLOT,WILLOWISP,FIREBLAST,FLAMETHROWER,FIREPLEDGE,BLASTBURN,DRACOMETEOR,DRAGONPULSE
 EggGroups = Field,Dragon
 HatchSteps = 5120
 Height = 0.7
@@ -2713,6 +2713,103 @@ Category = Dolphin
 Pokedex = ???
 
 
+#-------------------------------
+[EGG_1]
+Name = EGG
+Types = DARK,DRAGON
+BaseStats = 58,77,48,89,45,45
+GenderRatio = Female25Percent
+GrowthRate = Parabolic
+BaseExp = 300
+EVs = SPEED,1
+CatchRate = 45
+Happiness = 100
+Abilities = UNSEENTHIEF
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggGroups = Dragon,Flying
+HatchSteps = 7680
+Height = 0.4
+Weight = 4.0
+Color = Gray
+Shape = BipedalTail
+Habitat = Grassland
+Category = Egg Thiefer
+Pokedex = ???
+Evolutions = EGG_2,Level,35
+#-------------------------------
+[EGG_2]
+Name = EGG
+Types = DARK,DRAGON
+BaseStats = 69,119,71,121,80,59
+GenderRatio = Female25Percent
+GrowthRate = Parabolic
+BaseExp = 300
+EVs = SPEED,2
+CatchRate = 45
+Happiness = 100
+Abilities = UNSEENTHIEF
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggGroups = Dragon,Flying
+HatchSteps = 7680
+Height = 0.4
+Weight = 4.0
+Color = Gray
+Shape = BipedalTail
+Habitat = Grassland
+Category = Egg Thiefer
+Pokedex = ???
+#-------------------------------
+[PLATE_1]
+Name = Plate
+Types = FIRE,DRAGON
+BaseStats = 80,55,70,32,55,70
+GenderRatio = Female25Percent
+GrowthRate = Parabolic
+BaseExp = 300
+EVs = DEFENSE,1,SPECIAL_DEFENSE,1
+CatchRate = 45
+Happiness = 100
+Abilities = PHOTOSYNTHESIS
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggGroups = Dragon,Field
+HatchSteps = 7680
+Height = 0.4
+Weight = 4.0
+Color = Gray
+Shape = Quadruped
+Habitat = Grassland
+Category = Sun Absorber
+Pokedex = ???
+Evolutions = PLATE_2,Level,35
+#-------------------------------
+[PLATE_2]
+Name = Plate2
+Types = FIRE,DRAGON
+BaseStats = 121,80,100,40,80,100
+GenderRatio = Female25Percent
+GrowthRate = Parabolic
+BaseExp = 300
+EVs = DEFENSE,1,SPECIAL_DEFENSE,1
+CatchRate = 45
+Happiness = 100
+Abilities = PHOTOSYNTHESIS
+Moves = 1,TACKLE
+TutorMoves = TACKLE
+EggGroups = Dragon,Field
+HatchSteps = 7680
+Height = 0.4
+Weight = 4.0
+Color = Gray
+Shape = Quadruped
+Habitat = Grassland
+Category = Sun Absorber
+Pokedex = ???
+
+
+
 
 #-------------------------------
 [SNAKRE]
@@ -2738,6 +2835,7 @@ Shape = Serpentine
 Habitat = Urban
 Category = Snake
 Pokedex = ???
+Evolutions = JIARAGON,Level,30
 CallRateSOS = 3
 #-------------------------------
 [JIARAGON]
@@ -2762,6 +2860,7 @@ Shape = Serpentine
 Habitat = Urban
 Category = Oriental Dragon
 Pokedex = ???
+Evolutions = SHENRAGON,Level,55
 #-------------------------------
 [SHENRAGON]
 Name = Shenragon

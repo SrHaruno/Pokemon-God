@@ -6574,9 +6574,39 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
+#
 #\\===============================
 #\\ Pokémon God Items
 #\\===============================
+#
+# // Items
+#
+#-------------------------------
+[DEALERSTONE]
+Name = Dealer Stone
+NamePlural = Dealer Stones
+Pocket = 1
+Price = 3000
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = A peculiar stone that makes certain species of Pokémon evolve. A stone filled with trading energy.
+#-------------------------------
+[FEATHERFOSSIL]
+Name = Feather Fossil
+NamePlural = Feather Fossils
+Pocket = 1
+Price = 0
+Flags = Fossil,Fling_100
+Description = A fossil of an ancient Pokémon that stole in ancient times. It appears to be one of it's feathers.
+#-------------------------------
+[PLATEFOSSIL]
+Name = Plate Fossil
+NamePlural = Plate Fossils
+Pocket = 1
+Price = 0
+Flags = Fossil,Fling_100
+Description = A fossil of an ancient Pokémon that absorbed the sun in the ancient times. It appears to be part of it's spike-plate.
 #
 # // Megas Stones
 #
@@ -6642,13 +6672,3 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = It's an package received from Looker, it looks important.
-#-------------------------------
-[DEALERSTONE]
-Name = Link Stone
-NamePlural = Link Stones
-Pocket = 1
-Price = 3000
-BPPrice = 5
-FieldUse = OnPokemon
-Flags = EvolutionStone,Fling_80
-Description = A peculiar stone that makes certain species of Pokémon evolve. A stone filled with trading energy.
