@@ -156,15 +156,15 @@ SuperRod
 #-------------------------------
 [042] # Route 6
 LandDay,21
-    40,CUBOLT,9,12
-	30,KARAKID,9,12
-	20,PURIRD,9,12
+    40,CUBOLT,7,9
+	30,KARAKID,6,8
+	20,PURIRD,9
     10,HUMMIRD,10
 LandNight,21
-	40,CAPYBURA,9,12
-    30,FLAMUNNY,9,10
-    20,PURIRD,9,10
-	10,FRUCTERA,9,12
+	40,CAPYBURA,7,9
+    30,FLAMUNNY,6,8
+    20,PURIRD,9
+	10,FRUCTERA,10
 #-------------------------------
 [052] # Route 7
 LandDay,21
@@ -224,12 +224,12 @@ SuperRod
 #-------------------------------
 [041] # Mt.Hope
 Cave,5
-    40,UNOWN,8,10
+    95,UNOWN,8,10
     5,SNAKRE,10
 #-------------------------------
-[046] # Mt.Hope Secret Cave
+[046] # Mt.Hope Route 5 Cave
 Cave,5
-    40,UNOWN,8,10
+    95,UNOWN,8,10
     5,SNAKRE,10
 Water
 	80,MAGIKARP,5
@@ -245,9 +245,9 @@ SuperRod
 #-------------------------------
 [044] # Lunar Cave
 Cave,5
-    40,FRUCTERA,10,12
-    30,MOSSELIN,10,12
-    10,DROMEDA,15
+    40,FRUCTERA,7,10
+    30,MOSSELIN,9,11
+    10,DROMEDA,13
 Water
 	80,MAGIKARP,5
 OldRod
@@ -312,9 +312,14 @@ Cave,5
 	30,MOSSELIN,14,16
 	10,MEOWTUNO,12,14
 #-------------------------------
-[105] # Klepto Cave
+[105] # Klepto Cave B1F
 Cave,5
     30,FRUCTERA,14,16
 	30,MOSSELIN,14,16
 	25,MEOWTUNO,12,14
+#-------------------------------
+[106] # Connection Cave
+Cave,5
+    40,FRUCTERA,14,16
+    30,MOSSELIN,15
 	

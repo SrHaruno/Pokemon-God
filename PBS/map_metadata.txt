@@ -187,7 +187,6 @@ BattleBack = cave1
 [045]   # Lunar Cave 1BF
 Name = Lunar Cave
 MapPosition = 0,24,7
-DarkMap = true
 BattleBack = cave1
 #-------------------------------
 [046]   # Mt.Hope
@@ -350,6 +349,12 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,16,3
 #-------------------------------
+[078]   # Tourmaline City
+Name = Tourmaline City
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,14
+#-------------------------------
 [079]   # Route 10
 Name = Route 10
 Outdoor = true
@@ -491,9 +496,9 @@ MapPosition = 0,12,3
 Name = Gigantopolis
 MapPosition = 0,12,3
 #-------------------------------
-[111]   # Gigantopolis  PC 2F
-Name = Gigantopolis
-MapPosition = 0,12,3
+[111]   # Tourmaline PC 2F
+Name = Tourmaline city
+MapPosition = 0,16,14
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
@@ -524,8 +529,12 @@ MapPosition = 0,12,3
 [118]   # Lesta Lab.
 Name = Gigantopolis
 #-------------------------------
-[119]   # Purifier
+[119]   # Purifier_Room
 Name = Gigantopolis
 #-------------------------------
-[120]   # Fossil Reviver
+[120]   # Fossil_Room
 Name = Gigantopolis
+#-------------------------------
+[122]   # Tourmaline City PC
+Name = Tourmaline City
+MapPosition = 0,16,14
