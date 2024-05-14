@@ -8745,6 +8745,18 @@ Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 20
 Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
 #-------------------------------
+[JACKPOTROLL]
+Name = Jackpot Roll
+Type = NORMAL
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = AddMoneyGainedFromBattle
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user rolls towards the foe while scattering coins. Coins is earned after battle.
+#-------------------------------
 [MIGHTYROAR]
 Name = Mighty Roar
 Type = NORMAL

@@ -2,4 +2,4 @@
 #-------------------------------
 [PURIRD]
 GaugeSize = 1000
-Moves = SHADOWRUSH,SHADOWMIST
+Moves = VIRALBLITZ
