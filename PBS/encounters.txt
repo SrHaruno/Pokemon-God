@@ -223,12 +223,12 @@ SuperRod
     20,GYARADOS,30,33
 #-------------------------------
 [041] # Mt.Hope
-Cave,5
+Cave,7
     95,UNOWN,8,10
     5,SNAKRE,10
 #-------------------------------
 [046] # Mt.Hope Route 5 Cave
-Cave,5
+Cave,7
     95,UNOWN,8,10
     5,SNAKRE,10
 Water
@@ -244,7 +244,7 @@ SuperRod
 	1,DRAGONAIR,30,35
 #-------------------------------
 [044] # Lunar Cave
-Cave,5
+Cave,7
     40,FRUCTERA,7,10
     30,MOSSELIN,9,11
     10,DROMEDA,13
@@ -258,7 +258,7 @@ SuperRod
     20,GYARADOS,30,33	
 #-------------------------------
 [023] # Mt.Solar #Route 2 Side
-Cave,5
+Cave,7
     40,MOMBER,2,5
 	40,FRUCTERA,5
 Water
@@ -272,12 +272,12 @@ SuperRod
 
 #-------------------------------
 [103] # Mt.Solar #Route 4 Side
-Cave,5
+Cave,7
     40,MOMBER,7,9
 	40,FRUCTERA,10
 #-------------------------------
 [059] # Mt.Solar
-Cave,5
+Cave,7
     40,MOMBER,9,14
 	40,FRUCTERA,9,14
 Water
@@ -302,24 +302,43 @@ LandNight,21
     10,GIBLE,15
 #-------------------------------
 [069] # Forgotten Chamber
-Cave,5
+Cave,7
     40,FRUCTERA,9,12
     30,MOSSELIN,9,12
 #-------------------------------
 [104] # Klepto Cave
-Cave,5
+Cave,7
     40,FRUCTERA,14,16
 	30,MOSSELIN,14,16
 	10,MEOWTUNO,12,14
 #-------------------------------
 [105] # Klepto Cave B1F
-Cave,5
+Cave,7
     30,FRUCTERA,14,16
 	30,MOSSELIN,14,16
 	25,MEOWTUNO,12,14
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33	
 #-------------------------------
 [106] # Connection Cave
-Cave,5
+Cave,7
     40,FRUCTERA,14,16
     30,MOSSELIN,15
-	
+#-------------------------------
+[107] # Gigantopolis Sewer
+Cave,7
+	20,DITTO,12,16
+Water
+	80,MAGIKARP,10
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33	
