@@ -6072,12 +6072,6 @@ FrontSprite = -1,6
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[DRAGOWER]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
 [BOEELNA]
 BackSprite = 0,0
 FrontSprite = 0,0
@@ -6151,12 +6145,6 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [ARMOGHOUL]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[BABRAGON]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
@@ -6247,12 +6235,6 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [DRACRUIT]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[DRAKIDDO]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0

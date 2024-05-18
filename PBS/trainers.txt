@@ -314,7 +314,7 @@ Pokemon = ORBEAF,14
 	Gender = Female
 [CAMPER, Hamilton]
 LoseText = Atleast I learn about the region!
-Pokemon = BABRAGON,12
+Pokemon = FRILLZARD,12
 
 
 #Haunted Desert
@@ -338,7 +338,7 @@ Pokemon = DWILD,14
 
 [DRAGONTAMER, Jaragon]
 LoseText = Argh!
-Pokemon = BABRAGON,15
+Pokemon = FRILLZARD,15
 Pokemon = PINATAYA,14
 
 [PSYCHIC_F, Haruka]
@@ -362,7 +362,7 @@ Pokemon = VOODOLL,14
 Pokemon = YOUNROW,16
 
 
-#Saitmass Town
+#Jamsmil City
 
 #Gym
 #-------------------------------

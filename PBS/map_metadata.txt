@@ -343,7 +343,7 @@ MapPosition = 0,18,7
 BattleBack = Field
 MapSize = 2,1100
 #-------------------------------
-[077]   # Saintmass City
+[077]   # Jamsmil City
 Name = Saintmass City
 Outdoor = true
 ShowArea = true
@@ -373,6 +373,7 @@ Name = Route 11
 Outdoor = true
 ShowArea = true
 MapPosition = 0,14,3
+BattleBack = field
 MapSize = 2,1100
 #-------------------------------
 [082]   # Route 12

@@ -54,7 +54,7 @@ SuperRod
     20,GYARADOS,30,33
 #-------------------------------
 [066] # Gigantopolis
-Land,21
+Land,15
 	100,CRACKUUM,14,16
 
 
@@ -177,22 +177,22 @@ LandNight,21
 	10,PURIRD,9,10
 #-------------------------------
 [067] # Route 8
-Land,21
+Land,15
 	30,BOUDYENA,12,14
 	25,KITSU,10,14
 	15,VOODOLL,15
 	10,YOUNROW,14,16
-    5,BABRAGON,15
+    5,FRILLZARD,15
 #-------------------------------
 [076] # Route 9
-Land,21
+Land,15
     40,ROOGRE,12,14
 	10,PEACIRD,14,16
     5,PINATAYA,15
 #-------------------------------
 [079] # Route 10
-Land,21
-    40,ROOGRE,14,16
+Land,15
+    40,ROOGRE,12,14
     5,PINATAYA,15
 Water
 	80,MAGIKARP,5
@@ -202,13 +202,17 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33	
+#-------------------------------
+[081] # Route 11
+Land,15
+    40,CHOPAXE,12,14
 
 
 
 #Dungeons
 #-------------------------------
 [020] # Indi Forest
-Land,21
+Land,15
     40,LARVENGUE,3,5
     40,TATURUG,3,5
 	10,ORBEAF,5
