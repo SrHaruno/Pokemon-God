@@ -6,7 +6,9 @@
 14,South,0,39,North,12
 # Route 4 (39) - Route 5 (40)
 39,South,0,40,North,8
-# Route 10 (79) - Route 9 (76)
-79,South,28,76,North,0
+# Route 10 (79) - Route 11 (81)
+79,North,2,81,South,0
 # Power Plant (84) - Route 11 (81)
 84,South,0,81,North,20
+# Route 9 (76) - Route 10 (79)
+76,North,0,79,South,28
