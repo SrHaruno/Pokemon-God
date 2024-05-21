@@ -364,7 +364,14 @@ Pokemon = YOUNROW,16
 
 #Jamsmil City
 
-#Gym
+#Nikolai Mansion
+#-------------------------------
+[PI,Melon]
+Items = FULLRESTORE
+LoseText = You are as strong as Nikolai!
+Pokemon = GAMBILLO,20
+Pokemon = GAMBILLO,20
+#Nikolai Hideout
 #-------------------------------
 [ENGINEER,Joseph]
 LoseText = Grr!

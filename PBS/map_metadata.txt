@@ -344,7 +344,7 @@ BattleBack = Field
 MapSize = 2,1100
 #-------------------------------
 [077]   # Jamsmil City
-Name = Saintmass City
+Name = Jamsmil City
 Outdoor = true
 ShowArea = true
 MapPosition = 0,16,3
@@ -392,31 +392,43 @@ Outdoor = true
 ShowArea = true
 #-------------------------------
 [087]   # Saitmass Town PC
-Name = Saintmass City
+Name = Jamsmil City
 HealingSpot = 9,10,12
 MapPosition = 0,16,3
 #-------------------------------
 [088]   # Saintmass PC 2F
-Name = Saintmass City
+Name = Jamsmil City
 HealingSpot = 9,10,12
 MapPosition = 0,16,3
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [089]   # ST_House1
-Name = Saintmass City
+Name = Jamsmil City
 MapPosition = 0,16,3
 #-------------------------------
 [090]   # ST_House2
-Name = Saintmass City
+Name = Jamsmil City
 MapPosition = 0,16,3
 #-------------------------------
-[091]   # Gym
-Name = Saintmass City
+[091]   # Nikolai Mansion
+Name = Jamsmil City
 MapPosition = 0,16,3
 #-------------------------------
-[092]   # Gym_2
-Name = Saintmass City
+[092]   # Nikolai Lab
+Name = Jamsmil City
+MapPosition = 0,16,3
+#-------------------------------
+[125]   # Kitchen
+Name = Jamsmil City
+MapPosition = 0,16,3
+#-------------------------------
+[126]   # Nikolai's Room
+Name = Jamsmil City
+MapPosition = 0,16,3
+#-------------------------------
+[127]   # Living Room
+Name = Jamsmil City
 MapPosition = 0,16,3
 #-------------------------------
 [093]   # Vituresa_HS1
@@ -450,7 +462,7 @@ Bicycle = true
 MapPosition = 0,24,4
 #-------------------------------
 [100]   # ST_House3
-Name = Saintmass City
+Name = Jamsmil City
 MapPosition = 0,16,3
 #-------------------------------
 [101]   # Battle Tower
