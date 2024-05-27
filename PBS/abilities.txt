@@ -1104,6 +1104,10 @@ Description = Restores HP if hit by a Poison-type move.
 Name = Pure One
 Description = Dark-type moves become Angel-type.
 #-------------------------------
+[PUREEVIL]
+Name = Pure One
+Description = Dark-type moves become Angel-type.
+#-------------------------------
 [SUNRISE]
 Name = Sunrise
 Description = Turns the sunlight harsh if it is in battle.
@@ -1119,10 +1123,6 @@ Description = Powers up sound moves.
 [MARTIALKING]
 Name = Martial King
 Description = Powers up moves of the same type.
-#-------------------------------
-[HYPEUP]
-Name = Hype Up
-Description = Boosts Speed after knocking out any Pokémon.
 #-------------------------------
 [UNSEENTHIEF]
 Name = Unseen Thief

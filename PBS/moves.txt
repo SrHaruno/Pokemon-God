@@ -8719,260 +8719,42 @@ Description = The user withdraws its body into its hard shell, raising its Defen
 #
 #
 #-------------------------------
-[MUNCH]
-Name = Munch
-Type = NORMAL
-Category = Physical
-Power = 60
-Accuracy = 100
-TotalPP = 25
-Target = NearOther
-FunctionCode = FlinchTarget
-Flags = Contact,CanProtect,CanMirrorMove,Biting
-EffectChance = 30
-Description = The target is bitten with viciously sharp fangs. It may make the target flinch.
-#-------------------------------
-[MEGAMUNCH]
-Name = Mega Munch
-Type = NORMAL
-Category = Physical
-Power = 80
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = LowerTargetDefense1
-Flags = Contact,CanProtect,CanMirrorMove,Biting
-EffectChance = 20
-Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
-#-------------------------------
-[JACKPOTROLL]
-Name = Jackpot Roll
-Type = NORMAL
-Category = Physical
-Power = 120
-Accuracy = 100
-TotalPP = 25
-Target = NearOther
-FunctionCode = AddMoneyGainedFromBattle
-Flags = Contact,CanProtect,CanMirrorMove
-Description = The user rolls towards the foe while scattering coins. Coins is earned after battle.
-#-------------------------------
-[MIGHTYROAR]
-Name = Mighty Roar
-Type = NORMAL
-Category = Status
-Accuracy = 100
-TotalPP = 20
-Target = NearOther
-FunctionCode = LowerTargetDefSpDef1SwitchOutUser
-Flags = CanProtect,CanMirrorMove,Sound
-Description = With a frightening roar, the user lowers the target's Defense and Sp. Def stats. Then it switches out.
-#-------------------------------
-[EXCALIBOO]
-Name = Excaliboo
-Type = GHOST
-Category = Physical
-Power = 60
-Accuracy = 90
-TotalPP = 10
-Target = NearOther
-Priority = -6
-FunctionCode = SwitchOutTargetDamagingMove
-Flags = Contact,CanProtect,CanMirrorMove
-Description = The user scares the foe with a ghostly sword. Drags out another Pokémon in its party. In the wild, the battle ends.
-#-------------------------------
-[FLAMEHORN]
-Name = Flame Horn
-Type = FIRE
-Category = Physical
-Power = 40
-Accuracy = 100
-TotalPP = 25
-Target = NearOther
-FunctionCode = BurnTarget
-Flags = CanProtect,CanMirrorMove
-EffectChance = 10
-Description = The target is attacked with burning horns. It may also leave the target with a burn.
-#-------------------------------
-[INFERNORAZOR]
-Name = Inferno Razor
-Type = FIRE
-Category = Physical
-Power = 90
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = None
-Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user swings burning slash on the foe. It has a high critical-hit ratio.
-#-------------------------------
-[SHUMERANG]
-Name = Shumerang
-Type = GRASS
-Category = Physical
-Power = 25
-Accuracy = 100
-TotalPP = 30
-Target = NearOther
-FunctionCode = HitTwoToFiveTimes
-Flags = CanProtect,CanMirrorMove,Slashing
-Description = The user spins slashing the foe multiple times like a boomerang. This moves hits 2-5 times.
-#-------------------------------
-[BLOSSOMSPEAR]
-Name = Blossom Spear
-Type = GRASS
-Category = Special
-Power = 25
-Accuracy = 100
-TotalPP = 30
-Target = NearOther
-FunctionCode = HitTwoToFiveTimes
-Flags = CanProtect,CanMirrorMove
-Description = The user throw spear like petals on the target. This moves hits 2-5 times.
-#-------------------------------
-[IAIJUTSU]
-Name = Iaijutsu
-Type = GRASS
-Category = Physical
-Power = 40
-Accuracy = 100
-TotalPP = 30
-Target = NearOther
-Priority = 1
-FunctionCode = None
-Flags = Contact,CanProtect,CanMirrorMove,Slashing
-Description = The user attacks precisely at the target before they can attack. It is sure to strike first.
-#-------------------------------
-[SAKURADANCE]
-Name = Sakura Dance
-Type = GRASS
-Category = Status
-Accuracy = 0
-TotalPP = 20
-Target = User
-FunctionCode = RaiseUserSpAtk2
-Description = The user dances on a majestic way. It sharply raises the user's Sp. Atk.
-#-------------------------------
-[ELECTRODRAIN]
-Name = Electro Drain
-Type = ELECTRIC
-Category = Special
-Power = 75
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = HealUserByHalfOfDamageDone
-Flags = CanProtect,CanMirrorMove
-Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
-#-------------------------------
-[MOUSEWHIP]
-Name = Mouse Whip
-Type = ELECTRIC
-Category = Physical
-Power = 120
-Accuracy = 85
-TotalPP = 10
-Target = NearOther
-FunctionCode = None
-Flags = Contact,CanProtect,CanMirrorMove
-Description = The foe is hit with an mouse like whip.
-#-------------------------------
-[ACECOMBAT]
-Name = Ace Combat
-Type = FLYING
+[CRUSADINGBLITZ]
+Name = Crusading Blitz
+Type = ANGEL
 Category = Physical
 Power = 120
 Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserDefSpDef1
-Flags = Contact,CanProtect,CanMirrorMove
-Description = The user engages the foe like an ace. It also cuts the user's Defense and Sp. Def.
+Flags = CanProtect,CanMirrorMove
+Description = The user summons mystical soldiers towards the foe. It also cuts the user's Defense and Sp. Def.
 #-------------------------------
-[MENTALPRESSURE]
-Name = Mental Pressure
-Type = PSYCHIC		
+[LUNARSPEAR]
+Name = Lunar Spear
+Type = ANGEL
+Category = Physical
+Power = 90
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots an spear like object from the moon towards the foe.
+#-------------------------------
+[HOLYLIGHT]
+Name = Holy Light
+Type = ANGEL		
 Category = Special
 Power = 80
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = None
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = The user attacks with it's mental power. The power depends on the foe Sp.Defense.
-#-------------------------------
-[DRACOSPHERE]
-Name = Draco Sphere
-Type = DRAGON
-Category = Special
-Power = 90
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbility
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = The user attacks and sphere of energy. This move category depends on the user highest offensive stat.
-#-------------------------------
-[LUMBERTHRASH]
-Name = Lumber Thrash
-Type = GRASS
-Category = Physical
-Power = 120
-Accuracy = 90
-TotalPP = 15
-Target = NearOther
-FunctionCode = None
-Flags = Contact,CanMirrorMove
-Description = The foe is struck with an powerful tree lumber. It can't be protected.
-#-------------------------------
-[CUPIDSHOT]
-Name = Cupid Shot
-Type = ANGEL		
-Category = Physical
-Power = 40
-Accuracy = 100
-TotalPP = 40
-Target = NearOther
-FunctionCode = AttractTarget
+FunctionCode = LowerTargetAccuracy1
 Flags = CanProtect,CanMirrorMove
-EffectChance = 10
-Description = The foe is hit with an arrow like projectile. This may make the foe fall in love if opposite gender.
-#-------------------------------
-[PUNISHINGBEAM]
-Name = Punishing Beam
-Type = ANGEL		
-Category = Special
-Power = 60
-Accuracy = 100
-TotalPP = 25
-Target = NearOther
-FunctionCode = None
-Flags = CanProtect,CanMirrorMove
-Description = The foe is attacked with beam of light.
-#-------------------------------
-[SACREDSLASH]
-Name = Sacred Slash
-Type = ANGEL
-Category = Physical
-Power = 40
-Accuracy = 100
-TotalPP = 25
-Target = NearOther
-FunctionCode = None
-Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The target is attacked with an sacred slash. Critical hits land more easily.
-#-------------------------------
-[ODINSTRIKE]
-Name = Odin Strike
-Type = ANGEL
-Category = Physical
-Power = 60
-Accuracy = 100
-TotalPP = 25
-Target = NearOther
-FunctionCode = None
-Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user strikes it's foe with an powerful blow.
+EffectChance = 30
+Description = The user calls a blinding light from the skies towards the foe. This may also lowers the target Accuracy.
 #-------------------------------
 [GODBLOW]
 Name = God's Blow
@@ -9000,66 +8782,66 @@ EffectChance = 10
 Flags = Contact,CanProtect,CanMirrorMove,Punching
 Description = The target is punched with an electrified fist. May Paralyze the target.
 #-------------------------------
-[HOLYLIGHT]
-Name = Holy Light
-Type = ANGEL		
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = LowerTargetAccuracy1
-Flags = CanProtect,CanMirrorMove
-EffectChance = 30
-Description = The user calls a blinding light from the skies towards the foe. This may also lowers the target Accuracy.
-#-------------------------------
-[LUNARSPEAR]
-Name = Lunar Spear
+[ODINSTRIKE]
+Name = Odin Strike
 Type = ANGEL
-Category = Physical
-Power = 90
-Accuracy = 90
-TotalPP = 15
-Target = NearOther
-FunctionCode = None
-Flags = CanProtect,CanMirrorMove
-Description = The user shoots an spear like object from the moon towards the foe.
-#-------------------------------
-[SWORDOFJUSTICE]
-Name = Sword of Justice
-Type = STEEL
-Category = Physical
-Power = 95
-Accuracy = 90
-TotalPP = 10
-Target = NearOther
-FunctionCode = None
-Flags = CanProtect,CanMirrorMove
-Description = The user swings it's sword banishing all evil around. This move is Angel and Steel type simultaneously.
-#-------------------------------
-[CRUSADINGBLITZ]
-Name = Crusading Blitz
-Type = ANGEL
-Category = Physical
-Power = 120
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = LowerUserDefSpDef1
-Flags = CanProtect,CanMirrorMove
-Description = The user summons mystical soldiers towards the foe. It also cuts the user's Defense and Sp. Def.
-#-------------------------------
-[FEARLESSSLASH]
-Name = Fearless Slash
-Type = DEMON
 Category = Physical
 Power = 60
 Accuracy = 100
 TotalPP = 25
 Target = NearOther
 FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user strikes it's foe with an powerful blow.
+#-------------------------------
+[PUNISHINGBEAM]
+Name = Punishing Beam
+Type = ANGEL		
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
 Flags = CanProtect,CanMirrorMove
-Description = The foe is cut with sharp claws.
+Description = The foe is attacked with beam of light.
+#-------------------------------
+[CUPIDSHOT]
+Name = Cupid Shot
+Type = ANGEL		
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 40
+Target = NearOther
+FunctionCode = AttractTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The foe is hit with an arrow like projectile. This may make the foe fall in love if opposite gender.
+#-------------------------------
+[SACREDSLASH]
+Name = Sacred Slash
+Type = ANGEL
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The target is attacked with an sacred slash. Critical hits land more easily.
+#-------------------------------
+[HOPELESSBEAM]
+Name = Hopeless Beam
+Type = DEMON		
+Category = Special
+Power = 150
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = AttackAndSkipNextTurn
+Flags = CanProtect,CanMirrorMove
+Description = A powerful fear-filled beam is fired at the foe. The user must rest on the next turn to regain its energy.
 #-------------------------------
 [BERSERKSMASH]
 Name = Berserk Smash
@@ -9072,6 +8854,18 @@ Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The user belly presses the foe with all it's strenght. It also damages the user a little.
+#-------------------------------
+[FEARLESSSLASH]
+Name = Fearless Slash
+Type = DEMON
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The foe is cut with sharp claws.
 #-------------------------------
 [BERSERKASSAULT]
 Name = Beserk Assault
@@ -9086,14 +8880,243 @@ Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 10
 Description = The user attacks the foe recklesly. It also damages the user a lot.
 #-------------------------------
-[HOPELESSBEAM]
-Name = Hopeless Beam
-Type = DEMON		
+[DRACOSPHERE]
+Name = Draco Sphere
+Type = DRAGON
 Category = Special
-Power = 150
-Accuracy = 90
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbility
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks and sphere of energy. This move category depends on the user highest offensive stat.
+#-------------------------------
+[MOUSEWHIP]
+Name = Mouse Whip
+Type = ELECTRIC
+Category = Physical
+Power = 120
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The foe is hit with an mouse like whip.
+#-------------------------------
+[ELECTRODRAIN]
+Name = Electro Drain
+Type = ELECTRIC
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[INFERNORAZOR]
+Name = Inferno Razor
+Type = FIRE
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user swings burning slash on the foe. It has a high critical-hit ratio.
+#-------------------------------
+[FLAMEHORN]
+Name = Flame Horn
+Type = FIRE
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is attacked with burning horns. It may also leave the target with a burn.
+#-------------------------------
+[ACECOMBAT]
+Name = Ace Combat
+Type = FLYING
+Category = Physical
+Power = 120
+Accuracy = 100
 TotalPP = 5
 Target = NearOther
-FunctionCode = AttackAndSkipNextTurn
+FunctionCode = LowerUserDefSpDef1
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user engages the foe like an ace. It also cuts the user's Defense and Sp. Def.
+#-------------------------------
+[EXCALIBOO]
+Name = Excaliboo
+Type = GHOST
+Category = Physical
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+Priority = -6
+FunctionCode = SwitchOutTargetDamagingMove
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user scares the foe with a ghostly sword. Drags out another Pokémon in its party. In the wild, the battle ends.
+#-------------------------------
+[LUMBERTHRASH]
+Name = Lumber Thrash
+Type = GRASS
+Category = Physical
+Power = 120
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanMirrorMove
+Description = The foe is struck with an powerful tree lumber. It can't be protected.
+#-------------------------------
+[IAIJUTSU]
+Name = Iaijutsu
+Type = GRASS
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Slashing
+Description = The user attacks precisely at the target before they can attack. It is sure to strike first.
+#-------------------------------
+[SHUMERANG]
+Name = Shumerang
+Type = GRASS
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove,Slashing
+Description = The user spins slashing the foe multiple times like a boomerang. This moves hits 2-5 times.
+#-------------------------------
+[BLOSSOMSPEAR]
+Name = Blossom Spear
+Type = GRASS
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove
-Description = A powerful fear-filled beam is fired at the foe. The user must rest on the next turn to regain its energy.
+Description = The user throw spear like petals on the target. This moves hits 2-5 times.
+#-------------------------------
+[SAKURADANCE]
+Name = Sakura Dance
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpAtk2
+Description = The user dances on a majestic way. It sharply raises the user's Sp. Atk.
+#-------------------------------
+[JACKPOTROLL]
+Name = Jackpot Roll
+Type = NORMAL
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = AddMoneyGainedFromBattle
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user rolls towards the foe while scattering coins. Coins is earned after battle.
+#-------------------------------
+[MEGAMUNCH]
+Name = Mega Munch
+Type = NORMAL
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 20
+Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+#-------------------------------
+[MUNCH]
+Name = Munch
+Type = NORMAL
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 30
+Description = The target is bitten with viciously sharp fangs. It may make the target flinch.
+#-------------------------------
+[MIGHTYROAR]
+Name = Mighty Roar
+Type = NORMAL
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetDefSpDef1SwitchOutUser
+Flags = CanProtect,CanMirrorMove,Sound
+Description = With a frightening roar, the user lowers the target's Defense and Sp. Def stats. Then it switches out.
+#-------------------------------
+[MENTALPRESSURE]
+Name = Mental Pressure
+Type = PSYCHIC		
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks with it's mental power. The power depends on the foe Sp.Defense.
+#-------------------------------
+[SWORDOFJUSTICE]
+Name = Sword of Justice
+Type = STEEL
+Category = Physical
+Power = 95
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user swings it's sword banishing all evil around. This move is Angel and Steel type simultaneously.
+#-------------------------------
+[WEAPONSMITH]
+Name = Weapon Smith
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = RaiseUserAttack2
+Flags = Dance
+Description = The user reinforce it's strenght by sharpening it's claws or weapons. It sharply raises the user's Attack stat.
+#-------------------------------
+[ARMORSMITH]
+Name = Armor Smith
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = RaiseUserDefense2
+Flags = Dance
+Description = The user reinforce it's armour by polishing it. It sharply raises the user's Defense stat.
+
