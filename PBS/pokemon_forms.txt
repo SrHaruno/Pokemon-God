@@ -2331,10 +2331,10 @@ Pokedex = Legend says that by using its power to see all events from past to fut
 FormName = Mega Junvil
 MegaStone = JUNVILITE
 Types = GRASS,NORMAL
-BaseStats = 105,160,120,75,80,90
+BaseStats = 105,160,120,85,70,90
 BaseExp = 313
-Abilities = HYPEUP
-HiddenAbilities = HYPEUP
+Abilities = MOXIE
+HiddenAbilities = MOXIE
 #-------------------------------
 [KOMODRA,1]
 FormName = Mega Komo-dra
