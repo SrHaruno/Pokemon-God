@@ -110,8 +110,9 @@ BattleBack = field
 Name = Mt.Solar
 ShowArea = true
 Bicycle = true
-MapPosition = 0,19,7
+MapPosition = 0,17,7
 BattleBack = cave1
+MapSize = 3,111111000
 Environment = Cave
 #-------------------------------
 [024]   # Plateau Poke Center 2F
@@ -259,9 +260,9 @@ MapPosition = 0,24,4
 [059]   # Mt.Solar
 Name = Mt.Solar
 ShowArea = true
-MapPosition = 0,18,8
+MapPosition = 0,17,7
 BattleBack = cave1
-MapSize = 2,2
+MapSize = 3,111111000
 Environment = Cave
 #-------------------------------
 [060]   # Serenity Pond
@@ -391,43 +392,31 @@ Name = Route 11
 Outdoor = true
 ShowArea = true
 #-------------------------------
-[087]   # Saitmass Town PC
+[087]   # Jamsmil City PC
 Name = Jamsmil City
 HealingSpot = 9,10,12
 MapPosition = 0,16,3
 #-------------------------------
-[088]   # Saintmass PC 2F
+[088]   # Jamsmil PC 2F
 Name = Jamsmil City
 HealingSpot = 9,10,12
 MapPosition = 0,16,3
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
-[089]   # ST_House1
+[089]   # House
 Name = Jamsmil City
 MapPosition = 0,16,3
 #-------------------------------
-[090]   # ST_House2
+[090]   # House_2
 Name = Jamsmil City
 MapPosition = 0,16,3
 #-------------------------------
-[091]   # Nikolai Mansion
+[091]   # Nikolai's Mansion
 Name = Jamsmil City
 MapPosition = 0,16,3
 #-------------------------------
 [092]   # Nikolai Lab
-Name = Jamsmil City
-MapPosition = 0,16,3
-#-------------------------------
-[125]   # Kitchen
-Name = Jamsmil City
-MapPosition = 0,16,3
-#-------------------------------
-[126]   # Nikolai's Room
-Name = Jamsmil City
-MapPosition = 0,16,3
-#-------------------------------
-[127]   # Living Room
 Name = Jamsmil City
 MapPosition = 0,16,3
 #-------------------------------
@@ -456,12 +445,12 @@ Name = Route 13
 Bicycle = true
 MapPosition = 0,24,4
 #-------------------------------
-[099]   # Route 10 Gate
+[099]   # Route 11 Gate
 Name = Route 10
 Bicycle = true
 MapPosition = 0,24,4
 #-------------------------------
-[100]   # ST_House3
+[100]   # House_3
 Name = Jamsmil City
 MapPosition = 0,16,3
 #-------------------------------
@@ -475,7 +464,8 @@ Name = Battle Island
 Name = Mt.Solar
 Outdoor = true
 ShowArea = true
-MapPosition = 0,19,9
+MapPosition = 0,17,7
+MapSize = 3,111111000
 #-------------------------------
 [104]   # Klepto Cave
 Name = Klepto Cave
@@ -556,3 +546,15 @@ Name = Gigantopolis
 [122]   # Tourmaline City PC
 Name = Tourmaline City
 MapPosition = 0,16,14
+#-------------------------------
+[125]   # Kitchen
+Name = Jamsmil City
+MapPosition = 0,16,3
+#-------------------------------
+[126]   # Nikolai's Room
+Name = Jamsmil City
+MapPosition = 0,16,3
+#-------------------------------
+[127]   # Living Room
+Name = Jamsmil City
+MapPosition = 0,16,3

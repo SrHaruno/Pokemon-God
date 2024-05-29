@@ -6288,12 +6288,6 @@ FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[GLORY]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
 [JUNVIL,1]
 BackSprite = 0,0
 FrontSprite = 0,12
