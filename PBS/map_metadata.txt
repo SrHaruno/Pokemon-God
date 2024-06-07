@@ -46,8 +46,8 @@ Name = Plateau City
 HealingSpot = 9,10,12
 MapPosition = 0,24,4
 #-------------------------------
-[013]   # Indi Town
-Name = Indi Town
+[013]   # Viridis Town
+Name = Viridis Town
 Outdoor = true
 ShowArea = true
 MapPosition = 0,20,5
@@ -66,12 +66,12 @@ Name = Route 2
 Bicycle = true
 MapPosition = 0,20,7
 #-------------------------------
-[016]   # Indi Town PC
-Name = Indi Town
+[016]   # Viridis Town PC
+Name = Viridis Town
 HealingSpot = 16,10,11
 #-------------------------------
-[017]   # Indi Town Poke Center 2F
-Name = Indi Town
+[017]   # Viridis Town Poke Center 2F
+Name = Viridis Town
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
@@ -340,7 +340,7 @@ MapPosition = 0,24,4
 Name = Route 9
 Outdoor = true
 ShowArea = true
-MapPosition = 0,18,7
+MapPosition = 0,17,6
 BattleBack = Field
 MapSize = 2,1100
 #-------------------------------
@@ -349,6 +349,7 @@ Name = Jamsmil City
 Outdoor = true
 ShowArea = true
 MapPosition = 0,16,3
+MapSize = 2,1100
 #-------------------------------
 [078]   # Tourmaline City
 Name = Tourmaline City
@@ -361,9 +362,8 @@ Name = Route 10
 Outdoor = true
 ShowArea = true
 Weather = Rain,100
-MapPosition = 0,14,4
+MapPosition = 0,17,5
 BattleBack = Field
-MapSize = 4,0001000100010001
 #-------------------------------
 [080]   # Apricorn Maker
 Name = Route 10
@@ -373,9 +373,8 @@ MapPosition = 0,24,4
 Name = Route 11
 Outdoor = true
 ShowArea = true
-MapPosition = 0,14,3
+MapPosition = 0,17,4
 BattleBack = field
-MapSize = 2,1100
 #-------------------------------
 [082]   # Route 12
 Name = Route 12
