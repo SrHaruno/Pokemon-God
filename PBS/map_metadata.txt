@@ -87,8 +87,8 @@ BattleBack = field
 Name = Day-Care
 MapPosition = 0,21,7
 #-------------------------------
-[020]   # Indi Forest
-Name = Indi Forest
+[020]   # Viridis Forest
+Name = Viridis Forest
 Outdoor = true
 ShowArea = true
 MapPosition = 0,22,6
