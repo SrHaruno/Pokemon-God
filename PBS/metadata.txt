@@ -21,6 +21,7 @@ SurfCharset = hero_surf
 DiveCharset = hero_surf
 FishCharset = hero_fish_offset
 SurfFishCharset = hero_fish_offset
+Home = 3,4,5,6
 #-------------------------------
 [2]
 TrainerType = POKEMONTRAINER_Whitlea
@@ -31,3 +32,4 @@ SurfCharset = girl_surf
 DiveCharset = girl_surf
 FishCharset = girl_fish_offset
 SurfFishCharset = girl_fish_offset
+Home = 3,4,5,6
