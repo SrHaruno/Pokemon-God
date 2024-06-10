@@ -3,8 +3,8 @@
 [001]   # Intro
 Name = Intro
 #-------------------------------
-[002]   # Rondor Town
-Name = Rondor Town
+[002]   # Satus Town
+Name = Satus Town
 Outdoor = true
 ShowArea = true
 MapPosition = 0,24,4
@@ -28,7 +28,7 @@ BattleBack = field
 MapSize = 3,01111000
 #-------------------------------
 [006]   # Rondor_Gate
-Name = Rondor Town
+Name = Satus Town
 MapPosition = 0,24,4
 #-------------------------------
 [007]   # Route 1 Gate
@@ -37,13 +37,13 @@ Bicycle = true
 MapPosition = 0,22,4
 #-------------------------------
 [008]   # Bruno House
-Name = Rondor Town
+Name = Satus Town
 HealingSpot = 2,8,8
 MapPosition = 0,24,4
 #-------------------------------
 [009]   # Plateau City PC
 Name = Plateau City
-HealingSpot = 9,10,12
+HealingSpot = 9,8,6
 MapPosition = 0,24,4
 #-------------------------------
 [013]   # Viridis Town
@@ -69,9 +69,9 @@ MapPosition = 0,20,7
 #-------------------------------
 [016]   # Viridisi Town PC
 Name = Viridis Town
-HealingSpot = 16,10,11
+HealingSpot = 16,8,6
 #-------------------------------
-[017]   # Indi Town Poke Center 2F
+[017]   # Viridis Town Poke Center 2F
 Name = Viridis Town
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
@@ -222,7 +222,7 @@ MapPosition = 0,24,4
 #-------------------------------
 [051]   # Marine City PC
 Name = Marine City
-HealingSpot = 51,10,12
+HealingSpot = 51,8,6
 MapPosition = 0,26,6
 #-------------------------------
 [052]   # Route 7
@@ -327,7 +327,7 @@ TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [074]   # Vituresa Poke Center 2F
 Name = Vituresa Village
-HealingSpot = 72,10,12
+HealingSpot = 72,8,6
 MapPosition = 0,16,9
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
@@ -394,12 +394,12 @@ ShowArea = true
 #-------------------------------
 [087]   # Jamsmil City PC
 Name = Jamsmil City
-HealingSpot = 9,10,12
+HealingSpot = 9,8,6
 MapPosition = 0,16,3
 #-------------------------------
 [088]   # Jamsmil PC 2F
 Name = Jamsmil City
-HealingSpot = 9,10,12
+HealingSpot = 9,8,6
 MapPosition = 0,16,3
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
