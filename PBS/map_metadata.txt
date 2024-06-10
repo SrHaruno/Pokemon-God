@@ -27,14 +27,14 @@ MapPosition = 0,21,4
 BattleBack = field
 MapSize = 3,01111000
 #-------------------------------
-[006]   # Rondor_Gate
+[006]   # Satus_Gate
 Name = Satus Town
 MapPosition = 0,24,4
 #-------------------------------
 [007]   # Route 1 Gate
 Name = Route 1
 Bicycle = true
-MapPosition = 0,22,4
+MapPosition = 0,21,4
 #-------------------------------
 [008]   # Bruno House
 Name = Satus Town
@@ -70,10 +70,12 @@ MapPosition = 0,20,7
 [016]   # Viridisi Town PC
 Name = Viridis Town
 HealingSpot = 16,8,6
+MapPosition = 0,20,5
 #-------------------------------
-[017]   # Viridis Town Poke Center 2F
+[017]   # Viridis PC 2F
 Name = Viridis Town
 BattleBack = Online
+MapPosition = 0,20,5
 TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [018]   # Route 3
@@ -116,7 +118,7 @@ BattleBack = cave1
 MapSize = 3,111111000
 Environment = Cave
 #-------------------------------
-[024]   # Plateau Poke Center 2F
+[024]   # Plateau PC 2F
 Name = Plateau City
 MapPosition = 0,22,7
 BattleBack = Online
@@ -319,13 +321,13 @@ BattleBack = Forest
 Name = Vituresa Village
 MapPosition = 0,16,9
 #-------------------------------
-[073]   # Marine Poke Center 2F
+[073]   # Marine PC 2F
 Name = Marine City
 MapPosition = 0,26,6
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
-[074]   # Vituresa Poke Center 2F
+[074]   # Vituresa PC 2F
 Name = Vituresa Village
 HealingSpot = 72,8,6
 MapPosition = 0,16,9
