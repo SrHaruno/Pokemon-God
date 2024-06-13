@@ -77,11 +77,30 @@ Pokemon = KITSU,16
 	Gender = Male
 Pokemon = EGDON,17
 
+#City/Gym Battles
 
+#Plateau Gym
+#-------------------------------
+[SCHOOLKID_M, Thomas]
+LoseText = I need to study my strategies all over again!
+Pokemon = MOSSELIN,8
+#-------------------------------
+[SCHOOLKID_F, Hikari]
+LoseText = Sorry my math failed!
+Pokemon = ORBEAF,8
+	Gender = female
+#-------------------------------
+[LEADER_Daniel,Daniel]
+Items = POTION
+LoseText = Very good. You deserve the Knowedge Badge!
+Pokemon = MOSSELIN,8
+    Moves = LEECHSEED,VINEWHIP,ROCKTHROW,DEFENSECURL
+	Item = ORANBERRY
+Pokemon = GRALING,10
+    Moves = RAZORLEAF,KNOCKOFF,WORKUP
+	Item = ORANBERRY
 
-#Gym Rematches
-
-#Daniel
+#Gym Rematch
 #-------------------------------
 [LEADER_Daniel,Daniel,1]
 Items = SUPERPOTION,SUPERPOTION
@@ -108,147 +127,6 @@ Pokemon = SIMISAGE,40
 Pokemon = VENUSAUR,45
 Pokemon = KATAGAMI,45
 Pokemon = JUNVIL,48
-
-
-
-#Route 2
-#-------------------------------
-[YOUNGSTER,Arthur]
-LoseText = Aww, I lost.
-Pokemon = DWILD,5
-#-------------------------------
-[LASS,Bianca]
-LoseText = Noo! My precious Pokémon!
-Pokemon = ORBEAF,5
-	Gender = female
-#-------------------------------
-[HIKER,Scott]
-LoseText = My strategy wasn't rock solid!
-Pokemon = MOSLEEP,4
-Pokemon = MOSSELIN,5
-
-
-#Route 3
-#-------------------------------
-[FARMER, Ethan]
-LoseText = That's how farm life works.
-Pokemon = MOMBER,6
-Pokemon = CHIKATE,7
-#-------------------------------
-[COWGIRL, Hannah]
-LoseText = Yeehaw!
-Pokemon = DWILD,6
-Pokemon = CHIKATE,7
-
-
-#Route 4
-#-------------------------------
-[GENTLEMAN, Golding]
-LoseText = Oh no! I dropped my coffee!
-Pokemon = CUBTURN,10
-Pokemon = EEVEE,10
-
-
-#Indi Forest
-#-------------------------------
-[BUGCATCHER, Satoshi]
-LoseText = No!
-Pokemon = TATURUG,4
-Pokemon = PUPENGUE,5
-#-------------------------------
-[BUGCATCHER, Tajiri]
-LoseText = No way!
-Pokemon = LARVENGUE,4
-Pokemon = ELECOON,5
-
-
-#Plateau Gym
-#-------------------------------
-[SCHOOLKID_M, Thomas]
-LoseText = I need to study my strategies all over again!
-Pokemon = MOSSELIN,8
-#-------------------------------
-[SCHOOLKID_F, Hikari]
-LoseText = Sorry my math failed!
-Pokemon = ORBEAF,8
-	Gender = female
-#-------------------------------
-[LEADER_Daniel,Daniel]
-Items = POTION
-LoseText = Very good. You deserve the Knowedge Badge!
-Pokemon = MOSSELIN,8
-    Moves = LEECHSEED,VINEWHIP,ROCKTHROW,DEFENSECURL
-	Item = ORANBERRY
-Pokemon = GRALING,10
-    Moves = RAZORLEAF,KNOCKOFF,WORKUP
-	Item = ORANBERRY
-	
-
-#Route 5
-#-------------------------------
-[TUBER_M, João]
-LoseText = Buaaaaaaaah!
-Pokemon = TURTEED,9
-#-------------------------------
-[TUBER_F, Maria]
-LoseText = Atleast my floaty is still cute!
-Pokemon = AXOLOBY,8
-#-------------------------------
-[YOUNGSTER, Rafael]
-LoseText = Dammit!
-Pokemon = HUMMIRD,8
-Pokemon = TURTEED,9
-#-------------------------------
-[SWIMMER_F, Natalia]
-LoseText = Oh nyo!
-Pokemon = BOTOLPHIN,10
-#-------------------------------
-[FISHERMAN, Berg]
-LoseText = One day Ill find the legendary dragon!!!
-Pokemon = MAGIKARP,5
-Pokemon = MAGIKARP,5
-Pokemon = MAGIKARP,6
-Pokemon = MAGIKARP,8
-Pokemon = MAGIKARP,9
-Pokemon = MAGIKARP,15
-
-
-#Route 6
-#-------------------------------
-[CRUSHGIRL, Sakura]
-LoseText = Back to training I should go!
-Pokemon = KARAKID,8
-#-------------------------------
-[BLACKBELT, Noharu]
-LoseText = Even if I lose, im not giving up!
-Pokemon = FLAMUNNY,8
-#-------------------------------
-[YOUNGSTER, Tobias]
-LoseText = My Pokémon!
-Pokemon = DWILD,11
-Pokemon = TURTEED,12
-#-------------------------------
-[AROMALADY, Rafaela]
-LoseText = My sweet babies!
-Pokemon = ORBEAF,10
-	Gender = Female
-Pokemon = PANSAGE,14
-
-
-#Lunar Cave
-#-------------------------------
-[REAPER, Stefan]
-LoseText = Man I hate this job!
-Pokemon = CAPYBURA,12
-Pokemon = FRUCTERA,12
-
-[REAPER, Carl]
-LoseText = How I lost to a kid!
-Pokemon = BOUDYENA,12
-
-[REAPER, Tony]
-LoseText = What! RUN AWAY!
-Pokemon = CAPYBURA,12
 
 #Marine City
 #-------------------------------
@@ -304,7 +182,124 @@ Pokemon = YOUNROW,14
 Pokemon = EVIRASS,18
     Moves = BULKUP,LEECHSEED,RAZORLEAF,KNOCKOFF
 	Item = SITRUSBERRY
+
+#Vituresa Town
+#-------------------------------
+[REAPER, Drake,1]
+LoseText = Not again!
+Pokemon = BOUDYENA,14
+Pokemon = VOODOLL,14
+Pokemon = YOUNROW,16
+
+
+#Jamsmil City
+
+#Nikolai Mansion
+#-------------------------------
+[PI,Melon]
+Items = FULLRESTORE
+LoseText = You are as strong as Nikolai!
+Pokemon = GAMBILLO,20
+Pokemon = GAMBILLO,20
+#Nikolai Hideout
+#-------------------------------
+[LEADER_Nikolai,Nikolai]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = That was AMAZING!
+Pokemon = CUBOLT,20
+    Moves = THUNDERWAVE,SHOCKWAVE,NOBLEROAR
+Pokemon = TURTLOW,22
+    Moves = RAPIDSPIN,BODYPRESS,BUBBLEBEAM,METALCLAW
+Pokemon = CHOPAXE,24
+    Moves = SCRATCH
+Pokemon = JOLTUTER,26
+    Moves = THUNDERWAVE,VOLTSWITCH,MOUSEWHIP,METALSOUND
+	Item  = SITRUSBERRY
+
+
+#Route 2
+#-------------------------------
+[YOUNGSTER,Arthur]
+LoseText = Aww, I lost.
+Pokemon = DWILD,5
+#-------------------------------
+[LASS,Bianca]
+LoseText = Noo! My precious Pokémon!
+Pokemon = ORBEAF,5
+	Gender = female
+#-------------------------------
+[HIKER,Scott]
+LoseText = My strategy wasn't rock solid!
+Pokemon = MOSLEEP,4
+Pokemon = MOSSELIN,5
+
+#Route 3
+#-------------------------------
+[FARMER, Ethan]
+LoseText = That's how farm life works.
+Pokemon = MOMBER,6
+Pokemon = CHIKATE,7
+#-------------------------------
+[COWGIRL, Hannah]
+LoseText = Yeehaw!
+Pokemon = DWILD,6
+Pokemon = CHIKATE,7
+
+#Route 4
+#-------------------------------
+[GENTLEMAN, Golding]
+LoseText = Oh no! I dropped my coffee!
+Pokemon = CUBTURN,10
+Pokemon = EEVEE,10
+
+#Route 5
+#-------------------------------
+[TUBER_M, João]
+LoseText = Buaaaaaaaah!
+Pokemon = TURTEED,9
+#-------------------------------
+[TUBER_F, Maria]
+LoseText = Atleast my floaty is still cute!
+Pokemon = AXOLOBY,8
+#-------------------------------
+[YOUNGSTER, Rafael]
+LoseText = Dammit!
+Pokemon = HUMMIRD,8
+Pokemon = TURTEED,9
+#-------------------------------
+[SWIMMER_F, Natalia]
+LoseText = Oh nyo!
+Pokemon = BOTOLPHIN,10
+#-------------------------------
+[FISHERMAN, Berg]
+LoseText = One day Ill find the legendary dragon!!!
+Pokemon = MAGIKARP,5
+Pokemon = MAGIKARP,5
+Pokemon = MAGIKARP,6
+Pokemon = MAGIKARP,8
+Pokemon = MAGIKARP,9
+Pokemon = MAGIKARP,15
 	
+#Route 6
+#-------------------------------
+[CRUSHGIRL, Sakura]
+LoseText = Back to training I should go!
+Pokemon = KARAKID,8
+#-------------------------------
+[BLACKBELT, Noharu]
+LoseText = Even if I lose, im not giving up!
+Pokemon = FLAMUNNY,8
+#-------------------------------
+[YOUNGSTER, Tobias]
+LoseText = My Pokémon!
+Pokemon = DWILD,11
+Pokemon = TURTEED,12
+#-------------------------------
+[AROMALADY, Rafaela]
+LoseText = My sweet babies!
+Pokemon = ORBEAF,10
+	Gender = Female
+Pokemon = PANSAGE,14	
 
 #Route 7
 #-------------------------------
@@ -315,19 +310,6 @@ Pokemon = ORBEAF,14
 [CAMPER, Hamilton]
 LoseText = Atleast I learn about the region!
 Pokemon = FRILLZARD,12
-
-
-#Haunted Desert
-#-------------------------------
-[CAMPER, Asriel]
-LoseText = Oh noes!
-Pokemon = SUNCARAB,12
-Pokemon = TRAPINCH,12
-
-[HIKER, Fuji]
-LoseText = Well, time to start hiking!
-Pokemon = MOSSELIN,12
-
 
 #Route 8
 #-------------------------------
@@ -353,65 +335,83 @@ Pokemon = GRALING,12
 Pokemon = KITSU,12
 	Shiny = true
 
-#Vituresa Town
+#Route 11
 #-------------------------------
-[REAPER, Drake,1]
-LoseText = Not again!
-Pokemon = BOUDYENA,14
-Pokemon = VOODOLL,14
-Pokemon = YOUNROW,16
+[ENGINEER, Bob]
+LoseText = Well, back to work!
+Pokemon = CHOPAXE,12	
+
+#Indi Forest
+#-------------------------------
+[BUGCATCHER, Satoshi]
+LoseText = No!
+Pokemon = TATURUG,4
+Pokemon = PUPENGUE,5
+#-------------------------------
+[BUGCATCHER, Tajiri]
+LoseText = No way!
+Pokemon = LARVENGUE,4
+Pokemon = ELECOON,5	
+
+#Route 14
+#-------------------------------
+[YOUNGSTER,Pietro]
+LoseText = Oh, I ran out of Pokémon!
+Pokemon = ORBEAF,12
+Pokemon = VOODOLL,12
+#-------------------------------
+[LASS,Asuka]
+LoseText = I hate bugs, get me out of here!
+Pokemon = BOTOLPHIN,12
+#-------------------------------
+[BUGCATCHER,Jacob]
+LoseText = My bugs!
+Pokemon = ELECOON,12
+Pokemon = PUPENGUE,12
+#-------------------------------
+[BUGCATCHER,Bugsy]
+LoseText = Im still on the hunt!
+Pokemon = TATURUG,12
+Pokemon = ELECOON,13
+#-------------------------------
+[BUGCATCHER,Mantis]
+LoseText = Maybe I should change my trainer class.
+Pokemon = TATURUG,12
+Pokemon = PUPENGUE,12
+#-------------------------------
+[BUGCATCHER,Beeto]
+LoseText = Oh no, my bugnet broke!
+Pokemon = LARVENGUE,14
 
 
-#Jamsmil City
 
-#Nikolai Mansion
+
+
+#Lunar Cave
 #-------------------------------
-[PI,Melon]
-Items = FULLRESTORE
-LoseText = You are as strong as Nikolai!
-Pokemon = GAMBILLO,20
-Pokemon = GAMBILLO,20
-#Nikolai Hideout
+[REAPER, Stefan]
+LoseText = Man I hate this job!
+Pokemon = CAPYBURA,12
+Pokemon = FRUCTERA,12
+
+[REAPER, Carl]
+LoseText = How I lost to a kid!
+Pokemon = BOUDYENA,12
+
+[REAPER, Tony]
+LoseText = What! RUN AWAY!
+Pokemon = CAPYBURA,12	
+
+#Haunted Desert
 #-------------------------------
-[ENGINEER,Joseph]
-LoseText = Grr!
-Pokemon = CHOPAXE,20
-#-------------------------------
-[ENGINEER,Ricchard]
-LoseText = My my!
-Pokemon = CHOPAXE,20
-Pokemon = ELECOON,22
-#-------------------------------
-[ENGINEER,Bob]
-LoseText = Grr!
-Pokemon = TURTLOW,25
-#-------------------------------
-[ENGINEER,Felix]
-LoseText = Take care of it! it's very frail.
-Pokemon = TURTLOW,25
-Pokemon = CHOPAXE,22
-#-------------------------------
-[ENGINEER,John]
-LoseText = My Pokémon got shocked by your skills!
-Pokemon = CUBOLT,25
-#-------------------------------
-[ENGINEER,Fabio]
-LoseText = Be careful to not get shocked!
-Pokemon = TURTLOW,20
-#-------------------------------
-[LEADER_Nikolai,Nikolai]
-Items = SUPERPOTION,SUPERPOTION
-LoseText = That was AMAZING!
-Pokemon = CUBOLT,20
-    Moves = THUNDERWAVE,SHOCKWAVE,NOBLEROAR
-Pokemon = TURTLOW,22
-    Moves = RAPIDSPIN,BODYPRESS,BUBBLEBEAM,METALCLAW
-Pokemon = CHOPAXE,24
-    Moves = SCRATCH
-Pokemon = JOLTUTER,26
-    Moves = THUNDERWAVE,VOLTSWITCH,MOUSEWHIP,METALSOUND
-	Item  = SITRUSBERRY
-	
+[CAMPER, Asriel]
+LoseText = Oh noes!
+Pokemon = SUNCARAB,12
+Pokemon = TRAPINCH,12
+
+[HIKER, Fuji]
+LoseText = Well, time to start hiking!
+Pokemon = MOSSELIN,12
 
 #Klepto Cave
 #-------------------------------
