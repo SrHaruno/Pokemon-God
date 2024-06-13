@@ -1,6 +1,4 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
-
-
 #Towns
 #-------------------------------
 [002] # Satus Town
@@ -195,35 +193,27 @@ SuperRod
 #-------------------------------
 [133] # Route 12
 LandDay,21
-    40,DWILD,9,10
+    20,CHOPAXE,13,15
 LandNight,21
-    40,CAPYBURA,9,10
+    20,CHOPAXE,13,15
 #-------------------------------
 [129] # Route 13
 LandDay,21
-    40,DWILD,9,10
+    20,CHOPAXE,12,14
 LandNight,21
-    40,CAPYBURA,9,10
-Water
-	80,MAGIKARP,5
-OldRod
-    70,MAGIKARP,8,10
-GoodRod
-    60,MAGIKARP,8,10
-SuperRod
-    20,GYARADOS,30,33	
+    20,CHOPAXE,12,14
 #-------------------------------
 [82] # Route 14
 LandDay,21
-    40,DWILD,9,10
+    40,DWILD,12,14
 LandNight,21
-    40,CAPYBURA,9,10
+    40,CAPYBURA,12,14
 #-------------------------------
 [083] # Route 15
 LandDay,21
-    40,DWILD,9,10
+    40,DWILD,12,14
 LandNight,21
-    40,CAPYBURA,9,10
+    40,CAPYBURA,12,14
 Water
 	80,MAGIKARP,5
 OldRod

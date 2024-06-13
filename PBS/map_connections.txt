@@ -12,5 +12,5 @@
 79,North,2,81,South,0
 # Power Plant (84) - Route 11 (81)
 84,South,0,81,North,20
-# Route 13 (129) - Route 14 (82)
-129,South,3,82,North,0
+# Route 14 (82) - Route 13 (129)
+82,North,0,129,South,0
