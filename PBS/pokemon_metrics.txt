@@ -6110,9 +6110,9 @@ ShadowSize = 1
 #-------------------------------
 [CRACKUUM]
 BackSprite = 0,0
-FrontSprite = 0,0
+FrontSprite = -1,21
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [PECURU]
 BackSprite = 0,0
@@ -6385,6 +6385,18 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [MEOWTUNO]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[POLLUTLAS]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[EGG_2]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0

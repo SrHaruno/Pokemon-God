@@ -3,7 +3,7 @@
 
 #Towns
 #-------------------------------
-[002] # Rondor Town
+[002] # Satus Town
 Water
 	80,MAGIKARP,5
 OldRod
@@ -13,7 +13,7 @@ GoodRod
 SuperRod
     20,GYARADOS,30,33
 #-------------------------------
-[013] # Indi Town
+[013] # Viridis Town
 Water
 	80,MAGIKARP,5
 OldRod
@@ -34,16 +34,6 @@ SuperRod
     20,GYARADOS,30,33
 #-------------------------------
 [047] # Marine City
-Water
-	80,MAGIKARP,5
-OldRod
-    70,MAGIKARP,8,10
-GoodRod
-    60,MAGIKARP,8,10
-SuperRod
-    20,GYARADOS,30,33
-#-------------------------------
-[077] # Saintmass Town
 Water
 	80,MAGIKARP,5
 OldRod
@@ -203,15 +193,51 @@ GoodRod
 SuperRod
     20,GYARADOS,30,33	
 #-------------------------------
-[081] # Route 11
-Land,15
-    40,CHOPAXE,12,14
+[133] # Route 12
+LandDay,21
+    40,DWILD,9,10
+LandNight,21
+    40,CAPYBURA,9,10
+#-------------------------------
+[129] # Route 13
+LandDay,21
+    40,DWILD,9,10
+LandNight,21
+    40,CAPYBURA,9,10
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33	
+#-------------------------------
+[82] # Route 14
+LandDay,21
+    40,DWILD,9,10
+LandNight,21
+    40,CAPYBURA,9,10
+#-------------------------------
+[083] # Route 15
+LandDay,21
+    40,DWILD,9,10
+LandNight,21
+    40,CAPYBURA,9,10
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33	
 
 
 
 #Dungeons
 #-------------------------------
-[020] # Indi Forest
+[020] # Viridis Forest
 Land,15
     40,LARVENGUE,3,5
     40,TATURUG,3,5

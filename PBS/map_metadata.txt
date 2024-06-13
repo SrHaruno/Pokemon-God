@@ -44,7 +44,7 @@ MapPosition = 0,24,4
 [009]   # Plateau City PC
 Name = Plateau City
 HealingSpot = 9,8,6
-MapPosition = 0,24,4
+MapPosition = 0,22,7
 #-------------------------------
 [013]   # Viridis Town
 Name = Viridis Town
@@ -72,10 +72,10 @@ Name = Viridis Town
 HealingSpot = 16,8,6
 MapPosition = 0,20,5
 #-------------------------------
-[017]   # Viridis PC 2F
+[017]   # Viridisi PC 2F
 Name = Viridis Town
-BattleBack = Online
 MapPosition = 0,20,5
+BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [018]   # Route 3
@@ -172,9 +172,9 @@ MapPosition = 0,22,9
 Name = Route 6
 Outdoor = true
 ShowArea = true
-MapPosition = 0,23,7
+MapPosition = 0,23,8
 BattleBack = field
-MapSize = 6,101100100000100000100000100000100000
+MapSize = 6,111110100000100000100000100000
 #-------------------------------
 [043]   # Route 5 Gate
 Name = Route 5
@@ -205,8 +205,7 @@ MapSize = 2,2
 Name = Marine City
 Outdoor = true
 ShowArea = true
-HealingSpot = 47,16,68
-MapPosition = 0,26,6
+MapPosition = 0,23,8
 BattleBack = field
 #-------------------------------
 [048]   # Route 4 (Healpoint)
@@ -225,7 +224,7 @@ MapPosition = 0,24,4
 [051]   # Marine City PC
 Name = Marine City
 HealingSpot = 51,8,6
-MapPosition = 0,26,6
+MapPosition = 0,25,7
 #-------------------------------
 [052]   # Route 7
 Name = Route 7
@@ -233,7 +232,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,25,4
 BattleBack = field
-MapSize = 2,1101
+MapSize = 3,100100100
 #-------------------------------
 [053]   # Route 7 Gate
 Name = Route 7
@@ -246,7 +245,7 @@ MapPosition = 0,24,4
 DarkMap = true
 BattleBack = indoor1
 #-------------------------------
-[055]   # Police Departament
+[055]   # Police Station
 Name = Marine City
 MapPosition = 0,26,6
 #-------------------------------
@@ -379,15 +378,21 @@ ShowArea = true
 MapPosition = 0,17,4
 BattleBack = field
 #-------------------------------
-[082]   # Route 12
-Name = Route 12
-MapPosition = 0,12,5
+[082]   # Route 14
+Name = Route 14
+Outdoor = true
+ShowArea = true
+MapPosition = 0,14,7
+BattleBack = Field
+MapSize = 3,100100100
 #-------------------------------
-[083]   # Route 13
-Name = Route 13
+[083]   # Route 15
+Name = Route 15
 Outdoor = true
 ShowArea = true
 MapPosition = 0,16,10
+BattleBack = Water
+MapSize = 5,1111110000100001000010000
 #-------------------------------
 [084]   # Power Plant
 Name = Route 11
@@ -443,9 +448,9 @@ Name = Vituresa Village
 MapPosition = 0,16,9
 #-------------------------------
 [098]   # Route 13 Gate
-Name = Route 13
+Name = Route 15
 Bicycle = true
-MapPosition = 0,24,4
+MapPosition = 0,16,10
 #-------------------------------
 [099]   # Route 11 Gate
 Name = Route 10
@@ -485,7 +490,7 @@ BattleBack = Cave1
 [106]   # Connection Cave
 Name = Connection Cave
 Bicycle = true
-MapPosition = 0,16,12
+MapPosition = 0,16,14
 BattleBack = Cave1
 #-------------------------------
 [107]   # Gigantopolis Sewers
@@ -560,3 +565,26 @@ MapPosition = 0,16,3
 [127]   # Living Room
 Name = Jamsmil City
 MapPosition = 0,16,3
+#-------------------------------
+[129]   # Route 13
+Name = Route 13
+Outdoor = true
+ShowArea = true
+MapPosition = 0,12,5
+BattleBack = Field
+MapSize = 3,100100100
+#-------------------------------
+[130]   # Route 14 Gate
+Name = Route 14
+MapPosition = 0,15,9
+#-------------------------------
+[131]   # Route 13 Gate
+Name = Route 13
+MapPosition = 0,12,5
+#-------------------------------
+[133]   # Route 12
+Name = Route 12
+Outdoor = true
+ShowArea = true
+MapPosition = 0,14,3
+MapSize = 2,1100
