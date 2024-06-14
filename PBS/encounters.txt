@@ -205,9 +205,15 @@ LandNight,21
 #-------------------------------
 [82] # Route 14
 LandDay,21
-    40,DWILD,12,14
+    40,TATURUG,12,14
+	40,LARVENGUE,12,14
+	30,PURIRD,13
+	20,SPYRE,12,14
 LandNight,21
-    40,CAPYBURA,12,14
+    40,LARVENGUE,12,14
+	40,TATURUG,12,14
+	30,PURIRD,13
+	20,SPYRE,12,14
 #-------------------------------
 [083] # Route 15
 LandDay,21
@@ -313,11 +319,9 @@ SuperRod
 [068] # Haunted Desert
 LandDay,21
 	40,SUNCARAB,9,12
-	30,SPYRE,9,12
     20,TRAPINCH,9,12
     10,GIBLE,15
 LandNight,21
-	40,SPYRE,9,12
     20,TRAPINCH,9,12
     10,GIBLE,15
 #-------------------------------

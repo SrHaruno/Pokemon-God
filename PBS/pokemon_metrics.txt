@@ -5815,10 +5815,10 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [TATURUG]
-BackSprite = 0,3
-FrontSprite = 0,20
+BackSprite = 0,0
+FrontSprite = -2,18
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [SQUILAZE]
 BackSprite = 0,20

@@ -362,25 +362,28 @@ Pokemon = VOODOLL,12
 #-------------------------------
 [LASS,Asuka]
 LoseText = I hate bugs, get me out of here!
-Pokemon = BOTOLPHIN,12
+Pokemon = BOTOLPHIN,10
 #-------------------------------
 [BUGCATCHER,Jacob]
 LoseText = My bugs!
-Pokemon = ELECOON,12
-Pokemon = PUPENGUE,12
+Pokemon = ELECOON,11
+Pokemon = PUPENGUE,11
 #-------------------------------
 [BUGCATCHER,Bugsy]
 LoseText = Im still on the hunt!
-Pokemon = TATURUG,12
+Pokemon = TATURUG,11
 Pokemon = ELECOON,13
+Pokemon = SPYRE,14
 #-------------------------------
 [BUGCATCHER,Mantis]
 LoseText = Maybe I should change my trainer class.
-Pokemon = TATURUG,12
-Pokemon = PUPENGUE,12
+Pokemon = TATURUG,10
+Pokemon = SPYRE,12
+Pokemon = PUPENGUE,13
 #-------------------------------
 [BUGCATCHER,Beeto]
 LoseText = Oh no, my bugnet broke!
+Pokemon = SPYRE,12
 Pokemon = LARVENGUE,14
 
 
