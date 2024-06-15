@@ -191,17 +191,23 @@ GoodRod
 SuperRod
     20,GYARADOS,30,33	
 #-------------------------------
+[81] # Route 11
+LandDay,21
+    30,CHOPAXE,12,14
+LandNight,21
+    30,CHOPAXE,12,14
+#-------------------------------
 [133] # Route 12
 LandDay,21
-    20,CHOPAXE,13,15
+    30,CHOPAXE,13,15
 LandNight,21
-    20,CHOPAXE,13,15
+    30,CHOPAXE,13,15
 #-------------------------------
 [129] # Route 13
 LandDay,21
-    20,CHOPAXE,12,14
+    30,CHOPAXE,12,14
 LandNight,21
-    20,CHOPAXE,12,14
+    30,CHOPAXE,12,14
 #-------------------------------
 [82] # Route 14
 LandDay,21
