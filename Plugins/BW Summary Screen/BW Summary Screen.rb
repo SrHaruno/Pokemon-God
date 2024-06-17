@@ -621,10 +621,11 @@
           break
         end
       end
+
       if dexnum <= 0
         if SUMMARY_B2W2_STYLE
           # Write ??? if Pokémon is not found in the Dex
-          textpos.push(["???", 164, 72, 0, dexNumBase, dexNumShadow])
+          textpos.push(["Non-Native", 164, 72, 0, dexNumBase, dexNumShadow])
         else
           textpos.push(["???", 164, 74, 0, dexNumBase, dexNumShadow])
         end
@@ -1645,6 +1646,7 @@
           pbGoToPrevious
           if @partyindex != oldindex
             pbChangePokemon
+			pbSEPlay("GUI party switch")
             @ribbonOffset = 0
             dorefresh = true
           end
@@ -1653,6 +1655,7 @@
           pbGoToNext
           if @partyindex != oldindex
             pbChangePokemon
+		    pbSEPlay("GUI party switch")
             @ribbonOffset = 0
             dorefresh = true
           end

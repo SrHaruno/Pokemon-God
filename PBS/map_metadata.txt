@@ -23,9 +23,9 @@ MapPosition = 0,24,4
 Name = Route 1
 Outdoor = true
 ShowArea = true
-MapPosition = 0,21,4
+MapPosition = 0,24,3
 BattleBack = field
-MapSize = 3,01111000
+MapSize = 3,010011011
 #-------------------------------
 [006]   # Satus_Gate
 Name = Satus Town
@@ -58,7 +58,7 @@ BattleBack = field
 Name = Route 2
 Outdoor = true
 ShowArea = true
-MapPosition = 0,19,6
+MapPosition = 0,22,6
 BattleBack = field
 MapSize = 3,010010010
 #-------------------------------
@@ -83,7 +83,7 @@ Name = Route 3
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,21,7
+MapPosition = 0,24,7
 BattleBack = field
 #-------------------------------
 [019]   # Day-Care
@@ -150,16 +150,17 @@ MapPosition = 0,20,7
 Name = Route 4
 Outdoor = true
 ShowArea = true
-MapPosition = 0,20,9
+MapPosition = 0,22,9
 BattleBack = field
+MapSize = 2,0101
 #-------------------------------
 [040]   # Route 5
 Name = Route 5
 Outdoor = true
 ShowArea = true
-MapPosition = 0,20,10
+MapPosition = 0,22,12
 BattleBack = Water
-MapSize = 3,111111111
+MapSize = 3,111000000
 Environment = None
 #-------------------------------
 [041]   # Mt.Hope
@@ -172,7 +173,7 @@ MapPosition = 0,22,9
 Name = Route 6
 Outdoor = true
 ShowArea = true
-MapPosition = 0,23,8
+MapPosition = 0,26,8
 BattleBack = field
 MapSize = 6,111110100000100000100000100000
 #-------------------------------
@@ -230,9 +231,9 @@ MapPosition = 0,25,7
 Name = Route 7
 Outdoor = true
 ShowArea = true
-MapPosition = 0,25,4
+MapPosition = 0,28,4
 BattleBack = field
-MapSize = 3,100100100
+MapSize = 2,1010
 #-------------------------------
 [053]   # Route 7 Gate
 Name = Route 7
@@ -287,7 +288,7 @@ MapSize = 3,111111000
 Name = Route 8
 Outdoor = true
 ShowArea = true
-MapPosition = 0,17,9
+MapPosition = 0,14,9
 BattleBack = Field
 #-------------------------------
 [068]   # Haunted Desert
@@ -377,6 +378,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,17,4
 BattleBack = field
+MapSize = 2,1100
 #-------------------------------
 [082]   # Route 14
 Name = Route 14
@@ -588,3 +590,29 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,14,3
 MapSize = 2,1100
+#-------------------------------
+[140]   # Route 22
+Name = Route 22
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,1
+BattleBack = Field
+MapSize = 2,1010
+#-------------------------------
+[141]   # Route 21 Gate
+Name = Route 22
+MapPosition = 0,13,2
+#-------------------------------
+[142]   # Route 23
+Name = Route 23
+Outdoor = true
+ShowArea = true
+MapPosition = 0,11,1
+BattleBack = Field
+MapSize = 2,1100
+#-------------------------------
+[143]   # Safari Zone
+Name = Safari Zone
+Outdoor = true
+ShowArea = true
+MapPosition = 0,10,1

@@ -222,10 +222,10 @@ class PokemonTrainerCard_Scene
        [sprintf("%05d", $player.publicID($player.id)), 468 - 122 * 2, 70 - 16, 1, base, shadow],
        [_INTL("MONEY"), 32, 118 - 16, 0, base, shadow],
        [_INTL("${1}", $player.money.to_s_formatted), 302 + 2, 118 - 16, 1, base, shadow],
-       [_INTL("BATTLE POINTS"), 32, 118 + 32, 0, base, shadow],
-       [sprintf("%d", $player.battle_points), 302 + 2, 118 + 32, 1, base, shadow],
-       [_INTL("SCORE"), 32, 214, 0, base, shadow],
-       [sprintf("%d", $player.score), 302 + 2, 214, 1, base, shadow],
+       [_INTL("POKÉDEX"), 32, 118 + 32, 0, base, shadow],
+       [sprintf("%d", $player.pokedex.seen_count.to_s), 302 + 2, 118 + 32, 1, base, shadow],
+       [_INTL("BATTLE POINTS"), 32, 214, 0, base, shadow],
+       [sprintf("%d", $player.battle_points), 302 + 2, 214, 1, base, shadow],
        [_INTL("TIME"), 32, 214 + 48, 0, base, shadow],
        [time, 302+ 88 * 2, 214 + 48, 1, base, shadow],
        [_INTL("ADVENTURE STARTED"), 32, 262 + 32, 0, base, shadow],
@@ -279,14 +279,12 @@ class PokemonTrainerCard_Scene
       [hof[0], 302 + 89 * 2, 70 - 48, 1, base, shadow],
       [hof[1], 302 + 89 * 2, 70 - 16, 1, base, shadow],
       # These are meant to be Link Battle modes, use as you wish, see below
-      #[_INTL(" "), 32 + 111 * 2, 112 - 16, 0, base, shadow],
-      #[_INTL(" "), 32 + 176 * 2, 112 - 16, 0, base, shadow],
+      #[_INTL(""), 32 + 111 * 2, 112 - 16, 0, base, shadow],
+      #[_INTL(""), 32 + 176 * 2, 112 - 16, 0, base, shadow],
 
       [_INTL("W"), 32 + 111 * 2, 118 - 16 + 32, 0, base, shadow],
       [_INTL("L"), 32 + 176 * 2, 118 - 16 + 32, 0, base, shadow],
-
-      [_INTL("W"), 32 + 111 * 2, 118 - 16 + 64, 0, base, shadow],
-      [_INTL("L"), 32 + 176 * 2, 118 - 16 + 64, 0, base, shadow],
+      
 
       # Customize "$game_variables[100]" to use whatever variable you'd like
       # Some examples: eggs hatched, berries collected,
@@ -300,13 +298,12 @@ class PokemonTrainerCard_Scene
       #[_INTL(" ", $game_variables[100]), 302 + 2 + 48 - 2, 112 - 16, 1, base, shadow],
       #[_INTL(" ", $game_variables[100]), 302 + 2 + 48 + 63 * 2, 112 - 16, 1, base, shadow],
 
-     # [_INTL("STRING 2"), 32, 118 + 32 - 16, 0, base, shadow],
-     # [_INTL("{1}", $game_variables[100]), 302 + 2 + 48 - 2, 118 + 32 - 16, 1, base, shadow],
-     # [_INTL("{1}", $game_variables[100]), 302 + 2 + 48 + 63 *2, 118 + 32 - 16, 1, base, shadow],
+      [_INTL("LINK BATTLES"), 32, 118 + 32 - 16, 0, base, shadow],
+      [_INTL("{1}", $game_variables[32]), 302 + 2 + 48 - 2, 118 + 32 - 16, 1, base, shadow], #Won
+      [_INTL("{1}", $game_variables[33]), 302 + 2 + 48 + 63 *2, 118 + 32 - 16, 1, base, shadow], #Lost
 
-     # [_INTL("STRING 3"), 32, 118 + 32 - 16 + 32, 0, base, shadow],
-     # [_INTL("{1}", $game_variables[100]), 302 + 2 + 48 - 2, 118 + 32 - 16 + 32, 1, base, shadow],
-     # [_INTL("{1}", $game_variables[100]), 302 + 2 + 48 + 63 * 2, 118 + 32 - 16 + 32, 1, base, shadow],
+      [_INTL("LINK TRADES"), 32, 118 + 32 - 16 + 32, 0, base, shadow],
+      [_INTL("{1}", $game_variables[34]), 302 + 2 + 48 + 63 * 2, 118 + 32 - 16 + 32, 1, base, shadow],
     ]
     @sprites["overlay"].z += 20
     pbDrawTextPositions(@overlay, textPositions)

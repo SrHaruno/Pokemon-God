@@ -122,8 +122,10 @@ module CableClub
     case outcome
     when 1
       $stats.online_battles_wins+=1
+	  $game_variables[32] =+ 1
     when 2
       $stats.online_battles_lost+=1
+	  $game_variables[33] =+ 1
     end
   end
 
@@ -139,6 +141,7 @@ module CableClub
     }
     $player.party[index] = your_pkmn
     $stats.online_trade_count+=1
+	$game_variables[34] =+ 1
   end
 
   def self.choose_pokemon

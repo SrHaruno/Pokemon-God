@@ -234,7 +234,34 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33	
-
+#-------------------------------
+[140] # Route 22
+LandDay,21
+    30,DWILD,12,14
+	20,PURIRD,13,15
+	10,EEVEE,12,15
+LandNight,21
+    30,CAPYBURA,12,14
+	20,PURIRD,13,15
+	10,EEVEE,12,15
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33	
+#-------------------------------
+[142] # Route 23
+LandDay,21
+    30,DWILD,12,14
+	20,PURIRD,13,15
+	10,EEVEE,12,15
+LandNight,21
+    30,CAPYBURA,12,14
+	20,PURIRD,13,15
+	10,EEVEE,12,15
 
 
 #Dungeons
@@ -324,7 +351,7 @@ SuperRod
 #-------------------------------
 [068] # Haunted Desert
 LandDay,21
-	40,SUNCARAB,9,12
+	30,SUNCARAB,9,12
     20,TRAPINCH,9,12
     10,GIBLE,15
 LandNight,21

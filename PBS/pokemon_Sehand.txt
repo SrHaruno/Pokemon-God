@@ -2923,8 +2923,8 @@ Category = Life Bringer
 Pokedex = ???
 Flags = Legendary
 #-------------------------------
-[LORDEAPER]
-Name = Lordeaper
+[FOISOULORD]
+Name = Foisoulord
 Types = GRASS,GHOST
 BaseStats = 95,120,100,150,110,105
 GenderRatio = Genderless
@@ -2947,8 +2947,8 @@ Category = Soul
 Pokedex = ???
 Flags = Legendary
 #-------------------------------
-[HADES]
-Name = Hades
+[INFERLORD]
+Name = Inferlord
 Types = DEMON
 BaseStats = 110,150,120,95,100,105
 GenderRatio = Genderless
