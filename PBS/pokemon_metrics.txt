@@ -4051,16 +4051,16 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [QUILLADIN]
-BackSprite = 0,56
-FrontSprite = -2,26
-ShadowX = 0
-ShadowSize = 1
-#-------------------------------
-[CHESNAUGHT]
-BackSprite = 9,0
-FrontSprite = -4,9
+BackSprite = 0,0
+FrontSprite = -2,17
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[CHESNAUGHT]
+BackSprite = 0,0
+FrontSprite = -4,14
+ShadowX = 0
+ShadowSize = 3
 #-------------------------------
 [FENNEKIN]
 BackSprite = 0,50
@@ -4070,15 +4070,15 @@ ShadowSize = 1
 #-------------------------------
 [BRAIXEN]
 BackSprite = 0,0
-FrontSprite = 1,11
+FrontSprite = 1,9
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [DELPHOX]
 BackSprite = 0,0
-FrontSprite = 0,6
+FrontSprite = -4,10
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 3
 #-------------------------------
 [FROAKIE]
 BackSprite = 0,62
@@ -4087,16 +4087,16 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [FROGADIER]
-BackSprite = 0,48
-FrontSprite = 7,28
+BackSprite = 0,0
+FrontSprite = 5,22
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [GRENINJA]
-BackSprite = 1,52
-FrontSprite = 6,20
+BackSprite = 1,0
+FrontSprite = -4,16
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 3
 #-------------------------------
 [GRENINJA,2]
 BackSprite = 1,48
@@ -6397,6 +6397,36 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [EGG_2]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[EDELORD]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[FRILLEGEND]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GRENINJA,1]
+BackSprite = 1,52
+FrontSprite = 6,20
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[INFERLORD]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[PLATE_2]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0

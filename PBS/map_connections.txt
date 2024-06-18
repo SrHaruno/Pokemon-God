@@ -14,7 +14,9 @@
 84,South,0,81,North,20
 # Route 14 (82) - Route 13 (129)
 82,North,0,129,South,0
-# Route 23 (142) - Safari Zone (143)
-142,North,2,143,South,0
 # Route 22 (140) - Route 23 (142)
 140,West,2,142,East,0
+# Route 23 (142) - Safari Zone (143)
+142,North,2,143,South,0
+# Starter_Zone (152) - Plain_Area (145)
+152,South,1,145,North,0

@@ -627,3 +627,37 @@ Outdoor = true
 MapPosition = 0,10,1
 SafariMap = true
 BattleBack = Field
+#-------------------------------
+[146]   # Forest_Zone
+Name = Safari Zone
+Outdoor = true
+MapPosition = 0,10,1
+SafariMap = true
+BattleBack = Forest
+#-------------------------------
+[147]   # Beach_Zone
+Name = Safari Zone
+Outdoor = true
+MapPosition = 0,10,1
+SafariMap = true
+BattleBack = Water
+#-------------------------------
+[148]   # Mountain_Zone
+Name = Safari Zone
+Outdoor = true
+MapPosition = 0,10,1
+SafariMap = true
+BattleBack = Rock
+#-------------------------------
+[149]   # Cave_Zone
+Name = Safari Zone
+MapPosition = 0,10,1
+SafariMap = true
+BattleBack = Cave1
+#-------------------------------
+[152]   # Starter_Zone
+Name = Safari Zone
+Outdoor = true
+MapPosition = 0,10,1
+SafariMap = true
+BattleBack = Field
