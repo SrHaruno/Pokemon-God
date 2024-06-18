@@ -7,7 +7,7 @@ module Settings
   # All eligible wild Pokemon will be capable of SOS calls when turned on. 
   # When off, SOS calls will never occur unless turned on via a Battle Rule.
   #-----------------------------------------------------------------------------
-  SOS_CALL_SWITCH = 61
+  SOS_CALL_SWITCH = 62
   
   #-----------------------------------------------------------------------------
   # When true, wild Pokemon may only SOS call once per battle. Wild Pokemon will
@@ -20,5 +20,5 @@ module Settings
   # SOS chain. The number set here multiplies the number of shiny rolls by that
   # number. Set to 1 by default for the normal SOS chain shiny rolls.
   #-----------------------------------------------------------------------------
-  SOS_CHAIN_SHINY_MULTIPLIER = 1
+  SOS_CHAIN_SHINY_MULTIPLIER = 100
 end

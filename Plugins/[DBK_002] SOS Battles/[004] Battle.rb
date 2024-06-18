@@ -194,8 +194,9 @@ class Battle
     if GameData::Species.exists?(primarySOS)
       sos_species.push(primarySOS)
     else
-      if $game_map && !$game_map.metadata.special_sos.empty?
-        $game_map.metadata.special_sos.each do |sos|
+      map_data = GameData::MapMetadata.try_get($game_map.map_id)
+      if $game_map && map_data&.special_sos.length > 0
+        map_data.special_sos.each do |sos|
           next if roll > sos[1]
           case sos[2] # Time of day
           when 1 then next if !PBDayNight.isDay?
@@ -221,7 +222,7 @@ class Battle
         check_species = sp_dat.sos_species.clone
         sp_dat.sos_conditional.each do |sos|
           next if sos[1] && sos[1] != $game_temp.encounter_type
-          next if sos[2] && $game_map && sos[2] != $game_map.metadata.id
+          next if sos[2] && $game_map && sos[2] != map_data&.id
           check_species.push(sos[0])
         end
         check_species.each do |sp|

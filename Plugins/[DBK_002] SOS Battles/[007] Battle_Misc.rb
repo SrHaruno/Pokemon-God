@@ -77,7 +77,7 @@ Battle::AI::Handlers::GeneralMoveAgainstTargetScore.add(:rival_target,
       user_data = user.battler.pokemon.species_data
       targ_data = target.battler.displayPokemon.species_data
       targ_id = (user_data.has_flag?("AllRivalForms")) ? targ_data.species : targ_data.id
-      if user_data.rival_species.include?(targ_id)
+      if !user_data.rival_species.empty? && user_data.rival_species.include?(targ_id)
         old_score = score
         score += 1000
         PBDebug.log_score_change(score - old_score, "prefer attacking a Pokémon of a rival species")

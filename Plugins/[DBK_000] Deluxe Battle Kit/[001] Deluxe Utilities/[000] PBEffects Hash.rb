@@ -126,6 +126,7 @@ $DELUXE_PBEFFECTS = {
       :KingsShield,
       :SpikyShield,
       :BanefulBunker,
+      :SilkTrap,
       :BurningBulwark,
       :HelpingHand,
       :PowerTrick, 

@@ -36,9 +36,12 @@ module BattleCreationHelperMethods
       battle.primarySOS   = battleRules["setSOSPokemon"] if !battleRules["setSOSPokemon"].nil?
       battle.secondarySOS = battleRules["addSOSPokemon"] if !battleRules["addSOSPokemon"].nil?
       battle.totemBattle  = battleRules["totemBattle"]   if !battleRules["totemBattle"].nil?
-      battle.midbattleScript = :wild_totem_battle if battle.totemBattle
     end
   end
+end
+
+class SafariBattle
+  def totemBattle; return false; end
 end
 
 #===============================================================================
@@ -62,7 +65,7 @@ EventHandlers.add(:on_sos_pokemon_created, :edit_sos_pokemon,
 #-------------------------------------------------------------------------------
 # Used for Totem Battles.
 #-------------------------------------------------------------------------------
-MidbattleHandlers.add(:midbattle_scripts, :wild_totem_battle,
+MidbattleHandlers.add(:midbattle_global, :wild_totem_battle,
   proc { |battle, idxBattler, idxTarget, trigger|
     next if !battle.wildBattle?
     next if !battle.totemBattle

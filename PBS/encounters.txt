@@ -399,3 +399,13 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33	
+	
+
+
+#Safari Zone
+#-------------------------------
+[145] # Plain Area
+Land,21
+    40,SHINX,12,15
+    30,BLITZLE,11,15
+    5,GIRAFARIG,15

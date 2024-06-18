@@ -43,17 +43,17 @@ class Battle
     if @scene.pbCommonAnimationExists?(anim)
       pbCommonAnimation(anim, battler)
       battler.pokemon.makePrimal
-      battler.form_update
+      battler.form_update(true)
       pbCommonAnimation(anim + "2", battler)
     else 
       if Settings::SHOW_PRIMAL_ANIM && $PokemonSystem.battlescene == 0
         @scene.pbShowPrimalReversion(battler.index)
         battler.pokemon.makePrimal
-        battler.form_update
+        battler.form_update(true)
       else
         @scene.pbRevertBattlerStart(battler.index)
         battler.pokemon.makePrimal
-        battler.form_update
+        battler.form_update(true)
         @scene.pbRevertBattlerEnd
       end
     end

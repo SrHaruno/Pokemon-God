@@ -15,6 +15,7 @@ class Game_Temp
     when "towerbattle"       then rules["towerBattle"]       = false
     when "wildmegaevolution" then rules["wildBattleMode"]    = :mega
     when "raidstylecapture"  then rules["raidStyleCapture"]  = var
+    when "setslidesprite"    then rules["slideSpriteStyle"]  = var
     when "battleintrotext"   then rules["battleIntroText"]   = var
     when "opponentwintext"   then rules["opposingWinText"]   = var
     when "opponentlosetext"  then rules["opposingLoseText"]  = var
@@ -23,6 +24,7 @@ class Game_Temp
     when "battlebgm"         then rules["battleBGM"]         = var
     when "victorybgm"        then rules["victoryBGM"]        = var
     when "captureme"         then rules["captureME"]         = var
+    when "lowhealthbgm"      then rules["lowHealthBGM"]      = var
     when "editwildpokemon"   then rules["editWildPokemon"]   = var
     when "editwildpokemon2"  then rules["editWildPokemon2"]  = var
     when "editwildpokemon3"  then rules["editWildPokemon3"]  = var
@@ -73,8 +75,8 @@ end
 
 def additionalRules
   return [
-    "raidstylecapture", "battleintrotext", "opponentwintext", "opponentlosetext",
-    "tempplayer", "tempparty", "battlebgm", "victorybgm", "captureme", "midbattlescript",
+    "raidstylecapture", "setslidesprite", "battleintrotext", "opponentwintext", "opponentlosetext",
+    "tempplayer", "tempparty", "battlebgm", "victorybgm", "captureme", "lowhealthbgm", "midbattlescript",
     "editwildpokemon", "editwildpokemon2", "editwildpokemon3", "nomegaevolution"
   ]
 end
@@ -88,6 +90,7 @@ module BattleCreationHelperMethods
   
   BattleCreationHelperMethods.singleton_class.alias_method :dx_prepare_battle, :prepare_battle
   def prepare_battle(battle)
+    return BattleCreationHelperMethods.dx_prepare_battle(battle) if pbInSafari?
     battleRules = $game_temp.battle_rules
     battle.captureSuccess   = battleRules["captureSuccess"]   if !battleRules["captureSuccess"].nil?
     battle.tutorialCapture  = battleRules["captureTutorial"]  if !battleRules["captureTutorial"].nil?
@@ -96,6 +99,7 @@ module BattleCreationHelperMethods
     battle.controlPlayer    = battleRules["autoBattle"]       if !battleRules["autoBattle"].nil?
     battle.internalBattle   = battleRules["towerBattle"]      if !battleRules["towerBattle"].nil?
     battle.introText        = battleRules["battleIntroText"]  if !battleRules["battleIntroText"].nil?
+    battle.slideSpriteStyle = battleRules["slideSpriteStyle"] if !battleRules["slideSpriteStyle"].nil?
     if !battleRules["midbattleScript"].nil?
       script = battleRules["midbattleScript"]
       if script.is_a?(Symbol)
@@ -134,12 +138,12 @@ module BattleCreationHelperMethods
     end
     specialActions = [
       "noMegaEvolution",          
-      "noZMoves", "noUltraBurst", # Z-Power Phenomenon 
-      "noDynamax",                # Dynamax Phenomenon
-      "noTerastallize",           # Terastal Phenomenon
-      "noBattleStyles",           # PLA Battle Styles
-      "noZodiacPowers",           # Pokemon Birthsigns
-      "noFocusMeter"              # Focus Meter System
+      "noZMoves", "noUltraBurst", # Z-Power Add-on
+      "noDynamax",                # Dynamax Add-on
+      "noTerastallize",           # Terastallization Add-on
+      "noBattleStyles",           # PLA Battle Styles (TBD)
+      "noZodiacPowers",           # Pokemon Birthsigns (TBD)
+      "noFocusMeter"              # Focus Meter System (TBD)
     ]
     specialActions.each do |rule|
       next if !battleRules[rule]
@@ -166,12 +170,27 @@ module BattleCreationHelperMethods
       end
     end
     BattleCreationHelperMethods.dx_prepare_battle(battle)
-    $PokemonGlobal.nextBattleBGM        = battleRules["battleBGM"]  if !battleRules["battleBGM"].nil?
-    $PokemonGlobal.nextBattleVictoryBGM = battleRules["victoryBGM"] if !battleRules["victoryBGM"].nil?
-    $PokemonGlobal.nextBattleCaptureME  = battleRules["captureME"]  if !battleRules["captureME"].nil?
+    $PokemonGlobal.nextBattleBGM          = battleRules["battleBGM"]    if !battleRules["battleBGM"].nil?
+    $PokemonGlobal.nextBattleVictoryBGM   = battleRules["victoryBGM"]   if !battleRules["victoryBGM"].nil?
+    $PokemonGlobal.nextBattleLowHealthBGM = battleRules["lowHealthBGM"] if !battleRules["lowHealthBGM"].nil?
+    $PokemonGlobal.nextBattleCaptureME    = battleRules["captureME"]    if !battleRules["captureME"].nil?
+    track = (battle.wildBattle?) ? pbGetWildBattleBGM(battle.pbParty(1)) : pbGetTrainerBattleBGM(battle.opponent)
+    battle.default_bgm = (track.is_a?(String)) ? track : track&.name
   end
 end
 
+#===============================================================================
+# Adds low HP battle music to global metadata.
+#===============================================================================
+class PokemonGlobalMetadata
+  attr_accessor :nextBattleLowHealthBGM
+end
+
+def pbGetBattleLowHealthBGM
+  track = "Battle low HP"
+  track = $PokemonGlobal.nextBattleLowHealthBGM.clone if $PokemonGlobal.nextBattleLowHealthBGM
+  return (track != "") ? pbResolveAudioFile(track) : track
+end
 
 #===============================================================================
 # Edits for Battle Rules related to capturing Pokemon.
@@ -232,11 +251,7 @@ class Battle::Battler
       fainted_count += 1
     end
     return if fainted_count >= @battle.pbSideSize(0)
-    if pbResolveAudioFile(bgm)
-      pbBGMFade(1)
-      pbWait(1)
-      pbBGMPlay(bgm)
-    end
+    @battle.pbPauseAndPlayBGM(bgm)
     @battle.pbDisplayPaused(_INTL("{1} is weak!\nThrow a Poké Ball now!", target.name))
     pbWait(0.5)
     cmd = 0
@@ -330,6 +345,8 @@ class Battle
   attr_accessor :captureSuccess, :tutorialCapture, :raidStyleCapture
   attr_accessor :wildBattleMode
   attr_accessor :introText
+  attr_accessor :slideSpriteStyle
+  attr_accessor :default_bgm, :playing_bgm, :bgm_paused, :bgm_position
   
   alias dx_initialize initialize
   def initialize(*args)
@@ -339,6 +356,44 @@ class Battle
     @raidStyleCapture = false
     @wildBattleMode   = nil
     @introText        = nil
+    @slideSpriteStyle = nil
+    @bgm_paused       = false
+    @bgm_position     = 0
+    @default_bgm      = nil
+    @playing_bgm      = pbGetBattleBGM&.name
+  end
+  
+  #-----------------------------------------------------------------------------
+  # Battle music utilities.
+  #-----------------------------------------------------------------------------
+  def pbGetBattleBGM
+    return nil if nil_or_empty?(@default_bgm)
+    return pbResolveAudioFile(@default_bgm)
+  end
+  
+  def pbResumeBattleBGM
+    return if !@bgm_paused
+    track = pbGetBattleBGM
+    return if !track.is_a?(RPG::AudioFile)
+    track_name = canonicalize("Audio/BGM/" + track.name)
+    $game_system.bgm_play_internal2(track_name, track.volume, track.pitch, @bgm_position)
+    @bgm_position = 0
+    @bgm_paused = false
+    @playing_bgm = track.name
+    Graphics.frame_reset
+  end
+  
+  def pbPauseAndPlayBGM(track)
+    return if @bgm_paused
+    track = pbResolveAudioFile(track) if track != ""
+    return if !track.is_a?(RPG::AudioFile)
+    pos = Audio.bgm_pos rescue 0
+    @bgm_position = pos
+    @bgm_paused = true
+    track_name = canonicalize("Audio/BGM/" + track.name)
+    $game_system.bgm_play_internal2(track_name, track.volume, track.pitch, 0)
+    @playing_bgm = track.name
+    Graphics.frame_reset
   end
   
   #-----------------------------------------------------------------------------
@@ -396,6 +451,86 @@ class Battle
   end
 end
 
+#===============================================================================
+# Edited to allow the opponent's sprite to slide on screen in various ways.
+#===============================================================================
+class Battle::Scene::Animation::Intro < Battle::Scene::Animation
+  def makeSlideSprite(spriteName, deltaMult, appearTime, origin = nil)
+    return if !@sprites[spriteName]
+    s = addSprite(@sprites[spriteName], origin)
+    style = (pbInSafari?) ? nil : @battle.slideSpriteStyle
+    if !style.nil? && deltaMult < 0
+      style = style.split("_")
+      base = spriteName.include?("base_") || spriteName.include?("shadow_")
+      hideBase = style[1] == "hideBase"
+      case style[0]
+      #-------------------------------------------------------------------------
+      when "still"  # Sprite doesn't slide in.
+        s.setVisible(0, false) if base && hideBase
+        s.setDelta(0, 0, (Graphics.height * deltaMult).floor)
+        s.moveDelta(0, 0, 0, (-Graphics.height * deltaMult).floor)
+      #-------------------------------------------------------------------------
+      when "side"   # Sprite slides in from the side.
+        s.setVisible(0, false) if base && hideBase
+        s.setDelta(0, (Graphics.width * deltaMult).floor, 0)
+        s.moveDelta(0, appearTime, (-Graphics.width * deltaMult).floor, 0)
+      #-------------------------------------------------------------------------
+      when "top"    # Sprite slides in from top.
+        if hideBase
+          s.setVisible(0, false) if base
+        elsif spriteName.include?("shadow_")
+          s.setOpacity(0, 0)
+          s.moveOpacity(0, appearTime, 255)
+        end
+        appearTime = 0 if base
+        s.setDelta(0, 0, (Graphics.height * deltaMult).floor)
+        s.moveDelta(0, appearTime, 0, (-Graphics.height * deltaMult).floor)
+      #-------------------------------------------------------------------------
+      when "bottom" # Sprite slides in from bottom.
+        if spriteName.include?("base_")
+          s.setVisible(0, false) if hideBase
+          s.setDelta(0, 0, (Graphics.height * deltaMult).floor)
+          s.moveDelta(0, 0, 0, (-Graphics.height * deltaMult).floor)
+        elsif spriteName.include?("shadow_")
+          s.setVisible(0, false)
+          s.setDelta(0, 0, (Graphics.height * deltaMult).floor)
+          s.moveDelta(0, 0, 0, (-Graphics.height * deltaMult).floor)
+          s.setVisible(appearTime, true) if !hideBase
+        else
+          bitmap = @sprites[spriteName].bitmap
+          f = 0
+          w = bitmap.width
+          h = bitmap.height
+          deltaY = h - findTop(bitmap) - 12
+          s.setDelta(0, 0, deltaY)
+          s.moveDelta(0, appearTime - 3, 0, (deltaY * deltaMult).floor)
+          appearTime.times do |i|
+            if i + 1 < appearTime
+              s.setSrcSize(i, w, f)
+              f += (h / appearTime).floor
+            else
+              s.setSrcSize(i, w, h)
+            end
+          end
+        end
+      end
+      #-------------------------------------------------------------------------
+    else
+      s.setDelta(0, (Graphics.width * deltaMult).floor, 0)
+      s.moveDelta(0, appearTime, (-Graphics.width * deltaMult).floor, 0)
+    end
+  end
+end
+
+def findTop(bitmap)
+  return 0 if !bitmap
+  (1..bitmap.height).each do |i|
+    bitmap.width.times do |j|
+      return i if bitmap.get_pixel(j, bitmap.height - i).alpha > 0
+    end
+  end
+  return 0
+end
 
 #===============================================================================
 # Methods used for setting wild attributes via Battle Rules.
@@ -403,8 +538,8 @@ end
 class Pokemon
   def moves=(value)
     return if !value
-    @moves.clear
     value = [value] if !value.is_a?(Array)
+    @moves.clear if !value.empty?
     value.each do |move|
       break if @moves.length >= MAX_MOVES
       new_move = Pokemon::Move.new(move)
@@ -414,8 +549,8 @@ class Pokemon
   end
   
   def ribbons=(value)
-    @ribbons.clear
     value = [value] if !value.is_a?(Array)
+    @ribbons.clear if !value.empty?
     value.each do |ribbon|
       next if @ribbons.include?(ribbon)
       @ribbons.push(ribbon)

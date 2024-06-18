@@ -181,8 +181,8 @@ class Battle::Scene::FightMenu < Battle::Scene::MenuBase
   #-----------------------------------------------------------------------------
   # Adds the button bitmaps for each battle mechanic.
   #-----------------------------------------------------------------------------
-  def addSpecialActionButtons
-    @actionButtonBitmap[:mega] = AnimatedBitmap.new(_INTL("Graphics/UI/Battle/cursor_mega"))
+  def addSpecialActionButtons(path)
+    @actionButtonBitmap[:mega] = AnimatedBitmap.new(_INTL(path + "cursor_mega"))
   end
   
   #-----------------------------------------------------------------------------
@@ -203,6 +203,7 @@ class Pokemon
   def ultra?;          return false; end
   def dynamax?;        return false; end
   def tera?;           return false; end
+  def tera_form?;      return false; end
   def celestial?;      return false; end
 end
 
@@ -211,6 +212,7 @@ class Battle::Battler
   def dynamax?;        return false; end
   def style?;          return false; end
   def tera?;           return false; end
+  def tera_form?;      return false; end
   def celestial?;      return false; end
   
   def hasZMove?;       return false; end
@@ -231,7 +233,8 @@ class Battle::FakeBattler
 end
 
 class SafariBattle
-  def pbDeluxeTriggers(*args); end
+  def wildBattleMode;  return nil;   end
+  def pbDeluxeTriggers(*args);       end
 end
 
 class Battle::Move

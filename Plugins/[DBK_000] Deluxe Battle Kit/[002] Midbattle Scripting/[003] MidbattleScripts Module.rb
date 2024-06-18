@@ -35,6 +35,8 @@ module MidbattleScripts
     "BeforeLastSwitchIn"    => "Trigger: 'BeforeLastSwitchIn'\n({2}, {1})",
     "AfterSwitchIn"         => "Trigger: 'AfterSwitchIn'\n({2}, {1})",
     "AfterLastSwitchIn"     => "Trigger: 'AfterLastSwitchIn'\n({2}, {1})",
+    "AfterSendOut"          => "Trigger: 'AfterSendOut'\n({2}, {1})",
+    "AfterLastSendOut"      => "Trigger: 'AfterLastSendOut'\n({2}, {1})",
     "BeforeMegaEvolution"   => "Trigger: 'BeforeMegaEvolution'\n({2}, {1})",
     "AfterMegaEvolution"    => "Trigger: 'AfterMegaEvolution'\n({2}, {1})",
     "BeforePrimalReversion" => "Trigger: 'BeforePrimalReversion'\n({2}, {1})",
@@ -76,6 +78,10 @@ module MidbattleScripts
     "BattlerFainted"        => "Trigger: 'BattlerFainted'\n({2}, {1})",
     "LastBattlerFainted"    => "Trigger: 'LastBattlerFainted'\n({2}, {1})",
     "BattlerReachedHPCap"   => "Trigger: 'BattlerReachedHPCap'\n({2}, {1})",
+    "BattlerHPRecovered"    => "Trigger: 'BattlerHPRecovered'\n({2}, {1})",
+    "BattlerHPFull"         => "Trigger: 'BattlerHPFull'\n({2}, {1})",
+    "BattlerHPReduced"      => "Trigger: 'BattlerHPReduced'\n({2}, {1})",
+    "BattlerHPCritical"     => "Trigger: 'BattlerHPCritical'\n({2}, {1})",
     "BattlerStatusChange"   => "Trigger: 'BattlerStatusChange'\n({2}, {1})",
     "BattlerStatRaised"     => "Trigger: 'BattlerStatRaised'\n({2}, {1})",
     "BattlerStatLowered"    => "Trigger: 'BattlerStatLowered'\n({2}, {1})",
@@ -213,7 +219,6 @@ module MidbattleScripts
       "battlerStatus" => [:PARALYSIS, true]
     }
   }
-  
 
 ################################################################################
 # Demo scenario vs. Rocket Grunt in a collapsing cave.

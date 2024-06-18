@@ -20,12 +20,23 @@ module MidbattleHandlers
   def self.exists?(midbattle, id)
     return !@@scripts[midbattle][id].nil?
   end
+  
+  def self.has_any?(midbattle)
+    return @@scripts[midbattle]&.keys.length > 0
+  end
 
   def self.trigger(midbattle, id, battle, idxBattler, idxTarget, params)
     return nil if !@@scripts.has_key?(midbattle)
     script_hash = @@scripts[midbattle][id]
     return nil if !script_hash
     return script_hash.call(battle, idxBattler, idxTarget, params)
+  end
+  
+  def self.trigger_each(midbattle, battle, idxBattler, idxTarget, trigger)
+    return if !@@scripts.has_key?(midbattle)
+    @@scripts[midbattle].keys.each do |id|
+      @@scripts[midbattle][id].call(battle, idxBattler, idxTarget, trigger)
+    end
   end
 end
 
@@ -294,6 +305,37 @@ MidbattleHandlers.add(:midbattle_triggers, "changeBGM",
     pbBGMFade(fade)
     pbWait(fade)
     pbBGMPlay(bgm, vol, pitch)
+    battle.default_bgm = bgm
+    battle.playing_bgm = bgm
+    battle.bgm_paused = false
+  }
+)
+
+#-------------------------------------------------------------------------------
+# Fades out and ends the current BGM.
+#-------------------------------------------------------------------------------
+MidbattleHandlers.add(:midbattle_triggers, "endBGM",
+  proc { |battle, idxBattler, idxTarget, params|
+    pbBGMFade(params)
+    battle.bgm_paused = true
+  }
+)
+
+#-------------------------------------------------------------------------------
+# Pauses current BGM and begins playing a new one.
+#-------------------------------------------------------------------------------
+MidbattleHandlers.add(:midbattle_triggers, "pauseAndPlayBGM",
+  proc { |battle, idxBattler, idxTarget, params|
+    battle.pbPauseAndPlayBGM(params)
+  }
+)
+
+#-------------------------------------------------------------------------------
+# Resumes playing the previously paused BGM.
+#-------------------------------------------------------------------------------
+MidbattleHandlers.add(:midbattle_triggers, "resumeBGM",
+  proc { |battle, idxBattler, idxTarget, params|
+    battle.pbResumeBattleBGM
   }
 )
 
@@ -408,7 +450,9 @@ MidbattleHandlers.add(:midbattle_triggers, "useMove",
     else
       id, target = params, -1
     end
+    targFlag = nil
     target = battle.battlers[target]
+    has_target = target && !target.fainted? && target.near?(battler)
     case id
     when Integer
       idxMove = id
@@ -424,13 +468,14 @@ MidbattleHandlers.add(:midbattle_triggers, "useMove",
         when "Status" then next if !m.statusMove? || m.healingMove?
         when "Heal"   then next if !m.healingMove?
         end
-        if target && m.damagingMove?
+        if has_target && m.damagingMove?
           effect = Effectiveness.calculate(m.pbCalcType(battler), *target.pbTypes(true))
           next if Effectiveness.ineffective?(effect)
           next if Effectiveness.not_very_effective?(effect)
         end
         targ = GameData::Target.get(GameData::Move.get(m.id).target)
-        case st[1]
+        targFlag = st[1]
+        case targFlag
         when "self"
           next if ![:User, :UserOrNearAlly, :UserAndAllies].include?(targ.id)
         when "ally"
@@ -448,19 +493,22 @@ MidbattleHandlers.add(:midbattle_triggers, "useMove",
     next if !battle.pbCanChooseMove?(battler.index, idxMove, false)
     battle.scene.pbForceEndSpeech
     targ = GameData::Target.get(battler.moves[idxMove].target)
-    if targ.num_targets != 0
-      has_target = target && !target.fainted? && target.near?(battler)
-      if targ.targets_foe
-        if !has_target || target.idxOwnSide == battler.idxOwnSide
-          target = battler.pbDirectOpposing(true)
-        end
-      elsif targ == :NearAlly
-        if !has_target || target.idxOwnSide != battler.idxOwnSide
+    if !has_target
+      if targFlag.nil? && targ.num_targets != 0
+        targFlag = (targ == :NearAlly) ? "ally" : "foe"
+      end
+      case targFlag
+      when "ally"
+        if !target || target.idxOwnSide != battler.idxOwnSide
           battler.allAllies.each { |b| target = b if battler.near?(b) }
         end
+      when "foe"
+        if !target || target.idxOwnSide == battler.idxOwnSide
+          target = battler.pbDirectOpposing(true)
+        end
+      else
+        target = battler
       end
-    else
-      target = battler
     end
     ch[1] = idxMove
     ch[2] = battler.moves[idxMove]
@@ -484,9 +532,10 @@ MidbattleHandlers.add(:midbattle_triggers, "switchOut",
     end
     newPkmn = nil
     canSwitch = false
-    battle.eachInTeamFromBattlerIndex(battler.index) do |pkmn, i|
+    battle.eachInTeamFromBattlerIndex(idxBattler) do |pkmn, i|
       next if !battle.pbCanSwitchIn?(idxBattler, i)
       case switch
+      when :Choose, :Random, :Forced
       when Integer
         next if switch != i
         newPkmn = i

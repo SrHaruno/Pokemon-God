@@ -45,7 +45,7 @@ class Battle
   # Compiles an array of all possible midbattle triggers.
   #-----------------------------------------------------------------------------
   def pbDeluxeTriggers(idxBattler, idxTarget, *triggers)
-    return if !@midbattleScript
+    return if !@midbattleScript && !MidbattleHandlers.has_any?(:midbattle_global)
     return if @midbattleFailSafe
     idxBattler = idxBattler.index if idxBattler.respond_to?("index")
     turnCount = (triggers[0].include?("Turn")) ? @battlers[idxBattler].turnCount : @turnCount + 1
@@ -147,6 +147,9 @@ class Battle
       @midbattleChoices.clear
       @midbattleDecision = nil
       oldVar = @midbattleVariable
+      trigger_array.each do |trigger|
+        MidbattleHandlers.trigger_each(:midbattle_global, self, idxBattler, idxTarget, trigger)
+      end
       case midbattle
       when Hash
         user = idxBattler
@@ -707,9 +710,60 @@ end
 
 
 #===============================================================================
-# Adds midbattle triggers to the end of battle.
+# Adds midbattle triggers to HP animation for when a battler's HP changes.
+#===============================================================================
+class Battle::Scene::PokemonDataBox < Sprite
+  def update_hp_animation
+    return if !animating_hp?
+    @anim_hp_current = lerp(@anim_hp_start, @anim_hp_end, HP_BAR_CHANGE_TIME,
+                            @anim_hp_timer_start, System.uptime)
+    refresh_hp
+    if @anim_hp_current == @anim_hp_end
+      if @anim_hp_start > @anim_hp_end
+        triggers = ["BattlerHPReduced", @battler.species, *@battler.pokemon.types]
+        if !@battler.fainted? && @battler.hasLowHP?
+          triggers.push("BattlerHPCritical", @battler.species, *@battler.pokemon.types)
+        end
+        @battler.battle.pbDeluxeTriggers(@battler, nil, *triggers)
+      elsif @anim_hp_start < @anim_hp_end
+        triggers = ["BattlerHPRecovered", @battler.species, *@battler.pokemon.types]
+        if @battler.hp == @battler.totalhp
+          triggers.push("BattlerHPFull", @battler.species, *@battler.pokemon.types)
+        end
+        @battler.battle.pbDeluxeTriggers(@battler, nil, *triggers)
+      end
+      @anim_hp_start = nil
+      @anim_hp_end = nil
+      @anim_hp_timer_start = nil
+      @anim_hp_current = nil
+    end
+  end
+end
+
+
+#===============================================================================
+# Miscellaneous triggers.
 #===============================================================================
 class Battle::Scene
+  #-----------------------------------------------------------------------------
+  # Midbattle triggers upon sending out a Pokemon in battle.
+  # Functionally the same as "AfterSwitchIn", except this also triggers upon
+  # sending out a trainer's lead Pokemon at the start of battle.
+  #-----------------------------------------------------------------------------
+  alias dx_pbResetCommandsIndex pbResetCommandsIndex
+  def pbResetCommandsIndex(idxBattler)
+    dx_pbResetCommandsIndex(idxBattler)
+    battler = @battle.battlers[idxBattler]
+    triggers = ["AfterSendOut", battler.species, *battler.pokemon.types]
+    if @battle.pbAbleNonActiveCount(idxBattler) == 0
+      triggers.push("AfterLastSendOut", battler.species, *battler.pokemon.types)
+    end
+    @battle.pbDeluxeTriggers(idxBattler, nil, *triggers)
+  end
+
+  #-----------------------------------------------------------------------------
+  # Midbattle triggers upon the end of the battle.
+  #-----------------------------------------------------------------------------
   alias dx_pbEndBattle pbEndBattle
   def pbEndBattle(_result)
     if !pbInSafari? && !pbInBugContest?

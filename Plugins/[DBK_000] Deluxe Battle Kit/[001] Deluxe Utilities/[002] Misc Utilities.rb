@@ -6,7 +6,7 @@ module PBEffects
 end
 
 #===============================================================================
-# GameData::Species utilities.
+# GameData utilities.
 #===============================================================================
 module GameData
   class Species
@@ -16,6 +16,14 @@ module GameData
       ["getPrimalForm", "getUltraForm", "getEternamaxForm", "getTerastalForm"].each do |function|
         return true if MultipleForms.hasFunction?(@species, function)
       end
+      return false
+    end
+  end
+  
+  class Move
+    def powerMove?
+      return true if defined?(zMove?) && zMove?
+      return true if defined?(dynamaxMove?) && dynamaxMove?
       return false
     end
   end
@@ -40,8 +48,21 @@ class Battle::Move
   # Utility used for checking for Z-Moves/Dynamax moves, if any exist.
   #-----------------------------------------------------------------------------
   def powerMove?
-    return true if defined?(zMove?) && self.zMove?
-    return true if defined?(dynamaxMove?) && self.dynamaxMove?
+    return true if defined?(zMove?) && zMove?
+    return true if defined?(dynamaxMove?) && dynamaxMove?
+    return false
+  end
+end
+
+#===============================================================================
+# Battle utilities.
+#===============================================================================
+class Battle
+  #-----------------------------------------------------------------------------
+  # Utility for checking if any battler on a particular side is at low HP.
+  #-----------------------------------------------------------------------------
+  def pbAnyBattlerLowHP?(idxBattler)
+    allSameSideBattlers(idxBattler).each { |b| return true if b.hasLowHP? }
     return false
   end
 end
@@ -70,12 +91,34 @@ class Battle::Battler
   end
   
   #-----------------------------------------------------------------------------
-  # Sets the index of the selected move if selected move is a Z-Move/Dynamax move.
+  # Utility for checking if the battler is at low HP.
   #-----------------------------------------------------------------------------
-  alias dx_pbUseMove pbUseMove
-  def pbUseMove(choice, specialUsage = false)
-    @powerMoveIndex = (choice[2].powerMove?) ? choice[1] : -1
-    dx_pbUseMove(choice, specialUsage)
+  def hasLowHP?
+    return false if fainted?
+    return @hp <= (@totalhp / 4).floor
+  end
+  
+  #-----------------------------------------------------------------------------
+  # Aliased to update BGM when the HP of the player's battler updates.
+  #-----------------------------------------------------------------------------
+  alias dx_pbUpdate pbUpdate
+  def pbUpdate(fullChange = false)
+    dx_pbUpdate(fullChange)
+    pbUpdateLowHPMusic if @pokemon
+  end
+  
+  def pbUpdateLowHPMusic
+    return if !Settings::PLAY_LOW_HP_MUSIC
+    return if !pbOwnedByPlayer?
+    track = pbGetBattleLowHealthBGM
+    return if !track.is_a?(RPG::AudioFile)
+    if @battle.pbAnyBattlerLowHP?(@index)
+      if @battle.playing_bgm != track.name
+        @battle.pbPauseAndPlayBGM(track)
+      end
+    elsif @battle.playing_bgm == track.name
+      @battle.pbResumeBattleBGM
+    end
   end
   
   #-----------------------------------------------------------------------------
@@ -130,12 +173,30 @@ class Battle::Battler
   def form_update(fullupdate = false)
     if self.form != @pokemon.form
       self.form = @pokemon.form
-      fullupdate = true
     end
     pbUpdate(fullupdate)
     pkmn = @effects[PBEffects::TransformPokemon] || displayPokemon
     @battle.scene.pbChangePokemon(self, pkmn)
     @battle.scene.pbRefreshOne(@index)
+  end
+  
+  #-----------------------------------------------------------------------------
+  # Used to check if the battler is able to protect against a specified move.
+  #-----------------------------------------------------------------------------
+  def isProtected?(user, move)
+    return false if move.function_code == "IgnoreProtections"
+    return false if user.hasActiveAbility?(:UNSEENFIST) && move.contactMove?
+    return true if @damageState.protected
+    return true if pbOwnSide.effects[PBEffects::MatBlock]
+    return true if pbOwnSide.effects[PBEffects::WideGuard] && 
+                   GameData::Target.get(move.target).num_targets > 1
+    [:Protect, :KingsShield, :SpikyShield, :BanefulBunker, :Obstruct, 
+     :SilkTrap, :BurningBulwark].each do |id|
+      next if !PBEffects.const_defined?(id)
+      effect = PBEffects.const_get(id)
+      return true if @effects[effect]
+    end
+    return false
   end
   
   #-----------------------------------------------------------------------------
@@ -354,6 +415,22 @@ class Battle::AI
       PBDebug.log_score_change(score - old_score, "score inverted (move targets ally but can target foe)")
     end
     return score
+  end
+end
+
+#===============================================================================
+# Battle::AI::Trainer
+#===============================================================================
+class Battle::AI::AITrainer
+  #-----------------------------------------------------------------------------
+  # Aliased to give wild Pokemon better AI when a wild battle mode is enabled.
+  #-----------------------------------------------------------------------------
+  alias dx_set_up_skill set_up_skill
+  def set_up_skill
+    dx_set_up_skill
+    if !@trainer && @skill == 0
+      @skill = 32 if !@ai.battle.wildBattleMode.nil?
+    end
   end
 end
 

@@ -485,3 +485,94 @@ class SOSMapEncounterProperty
     return ret
   end
 end
+
+
+#===============================================================================
+# Adds plugin utilities to debug menus.
+#===============================================================================
+
+#-------------------------------------------------------------------------------
+# General Debug options
+#-------------------------------------------------------------------------------
+MenuHandlers.add(:debug_menu, :deluxe_sos, {
+  "name"        => _INTL("Toggle SOS battles"),
+  "parent"      => :deluxe_plugins_menu,
+  "description" => _INTL("Toggles SOS call functionality for wild Pokémon."),
+  "effect"      => proc {
+    $game_switches[Settings::SOS_CALL_SWITCH] = !$game_switches[Settings::SOS_CALL_SWITCH]
+    toggle = ($game_switches[Settings::SOS_CALL_SWITCH]) ? "enabled" : "disabled"
+    pbMessage(_INTL("SOS calls {1}.", toggle))
+  }
+})
+
+
+#-------------------------------------------------------------------------------
+# Battle Debug options
+#-------------------------------------------------------------------------------
+MenuHandlers.add(:battle_debug_menu, :add_new_foe, {
+  "name"        => _INTL("Add new foe"),
+  "parent"      => :battlers,
+  "description" => _INTL("Add or replace a foe on the opposing side."),
+  "effect"      => proc { |battle|
+    cmd = 0
+    cmds = []
+    indecies = [1, 3, 5]
+    size = battle.pbSideSize(1)
+    3.times do |i|
+      next if i > size
+      idx = indecies[i]
+      b = battle.battlers[idx]
+      name = (b) ? b.name : "---"
+      owner = (!b) ? "" : (b.wild?) ? "(Wild)" :  "(#{battle.pbGetOwnerName(b.index)})"
+      cmds.push(_INTL("[{1}] {2} {3}", idx, name, owner))
+    end
+    loop do
+      cmd = pbMessage("\\ts[]" + _INTL("Choose an index for the new foe."), cmds, -1, nil, cmd)
+      break if cmd < 0
+      if battle.trainerBattle?
+        trainerdata = pbListScreen(_INTL("CHOOSE A TRAINER"), TrainerBattleLister.new(0, false))
+        break if !trainerdata
+        slot = cmd + 1
+        if size < 3 && slot > size 
+          battle.sideSizes[1] = slot
+        end
+        trainer = pbLoadTrainer(trainerdata[0], trainerdata[1], trainerdata[2])
+        EventHandlers.trigger(:on_trainer_load, trainer)
+        idxTrainer = cmd
+        idxTrainer = cmd - 1 if !battle.opponent[cmd - 1]
+        battle.opponent[idxTrainer] = trainer
+        battle.items[idxTrainer] = trainer.items
+        pokemon = trainer.party.first
+        idxBattler = indecies[cmd]
+        fullUpdate = battle.battlers[idxBattler].nil?
+        battle.pbInitializeNewBattler([idxBattler, pokemon], [idxTrainer, trainer], fullUpdate)
+        battle.scene.pbQuickJoin(idxBattler, idxTrainer)
+        owner = "(#{trainer.full_name})"
+      else
+        species = pbChooseSpeciesList
+        break if !species
+        speciesName = GameData::Species.get(species).name
+        params = ChooseNumberParams.new
+        params.setRange(1, GameData::GrowthRate.max_level)
+        params.setDefaultValue(5)
+        level = pbMessageChooseNumber(
+          "\\ts[]" + _INTL("Set {1}'s level (max. {2}).", speciesName, params.maxNumber), params
+        )
+        break if !level
+        slot = cmd + 1
+        size = battle.pbSideSize(1)
+        if size < 3 && slot > size 
+          battle.sideSizes[1] = slot
+        end
+        pokemon = pbGenerateWildPokemon(species, level)
+        idxBattler = indecies[cmd]
+        fullUpdate = battle.battlers[idxBattler].nil?
+        battle.pbInitializeNewBattler([idxBattler, pokemon], [], fullUpdate)
+        battle.scene.pbQuickJoin(idxBattler)
+        owner = "(Wild)"
+      end
+      cmds.push(_INTL("[{1}] ---", indecies.last)) if slot == 2 && cmds.length < 3
+      cmds[cmd] = _INTL("[{1}] {2} {3}", idxBattler, pokemon.name, owner)
+    end
+  }
+})

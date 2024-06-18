@@ -354,11 +354,9 @@ class Battle::Scene::Animation
   # Sets the backdrop.
   #-----------------------------------------------------------------------------
   def dxSetBackdrop(checkfile, default, delay)
-    zoom = 1
     if pbResolveBitmap(checkfile)
       file = checkfile
     elsif pbResolveBitmap(default)
-      zoom = 1.5
       file = default
     else
       file = "Graphics/Pictures/evolutionbg"
@@ -366,6 +364,8 @@ class Battle::Scene::Animation
     pictureBG = addNewSprite(0, 0, file)
     pictureBG.setVisible(delay, false)
     spriteBG = @pictureEx.length - 1
+    bgheight = @pictureSprites[spriteBG].bitmap.height
+    zoom = (bgheight >= Graphics.height) ? 1 : 1.5
     @pictureSprites[spriteBG].z = 999
     pictureBG.setZ(delay, @pictureSprites[spriteBG].z)
     pictureBG.setZoom(delay, 100 * zoom)
@@ -443,7 +443,7 @@ class Battle::Scene::Animation
   def dxSetPokemonWithOutline(poke, delay, mirror = false, offset = false, color = Color.white)
     battle_pos = Battle::Scene.pbBattlerPosition(1, 1)
     picturePOKE = []
-    for i in [ [2, 0],  [-2, 0], [0, 2],  [0, -2], [2, 2],  [-2, -2], [2, -2], [-2, 2], [0, 0] ]
+    for i in [ [2, 0], [-2, 0], [0, 2], [0, -2], [2, 2], [-2, -2], [2, -2], [-2, 2], [0, 0] ]
       outline = addPokeSprite(poke, PictureOrigin::BOTTOM)
       outline.setVisible(delay, false)
       sprite = @pictureEx.length - 1
@@ -460,7 +460,7 @@ class Battle::Scene::Animation
       when Array
         set = (poke[8]) ? 2 : poke[7] ? 1 : 0
         metrics_data = GameData::SpeciesMetrics.get_species_form(poke[0], poke[2])
-        metrics_data.apply_metrics_to_sprite(@pictureSprites[sprite], 1) #, false, set)
+        metrics_data.apply_metrics_to_sprite(@pictureSprites[sprite], 1)
       end
       outline.setXY(delay, @pictureSprites[sprite].x, @pictureSprites[sprite].y)
       outline.setZ(delay, @pictureSprites[sprite].z)
@@ -492,7 +492,7 @@ class Battle::Scene::Animation
     pictureTRAINER.setZ(delay, @pictureSprites[spriteTRAINER].z)
     trData = [pictureTRAINER, trainer_end_x, trainer_y]
     pictureITEM = []
-    for i in [ [2, 0],  [-2, 0], [0, 2],  [0, -2], [2, 2],  [-2, -2], [2, -2], [-2, 2], [0, 0] ]
+    for i in [ [2, 0], [-2, 0], [0, 2], [0, -2], [2, 2], [-2, -2], [2, -2], [-2, 2], [0, 0] ]
       outline = addNewSprite(0, 0, item, PictureOrigin::BOTTOM)
       outline.setVisible(delay, false)
       sprite = @pictureEx.length - 1
@@ -535,7 +535,7 @@ class Battle::Scene::Animation
   def dxSetSpriteWithOutline(file, delay, xpos, ypos, color = Color.white)
     pictureSPRITE = []
     if file && pbResolveBitmap(file)
-      for i in [ [2, 0],  [-2, 0], [0, 2],  [0, -2], [2, 2],  [-2, -2], [2, -2], [-2, 2], [0, 0] ]
+      for i in [ [2, 0], [-2, 0], [0, 2], [0, -2], [2, 2], [-2, -2], [2, -2], [-2, 2], [0, 0] ]
         outline = addNewSprite(0, 0, file, PictureOrigin::BOTTOM)
         outline.setVisible(delay, false)
         sprite = @pictureEx.length - 1
@@ -559,7 +559,7 @@ class Battle::Scene::Animation
   def dxSetTitleWithOutline(file, delay, upper = false, color = Color.white)
     pictureTITLE = []
     if file && pbResolveBitmap(file)
-      for i in [ [2, 0],  [-2, 0], [0, 2],  [0, -2], [2, 2],  [-2, -2], [2, -2], [-2, 2], [0, 0] ]
+      for i in [ [2, 0], [-2, 0], [0, 2], [0, -2], [2, 2], [-2, -2], [2, -2], [-2, 2], [0, 0] ]
         outline = addNewSprite(0, 0, file, PictureOrigin::CENTER)
         outline.setVisible(delay, false)
         sprite = @pictureEx.length - 1

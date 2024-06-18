@@ -14,7 +14,7 @@ class Battle::Scene
       @sprites["targetWindow"] = TargetMenu.new(@viewport, 200, @battle.sideSizes)
       @sprites["targetWindow"].visible = false
       pbCreatePokemonSprite(idxBattler)
-      if defined?(pbHideInfoIcons)
+      if defined?(pbHideInfoUI)
         @sprites["info_icon#{idxBattler}"] = PokemonIconSprite.new(battler.pokemon, @viewport)
         @sprites["info_icon#{idxBattler}"].setOffset(PictureOrigin::CENTER)
         @sprites["info_icon#{idxBattler}"].visible = false
@@ -26,6 +26,8 @@ class Battle::Scene
       @sprites["shadow_#{idxBattler}"].dispose
       pbCreatePokemonSprite(idxBattler)
     end
+    @sprites["pokemon_#{idxBattler}"].visible = false
+    @sprites["shadow_#{idxBattler}"].visible = false
     sideSize = @battle.pbSideSize(idxBattler)
     @battle.allSameSideBattlers(idxBattler).each do |b|
       if addNewBattler
@@ -33,10 +35,10 @@ class Battle::Scene
         @sprites["dataBox_#{b.index}"] = PokemonDataBox.new(b, sideSize, @viewport)
       else
         @sprites["dataBox_#{b.index}"].battler = b
+        @sprites["dataBox_#{b.index}"].visible = @sprites["pokemon_#{b.index}"].visible
         @sprites["dataBox_#{b.index}"].refresh
       end
       @sprites["dataBox_#{b.index}"].update
-      @sprites["dataBox_#{b.index}"].visible = false
     end
     return addNewBattler
   end
@@ -86,6 +88,44 @@ class Battle::Scene
     pbDisplayMessage(_INTL("{1} sent out {2}!", trainer.full_name, battler.name))
     @battle.pbSendOut([[idxBattler, battler.pokemon]])
   end
+  
+  #-----------------------------------------------------------------------------
+  # Used to quickly add a foe via the battle debug menu.
+  #-----------------------------------------------------------------------------
+  def pbQuickJoin(idxBattler, idxTrainer = nil)
+    addNewBattler = pbPrepNewBattler(idxBattler)
+    battler = @battle.battlers[idxBattler]
+    @battle.battlers.each do |b|
+      next if !b || b.opposes?(idxBattler)
+      batSprite = @sprites["pokemon_#{b.index}"]
+      shaSprite = @sprites["shadow_#{b.index}"]
+      boxSprite = @sprites["dataBox_#{b.index}"]
+      if b.index == idxBattler
+        batSprite.visible = true
+        shaSprite.visible = true
+        boxSprite.visible = true
+      else
+        batSprite.dispose
+        shaSprite.dispose
+        pbCreatePokemonSprite(b.index)
+        @sprites["pokemon_#{b.index}"].visible = true
+        @sprites["shadow_#{b.index}"].visible = true
+        boxSprite.visible = true if !b.fainted?
+      end
+      pbChangePokemon(b.index, b.displayPokemon)
+    end
+    if idxTrainer
+      trainer = @battle.opponent[idxTrainer]
+      id = "trainer_#{idxTrainer + 1}"
+      if @sprites[id]
+        trainerFile = GameData::TrainerType.front_sprite_filename(trainer.trainer_type)
+        @sprites[id].setBitmap(trainerFile)
+      else
+        pbCreateTrainerFrontSprite(idxTrainer, trainer.trainer_type, @battle.opponent.length)
+        @sprites[id].x = @sprites["trainer_1"].x
+      end
+    end
+  end
 end
 
 
@@ -100,7 +140,6 @@ class Battle::Scene::BattlerShadowSprite < RPG::Sprite
   attr_accessor :sideSize
 end
 
-
 #===============================================================================
 # Animation used for new wild Pokemon joining the battle.
 #===============================================================================
@@ -112,6 +151,25 @@ class Battle::Scene::Animation::SOSJoin < Battle::Scene::Animation
     @sideSize = @battle.pbSideSize(idxSOS)
     super(sprites, viewport)
   end
+  
+  def pbGetShadowCoords(b)
+    p = Battle::Scene.pbBattlerPosition(b.index, @sideSize)
+    m = GameData::SpeciesMetrics.get_species_form(b.species, b.form)
+    newX = p[0] + m.shadow_x * 2
+    newY = p[1]
+    newZ = 3
+    return newX, newY, newZ
+  end
+  
+  def pbGetBattlerCoords(b)
+    p = Battle::Scene.pbBattlerPosition(b.index, @sideSize)
+    m = GameData::SpeciesMetrics.get_species_form(b.species, b.form)
+    newX = p[0] + m.front_sprite[0] * 2
+    newY = p[1] + m.front_sprite[1] * 2
+    newY -= m.front_sprite_altitude * 2
+    newZ = 50 - (5 * (b.index + 1) / 2)
+    return newX, newY, newZ
+  end
  
   def createProcesses
     delay = 0
@@ -121,32 +179,31 @@ class Battle::Scene::Animation::SOSJoin < Battle::Scene::Animation
       shaSprite = @sprites["shadow_#{b.index}"]
       boxSprite = @sprites["dataBox_#{b.index}"]
       if b.index == @idxSOS
-        batSprite.visible = false
         shaSprite.visible = false
-        battler = addSprite(batSprite, PictureOrigin::BOTTOM)
         shadow = addSprite(shaSprite, PictureOrigin::CENTER)
+        shadow.setOpacity(delay, 0)
+        shadow.setVisible(delay, true)
+        shadow.moveOpacity(delay, 4, 255)
+        battler = addSprite(batSprite, PictureOrigin::BOTTOM)
         battler.setTone(delay, Tone.new(-196, -196, -196, -196))
         battler.setOpacity(delay, 0)
         battler.setVisible(delay, true)
         battler.moveOpacity(delay, 4, 255)
         battler.moveTone(delay + 4, 10, Tone.new(0, 0, 0, 0), [batSprite,:pbPlayIntroAnimation])
-        shadow.setOpacity(delay, 0)
-        shadow.setVisible(delay, true)
-        shadow.moveOpacity(delay, 4, 255)
         dir = (b.index.even?) ? 1 : -1
         box = addSprite(boxSprite)
         box.setDelta(delay, dir * Graphics.width / 2, 0)
         box.setVisible(delay, true)
         box.moveDelta(delay, 8, -dir * Graphics.width / 2, 0)
       else
-        battler = addSprite(batSprite, PictureOrigin::BOTTOM)
-        shadow = addSprite(shaSprite, PictureOrigin::CENTER)
-        batSprite.sideSize = @sideSize
-        shaSprite.sideSize = @sideSize
-        batSprite.pbSetPosition
-        shaSprite.pbSetPosition
-        battler.moveXY(delay, 4, batSprite.x, batSprite.y)
-        shadow.moveXY(delay, 4, shaSprite.x, shaSprite.y)
+        x, y, z = pbGetShadowCoords(b)
+        shadow = addSprite(shaSprite, PictureOrigin::CENTER)	
+        shadow.setZ(delay, z)
+        shadow.moveXY(delay, 4, x, y)
+        x, y, z = pbGetBattlerCoords(b)
+        battler = addSprite(batSprite, PictureOrigin::BOTTOM)	
+        battler.setZ(delay, z)
+        battler.moveXY(delay, 4, x, y)
         if @addNewBattler
           dir = (b.index.even?) ? 1 : -1
           box = addSprite(boxSprite)

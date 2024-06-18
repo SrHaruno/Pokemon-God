@@ -16,6 +16,7 @@ Point = 12,3,Gigantopolis,,66,61,30,
 Point = 13,3,Gigantopolis,Game Corner,66,61,30,
 Point = 13,4,Gigantopolis,,66,61,30,
 Point = 12,4,Gigantopolis,,66,61,30,
+Point = 10,1,Safari Zone,,143,17,21,
 Point = 13,17,Tormaline City,,,,,
 Point = 26,4,Route 1,,,,,
 Point = 25,4,Route 1,,,,,
@@ -97,7 +98,7 @@ Point = 16,18,Mt.Kõji,,,,,
 Point = 18,18,Mt.Kõji,,,,,
 Point = 20,18,Victory Road,,,,,
 Point = 19,18,Victory Road,,,,,
-Point = 10,1,Safari Zone,,,,,
+
 
 
 

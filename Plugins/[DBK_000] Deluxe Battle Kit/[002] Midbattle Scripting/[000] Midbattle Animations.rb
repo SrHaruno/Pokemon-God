@@ -136,10 +136,12 @@ class Battle::Scene
     @showWindows = false
     pbUpdateSpeakerWindows
     @sprites["messageWindow"].text = ""
-    @sprites["messageWindow"].setSkin("Graphics/Windowskins/" + Settings::MENU_WINDOWSKINS[0])
     if inSpeech
       @sprites["messageWindow"].baseColor = MessageConfig::LIGHT_TEXT_MAIN_COLOR
       @sprites["messageWindow"].shadowColor = MessageConfig::LIGHT_TEXT_SHADOW_COLOR
+    else
+      @sprites["messageWindow"].baseColor = MESSAGE_BASE_COLOR
+      @sprites["messageWindow"].shadowColor = MESSAGE_SHADOW_COLOR
     end
   end
   
@@ -147,15 +149,19 @@ class Battle::Scene
   # Used for obtaining the appropriate speaker for speech text.
   #-----------------------------------------------------------------------------
   def pbGetSpeaker(idxBattler = nil)
-    return @speaker if idxBattler.nil?
+    return @speaker if idxBattler.nil? || idxBattler.is_a?(Symbol)
     return idxBattler if idxBattler.respond_to?("name")
-    battler = @battle.battlers[idxBattler]
-    idxTrainer = @battle.pbGetOwnerIndexFromBattlerIndex(idxBattler)
-    return @battle.player[0] if !battler
-    if battler.opposes?
-      return (@battle.opponent.nil?) ? battler : @battle.opponent[idxTrainer]
+    if idxBattler.is_a?(Integer)
+      battler = @battle.battlers[idxBattler]
+      idxTrainer = @battle.pbGetOwnerIndexFromBattlerIndex(idxBattler)
+      return @battle.player[0] if !battler
+      if battler.opposes?
+        return (@battle.opponent.nil?) ? battler : @battle.opponent[idxTrainer]
+      else
+        return (@battle.player.nil?) ? battler : @battle.player[idxTrainer]
+      end
     else
-      return (@battle.player.nil?) ? battler : @battle.player[idxTrainer]
+      return @battle.player[0]
     end
   end
   
@@ -336,6 +342,7 @@ class Battle::Scene
   # Calls an animation for toggling databox visibility for midbattle speech.
   #-----------------------------------------------------------------------------
   def pbToggleDataboxes(toggle = false)
+    pbToggleUIPrompt(toggle) if defined?(pbToggleUIPrompt)
     dataBoxAnim = Animation::ToggleDataBoxes.new(@sprites, @viewport, @battle.battlers, toggle)
     loop do
       dataBoxAnim.update

@@ -42,7 +42,7 @@ class Battle::Battler
   def canSOSCall?
     return false if !@battle.sosBattle
     return false if @battle.trainerBattle?
-    return false if @battle.pbSideSize(@index) >= 3
+    return false if @battle.allSameSideBattlers(@index).length >= 2
     return false if !wild? || !opposes? || fainted? || usingMultiTurnAttack?
     return false if !getActiveState.nil?
     eachAlly { |b| return false if b }
