@@ -18,5 +18,11 @@
 140,West,2,142,East,0
 # Route 23 (142) - Safari Zone (143)
 142,North,2,143,South,0
-# Starter_Zone (152) - Plain_Area (145)
-152,South,1,145,North,0
+# Mountain_Zone (148) - Plain_Area (145)
+148,South,0,145,North,26
+# Beach_Zone (147) - Plain_Area (145)
+147,West,0,145,East,0
+# Beach_Zone (147) - Mountain_Zone (148)
+147,North,0,148,South,34
+# Starter_Zone (152) - Mountain_Zone (148)
+152,South,0,148,North,0

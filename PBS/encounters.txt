@@ -406,6 +406,31 @@ SuperRod
 #-------------------------------
 [145] # Plain Area
 Land,21
-    40,SHINX,12,15
-    30,BLITZLE,11,15
+    40,PIDGEY,10,14
+    30,SHINX,12,14
+    20,BLITZLE,12,15
     5,GIRAFARIG,15
+#-------------------------------
+[146] # Forest Area
+Land,21
+    40,SEWADDLE,10,14
+#-------------------------------
+[147] # Beach Area
+Land,21
+    40,WINGULL,10,14
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33	
+#-------------------------------
+[148] # Mountain Area
+Land,21
+    40,ROGGENROLA,10,14
+#-------------------------------
+[149] # Cave Area
+Cave,7
+    40,ROGGENROLA,10,14

@@ -1071,6 +1071,14 @@ Description = Combines Unnerve and Chilling Neigh Abilities.
 Name = As One
 Description = Combines Unnerve and Grim Neigh Abilities.
 #-------------------------------
+[ARMORTAIL]
+Name = Armor Tail
+Description = Prevents opposing Pokémon from using priority moves.
+#-------------------------------
+[CUDCHEW]
+Name = Cud Chew
+Description = Reuses an eaten Berry at the end of the next turn.
+#-------------------------------
 [SHARPNESS]
 Name = Sharpness
 Description = Powers up slicing moves.

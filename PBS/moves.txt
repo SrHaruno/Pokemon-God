@@ -7263,6 +7263,18 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 10
 Description = The target is hit by a weak telekinetic force. It may also leave the target confused.
 #-------------------------------
+[TWINBEAM]
+Name = Twin Beam
+Type = PSYCHIC
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row.
+#-------------------------------
 [STOREDPOWER]
 Name = Stored Power
 Type = PSYCHIC
