@@ -647,7 +647,7 @@ Name = Safari Zone
 Outdoor = true
 MapPosition = 0,10,1
 SafariMap = true
-BattleBack = Rock
+BattleBack = Rocky
 #-------------------------------
 [149]   # Cave_Zone
 Name = Safari Zone
