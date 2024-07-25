@@ -79,6 +79,9 @@ class Battle::Scene
     else
       pbCreateTrainerFrontSprite(idxTrainer, trainer.trainer_type, @battle.opponent.length)
     end
+    if @battle.launcherBattle?
+      @sprites["launcherBar_1_#{idxTrainer}"] = WonderLauncherPointsBar.new(1, idxTrainer, trainer, @viewport)
+    end
     joinAnim = Animation::TrainerJoin.new(@sprites, @viewport, @battle, battler.index, idxTrainer + 1, addNewBattler)
     @animations.push(joinAnim)
     while inPartyAnimation?
@@ -123,6 +126,9 @@ class Battle::Scene
       else
         pbCreateTrainerFrontSprite(idxTrainer, trainer.trainer_type, @battle.opponent.length)
         @sprites[id].x = @sprites["trainer_1"].x
+      end
+      if @battle.launcherBattle?
+        @sprites["launcherBar_1_#{idxTrainer}"] = WonderLauncherPointsBar.new(1, idxTrainer, trainer, @viewport)
       end
     end
   end

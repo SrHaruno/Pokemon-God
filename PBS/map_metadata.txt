@@ -25,7 +25,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,24,3
 BattleBack = field
-MapSize = 3,010011011
+MapSize = 3,010011111
 #-------------------------------
 [006]   # Satus_Gate
 Name = Satus Town
@@ -625,35 +625,38 @@ MapPosition = 0,10,1
 Name = Safari Zone
 Outdoor = true
 MapPosition = 0,10,1
-SafariMap = true
 BattleBack = Field
 #-------------------------------
 [146]   # Forest_Zone
 Name = Safari Zone
 Outdoor = true
 MapPosition = 0,10,1
-SafariMap = true
 BattleBack = Forest
 #-------------------------------
 [147]   # Beach_Zone
 Name = Safari Zone
 Outdoor = true
 MapPosition = 0,10,1
-SafariMap = true
 BattleBack = Water
 #-------------------------------
 [148]   # Mountain_Zone
 Name = Safari Zone
 Outdoor = true
 MapPosition = 0,10,1
-SafariMap = true
 BattleBack = Rocky
 #-------------------------------
 [149]   # Cave_Zone
 Name = Safari Zone
 MapPosition = 0,10,1
-SafariMap = true
 BattleBack = Cave1
+#-------------------------------
+[150]   # Safari Zone PC
+Name = Safari Zone
+MapPosition = 0,10,1
+#-------------------------------
+[151]   # Safari PC 2F
+Name = Safari Zone
+MapPosition = 0,10,1
 #-------------------------------
 [152]   # Starter_Zone
 Name = Safari Zone

@@ -67,7 +67,9 @@ class Battle::Battler
       call_rate *= 3
     end
     call_rate *= 2 if @battle.adrenalineOrb
-    return @battle.pbRandom(100) < call_rate
+    call = @battle.pbRandom(100) < call_rate
+    PBDebug.log("[SOS] #{pbThis} (#{@index}) will call for help (Call rate = #{call_rate})") if call
+    return call
   end
   
   #-----------------------------------------------------------------------------

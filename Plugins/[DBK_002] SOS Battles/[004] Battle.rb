@@ -80,6 +80,10 @@ class Battle
       @usedInBattle[1].push(true)
       @abils_triggered[1].push(false) if defined?(@abils_triggered)
       @rage_hit_count[1].push(0)      if defined?(@rage_hit_count)
+      if defined?(@wonderLauncher) && trainerBattle?
+        @launcherPoints[1].push(0)
+        @launcherCounter[1].push(launcherBattle?)
+      end
     end
     @battlers[idxBattler].lastRoundMoved = @turnCount
     @battlers[idxBattler].totemBattler = false
@@ -144,6 +148,10 @@ class Battle
       @usedInBattle[1][i]    = true
       @abils_triggered[1][i] = false if defined?(@abils_triggered)
       @rage_hit_count[1][i]  = 0     if defined?(@rage_hit_count)
+      if defined?(@wonderLauncher) && trainerBattle?
+        @launcherPoints[1][i]  = 0
+        @launcherCounter[1][i] = launcherBattle?
+      end
     end
     @battlers[idxBattler].lastRoundMoved = @turnCount
     @battlers[idxBattler].totemBattler = false
@@ -329,16 +337,20 @@ class Battle
   # Determines whether to continue or reset the SOS chain based on the caller.
   #-----------------------------------------------------------------------------
   def pbSetSOSChain(caller)
+    old_chain = @sos_chain
     if @originalCaller.nil?
       @originalCaller = caller.pokemon
       @sos_chain += 1
+      PBDebug.log("[SOS] SOS chain increased (#{old_chain} -> #{@sos_chain})")
     else
       family = @originalCaller.species_data.get_family_species
       if !family.include?(caller.species)
         @originalCaller = caller.pokemon
         @sos_chain = 0
+        PBDebug.log("[SOS] SOS chain reset (#{old_chain} -> #{@sos_chain})")
       elsif @sos_chain < 255
-        @sos_chain += 1 
+        @sos_chain += 1
+        PBDebug.log("[SOS] SOS chain increased (#{old_chain} -> #{@sos_chain})")
       end
     end
   end
@@ -364,6 +376,7 @@ class Battle
     pbDisplayPaused(_INTL("... ... ..."))
     idxNewBattler = pbFindNewBattlerIndex(caller, answered)
     if idxNewBattler >= 0
+      PBDebug.log("[SOS] #{caller.pbThis}'s (#{caller.index}) call succeeded (Answer rate = #{answer_rate})")
       @lastCallAnswered = true
       @doubleEVGainSOS = true
       pbSetSOSChain(caller)
@@ -376,6 +389,7 @@ class Battle
       pbSetSeen(battler)
       pbDeluxeTriggers(caller, nil, "AfterSOS", caller.species, *caller.pokemon.types)
     else
+      PBDebug.log("[SOS] #{caller.pbThis}'s (#{caller.index}) call failed (Answer rate = #{answer_rate})")
       @lastCallAnswered = false
       pbDisplay(_INTL("Its help didn't appear!"))
       pbDeluxeTriggers(caller, nil, "FailedSOS", caller.species, *caller.pokemon.types)
@@ -396,6 +410,7 @@ class Battle
     pbDisplayPaused(_INTL("... ... ..."))
     idxNewBattler = pbFindNewBattlerIndex(caller)
     if idxNewBattler >= 0
+      PBDebug.log("[SOS] #{caller.pbThis}'s (#{caller.index}) call succeeded (Answer rate = 100)")
       @lastCallAnswered = true
       battler = pbGenerateSOSBattler(idxNewBattler, caller, pbRandom(100))
       @scene.pbSOSJoin(idxNewBattler)
@@ -404,6 +419,7 @@ class Battle
       pbOnBattlerEnteringBattle(idxNewBattler)
       battler.pbCheckForm
     else
+      PBDebug.log("[SOS] #{caller.pbThis}'s (#{caller.index}) call failed (Answer rate = 100)")
       @lastCallAnswered = false
       pbDisplay(_INTL("Its help didn't appear!"))
     end
@@ -469,6 +485,7 @@ class Battle
     fullUpdate = @battlers[idxBattler].nil?
     pbInitializeNewBattler([idxBattler, pokemon], [idxTrainer, trainer], fullUpdate)
     @items[idxTrainer] = trainer.items
+    pbSetLauncherItems(1, idxTrainer) if launcherBattle?
     battler = @battlers[idxBattler]
     @scene.pbTrainerJoin(idxBattler, idxTrainer)
     pbCalculatePriority(true)

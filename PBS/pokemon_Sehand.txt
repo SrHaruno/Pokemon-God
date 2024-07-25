@@ -1031,6 +1031,28 @@ Shape = Quadruped
 Category = Pure
 Pokedex = ???
 #-------------------------------
+[BERSERKEON]
+Name = Berserkeon
+Types = DEMON
+BaseStats = 110,130,65,95,60,65
+GenderRatio = FemaleOneEighth
+GrowthRate = Medium
+BaseExp = 184
+EVs = ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = MOXIE
+Moves = 1,TACKLE
+TutorMoves = PROTECT
+EggGroups = Field
+HatchSteps = 8960
+Height = 1.0
+Weight = 23.5
+Color = Red
+Shape = Quadruped
+Category = Pure
+Pokedex = ???
+#-------------------------------
 [SPARKATIEL]
 Name = Sparkatiel
 Types = FLYING,ELECTRIC

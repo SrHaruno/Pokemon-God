@@ -270,7 +270,7 @@ class Battle
   #-----------------------------------------------------------------------------
   # Returns true if this battle is a raid battle.
   #-----------------------------------------------------------------------------
-  def pbRaidBattle?
+  def raidBattle?
     allOtherSideBattlers.each { |b| return true if b.isRaidBoss? }
     return false
   end

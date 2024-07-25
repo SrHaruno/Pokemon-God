@@ -30,7 +30,7 @@ module BattleCreationHelperMethods
   BattleCreationHelperMethods.singleton_class.alias_method :sos_prepare_battle, :prepare_battle
   def prepare_battle(battle)
     BattleCreationHelperMethods.sos_prepare_battle(battle)
-    if battle.wildBattle?
+    if battle.wildBattle? && !pbInSafari?
       battleRules = $game_temp.battle_rules
       battle.sosBattle    = battleRules["SOSBattle"]     if !battleRules["SOSBattle"].nil?
       battle.primarySOS   = battleRules["setSOSPokemon"] if !battleRules["setSOSPokemon"].nil?
@@ -74,6 +74,7 @@ MidbattleHandlers.add(:midbattle_global, :wild_totem_battle,
     battle.disablePokeBalls = true
     battle.sosBattle        = true
     foe = battle.battlers[1]
+    PBDebug.log("[Midbattle Global] #{foe.pbThis} (#{foe.index}) gains a Z-Powered aura")
     battle.pbAnimation(:DRAGONDANCE, foe, foe)
     battle.pbDisplay(_INTL("{1}'s aura flared to life!", foe.pbThis))
     stats = battle.totemBattle 
@@ -98,6 +99,7 @@ MidbattleHandlers.add(:midbattle_triggers, "sosCall",
     battler = battle.battlers[idxBattler]
     if battler && battler.canSOSCallSimple?
       battle.scene.pbForceEndSpeech
+	  PBDebug.log("     'sosCall': calling a wild battler")
       battle.pbCallForHelpSimple(battler)
     end
   }
@@ -109,6 +111,8 @@ MidbattleHandlers.add(:midbattle_triggers, "sosCall",
 MidbattleHandlers.add(:midbattle_triggers, "disableSOS",
   proc { |battle, idxBattler, idxTarget, params|
     battle.sosBattle = !params
+	value = (battle.sosBattle) ? "enabled" : "disabled"
+	PBDebug.log("     'disableSOS': SOS calling has been #{value}")
   }
 )
 
@@ -119,6 +123,7 @@ MidbattleHandlers.add(:midbattle_triggers, "addWild",
   proc { |battle, idxBattler, idxTarget, params|
     next if battle.decision > 0
     battle.scene.pbForceEndSpeech
+	PBDebug.log("     'addWild': adding a new wild battler")
     battle.pbAddNewBattler(*params)
   }
 )
@@ -130,6 +135,7 @@ MidbattleHandlers.add(:midbattle_triggers, "addTrainer",
   proc { |battle, idxBattler, idxTarget, params|
     next if battle.decision > 0
     battle.scene.pbForceEndSpeech
+	PBDebug.log("     'addWild': adding a new trainer")
     battle.pbAddNewTrainer(*params)
   }
 )

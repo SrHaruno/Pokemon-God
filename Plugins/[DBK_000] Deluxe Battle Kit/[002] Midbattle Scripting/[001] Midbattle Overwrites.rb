@@ -185,6 +185,7 @@ class Battle
           else
             next if !trigger_array.include?(trigger)
           end
+          PBDebug.log("[Midbattle Script] '#{trigger}' triggered by #{@battlers[user].pbThis(true)} (#{user})...")
           case midbattle[trigger]
           when String, Array
             MidbattleHandlers.trigger(:midbattle_triggers, "speech", self, user, target, midbattle[trigger])
@@ -205,6 +206,7 @@ class Battle
             end
             user = old_user
           end
+          PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
           next if trigger.include?("_repeat")
           midbattle.delete(trigger)
         end
@@ -238,25 +240,71 @@ class Battle
   #-----------------------------------------------------------------------------
   # Midbattle triggers upon a trainer using an item.
   #-----------------------------------------------------------------------------
-  alias dx_pbUseItemOnPokemon pbUseItemOnPokemon
   def pbUseItemOnPokemon(item, idxParty, userBattler)
     pbDeluxeTriggers(userBattler, nil, "BeforeItemUse", item)
-    dx_pbUseItemOnPokemon(item, idxParty, userBattler)
-    pbDeluxeTriggers(userBattler, nil, "AfterItemUse", item)
-  end
-
-  alias dx_pbUseItemOnBattler pbUseItemOnBattler
-  def pbUseItemOnBattler(item, idxParty, userBattler)
-    pbDeluxeTriggers(userBattler, nil, "BeforeItemUse", item)
-    dx_pbUseItemOnBattler(item, idxParty, userBattler)
-    pbDeluxeTriggers(userBattler, nil, "AfterItemUse", item)
+    trainerName = pbGetOwnerName(userBattler.index)
+    pkmn = pbParty(userBattler.index)[idxParty]
+    battler = pbFindBattler(idxParty, userBattler.index)
+    pbUseItemMessage(item, trainerName, (battler || pkmn))
+    ch = @choices[userBattler.index]
+    args = [item, pkmn, battler, ch[3], true, self, @scene, false]
+    args.push(userBattler.index) if launcherBattle?
+    if ItemHandlers.triggerCanUseInBattle(*args)
+      (battler) ? @scene.pbItemUseAnimation(battler.index) : pbSEPlay("Use item in party")
+      ItemHandlers.triggerBattleUseOnPokemon(item, pkmn, battler, ch, @scene)
+      pbDeluxeTriggers(userBattler, nil, "AfterItemUse", item)
+      pbReduceLauncherPoints(userBattler, item, true)
+      ch[1] = nil
+      return
+    end
+    pbDisplay(_INTL("But it had no effect!"))
+    pbReturnUnusedItemToBag(item, userBattler.index)
   end
   
-  alias dx_pbUseItemInBattle pbUseItemInBattle
+  def pbUseItemOnBattler(item, idxParty, userBattler)
+    pbDeluxeTriggers(userBattler, nil, "BeforeItemUse", item)
+    trainerName = pbGetOwnerName(userBattler.index)
+    battler = pbFindBattler(idxParty, userBattler.index)
+    pbUseItemMessage(item, trainerName, battler)
+    ch = @choices[userBattler.index]
+    if battler
+      args = [item, battler.pokemon, battler, ch[3], true, self, @scene, false]
+      args.push(userBattler.index) if launcherBattle?
+      if ItemHandlers.triggerCanUseInBattle(*args)
+        @scene.pbItemUseAnimation(battler.index)
+        ItemHandlers.triggerBattleUseOnBattler(item, battler, @scene)
+        ch[1] = nil
+        battler.pbItemOnStatDropped
+        pbDeluxeTriggers(userBattler, nil, "AfterItemUse", item)
+        pbReduceLauncherPoints(userBattler, item, true)
+        return
+      else
+        pbDisplay(_INTL("But it had no effect!"))
+      end
+    else
+      pbDisplay(_INTL("But it's not where this item can be used!"))
+    end
+    pbReturnUnusedItemToBag(item, userBattler.index)
+  end
+  
   def pbUseItemInBattle(item, idxBattler, userBattler)
     pbDeluxeTriggers(userBattler, idxBattler, "BeforeItemUse", item)
-    dx_pbUseItemInBattle(item, idxBattler, userBattler)
-    pbDeluxeTriggers(userBattler, idxBattler, "AfterItemUse", item)
+    trainerName = pbGetOwnerName(userBattler.index)
+    battler = (idxBattler < 0) ? userBattler : @battlers[idxBattler]
+    pbUseItemMessage(item, trainerName, battler)
+    pkmn = battler.pokemon
+    ch = @choices[userBattler.index]
+    args = [item, pkmn, battler, ch[3], true, self, @scene, false]
+    args.push(userBattler.index) if launcherBattle?
+    if ItemHandlers.triggerCanUseInBattle(*args)
+      ItemHandlers.triggerUseInBattle(item, battler, self)
+      pbDeluxeTriggers(userBattler, idxBattler, "AfterItemUse", item)
+      pbReduceLauncherPoints(userBattler, item, true)
+      ch[1] = nil
+      return
+    end
+    pbDisplay(_INTL("But it had no effect!"))
+    pbReturnUnusedItemToBag(item, userBattler.index)
   end
   
   #-----------------------------------------------------------------------------
@@ -413,7 +461,6 @@ class Battle
     return ret
   end
 end
-
 
 #===============================================================================
 # Adds midbattle triggers to the capture process.

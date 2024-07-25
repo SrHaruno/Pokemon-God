@@ -60,6 +60,19 @@ class Battle::Scene
   end
   
   #-----------------------------------------------------------------------------
+  # Calls animation to use an item on a battler.
+  #-----------------------------------------------------------------------------
+  def pbItemUseAnimation(idxBattler)
+    itemAnim = Animation::UseItem.new(@sprites, @viewport, idxBattler)
+    loop do
+      itemAnim.update
+      pbUpdate
+      break if itemAnim.animDone?
+    end
+    itemAnim.dispose
+  end
+  
+  #-----------------------------------------------------------------------------
   # Used for refreshing the entire battle scene with a white flash effect.
   #-----------------------------------------------------------------------------
   def pbFlashRefresh
@@ -138,6 +151,36 @@ class Battle::Scene::Animation::RevertBattlerEnd < Battle::Scene::Animation
 
   def createProcesses
     revertBattlefield(@battle, 4)
+  end
+end
+
+#-------------------------------------------------------------------------------
+# Animation code to animate the use of an item on a battler.
+#-------------------------------------------------------------------------------
+class Battle::Scene::Animation::UseItem < Battle::Scene::Animation
+  def initialize(sprites, viewport, idxBattler)
+    @index = idxBattler
+    super(sprites, viewport)
+  end
+
+  def createProcesses
+    return if !@sprites["pokemon_#{@index}"]
+    delay = 0
+    xpos  = @sprites["pokemon_#{@index}"].x
+    ypos  = @sprites["pokemon_#{@index}"].y
+    zpos  = @sprites["pokemon_#{@index}"].z
+    pulse = addNewSprite(xpos, ypos - 60, Settings::DELUXE_GRAPHICS_PATH + "pulse", PictureOrigin::CENTER)
+    pulse.setZ(delay, zpos)
+    pulse.setOpacity(delay, 0)
+    pulse2 = addNewSprite(xpos, ypos - 60, Settings::DELUXE_GRAPHICS_PATH + "pulse", PictureOrigin::CENTER)
+    pulse2.setZ(delay, zpos)
+    pulse2.setOpacity(delay, 0)
+    [pulse, pulse2].each_with_index do |p, i|
+      p.setSE(delay, "Battle item used") if i == 0
+      p.moveOpacity(delay, 4, 255)
+      p.moveZoom(delay, 8, 0)
+      delay += 2
+    end
   end
 end
 
