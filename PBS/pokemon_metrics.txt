@@ -6360,13 +6360,13 @@ FrontSprite = -1,13
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
-[HERMASTLE]
+[HERMITURRIM]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[HERMOWER]
+[KARANSHELL]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0

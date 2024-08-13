@@ -167,7 +167,8 @@ Environment = None
 Name = Mt.Hope
 ShowArea = true
 Bicycle = true
-MapPosition = 0,22,9
+MapPosition = 0,24,9
+BattleBack = Cave1
 #-------------------------------
 [042]   # Route 6
 Name = Route 6

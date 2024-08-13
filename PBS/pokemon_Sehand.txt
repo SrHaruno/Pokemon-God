@@ -1151,10 +1151,10 @@ Habitat = Urban
 Category = Melody
 Pokedex = ???
 #-------------------------------
-[HERMOWER] 
-Name = Hermower
+[KARANSHELL] 
+Name = Karanshell
 Types = WATER
-BaseStats = 55,60,70,30,40,40
+BaseStats = 55,60,80,20,40,40
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 65
@@ -1170,16 +1170,17 @@ HatchSteps = 5120
 Height = 0.4
 Weight = 60.0
 Color = Blue
-Shape = Quadruped
-Habitat = Sea
+Shape = Insectoid
+Habitat = WatersEdge
 Category = Crab
 Pokedex = ???
 CallRateSOS = 15
+Evolutions = HERMITURRIM,Level,35
 #-------------------------------
-[HERMASTLE] 
-Name = Hermastle
+[HERMITURRIM] 
+Name = Hermiturrim
 Types = WATER
-BaseStats = 100,95,130,40,50,50
+BaseStats = 100,95,140,30,50,50
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 166
@@ -1194,10 +1195,60 @@ HatchSteps = 5120
 Height = 0.4
 Weight = 60.0
 Color = Blue
-Shape = Quadruped
-Habitat = Sea
-Category = Crab
+Shape = Insectoid
+Habitat = WatersEdge
+Category = Walking Fortress
 Pokedex = ???
+#-------------------------------
+[MEDULLISH] 
+Name = Medullish
+Types = WATER,ELECTRIC
+BaseStats = 40,40,40,40,40,40
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 65
+EVs = SPECIAL_ATTACK,1
+CatchRate = 200
+Happiness = 50
+Abilities = STATIC
+Moves = 1,TACKLE
+TutorMoves = PROTECT
+EggMoves = TACKLE
+EggGroups = Water1
+HatchSteps = 5120
+Height = 0.4
+Weight = 60.0
+Color = Blue
+Shape = HeadArms
+Habitat = Sea
+Category = Jellyfish
+Pokedex = ???
+CallRateSOS = 15
+#-------------------------------
+[PETRILLISH] 
+Name = Petrillish
+Types = WATER,ELECTRIC
+BaseStats = 40,40,40,40,40,40
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 65
+EVs = SPECIAL_ATTACK,1
+CatchRate = 200
+Happiness = 50
+Abilities = STATIC
+Moves = 1,TACKLE
+TutorMoves = PROTECT
+EggMoves = TACKLE
+EggGroups = Water1
+HatchSteps = 5120
+Height = 0.4
+Weight = 60.0
+Color = Blue
+Shape = HeadArms
+Habitat = Sea
+Category = Jellyfish
+Pokedex = ???
+CallRateSOS = 15
 #-------------------------------
 [TURTEED]
 Name = Turteed
