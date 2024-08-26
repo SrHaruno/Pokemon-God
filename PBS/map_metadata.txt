@@ -497,7 +497,7 @@ MapPosition = 0,16,14
 BattleBack = Cave1
 #-------------------------------
 [107]   # Gigantopolis Sewers
-Name = Connection Cave
+Name = Gigantopolis Sewers
 Bicycle = true
 MapPosition = 0,16,12
 BattleBack = Cave1
@@ -665,3 +665,8 @@ Outdoor = true
 MapPosition = 0,10,1
 SafariMap = true
 BattleBack = Field
+#-------------------------------
+[154]   # Gigantopolis_SW
+Name = Gigantopolis Sewers
+MapPosition = 0,13,3
+BattleBack = Cave1

@@ -63,7 +63,7 @@ CatchRate = 45
 Happiness = 50
 Abilities = OVERGROW
 HiddenAbilities = MOXIE
-Moves = 0,LUMBERTHRASH,1,TACKLE,1,TAILWHIP,5,LEAFAGE,8,SANDATTACK,12,RAZORLEAF,19,FEINTATTACK,21,ROCKTOMB,25,AGILITY,29,ROCKSLIDE,33,BULLDOZE,38,HAMMERARM,40,WOODHAMMER,42,NIGHTSLASH
+Moves = 0,GAIAWRATH,1,TACKLE,1,TAILWHIP,5,LEAFAGE,8,SANDATTACK,12,RAZORLEAF,19,FEINTATTACK,21,ROCKTOMB,25,AGILITY,29,ROCKSLIDE,33,BULLDOZE,38,HAMMERARM,40,WOODHAMMER,42,NIGHTSLASH
 TutorMoves = CUT,STRENGTH,PROTECT,WORKUP,ROCKSMASH,BULLDOZE,EARTHQUAKE,STONEEDGE,BULLETSEED,FRENZYPLANT,KNOCKOFF
 EggGroups = Field, Grass
 HatchSteps = 5120
@@ -173,7 +173,7 @@ Color = Pink
 Shape = Bipedal
 Habitat = Sea
 Category = Axolot
-Pokedex = ???
+Pokedex = Because it has strong scales and good regenerative capacity, Axoloby can cross any current in Sehand.
 Evolutions = PSYLOTE,Level,16
 #-------------------------------
 [PSYLOTE]
@@ -198,6 +198,7 @@ Color = Pink
 Shape = Bipedal
 Habitat = Sea
 Category = Psi
+Pokedex = It's finx produce psychic waves that are used to communicate with others of it's species from kilometers away.
 Evolutions = AXOLYSTIC,Level,36
 #-------------------------------
 [AXOLYSTIC]
@@ -222,7 +223,7 @@ Color = Pink
 Shape = Bipedal
 Habitat = Sea
 Category = Mystic
-Pokedex = ???
+Pokedex = When it feels threatened, it uses it's psychic powers to pressure the minds of it's enemies.
 #-------------------------------
 [PURIRD]
 Name = Purird
@@ -420,7 +421,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Capybara
-Pokedex = ???
+Pokedex = It defends itself from predators in different froms: hiding in darkness due to it's fur, diving into water or threatening them with its powerful fangs.
 Evolutions = CAPYJAW,Level,20
 CallRateSOS = 10
 #-------------------------------
@@ -1384,7 +1385,7 @@ Pokedex = This Pokémon has been venerated by many ancient civilizations. it's i
 [PASSCIZOR]
 Name = Passcizor
 Types = NORMAL,FLYING
-BaseStats = 40,40,40,40,40,40
+BaseStats = 45,60,30,55,30,30
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 50
@@ -1392,7 +1393,7 @@ EVs = SPEED,1
 CatchRate = 255
 Happiness = 50
 Abilities = KEENEYE
-Moves = 1,PECK,1,LEER
+Moves = 1,PECK,1,LEER,5,QUICKATTACK,9,WINGATTACK,13,SANDATTACK,17,WHIRLWIND,21,AERIALACE,25,ROOST,29,AGILITY,33,BRAVEBIRD,37,FEATHERDANCE,41,CLOSECOMBAT
 TutorMoves = PROTECT,FLY
 EggMoves = DUALWINGBEAT
 EggGroups = Field,Flying
@@ -1410,15 +1411,15 @@ Evolutions = PASSHARP,Level,14
 [PASSHARP]
 Name = Passharp
 Types = NORMAL,FLYING
-BaseStats = 40,40,40,40,40,40
+BaseStats = 50,80,40,75,40,40
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
-BaseExp = 50
+BaseExp = 122
 EVs = SPEED,1
 CatchRate = 255
 Happiness = 50
 Abilities = KEENEYE
-Moves = 1,PECK,1,LEER
+Moves = 0,WINGPOLISH,1,PECK,1,LEER,5,QUICKATTACK,9,WINGATTACK,13,SANDATTACK,18,WHIRLWIND,22,AERIALACE,26,ROOST,30,AGILITY,34,BRAVEBIRD,40,FEATHERDANCE,44,CLOSECOMBAT
 TutorMoves = PROTECT,FLY
 EggGroups = Field,Flying
 HatchSteps = 3840
@@ -1433,15 +1434,15 @@ Evolutions = PASSAZOR,Level,34
 [PASSAZOR]
 Name = Passazor
 Types = NORMAL,FLYING
-BaseStats = 40,40,40,40,40,40
+BaseStats = 70,120,60,105,60,50
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
-BaseExp = 50
+BaseExp = 240
 EVs = SPEED,1
 CatchRate = 255
 Happiness = 50
 Abilities = KEENEYE
-Moves = 1,PECK,1,LEER
+Moves = 0,STEELWING,1,PECK,1,LEER,5,QUICKATTACK,9,WINGATTACK,13,SANDATTACK,18,WHIRLWIND,22,AERIALACE,26,ROOST,30,AGILITY,36,BRAVEBIRD,42,FEATHERDANCE,46,CLOSECOMBAT
 TutorMoves = PROTECT,FLY
 EggGroups = Field,Flying
 HatchSteps = 3840

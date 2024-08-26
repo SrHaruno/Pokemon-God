@@ -8990,8 +8990,8 @@ FunctionCode = SwitchOutTargetDamagingMove
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The user scares the foe with a ghostly sword. Drags out another Pokémon in its party. In the wild, the battle ends.
 #-------------------------------
-[LUMBERTHRASH]
-Name = Lumber Thrash
+[GAIAWRATH]
+Name = Gaia's Wrath
 Type = GRASS
 Category = Physical
 Power = 120
@@ -9025,7 +9025,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove,Slashing
-Description = The user spins slashing the foe multiple times like a boomerang. This moves hits 2-5 times.
+Description = The user spins hitting the foe multiple times like a boomerang. This moves hits 2-5 times.
 #-------------------------------
 [BLOSSOMSPEAR]
 Name = Blossom Spear
@@ -9122,6 +9122,16 @@ FunctionCode = None
 Flags = CanProtect,CanMirrorMove
 Description = The user swings it's sword banishing all evil around. This move is Angel and Steel type simultaneously.
 #-------------------------------
+[WINGPOLISH]
+Name = Wing Polish
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = RaiseUserAttack2
+Description = The user reinforce it's strenght by sharpening it's claws or weapons. It sharply raises the user's Attack stat.
+#-------------------------------
 [WEAPONSMITH]
 Name = Weapon Smith
 Type = STEEL
@@ -9130,7 +9140,6 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = RaiseUserAttack2
-Flags = Dance
 Description = The user reinforce it's strenght by sharpening it's claws or weapons. It sharply raises the user's Attack stat.
 #-------------------------------
 [ARMORSMITH]
@@ -9141,6 +9150,5 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = RaiseUserDefense2
-Flags = Dance
 Description = The user reinforce it's armour by polishing it. It sharply raises the user's Defense stat.
 
