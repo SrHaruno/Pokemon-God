@@ -199,17 +199,49 @@ Pokemon = YOUNROW,16
 [PI,Melon]
 Items = FULLRESTORE
 LoseText = You are as strong as Nikolai!
-Pokemon = GAMBILLO,20
-Pokemon = GAMBILLO,20
-#Nikolai Hideout
+Pokemon = GAMBILLO,18
+Pokemon = GAMBILLO,18
+
+
+#Nikolai Lab
+#-------------------------------
+[SCIENTIST,Teo]
+Items = XDEFENSE
+LoseText = Now I see why Nikolai invited you.
+Pokemon = TATURUG,15
+Pokemon = ELECOON,18
+#-------------------------------
+[SCIENTIST,Jeff]
+Items = XSPATK
+LoseText = Oh boy, you are indeed shocking.
+Pokemon = SQUILAZE,18
+#-------------------------------
+[SCIENTIST,Kusha]
+Items = XATTACK
+LoseText = Oh no! My math was wrong this whole time!
+Pokemon = CHOPAXE,15
+Pokemon = CHOPAXE,18
+#-------------------------------
+[ENGINEER,Daora]
+LoseText = I should have known!
+Pokemon = CHOPAXE,15
+#-------------------------------
+[ENGINEER,Klein]
+LoseText = We hid those generators very well!
+Pokemon = CHOPAXE,15
+Pokemon = TATURUG,17
+#-------------------------------
+[ENGINEER,Jason]
+LoseText = Don't fix what isn't broken!
+Pokemon = TURTLOW,17
 #-------------------------------
 [LEADER_Nikolai,Nikolai]
 Items = SUPERPOTION,SUPERPOTION
 LoseText = That was AMAZING!
 Pokemon = CUBOLT,20
-    Moves = THUNDERWAVE,SHOCKWAVE,NOBLEROAR
-Pokemon = TURTLOW,22
-    Moves = RAPIDSPIN,BODYPRESS,BUBBLEBEAM,METALCLAW
+    Moves = THUNDERWAVE,SHOCKWAVE,NOBLEROAR,VOLTSWITCH
+Pokemon = SQUILAZE,22
+    Moves = SHOCKWAVE,FLAMEWHEEL,VOLTSWITCH
 Pokemon = CHOPAXE,24
     Moves = SCRATCH
 Pokemon = JOLTUTER,26

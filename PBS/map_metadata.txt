@@ -424,11 +424,11 @@ MapPosition = 0,16,3
 #-------------------------------
 [091]   # Nikolai's Mansion
 Name = Jamsmil City
-MapPosition = 0,16,3
+MapPosition = 0,17,3
 #-------------------------------
 [092]   # Nikolai Lab
 Name = Jamsmil City
-MapPosition = 0,16,3
+MapPosition = 0,17,3
 #-------------------------------
 [093]   # Vituresa_HS1
 Name = Vituresa Village
@@ -559,15 +559,15 @@ MapPosition = 0,16,14
 #-------------------------------
 [125]   # Kitchen
 Name = Jamsmil City
-MapPosition = 0,16,3
+MapPosition = 0,17,3
 #-------------------------------
 [126]   # Nikolai's Room
 Name = Jamsmil City
-MapPosition = 0,16,3
+MapPosition = 0,17,3
 #-------------------------------
 [127]   # Living Room
 Name = Jamsmil City
-MapPosition = 0,16,3
+MapPosition = 0,17,3
 #-------------------------------
 [129]   # Route 13
 Name = Route 13
@@ -666,7 +666,11 @@ MapPosition = 0,10,1
 SafariMap = true
 BattleBack = Field
 #-------------------------------
-[154]   # Gigantopolis_SW
-Name = Gigantopolis Sewers
-MapPosition = 0,13,3
-BattleBack = Cave1
+[154]   # Nikolai_Gym
+Name = Jasmil City
+MapPosition = 0,17,3
+BattleBack = 
+#-------------------------------
+[155]   # Gym_Room
+Name = Jasmil City
+MapPosition = 0,17,3
