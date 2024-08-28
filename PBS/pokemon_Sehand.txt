@@ -247,7 +247,7 @@ Color = Blue
 Shape = Winged
 Habitat = Urban
 Category = Pure
-Pokedex = ???
+Pokedex = Purird evolves depending on the Trainer's intentions. While Peacird is the evolutionary path of kind Trainer's.Younrow is the result of an evil Heart.
 Evolutions = PEACIRD,LevelDay,14,YOUNROW,LevelNight,14,PEACIRD,Location,46,YOUNROW,Location,59
 CallRateSOS = 15
 #-------------------------------
