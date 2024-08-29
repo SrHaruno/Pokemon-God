@@ -669,8 +669,21 @@ BattleBack = Field
 [154]   # Nikolai_Gym
 Name = Jasmil City
 MapPosition = 0,17,3
-BattleBack = 
 #-------------------------------
 [155]   # Gym_Room
 Name = Jasmil City
 MapPosition = 0,17,3
+#-------------------------------
+[156]   # Tranquor Village
+Name = 
+Outdoor = true
+MapPosition = 0,6,11
+BattleBack = Water
+#-------------------------------
+[157]   # Tranquor PC
+Name = Tranquor village
+MapPosition = 0,6,11
+#-------------------------------
+[158]   # Tranquor PC 2F
+Name = Tranquor Village
+MapPosition = 0,6,11
