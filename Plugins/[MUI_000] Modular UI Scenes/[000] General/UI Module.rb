@@ -72,3 +72,35 @@ module UIHandlers
     end
   end
 end
+
+
+#===============================================================================
+# Plugin manager.
+#===============================================================================
+module PluginManager
+  PluginManager.singleton_class.alias_method :mui_register, :register
+  def self.register(options)
+    mui_register(options)
+    self.plugin_check_MUI
+  end
+  
+  #-----------------------------------------------------------------------------
+  # Used to ensure all plugins that rely on Modular UI Scenes are up to date.
+  #-----------------------------------------------------------------------------
+  def self.plugin_check_MUI(version = "2.0.6")
+    if self.installed?("Modular UI Scenes", version, true)
+      {"[MUI] Enhanced Pokemon UI"   => "1.0.5",
+       "[MUI] Pokedex Data Page"     => "2.0.1",
+       "[MUI] Improved Mementos"     => "1.0.2",
+       "[MUI] Improved Field Skills" => "1.0.1",
+      }.each do |p_name, v_num|
+        next if !self.installed?(p_name)
+        p_ver = self.version(p_name)
+        valid = self.compare_versions(p_ver, v_num)
+        next if valid > -1
+        link = self.link(p_name)
+        self.error("Plugin '#{p_name}' is out of date.\nPlease download the latest version at:\n#{link}")
+      end
+    end
+  end
+end

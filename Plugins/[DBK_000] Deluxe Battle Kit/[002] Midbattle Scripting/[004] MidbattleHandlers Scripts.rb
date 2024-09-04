@@ -36,7 +36,7 @@ MidbattleHandlers.add(:midbattle_scripts, :demo_wild_rotom,
       pbSEPlay("Anim/Paralyze3")
       battle.pbDisplayPaused(_INTL("Your Poké Balls short-circuited!\nThey cannot be used this battle!"))
       battle.disablePokeBalls = true
-      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended.")
+      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
     #---------------------------------------------------------------------------
     # After taking Super Effective damage, the opponent changes form each round.
     when "RoundEnd_foe"
@@ -60,7 +60,7 @@ MidbattleHandlers.add(:midbattle_scripts, :demo_wild_rotom,
         foe.item = :CELLBATTERY
         battle.pbDisplay(_INTL("{1} equipped a {2} it found in the appliance!", foe.pbThis, foe.itemName))
       end
-      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended.")
+      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
     #---------------------------------------------------------------------------
     # Opponent gains various effects when its HP falls to 50% or lower.
     when "TargetHPHalf_foe"
@@ -76,7 +76,7 @@ MidbattleHandlers.add(:midbattle_scripts, :demo_wild_rotom,
         battle.pbDisplay(_INTL("{1} levitated with electromagnetism!", foe.pbThis))
       end
       battle.pbStartTerrain(foe, :Electric)
-      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended.")
+      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
     #---------------------------------------------------------------------------
     # Opponent paralyzes the player's Pokemon when taking Super Effective damage.
     when "UserMoveEffective_player"
@@ -86,7 +86,7 @@ MidbattleHandlers.add(:midbattle_scripts, :demo_wild_rotom,
       if battler.pbCanInflictStatus?(:PARALYSIS, foe, true)
         battler.pbInflictStatus(:PARALYSIS)
       end
-      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended.")
+      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
     end
   }
 )
@@ -113,14 +113,14 @@ MidbattleHandlers.add(:midbattle_scripts, :demo_collapsing_cave,
       battle.pbDisplayPaused(_INTL("I don't care if this whole cave collapses down on the both of us...haha!"))
       scene.pbForceEndSpeech
       battle.pbDisplayPaused(_INTL("Defeat your opponent before time runs out!"))
-      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended.")
+      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
     #---------------------------------------------------------------------------
     # Repeated end-of-round text.
     when "RoundEnd_player"
       PBDebug.log("[Midbattle Script] '#{trigger}' triggered by #{logname}...")
       pbSEPlay("Mining collapse")
       battle.pbDisplayPaused(_INTL("The cave continues to collapse all around you!"))
-      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended.")
+      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
     #---------------------------------------------------------------------------
     # Player's Pokemon is struck by falling rock, dealing damage & causing confusion.
     when "RoundEnd_2_player"
@@ -135,14 +135,14 @@ MidbattleHandlers.add(:midbattle_scripts, :demo_collapsing_cave,
       elsif battler.pbCanConfuse?(battler, false)
         battler.pbConfuse
       end
-      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended.")
+      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
     #---------------------------------------------------------------------------
     # Warning message.
     when "RoundEnd_3_player"
       PBDebug.log("[Midbattle Script] '#{trigger}' triggered by #{logname}...")
       battle.pbDisplayPaused(_INTL("You're running out of time!"))
       battle.pbDisplayPaused(_INTL("You need to escape immediately!"))
-      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended.")
+      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
     #---------------------------------------------------------------------------
     # Player runs out of time and is forced to forfeit.
     when "RoundEnd_4_player"
@@ -152,7 +152,7 @@ MidbattleHandlers.add(:midbattle_scripts, :demo_collapsing_cave,
       battle.pbDisplayPaused(_INTL("You were forced to flee the battle!"))
       pbSEPlay("Battle flee")
       battle.decision = 3
-      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended.")
+      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
     #---------------------------------------------------------------------------
     # Opponent's Pokemon stands its ground when its HP is low.
     when "LastTargetHPLow_foe"
@@ -171,14 +171,14 @@ MidbattleHandlers.add(:midbattle_scripts, :demo_collapsing_cave,
         battler.pbRaiseStatStage(stat, 2, battler, showAnim)
         showAnim = false
       end
-      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended.")
+      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
     #---------------------------------------------------------------------------
     # Opponent mocks the player when forfeiting the match.
     when "BattleEndForfeit"
       PBDebug.log("[Midbattle Script] '#{trigger}' triggered by #{logname}...")
       scene.pbStartSpeech(1)
       battle.pbDisplayPaused(_INTL("Haha...you'll never make it out alive!"))
-      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended.")
+      PBDebug.log("[Midbattle Script] '#{trigger}' effects ended")
     end
   }
 )
@@ -208,7 +208,7 @@ MidbattleHandlers.add(:midbattle_global, :wild_mega_battle,
     # Mega Evolves wild battler immediately at the start of the first round.
     when "RoundStartCommand_1_foe"
       if battle.pbCanMegaEvolve?(foe.index)
-	    PBDebug.log("[Midbattle Global] #{logname} will Mega Evolve.")
+	    PBDebug.log("[Midbattle Global] #{logname} will Mega Evolve")
         battle.pbMegaEvolve(foe.index)
         battle.disablePokeBalls = true
         battle.sosBattle = false if defined?(battle.sosBattle)
@@ -220,7 +220,7 @@ MidbattleHandlers.add(:midbattle_global, :wild_mega_battle,
     #---------------------------------------------------------------------------
     # Un-Mega Evolves wild battler once damage cap is reached.
     when "BattlerReachedHPCap_foe"
-      PBDebug.log("[Midbattle Global] #{logname} damage cap reached.")
+      PBDebug.log("[Midbattle Global] #{logname} damage cap reached")
       foe.unMega
       battle.disablePokeBalls = false
       battle.pbDisplayPaused(_INTL("{1}'s Mega Evolution faded!\nIt may now be captured!", foe.pbThis))
@@ -254,21 +254,21 @@ MidbattleHandlers.add(:midbattle_global, :low_hp_music,
       next if playingBGM != track.name
       next if battle.pbAnyBattlerLowHP?(idxBattler)
       battle.pbResumeBattleBGM
-      PBDebug.log("[Midbattle Global] low HP music ended.")
+      PBDebug.log("[Midbattle Global] low HP music ended")
     #---------------------------------------------------------------------------
     # Restores original BGM when battler is fainted.
     when "BattlerHPReduced_player"
       next if playingBGM != track.name
-	  next if battle.pbAnyBattlerLowHP?(idxBattler)
+      next if battle.pbAnyBattlerLowHP?(idxBattler)
       next if !battler.fainted?
       battle.pbResumeBattleBGM
-      PBDebug.log("[Midbattle Global] low HP music ended.")
+      PBDebug.log("[Midbattle Global] low HP music ended")
     #---------------------------------------------------------------------------
     # Plays low HP music when HP is critical.
     when "BattlerHPCritical_player"
       next if playingBGM == track.name
       battle.pbPauseAndPlayBGM(track)
-      PBDebug.log("[Midbattle Global] low HP music begins.")
+      PBDebug.log("[Midbattle Global] low HP music begins")
     #---------------------------------------------------------------------------
     # Restores original BGM when sending out a healthy Pokemon.
     # Plays low HP music when sending out a Pokemon with critical HP.
@@ -276,10 +276,10 @@ MidbattleHandlers.add(:midbattle_global, :low_hp_music,
       if battle.pbAnyBattlerLowHP?(idxBattler)
         next if playingBGM == track.name
         battle.pbPauseAndPlayBGM(track)
-        PBDebug.log("[Midbattle Global] low HP music begins.")
+        PBDebug.log("[Midbattle Global] low HP music begins")
       elsif playingBGM == track.name
         battle.pbResumeBattleBGM
-        PBDebug.log("[Midbattle Global] low HP music ended.")
+        PBDebug.log("[Midbattle Global] low HP music ended")
       end
     end
   }

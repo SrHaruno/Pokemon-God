@@ -2276,7 +2276,79 @@ Shape = Quadruped
 Habitat = Grassland
 Category = Dragon
 Pokedex = ???
-
+#-------------------------------
+[MEOWTUNO]
+Name = Meowtuno
+Types = DARK
+BaseStats = 40,65,30,80,65,30
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPEED,1
+CatchRate = 200
+Happiness = 50
+Abilities = QUICKFEET
+Moves = 1,SCRATCH,1,TAILWHIP
+TutorMoves = PROTECT
+EggMoves = DARKPULSE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Cave
+Category = Cat
+Pokedex = ???
+CallRateSOS = 9
+Evolutions = KLEPTUNO,Level,28
+#-------------------------------
+[KLEPTUNO]
+Name = Kleptuno
+Types = DARK
+BaseStats = 60,85,40,90,85,40
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPEED,2
+CatchRate = 45
+Happiness = 50
+Abilities = QUICKFEET
+Moves = 1,SCRATCH,1,TAILWHIP
+TutorMoves = PROTECT
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Cave
+Category = Cat
+Pokedex = ???
+Evolutions = KLEPURR,Level,48
+#-------------------------------
+[KLEPURR]
+Name = Klepurr
+Types = DARK
+BaseStats = 80,95,50,130,95,50
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPEED,2
+CatchRate = 235
+Happiness = 50
+Abilities = QUICKFEET
+Moves = 1,SCRATCH,1,TAILWHIP
+TutorMoves = PROTECT
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Habitat = Cave
+Category = Cat
+Pokedex = ???
 
 
 #-------------------------------
@@ -2495,235 +2567,6 @@ Category = Computer
 
 
 #-------------------------------
-[MEOWTUNO]
-Name = Meowtuno
-Types = DARK
-BaseStats = 40,65,30,80,65,30
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 62
-EVs = SPEED,1
-CatchRate = 200
-Happiness = 50
-Abilities = QUICKFEET
-Moves = 1,SCRATCH,1,TAILWHIP
-TutorMoves = PROTECT
-EggMoves = DARKPULSE
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Gray
-Shape = Bipedal
-Habitat = Cave
-Category = Cat
-Pokedex = ???
-CallRateSOS = 9
-Evolutions = KLEPTUNO,Level,28
-#-------------------------------
-[KLEPTUNO]
-Name = Kleptuno
-Types = DARK
-BaseStats = 60,85,40,90,85,40
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 62
-EVs = SPEED,2
-CatchRate = 45
-Happiness = 50
-Abilities = QUICKFEET
-Moves = 1,SCRATCH,1,TAILWHIP
-TutorMoves = PROTECT
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Gray
-Shape = Bipedal
-Habitat = Cave
-Category = Cat
-Pokedex = ???
-Evolutions = KLEPURR,Level,48
-#-------------------------------
-[KLEPURR]
-Name = Klepurr
-Types = DARK
-BaseStats = 80,95,50,130,95,50
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 62
-EVs = SPEED,2
-CatchRate = 235
-Happiness = 50
-Abilities = QUICKFEET
-Moves = 1,SCRATCH,1,TAILWHIP
-TutorMoves = PROTECT
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Gray
-Shape = Bipedal
-Habitat = Cave
-Category = Cat
-Pokedex = ???
-
-
-
-
-
-
-#-------------------------------
-[FRILLZARD]
-Name = Frillzard
-Types = DRAGON
-BaseStats = 45,60,40,50,30,40
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 64
-EVs = ATTACK,1
-CatchRate = 75
-Happiness = 50
-Abilities = HUSTLE
-Moves = 1,SCRATCH,1,LEER,3,BITE,6,FALSESWIPE,9,HEADBUTT,12,TAUNT,15,SLASH,18,DRAGONCLAW,21,SCARYFACE,24,CRUNCH,27,DRAGONDANCE,30,FIREFANG,33,LASERFOCUS,36,MIGHTYROAR,39,SWORDSDANCE,42,DRAGONCLAW,45,GIGAIMPACT
-TutorMoves = PROTECT
-EggMoves = IRONHEAD,IRONTAIL,MIGHTYROAR
-EggGroups = Dragon,Field
-HatchSteps = 10240
-Height = 0.7
-Weight = 6.9
-Color = Purple
-Shape = Quadruped
-Habitat = Mountain
-Category = Frilled Lizard
-Pokedex = ???
-Evolutions = DRAKRILL,Level,38
-CallRateSOS = 3
-#-------------------------------
-[DRAKRILL]
-Name = Drakrill
-Types = DRAGON
-BaseStats = 58,70,50,67,50,50
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 144
-EVs = ATTACK,2
-CatchRate = 60
-Happiness = 50
-Abilities = HUSTLE
-Moves = 1,SCRATCH,1,LEER,1,BITE,1,FALSESWIPE,9,HEADBUTT,12,TAUNT,15,SLASH,18,DRAGONCLAW,21,SCARYFACE,24,CRUNCH,27,DRAGONDANCE,30,FIREFANG,33,LASERFOCUS,36,MIGHTYROAR,41,SWORDSDANCE,46,DRAGONCLAW,51,GIGAIMPACT,55,WINGATTACK
-TutorMoves = PROTECT
-EggGroups = Dragon,Field
-HatchSteps = 10240
-Height = 0.7
-Weight = 6.9
-Color = Purple
-Shape = Quadruped
-Habitat = Mountain
-Category = Draken
-Pokedex = ???
-Evolutions = FRILLEGEND,HasMove,WINGATTACK,MIGHTRILL,Level,48
-#-------------------------------
-[MIGHTRILL]
-Name = Mightrill
-Types = DRAGON
-BaseStats = 70,140,88,87,70,85
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 270
-EVs = ATTACK,3
-CatchRate = 45
-Happiness = 50
-Abilities = SHEERFORCE
-Moves = 1,SCRATCH,1,LEER,1,BITE,1,FALSESWIPE,9,HEADBUTT,12,TAUNT,15,SLASH,18,DRAGONCLAW,21,SCARYFACE,24,CRUNCH,27,DRAGONDANCE,30,FIREFANG,33,LASERFOCUS,36,MIGHTYROAR,41,SWORDSDANCE,46,DRAGONCLAW,53,GIGAIMPACT
-TutorMoves = PROTECT
-EggGroups = Dragon,Field
-HatchSteps = 10240
-Height = 0.7
-Weight = 6.9
-Color = Purple
-Shape = Quadruped
-Habitat = Mountain
-Category = Draken
-Pokedex = ???
-#-------------------------------
-[FRILLEGEND]
-Name = Frillegend
-Types = DRAGON,FLYING
-BaseStats = 70,105,65,100,137,63
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 270
-EVs = SPECIAL_ATTACK,3
-CatchRate = 45
-Happiness = 50
-Abilities = SHEERFORCE
-Moves = 0,FIERYBARRAGE,1,DRACOMETEOR,1,HURRICANE,1,SCRATCH,1,LEER,1,BITE,1,FALSESWIPE,9,HEADBUTT,12,TAUNT,15,SLASH,18,DRAGONCLAW,21,SCARYFACE,24,CRUNCH,27,DRAGONDANCE,30,FIREFANG,33,LASERFOCUS,36,MIGHTYROAR,41,SWORDSDANCE,46,DRAGONCLAW,53,GIGAIMPACT
-TutorMoves = PROTECT,FLAMETHROWER,FIREBLAST,FLY,AERIALACE,DRAGONPULSE
-EggGroups = Dragon,Field
-HatchSteps = 10240
-Height = 0.7
-Weight = 6.9
-Color = Black
-Shape = Quadruped
-Habitat = Mountain
-Category = Legend
-Pokedex = Legends said that this Pokémon destroyed an whole kingdom by himself. It's flames are so powerful that it can melt metal in seconds.
-
-
-
-#-------------------------------
-[CHINDORION]
-Name = Chindorion
-Types = GHOST,STEEL
-BaseStats = 90,60,100,30,30,100
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 50
-EVs = DEFENSE,1,SPECIAL_DEFENSE,1
-CatchRate = 190
-Happiness = 50
-Abilities = CLEARBODY,LEVITATE
-Moves = 1,TACKLE
-TutorMoves = PROTECT
-EggMoves = TACKLE
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = White
-Shape = HeadBase
-Habitat = Urban
-Category = Ghost
-Pokedex = ???
-CallRateSOS = 10
-#-------------------------------
-[ARMOGHOUL]
-Name = Armoghoul
-Types = GHOST,STEEL
-BaseStats = 108,90,145,40,45,145
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 50
-EVs = DEFENSE,2,SPECIAL_DEFENSE,2
-CatchRate = 45
-Happiness = 50
-Abilities = DARKNESSARMOUR,RUSTYARMOUR
-Moves = 1,TACKLE
-TutorMoves = PROTECT
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = White
-Shape = HeadBase
-Habitat = Urban
-Category = Ghost
-Pokedex = ???
-
-
-
-#-------------------------------
 [CAIBORA]
 Name = Caibora
 Types = FAIRY,GRASS
@@ -2871,6 +2714,157 @@ Shape = Finned
 Habitat = Sea
 Category = Dolphin
 Pokedex = ???
+
+
+
+
+#-------------------------------
+[FRILLZARD]
+Name = Frillzard
+Types = DRAGON
+BaseStats = 45,60,40,50,30,40
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 64
+EVs = ATTACK,1
+CatchRate = 75
+Happiness = 50
+Abilities = HUSTLE
+Moves = 1,SCRATCH,1,LEER,3,BITE,6,FALSESWIPE,9,HEADBUTT,12,TAUNT,15,SLASH,18,DRAGONCLAW,21,SCARYFACE,24,CRUNCH,27,DRAGONDANCE,30,FIREFANG,33,LASERFOCUS,36,MIGHTYROAR,39,SWORDSDANCE,42,DRAGONCLAW,45,GIGAIMPACT
+TutorMoves = PROTECT
+EggMoves = IRONHEAD,IRONTAIL,MIGHTYROAR
+EggGroups = Dragon,Field
+HatchSteps = 10240
+Height = 0.7
+Weight = 6.9
+Color = Purple
+Shape = Quadruped
+Habitat = Mountain
+Category = Frilled Lizard
+Pokedex = ???
+Evolutions = DRAKRILL,Level,38
+CallRateSOS = 3
+#-------------------------------
+[DRAKRILL]
+Name = Drakrill
+Types = DRAGON
+BaseStats = 58,70,50,67,50,50
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 144
+EVs = ATTACK,2
+CatchRate = 60
+Happiness = 50
+Abilities = HUSTLE
+Moves = 1,SCRATCH,1,LEER,1,BITE,1,FALSESWIPE,9,HEADBUTT,12,TAUNT,15,SLASH,18,DRAGONCLAW,21,SCARYFACE,24,CRUNCH,27,DRAGONDANCE,30,FIREFANG,33,LASERFOCUS,36,MIGHTYROAR,41,SWORDSDANCE,46,DRAGONCLAW,51,GIGAIMPACT,55,WINGATTACK
+TutorMoves = PROTECT
+EggGroups = Dragon,Field
+HatchSteps = 10240
+Height = 0.7
+Weight = 6.9
+Color = Purple
+Shape = Quadruped
+Habitat = Mountain
+Category = Draken
+Pokedex = ???
+Evolutions = FRILLEGEND,HasMove,WINGATTACK,MIGHTRILL,Level,48
+#-------------------------------
+[MIGHTRILL]
+Name = Mightrill
+Types = DRAGON
+BaseStats = 70,140,88,87,70,85
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 270
+EVs = ATTACK,3
+CatchRate = 45
+Happiness = 50
+Abilities = SHEERFORCE
+Moves = 1,SCRATCH,1,LEER,1,BITE,1,FALSESWIPE,9,HEADBUTT,12,TAUNT,15,SLASH,18,DRAGONCLAW,21,SCARYFACE,24,CRUNCH,27,DRAGONDANCE,30,FIREFANG,33,LASERFOCUS,36,MIGHTYROAR,41,SWORDSDANCE,46,DRAGONCLAW,53,GIGAIMPACT
+TutorMoves = PROTECT
+EggGroups = Dragon,Field
+HatchSteps = 10240
+Height = 0.7
+Weight = 6.9
+Color = Purple
+Shape = Quadruped
+Habitat = Mountain
+Category = Draken
+Pokedex = ???
+#-------------------------------
+[FRILLEGEND]
+Name = Frillegend
+Types = DRAGON,FLYING
+BaseStats = 70,105,65,100,137,63
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 270
+EVs = SPECIAL_ATTACK,3
+CatchRate = 45
+Happiness = 50
+Abilities = SHEERFORCE
+Moves = 0,FIERYBARRAGE,1,DRACOMETEOR,1,HURRICANE,1,SCRATCH,1,LEER,1,BITE,1,FALSESWIPE,9,HEADBUTT,12,TAUNT,15,SLASH,18,DRAGONCLAW,21,SCARYFACE,24,CRUNCH,27,DRAGONDANCE,30,FIREFANG,33,LASERFOCUS,36,MIGHTYROAR,41,SWORDSDANCE,46,DRAGONCLAW,53,GIGAIMPACT
+TutorMoves = PROTECT,FLAMETHROWER,FIREBLAST,FLY,AERIALACE,DRAGONPULSE
+EggGroups = Dragon,Field
+HatchSteps = 10240
+Height = 0.7
+Weight = 6.9
+Color = Black
+Shape = Quadruped
+Habitat = Mountain
+Category = Legend
+Pokedex = Legends said that this Pokémon destroyed an whole kingdom by himself. It's flames are so powerful that it can melt metal in seconds.
+
+
+#-------------------------------
+[CHINDORION]
+Name = Chindorion
+Types = GHOST,STEEL
+BaseStats = 90,60,100,30,30,100
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 50
+EVs = DEFENSE,1,SPECIAL_DEFENSE,1
+CatchRate = 190
+Happiness = 50
+Abilities = CLEARBODY,LEVITATE
+Moves = 1,TACKLE
+TutorMoves = PROTECT
+EggMoves = TACKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = White
+Shape = HeadBase
+Habitat = Urban
+Category = Ghost
+Pokedex = ???
+CallRateSOS = 10
+#-------------------------------
+[ARMOGHOUL]
+Name = Armoghoul
+Types = GHOST,STEEL
+BaseStats = 108,90,145,40,45,145
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 50
+EVs = DEFENSE,2,SPECIAL_DEFENSE,2
+CatchRate = 45
+Happiness = 50
+Abilities = DARKNESSARMOUR,RUSTYARMOUR
+Moves = 1,TACKLE
+TutorMoves = PROTECT
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = White
+Shape = HeadBase
+Habitat = Urban
+Category = Ghost
+Pokedex = ???
+
 
 
 #-------------------------------

@@ -396,7 +396,7 @@ class Battle::Move
     bonus = 0
     bonus += critical_hit_bonus
     bonus += user.effects[PBEffects::FocusEnergy]
-    bonus += 1 if @id == :SPACIALREND && user.isSpecies?(:PALKIA) && form == 1
+    bonus += 1 if @id == :SPACIALREND && user.isSpecies?(:PALKIA) && user.form == 1
     bonus += 1 if user.inHyperMode? && @type == :SHADOW
     return bonus
   end

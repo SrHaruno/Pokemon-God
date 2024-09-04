@@ -64,6 +64,21 @@ class Sprite
       end
     end
   end
+  
+  #-----------------------------------------------------------------------------
+  # To be aliased by other plugins that add sprite patterns.
+  #-----------------------------------------------------------------------------
+  def set_plugin_pattern(pokemon, override = false)
+    set_shadow_pattern(pokemon)
+  end
+  
+  def set_plugin_icon_pattern
+    set_shadow_icon_pattern
+  end
+  
+  def update_plugin_pattern
+    update_shadow_pattern
+  end
 end
 
 #-------------------------------------------------------------------------------
@@ -73,19 +88,19 @@ class PokemonSprite < Sprite
   alias shadow_setPokemonBitmap setPokemonBitmap
   def setPokemonBitmap(pokemon, back = false)
     shadow_setPokemonBitmap(pokemon, back)
-    self.set_shadow_pattern(pokemon)
+    self.set_plugin_pattern(pokemon)
   end
 
   alias shadow_setPokemonBitmapSpecies setPokemonBitmapSpecies
   def setPokemonBitmapSpecies(pokemon, species, back = false)
     shadow_setPokemonBitmapSpecies(pokemon, species, back)
-    self.set_shadow_pattern(pokemon)
+    self.set_plugin_pattern(pokemon)
   end
   
   alias shadow_update update
   def update
     shadow_update
-    self.update_shadow_pattern
+    self.update_plugin_pattern
   end
 end
 
@@ -94,7 +109,7 @@ class Battle::Scene::BattlerSprite < RPG::Sprite
   def update
     shadow_update
     return if !@_iconBitmap
-    self.update_shadow_pattern
+    self.update_plugin_pattern
   end
 end
 
@@ -105,7 +120,18 @@ class PokemonIconSprite < Sprite
   alias :shadow_pokemon= :pokemon=
   def pokemon=(value)
     self.shadow_pokemon=(value)
-    self.set_shadow_icon_pattern
+    self.set_plugin_icon_pattern
+  end
+end
+
+#-------------------------------------------------------------------------------
+# Aliased to set Shadow pattern on species icons (Storage)
+#-------------------------------------------------------------------------------
+class PokemonBoxIcon < IconSprite
+  alias shadow_refresh refresh 
+  def refresh
+    shadow_refresh
+    self.set_shadow_pattern(@pokemon) if @pokemon
   end
 end
 
@@ -118,6 +144,6 @@ class Battle::Scene
     shadow_pbChangePokemon(idxBattler, pkmn)
     battler = (idxBattler.respond_to?("index")) ? idxBattler : @battle.battlers[idxBattler]
     pkmnSprite = @sprites["pokemon_#{battler.index}"]
-    pkmnSprite.set_shadow_pattern(battler)
+    pkmnSprite.set_plugin_pattern(battler)
   end
 end

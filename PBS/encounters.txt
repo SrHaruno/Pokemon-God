@@ -44,8 +44,18 @@ SuperRod
 [066] # Gigantopolis
 Land,15
 	100,CRACKUUM,14,16
-
-
+#-------------------------------
+[156] # Gigantopolis
+Water
+	40,MAGIKARP,15,19
+	20,BOTOLPHIN,15,19
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    80,MAGIKARP,15,19
+	20,BOTOLPHIN,15,19
+SuperRod
+    20,GYARADOS,30,33
 
 #Routes
 #-------------------------------

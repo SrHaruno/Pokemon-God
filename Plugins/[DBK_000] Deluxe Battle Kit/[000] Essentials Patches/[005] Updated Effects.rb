@@ -120,6 +120,7 @@ Battle::AbilityEffects::DamageCalcFromUser.add(:GORILLATACTICS,
 Battle::AbilityEffects::OnSwitchIn.add(:IMPOSTER,
   proc { |ability, battler, battle, switch_in|
     next if !switch_in || battler.effects[PBEffects::Transform]
+    next if battler.tera? && battler.tera_type == :STELLAR
     choice = battler.pbDirectOpposing
     next if choice.fainted?
     next if choice.effects[PBEffects::Transform] ||
@@ -134,10 +135,13 @@ Battle::AbilityEffects::OnSwitchIn.add(:IMPOSTER,
     next if battler.dynamax? && !choice.dynamax_able?
     battle.pbShowAbilitySplash(battler, true)
     battle.pbHideAbilitySplash(battler)
+    battle.scene.pbAnimateSubstitute(battler, :hide)
     battler.effects[PBEffects::TransformPokemon] = choice.pokemon
     battle.pbAnimation(:TRANSFORM, battler, choice)
+    battler.mosaicChange = true if defined?(battler.mosaicChange)
     battle.scene.pbChangePokemon(battler, choice.pokemon)
     battler.pbTransform(choice)
+    battle.scene.pbAnimateSubstitute(battler, :show)
   }
 )
 
@@ -573,9 +577,9 @@ end
 # Saves data for Transform target prior to transforming.
 #-------------------------------------------------------------------------------
 class Battle::Move::TransformUserIntoTarget < Battle::Move
-  alias tera_pbMoveFailed? pbMoveFailed?
+  alias dx_pbMoveFailed? pbMoveFailed?
   def pbMoveFailed?(user, targets)
-    if user.tera_form?
+    if user.tera_form? || (user.tera? && user.tera_type == :STELLAR)
       @battle.pbDisplay(_INTL("But it failed!"))
       return true
     end
@@ -583,7 +587,7 @@ class Battle::Move::TransformUserIntoTarget < Battle::Move
       @battle.pbDisplay(_INTL("But it failed!"))
       return true
     end
-    return tera_pbMoveFailed?(user, targets)
+    return dx_pbMoveFailed?(user, targets)
   end
 
   alias dx_pbFailsAgainstTarget? pbFailsAgainstTarget?
@@ -603,10 +607,18 @@ class Battle::Move::TransformUserIntoTarget < Battle::Move
     return dx_pbFailsAgainstTarget?(user, target, show_message)
   end
   
+  alias dx_pbEffectAgainstTarget pbEffectAgainstTarget
+  def pbEffectAgainstTarget(user, target)
+    @battle.scene.pbAnimateSubstitute(user, :hide)
+    dx_pbEffectAgainstTarget(user, target)
+  end
+  
   def pbShowAnimation(id, user, targets, hitNum = 0, showAnimation = true)
     super
     user.effects[PBEffects::TransformPokemon] = targets[0].pokemon
+    user.mosaicChange = true if defined?(user.mosaicChange)
     @battle.scene.pbChangePokemon(user, targets[0].pokemon)
+    @battle.scene.pbAnimateSubstitute(user, :show)
   end
 end
 

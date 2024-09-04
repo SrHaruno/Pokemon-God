@@ -586,7 +586,7 @@ class Battle::Battler
   end
   
   #-----------------------------------------------------------------------------
-  # Midbattle triggers upon a status condition being inflicted.
+  # Midbattle triggers upon a status condition being inflicted or removed.
   #-----------------------------------------------------------------------------
   alias dx_pbInflictStatus pbInflictStatus 
   def pbInflictStatus(*args)
@@ -595,6 +595,51 @@ class Battle::Battler
     return if args[3] && !self.opposes?(args[3])
     if ![:NONE, oldStatus].include?(self.status)
       @battle.pbDeluxeTriggers(self, nil, "BattlerStatusChange", self.status, @species, @pokemon.types)
+    end
+  end
+  
+  alias dx_pbCureStatus pbCureStatus
+  def pbCureStatus(showMessages = true)
+    oldStatus = status
+    dx_pbCureStatus(showMessages)
+    if oldStatus != :NONE
+      @battle.pbDeluxeTriggers(self, nil, "BattlerStatusCured", oldStatus, @species, @pokemon.types)
+    end
+  end
+  
+  alias dx_pbConfuse pbConfuse
+  def pbConfuse(msg = nil)
+    oldEffect = @effects[PBEffects::Confusion]
+    dx_pbConfuse(msg)
+    if @effects[PBEffects::Confusion] > oldEffect && oldEffect == 0
+      @battle.pbDeluxeTriggers(self, nil, "BattlerConfusionStart", @species, @pokemon.types)
+    end
+  end
+  
+  alias dx_pbCureConfusion pbCureConfusion
+  def pbCureConfusion
+    oldEffect = @effects[PBEffects::Confusion]
+    dx_pbCureConfusion
+    if @effects[PBEffects::Confusion] == 0 && oldEffect > 0
+      @battle.pbDeluxeTriggers(self, nil, "BattlerConfusionEnd", @species, @pokemon.types)
+    end
+  end
+  
+  alias dx_pbAttract pbAttract
+  def pbAttract(user, msg = nil)
+    oldEffect = @effects[PBEffects::Attract]
+    dx_pbAttract(user, msg)
+    if @effects[PBEffects::Attract] > oldEffect && oldEffect == -1
+      @battle.pbDeluxeTriggers(self, nil, "BattlerAttractStart", @species, @pokemon.types)
+    end
+  end
+  
+  alias dx_pbCureAttract pbCureAttract
+  def pbCureAttract
+    oldEffect = @effects[PBEffects::Attract]
+    dx_pbCureAttract
+    if @effects[PBEffects::Attract] == -1 && oldEffect >= 0
+      @battle.pbDeluxeTriggers(self, nil, "BattlerAttractEnd", @species, @pokemon.types)
     end
   end
   

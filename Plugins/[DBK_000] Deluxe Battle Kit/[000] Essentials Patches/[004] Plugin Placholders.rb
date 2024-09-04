@@ -205,6 +205,7 @@ class Pokemon
   def tera?;           return false; end
   def tera_form?;      return false; end
   def celestial?;      return false; end
+  def super_shiny_hue; return 0;     end
 end
 
 class Battle::Battler
@@ -230,6 +231,7 @@ class Battle::FakeBattler
   def style?;          return false; end
   def tera?;           return false; end
   def celestial?;      return false; end
+  def visiblePokemon;  return @pokemon; end
 end
 
 class Battle
@@ -247,4 +249,8 @@ class Battle::Move
   def pbBaseDamageTera(baseDmg, user, type)
     return baseDmg
   end
+end
+
+class Battle::Scene
+  def pbAnimateSubstitute(*args); end
 end

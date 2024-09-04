@@ -2,7 +2,7 @@
 # Implements new Battle Rules.
 #===============================================================================
 class Game_Temp
-  attr_accessor :old_player_data, :old_player_bag, :old_player_party
+  attr_accessor :old_player_data, :old_player_bag, :old_player_party, :inverse_battle
   
   alias dx_add_battle_rule add_battle_rule
   def add_battle_rule(rule, var = nil)
@@ -13,6 +13,7 @@ class Game_Temp
     when "tutorialcapture"   then rules["captureTutorial"]   = true
     when "autobattle"        then rules["autoBattle"]        = true
     when "towerbattle"       then rules["towerBattle"]       = false
+    when "inversebattle"     then rules["inverseBattle"]     = true
     when "nobag"             then rules["noBag"]             = true
     when "wildmegaevolution" then rules["wildBattleMode"]    = :mega
     when "raidstylecapture"  then rules["raidStyleCapture"]  = var
@@ -86,7 +87,6 @@ def additionalRules
   ]
 end
 
-
 #===============================================================================
 # Sets new Battle Rules during battle prep.
 #===============================================================================
@@ -97,15 +97,15 @@ module BattleCreationHelperMethods
   def prepare_battle(battle)
     return BattleCreationHelperMethods.dx_prepare_battle(battle) if pbInSafari?
     battleRules = $game_temp.battle_rules
-    battle.captureSuccess   = battleRules["captureSuccess"]   if !battleRules["captureSuccess"].nil?
-    battle.tutorialCapture  = battleRules["captureTutorial"]  if !battleRules["captureTutorial"].nil?
-    battle.raidStyleCapture = battleRules["raidStyleCapture"] if !battleRules["raidStyleCapture"].nil?
-    battle.wildBattleMode   = battleRules["wildBattleMode"]   if !battleRules["wildBattleMode"].nil?
-    battle.controlPlayer    = battleRules["autoBattle"]       if !battleRules["autoBattle"].nil?
-    battle.internalBattle   = battleRules["towerBattle"]      if !battleRules["towerBattle"].nil?
-    battle.noBag            = battleRules["noBag"]            if !battleRules["noBag"].nil?
-    battle.introText        = battleRules["battleIntroText"]  if !battleRules["battleIntroText"].nil?
-    battle.slideSpriteStyle = battleRules["slideSpriteStyle"] if !battleRules["slideSpriteStyle"].nil?
+    battle.captureSuccess     = battleRules["captureSuccess"]   if !battleRules["captureSuccess"].nil?
+    battle.tutorialCapture    = battleRules["captureTutorial"]  if !battleRules["captureTutorial"].nil?
+    battle.raidStyleCapture   = battleRules["raidStyleCapture"] if !battleRules["raidStyleCapture"].nil?
+    battle.wildBattleMode     = battleRules["wildBattleMode"]   if !battleRules["wildBattleMode"].nil?
+    battle.controlPlayer      = battleRules["autoBattle"]       if !battleRules["autoBattle"].nil?
+    battle.internalBattle     = battleRules["towerBattle"]      if !battleRules["towerBattle"].nil?
+    battle.noBag              = battleRules["noBag"]            if !battleRules["noBag"].nil?
+    battle.introText          = battleRules["battleIntroText"]  if !battleRules["battleIntroText"].nil?
+    battle.slideSpriteStyle   = battleRules["slideSpriteStyle"] if !battleRules["slideSpriteStyle"].nil?
     if !battleRules["midbattleScript"].nil?
       script = battleRules["midbattleScript"]
       if script.is_a?(Symbol)
@@ -245,7 +245,6 @@ module Battle::CatchAndStoreMixin
   end
 end
 
-
 #===============================================================================
 # Utilities for battle_rules["raidStyleCapture"].
 #===============================================================================
@@ -343,6 +342,27 @@ class Battle::Battler
   end
 end
 
+#===============================================================================
+# Edited for battle_rules["inverseBattle"].
+#===============================================================================
+module GameData
+  class Type
+    alias dx_effectiveness effectiveness
+    def effectiveness(other_type)
+      return Effectiveness::NORMAL_EFFECTIVE_ONE if !other_type
+      ret = dx_effectiveness(other_type)
+      if $game_temp.inverse_battle
+        case ret
+        when Effectiveness::INEFFECTIVE, Effectiveness::NOT_VERY_EFFECTIVE
+          ret = Effectiveness::SUPER_EFFECTIVE
+        when Effectiveness::SUPER_EFFECTIVE
+          ret = Effectiveness::NOT_VERY_EFFECTIVE
+        end
+      end
+      return ret
+    end
+  end
+end
 
 #===============================================================================
 # Adds new Battle Rules to the Battle class.
@@ -519,7 +539,7 @@ class Battle::Scene::Animation::Intro < Battle::Scene::Animation
           f = 0
           w = bitmap.width
           h = bitmap.height
-          deltaY = h - findTop(bitmap) - 12
+          deltaY = h - findTop(bitmap)
           s.setDelta(0, 0, deltaY)
           s.moveDelta(0, appearTime - 3, 0, (deltaY * deltaMult).floor)
           appearTime.times do |i|
@@ -544,7 +564,7 @@ def findTop(bitmap)
   return 0 if !bitmap
   (1..bitmap.height).each do |i|
     bitmap.width.times do |j|
-      return i if bitmap.get_pixel(j, bitmap.height - i).alpha > 0
+      return i if bitmap.get_pixel(j, i).alpha > 0
     end
   end
   return 0
@@ -633,7 +653,6 @@ class Pokemon
   end
 end
 
-
 #===============================================================================
 # Event handlers.
 #===============================================================================
@@ -659,7 +678,7 @@ EventHandlers.add(:on_wild_pokemon_created, :edit_wild_pokemon,
 )
 
 #-------------------------------------------------------------------------------
-# Used for battle_rules["tempPlayer"], ["tempBag"], and ["tempParty"].
+# Used for battle_rules["tempPlayer"], ["tempBag"], ["tempParty"] and ["inverseBattle"].
 #-------------------------------------------------------------------------------
 EventHandlers.add(:on_start_battle, :change_player_and_party,
   proc {
@@ -717,11 +736,12 @@ EventHandlers.add(:on_start_battle, :change_player_and_party,
     $game_temp.old_player_data = old_player_data
     $game_temp.old_player_bag = old_player_bag
     $game_temp.old_player_party = old_player_party
+    $game_temp.inverse_battle = battleRules["inverseBattle"]
   }
 )
 
 #-------------------------------------------------------------------------------
-# Reverts battle_rules["tempPlayer"], ["tempBag"], and ["tempParty"].
+# Reverts battle_rules["tempPlayer"], ["tempBag"], ["tempParty"] and ["inverseBattle"].
 #-------------------------------------------------------------------------------
 EventHandlers.add(:on_end_battle, :revert_player_and_party,
   proc { |decision, canLose|
@@ -739,5 +759,6 @@ EventHandlers.add(:on_end_battle, :revert_player_and_party,
       $player.party = $game_temp.old_player_party
       $game_temp.old_player_party = nil
     end
+    $game_temp.inverse_battle = nil
   }
 )

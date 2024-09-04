@@ -124,6 +124,14 @@ class Battle::Battler
   end
   
   #-----------------------------------------------------------------------------
+  # Utility for getting the Pokemon a battler is displaying as.
+  #-----------------------------------------------------------------------------
+  def visiblePokemon
+    return @effects[PBEffects::TransformPokemon] if @effects[PBEffects::TransformPokemon]
+    return displayPokemon
+  end
+  
+  #-----------------------------------------------------------------------------
   # Utility for checking if the battler is at low HP.
   #-----------------------------------------------------------------------------
   def hasLowHP?
@@ -237,6 +245,7 @@ class Battle::Battler
   #-----------------------------------------------------------------------------
   def pbSimpleFormChange(newForm, msg)
     return if fainted? || @effects[PBEffects::Transform] || @form == newForm
+    @battle.scene.pbAnimateSubstitute(self, :hide)
     oldForm = @form
     oldDmg = @totalhp - @hp
     @form = newForm
@@ -244,11 +253,13 @@ class Battle::Battler
     pbUpdate(true)
     @hp = @totalhp - oldDmg
     @effects[PBEffects::WeightChange] = 0 if Settings::MECHANICS_GENERATION >= 6
+    @mosaicChange = true if defined?(@mosaicChange)
     @battle.scene.pbChangePokemon(self, @pokemon)
     @battle.scene.pbRefreshOne(@index)
     @battle.pbDisplay(msg) if msg && msg != ""
     PBDebug.log("[Form changed] #{pbThis} changed from form #{oldForm} to form #{newForm}")
     @battle.pbSetSeen(self)
+    @battle.scene.pbAnimateSubstitute(self, :show)
   end
   
   #-----------------------------------------------------------------------------

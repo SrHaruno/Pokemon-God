@@ -15,12 +15,34 @@ class Battle::Scene
   end
   
   #-----------------------------------------------------------------------------
+  # Rewritten to toggle databoxes during move animations.
+  #-----------------------------------------------------------------------------
+  def pbAnimation(moveID, user, targets, hitNum = 0)
+    animID = pbFindMoveAnimation(moveID, user.index, hitNum)
+    return if !animID
+    anim = animID[0]
+    target = (targets.is_a?(Array)) ? targets[0] : targets
+    animations = pbLoadBattleAnimations
+    return if !animations
+    pbToggleDataboxes if Settings::HIDE_DATABOXES_DURING_MOVES
+    pbSaveShadows do
+      if animID[1]
+        pbAnimationCore(animations[anim], target, user, true)
+      else
+        pbAnimationCore(animations[anim], user, target)
+      end
+    end
+    pbToggleDataboxes(true) if Settings::HIDE_DATABOXES_DURING_MOVES
+  end
+  
+  #-----------------------------------------------------------------------------
   # Calls a flee animation for wild Pokemon.
   #-----------------------------------------------------------------------------
   def pbBattlerFlee(battler, msg = nil)
     @briefMessage = false
     fleeAnim = Animation::BattlerFlee.new(@sprites, @viewport, battler.index, @battle)
     dataBoxAnim = Animation::DataBoxDisappear.new(@sprites, @viewport, battler.index)
+    pbAnimateSubstitute(battler, :break)
     loop do
       fleeAnim.update
       dataBoxAnim.update
@@ -64,12 +86,14 @@ class Battle::Scene
   #-----------------------------------------------------------------------------
   def pbItemUseAnimation(idxBattler)
     itemAnim = Animation::UseItem.new(@sprites, @viewport, idxBattler)
+    pbAnimateSubstitute(idxBattler, :hide)
     loop do
       itemAnim.update
       pbUpdate
       break if itemAnim.animDone?
     end
     itemAnim.dispose
+    pbAnimateSubstitute(idxBattler, :show)
   end
   
   #-----------------------------------------------------------------------------
@@ -99,6 +123,16 @@ class Battle::Scene
       tone = lerp(255, 0, 0.4, timer_start, System.uptime)
       @viewport.tone.set(tone, tone, tone, 0)
       break if tone <= 0
+    end
+  end
+  
+  #-----------------------------------------------------------------------------
+  # Utility for pausing further scene processing for a given number of seconds.
+  #-----------------------------------------------------------------------------
+  def pbPauseScene(seconds = 1)
+    timer_start = System.uptime
+    until System.uptime - timer_start >= seconds
+      pbUpdate
     end
   end
 end
@@ -329,14 +363,15 @@ class Battle::Scene::Animation
   #-----------------------------------------------------------------------------
   # Used for animation compatibility with animated Pokemon sprites.
   #-----------------------------------------------------------------------------  
-  def addPokeSprite(poke, origin = PictureOrigin::TOP_LEFT)
+  def addPokeSprite(poke, back = false, origin = PictureOrigin::BOTTOM)
     case poke
     when Pokemon
       s = PokemonSprite.new(@viewport)
-      s.setPokemonBitmap(poke)
-    when Array
+      s.setPokemonBitmap(poke, back)
+    when Hash
       s = PokemonSprite.new(@viewport)
-      s.setSpeciesBitmap(*poke)
+      s.setSpeciesBitmap(poke[:species], poke[:gender], poke[:form], poke[:shiny], poke[:shadow], back)
+	  s.hue = poke[:hue] if defined?(s.hue)
     end
     num = @pictureEx.length
     picture = PictureEx.new(s.z)
@@ -361,15 +396,17 @@ class Battle::Scene::Animation
     battleBG.moveTone(delay, 4, tone)
     battle.allBattlers.each do |b|
       battler = addSprite(@sprites["pokemon_#{b.index}"], PictureOrigin::BOTTOM)
-      shadow = addSprite(@sprites["shadow_#{b.index}"], PictureOrigin::CENTER)
       box = addSprite(@sprites["dataBox_#{b.index}"])
+      if !PluginManager.installed?("[DBK] Animated Pokémon System")
+        shadow = addSprite(@sprites["shadow_#{b.index}"], PictureOrigin::CENTER)
+        shadow.moveTone(delay, 4, tone)
+      end
       if b.index == idxBattler
         battler.setSE(delay, sound) if sound
         battler.moveTone(delay, 4, Tone.new(255, 255, 255, 255))
       else
         battler.moveTone(delay, 4, tone)
-      end
-      shadow.moveTone(delay, 4, tone)
+      end 
       box.moveTone(delay, 4, tone)
     end
   end
@@ -383,12 +420,14 @@ class Battle::Scene::Animation
     battleBG.moveTone(delay, 6, tone)
     battle.allBattlers.each do |b|
       battler = addSprite(@sprites["pokemon_#{b.index}"], PictureOrigin::BOTTOM)
-      shadow = addSprite(@sprites["shadow_#{b.index}"], PictureOrigin::CENTER)
       box = addSprite(@sprites["dataBox_#{b.index}"])
+      if !PluginManager.installed?("[DBK] Animated Pokémon System")
+        shadow = addSprite(@sprites["shadow_#{b.index}"], PictureOrigin::CENTER)
+        shadow.moveOpacity(delay, 6, 255)
+        shadow.moveTone(delay, 6, tone)
+      end
       battler.moveOpacity(delay, 6, 255)
-      battler.moveTone(delay, 6, tone)
-      shadow.moveOpacity(delay, 6, 255)
-      shadow.moveTone(delay, 6, tone)
+      battler.moveTone(delay, 6, tone) 
       box.moveTone(delay, 6, tone)
     end
   end
@@ -456,21 +495,21 @@ class Battle::Scene::Animation
   #-----------------------------------------------------------------------------
   def dxSetPokemon(poke, delay, mirror = false, offset = false, opacity = 100, zoom = 100)
     battle_pos = Battle::Scene.pbBattlerPosition(1, 1)
-    picturePOKE = addPokeSprite(poke, PictureOrigin::BOTTOM)
+    picturePOKE = addPokeSprite(poke, false, PictureOrigin::BOTTOM)
     picturePOKE.setVisible(delay, false)
     spritePOKE = @pictureEx.length - 1
     @pictureSprites[spritePOKE].mirror = mirror
     @pictureSprites[spritePOKE].x = battle_pos[0] - 128
     @pictureSprites[spritePOKE].y = battle_pos[1] + 80
     @pictureSprites[spritePOKE].y += 20 if offset
-    @pictureSprites[spritePOKE].ox = @pictureSprites[spritePOKE].bitmap.width / 2
-    @pictureSprites[spritePOKE].oy = @pictureSprites[spritePOKE].bitmap.height
     @pictureSprites[spritePOKE].z = 999
     case poke
     when Pokemon
       poke.species_data.apply_metrics_to_sprite(@pictureSprites[spritePOKE], 1)
-    when Array
-      metrics_data = GameData::SpeciesMetrics.get_species_form(poke[0], poke[2])
+    when Hash
+      data = [poke[:species], poke[:form]]
+      data.push(poke[:gender] == 1) if PluginManager.installed?("[DBK] Animated Pokémon System")
+      metrics_data = GameData::SpeciesMetrics.get_species_form(*data)
       metrics_data.apply_metrics_to_sprite(@pictureSprites[spritePOKE], 1)
     end
     picturePOKE.setXY(delay, @pictureSprites[spritePOKE].x, @pictureSprites[spritePOKE].y)
@@ -487,22 +526,21 @@ class Battle::Scene::Animation
     battle_pos = Battle::Scene.pbBattlerPosition(1, 1)
     picturePOKE = []
     for i in [ [2, 0], [-2, 0], [0, 2], [0, -2], [2, 2], [-2, -2], [2, -2], [-2, 2], [0, 0] ]
-      outline = addPokeSprite(poke, PictureOrigin::BOTTOM)
+      outline = addPokeSprite(poke, false, PictureOrigin::BOTTOM)
       outline.setVisible(delay, false)
       sprite = @pictureEx.length - 1
       @pictureSprites[sprite].mirror = mirror
       @pictureSprites[sprite].x = battle_pos[0] + i[0] - 128
       @pictureSprites[sprite].y = battle_pos[1] + i[1] + 80
       @pictureSprites[sprite].y += 20 if offset
-      @pictureSprites[sprite].ox = @pictureSprites[sprite].bitmap.width / 2
-      @pictureSprites[sprite].oy = @pictureSprites[sprite].bitmap.height
       @pictureSprites[sprite].z = 999
       case poke
       when Pokemon
         poke.species_data.apply_metrics_to_sprite(@pictureSprites[sprite], 1)
-      when Array
-        set = (poke[8]) ? 2 : poke[7] ? 1 : 0
-        metrics_data = GameData::SpeciesMetrics.get_species_form(poke[0], poke[2])
+      when Hash
+        data = [poke[:species], poke[:form]]
+        data.push(poke[:gender] == 1) if PluginManager.installed?("[DBK] Animated Pokémon System")
+        metrics_data = GameData::SpeciesMetrics.get_species_form(*data)
         metrics_data.apply_metrics_to_sprite(@pictureSprites[sprite], 1)
       end
       outline.setXY(delay, @pictureSprites[sprite].x, @pictureSprites[sprite].y)
@@ -511,6 +549,15 @@ class Battle::Scene::Animation
       picturePOKE.push([outline, sprite])
     end
     return picturePOKE
+  end
+  
+  #-----------------------------------------------------------------------------
+  # Specifically used to reapply spot patterns to Spinda sprites during animations.
+  #-----------------------------------------------------------------------------
+  def dxSetSpotPatterns(pkmn, sprite)
+    alter_bitmap_function = MultipleForms.hasFunction?(pkmn, "alterBitmap")
+    return if !alter_bitmap_function
+    sprite.setPokemonBitmap(pkmn)
   end
   
   #-----------------------------------------------------------------------------

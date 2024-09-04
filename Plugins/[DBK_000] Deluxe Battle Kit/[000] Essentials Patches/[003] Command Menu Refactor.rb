@@ -177,14 +177,13 @@ class Battle::Scene
   # Edited for command menu display.
   #-----------------------------------------------------------------------------
   def pbCommandMenu(idxBattler, firstAction)
-    shadowTrainer = (GameData::Type.exists?(:SHADOW) && @battle.trainerBattle?)
-    wonderLauncher = defined?(@battle.launcherBattle?) && @battle.launcherBattle?
     bagCommand = _INTL("Bag")
+    shadowTrainer = (GameData::Type.exists?(:SHADOW) && @battle.trainerBattle?)
     runCommand = (shadowTrainer) ? _INTL("Call") : (firstAction) ? _INTL("Run") : _INTL("Cancel")
     if @battle.raidBattle?
       runCommand = _INTL("Cheer")
       mode = 5
-    elsif wonderLauncher
+    elsif @battle.launcherBattle?
       bagCommand = _INTL("Launch")
       mode = (shadowTrainer) ? 8 : (firstAction) ? 6 : 7
     else

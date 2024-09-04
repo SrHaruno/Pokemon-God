@@ -690,5 +690,4 @@ MapPosition = 0,6,11
 #-------------------------------
 [159]   # Tranquor_House
 Name = Tranquor Village
-Outdoor = true
 MapPosition = 0,6,11
