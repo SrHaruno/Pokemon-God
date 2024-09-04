@@ -561,7 +561,7 @@ MapPosition = 0,16,14
 Name = Jamsmil City
 MapPosition = 0,17,3
 #-------------------------------
-[126]   # Nikolai's Room
+[126]   # Rooms
 Name = Jamsmil City
 MapPosition = 0,17,3
 #-------------------------------
@@ -675,7 +675,7 @@ Name = Jasmil City
 MapPosition = 0,17,3
 #-------------------------------
 [156]   # Tranquor Village
-Name = 
+Name = Tranquor Village
 Outdoor = true
 MapPosition = 0,6,11
 BattleBack = Water
@@ -686,4 +686,9 @@ MapPosition = 0,6,11
 #-------------------------------
 [158]   # Tranquor PC 2F
 Name = Tranquor Village
+MapPosition = 0,6,11
+#-------------------------------
+[159]   # Tranquor_House
+Name = Tranquor Village
+Outdoor = true
 MapPosition = 0,6,11
