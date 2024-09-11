@@ -1,81 +1,85 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 
-#First Rival Battle#
+# First Rival Battle
 #-------------------------------
-[RIVAL1,Bruno] #Player has Graling
-LoseText = Nice Battle!
+[RIVAL1,Bruno,1] #Grass Starter
+LoseText = Yes, my starter is weak to yours. A good trainer wins by overcoming tough matchups, even on disadvantage.
 Pokemon = AXOLOBY,5
+    Gender = Male
 	Moves = TACKLE,TAILWHIP
-	
 #-------------------------------
-[RIVAL1,Bruno,1] #Player has Egdon
-LoseText = Nice Battle!
+[RIVAL1,Bruno,2] #Fire Starter
+LoseText = Yes, my starter is weak to yours. A good trainer wins by overcoming tough matchups, even on disadvantage.
 Pokemon = GRALING,5
-	Moves = SCRATCH,LEER
-	
+	Gender = Male
+	Moves = TACKLE,LEER
 #-------------------------------
-[RIVAL1,Bruno,2] #Player has Axoloby
-LoseText = Nice Battle!
+[RIVAL1,Bruno,3] #Water Starter
+LoseText = Yes, my starter is weak to yours. A good trainer wins by overcoming tough matchups, even on disadvantage.
 Pokemon = EGDON,5
-	Moves = TACKLE,TAILWHIP
-
-
-
-#Second Rival Battle
-#-------------------------------
-[RIVAL1,Bruno,3] #Player has Graling
-LoseText = Nice Battle!
-Pokemon = PURIRD,10
-Pokemon = ORBEAF,16
 	Gender = Male
-Pokemon = AXOLOBY,12
-	
+	Moves = SCRATCH,TAILWHIP
+
+
+
+# Second Rival Battle
 #-------------------------------
-[RIVAL1,Bruno,4] #Player has Egdon
-LoseText = Nice Battle!
-Pokemon = PURIRD,10
-Pokemon = MAGIKARP,10
-Pokemon = GRALING,12
-	
-#-------------------------------
-[RIVAL1,Bruno,5] #Player has Axoloby
-LoseText = Nice Battle!
-Pokemon = PURIRD,10
-Pokemon = ORBEAF,16
+[RIVAL1,Bruno,4] #Grass Starter
+LoseText = My team still isn't on point...
+Pokemon = PURIRD,9
+Pokemon = FLAMUNNY,9
 	Gender = Male
-Pokemon = EGDON,12
-
-
-
-#Third Rival Battle
-#-------------------------------
-[RIVAL1,Bruno,6] #Player has Graling
-LoseText = Nice Battle!
-Pokemon = YOUNROW,14
-Pokemon = ORBEAF,16
+Pokemon = AXOLOBY,10
 	Gender = Male
+#-------------------------------
+[RIVAL1,Bruno,5] #Fire Starter
+LoseText = My team still isn't on point...
+Pokemon = PURIRD,9
+Pokemon = MAGIKARP,9
+Pokemon = GRALING,10
+	Gender = Male
+#-------------------------------
+[RIVAL1,Bruno,6] #Water Starter
+LoseText = My team still isn't on point...
+Pokemon = PURIRD,9
+Pokemon = ORBEAF,9
+	Gender = Male
+Pokemon = EGDON,10
+	Gender = Male
+
+
+
+# Third Rival Battle
+#-------------------------------
+[RIVAL1,Bruno,7] #Grass Starter
+LoseText = Hopefully the locals enjoyed this battle!
+Pokemon = PASSHARP,14
+Pokemon = FLAMUNNY,16
 Pokemon = KITSU,16
 	Gender = Male
-Pokemon = AXOLOBY,17
-	
+Pokemon = AXOLOBY,16
+Gender = Male
 #-------------------------------
-[RIVAL1,Bruno,7] #Player has Egdon
-LoseText = Nice Battle!
-Pokemon = YOUNROW,14
+[RIVAL1,Bruno,8] #Fire Starter
+LoseText = Hopefully the locals enjoyed this battle!
+Pokemon = PASSHARP,14
 Pokemon = GYARADOS,20
 Pokemon = KITSU,16
 	Gender = Male
-Pokemon = GRALING,17
-	
+Pokemon = GRALING,16
+Gender = Male
 #-------------------------------
-[RIVAL1,Bruno,8] #Player has Axoloby
-LoseText = Nice Battle!
-Pokemon = YOUNROW,14
+[RIVAL1,Bruno,9] #Water Starter
+LoseText = Hopefully the locals enjoyed this battle!
+Pokemon = PASSHARP,14
 Pokemon = ORBEAF,16
 	Gender = Male
 Pokemon = KITSU,16
 	Gender = Male
-Pokemon = EGDON,17
+Pokemon = EGDON,16
+	Gender = Male
+
+
 
 #City/Gym Battles
 

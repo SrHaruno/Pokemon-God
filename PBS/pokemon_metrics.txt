@@ -6360,18 +6360,6 @@ FrontSprite = -1,13
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
-[HERMITURRIM]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[KARANSHELL]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
 [KLEPTUNO]
 BackSprite = 0,0
 FrontSprite = 0,0
