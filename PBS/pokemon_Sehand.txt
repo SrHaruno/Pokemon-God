@@ -972,18 +972,19 @@ EVs = SPEED,1
 CatchRate = 128
 Happiness = 50
 Abilities = INNERFOCUS
-Moves = 1,SCRATCH,1,LEER,4,TAUNT,8,SHADOWSNEAK,12,KARATECHOP,16,WORKUP,20,FLAMEWHEEL,24,FEINTATTACK,28,FIREPUNCH,32,LOWSWEEP,36,SWORDSDANCE,40,FLAREBLITZ,44,NIGHTSLASH,48,CLOSECOMBAT
+Moves = 1,SCRATCH,1,LEER,4,TAUNT,8,SHADOWSNEAK,12,KARATECHOP,16,WORKUP,20,FLAMEWHEEL,24,FEINTATTACK,28,FIREPUNCH,32,LOWSWEEP,35,SWORDSDANCE,38,FLAREBLITZ,41,NIGHTSLASH,44,CLOSECOMBAT
 TutorMoves = PROTECT,ROCKSMASH
 EggMoves = BULKUP
 EggGroups = Field
 HatchSteps = 5120
 Height = 0.7
 Weight = 6.9
-Color = Gray
+Color = Red
 Shape = Bipedal
-Habitat = Urban
+Habitat = Forest
 Category = WIP
 Pokedex = ???
+Evolutions = SAMURUNNY,Item,FIRESTONE
 CallRateSOS = 10
 #-------------------------------
 [SAMURUNNY]
@@ -998,7 +999,7 @@ CatchRate = 200
 Happiness = 50
 Abilities = INNERFOCUS
 HiddenAbilities = SPEEDBOOST
-Moves = 0,INFERNORAZOR,1,SCRATCH,1,LEER,1,TAUNT,1,SHADOWSNEAK,12,KARATECHOP,16,WORKUP,20,FLAMEWHEEL,24,FEINTATTACK,28,FIREPUNCH,32,LOWSWEEP,38,SWORDSDANCE,44,FLAREBLITZ,50,NIGHTSLASH,56,CLOSECOMBAT
+Moves = 0,INFERNORAZOR,1,SCRATCH,1,LEER,1,TAUNT,1,SHADOWSNEAK,1,KARATECHOP
 TutorMoves = PROTECT,ROCKSMASH
 EggGroups = Field
 HatchSteps = 1
@@ -1553,7 +1554,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = WIP
-Pokedex = ???
+Pokedex = ???FLAM
 Evolutions = MOSSENGE,Level,25
 CallRateSOS = 10
 #-------------------------------
@@ -2814,8 +2815,6 @@ Shape = Quadruped
 Habitat = Mountain
 Category = Legend
 Pokedex = Legends said that this Pokémon destroyed an whole kingdom by himself. It's flames are so powerful that it can melt metal in seconds.
-
-
 #-------------------------------
 [CHINDORION]
 Name = Chindorion
@@ -2880,7 +2879,7 @@ CatchRate = 45
 Happiness = 100
 Abilities = UNSEENTHIEF
 Moves = 1,TACKLE
-TutorMoves = TACKLE
+TutorMoves = PROTECT
 EggGroups = Dragon,Flying
 HatchSteps = 7680
 Height = 0.4
@@ -2904,7 +2903,7 @@ CatchRate = 45
 Happiness = 100
 Abilities = UNSEENTHIEF
 Moves = 1,TACKLE
-TutorMoves = TACKLE
+TutorMoves = PROTECT
 EggGroups = Dragon,Flying
 HatchSteps = 7680
 Height = 0.4
@@ -2915,8 +2914,8 @@ Habitat = Grassland
 Category = Egg Thiefer
 Pokedex = ???
 #-------------------------------
-[PLATE_1]
-Name = Plate
+[SOLISAUR]
+Name = Solisaur
 Types = FIRE,DRAGON
 BaseStats = 80,55,70,32,55,70
 GenderRatio = Female25Percent
@@ -2927,7 +2926,7 @@ CatchRate = 45
 Happiness = 100
 Abilities = PHOTOSYNTHESIS
 Moves = 1,TACKLE
-TutorMoves = TACKLE
+TutorMoves = PROTECT
 EggGroups = Dragon,Field
 HatchSteps = 7680
 Height = 0.4
@@ -2937,10 +2936,10 @@ Shape = Quadruped
 Habitat = Grassland
 Category = Sun Absorber
 Pokedex = ???
-Evolutions = PLATE_2,Level,35
+Evolutions = STEGOSOLIS,Level,35
 #-------------------------------
-[PLATE_2]
-Name = Plate2
+[STEGOSOLIS]
+Name = Stegosolis
 Types = FIRE,DRAGON
 BaseStats = 121,80,100,40,80,100
 GenderRatio = Female25Percent
@@ -2951,7 +2950,7 @@ CatchRate = 45
 Happiness = 100
 Abilities = PHOTOSYNTHESIS
 Moves = 1,TACKLE
-TutorMoves = TACKLE
+TutorMoves = PROTECT
 EggGroups = Dragon,Field
 HatchSteps = 7680
 Height = 0.4
@@ -2961,7 +2960,6 @@ Shape = Quadruped
 Habitat = Grassland
 Category = Sun Absorber
 Pokedex = ???
-
 
 
 

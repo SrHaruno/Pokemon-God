@@ -504,7 +504,7 @@ BattleBack = Cave1
 #-------------------------------
 [108]   # Gigantopolis_HS1
 Name = Gigantopolis
-MapPosition = 0,12,4
+MapPosition = 0,13,3
 #-------------------------------
 [109]   # Gigantopolis PC
 Name = Gigantopolis
@@ -512,7 +512,7 @@ MapPosition = 0,12,3
 #-------------------------------
 [110]   # Game Corner
 Name = Gigantopolis
-MapPosition = 0,12,3
+MapPosition = 0,13,3
 #-------------------------------
 [111]   # Tourmaline PC 2F
 Name = Tourmaline city
@@ -522,7 +522,7 @@ TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [112]   # Departament Store
 Name = Gigantopolis
-MapPosition = 0,12,3
+MapPosition = 0,13,3
 #-------------------------------
 [113]   # 2F
 Name = Gigantopolis
@@ -591,6 +591,18 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,14,3
 MapSize = 2,1100
+#-------------------------------
+[135]   # Giga. Gate
+Name = Route 12
+MapPosition = 0,14,3
+#-------------------------------
+[136]   # Giga. Condo
+Name = Gigantopolis
+MapPosition = 0,13,3
+#-------------------------------
+[139]   # Giga. Condo_2
+Name = Gigantopolis
+MapPosition = 0,13,3
 #-------------------------------
 [140]   # Route 22
 Name = Route 22

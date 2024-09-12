@@ -6384,12 +6384,6 @@ FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[EGG_2]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
 [EDELORD]
 BackSprite = 0,0
 FrontSprite = 0,0
@@ -6408,14 +6402,26 @@ FrontSprite = 6,20
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[INFERLORD]
+[FRILLZARD]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[PLATE_2]
+[PASSCIZOR]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[PETRILLISH]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[STEGOSOLIS]
+BackSprite = 0,0
+FrontSprite = -2,10
+ShadowX = -4
+ShadowSize = 3
