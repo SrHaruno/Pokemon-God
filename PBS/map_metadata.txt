@@ -590,6 +590,7 @@ Name = Route 12
 Outdoor = true
 ShowArea = true
 MapPosition = 0,14,3
+BattleBack = Field
 MapSize = 2,1100
 #-------------------------------
 [135]   # Giga. Gate

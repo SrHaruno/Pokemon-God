@@ -1103,8 +1103,8 @@ Habitat = Grassland
 Category = Thunder God
 Pokedex = ???
 #-------------------------------
-[HUMMIRD]
-Name = Hummird
+[KISSADEE]
+Name = Kissadee
 Types = GRASS,FLYING
 BaseStats = 47,85,30,100,48,30
 GenderRatio = Female50Percent
@@ -1126,11 +1126,11 @@ Shape = Winged
 Habitat = Grassland
 Category = Humming bird
 Pokedex = ???
-Evolutions = POLLING,Level,22
+Evolutions = LOPHARMONY,Level,22
 CallRateSOS = 15
 #-------------------------------
-[POLLING]
-Name = Polling
+[LOPHARMONY]
+Name = Lopharmony
 Types = GRASS,FLYING
 BaseStats = 65,115,40,133,57,40
 GenderRatio = Female50Percent
@@ -1140,7 +1140,7 @@ EVs = SPEED,2
 CatchRate = 45
 Happiness = 50
 Abilities = BIGPECKS
-Moves = 1,PECK,1,GROWL,4,LEECHSEED,8,LEAFAGE,15,AERIALACE,18,RAZORLEAF,23,LEECHLIFE,26,AGILITY,30,DRILLPECK,33,ROOST,37,BRAVEBIRD,40,SEEDBOMB
+Moves = 1,PECK,1,GROWL,4,LEECHSEED,8,LEAFAGE,15,AERIALACE,18,RAZORLEAF,22,LEECHLIFE,26,AGILITY,30,DRILLPECK,33,ROOST,37,BRAVEBIRD,40,SEEDBOMB
 TutorMoves = PROTECT
 EggGroups = Grass,Flying
 HatchSteps = 3840

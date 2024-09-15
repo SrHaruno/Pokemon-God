@@ -100,9 +100,9 @@ LandDay,21
     30,PURIRD,3,5
     5,MOSLEEP,5
 LandNight,21
-    40,MOSLEEP,5
+	10,DWILD,3,5
     30,PURIRD,3,5
-    10,DWILD,3,5
+	40,MOSLEEP,5
 Water
 	80,MAGIKARP,5
 OldRod
@@ -114,34 +114,34 @@ SuperRod
 #-------------------------------
 [018] # Route 3
 LandDay,21
-    40,CHIKATE,4,6
-    30,MOMBER,4,6
-    10,EEVEE,10
+    40,CHIKATE,5,6
+    30,MOMBER,5,6
+    10,EEVEE,8
 LandNight,21
-    40,FLAMUNNY,4,6
-    30,PURIRD,4,6
-    10,EEVEE,10
+    40,FLAMUNNY,5,6
+    30,PURIRD,5,6
+    10,EEVEE,8
 #-------------------------------
 [039] # Route 4
 LandDay,21
-	40,DWILD,7,9
-    30,PASSCIZOR,7,9
-    20,SPARKATIEL,7,9
-    10,HUMMIRD,10
+	40,PURIRD,6,8
+	30,DWILD,8
+    20,SPARKATIEL,6,8
+    10,KISSADEE,9
 LandNight,21
-    40,CAPYBURA,7,9
-	30,MOSLEEP,8
-    20,SPARKATIEL,7,9
-    5,HUMMIRD,10
+    40,PURIRD,6,8
+	30,CAPYBURA,8
+    20,SPARKATIEL,6,8
+    10,KISSADEE,9
 #-------------------------------
 [040] # Route 5
 LandDay,21
 	40,KARANSHELL,7,9
-	30,MEDULLISH,6,8
+	30,MEDULLISH,7,8
     10,TURTEED,8
 LandNight,21
-    40,MEDULLISH,6,8
 	30,KARANSHELL,7,9
+	40,MEDULLISH,7,9
     10,TURTEED,8
 Water
 	80,MAGIKARP,5
@@ -160,37 +160,37 @@ LandDay,21
 	40,PASSCIZOR,9
 	30,CUBOLT,7,9	
 	20,KARAKID,8
-    10,HUMMIRD,10
+    10,KISSADEE,9
 LandNight,21
 	30,PASSCIZOR,9
 	40,CUBOLT,7,9	
-	20,FLAMUNNY,8
-    10,FRUCTERA,10
+	20,KARAKID,8
+    10,FRUCTERA,9
 #-------------------------------
 [052] # Route 7
 LandDay,21
-    40,CUBOLT,9,12
+    40,CUBOLT,9,10
     30,PASSCIZOR,9,10
 LandNight,21
-    30,CUBOLT,9,12
+    30,CUBOLT,9,10
     40,PASSCIZOR,9,10
 #-------------------------------
 [067] # Route 8
 Land,15
-	40,BOUDYENA,12,14
-	30,CUBTURN,11,13
+	40,BOUDYENA,10,14
+	30,CUBTURN,10,14
 	20,KITSU,10,14
 	10,VOODOLL,15
     5,FRILLZARD,15
 #-------------------------------
 [076] # Route 9
 Land,15
-    20,ROOGRE,12,14
+    20,ROOGRE,10,14
     5,PINATAYA,15
 #-------------------------------
 [079] # Route 10
 Land,15
-    20,ROOGRE,12,14
+    20,ROOGRE,10,14
     5,PINATAYA,15
 Water
 	80,MAGIKARP,5
@@ -203,33 +203,33 @@ SuperRod
 #-------------------------------
 [81] # Route 11
 LandDay,21
-    30,CHOPAXE,12,14
+    30,CHOPAXE,12,15
 LandNight,21
-    30,CHOPAXE,12,14
+    30,CHOPAXE,12,15
 #-------------------------------
 [133] # Route 12
 LandDay,21
-    30,CHOPAXE,13,15
+    30,CHOPAXE,12,15
 LandNight,21
-    30,CHOPAXE,13,15
+    30,CHOPAXE,12,15
 #-------------------------------
 [129] # Route 13
 LandDay,21
-    30,CHOPAXE,12,14
+    30,CHOPAXE,12,15
 LandNight,21
-    30,CHOPAXE,12,14
+    30,CHOPAXE,12,15
 #-------------------------------
 [82] # Route 14
 LandDay,21
-	40,PURIRD,13
-    30,TATURUG,12,14
-	20,LARVENGUE,12,14
-	20,SPYRE,12,14
+	40,PURIRD,14
+    30,TATURUG,10,12
+	20,LARVENGUE,10,12
+	20,SPYRE,10,12
 LandNight,21
-	20,PURIRD,13
-	30,TATURUG,12,14
-    40,LARVENGUE,12,14
-	20,SPYRE,12,14
+	20,PURIRD,10
+	30,TATURUG,10,12
+    40,LARVENGUE,10,12
+	20,SPYRE,10,12
 #-------------------------------
 [083] # Route 15
 LandDay,21
@@ -247,11 +247,11 @@ SuperRod
 #-------------------------------
 [140] # Route 22
 LandDay,21
-    40,DWILD,12,14
+    40,DWILD,12,15
 	30,PURIRD,13,15
 	10,EEVEE,12,15
 LandNight,21
-    40,CAPYBURA,12,14
+    40,CAPYBURA,12,15
 	30,PURIRD,13,15
 	10,EEVEE,12,15
 Water
@@ -265,11 +265,11 @@ SuperRod
 #-------------------------------
 [142] # Route 23
 LandDay,21
-    40,DWILD,12,14
+    40,DWILD,12,15
 	30,PURIRD,13,15
 	10,EEVEE,12,15
 LandNight,21
-    40,CAPYBURA,12,14
+    40,CAPYBURA,12,15
 	30,PURIRD,13,15
 	10,EEVEE,12,15
 
@@ -296,13 +296,13 @@ SuperRod
 #-------------------------------
 [041] # Mt.Hope
 Cave,7
-    40,UNOWN,8,10
-    5,SNAKRE,10
+    40,UNOWN,6,8
+    5,SNAKRE,9
 #-------------------------------
 [046] # Mt.Hope Route 5 Cave
 Cave,7
-    40,UNOWN,8,10
-    5,SNAKRE,10
+    40,UNOWN,6,8
+    5,SNAKRE,9
 Water
 	80,MAGIKARP,5
 OldRod
@@ -320,8 +320,8 @@ SuperRod
 [044] # Lunar Cave
 Cave,7
     40,FRUCTERA,7,10
-    30,MOSSELIN,9,11
-    10,DROMEDA,13
+    30,MOSSELIN,7,10
+    10,DROMEDA,12
 Water
 	80,MAGIKARP,5
 OldRod
@@ -348,7 +348,7 @@ SuperRod
 #-------------------------------
 [103] # Mt.Solar #Route 4 Side
 Cave,7
-	40,FRUCTERA,10
+	40,FRUCTERA,6,9
     30,MOMBER,7,9
 Water
 	80,MAGIKARP,5
@@ -361,8 +361,8 @@ SuperRod
 #-------------------------------
 [059] # Mt.Solar #Haunted Desert Entrance
 Cave,7
-	40,FRUCTERA,9,12
-	30,MOMBER,9,12
+	40,FRUCTERA,9,10
+	30,MOMBER,9,10
 Water
 	80,MAGIKARP,5
 OldRod
@@ -376,30 +376,30 @@ SuperRod
 #-------------------------------
 [068] # Haunted Desert
 LandDay,21
-	40,SUNCARAB,9,12
-    30,TRAPINCH,9,12
-    25,GIBLE,15
+	40,SUNCARAB,9,10
+    30,TRAPINCH,9,10
+    25,GIBLE,14
 LandNight,21
-    30,TRAPINCH,9,12
-    25,GIBLE,15
+    30,TRAPINCH,9,10
+    25,GIBLE,14
 #-------------------------------
 [069] # Forgotten Chamber
 Cave,7
-    40,FRUCTERA,9,12
-    30,MOSSELIN,9,12
+    40,FRUCTERA,9,10
+    30,MOSSELIN,9,10
 	
 	
 #-------------------------------
 [104] # Klepto Cave
 Cave,7
-    40,FRUCTERA,14,16
-	30,MOSSELIN,14,16
-	10,MEOWTUNO,12,14
+    40,FRUCTERA,12,15
+	30,MOSSELIN,9,12
+	10,MEOWTUNO,15
 #-------------------------------
 [105] # Klepto Cave B1F
 Cave,7
-    40,FRUCTERA,14,16
-	30,MOSSELIN,14,16
+    40,FRUCTERA,12,15
+	30,MOSSELIN,9,12
 	25,MEOWTUNO,12,14
 Water
 	80,MAGIKARP,5
@@ -409,14 +409,6 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33	
-	
-	
-#-------------------------------
-[106] # Connection Cave
-Cave,7
-    40,FRUCTERA,14,16
-    30,MOSSELIN,15
-	
 	
 #-------------------------------
 [107] # Gigantopolis Sewer
@@ -443,9 +435,9 @@ Land,21
 #-------------------------------
 [146] # Forest Area
 Land,21
-    40,SEWADDLE,10,13
+    40,SEWADDLE,10,15
 	30,VENIPEDE,12,14
-	20,SHROOMISH,10,13
+	20,SHROOMISH,9,15
 	5,BUDEW,15
 #-------------------------------
 [147] # Beach Area
