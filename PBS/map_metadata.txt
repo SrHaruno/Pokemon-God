@@ -277,6 +277,14 @@ Weather = Rain,20
 MapPosition = 0,22,4
 BattleBack = field
 #-------------------------------
+[061]   # Route 16
+Name = Route 16
+Outdoor = true
+ShowArea = true
+MapPosition = 0,3,11
+BattleBack = Water
+MapSize = 3,111000000
+#-------------------------------
 [066]   # Gigantopolis
 Name = Gigantopolis
 Outdoor = true
@@ -600,6 +608,15 @@ MapPosition = 0,14,3
 [136]   # Giga. Condo
 Name = Gigantopolis
 MapPosition = 0,13,3
+#-------------------------------
+[138]   # Route 17
+Name = Route 17
+Outdoor = true
+ShowArea = true
+Weather = Storm,30
+MapPosition = 0,1,9
+BattleBack = Water
+MapSize = 3,111011000
 #-------------------------------
 [139]   # Giga. Condo_2
 Name = Gigantopolis

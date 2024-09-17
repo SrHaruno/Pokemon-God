@@ -45,14 +45,14 @@ SuperRod
 Land,15
 	100,CRACKUUM,14,16
 #-------------------------------
-[156] # Gigantopolis
+[156] # Tranquor Village
 Water
 	40,MAGIKARP,15,19
 OldRod
     60,MAGIKARP,8,10
 GoodRod
-    60,MAGIKARP,15,19
-	30,BOTOLPHIN,15,19
+    60,MAGIKARP,10,12
+	30,BOTOLPHIN,15
 SuperRod
     20,GYARADOS,30,33
 
@@ -127,12 +127,12 @@ LandDay,21
 	40,PURIRD,6,8
 	30,DWILD,8
     20,SPARKATIEL,6,8
-    10,KISSADEE,9
+    10,FLORBIRB,9
 LandNight,21
     40,PURIRD,6,8
 	30,CAPYBURA,8
     20,SPARKATIEL,6,8
-    10,KISSADEE,9
+    10,FLORBIRB,9
 #-------------------------------
 [040] # Route 5
 LandDay,21
@@ -160,7 +160,7 @@ LandDay,21
 	40,PASSCIZOR,9
 	30,CUBOLT,7,9	
 	20,KARAKID,8
-    10,KISSADEE,9
+    10,FLORBIRB,9
 LandNight,21
 	30,PASSCIZOR,9
 	40,CUBOLT,7,9	
@@ -242,6 +242,32 @@ OldRod
     70,MAGIKARP,8,10
 GoodRod
     60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33	
+#-------------------------------
+[061] # Route 16
+Water
+	40,MAGIKARP,14,16
+	20,ZOSTEELA,14,16
+	10,BOTOLPHIN,15
+OldRod
+    60,MAGIKARP,10,12
+GoodRod
+    60,MAGIKARP,10,12
+	30,BOTOLPHIN,15
+SuperRod
+    20,GYARADOS,30,33	
+#-------------------------------
+[138] # Route 17
+Water
+	40,MAGIKARP,12,15
+	20,ZOSTEELA,13,16
+	10,BOTOLPHIN,15
+OldRod
+    60,MAGIKARP,10,12
+GoodRod
+    60,MAGIKARP,10,12
+	30,BOTOLPHIN,15
 SuperRod
     20,GYARADOS,30,33	
 #-------------------------------

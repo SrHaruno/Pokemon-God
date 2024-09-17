@@ -6372,12 +6372,6 @@ FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[FRILLEGEND]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
 [GRENINJA,1]
 BackSprite = 1,52
 FrontSprite = 6,20

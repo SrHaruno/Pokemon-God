@@ -300,7 +300,7 @@ Pokemon = AXOLOBY,8
 #-------------------------------
 [YOUNGSTER, Rafael]
 LoseText = Dammit!
-Pokemon = KISSADEE,8
+Pokemon = FLORBIRB,8
 Pokemon = TURTEED,9
 #-------------------------------
 [SWIMMER_F, Natalia]

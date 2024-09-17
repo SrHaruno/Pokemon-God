@@ -8928,18 +8928,6 @@ FunctionCode = HealUserByHalfOfDamageDone
 Flags = CanProtect,CanMirrorMove
 Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
 #-------------------------------
-[FIERYBARRAGE]
-Name = Fiery Barrage
-Type = FIRE
-Category = Special
-Power = 130
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = LowerUserSpAtk2
-Flags = CanProtect,CanMirrorMove
-Description = An fierce flamethower that melts everything in it's way. The attack's recoil harshly reduces the user's Sp. Atk stat.
-#-------------------------------
 [INFERNORAZOR]
 Name = Inferno Razor
 Type = FIRE

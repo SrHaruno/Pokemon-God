@@ -20,9 +20,11 @@
 142,North,2,143,South,0
 # Plain_Area (145) - Mountain_Zone (148)
 145,North,26,148,South,0
+# Beach_Zone (147) - Plain_Area (145)
+147,West,0,145,East,0
 # Beach_Zone (147) - Mountain_Zone (148)
 147,North,0,148,South,34
 # Starter_Zone (152) - Mountain_Zone (148)
 152,South,0,148,North,7
-# Beach_Zone (147) - Plain_Area (145)
-147,West,0,145,East,0
+# Route 17 (138) - Route 16 (61)
+138,South,21,61,North,0

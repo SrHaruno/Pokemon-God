@@ -378,7 +378,7 @@ CallRateSOS = 15
 [HOGGO]
 Name = Hoggo
 Types = NORMAL,ANGEL
-BaseStats = 65,105,60,85,40,50
+BaseStats = 65,110,55,95,40,50
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 147
@@ -467,7 +467,7 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-Habitat = Urban
+Habitat = Forest
 Category = Taturana
 Pokedex = Normally, its fur stings anyone who touches it, but more experienced Taturugs can emit electricity that paralyze their enemies.
 Evolutions = ELECOON,Level,20
@@ -492,9 +492,9 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-Habitat = Urban
-Category = Bulb
-Pokedex = ???
+Habitat = Forest
+Category = Light Bulb
+Pokedex = Elecoon makes it's shell glow to feed by absorbing light from the enviorement.
 Evolutions = THUNDOTH,Level,30
 #-------------------------------
 [THUNDOTH]
@@ -516,9 +516,9 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-Habitat = Urban
+Habitat = Forest
 Category = Moth
-Pokedex = ???
+Pokedex = The energy produced by Thundoth has several functions. for example, it serves as an impulse to fly; and in the form of light, as a guide for its young to follow.
 #-------------------------------
 [LARVENGUE]
 Name = Larvengue
@@ -530,7 +530,7 @@ BaseExp = 62
 EVs = SPEED,1
 CatchRate = 255
 Happiness = 50
-Abilities = SWARM
+Abilities = SWARM,DRYSKIN
 Moves = 1,TACKLE,1,STRINGSHOT,8,BUGBITE,15,FEINTATTACK,22,STRUGGLEBUG,29,ENDURE,31,STICKYWEB,36,BUGBUZZ,43,FLAIL
 TutorMoves = PROTECT
 EggMoves = POISONJAB
@@ -541,8 +541,8 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
-Pokedex = ???
+Category = Larvae
+Pokedex = It proliferates in urban environments, in humid places. It's considered a pest in the cities of Sehand.
 Evolutions = PUPENGUE,Level,20
 CallRateSOS = 15
 #-------------------------------
@@ -566,7 +566,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Pupa
 Pokedex = ???
 Evolutions = MOSQUENTE,Level,30
 #-------------------------------
@@ -580,7 +580,7 @@ BaseExp = 225
 EVs = ATTACK,3
 CatchRate = 45
 Happiness = 50
-Abilities = SWARM
+Abilities = SWARM,POISONTOUCH
 Moves = 1,LEECHLIFE,1,TACKLE,1,STRINGSHOT,1,BUGBITE,1,FEINTATTACK,22,STRUGGLEBUG,29,FELLSTINGER,32,UTURN,36,NIGHTSLASH,39,XSCISSOR,43,SUCKERPUNCH,46,SWORDSDANCE,56,FIRSTIMPRESSION
 TutorMoves = PROTECT
 EggGroups = Bug
@@ -590,7 +590,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = Aedes Aegypti
+Category = Mosquito
 Pokedex = ???
 #-------------------------------
 [ORBEAF]
@@ -790,8 +790,8 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
-Pokedex = ???
+Category = Dream
+Pokedex = 
 Evolutions = DREAMETEOR,Trade,
 #-------------------------------
 [DREAMETEOR]
@@ -814,7 +814,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = WIP
+Category = Dream
 Pokedex = ???
 #-------------------------------
 [MOMBER]
@@ -837,7 +837,7 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 Habitat = Urban
-Category = Baby bull
+Category = Bull
 Pokedex = ???
 Evolutions = BUHELL,Level,18
 CallRateSOS = 10
@@ -1029,7 +1029,7 @@ Height = 1.0
 Weight = 23.5
 Color = White
 Shape = Quadruped
-Category = Pure
+Category = Order
 Pokedex = ???
 #-------------------------------
 [BERSERKEON]
@@ -1103,8 +1103,8 @@ Habitat = Grassland
 Category = Thunder God
 Pokedex = ???
 #-------------------------------
-[KISSADEE]
-Name = Kissadee
+[FLORBIRB]
+Name = Florbirb
 Types = GRASS,FLYING
 BaseStats = 47,85,30,100,48,30
 GenderRatio = Female50Percent
@@ -1124,13 +1124,13 @@ Weight = 6.9
 Color = Gray
 Shape = Winged
 Habitat = Grassland
-Category = Humming bird
+Category = Bird
 Pokedex = ???
-Evolutions = LOPHARMONY,Level,22
+Evolutions = FLOHARMONY,Level,22
 CallRateSOS = 15
 #-------------------------------
-[LOPHARMONY]
-Name = Lopharmony
+[FLOHARMONY]
+Name = Floharmony
 Types = GRASS,FLYING
 BaseStats = 65,115,40,133,57,40
 GenderRatio = Female50Percent
@@ -1149,7 +1149,7 @@ Weight = 6.9
 Color = Gray
 Shape = Winged
 Habitat = Grassland
-Category = Melody
+Category = Harmony
 Pokedex = ???
 #-------------------------------
 [KARANSHELL] 
@@ -2767,7 +2767,7 @@ Shape = Quadruped
 Habitat = Mountain
 Category = Draken
 Pokedex = ???
-Evolutions = FRILLEGEND,HasMove,WINGATTACK,MIGHTRILL,Level,48
+Evolutions = MIGHTRILL,Level,48
 #-------------------------------
 [MIGHTRILL]
 Name = Mightrill
@@ -2791,29 +2791,6 @@ Shape = Quadruped
 Habitat = Mountain
 Category = Draken
 Pokedex = ???
-#-------------------------------
-[FRILLEGEND]
-Name = Frillegend
-Types = DRAGON,FLYING
-BaseStats = 70,105,65,100,137,63
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 270
-EVs = SPECIAL_ATTACK,3
-CatchRate = 45
-Happiness = 50
-Abilities = SHEERFORCE
-Moves = 0,FIERYBARRAGE,1,DRACOMETEOR,1,HURRICANE,1,SCRATCH,1,LEER,1,BITE,1,FALSESWIPE,9,HEADBUTT,12,TAUNT,15,SLASH,18,DRAGONCLAW,21,SCARYFACE,24,CRUNCH,27,DRAGONDANCE,30,FIREFANG,33,LASERFOCUS,36,MIGHTYROAR,41,SWORDSDANCE,46,DRAGONCLAW,53,GIGAIMPACT
-TutorMoves = PROTECT,FLAMETHROWER,FIREBLAST,FLY,AERIALACE,DRAGONPULSE
-EggGroups = Dragon,Field
-HatchSteps = 10240
-Height = 0.7
-Weight = 6.9
-Color = Black
-Shape = Quadruped
-Habitat = Mountain
-Category = Legend
-Pokedex = Legends said that this Pokémon destroyed an whole kingdom by himself. It's flames are so powerful that it can melt metal in seconds.
 #-------------------------------
 [CHINDORION]
 Name = Chindorion
