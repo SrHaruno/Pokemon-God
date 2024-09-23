@@ -8731,167 +8731,6 @@ Description = The user withdraws its body into its hard shell, raising its Defen
 #
 #
 #-------------------------------
-[CRUSADINGBLITZ]
-Name = Crusading Blitz
-Type = ANGEL
-Category = Physical
-Power = 120
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = LowerUserDefSpDef1
-Flags = CanProtect,CanMirrorMove
-Description = The user summons mystical soldiers towards the foe. It also cuts the user's Defense and Sp. Def.
-#-------------------------------
-[LUNARSPEAR]
-Name = Lunar Spear
-Type = ANGEL
-Category = Physical
-Power = 90
-Accuracy = 90
-TotalPP = 15
-Target = NearOther
-FunctionCode = None
-Flags = CanProtect,CanMirrorMove
-Description = The user shoots an spear like object from the moon towards the foe.
-#-------------------------------
-[HOLYLIGHT]
-Name = Holy Light
-Type = ANGEL		
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = LowerTargetAccuracy1
-Flags = CanProtect,CanMirrorMove
-EffectChance = 30
-Description = The user calls a blinding light from the skies towards the foe. This may also lowers the target Accuracy.
-#-------------------------------
-[GODBLOW]
-Name = God's Blow
-Type = ANGEL
-Category = Physical
-Power = 75
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = ConfuseTarget
-EffectChance = 10
-Flags = Contact,CanProtect,CanMirrorMove,Punching
-Description = The target is punched with an strong fist. May Confuse the target.
-#-------------------------------
-[ZEUSPUNCH]
-Name = Zeus Punch
-Type = ANGEL
-Category = Physical
-Power = 75
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = ParalyzeTarget
-EffectChance = 10
-Flags = Contact,CanProtect,CanMirrorMove,Punching
-Description = The target is punched with an electrified fist. May Paralyze the target.
-#-------------------------------
-[ODINSTRIKE]
-Name = Odin Strike
-Type = ANGEL
-Category = Physical
-Power = 60
-Accuracy = 100
-TotalPP = 25
-Target = NearOther
-FunctionCode = None
-Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user strikes it's foe with an powerful blow.
-#-------------------------------
-[PUNISHINGBEAM]
-Name = Punishing Beam
-Type = ANGEL		
-Category = Special
-Power = 60
-Accuracy = 100
-TotalPP = 25
-Target = NearOther
-FunctionCode = None
-Flags = CanProtect,CanMirrorMove
-Description = The foe is attacked with beam of light.
-#-------------------------------
-[CUPIDSHOT]
-Name = Cupid Shot
-Type = ANGEL		
-Category = Physical
-Power = 40
-Accuracy = 100
-TotalPP = 40
-Target = NearOther
-FunctionCode = AttractTarget
-Flags = CanProtect,CanMirrorMove
-EffectChance = 10
-Description = The foe is hit with an arrow like projectile. This may make the foe fall in love if opposite gender.
-#-------------------------------
-[SACREDSLASH]
-Name = Sacred Slash
-Type = ANGEL
-Category = Physical
-Power = 40
-Accuracy = 100
-TotalPP = 25
-Target = NearOther
-FunctionCode = None
-Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The target is attacked with an sacred slash. Critical hits land more easily.
-#-------------------------------
-[HOPELESSBEAM]
-Name = Hopeless Beam
-Type = DEMON		
-Category = Special
-Power = 150
-Accuracy = 90
-TotalPP = 5
-Target = NearOther
-FunctionCode = AttackAndSkipNextTurn
-Flags = CanProtect,CanMirrorMove
-Description = A powerful fear-filled beam is fired at the foe. The user must rest on the next turn to regain its energy.
-#-------------------------------
-[BERSERKSMASH]
-Name = Berserk Smash
-Type = DEMON		
-Category = Physical
-Power = 90
-Accuracy = 85
-TotalPP = 20
-Target = NearOther
-FunctionCode = RecoilQuarterOfDamageDealt
-Flags = Contact,CanProtect,CanMirrorMove
-Description = The user belly presses the foe with all it's strenght. It also damages the user a little.
-#-------------------------------
-[FEARLESSSLASH]
-Name = Fearless Slash
-Type = DEMON
-Category = Physical
-Power = 60
-Accuracy = 100
-TotalPP = 25
-Target = NearOther
-FunctionCode = None
-Flags = CanProtect,CanMirrorMove
-Description = The foe is cut with sharp claws.
-#-------------------------------
-[BERSERKASSAULT]
-Name = Beserk Assault
-Type = DEMON
-Category = Physical
-Power = 120
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = RecoilHalfOfDamageDealt
-Flags = Contact,CanProtect,CanMirrorMove
-EffectChance = 10
-Description = The user attacks the foe recklesly. It also damages the user a lot.
-#-------------------------------
 [DRACOSPHERE]
 Name = Draco Sphere
 Type = DRAGON
@@ -9118,7 +8957,7 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = RaiseUserAttack2
-Description = The user reinforce it's strenght by sharpening it's claws or weapons. It sharply raises the user's Attack stat.
+Description = The user reinforce it's strenght by cleaning it's wings. It sharply raises the user's Attack stat.
 #-------------------------------
 [WEAPONSMITH]
 Name = Weapon Smith
@@ -9139,4 +8978,89 @@ TotalPP = 10
 Target = User
 FunctionCode = RaiseUserDefense2
 Description = The user reinforce it's armour by polishing it. It sharply raises the user's Defense stat.
-
+#-------------------------------
+[ZEUSPUNCH]
+Name = Zeus Punch
+Type = ANGEL
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+EffectChance = 10
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The target is punched with an electrified fist. May Paralyze the target.
+#-------------------------------
+[ODINSTRIKE]
+Name = Odin Strike
+Type = ANGEL
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user strikes it's foe with an powerful blow. High Crit chance.
+#-------------------------------
+[PUNISHINGBEAM]
+Name = Punishing Beam
+Type = ANGEL		
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The foe is attacked with beam of light.
+#-------------------------------
+[CHAOTICBEAM]
+Name = Chaotic Beam
+Type = DEMON		
+Category = Special
+Power = 150
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = AttackAndSkipNextTurn
+Flags = CanProtect,CanMirrorMove
+Description = A devastating beam fired at the foe. The user must rest on the next turn to regain its energy.
+#-------------------------------
+[RECKLESSWRECK]
+Name = Reckless Wreck
+Type = DEMON
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RecoilHalfOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = A powerfull rush that deals massive damage. It also damages the user a lot.
+#-------------------------------
+[BERSERKSMASH]
+Name = Berserk Smash
+Type = DEMON		
+Category = Physical
+Power = 90
+Accuracy = 85
+TotalPP = 20
+Target = NearOther
+FunctionCode = RecoilQuarterOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user belly presses the foe with all it's strenght. It also damages the user a little.
+#-------------------------------
+[FEARSOMESLASH]
+Name = Fearsome Slash
+Type = DEMON
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Slash
+Description = The foe is cut with terrifying sharp claws.

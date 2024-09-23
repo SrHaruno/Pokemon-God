@@ -1108,9 +1108,9 @@ Description = Ups resistance to Fire- and Ground-type moves.
 Name = Purification
 Description = Restores HP if hit by a Poison-type move.
 #-------------------------------
-[PUREONE]
-Name = Pure One
-Description = Dark-type moves become Angel-type.
+[ORDERNER]
+Name = Ordener
+Description = Normal-type moves become Angel-type and powered up.
 #-------------------------------
 [PUREEVIL]
 Name = Pure One
@@ -1139,4 +1139,7 @@ Description = Item removing moves can't be blocked.
 [PHOTOSYNTHESIS]
 Name = Photosynthesis
 Description = Heals under harsh sunlight
-
+#-------------------------------
+[CHAOTIC]
+Name = Chaotic
+Description = Normal-type moves become Demon-type and powered up.
