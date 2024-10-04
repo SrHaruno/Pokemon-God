@@ -28,6 +28,7 @@ BattleBGM = Battle! Vs Rival
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
+SkillLevel = 100
 BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Victory! Gym Leader
 #-------------------------------
@@ -35,6 +36,7 @@ VictoryBGM = Victory! Gym Leader
 Name = Reaper Boss
 Gender = Male
 BaseMoney = 100
+SkillLevel = 100
 BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Victory! Gym Leader
 #-------------------------------
@@ -42,8 +44,18 @@ VictoryBGM = Victory! Gym Leader
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
+SkillLevel = 100
 BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Victory! Gym Leader
+#-------------------------------
+[LEADERS]
+Name = Gym Leaders
+Gender = Unknown
+BaseMoney = 100
+SkillLevel = 100
+BattleBGM = Battle! Vs Gym Leader
+VictoryBGM = Victory! Gym Leader
+
 
 
 

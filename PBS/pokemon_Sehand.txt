@@ -518,7 +518,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Forest
 Category = Moth
-Pokedex = The energy produced by Thundoth has several functions. for example, it serves as an impulse to fly; and in the form of light, as a guide for its young to follow.
+Pokedex = The energy produced by Thundoth has several functions, Such as providing a boost for flight and guiding it's young with it's abdominal light.
 #-------------------------------
 [LARVENGUE]
 Name = Larvengue
@@ -567,7 +567,7 @@ Color = Gray
 Shape = Bipedal
 Habitat = Urban
 Category = Pupa
-Pokedex = ???
+Pokedex = Vulnerable until evolve, Pupengue hides in stalle water places, waiting to evolve.
 Evolutions = MOSQUENTE,Level,30
 #-------------------------------
 [MOSQUENTE]

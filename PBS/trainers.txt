@@ -79,20 +79,7 @@ Pokemon = KITSU,16
 Pokemon = EGDON,16
 	Gender = Male
 
-
-
-#City/Gym Battles
-
-#Plateau Gym
-#-------------------------------
-[SCHOOLKID_M, Thomas]
-LoseText = I need to study my strategies all over again!
-Pokemon = MOSSELIN,8
-#-------------------------------
-[SCHOOLKID_F, Hikari]
-LoseText = Sorry my math failed!
-Pokemon = ORBEAF,8
-	Gender = female
+#Gym Leaders
 #-------------------------------
 [LEADER_Daniel,Daniel]
 Items = POTION
@@ -132,6 +119,54 @@ Pokemon = VENUSAUR,45
 Pokemon = KATAGAMI,45
 Pokemon = JUNVIL,48
 
+#Marine Gym
+#-------------------------------
+[REAPERBOSS, Alcapone]
+LoseText = Huh...
+Items = POTION
+Pokemon = YOUNROW,14
+Pokemon = EVIRASS,18
+    Moves = BULKUP,LEECHSEED,RAZORLEAF,KNOCKOFF
+	Item = SITRUSBERRY
+
+#Jasmil Gym
+#-------------------------------
+[LEADER_Nikolai,Nikolai]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = That was AMAZING!
+Pokemon = CUBOLT,20
+    Moves = THUNDERWAVE,SHOCKWAVE,NOBLEROAR,VOLTSWITCH
+Pokemon = SQUILAZE,22
+    Moves = SHOCKWAVE,FLAMEWHEEL,VOLTSWITCH
+Pokemon = CHOPAXE,24
+    Moves = SCRATCH
+Pokemon = JOLTUTER,26
+    Moves = THUNDERWAVE,VOLTSWITCH,MOUSEWHIP,METALSOUND
+	Item  = SITRUSBERRY
+
+#Tranquor Village
+#-------------------------------
+[LEADERS, Ying & Gyan]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = Gyan: Of course we lose, with Ying Passiveness we never deal damage... Ying: It's your reckless strategies that lead us to an defeat...
+Pokemon = MOMBER,18
+Pokemon = BOTOLPHIN,18
+Pokemon = VAPOREON,26
+Pokemon = FLAREON,26
+
+#Cities
+
+#Plateau Gym
+#-------------------------------
+[SCHOOLKID_M, Thomas]
+LoseText = I need to study my strategies all over again!
+Pokemon = MOSSELIN,8
+#-------------------------------
+[SCHOOLKID_F, Hikari]
+LoseText = Sorry my math failed!
+Pokemon = ORBEAF,8
+	Gender = female
+
 #Marine City
 #-------------------------------
 [REAPER, Leandro]
@@ -148,7 +183,6 @@ Pokemon = YOUNROW,14
 LoseText = That was fishy...
 Pokemon = BOTOLPHIN,14
 Pokemon = PSYLOTE,16
-
 
 #Abandoned Hotel 1F
 #-------------------------------
@@ -177,16 +211,6 @@ LoseText = The forces of evil weren't enought for you!
 Pokemon = BOUDYENA,12
 Pokemon = CAPYBURA,13
 
-#Abandoned Hotel 3F
-#-------------------------------
-[REAPERBOSS, Alcapone]
-LoseText = Huh...
-Items = POTION
-Pokemon = YOUNROW,14
-Pokemon = EVIRASS,18
-    Moves = BULKUP,LEECHSEED,RAZORLEAF,KNOCKOFF
-	Item = SITRUSBERRY
-
 #Vituresa Town
 #-------------------------------
 [REAPER, Drake,1]
@@ -205,7 +229,6 @@ Items = FULLRESTORE
 LoseText = You are as strong as Nikolai!
 Pokemon = GAMBILLO,18
 Pokemon = GAMBILLO,18
-
 
 #Nikolai Lab
 #-------------------------------
@@ -238,20 +261,6 @@ Pokemon = TATURUG,17
 [ENGINEER,Jason]
 LoseText = Don't fix what isn't broken!
 Pokemon = TURTLOW,17
-#-------------------------------
-[LEADER_Nikolai,Nikolai]
-Items = SUPERPOTION,SUPERPOTION
-LoseText = That was AMAZING!
-Pokemon = CUBOLT,20
-    Moves = THUNDERWAVE,SHOCKWAVE,NOBLEROAR,VOLTSWITCH
-Pokemon = SQUILAZE,22
-    Moves = SHOCKWAVE,FLAMEWHEEL,VOLTSWITCH
-Pokemon = CHOPAXE,24
-    Moves = SCRATCH
-Pokemon = JOLTUTER,26
-    Moves = THUNDERWAVE,VOLTSWITCH,MOUSEWHIP,METALSOUND
-	Item  = SITRUSBERRY
-
 
 #Route 2
 #-------------------------------
