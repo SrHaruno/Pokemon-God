@@ -8979,6 +8979,19 @@ Target = User
 FunctionCode = RaiseUserDefense2
 Description = The user reinforce it's armour by polishing it. It sharply raises the user's Defense stat.
 #-------------------------------
+[RAGNAROK]
+Name = Ragnarök
+Type = ANGEL
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = WIP
+#-------------------------------
 [ZEUSPUNCH]
 Name = Zeus Punch
 Type = ANGEL
@@ -8992,8 +9005,8 @@ EffectChance = 10
 Flags = Contact,CanProtect,CanMirrorMove,Punching
 Description = The target is punched with an electrified fist. May Paralyze the target.
 #-------------------------------
-[ODINSTRIKE]
-Name = Odin Strike
+[PLUMEOFPROMETHEUS]
+Name = Plume of Prometheus
 Type = ANGEL
 Category = Physical
 Power = 60
@@ -9001,8 +9014,8 @@ Accuracy = 100
 TotalPP = 25
 Target = NearOther
 FunctionCode = None
-Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user strikes it's foe with an powerful blow. High Crit chance.
+Flags = CanMirrorMove,HighCriticalHitRate
+Description = The foes is struck with an powerful blow. Ignores Protect.
 #-------------------------------
 [PUNISHINGBEAM]
 Name = Punishing Beam
@@ -9015,6 +9028,16 @@ Target = NearOther
 FunctionCode = None
 Flags = CanProtect,CanMirrorMove
 Description = The foe is attacked with beam of light.
+#-------------------------------
+[OLYMPUSBLESSING]
+Name = Olympus Blessing
+Type = ANGEL
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = UserSide
+FunctionCode = StartPreventCriticalHitsAgainstUserSide
+Description = The user chants for devine help, preventing the foe from landing critical hits.
 #-------------------------------
 [CHAOTICBEAM]
 Name = Chaotic Beam
@@ -9064,3 +9087,13 @@ Target = NearOther
 FunctionCode = None
 Flags = CanProtect,CanMirrorMove,Slash
 Description = The foe is cut with terrifying sharp claws.
+#-------------------------------
+[CHAOTICCHARGE]
+Name = Chaotic Charge
+Type = DEMON
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserAtkSpd1
+Description = The user charges chaotic energy, boosting it's Attack and Speed stat.
