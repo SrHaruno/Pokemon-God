@@ -277,7 +277,7 @@ Weather = Rain,20
 MapPosition = 0,22,4
 BattleBack = field
 #-------------------------------
-[061]   # Route 16
+[061]   # Route 18
 Name = Route 16
 Outdoor = true
 ShowArea = true
@@ -609,7 +609,10 @@ MapPosition = 0,14,3
 Name = Gigantopolis
 MapPosition = 0,13,3
 #-------------------------------
-[138]   # Route 17
+[137]   # Route 18 Gate
+Name = Route 18
+#-------------------------------
+[138]   # Route 19
 Name = Route 17
 Outdoor = true
 ShowArea = true
@@ -721,3 +724,18 @@ MapPosition = 0,6,11
 [159]   # Tranquor_House
 Name = Tranquor Village
 MapPosition = 0,6,11
+#-------------------------------
+[162]   # Route 16
+Name = Route 16
+Outdoor = true
+ShowArea = true
+MapPosition = 0,7,11
+BattleBack = field
+#-------------------------------
+[163]   # Route 17
+Name = Route 17
+Outdoor = true
+ShowArea = true
+MapPosition = 0,8,10
+BattleBack = field
+MapSize = 2,1010

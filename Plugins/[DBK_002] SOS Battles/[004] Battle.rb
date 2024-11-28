@@ -367,6 +367,7 @@ class Battle
     answer_rate *= 3.0 if @lastCallAnswered == false
     answered = roll < answer_rate.round || $DEBUG && Input.press?(Input::CTRL)
     pbDeluxeTriggers(caller, nil, "BeforeSOS", caller.species, *caller.pokemon.types)
+    @scene.pbAnimateSubstitute(caller, :hide)
     if caller.totemBattler
       pbDisplay(_INTL("{1} called its ally Pokémon!", caller.pbThis))
     else
@@ -383,6 +384,7 @@ class Battle
       battler = pbGenerateSOSBattler(idxNewBattler, caller, roll)
       @scene.pbSOSJoin(idxNewBattler)
       pbDisplay(_INTL("{1} appeared!", battler.name))
+      @scene.pbAnimateSubstitute(caller, :show)
       pbCalculatePriority(true)
       pbOnBattlerEnteringBattle(idxNewBattler)
       battler.pbCheckForm
@@ -392,6 +394,7 @@ class Battle
       PBDebug.log("[SOS] #{caller.pbThis}'s (#{caller.index}) call failed (Answer rate = #{answer_rate})")
       @lastCallAnswered = false
       pbDisplay(_INTL("Its help didn't appear!"))
+      @scene.pbAnimateSubstitute(caller, :show)
       pbDeluxeTriggers(caller, nil, "FailedSOS", caller.species, *caller.pokemon.types)
     end
     @lastTurnCalled = @turnCount
@@ -401,6 +404,7 @@ class Battle
   # A simplified version of the method above. Call is guaranteed to be answered.
   #-----------------------------------------------------------------------------
   def pbCallForHelpSimple(caller)
+    @scene.pbAnimateSubstitute(caller, :hide)
     if caller.totemBattler
       pbDisplay(_INTL("{1} called its ally Pokémon!", caller.pbThis))
     else
@@ -412,9 +416,11 @@ class Battle
     if idxNewBattler >= 0
       PBDebug.log("[SOS] #{caller.pbThis}'s (#{caller.index}) call succeeded (Answer rate = 100)")
       @lastCallAnswered = true
+      @originalCaller = caller.pokemon
       battler = pbGenerateSOSBattler(idxNewBattler, caller, pbRandom(100))
       @scene.pbSOSJoin(idxNewBattler)
       pbDisplay(_INTL("{1} appeared!", battler.name))
+      @scene.pbAnimateSubstitute(caller, :show)
       pbCalculatePriority(true)
       pbOnBattlerEnteringBattle(idxNewBattler)
       battler.pbCheckForm
@@ -422,6 +428,7 @@ class Battle
       PBDebug.log("[SOS] #{caller.pbThis}'s (#{caller.index}) call failed (Answer rate = 100)")
       @lastCallAnswered = false
       pbDisplay(_INTL("Its help didn't appear!"))
+      @scene.pbAnimateSubstitute(caller, :show)
     end
     @lastTurnCalled = @turnCount
   end

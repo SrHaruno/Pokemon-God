@@ -537,13 +537,14 @@ class Battle::Battler
         @battle.pbDeluxeTriggers(user, b.index, *triggers)
         next if b.damageState.unaffected || b.damageState.substitute
         next if b.damageState.calcDamage == 0
-        next if b.damageThreshold == 0
-        next if b.hp > b.hpThreshold
-        next if b.effects[PBEffects::Endure] && b.hpThreshold == 1
+        next if !b.damageThreshold
+        hpThreshold = (b.totalhp * (b.damageThreshold / 100.0)).round
+        hpThreshold = 1 if hpThreshold < 1
+        next if b.hp > hpThreshold
+        next if b.effects[PBEffects::Endure] && hpThreshold == 1
         targ_indecies.push(b.index)
         targ_triggers.push("BattlerReachedHPCap", b.species, *b.pokemon.types)
-        b.hpThreshold = 0
-        b.damageThreshold = 0
+        b.damageThreshold = nil
       end
       targ_indecies.each do |i|
         @battle.pbDeluxeTriggers(i, user.index, *targ_triggers)
@@ -728,18 +729,21 @@ class Battle::Move
   #-----------------------------------------------------------------------------
   alias dx_pbEffectivenessMessage pbEffectivenessMessage
   def pbEffectivenessMessage(user, target, numTargets = 1)
-    return if self.is_a?(Battle::Move::FixedDamageMove)
     return if target.damageState.disguise || target.damageState.iceFace
     dx_pbEffectivenessMessage(user, target, numTargets)
     return if target.damageState.substitute || target.fainted?
     @battler_triggers[:user].push("UserDealtDamage", @id, @type, user.species)
     @battler_triggers[:targ].push("TargetTookDamage", @id, @type, target.species)
+    return if self.is_a?(Battle::Move::FixedDamageMove)
     if Effectiveness.super_effective?(target.damageState.typeMod)
       @battler_triggers[:user].push("UserMoveEffective", @id, @type, user.species)
       @battler_triggers[:targ].push("TargetWeakToMove", @id, @type, target.species)
     elsif Effectiveness.not_very_effective?(target.damageState.typeMod)
       @battler_triggers[:user].push("UserMoveResisted", @id, @type, user.species)
       @battler_triggers[:targ].push("TargetResistedMove", @id, @type, target.species)
+    end
+    if multiHitMove? || user.effects[PBEffects::ParentalBond] > 0
+      pbFinalizeMoveTriggers(user, target)
     end
   end
   
@@ -797,6 +801,8 @@ class Battle::Move
       when :targ then @battle.pbDeluxeTriggers(target, user.index, *triggers)
       end
     end
+    @battler_triggers[:user].clear
+    @battler_triggers[:targ].clear
   end
 end
 

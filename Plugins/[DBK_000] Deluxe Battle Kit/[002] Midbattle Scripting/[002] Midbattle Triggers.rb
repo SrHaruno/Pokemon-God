@@ -316,7 +316,7 @@ MidbattleHandlers.add(:midbattle_triggers, "endSpeech",
 MidbattleHandlers.add(:midbattle_triggers, "playSE",
   proc { |battle, idxBattler, idxTarget, params|
     pbSEPlay(params)
-	PBDebug.log("     'playSE': playing SE (#{params})")
+    PBDebug.log("     'playSE': playing SE (#{params})")
   }
 )
 
@@ -770,19 +770,21 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerHP",
     else
       amt, msg = params, nil
     end
+    amt = (battler.totalhp * (amt / 100.0)).round
     lowercase = (msg && msg[0] == "{" && msg[1] == "1") ? false : true
     trainerName = (battler.wild?) ? "" : battle.pbGetOwnerName(battler.index)
     msg = _INTL("#{msg}", battler.pbThis(lowercase), trainerName) if msg
     old_hp = battler.hp
     if amt > 0
-      PBDebug.log("     'battlerHP': restoring #{battler.name} (#{battler.index})'s HP by 1/#{amt}")
+      PBDebug.log("     'battlerHP': restoring #{battler.name} (#{battler.index})'s HP by #{amt}%")
       battler.stopBoostedHPScaling = true
-      battler.pbRecoverHP(battler.totalhp / amt)
+      battler.pbRecoverHP(amt)
     elsif amt <= 0
       if amt == 0
-        battler.hp = 0
+        battler.hp = 1
       else
-        battler.hp -= ((battler.totalhp / amt.abs).round).clamp(1, battler.hp - 1)
+        battler.hp += amt
+        battler.hp = 0 if battler.hp < 0
       end
       PBDebug.log("     'battlerHP': reducing #{battler.name} (#{battler.index})'s HP (#{old_hp} => #{battler.hp})")
       battle.scene.pbHitAndHPLossAnimation([[battler, old_hp, 0]])
@@ -865,7 +867,8 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerStatus",
 MidbattleHandlers.add(:midbattle_triggers, "battlerForm",
   proc { |battle, idxBattler, idxTarget, params|
     battler = battle.battlers[idxBattler]
-    next if !battler || battler.fainted? || battle.decision > 0
+    next if !battler || battler.fainted? || battle.decision > 0 || !battler.getActiveState.nil?
+    next if battler.effects[PBEffects::SkyDrop] >= 0 || battler.semiInvulnerable?
     if params.is_a?(Array)
       form, msg = params[0], params[1]
     else
@@ -904,6 +907,81 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerForm",
 )
 
 #-------------------------------------------------------------------------------
+# Changes a battler's species.
+#-------------------------------------------------------------------------------
+MidbattleHandlers.add(:midbattle_triggers, "battlerSpecies",
+  proc { |battle, idxBattler, idxTarget, params|
+    battler = battle.battlers[idxBattler]
+    next if !battler || battler.fainted? || battle.decision > 0 || !battler.getActiveState.nil?
+    next if battler.effects[PBEffects::SkyDrop] >= 0 || battler.semiInvulnerable?
+    if params.is_a?(Array)
+      species, msg = params[0], params[1]
+    else
+      species, msg = params, nil
+    end
+    try_species = GameData::Species.try_get(species)
+    next if !try_species
+    battle.scene.pbForceEndSpeech
+    speciesName = GameData::Species.get(species).name
+    PBDebug.log("     'battlerSpecies': #{battler.name} (#{battler.index}) to change into species #{speciesName}")
+    if msg.is_a?(String)
+      lowercase = (msg[0] == "{" && msg[1] == "1") ? false : true
+      trainerName = (battler.wild?) ? "" : battle.pbGetOwnerName(battler.index)
+      msg = _INTL("#{msg}", battler.pbThis(lowercase), speciesName, trainerName)
+    end
+    battle.scene.pbAnimateSubstitute(idxBattler, :hide)
+    old_ability = battler.ability_id
+    if battler.hasActiveAbility?(:ILLUSION)
+      Battle::AbilityEffects.triggerOnBeingHit(battler.ability, nil, battler, nil, battle)
+    end
+    battler.pokemon.species = try_species.species
+    battler.pokemon.form_simple = try_species.form
+    battler.species = try_species.species
+    battler.form = try_species.form
+    battler.pbUpdate(true)
+    battler.name = speciesName if !battler.pokemon.nicknamed?
+    battle.scene.pbRefreshOne(idxBattler)
+    battler.mosaicChange = true if defined?(battler.mosaicChange)
+    battle.scene.pbChangePokemon(battler, battler.pokemon)
+    battle.pbDisplay(msg.gsub(/\\PN/i, battle.pbPlayer.name)) if msg.is_a?(String)
+    battler.pbOnLosingAbility(old_ability)
+    battler.pbTriggerAbilityOnGainingIt
+    battle.pbCalculatePriority(false, [idxBattler]) if !battler.movedThisRound?
+    battle.scene.pbAnimateSubstitute(idxBattler, :show)
+  }
+)
+
+#-------------------------------------------------------------------------------
+# Forces a battler to evolve during battle.
+#-------------------------------------------------------------------------------
+MidbattleHandlers.add(:midbattle_triggers, "battlerEvolve",
+  proc { |battle, idxBattler, idxTarget, params|
+    battler = battle.battlers[idxBattler]
+    next if !battler || battler.fainted? || battle.decision > 0
+    if params.is_a?(Array)
+      species, form = params[0], params[1]
+    else
+      species, form = params, nil
+    end
+    next if battler.pokemon.species == species
+    if !GameData::Species.exists?(species)
+      evolutions = []
+      GameData::Species.get(battler.pokemon.species).get_evolutions.each do |evo|
+        next if evolutions.include?(evo[0]) || evo[0] == battler.pokemon.species
+        evolutions.push(evo[0])
+      end
+      next if evolutions.empty?
+      species = (params == :Random) ? evolutions.shuffle.first : evolutions.first
+    end
+    battle.scene.pbForceEndSpeech
+    oldName = battler.name
+    if battler.pbEvolveBattler(species, form)
+      PBDebug.log("     'battlerEvolve': #{oldName} (#{battler.index}) to evolved into species #{battler.pokemon.speciesName}")
+    end
+  }
+)
+
+#-------------------------------------------------------------------------------
 # Changes a battler's ability.
 #-------------------------------------------------------------------------------
 MidbattleHandlers.add(:midbattle_triggers, "battlerAbility",
@@ -925,6 +1003,12 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerAbility",
     PBDebug.log("     'battlerAbility': #{battler.name} (#{battler.index}) to acquire the #{abilName} ability")
     battle.pbShowAbilitySplash(battler, true, false) if msg
     oldAbil = battler.ability
+    break_illusion = false
+    if battler.hasActiveAbility?(:ILLUSION)
+      battle.scene.pbAnimateSubstitute(idxBattler, :hide)
+      Battle::AbilityEffects.triggerOnBeingHit(battler.ability, nil, battler, nil, battle)
+      break_illusion = true
+    end
     battler.ability = abil
     battle.scene.pbForceEndSpeech
     if msg
@@ -941,6 +1025,7 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerAbility",
     end
     battler.pbOnLosingAbility(oldAbil)
     battler.pbTriggerAbilityOnGainingIt
+    battle.scene.pbAnimateSubstitute(idxBattler, :show) if break_illusion
   }
 )
 
@@ -1003,20 +1088,24 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerMoves",
     when Array
       Pokemon::MAX_MOVES.times do |i|
         new_move = params[i]
-        if new_move.nil?
-          PBDebug.log("     'battlerMoves': #{battler.name} (#{battler.index}) forgot the move #{battler.moves[i].name}")
-          battler.moves[i] = nil
-        elsif GameData::Move.exists?(new_move)
-          oldMove = battler.moves[i].name
+        old_move = battler.moves[i]
+        if new_move && GameData::Move.exists?(new_move)
           move = Pokemon::Move.new(new_move)
           battler.moves[i] = Battle::Move.from_pokemon_move(battle, move)
-          PBDebug.log("     'battlerMoves': #{battler.name} (#{battler.index}) replaced the move #{oldMove} with #{battler.moves[i].name}")
+          if old_move
+            PBDebug.log("     'battlerMoves': #{battler.name} (#{battler.index}) replaced the move #{old_move.name} with #{battler.moves[i].name}")
+          else
+            PBDebug.log("     'battlerMoves': #{battler.name} (#{battler.index}) learned the move #{battler.moves[i].name}")
+          end
+        elsif old_move && new_move.nil?
+          PBDebug.log("     'battlerMoves': #{battler.name} (#{battler.index}) forgot the move #{old_move.name}")
+          battler.moves[i] = nil
         end
       end
       battler.moves.compact!
       battler.moves.uniq!
     when :Reset
-      battler.pokemon.reset_moves
+      battler.moves.clear
       battler.pokemon.numMoves.times do |i|
         move = battler.pokemon.moves[i]
         battler.moves[i] = Battle::Move.from_pokemon_move(battle, move)
@@ -1508,5 +1597,19 @@ MidbattleHandlers.add(:midbattle_triggers, "changeBackdrop",
       end
     end
     battle.scene.pbFlashRefresh
+  }
+)
+
+#-------------------------------------------------------------------------------
+# Changes the style applied to all battler's databoxes.
+#-------------------------------------------------------------------------------
+MidbattleHandlers.add(:midbattle_triggers, "changeDataboxes",
+  proc { |battle, idxBattler, idxTarget, params|
+    next if battle.decision > 0
+    old_style = battle.databoxStyle || :None
+    old_style = old_style.first if old_style.is_a?(Array)
+    style = (params.is_a?(Array)) ? params.first : params
+    battle.scene.pbRefreshStyle(*params)
+    PBDebug.log("     'changeDataboxes': changed databox style (#{old_style}=>#{style})") if style != old_style
   }
 )

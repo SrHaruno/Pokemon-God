@@ -245,31 +245,54 @@ GoodRod
 SuperRod
     20,GYARADOS,30,33	
 #-------------------------------
-[061] # Route 16
-Water
-	40,MAGIKARP,14,16
-	20,ZOSTEELA,14,16
-	10,BOTOLPHIN,15
-OldRod
-    60,MAGIKARP,10,12
-GoodRod
-    60,MAGIKARP,10,12
-	30,BOTOLPHIN,15
-SuperRod
-    20,GYARADOS,30,33	
+[162] # Route 16
+LandDay,21
+    40,CAIBORA,12,14
+LandNight,21
+    40,CAIBORA,12,14
 #-------------------------------
-[138] # Route 17
+[163] # Route 17
+LandDay,21
+    40,CAIBORA,12,14
+LandNight,21
+    40,CAIBORA,12,14
 Water
-	40,MAGIKARP,12,15
-	20,ZOSTEELA,13,16
+	40,ZOSTEELA,12,15
+	20,MAGIKARP,13,16
 	10,BOTOLPHIN,15
 OldRod
-    60,MAGIKARP,10,12
+    60,ZOSTEELA,10,12
 GoodRod
-    60,MAGIKARP,10,12
+    60,ZOSTEELA,10,12
 	30,BOTOLPHIN,15
 SuperRod
-    20,GYARADOS,30,33	
+    20,BOEELNA,30,33	
+#-------------------------------
+[061] # Route 18
+Water
+	40,ZOSTEELA,14,16
+	20,MAGIKARP,14,16
+	10,BOTOLPHIN,15
+OldRod
+    60,ZOSTEELA,10,12
+GoodRod
+    60,ZOSTEELA,10,12
+	30,BOTOLPHIN,15
+SuperRod
+    20,BOEELNA,30,33	
+#-------------------------------
+[138] # Route 19
+Water
+	40,ZOSTEELA,12,15
+	20,MAGIKARP,13,16
+	10,BOTOLPHIN,15
+OldRod
+    60,ZOSTEELA,10,12
+GoodRod
+    60,ZOSTEELA,10,12
+	30,BOTOLPHIN,15
+SuperRod
+    20,BOEELNA,30,33	
 #-------------------------------
 [140] # Route 22
 LandDay,21

@@ -15,7 +15,7 @@ module Settings
   #-----------------------------------------------------------------------------
   # When true, Pokemon databoxes will be hidden in battle during move animations.
   #-----------------------------------------------------------------------------
-  HIDE_DATABOXES_DURING_MOVES = false
+  HIDE_DATABOXES_DURING_MOVES = true
   
   #-----------------------------------------------------------------------------
   # Allows for different battle music to play when the player's Pokemon is at low HP.

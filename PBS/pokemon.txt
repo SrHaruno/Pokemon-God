@@ -3647,7 +3647,7 @@ Habitat = Urban
 Category = Evolution
 Pokedex = An Eevee has an unstable genetic makeup that suddenly mutates due to its environment. Radiation from various stones causes this Pokémon to evolve.
 Generation = 1
-Evolutions = VAPOREON,Item,WATERSTONE,JOLTEON,Item,THUNDERSTONE,FLAREON,Item,FIRESTONE,LEAFEON,LocationFlag,MossRock,GLACEON,LocationFlag,IceRock,SYLVEON,HappinessMoveType,FAIRY,BERSERKEON,LevelDemonInParty,,CELESTEON,DontHasMoveType,DARK,ESPEON,HappinessDay,,UMBREON,HappinessNight,,
+Evolutions = VAPOREON,Item,WATERSTONE,JOLTEON,Item,THUNDERSTONE,FLAREON,Item,FIRESTONE,LEAFEON,LocationFlag,MossRock,GLACEON,LocationFlag,IceRock,SYLVEON,HappinessMoveType,FAIRY,ASTAREON,LevelDemonInParty,,CELESTEON,DontHasMoveType,DARK,ESPEON,HappinessDay,,UMBREON,HappinessNight,,
 ConditionalSOS = ESPEON,LandDay,,UMBREON,LandNight,
 CallRateSOS = 9
 #-------------------------------

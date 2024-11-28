@@ -6414,7 +6414,7 @@ FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[BERSERKEON]
+[ASTAREON]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0

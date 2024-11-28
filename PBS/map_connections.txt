@@ -6,6 +6,8 @@
 14,South,0,39,North,12
 # Route 4 (39) - Route 5 (40)
 39,South,0,40,North,8
+# Route 19 (138) - Route 18 (61)
+138,South,21,61,North,0
 # Route 9 (76) - Route 10 (79)
 76,North,0,79,South,28
 # Route 10 (79) - Route 11 (81)
@@ -26,5 +28,5 @@
 147,North,0,148,South,34
 # Starter_Zone (152) - Mountain_Zone (148)
 152,South,0,148,North,7
-# Route 17 (138) - Route 16 (61)
-138,South,21,61,North,0
+# Route 17 (163) - Route 16 (162)
+163,West,61,162,East,0

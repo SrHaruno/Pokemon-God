@@ -180,7 +180,8 @@ class Battle::Scene
     bagCommand = _INTL("Bag")
     shadowTrainer = (GameData::Type.exists?(:SHADOW) && @battle.trainerBattle?)
     runCommand = (shadowTrainer) ? _INTL("Call") : (firstAction) ? _INTL("Run") : _INTL("Cancel")
-    if @battle.raidBattle?
+    hasCheer = defined?(@battle.cheerMode) && @battle.cheerMode
+    if hasCheer
       runCommand = _INTL("Cheer")
       mode = 5
     elsif @battle.launcherBattle?
@@ -195,8 +196,8 @@ class Battle::Scene
       _INTL("Pokémon"), runCommand
     ]
     ret = pbCommandMenuEx(idxBattler, cmds, mode)
-    ret = 4 if ret == 3 && shadowTrainer || @battle.raidBattle?
-    ret = -1 if ret == 3 && !firstAction && !@battle.raidBattle?
+    ret = 4 if ret == 3 && (shadowTrainer || hasCheer)
+    ret = -1 if ret == 3 && (!firstAction && !hasCheer)
     return 3 if ret > 3 && ($DEBUG && Input.press?(Input::CTRL))
     return ret
   end
@@ -445,6 +446,11 @@ class Battle::AI
     end
     ret = false
     PBDebug.logonerr { ret = pbChooseToUseItem }
+    if ret
+      PBDebug.log("")
+      return
+    end
+    PBDebug.logonerr { ret = pbChooseToUseSpecialCommand }
     if ret
       PBDebug.log("")
       return

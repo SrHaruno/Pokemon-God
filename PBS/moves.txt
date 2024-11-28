@@ -8979,6 +8979,19 @@ Target = User
 FunctionCode = RaiseUserDefense2
 Description = The user reinforce it's armour by polishing it. It sharply raises the user's Defense stat.
 #-------------------------------
+[AQUAFANG]
+Name = Aqua Fang
+Type = WATER
+Category = Physical
+Power = 65
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 30
+Description = The user bites with flame-cloaked fangs. It may also make the target flinch.
+#-------------------------------
 [RAGNAROK]
 Name = Ragnarök
 Type = ANGEL
