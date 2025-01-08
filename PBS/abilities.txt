@@ -1139,4 +1139,8 @@ Description = Item removing moves can't be blocked.
 [PHOTOSYNTHESIS]
 Name = Photosynthesis
 Description = Heals under harsh sunlight
+#-------------------------------
+[VIRALTOUCH]
+Name = Viral Touch
+Description = May poison targets when a Pokémon makes contact.
 

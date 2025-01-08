@@ -3147,6 +3147,18 @@ Target = UserSide
 FunctionCode = StartUserSideDoubleSpeed
 Description = The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.
 #-------------------------------
+[SPIRITUALSLASH]
+Name = Spiritual Slash
+Type = GHOST
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Slash
+Description = TBD
+#-------------------------------
 [ASTRALBARRAGE]
 Name = Astral Barrage
 Type = GHOST
@@ -8288,6 +8300,17 @@ Target = User
 FunctionCode = RaiseUserAtk1Spd2
 Description = The user rotates its gears, raising its Attack and sharply raising its Speed.
 #-------------------------------
+[BESTOWLIFE]
+Name = Bestow Life
+Type = WATER
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = Other
+FunctionCode = HealTargetHalfOfTotalHP
+Flags = CanProtect,Pulse
+Description = The user uses water of the primordial to heal it's self and ally's HP by half of its max HP.
+#-------------------------------
 [HYDROCANNON]
 Name = Hydro Cannon
 Type = WATER
@@ -8992,6 +9015,18 @@ Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 30
 Description = The user bites with flame-cloaked fangs. It may also make the target flinch.
 #-------------------------------
+[HARMONYMAW]
+Name = Harmony Maw
+Type = ANGEL
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Biting
+Description = TBD
+#-------------------------------
 [RAGNAROK]
 Name = Ragnarök
 Type = ANGEL
@@ -9051,6 +9086,18 @@ TotalPP = 30
 Target = UserSide
 FunctionCode = StartPreventCriticalHitsAgainstUserSide
 Description = The user chants for devine help, preventing the foe from landing critical hits.
+#-------------------------------
+[JUDGMENTALHAMMER]
+Name = Judgmental Hammer
+Type = DEMON
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = TBD
 #-------------------------------
 [CHAOTICBEAM]
 Name = Chaotic Beam

@@ -247,15 +247,17 @@ SuperRod
 #-------------------------------
 [162] # Route 16
 LandDay,21
-    40,CAIBORA,12,14
+	30,PUPENGUE,12,14
+    20,CAIBORA,12,14
 LandNight,21
-    40,CAIBORA,12,14
+	20,PUPENGUE,12,14
+    10,CAIBORA,12,14
 #-------------------------------
 [163] # Route 17
 LandDay,21
-    40,CAIBORA,12,14
+    20,CAIBORA,12,14
 LandNight,21
-    40,CAIBORA,12,14
+    10,CAIBORA,12,14
 Water
 	40,ZOSTEELA,12,15
 	20,MAGIKARP,13,16
