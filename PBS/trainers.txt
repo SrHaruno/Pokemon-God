@@ -490,3 +490,17 @@ LoseText = I was gonna make a fortune!
 Pokemon = BOUDYENA,16
 Pokemon = VOODOLL,16
 Pokemon = YOUNROW,18
+
+#S.S Atlantic.
+#-------------------------------
+[GENTLEMAN, Mike]
+LoseText = You are stronger than I tought!
+Pokemon = SENTRET,16
+Pokemon = HOOTHOOT,16
+#-------------------------------
+[SAILOR, Toshiro]
+LoseText = Bah!
+Pokemon = KARANSHELL,17
+Pokemon = KARANSHELL,17
+Pokemon = KARANSHELL,17
+
