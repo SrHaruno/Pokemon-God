@@ -261,6 +261,9 @@ BattleBack = indoor1
 Name = Marine City
 MapPosition = 0,24,4
 #-------------------------------
+[058]   # Port
+Name = Marine City
+#-------------------------------
 [059]   # Mt.Solar
 Name = Mt.Solar
 ShowArea = true
@@ -655,7 +658,7 @@ MapPosition = 0,10,1
 Name = Safari Zone
 MapPosition = 0,10,1
 #-------------------------------
-[145]   # Plain_Area
+[145]   # Plain_Zone
 Name = Safari Zone
 Outdoor = true
 MapPosition = 0,10,1
