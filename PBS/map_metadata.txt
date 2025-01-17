@@ -742,3 +742,23 @@ ShowArea = true
 MapPosition = 0,8,10
 BattleBack = field
 MapSize = 2,1010
+#-------------------------------
+[164]   # S.S Atlantic
+Name = 
+MapPosition = 0,17,13
+#-------------------------------
+[165]   # Rooms
+Name = S.S Atlantic
+MapPosition = 0,17,13
+#-------------------------------
+[166]   # Dock_Up
+Name = S.S Atlantic
+MapPosition = 0,17,13
+#-------------------------------
+[167]   # Cap_Cabin
+Name = S.S Atlantic
+MapPosition = 0,17,13
+#-------------------------------
+[168]   # Dock_Down
+Name = S.S Atlantic
+MapPosition = 0,17,13
