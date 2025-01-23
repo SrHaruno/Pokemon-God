@@ -255,8 +255,10 @@ LandNight,21
 #-------------------------------
 [163] # Route 17
 LandDay,21
+	30,KARANSHELL,11,14
     20,CAIBORA,12,14
 LandNight,21
+	30,KARANSHELL,11,14
     10,CAIBORA,12,14
 Water
 	40,ZOSTEELA,12,15

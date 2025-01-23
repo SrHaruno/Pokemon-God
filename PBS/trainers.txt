@@ -79,6 +79,38 @@ Pokemon = KITSU,16
 Pokemon = EGDON,16
 	Gender = Male
 
+
+
+# Fifth Gym
+#-------------------------------
+[RIVAL1,Bruno,10] #Grass Starter
+Pokemon = PASSHARP,20
+Pokemon = FLAMUNNY,20
+Pokemon = KITSU,23
+	Gender = Male
+Pokemon = PSYLOTE,25
+Gender = Male
+#-------------------------------
+[RIVAL1,Bruno,11] #Fire Starter
+Pokemon = PASSHARP,20
+Pokemon = GYARADOS,20
+Pokemon = KITSU,23
+	Gender = Male
+Pokemon = EVIRASS,25
+Gender = Male
+#-------------------------------
+[RIVAL1,Bruno,12] #Water Starter
+Pokemon = PASSHARP,20
+Pokemon = ORBEAF,20
+	Gender = Male
+Pokemon = KITSU,23
+	Gender = Male
+Pokemon = DRAMODO,25
+	Gender = Male
+
+
+#===========================================================================
+
 #Gym Leaders
 #-------------------------------
 [LEADER_Daniel,Daniel]
@@ -119,6 +151,8 @@ Pokemon = VENUSAUR,45
 Pokemon = KATAGAMI,45
 Pokemon = JUNVIL,48
 
+
+
 #Marine Gym
 #-------------------------------
 [REAPERBOSS, Alcapone]
@@ -129,30 +163,49 @@ Pokemon = EVIRASS,18
     Moves = BULKUP,LEECHSEED,RAZORLEAF,KNOCKOFF
 	Item = SITRUSBERRY
 
+
+
 #Jasmil Gym
 #-------------------------------
 [LEADER_Nikolai,Nikolai]
 Items = SUPERPOTION,SUPERPOTION
 LoseText = That was AMAZING!
 Pokemon = CUBOLT,20
-    Moves = THUNDERWAVE,SHOCKWAVE,NOBLEROAR,VOLTSWITCH
+    Moves = THUNDERWAVE,SHOCKWAVE,NOBLEROAR
 Pokemon = SQUILAZE,22
-    Moves = SHOCKWAVE,FLAMEWHEEL,VOLTSWITCH
+    Moves = SHOCKWAVE,FLAMEWHEEL
 Pokemon = CHOPAXE,24
     Moves = SCRATCH
 Pokemon = JOLTUTER,26
-    Moves = THUNDERWAVE,VOLTSWITCH,MOUSEWHIP,METALSOUND
+    Moves = THUNDERWAVE,SHOCKWAVE,MOUSEWHIP,METALSOUND
 	Item  = SITRUSBERRY
 
+
+
 #Tranquor Village
+#Room 1
+#-------------------------------
+[ACEDUOS, James & Jessie]
+LoseText = We are blasting off at the speed of light!
+Pokemon = TURTLOW,18
+Pokemon = MOMBER,18
+
+
 #-------------------------------
 [LEADERS, Ying & Gyan]
 Items = SUPERPOTION,SUPERPOTION
 LoseText = Gyan: Of course we lose, with Ying Passiveness we never deal damage... Ying: It's your reckless strategies that lead us to an defeat...
 Pokemon = MOMBER,18
 Pokemon = BOTOLPHIN,18
+Pokemon = DRAMODO,20
+Pokemon = PSYLOTE,20
 Pokemon = VAPOREON,26
 Pokemon = FLAREON,26
+
+#===========================================================================
+
+
+
 
 #Cities
 

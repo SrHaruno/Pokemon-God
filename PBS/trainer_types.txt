@@ -235,6 +235,13 @@ Gender = Female
 BaseMoney = 60
 IntroBGM = Trainer Eyes Meet! Psychic
 #-------------------------------
+[ACEDUOS]
+Name = Ace Duos
+Gender = Unknown
+BaseMoney = 72
+SkillLevel = 48
+IntroBGM = Trainer Eyes Meet! Psychic
+#-------------------------------
 [YOUNGSTER]
 Name = Youngster
 Gender = Male
