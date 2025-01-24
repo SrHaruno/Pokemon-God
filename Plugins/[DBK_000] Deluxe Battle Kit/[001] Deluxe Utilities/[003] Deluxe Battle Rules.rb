@@ -12,7 +12,7 @@ class Game_Temp
     when "nevercapture"      then rules["captureSuccess"]    = false
     when "tutorialcapture"   then rules["captureTutorial"]   = true
     when "autobattle"        then rules["autoBattle"]        = true
-    when "towerbattle"       then rules["towerBattle"]       = false
+    when "towerbattle"       then rules["internalBattle"]    = false
     when "inversebattle"     then rules["inverseBattle"]     = true
     when "nobag"             then rules["noBag"]             = true
     when "wildmegaevolution" then rules["wildBattleMode"]    = :mega
@@ -103,7 +103,7 @@ module BattleCreationHelperMethods
     battle.raidStyleCapture   = battleRules["raidStyleCapture"] if !battleRules["raidStyleCapture"].nil?
     battle.wildBattleMode     = battleRules["wildBattleMode"]   if !battleRules["wildBattleMode"].nil?
     battle.controlPlayer      = battleRules["autoBattle"]       if !battleRules["autoBattle"].nil?
-    battle.internalBattle     = battleRules["towerBattle"]      if !battleRules["towerBattle"].nil?
+    battle.internalBattle     = battleRules["internalBattle"]   if !battleRules["internalBattle"].nil?
     battle.noBag              = battleRules["noBag"]            if !battleRules["noBag"].nil?
     battle.introText          = battleRules["battleIntroText"]  if !battleRules["battleIntroText"].nil?
     battle.slideSpriteStyle   = battleRules["slideSpriteStyle"] if !battleRules["slideSpriteStyle"].nil?
@@ -330,13 +330,8 @@ class Battle::Battler
       else
         pbRaidStyleCapture(self)
       end
-    else
-      if fainted? && !@fainted
-        triggers = ["BattlerFainted", @species, *@pokemon.types]
-        triggers.push("LastBattlerFainted", @species, *@pokemon.types) if @battle.pbAllFainted?(@index)
-      end	  
+    else  
       dx_pbFaint(showMessage)
-      @battle.pbDeluxeTriggers(@index, nil, *triggers) if triggers
     end
   end
 end

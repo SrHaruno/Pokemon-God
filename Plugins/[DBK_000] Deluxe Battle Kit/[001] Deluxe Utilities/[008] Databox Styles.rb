@@ -222,7 +222,8 @@ class Battle::Scene::PokemonDataBox
     old_style = @style
     sideSize = @battler.battle.pbSideSize(@battler.index)
     initializeDataBoxGraphic(sideSize)
-    if @style && !old_style
+    return if @style == old_style
+    if @style
       try_exp = sprintf("%s/%s/overlay_exp", @path, @style.id)
       expPath = (pbResolveBitmap(try_exp)) ? @style.id : :Basic
       @expBarBitmap = AnimatedBitmap.new(sprintf("%s/%s/overlay_exp", @path, expPath))
@@ -231,7 +232,7 @@ class Battle::Scene::PokemonDataBox
       else
         @hpBarBitmap = AnimatedBitmap.new(sprintf("%s/%s/overlay_hp", @path, @style.id))
       end
-    elsif !@style && old_style
+    else
       @hpOffsetXY   = nil
       @expOffsetXY  = nil
       @expBarBitmap = AnimatedBitmap.new("Graphics/UI/Battle/overlay_exp")
@@ -251,7 +252,7 @@ class Battle::Scene::PokemonDataBox
     end
     refresh
   end
-
+  
   #-----------------------------------------------------------------------------
   # Utility for setting values for each databox element based on style.
   #-----------------------------------------------------------------------------
@@ -340,7 +341,10 @@ class Battle::Scene::PokemonDataBox
       imagepos.push([_INTL("Graphics/UI/Battle/icon_statuses"), *@displayPos[:status], 0, s * STATUS_ICON_HEIGHT, -1, STATUS_ICON_HEIGHT])
     end
     specialPos = @displayPos[:special]
-    if @battler.mega?
+    if @battler.shadowPokemon? && @battler.inHyperMode?
+      filename = "Graphics/UI/Battle/icon_hyper_mode"
+      imagepos.push([filename, specialPos[0] + 4, specialPos[1] + 4])
+    elsif @battler.mega?
       base_file = "Graphics/UI/Battle/icon_mega"
       try_file = base_file + "_" + @battler.pokemon.speciesName
       filename = (pbResolveBitmap(try_file)) ? try_file : base_file

@@ -24,6 +24,11 @@ module MidbattleHandlers
   def self.has_any?(midbattle)
     return @@scripts[midbattle]&.keys.length > 0
   end
+  
+  def self.script_keys
+    return [] if !@@scripts.has_key?(:midbattle_scripts)
+    return @@scripts[:midbattle_scripts].keys
+  end
 
   def self.trigger(midbattle, id, battle, idxBattler, idxTarget, params)
     return nil if !@@scripts.has_key?(midbattle)
@@ -54,8 +59,10 @@ MidbattleHandlers.add(:midbattle_triggers, "setBattler",
     idxBattler = 0 if idxBattler.nil?
     idxTarget  = 1 if idxTarget.nil?
     default_battler = battle.battlers[idxBattler]
+    default_battler = battle.allSameSideBattlers(idxBattler).first if !default_battler || default_battler.fainted?
     default_target  = battle.battlers[idxTarget]
-    default_target  = default_battler.pbDirectOpposing if default_target.index == default_battler.index
+    default_target  = battle.allSameSideBattlers(idxTarget).first if !default_target || default_target.fainted?
+    default_target  = default_battler.pbDirectOpposing(true) if default_target.index == default_battler.index
     case params
     when Integer        then targ = battle.battlers[params] || default_battler
     when :Self          then targ = default_battler
@@ -862,6 +869,51 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerStatus",
 )
 
 #-------------------------------------------------------------------------------
+# Changes a battler's typing.
+#-------------------------------------------------------------------------------
+MidbattleHandlers.add(:midbattle_triggers, "battlerType",
+  proc { |battle, idxBattler, idxTarget, params|
+    battler = battle.battlers[idxBattler]
+    next if !battler || battler.fainted? || battle.decision > 0 || !battler.canChangeType?
+    changed_types = false
+    old_types = battler.pbTypes
+    params = params[0] if params.is_a?(Array) && params.length == 1
+    case params
+    when :Reset
+      next if battler.types == battler.pokemon.types
+      battler.pbResetTypes
+      PBDebug.log("     'battlerType': #{battler.name} (#{battler.index}) typing reset to normal")
+      battle.pbDisplay(_INTL("{1} reverted to its original typing!", battler.pbThis))
+    when Symbol
+      next if !GameData::Type.exists?(params)
+      next if !battler.pbHasOtherType?(params)
+      battler.pbChangeTypes(params)
+      typeName = GameData::Type.get(params).name
+      PBDebug.log("     'battlerType': #{battler.name} (#{battler.index}) typing became #{typeName}")
+      battle.pbDisplay(_INTL("{1}'s type changed to {2}!", battler.pbThis, typeName))
+    when Array
+      types = []
+      params.each { |type| types.push(type) if GameData::Type.exists?(type) }
+      next if types.empty?
+      new_types = types.sort_by { |t| GameData::Type.get(t).icon_position }
+      old_types = old_types.sort_by { |t| GameData::Type.get(t).icon_position }
+      next if new_types == old_types
+      battler.types = types
+      battler.effects[PBEffects::ExtraType] = nil
+      battler.effects[PBEffects::BurnUp] = false
+      battler.effects[PBEffects::Roost]  = false
+      typeNames = ""
+      types.each_with_index do |t, i|
+        typeNames += ((i == types.length - 1) ? " and " : ", ") if i > 0
+        typeNames += GameData::Type.get(t).name
+      end
+      PBDebug.log("     'battlerType': #{battler.name} (#{battler.index}) typing became #{typeNames}")
+      battle.pbDisplay(_INTL("{1}'s type changed to {2}!", battler.pbThis, typeNames))
+    end
+  }
+)
+
+#-------------------------------------------------------------------------------
 # Changes a battler's form.
 #-------------------------------------------------------------------------------
 MidbattleHandlers.add(:midbattle_triggers, "battlerForm",
@@ -1609,6 +1661,7 @@ MidbattleHandlers.add(:midbattle_triggers, "changeDataboxes",
     old_style = battle.databoxStyle || :None
     old_style = old_style.first if old_style.is_a?(Array)
     style = (params.is_a?(Array)) ? params.first : params
+    next if battle.raidBattle? && !GameData::DataboxStyle.exists?(style)
     battle.scene.pbRefreshStyle(*params)
     PBDebug.log("     'changeDataboxes': changed databox style (#{old_style}=>#{style})") if style != old_style
   }

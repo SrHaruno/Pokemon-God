@@ -556,4 +556,19 @@ LoseText = Bah!
 Pokemon = KARANSHELL,17
 Pokemon = KARANSHELL,17
 Pokemon = KARANSHELL,17
+#-------------------------------
+[YOUNGSTER, Ben]
+LoseText = I've been melted!
+Pokemon = TAILLOW,15
+Pokemon = ZIGZAGOON,17
+#-------------------------------
+[AROMALADY, Petaly]
+LoseText = Very elegant team!
+Pokemon = DEERLING,17
+Pokemon = PETILIL,17
+#-------------------------------
+[LASS, Brrta]
+LoseText = My fire has been put down! My fire has been put down!
+Pokemon = BIDOOF,16
+Pokemon = SNOVER,16
 

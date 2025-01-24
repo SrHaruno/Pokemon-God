@@ -41,6 +41,7 @@ class Sprite
   end
   
   def set_shadow_icon_pattern
+    return if !self.pokemon
     if self.pokemon.shadowPokemon?
       apply_shadow_pattern(self.pokemon, "Icons")
     else
@@ -145,5 +146,42 @@ class Battle::Scene
     battler = (idxBattler.respond_to?("index")) ? idxBattler : @battle.battlers[idxBattler]
     pkmnSprite = @sprites["pokemon_#{battler.index}"]
     pkmnSprite.set_plugin_pattern(battler)
+  end
+end
+
+#-------------------------------------------------------------------------------
+# Alias for Call command to update battler's databox.
+#-------------------------------------------------------------------------------
+class Battle
+  alias shadow_pbCall pbCall
+  def pbCall(idxBattler)
+    shadow_pbCall(idxBattler)
+    return if pbDebugRun != 0
+    battler = @battlers[idxBattler]
+    if battler.shadowPokemon? && !battler.inHyperMode?
+      @scene.pbRefreshOne(idxBattler)
+    end
+  end
+  
+  alias shadow_pbEOREndBattlerSelfEffects pbEOREndBattlerSelfEffects
+  def pbEOREndBattlerSelfEffects(battler)
+    wasInHyperMode = battler.inHyperMode?
+    shadow_pbEOREndBattlerSelfEffects(battler)
+    @scene.pbRefreshOne(battler.index) if !battler.inHyperMode? && wasInHyperMode
+  end
+end
+
+#-------------------------------------------------------------------------------
+# Hyper Mode call rewritten to update battler's databox.
+#-------------------------------------------------------------------------------
+class Battle::Battler
+  def pbHyperMode
+    return if fainted? || !shadowPokemon? || inHyperMode? || !pbOwnedByPlayer?
+    p = self.pokemon
+    if @battle.pbRandom(p.heart_gauge) <= p.max_gauge_size / 4
+      p.hyper_mode = true
+      @battle.pbDisplay(_INTL("{1}'s emotions rose to a fever pitch!\nIt entered Hyper Mode!", self.pbThis))
+      @battle.scene.pbRefreshOne(@index)
+    end
   end
 end

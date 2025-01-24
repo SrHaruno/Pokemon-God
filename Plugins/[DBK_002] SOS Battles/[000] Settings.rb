@@ -7,7 +7,7 @@ module Settings
   # All eligible wild Pokemon will be capable of SOS calls when turned on. 
   # When off, SOS calls will never occur unless turned on via a Battle Rule.
   #-----------------------------------------------------------------------------
-  SOS_CALL_SWITCH = 61
+  SOS_CALL_SWITCH = 62
   
   #-----------------------------------------------------------------------------
   # When true, wild Pokemon may only SOS call once per battle. Wild Pokemon will

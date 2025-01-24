@@ -5,33 +5,6 @@
 #===============================================================================
 
 #-------------------------------------------------------------------------------
-# Adds a toggle for Mega Evolution in the debug menu.
-#-------------------------------------------------------------------------------
-MenuHandlers.add(:debug_menu, :deluxe_plugins_menu, {
-  "name"        => _INTL("Deluxe plugin settings..."),
-  "parent"      => :main,
-  "description" => _INTL("Settings added by the Deluxe Battle Kit and other add-on plugins."),
-  "always_show" => false
-})
-
-MenuHandlers.add(:debug_menu, :deluxe_gimmick_toggles, {
-  "name"        => _INTL("Toggle battle gimmicks..."),
-  "parent"      => :deluxe_plugins_menu,
-  "description" => _INTL("Toggles for various battle gimmicks such as Mega Evolution.")
-})
-
-MenuHandlers.add(:debug_menu, :deluxe_mega, {
-  "name"        => _INTL("Toggle Mega Evolution"),
-  "parent"      => :deluxe_gimmick_toggles,
-  "description" => _INTL("Toggles the availability of Mega Evolution functionality."),
-  "effect"      => proc {
-    $game_switches[Settings::NO_MEGA_EVOLUTION] = !$game_switches[Settings::NO_MEGA_EVOLUTION]
-    toggle = ($game_switches[Settings::NO_MEGA_EVOLUTION]) ? "disabled" : "enabled"
-    pbMessage(_INTL("Mega Evolution {1}.", toggle))
-  }
-})
-
-#-------------------------------------------------------------------------------
 # Game stat tracking for wild Mega battles.
 #-------------------------------------------------------------------------------
 class GameStats
@@ -176,6 +149,7 @@ class Battle::Battler
   def hasMega?
     return false if shadowPokemon? || @effects[PBEffects::Transform]
     return false if wild? && @battle.wildBattleMode != :mega
+    return false if @battle.raidBattle? && @battle.raidRules[:style] != :Basic
     return false if !getActiveState.nil?
     return false if hasEligibleAction?(:primal, :zmove, :ultra, :zodiac)
     return @pokemon&.hasMegaForm?
@@ -194,8 +168,11 @@ end
 #-------------------------------------------------------------------------------
 class Battle::Scene::PokemonDataBox < Sprite
   def draw_special_form_icon
-	specialX = (@battler.opposes?(0)) ? 208 : -28
-    if @battler.mega?
+    specialX = (@battler.opposes?(0)) ? 208 : -28
+    if @battler.shadowPokemon? && @battler.inHyperMode?
+      specialY = 8
+      filename = "Graphics/UI/Battle/icon_hyper_mode"
+    elsif @battler.mega?
       specialY = 8
       base_file = "Graphics/UI/Battle/icon_mega"
       try_file = base_file + "_" + @battler.pokemon.speciesName

@@ -65,9 +65,12 @@ class Battle::Scene
   #-----------------------------------------------------------------------------
   # Adds a new trainer.
   #-----------------------------------------------------------------------------
-  def pbTrainerJoin(idxBattler, idxTrainer)
-    addNewBattler = pbPrepNewBattler(idxBattler)
-    battler = @battle.battlers[idxBattler]
+  def pbTrainerJoin(sendOuts, idxTrainer)
+    addNewBattler = false
+    sendOuts.each_with_index do |sendOut, i|
+      addNew = pbPrepNewBattler(sendOut[0])
+      addNewBattler = addNew if i == 0
+    end
     trainer = @battle.opponent[idxTrainer]
     id = "trainer_#{idxTrainer + 1}"
     if @sprites[id]
@@ -84,14 +87,20 @@ class Battle::Scene
     if @battle.launcherBattle?
       @sprites["launcherBar_1_#{idxTrainer}"] = WonderLauncherPointsBar.new(1, idxTrainer, trainer, @viewport)
     end
-    joinAnim = Animation::TrainerJoin.new(@sprites, @viewport, @battle, battler.index, idxTrainer + 1, addNewBattler)
+    joinAnim = Animation::TrainerJoin.new(@sprites, @viewport, @battle, sendOuts[0][0], idxTrainer + 1, addNewBattler)
     @animations.push(joinAnim)
     while inPartyAnimation?
       pbUpdate
     end
     pbDisplayPausedMessage(_INTL("{1} joined the battle!", trainer.full_name))
-    pbDisplayMessage(_INTL("{1} sent out {2}!", trainer.full_name, battler.name))
-    @battle.pbSendOut([[idxBattler, battler.pokemon]])
+    battler_names = ""
+    sendOuts.each_with_index do |sendOut, i|
+      battler = @battle.battlers[sendOut[0]]
+      battler_names += ((i == sendOuts.length - 1) ? " and " : ", ") if i > 0
+      battler_names += (defined?(battler.name_title)) ? battler.name_title : battler.name
+    end
+    pbDisplayMessage(_INTL("{1} sent out {2}!", trainer.full_name, battler_names))
+    @battle.pbSendOut(sendOuts)
   end
   
   #-----------------------------------------------------------------------------
@@ -283,11 +292,11 @@ class Battle::Scene::Animation::TrainerJoin < Battle::Scene::Animation
         dir = (b.index.even?) ? 1 : -1
         box = addSprite(boxSprite)
         box.setDelta(delay, dir * Graphics.width / 2, 0)
-        box.setVisible(delay, true) if !b.fainted?
+        box.setVisible(delay, true) if !b.fainted? && batSprite.visible
         box.moveDelta(delay, 8, -dir * Graphics.width / 2, 0)
       else
         box = addSprite(boxSprite)
-        box.setVisible(delay, true) if !b.fainted?
+        box.setVisible(delay, true) if !b.fainted? && batSprite.visible
       end
       delay += 1
     end

@@ -91,8 +91,7 @@ class Battle::Battler
   def isRaidBoss?
     return false if self.idxOwnSide == 0
     return false if @battle.pbSideBattlerCount(@index) > 1
-    return false if fainted? || @battle.decision > 0
-    return @pokemon.immunities.include?(:RAIDBOSS)
+    return @pokemon&.immunities.include?(:RAIDBOSS)
   end
   
   #-----------------------------------------------------------------------------
@@ -178,7 +177,7 @@ class Battle::Battler
   alias dx_pbFlinch pbFlinch
   def pbFlinch(_user = nil)
     return false if dynamax?
-    return false if @pokemon.immunities.include?(:FLINCH)
+    return false if @pokemon && @pokemon.immunities.include?(:FLINCH)
     return dx_pbFlinch(_user)
   end
   

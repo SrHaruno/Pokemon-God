@@ -495,7 +495,7 @@ end
 # General Debug options
 #-------------------------------------------------------------------------------
 MenuHandlers.add(:debug_menu, :deluxe_mode_toggles, {
-  "name"        => _INTL("Toggle battle modes..."),
+  "name"        => _INTL("Toggle plugin battle modes..."),
   "parent"      => :deluxe_plugins_menu,
   "description" => _INTL("Toggles for various battle modes implemented by add-on plugins.")
 })
@@ -508,6 +508,53 @@ MenuHandlers.add(:debug_menu, :deluxe_sos, {
     $game_switches[Settings::SOS_CALL_SWITCH] = !$game_switches[Settings::SOS_CALL_SWITCH]
     toggle = ($game_switches[Settings::SOS_CALL_SWITCH]) ? "enabled" : "disabled"
     pbMessage(_INTL("SOS calls {1}.", toggle))
+  }
+})
+
+MenuHandlers.add(:battle_rules_menu, :SOSBattle, {
+  "name"        => "SOS battle: [{1}]",
+  "rule"        => "SOSBattle",
+  "order"       => 316,
+  "parent"      => :set_battle_rules,
+  "description" => _INTL("Determines whether or not wild Pokémon can use SOS calls."),
+  "effect"      => proc { |menu|
+    next pbApplyBattleRule("SOSBattle", :Boolean, nil, 
+      _INTL("Set whether wild Pokémon can use SOS calls."))
+  }
+})
+
+MenuHandlers.add(:battle_rules_menu, :totemBattle, {
+  "name"        => "Totem battle: [{1}]",
+  "rule"        => "totemBattle",
+  "order"       => 317,
+  "parent"      => :set_battle_rules,
+  "description" => _INTL("Wild Pokémon will be flagged as Totem Pokemon."),
+  "effect"      => proc { |menu|
+    next pbApplyBattleRule("totemBattle", :Toggle, true)
+  }
+})
+
+MenuHandlers.add(:battle_rules_menu, :setSOSPokemon, {
+  "name"        => "Forced SOS: [{1}]",
+  "rule"        => "setSOSPokemon",
+  "order"       => 318,
+  "parent"      => :set_battle_rules,
+  "description" => _INTL("Determines the species called via SOS."),
+  "effect"      => proc { |menu|
+    next pbApplyBattleRule("setSOSPokemon", :Data, :Species,
+      _INTL("Set which species should be called via SOS."))
+  }
+})
+
+MenuHandlers.add(:battle_rules_menu, :addSOSPokemon, {
+  "name"        => "Additional SOS: [{1}]",
+  "rule"        => "addSOSPokemon",
+  "order"       => 319,
+  "parent"      => :set_battle_rules,
+  "description" => _INTL("Determines an extra species that may be called via SOS."),
+  "effect"      => proc { |menu|
+    next pbApplyBattleRule("addSOSPokemon", :Data, :Species,
+      _INTL("Add a species to the pool of possible SOS calls."))
   }
 })
 

@@ -133,6 +133,8 @@ class Battle
         trigger_array.push(trigger + "_repeat_every")
       end
     end
+    trigger_array.push("VariableOver_")
+    trigger_array.push("VariableUnder_")
     return trigger_array
   end
   
@@ -642,6 +644,27 @@ class Battle::Battler
     if @effects[PBEffects::Attract] == -1 && oldEffect >= 0
       @battle.pbDeluxeTriggers(self, nil, "BattlerAttractEnd", @species, @pokemon.types)
     end
+  end
+  
+  #-----------------------------------------------------------------------------
+  # Midbattle triggers upon a battler fainting.
+  #-----------------------------------------------------------------------------
+  alias dx_pbAbilitiesOnFainting pbAbilitiesOnFainting
+  def pbAbilitiesOnFainting
+    dx_pbAbilitiesOnFainting
+    triggers = ["BattlerFainted", @species, *@pokemon.types]
+    if @battle.pbAllFainted?(@index)
+      lastBattler = true
+      owner = @battle.pbGetOwnerFromBattlerIndex(@index)
+      @battle.battlers.each do |b|
+        next if !b || b.opposes?(@index) || !b.fainted? || b.fainted
+        thisOwner = @battle.pbGetOwnerFromBattlerIndex(b.index)
+        next if thisOwner != owner
+        lastBattler = false
+      end
+      triggers.push("LastBattlerFainted", @species, *@pokemon.types) if lastBattler
+    end
+    @battle.pbDeluxeTriggers(@index, nil, *triggers)
   end
   
   #-----------------------------------------------------------------------------
