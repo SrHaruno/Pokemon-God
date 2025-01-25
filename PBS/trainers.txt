@@ -115,7 +115,7 @@ Pokemon = DRAMODO,25
 #-------------------------------
 [LEADER_Daniel,Daniel]
 Items = POTION
-LoseText = Very good. You deserve the Knowedge Badge!
+LoseText = Very good. You deserve the Knowledge Badge!
 Pokemon = MOSSELIN,8
     Moves = LEECHSEED,VINEWHIP,ROCKTHROW,DEFENSECURL
 	Item = ORANBERRY

@@ -50,7 +50,6 @@ MapPosition = 0,22,7
 Name = Viridis Town
 Outdoor = true
 ShowArea = true
-HealingSpot = 13,42,14
 MapPosition = 0,20,5
 BattleBack = field
 #-------------------------------
@@ -744,7 +743,7 @@ BattleBack = field
 MapSize = 2,1010
 #-------------------------------
 [164]   # S.S Atlantic
-Name = 
+Name = S.S Atlantic
 MapPosition = 0,17,13
 #-------------------------------
 [165]   # Rooms
