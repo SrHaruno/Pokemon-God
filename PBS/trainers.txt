@@ -3,19 +3,19 @@
 # First Rival Battle
 #-------------------------------
 [RIVAL1,Bruno,1] #Grass Starter
-LoseText = Yes, my starter is weak to yours. A good trainer wins by overcoming tough matchups, even on disadvantage.
+LoseText = I might have lost that battle, but I learned somenthing with that battle!
 Pokemon = AXOLOBY,5
     Gender = Male
 	Moves = TACKLE,TAILWHIP
 #-------------------------------
 [RIVAL1,Bruno,2] #Fire Starter
-LoseText = Yes, my starter is weak to yours. A good trainer wins by overcoming tough matchups, even on disadvantage.
+LoseText = I might have lost that battle, but I learned somenthing with that battle!
 Pokemon = GRALING,5
 	Gender = Male
 	Moves = TACKLE,LEER
 #-------------------------------
 [RIVAL1,Bruno,3] #Water Starter
-LoseText = Yes, my starter is weak to yours. A good trainer wins by overcoming tough matchups, even on disadvantage.
+LoseText = I might have lost that battle, but I learned somenthing with that battle!
 Pokemon = EGDON,5
 	Gender = Male
 	Moves = SCRATCH,TAILWHIP
@@ -25,7 +25,7 @@ Pokemon = EGDON,5
 # Second Rival Battle
 #-------------------------------
 [RIVAL1,Bruno,4] #Grass Starter
-LoseText = My team still isn't on point...
+LoseText = Well, I lost.
 Pokemon = PURIRD,9
 Pokemon = FLAMUNNY,9
 	Gender = Male
@@ -33,14 +33,14 @@ Pokemon = AXOLOBY,10
 	Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,5] #Fire Starter
-LoseText = My team still isn't on point...
+LoseText = Well, I lost.
 Pokemon = PURIRD,9
 Pokemon = MAGIKARP,9
 Pokemon = GRALING,10
 	Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,6] #Water Starter
-LoseText = My team still isn't on point...
+LoseText = Well, I lost.
 Pokemon = PURIRD,9
 Pokemon = ORBEAF,9
 	Gender = Male
@@ -81,7 +81,7 @@ Pokemon = EGDON,16
 
 
 
-# Fifth Gym
+# Fifth Gym -- Bruno Tags with player
 #-------------------------------
 [RIVAL1,Bruno,10] #Grass Starter
 Pokemon = PASSHARP,20

@@ -59,7 +59,7 @@ SuperRod
 #Routes
 #-------------------------------
 [005] # Route 1
-LandDay,21
+Land,20
     40,DWILD,3,5
     30,PURIRD,3,5
     10,CAPYBURA,5
@@ -77,7 +77,7 @@ SuperRod
     20,GYARADOS,30,33
 #-------------------------------
 [060] # Serenity Pond
-LandDay,21
+Land,20
     40,DWILD,3,5
     30,PURIRD,3,5
     10,CAPYBURA,5
@@ -95,7 +95,7 @@ SuperRod
     20,GYARADOS,30,33
 #-------------------------------
 [014] # Route 2
-LandDay,21
+Land,20
     40,DWILD,3,5
     30,PURIRD,3,5
     5,MOSLEEP,5
@@ -113,7 +113,7 @@ SuperRod
     20,GYARADOS,30,33
 #-------------------------------
 [018] # Route 3
-LandDay,21
+Land,20
     40,CHIKATE,5,6
     30,MOMBER,5,6
     10,EEVEE,8
@@ -123,7 +123,7 @@ LandNight,21
     10,EEVEE,8
 #-------------------------------
 [039] # Route 4
-LandDay,21
+Land,20
 	40,PURIRD,6,8
 	30,DWILD,8
     20,SPARKATIEL,6,8
@@ -135,7 +135,7 @@ LandNight,21
     10,FLORBIRB,9
 #-------------------------------
 [040] # Route 5
-LandDay,21
+Land,20
 	40,KARANSHELL,7,9
 	30,MEDULLISH,7,8
     10,TURTEED,8
@@ -156,7 +156,7 @@ SuperRod
 	1,DRAGONAIR,30,35
 #-------------------------------
 [042] # Route 6
-LandDay,21
+Land,20
 	40,PASSCIZOR,9
 	30,CUBOLT,7,9	
 	20,KARAKID,8
@@ -168,7 +168,7 @@ LandNight,21
     10,FRUCTERA,9
 #-------------------------------
 [052] # Route 7
-LandDay,21
+Land,20
     40,CUBOLT,9,10
     30,PASSCIZOR,9,10
 LandNight,21
@@ -202,37 +202,37 @@ SuperRod
     20,GYARADOS,30,33	
 #-------------------------------
 [81] # Route 11
-LandDay,21
+Land,20
     30,CHOPAXE,12,15
 LandNight,21
     30,CHOPAXE,12,15
 #-------------------------------
 [133] # Route 12
-LandDay,21
+Land,20
     30,CHOPAXE,12,15
 LandNight,21
     30,CHOPAXE,12,15
 #-------------------------------
 [129] # Route 13
-LandDay,21
+Land,20
     30,CHOPAXE,12,15
 LandNight,21
     30,CHOPAXE,12,15
 #-------------------------------
 [82] # Route 14
-LandDay,21
-	40,PURIRD,14
-    30,TATURUG,10,12
+Land,20
+    40,TATURUG,10,12
 	20,LARVENGUE,10,12
-	20,SPYRE,10,12
+	30,PURIRD,14
+	10,SPYRE,10,12
 LandNight,21
-	20,PURIRD,10
-	30,TATURUG,10,12
+	20,TATURUG,10,12
     40,LARVENGUE,10,12
-	20,SPYRE,10,12
+	10,PURIRD,10
+	30,SPYRE,10,12
 #-------------------------------
 [083] # Route 15
-LandDay,21
+Land,20
     40,DWILD,12,14
 LandNight,21
     40,CAPYBURA,12,14
@@ -246,7 +246,7 @@ SuperRod
     20,GYARADOS,30,33	
 #-------------------------------
 [162] # Route 16
-LandDay,21
+Land,20
 	30,PUPENGUE,12,14
     20,CAIBORA,12,14
 LandNight,21
@@ -254,7 +254,7 @@ LandNight,21
     10,CAIBORA,12,14
 #-------------------------------
 [163] # Route 17
-LandDay,21
+Land,20
 	30,KARANSHELL,11,14
     20,CAIBORA,12,14
 LandNight,21
@@ -299,7 +299,7 @@ SuperRod
     20,BOEELNA,30,33	
 #-------------------------------
 [140] # Route 22
-LandDay,21
+Land,20
     40,DWILD,12,15
 	30,PURIRD,13,15
 	10,EEVEE,12,15
@@ -317,7 +317,7 @@ SuperRod
     20,GYARADOS,30,33	
 #-------------------------------
 [142] # Route 23
-LandDay,21
+Land,20
     40,DWILD,12,15
 	30,PURIRD,13,15
 	10,EEVEE,12,15
@@ -333,9 +333,12 @@ LandNight,21
 [020] # Viridis Forest
 Land,15
     40,LARVENGUE,3,5
-    30,TATURUG,3,5
+    30,TATURUG,3,6
 	20,ORBEAF,5
-	10,SQUILAZE,5
+	10,PANSAGE,3,5
+	10,PANPOUR,3,5
+	10,PANSEAR,3,5
+	5,SQUILAZE,5
 Water
 	80,MAGIKARP,5
 OldRod
@@ -350,7 +353,7 @@ SuperRod
 [041] # Mt.Hope
 Cave,7
     40,UNOWN,6,8
-    5,SNAKRE,9
+    4,SNAKRE,10
 #-------------------------------
 [046] # Mt.Hope Route 5 Cave
 Cave,7
@@ -428,7 +431,7 @@ SuperRod
 
 #-------------------------------
 [068] # Haunted Desert
-LandDay,21
+Land,20
 	40,SUNCARAB,9,10
     30,TRAPINCH,9,10
     25,GIBLE,14
@@ -480,21 +483,21 @@ SuperRod
 #Safari Zone
 #-------------------------------
 [145] # Plain Area
-Land,21
+Land,20
     40,PIDGEY,10,14
     30,SHINX,12,14
     20,BLITZLE,12,15
     5,GIRAFARIG,15
 #-------------------------------
 [146] # Forest Area
-Land,21
+Land,20
     40,SEWADDLE,10,15
 	30,VENIPEDE,12,14
 	20,SHROOMISH,9,15
 	5,BUDEW,15
 #-------------------------------
 [147] # Beach Area
-Land,21
+Land,20
     40,WINGULL,10,14
 	30,MARILL,12,15
 	20,SHELLOS,12,14
@@ -511,7 +514,7 @@ SuperRod
 	10,FEEBAS,10,15
 #-------------------------------
 [148] # Mountain Area
-Land,21
+Land,20
     40,ROGGENROLA,10,14
 	30,STARLY,10,13
 	20,RALTS,10,15
