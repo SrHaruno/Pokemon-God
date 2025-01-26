@@ -1,0 +1,473 @@
+
+================================================================
+
+[Started battle] Single wild battle (1 trainer(s) vs. 1 wild Pokémon)
+"Oh! A wild Blastoise appeared!"
+"Go! Petrillish!"
+[Midbattle Global] low HP music begins
+[Round order] The wild Blastoise (1), Petrillish (0)
+
+===== Round 1 =====
+
+[AI] Blastoise (1) is considering using Shell Smash...
+[AI] Blastoise (1) is considering using Iron Defense...
+[AI] Blastoise (1) is considering using Hydro Pump against Petrillish (0)...
+[AI] Blastoise (1) is considering using Skull Bash against Petrillish (0)...
+[AI] Move choices for Blastoise (1):
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Iron Defense: score 100
+   *  20.0% to use Hydro Pump (target 0): score 100
+   *  20.0% to use Hydro Pump (target 0): score 100
+   *  20.0% to use Skull Bash (target 0): score 100
+   => will use Hydro Pump (target 0)
+
+[Round order] The wild Blastoise (1), Petrillish (0)
+
+[Use move] The wild Blastoise (1) used Hydro Pump
+"The wild Blastoise used Hydro Pump!"
+[HP change] Petrillish lost 1 HP (1 -> 0)
+[Midbattle Global] low HP music ended
+"It's not very effective..."
+"Petrillish fainted!"
+
+================================================================
+
+[Started battle] Single wild battle (1 trainer(s) vs. 1 wild Pokémon)
+"Oh! A wild Blastoise appeared!"
+"Go! Petrillish!"
+[Midbattle Global] low HP music begins
+[Round order] The wild Blastoise (1), Petrillish (0)
+
+===== Round 1 =====
+
+[AI] Blastoise (1) is considering using Shell Smash...
+[AI] Blastoise (1) is considering using Iron Defense...
+[AI] Blastoise (1) is considering using Hydro Pump against Petrillish (0)...
+[AI] Blastoise (1) is considering using Skull Bash against Petrillish (0)...
+[AI] Move choices for Blastoise (1):
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Iron Defense: score 100
+   *  20.0% to use Hydro Pump (target 0): score 100
+   *  20.0% to use Skull Bash (target 0): score 100
+   => will use Iron Defense
+
+[Round order] The wild Blastoise (1), Petrillish (0)
+
+[Use move] The wild Blastoise (1) used Iron Defense
+"The wild Blastoise used Iron Defense!"
+[Stat change] The wild Blastoise's Defense changed by +2 (0 -> 2)
+"The wild Blastoise's Defense rose sharply!"
+[Use move] Petrillish (0) used Thunderbolt
+"Petrillish used Thunderbolt!"
+[HP change] The wild Blastoise lost 258 HP (272 -> 14)
+"It's super effective!"
+
+[End of round 1]
+
+===== Round 2 =====
+
+[AI] Blastoise (1) is considering using Shell Smash...
+[AI] Blastoise (1) is considering using Iron Defense...
+[AI] Blastoise (1) is considering using Hydro Pump against Petrillish (0)...
+[AI] Blastoise (1) is considering using Skull Bash against Petrillish (0)...
+[AI] Move choices for Blastoise (1):
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Iron Defense: score 100
+   *  20.0% to use Hydro Pump (target 0): score 100
+   *  20.0% to use Skull Bash (target 0): score 100
+   => will use Shell Smash
+
+[Round order] The wild Blastoise (1), Petrillish (0)
+
+[Use move] The wild Blastoise (1) used Shell Smash
+"The wild Blastoise used Shell Smash!"
+[Stat change] The wild Blastoise's Defense changed by -1 (2 -> 1)
+"The wild Blastoise's Defense fell!"
+[Stat change] The wild Blastoise's Special Defense changed by -1 (0 -> -1)
+"The wild Blastoise's Special Defense fell!"
+[Stat change] The wild Blastoise's Attack changed by +2 (0 -> 2)
+"The wild Blastoise's Attack rose sharply!"
+[Stat change] The wild Blastoise's Special Attack changed by +2 (0 -> 2)
+"The wild Blastoise's Special Attack rose sharply!"
+[Stat change] The wild Blastoise's Speed changed by +2 (0 -> 2)
+"The wild Blastoise's Speed rose sharply!"
+[Use move] Petrillish (0) used Thunderbolt
+"Petrillish used Thunderbolt!"
+[HP change] The wild Blastoise lost 14 HP (14 -> 0)
+"It's super effective!"
+"The wild Blastoise fainted!"
+
+================================================================
+
+[Started battle] Single wild battle (1 trainer(s) vs. 1 wild Pokémon)
+"Oh! A wild Blastoise appeared!"
+"Go! Petrillish!"
+[Midbattle Global] low HP music begins
+[Round order] The wild Blastoise (1), Petrillish (0)
+
+===== Round 1 =====
+
+[AI] Blastoise (1) is considering using Shell Smash...
+[AI] Blastoise (1) is considering using Iron Defense...
+[AI] Blastoise (1) is considering using Hydro Pump against Petrillish (0)...
+[AI] Blastoise (1) is considering using Skull Bash against Petrillish (0)...
+[AI] Move choices for Blastoise (1):
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Iron Defense: score 100
+   *  20.0% to use Hydro Pump (target 0): score 100
+   *  20.0% to use Skull Bash (target 0): score 100
+   => will use Shell Smash
+
+[Round order] The wild Blastoise (1), Petrillish (0)
+
+[Use move] The wild Blastoise (1) used Shell Smash
+"The wild Blastoise used Shell Smash!"
+[Stat change] The wild Blastoise's Defense changed by -1 (0 -> -1)
+"The wild Blastoise's Defense fell!"
+[Stat change] The wild Blastoise's Special Defense changed by -1 (0 -> -1)
+"The wild Blastoise's Special Defense fell!"
+[Stat change] The wild Blastoise's Attack changed by +2 (0 -> 2)
+"The wild Blastoise's Attack rose sharply!"
+[Stat change] The wild Blastoise's Special Attack changed by +2 (0 -> 2)
+"The wild Blastoise's Special Attack rose sharply!"
+[Stat change] The wild Blastoise's Speed changed by +2 (0 -> 2)
+"The wild Blastoise's Speed rose sharply!"
+[Use move] Petrillish (0) used Thunderbolt
+"Petrillish used Thunderbolt!"
+Clutch is Active!
+[HP change] The wild Blastoise lost 294 HP (294 -> 0)
+"It's super effective!"
+"The wild Blastoise fainted!"
+"Your other Pokémon also gained Exp. Points!"
+"Orbeaf grew to Lv. 16!"
+"Orbeaf grew to Lv. 17!"
+"Orbeaf grew to Lv. 18!"
+"Orbeaf wants to learn Metal Claw, but it already knows four moves."
+"Should Orbeaf forget a move to learn Metal Claw?"
+"Orbeaf did not learn Metal Claw."
+"Orbeaf grew to Lv. 19!"
+"Orbeaf grew to Lv. 20!"
+"Orbeaf grew to Lv. 21!"
+"Orbeaf wants to learn Slash, but it already knows four moves."
+"Should Orbeaf forget a move to learn Slash?"
+"Orbeaf did not learn Slash."
+"Orbeaf grew to Lv. 22!"
+"Orbeaf grew to Lv. 23!"
+"Orbeaf grew to Lv. 24!"
+"Orbeaf wants to learn Growth, but it already knows four moves."
+"Should Orbeaf forget a move to learn Growth?"
+"Orbeaf did not learn Growth."
+"Snakre grew to Lv. 14!"
+"Snakre grew to Lv. 15!"
+"Snakre wants to learn Headbutt, but it already knows four moves."
+"Should Snakre forget a move to learn Headbutt?"
+"Snakre did not learn Headbutt."
+"Snakre grew to Lv. 16!"
+"Snakre grew to Lv. 17!"
+"Snakre grew to Lv. 18!"
+"Snakre grew to Lv. 19!"
+"Snakre grew to Lv. 20!"
+"Snakre wants to learn Scary Face, but it already knows four moves."
+"Should Snakre forget a move to learn Scary Face?"
+"Snakre did not learn Scary Face."
+"Snakre grew to Lv. 21!"
+"Snakre grew to Lv. 22!"
+"Snakre grew to Lv. 23!"
+"Snakre grew to Lv. 24!"
+"Younrow grew to Lv. 18!"
+"Younrow grew to Lv. 19!"
+"Younrow grew to Lv. 20!"
+"Younrow grew to Lv. 21!"
+"Younrow grew to Lv. 22!"
+"Younrow grew to Lv. 23!"
+
+================================================================
+
+[Started battle] Single wild battle (1 trainer(s) vs. 1 wild Pokémon)
+"Oh! A wild Raticate appeared!"
+"Go! Petrillish!"
+[Midbattle Global] low HP music begins
+[Round order] The wild Raticate (1), Petrillish (0)
+
+===== Round 1 =====
+
+[AI] Raticate (1) is considering using Sucker Punch against Petrillish (0)...
+[AI] Raticate (1) is considering using Super Fang against Petrillish (0)...
+[AI] Raticate (1) is considering using Double-Edge against Petrillish (0)...
+[AI] Raticate (1) is considering using Endeavor against Petrillish (0)...
+[AI] Move choices for Raticate (1):
+   *  20.0% to use Sucker Punch (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Double-Edge (target 0): score 100
+   *  20.0% to use Endeavor (target 0): score 100
+   *  20.0% to use Endeavor (target 0): score 100
+   => will use Endeavor (target 0)
+
+[Round order] The wild Raticate (1), Petrillish (0)
+
+[Use move] The wild Raticate (1) used Endeavor
+"The wild Raticate used Endeavor!"
+"But it failed!"
+[Move failed] In function code LowerTargetHPToUserHP's def pbFailsAgainstTarget?
+[Use move] Petrillish (0) used Hydro Pump
+"Petrillish used Hydro Pump!"
+[HP change] The wild Raticate lost 232 HP (232 -> 0)
+"The wild Raticate fainted!"
+"Your other Pokémon also gained Exp. Points!"
+"Orbeaf grew to Lv. 16!"
+
+================================================================
+
+[Started battle] Single wild battle (1 trainer(s) vs. 1 wild Pokémon)
+"Oh! A wild Raticate appeared!"
+"Go! Petrillish!"
+[Midbattle Global] low HP music begins
+[Round order] The wild Raticate (1), Petrillish (0)
+
+===== Round 1 =====
+
+[AI] Raticate (1) is considering using Sucker Punch against Petrillish (0)...
+[AI] Raticate (1) is considering using Super Fang against Petrillish (0)...
+[AI] Raticate (1) is considering using Double-Edge against Petrillish (0)...
+[AI] Raticate (1) is considering using Endeavor against Petrillish (0)...
+[AI] Move choices for Raticate (1):
+   *  20.0% to use Sucker Punch (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Double-Edge (target 0): score 100
+   *  20.0% to use Endeavor (target 0): score 100
+   => will use Endeavor (target 0)
+
+[Round order] The wild Raticate (1), Petrillish (0)
+
+[Use move] The wild Raticate (1) used Endeavor
+"The wild Raticate used Endeavor!"
+"But it failed!"
+[Move failed] In function code LowerTargetHPToUserHP's def pbFailsAgainstTarget?
+[Use move] Petrillish (0) used Calm Mind
+"Petrillish used Calm Mind!"
+[Stat change] Petrillish's Special Attack changed by +1 (0 -> 1)
+"Petrillish's Special Attack rose!"
+[Stat change] Petrillish's Special Defense changed by +1 (0 -> 1)
+"Petrillish's Special Defense rose!"
+
+[End of round 1]
+
+===== Round 2 =====
+
+[AI] Raticate (1) is considering using Sucker Punch against Petrillish (0)...
+[AI] Raticate (1) is considering using Super Fang against Petrillish (0)...
+[AI] Raticate (1) is considering using Double-Edge against Petrillish (0)...
+[AI] Raticate (1) is considering using Endeavor against Petrillish (0)...
+[AI] Move choices for Raticate (1):
+   *  20.0% to use Sucker Punch (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Double-Edge (target 0): score 100
+   *  20.0% to use Endeavor (target 0): score 100
+   => will use Sucker Punch (target 0)
+
+[Round order] The wild Raticate (1), Petrillish (0)
+
+[Use move] The wild Raticate (1) used Sucker Punch
+"The wild Raticate used Sucker Punch!"
+"But it failed!"
+[Move failed] In function code FailsIfTargetActed's def pbFailsAgainstTarget?
+[Use move] Petrillish (0) used Calm Mind
+"Petrillish used Calm Mind!"
+[Stat change] Petrillish's Special Attack changed by +1 (1 -> 2)
+"Petrillish's Special Attack rose!"
+[Stat change] Petrillish's Special Defense changed by +1 (1 -> 2)
+"Petrillish's Special Defense rose!"
+
+[End of round 2]
+
+===== Round 3 =====
+
+[AI] Raticate (1) is considering using Sucker Punch against Petrillish (0)...
+[AI] Raticate (1) is considering using Super Fang against Petrillish (0)...
+[AI] Raticate (1) is considering using Double-Edge against Petrillish (0)...
+[AI] Raticate (1) is considering using Endeavor against Petrillish (0)...
+[AI] Move choices for Raticate (1):
+   *  20.0% to use Sucker Punch (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Double-Edge (target 0): score 100
+   *  20.0% to use Endeavor (target 0): score 100
+   => will use Double-Edge (target 0)
+
+[Round order] The wild Raticate (1), Petrillish (0)
+
+[Use move] The wild Raticate (1) used Double-Edge
+"The wild Raticate used Double-Edge!"
+[HP change] Petrillish lost 80 HP (80 -> 0)
+[Midbattle Global] low HP music ended
+"Petrillish fainted!"
+[HP change] The wild Raticate lost 27 HP (247 -> 220)
+"The wild Raticate is damaged by recoil!"
+
+================================================================
+
+[Started battle] Single wild battle (1 trainer(s) vs. 1 wild Pokémon)
+"Oh! A wild Raticate appeared!"
+"Go! Petrillish!"
+[Midbattle Global] low HP music begins
+[Round order] The wild Raticate (1), Petrillish (0)
+
+===== Round 1 =====
+
+[AI] Raticate (1) is considering using Sucker Punch against Petrillish (0)...
+[AI] Raticate (1) is considering using Super Fang against Petrillish (0)...
+[AI] Raticate (1) is considering using Double-Edge against Petrillish (0)...
+[AI] Raticate (1) is considering using Endeavor against Petrillish (0)...
+[AI] Move choices for Raticate (1):
+   *  20.0% to use Sucker Punch (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Double-Edge (target 0): score 100
+   *  20.0% to use Endeavor (target 0): score 100
+   => will use Super Fang (target 0)
+
+[Round order] The wild Raticate (1), Petrillish (0)
+
+[Use move] The wild Raticate (1) used Super Fang
+"The wild Raticate used Super Fang!"
+[HP change] Petrillish lost 40 HP (80 -> 40)
+[Use move] Petrillish (0) used Recover
+"Petrillish used Recover!"
+[HP change] Petrillish gained 161 HP (40 -> 201)
+[Midbattle Global] low HP music ended
+"Petrillish's HP was restored."
+
+[End of round 1]
+
+===== Round 2 =====
+
+[AI] Raticate (1) is considering using Sucker Punch against Petrillish (0)...
+[AI] Raticate (1) is considering using Super Fang against Petrillish (0)...
+[AI] Raticate (1) is considering using Double-Edge against Petrillish (0)...
+[AI] Raticate (1) is considering using Endeavor against Petrillish (0)...
+[AI] Move choices for Raticate (1):
+   *  20.0% to use Sucker Punch (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Double-Edge (target 0): score 100
+   *  20.0% to use Endeavor (target 0): score 100
+   => will use Double-Edge (target 0)
+
+[Round order] The wild Raticate (1), Petrillish (0)
+
+[Use move] The wild Raticate (1) used Double-Edge
+"The wild Raticate used Double-Edge!"
+[HP change] Petrillish lost 144 HP (201 -> 57)
+[Midbattle Global] low HP music begins
+[HP change] The wild Raticate lost 48 HP (245 -> 197)
+"The wild Raticate is damaged by recoil!"
+[Use move] Petrillish (0) used Thunderbolt
+"Petrillish used Thunderbolt!"
+[HP change] The wild Raticate lost 197 HP (197 -> 0)
+"The wild Raticate fainted!"
+"Your other Pokémon also gained Exp. Points!"
+"Orbeaf grew to Lv. 16!"
+
+================================================================
+
+[Started battle] Single wild battle (1 trainer(s) vs. 1 wild Pokémon)
+"Oh! A wild Blastoise appeared!"
+"Go! Petrillish!"
+[Midbattle Global] low HP music begins
+[Round order] The wild Blastoise (1), Petrillish (0)
+
+===== Round 1 =====
+
+[AI] Blastoise (1) is considering using Shell Smash...
+[AI] Blastoise (1) is considering using Iron Defense...
+[AI] Blastoise (1) is considering using Hydro Pump against Petrillish (0)...
+[AI] Blastoise (1) is considering using Skull Bash against Petrillish (0)...
+[AI] Move choices for Blastoise (1):
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Iron Defense: score 100
+   *  20.0% to use Hydro Pump (target 0): score 100
+   *  20.0% to use Skull Bash (target 0): score 100
+   => will use Hydro Pump (target 0)
+
+[Round order] The wild Blastoise (1), Petrillish (0)
+
+[Use move] The wild Blastoise (1) used Hydro Pump
+"The wild Blastoise used Hydro Pump!"
+[HP change] Petrillish lost 43 HP (80 -> 37)
+"It's not very effective..."
+[Use move] Petrillish (0) used Recover
+"Petrillish used Recover!"
+[HP change] Petrillish gained 161 HP (37 -> 198)
+[Midbattle Global] low HP music ended
+"Petrillish's HP was restored."
+
+[End of round 1]
+
+===== Round 2 =====
+
+[AI] Blastoise (1) is considering using Shell Smash...
+[AI] Blastoise (1) is considering using Iron Defense...
+[AI] Blastoise (1) is considering using Hydro Pump against Petrillish (0)...
+[AI] Blastoise (1) is considering using Skull Bash against Petrillish (0)...
+[AI] Move choices for Blastoise (1):
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Iron Defense: score 100
+   *  20.0% to use Hydro Pump (target 0): score 100
+   *  20.0% to use Skull Bash (target 0): score 100
+   => will use Hydro Pump (target 0)
+
+[Round order] The wild Blastoise (1), Petrillish (0)
+
+[Use move] The wild Blastoise (1) used Hydro Pump
+"The wild Blastoise used Hydro Pump!"
+[Move failed] Failed pbAccuracyCheck
+"The wild Blastoise's attack missed!"
+[Use move] Petrillish (0) used Recover
+"Petrillish used Recover!"
+[HP change] Petrillish gained 123 HP (198 -> 321)
+"Petrillish's HP was restored."
+
+[End of round 2]
+
+===== Round 3 =====
+
+[AI] Blastoise (1) is considering using Shell Smash...
+[AI] Blastoise (1) is considering using Iron Defense...
+[AI] Blastoise (1) is considering using Hydro Pump against Petrillish (0)...
+[AI] Blastoise (1) is considering using Skull Bash against Petrillish (0)...
+[AI] Move choices for Blastoise (1):
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Shell Smash: score 100
+   *  20.0% to use Iron Defense: score 100
+   *  20.0% to use Hydro Pump (target 0): score 100
+   *  20.0% to use Skull Bash (target 0): score 100
+   => will use Shell Smash
+
+[Round order] The wild Blastoise (1), Petrillish (0)
+
+[Use move] The wild Blastoise (1) used Shell Smash
+"The wild Blastoise used Shell Smash!"
+[Stat change] The wild Blastoise's Defense changed by -1 (0 -> -1)
+"The wild Blastoise's Defense fell!"
+[Stat change] The wild Blastoise's Special Defense changed by -1 (0 -> -1)
+"The wild Blastoise's Special Defense fell!"
+[Stat change] The wild Blastoise's Attack changed by +2 (0 -> 2)
+"The wild Blastoise's Attack rose sharply!"
+[Stat change] The wild Blastoise's Special Attack changed by +2 (0 -> 2)
+"The wild Blastoise's Special Attack rose sharply!"
+[Stat change] The wild Blastoise's Speed changed by +2 (0 -> 2)
+"The wild Blastoise's Speed rose sharply!"
+[Use move] Petrillish (0) used Thunderbolt
+"Petrillish used Thunderbolt!"
+[HP change] The wild Blastoise lost 291 HP (291 -> 0)
+"It's super effective!"
+"The wild Blastoise fainted!"
+"Your other Pokémon also gained Exp. Points!"
+"Orbeaf grew to Lv. 16!"

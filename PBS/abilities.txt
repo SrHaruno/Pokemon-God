@@ -1143,4 +1143,7 @@ Description = Heals under harsh sunlight
 [VIRALTOUCH]
 Name = Viral Touch
 Description = May poison targets when a Pokémon makes contact.
-
+#-------------------------------
+[CLUTCH]
+Name = Clutch
+Description = Boost Attack, Sp.Atk and Defense in a pinch.

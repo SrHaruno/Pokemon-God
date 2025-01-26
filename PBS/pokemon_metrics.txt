@@ -4543,8 +4543,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [TORRACAT]
-BackSprite = 0,52
-FrontSprite = -2,20
+BackSprite = 0,0
+FrontSprite = -2,22
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -6368,9 +6368,9 @@ ShadowSize = 2
 #-------------------------------
 [PETRILLISH]
 BackSprite = 0,0
-FrontSprite = 0,0
+FrontSprite = 0,-5
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [STEGOSOLIS]
 BackSprite = 0,0
@@ -6412,7 +6412,7 @@ ShadowSize = 2
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [ASTAREON]
 BackSprite = 0,0
@@ -6435,5 +6435,11 @@ ShadowSize = 2
 [DWILD,1]
 BackSprite = 0,0
 FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[KARANSHELL]
+BackSprite = 0,0
+FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
