@@ -5845,8 +5845,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [PEACIRD]
-BackSprite = 0,20
-FrontSprite = 0,24
+BackSprite = 0,0
+FrontSprite = -2,17
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5863,10 +5863,10 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [DOVENESS]
-BackSprite = 0,20
-FrontSprite = 0,24
+BackSprite = 0,0
+FrontSprite = 0,-7
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [CAPYBURA]
 BackSprite = 0,0
