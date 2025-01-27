@@ -5797,10 +5797,10 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [THUNDOTH]
-BackSprite = 3,7
-FrontSprite = 2,6
-ShadowX = 0
-ShadowSize = 2
+BackSprite = 3,29
+FrontSprite = 0,-4
+ShadowX = -1
+ShadowSize = 1
 #-------------------------------
 [TATURUG]
 BackSprite = 0,0
@@ -6439,6 +6439,12 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [KARANSHELL]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[INFULL]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
