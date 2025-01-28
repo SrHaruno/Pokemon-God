@@ -52,7 +52,7 @@ VictoryBGM = Victory! Gym Leader
 Name = Gym Leaders
 Gender = Unknown
 BaseMoney = 100
-SkillLevel = 100
+SkillLevel = 120
 BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Victory! Gym Leader
 
