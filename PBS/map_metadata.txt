@@ -603,8 +603,13 @@ MapPosition = 0,14,3
 BattleBack = Field
 MapSize = 2,1100
 #-------------------------------
+[134]   # Jasmil Gate
+Name = Jasmil City
+Bicycle = true
+#-------------------------------
 [135]   # Giga. Gate
 Name = Route 12
+Bicycle = true
 MapPosition = 0,14,3
 #-------------------------------
 [136]   # Giga. Condo
@@ -637,6 +642,7 @@ MapSize = 2,1010
 #-------------------------------
 [141]   # Route 22 Gate
 Name = Route 22
+Bicycle = true
 MapPosition = 0,13,2
 #-------------------------------
 [142]   # Route 23
@@ -683,6 +689,7 @@ BattleBack = Rocky
 #-------------------------------
 [149]   # Cave_Zone
 Name = Safari Zone
+Bicycle = true
 MapPosition = 0,10,1
 BattleBack = Cave1
 #-------------------------------

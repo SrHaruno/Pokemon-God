@@ -116,10 +116,11 @@ SuperRod
 Land,20
     40,CHIKATE,5,6
     30,MOMBER,5,6
+	20,FLAMUNNY,6
     10,EEVEE,8
 LandNight,21
-    40,FLAMUNNY,5,6
-    30,PURIRD,5,6
+    40,CHIKATE,5,6
+    30,COSMICOW,5,6
     10,EEVEE,8
 #-------------------------------
 [039] # Route 4
