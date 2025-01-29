@@ -115,19 +115,19 @@ Pokemon = DRAMODO,25
 #-------------------------------
 [LEADER_Daniel,Daniel]
 Items = POTION
-LoseText = Very good. You deserve the Knowledge Badge!
+LoseText = Very impressive! You deserve the knowledge badge!
 Pokemon = MOSSELIN,8
-    Moves = LEECHSEED,VINEWHIP,ROCKTHROW,DEFENSECURL
+    Moves = BULLETSEED,ROCKTHROW,DEFENSECURL
 	Item = ORANBERRY
 Pokemon = GRALING,10
-    Moves = RAZORLEAF,KNOCKOFF,WORKUP
+    Moves = BULLETSEED,WORKUP,SANDATTACK
 	Item = ORANBERRY
 
 #Gym Rematch
 #-------------------------------
 [LEADER_Daniel,Daniel,1]
 Items = SUPERPOTION,SUPERPOTION
-LoseText = Very good. You still have the hang of it!
+LoseText = Very good! Your skills have surely improved!
 Pokemon = MOSSENGE,25
 Pokemon = SIMISAGE,25
 Pokemon = ORIKEN,28
@@ -135,7 +135,7 @@ Pokemon = EVIRASS,30
 #-------------------------------
 [LEADER_Daniel,Daniel,2]
 Items = HYPERPOTION,HYPERPOTION
-LoseText = Very good. You still have the hang of it!
+LoseText = Very good! Your skills have surely improved!
 Pokemon = MOSSENGE,30
 Pokemon = SIMISAGE,30
 Pokemon = IVYSAUR,35
@@ -144,12 +144,13 @@ Pokemon = JUNVIL,38
 #-------------------------------
 [LEADER_Daniel,Daniel,3]
 Items = HYPERPOTION,HYPERPOTION
-LoseText = Very good. You still have the hang of it!
-Pokemon = MOSSOLEM,40
-Pokemon = SIMISAGE,40
-Pokemon = VENUSAUR,45
-Pokemon = KATAGAMI,45
-Pokemon = JUNVIL,48
+LoseText = Very good! Your skills have surely improved!
+Pokemon = MOSSOLEM,48
+Pokemon = SIMISAGE,50
+Pokemon = VENUSAUR,55
+Pokemon = KATAGAMI,60
+Pokemon = JUNVIL,65
+	Item = JUNVILITE
 
 
 
@@ -157,10 +158,10 @@ Pokemon = JUNVIL,48
 #-------------------------------
 [REAPERBOSS, Alcapone]
 LoseText = Huh...
-Items = POTION
+Items = SUPERPOTION
 Pokemon = YOUNROW,14
 Pokemon = EVIRASS,18
-    Moves = BULKUP,LEECHSEED,RAZORLEAF,KNOCKOFF
+    Moves = RAZORLEAF,FEINTATTACK,ROCKTOMB
 	Item = SITRUSBERRY
 
 

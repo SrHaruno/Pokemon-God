@@ -22,7 +22,6 @@ Height = 0.7
 Weight = 6.9
 Color = Green
 Shape = Bipedal
-
 Category = Seed
 Pokedex = Once threated, they bury them selfs and act like a sappling. Only leaving once theres no more danger.
 Evolutions = EVIRASS,Level,16
@@ -47,7 +46,6 @@ Height = 0.7
 Weight = 6.9
 Color = Green
 Shape = Bipedal
-
 Category = Grass
 Pokedex = Junvil's claws could cut the sturdies of rocks. It's said that the leader of the pack usually has the sharpest claws.
 Evolutions = JUNVIL,Level,36
@@ -72,7 +70,6 @@ Height = 0.7
 Weight = 6.9
 Color = Green
 Shape = Bipedal
-
 Category = Hill
 Pokedex = Some civilizations say if you see an hill, it could be an Junvil waiting for it's pray.
 #-------------------------------
@@ -98,7 +95,6 @@ Height = 0.7
 Weight = 6.9
 Color = Black
 Shape = Bipedal
-
 Category = Lizard
 Pokedex = Egdon always lives recluded, due to it's apparence, humans usually mistake it with Charmander, making it cry.
 Evolutions = DRAMODO,Level,16
@@ -123,7 +119,6 @@ Height = 0.7
 Weight = 6.9
 Color = Black
 Shape = Bipedal
-
 Category = Komodo
 Pokedex = Tired of being confunded with Charmander family, Dramodo's is consumed in rage. It's flames could wipe up an castle, it's sharp claw's cut like diamond.
 Evolutions = KOMODRA,Level,36
@@ -148,7 +143,6 @@ Height = 0.7
 Weight = 6.9
 Color = Black
 Shape = Bipedal
-
 Category = Burning Flame
 Pokedex = Old legends say that Dramodo only evolves once it's inner flame has been lighten. Wich is only possible if it has a high bond with it's trainer.
 #-------------------------------
@@ -174,7 +168,6 @@ Height = 0.7
 Weight = 6.9
 Color = Pink
 Shape = Bipedal
-
 Category = Axolot
 Pokedex = Because it has strong scales and good regenerative capacity, Axoloby can cross any current in Sehand.
 Evolutions = PSYLOTE,Level,16
@@ -199,7 +192,6 @@ Height = 0.7
 Weight = 6.9
 Color = Pink
 Shape = Bipedal
-
 Category = Psi
 Pokedex = It's finx produce psychic waves that are used to communicate with others of it's species from kilometers away.
 Evolutions = AXOLYSTIC,Level,36
@@ -224,7 +216,6 @@ Height = 0.7
 Weight = 6.9
 Color = Pink
 Shape = Bipedal
-
 Category = Mystic
 Pokedex = When it feels threatened, it uses it's psychic powers to pressure the minds of it's enemies.
 #-------------------------------
@@ -249,7 +240,6 @@ Height = 0.7
 Weight = 6.9
 Color = Blue
 Shape = Winged
-
 Category = Pure
 Pokedex = Purird evolves depending on the trainer's intentions: Peacird for the kind trainers while Younrow for evil ones.
 Evolutions = PEACIRD,LevelDay,14,YOUNROW,LevelNight,14,PEACIRD,Location,46,YOUNROW,Location,59
@@ -274,7 +264,6 @@ Height = 0.7
 Weight = 6.9
 Color = Yellow
 Shape = Winged
-
 Category = Peace bringer
 Pokedex = Purird evolves into Peacird once it's consume by pure kindness, Peacerird bring joys just by flying by.
 Evolutions = DOVENESS,Level,34
@@ -299,7 +288,6 @@ Height = 0.7
 Weight = 6.9
 Color = Yellow
 Shape = Winged
-
 Category = Hope
 Pokedex = Doveness presence makes anyone around be filled with hopes and dreams.
 #-------------------------------
@@ -322,7 +310,6 @@ Height = 0.7
 Weight = 6.9
 Color = Black
 Shape = Winged
-
 Category = Crow
 Pokedex = Purird evolves into Younrow after being consumed by darkness, Younrows like to tag with people with bad intentions.
 Evolutions = CRORIRD,Level,34
@@ -347,7 +334,6 @@ Height = 0.7
 Weight = 6.9
 Color = Black
 Shape = Winged
-
 Category = Darkness
 Pokedex = Crorird presence makes anyone around it be consumed by despair and sadness.
 #-------------------------------
@@ -373,7 +359,6 @@ Height = 0.7
 Weight = 6.9
 Color = Brown
 Shape = Bipedal
-
 Category = Loyal
 Pokedex = Dwilds are very loyal, always protecting their owners.
 Evolutions = HOGGO,Level,22
@@ -398,7 +383,6 @@ Height = 0.7
 Weight = 6.9
 Color = White
 Shape = Bipedal
-
 Category = Hope
 Pokedex = Dwild evolve into Hoggo, an angelic being, due to their overflow of kindness.
 CallRateSOS = 9
@@ -423,7 +407,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Capybara
 Pokedex = It defends itself from predators in different froms: hiding in darkness due to it's fur, diving into water or threatening them with its powerful fangs.
 Evolutions = DEMYVARA,Level,22
@@ -448,7 +431,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = WIP
 Pokedex = ???
 #-------------------------------
@@ -473,7 +455,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Taturana
 Pokedex = Normally, its fur stings anyone who touches it, but more experienced Taturugs can emit electricity that paralyze their enemies.
 Evolutions = ELECOON,Level,20
@@ -497,8 +478,7 @@ EggGroups = Bug
 Height = 0.7
 Weight = 6.9
 Color = Gray
-Shape = Bipedal
-
+Shape = HeadBase
 Category = Light Bulb
 Pokedex = Elecoon makes it's shell glow to feed by absorbing light from the enviorement.
 Evolutions = THUNDOTH,Level,35
@@ -521,8 +501,7 @@ EggGroups = Bug
 Height = 0.7
 Weight = 6.9
 Color = Gray
-Shape = Bipedal
-
+Shape = Winged
 Category = Moth
 Pokedex = The energy produced by Thundoth has several functions, Such as providing a boost for flight and guiding it's young with it's abdominal light.
 #-------------------------------
@@ -546,8 +525,7 @@ HatchSteps = 3840
 Height = 0.7
 Weight = 6.9
 Color = Gray
-Shape = Bipedal
-
+Shape = Quadruped
 Category = Larvae
 Pokedex = It proliferates in urban environments, in humid places. It's considered a pest in the cities of Sehand.
 Evolutions = PUPENGUE,Level,20
@@ -571,8 +549,7 @@ EggGroups = Bug
 Height = 0.7
 Weight = 6.9
 Color = Gray
-Shape = Bipedal
-
+Shape = HeadBase
 Category = Pupa
 Pokedex = Vulnerable until evolve, Pupengue hides in stalle water places, waiting to evolve.
 Evolutions = MOSQUENTE,Level,30
@@ -596,8 +573,7 @@ EggGroups = Bug
 Height = 0.7
 Weight = 6.9
 Color = Gray
-Shape = Bipedal
-
+Shape = Winged
 Category = Mosquito
 Pokedex = ???
 #-------------------------------
@@ -624,7 +600,6 @@ Height = 0.7
 Weight = 6.9
 Color = White
 Shape = Bipedal
-
 Category = Origami
 Pokedex = ???
 Evolutions = ORIKEN,LevelMale,20,BLOSSIGAMI,LevelFemale,20
@@ -649,8 +624,7 @@ EggGroups = Grass
 Height = 0.7
 Weight = 6.9
 Color = White
-Shape = Bipedal
-
+Shape = HeadBase
 Category = Shuriken
 Pokedex = ???
 Evolutions = KATAGAMI,Level,30
@@ -675,7 +649,6 @@ Height = 0.7
 Weight = 6.9
 Color = White
 Shape = Bipedal
-
 Category = Forest Guardian
 Pokedex = ???
 #-------------------------------
@@ -699,8 +672,7 @@ HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = White
-Shape = Bipedal
-
+Shape = HeadBase
 Category = WIP
 Pokedex = ???
 Evolutions = SWAMIGAMI,Level,30
@@ -726,7 +698,6 @@ Height = 0.7
 Weight = 6.9
 Color = White
 Shape = Bipedal
-
 Category = WIP
 Pokedex = ???
 #-------------------------------
@@ -750,7 +721,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Squirrel
 Pokedex = ???
 CallRateSOS = 9
@@ -774,8 +744,7 @@ HatchSteps = 5120
 Height = 0.7
 Weight = 6.9
 Color = Gray
-Shape = Bipedal
-
+Shape = HeadBase
 Category = Meteor Pokémon
 Pokedex = These pokémon are made of very fragile meteor rocks.
 Evolutions = DROWSKY,Level,25
@@ -799,8 +768,7 @@ HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
-Shape = Bipedal
-
+Shape = HeadBase
 Category = Dream
 Pokedex = 
 Evolutions = DREAMETEOR,Trade,
@@ -823,8 +791,7 @@ HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
-Shape = Bipedal
-
+Shape = HeadBase
 Category = Dream
 Pokedex = ???
 #-------------------------------
@@ -848,7 +815,6 @@ Height = 0.7
 Weight = 6.9
 Color = Red
 Shape = Quadruped
-
 Category = Baby Bull
 Pokedex = ???
 CallRateSOS = 10
@@ -899,33 +865,10 @@ Shape = Bipedal
 Category = Bull
 Pokedex = ???
 #-------------------------------
-[COSMICOW]
-Name = Cosmicow
-Types = PSYCHIC
-BaseStats = 60,50,40,30,70,50
-GenderRatio = AlwaysFemale
-GrowthRate = Slow
-BaseExp = 62
-EVs = SPECIAL_ATTACK,1
-CatchRate = 235
-Happiness = 50
-Abilities = TRACE
-Moves = 1,TACKLE,1,TAILWHIP
-TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
-EggGroups = Field,Monster
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Red
-Shape = Quadruped
-Category = Cosmic
-Pokedex = ???
-CallRateSOS = 10
-#-------------------------------
 [CHIKATE]
 Name = Chikate
 Types = FLYING,FIGHTING
-BaseStats = 62,65,56,30,30,35
+BaseStats = 55,65,60,45,35,45
 GenderRatio = AlwaysMale
 GrowthRate = Parabolic
 BaseExp = 50
@@ -933,7 +876,7 @@ EVs = ATTACK,1
 CatchRate = 235
 Happiness = 50
 Abilities = HUSTLE
-Moves = 1,PECK,1,LEER,5,FOCUSENERGY,10,WINGATTACK,15,FURYATTACK,20,KARATECHOP,25,AGILITY,30,LOWSWEEP,35,ACROBATICS,40,BULKUP
+Moves = 1,PECK,1,LEER,5,GUST,9,KARATECHOP,13,WINGATTACK,17,FOCUSENERGY,21,AIRCUTTER,25,LOWSWEEP,29,DUALWINGBEAT,33,FEATHERDANCE,37,AIRSLASH,41,BRICKBREAK,45,BRAVEBIRD,49,ROOST,53,CLOSECOMBAT
 TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
 TutorMoves = ROCKSMASH
 EggGroups = Field,Flying
@@ -942,8 +885,7 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
-Category = WIP
+Category = Chick
 Pokedex = ???
 Evolutions = BOXICKEN,Level,14
 CallRateSOS = 15
@@ -951,7 +893,7 @@ CallRateSOS = 15
 [BOXICKEN]
 Name = Boxicken
 Types = FLYING,FIGHTING
-BaseStats = 82,85,75,45,40,55
+BaseStats = 55,65,60,45,35,45
 GenderRatio = AlwaysMale
 GrowthRate = Parabolic
 BaseExp = 122
@@ -959,17 +901,15 @@ EVs = ATTACK,2
 CatchRate = 120
 Happiness = 50
 Abilities = HUSTLE
-Moves = 0,LOWKICK,1,PECK,1,LEER,1,WINGATTACK,1,FOCUSENERGY,15,FURYATTACK,22,KARATECHOP,29,AGILITY,36,LOWSWEEP,43,ACROBATICS,50,BULKUP,54,BRAVEBIRD
+Moves = 1,PECK,1,LEER,1,GUST,1,KARATECHOP,13,WINGATTACK,18,FOCUSENERGY,22,AIRCUTTER,26,LOWSWEEP,30,DUALWINGBEAT,34,FEATHERDANCE,38,AIRSLASH,42,BRICKBREAK,46,BRAVEBIRD,50,ROOST,54,CLOSECOMBAT,58,DOUBLEEDGE
 TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
 TutorMoves = ROCKSMASH
 EggGroups = Field,Flying
-HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
-Category = WIP
+Category = Rooster
 Pokedex = ???
 Evolutions = JUHOOSTER,Level,34
 #-------------------------------
@@ -984,23 +924,21 @@ EVs = ATTACK,2
 CatchRate = 45
 Happiness = 50
 Abilities = GUTS
-Moves = 1,PECK,1,LEER,1,WINGATTACK,1,FOCUSENERGY,15,FURYATTACK,22,KARATECHOP,29,AGILITY,38,LOWSWEEP,47,ACROBATICS,56,BULKUP,58,BRAVEBIRD,60,CLOSECOMBAT,62,HIGHJUMPKICK
+Moves = 0,FLYINGPRESS,1,PECK,1,LEER,1,GUST,1,KARATECHOP,13,WINGATTACK,18,FOCUSENERGY,22,AIRCUTTER,26,LOWSWEEP,30,DUALWINGBEAT,34,FEATHERDANCE,40,AIRSLASH,44,BRICKBREAK,48,BRAVEBIRD,52,ROOST,56,CLOSECOMBAT,60,DOUBLEEDGE
 TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
 TutorMoves = ROCKSMASH
 EggGroups = Field,Flying
-HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
-Category = WIP
+Category = Rooster
 Pokedex = ???
 #-------------------------------
 [FLAMUNNY]
 Name = Flamunny
 Types = FIRE,FIGHTING
-BaseStats = 55,75,55,65,50,55
+BaseStats = 55,70,55,50,65,55
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 62
@@ -1019,7 +957,6 @@ Height = 0.7
 Weight = 6.9
 Color = Red
 Shape = Bipedal
-
 Category = Bunny
 Pokedex = ???
 Evolutions = SAMURUNNY,Item,FIRESTONE
@@ -1028,7 +965,7 @@ CallRateSOS = 10
 [SAMURUNNY]
 Name = Samurunny
 Types = FIRE,FIGHTING
-BaseStats = 80,120,70,80,70,70
+BaseStats = 75,125,85,80,105,85
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 147
@@ -1044,7 +981,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Samurai
 Pokedex = ???
 #-------------------------------
@@ -1114,7 +1050,6 @@ Height = 0.7
 Weight = 6.9
 Color = Yellow
 Shape = Winged
-
 Category = Cockatiel
 Pokedex = ???
 Evolutions = ELECKATIEL,Level,22
@@ -1139,7 +1074,6 @@ Height = 0.7
 Weight = 6.9
 Color = Yellow
 Shape = Winged
-
 Category = Thunder God
 Pokedex = ???
 #-------------------------------
@@ -1163,7 +1097,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Winged
-
 Category = Bird
 Pokedex = ???
 Evolutions = FLOHARMONY,Level,22
@@ -1188,7 +1121,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Winged
-
 Category = Harmony
 Pokedex = ???
 #-------------------------------
@@ -1236,7 +1168,6 @@ Height = 0.4
 Weight = 60.0
 Color = Blue
 Shape = Insectoid
-
 Category = Walking Fortress
 Pokedex = ???
 #-------------------------------
@@ -1262,7 +1193,6 @@ Height = 0.4
 Weight = 60.0
 Color = Blue
 Shape = HeadArms
-
 Category = Jellyfish
 Pokedex = ???
 Evolutions = PETRILLISH,Item,WATERSTONE
@@ -1289,7 +1219,6 @@ Height = 0.4
 Weight = 60.0
 Color = Blue
 Shape = HeadArms
-
 Category = Jellyfish
 Pokedex = ???
 #-------------------------------
@@ -1314,7 +1243,6 @@ Height = 0.4
 Weight = 60.0
 Color = Blue
 Shape = Quadruped
-
 Category = Turtle
 Pokedex = ???
 Evolutions = TURTLOW,Level,16
@@ -1341,7 +1269,6 @@ Height = 0.4
 Weight = 60.0
 Color = Blue
 Shape = Quadruped
-
 Category = Turtle
 Pokedex = ???
 Evolutions = TURTANK,Level,36
@@ -1367,7 +1294,6 @@ Height = 0.4
 Weight = 60.0
 Color = Blue
 Shape = Quadruped
-
 Category = Turtle
 Pokedex = ???
 
@@ -1395,7 +1321,6 @@ Height = 0.7
 Weight = 6.9
 Color = Yellow
 Shape = Quadruped
-
 Category = Cub
 Pokedex = These Pokémon feed from electricity, being commonly found close to heavy thunderstorms.
 Evolutions = JOLTAH,Level,28
@@ -1420,7 +1345,6 @@ Height = 0.7
 Weight = 6.9
 Color = Yellow
 Shape = Quadruped
-
 Category = Thunder God
 Pokedex = This Pokémon has been venerated by many ancient civilizations. it's in constant fight for territory against Luxray.
 #-------------------------------
@@ -1444,7 +1368,6 @@ Height = 0.7
 Weight = 6.9
 Color = Blue
 Shape = Winged
-
 Category = Bird
 Pokedex = It's sharp like wings could cut trought paper like scizors. Passcizors enjoy scouting forest for bugs, using it's wings to cut trought dense forests.
 CallRateSOS = 15
@@ -1469,7 +1392,6 @@ Height = 0.7
 Weight = 6.9
 Color = Blue
 Shape = Winged
-
 Category = Bird
 Evolutions = PASSAZOR,Level,34
 #-------------------------------
@@ -1492,7 +1414,6 @@ Height = 0.7
 Weight = 6.9
 Color = Blue
 Shape = Winged
-
 Category = Bird
 CallRateSOS = 15
 #-------------------------------
@@ -1517,7 +1438,6 @@ Height = 0.7
 Weight = 6.9
 Color = Brown
 Shape = Bipedal
-
 Category = Karate
 Pokedex = ???
 Evolutions = KARABELT,Level,25
@@ -1543,7 +1463,6 @@ Height = 0.7
 Weight = 6.9
 Color = Brown
 Shape = Bipedal
-
 Category = Apprentiece
 Pokedex = ???
 Evolutions = KARAKING,Level,35
@@ -1569,7 +1488,6 @@ Height = 0.7
 Weight = 6.9
 Color = Brown
 Shape = Bipedal
-
 Category = Martial King
 Pokedex = ???
 #-------------------------------
@@ -1593,7 +1511,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = WIP
 Pokedex = ???FLAM
 Evolutions = MOSSENGE,Level,25
@@ -1618,7 +1535,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = WIP
 Pokedex = ???
 Evolutions = MOSSOLEM,Trade,
@@ -1642,7 +1558,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = WIP
 Pokedex = ???
 #-------------------------------
@@ -1666,7 +1581,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Winged
-
 Category = Bat
 Pokedex = ???
 Evolutions = CHIROPEEL,Level,22
@@ -1691,7 +1605,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Winged
-
 Category = Fruit Eater
 Pokedex = ???
 #-------------------------------
@@ -1715,7 +1628,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Magician
 Pokedex = ???
 Evolutions = ADEMORAN,Level,28
@@ -1740,7 +1652,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Sorcerer
 Pokedex = ???
 Evolutions = ANDROWIZARD,Level,48
@@ -1764,7 +1675,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Galaxy
 Pokedex = ???
 
@@ -1791,7 +1701,6 @@ Height = 0.7
 Weight = 6.9
 Color = Black
 Shape = Quadruped
-
 Category = Badger
 Pokedex = Those Pokémon work together to gather berries in trees, One lays with belly up, while other hitting the berry tree, making the berries fall in the first one.
 Evolutions = VAMPADGER,Level,30
@@ -1816,7 +1725,6 @@ Height = 0.7
 Weight = 6.9
 Color = Black
 Shape = Bipedal
-
 Category = Stealth
 Pokedex = ???
 
@@ -1843,7 +1751,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Beetle
 Pokedex = ???
 Evolutions = KHECARAB, Level, 35
@@ -1867,7 +1774,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = God Beetle
 Pokedex = ???
 #-------------------------------
@@ -1891,7 +1797,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Spider
 Pokedex = ???
 Evolutions = CATAPYRO, Level, 24
@@ -1915,7 +1820,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Catapult
 Pokedex = ???
 
@@ -1940,7 +1844,6 @@ Height = 0.7
 Weight = 6.9
 Color = Black
 Shape = Bipedal
-
 Category = Yenna
 Pokedex = ???
 Evolutions = MURAMARIS,Level,30
@@ -1965,7 +1868,6 @@ Height = 0.7
 Weight = 6.9
 Color = Black
 Shape = Bipedal
-
 Category = Blacksmith
 Pokedex = ???
 #-------------------------------
@@ -1989,7 +1891,6 @@ Height = 0.7
 Weight = 6.9
 Color = Blue
 Shape = HeadArms
-
 Category = Impostor
 Pokedex = ???
 Evolutions = SOMBROOM,Level,35
@@ -2014,7 +1915,6 @@ Height = 0.7
 Weight = 6.9
 Color = Blue
 Shape = HeadArms
-
 Category = Sombrero
 Pokedex = ???
 #-------------------------------
@@ -2039,7 +1939,6 @@ Height = 0.7
 Weight = 6.9
 Color = Yellow
 Shape = Quadruped
-
 Category = Fox
 Pokedex = ???
 CallRateSOS = 10
@@ -2065,7 +1964,6 @@ Height = 0.7
 Weight = 6.9
 Color = Yellow
 Shape = Quadruped
-
 Category = Beast
 Pokedex = ???
 #-------------------------------
@@ -2089,7 +1987,6 @@ Height = 0.7
 Weight = 6.9
 Color = White
 Shape = Quadruped
-
 Category = Lunar
 Pokedex = ???
 #-------------------------------
@@ -2113,7 +2010,6 @@ Height = 0.7
 Weight = 6.9
 Color = Purple
 Shape = Quadruped
-
 Category = Voodoo
 Pokedex = ???
 Evolutions = VOOTED,Level,25
@@ -2138,7 +2034,6 @@ Height = 0.7
 Weight = 6.9
 Color = Purple
 Shape = Quadruped
-
 Category = Voodoo
 Pokedex = ???
 Evolutions = VOOLEASE,Level,35
@@ -2162,7 +2057,6 @@ Height = 0.7
 Weight = 6.9
 Color = Purple
 Shape = Quadruped
-
 Category = Voodoo
 Pokedex = ???
 
@@ -2189,7 +2083,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Rookie
 Pokedex = ???
 CallRateSOS = 9
@@ -2215,7 +2108,6 @@ Height = 0.7
 Weight = 6.9
 Color = Purple
 Shape = Quadruped
-
 Category = Pinhata
 Pokedex = These Pokémon love to hang in trees sunbathing. It's said to have existed for decades, even on prehistoric times.
 Evolutions = DRACRUIT,Level,30
@@ -2241,7 +2133,6 @@ Height = 0.7
 Weight = 6.9
 Color = Purple
 Shape = Quadruped
-
 Category = Dragon
 Pokedex = ???
 Evolutions = FRUITRAGON,Level,50
@@ -2266,7 +2157,6 @@ Height = 0.7
 Weight = 6.9
 Color = Purple
 Shape = Quadruped
-
 Category = Dragon
 Pokedex = ???
 #-------------------------------
@@ -2290,7 +2180,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Cat
 Pokedex = ???
 CallRateSOS = 9
@@ -2315,7 +2204,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Cat
 Pokedex = ???
 Evolutions = KLEPURR,Level,48
@@ -2339,7 +2227,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Cat
 Pokedex = ???
 
@@ -2364,7 +2251,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = HeadLegs
-
 Category = Axe
 Evolutions = AXESSAUR,Level,35
 CallRateSOS = 10
@@ -2388,7 +2274,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = HeadLegs
-
 Category = Axe
 
 
@@ -2414,7 +2299,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Head
-
 Category = Floor
 Pokedex = Crackuum desguise themselfs amoung cracked sideways and attack once stepped. They usually feed from toxicity.
 Evolutions = POLLUTLAS,Level,30
@@ -2439,7 +2323,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Category = Floor
 Pokedex = Pollutlas wanders around big cities, feeding from their huge polluted air.
 #-------------------------------
@@ -2463,7 +2346,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 Evolutions = GAMBALLER,Level,30
 #-------------------------------
 [GAMBALLER]
@@ -2486,7 +2368,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Bipedal
-
 #-------------------------------
 [MOUSELECTRIC]
 Name = Mouselectric
@@ -2507,7 +2388,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Head
-
 Category = Mouse
 Pokedex = Mouselectric disguises them selfs as computer mouses, once installed into a computer, they will drain the energy from it.
 Evolutions = CASEECH,Level,28
@@ -2530,7 +2410,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Head
-
 Category = Computer Case
 Evolutions = JOLTUTER,Level,38
 #-------------------------------
@@ -2552,7 +2431,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = HeadLegs
-
 Category = Computer
 
 
@@ -2579,7 +2457,6 @@ Height = 0.7
 Weight = 6.9
 Color = Pink
 Shape = Bipedal
-
 Category = Boar
 Pokedex = ???
 Evolutions = PECURU,Level,30
@@ -2605,7 +2482,6 @@ Height = 0.7
 Weight = 6.9
 Color = Pink
 Shape = Bipedal
-
 Category = Boar
 Pokedex = ???
 #-------------------------------
@@ -2630,7 +2506,6 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Serpentine
-
 Category = SeaWeed
 Pokedex = ???
 Evolutions = BOEELNA,Level,35
@@ -2656,7 +2531,6 @@ Height = 0.7
 Weight = 6.9
 Color = Black
 Shape = Serpentine
-
 Category = SeaWeed
 Pokedex = ???
 #-------------------------------
@@ -2680,7 +2554,6 @@ Height = 0.7
 Weight = 6.9
 Color = Pink
 Shape = Finned
-
 Category = Dolphin
 Pokedex = ???
 Evolutions = ENCANTACEAN,Level,32
@@ -2706,7 +2579,6 @@ Height = 0.7
 Weight = 6.9
 Color = Pink
 Shape = Finned
-
 Category = Dolphin
 Pokedex = ???
 
@@ -2734,7 +2606,6 @@ Height = 0.7
 Weight = 6.9
 Color = Purple
 Shape = Quadruped
-
 Category = Frilled Lizard
 Pokedex = ???
 Evolutions = DRAKRILL,Level,38
@@ -2759,7 +2630,6 @@ Height = 0.7
 Weight = 6.9
 Color = Purple
 Shape = Quadruped
-
 Category = Draken
 Pokedex = ???
 Evolutions = MIGHTRILL,Level,48
@@ -2783,7 +2653,6 @@ Height = 0.7
 Weight = 6.9
 Color = Purple
 Shape = Quadruped
-
 Category = Draken
 Pokedex = ???
 #-------------------------------
@@ -2807,7 +2676,6 @@ Height = 0.7
 Weight = 6.9
 Color = White
 Shape = HeadBase
-
 Category = Ghost
 Pokedex = ???
 CallRateSOS = 10
@@ -2831,7 +2699,6 @@ Height = 0.7
 Weight = 6.9
 Color = White
 Shape = HeadBase
-
 Category = Ghost
 Pokedex = ???
 
@@ -2857,7 +2724,6 @@ Height = 0.4
 Weight = 4.0
 Color = Gray
 Shape = BipedalTail
-
 Category = Egg Thiefer
 Pokedex = ???
 Evolutions = EGG_2,Level,35
@@ -2881,7 +2747,6 @@ Height = 0.4
 Weight = 4.0
 Color = Gray
 Shape = BipedalTail
-
 Category = Egg Thiefer
 Pokedex = ???
 #-------------------------------
@@ -2904,7 +2769,6 @@ Height = 0.4
 Weight = 4.0
 Color = Gray
 Shape = Quadruped
-
 Category = Sun Absorber
 Pokedex = ???
 Evolutions = STEGOSOLIS,Level,35
@@ -2928,7 +2792,6 @@ Height = 0.4
 Weight = 4.0
 Color = Gray
 Shape = Quadruped
-
 Category = Sun Absorber
 Pokedex = ???
 
@@ -2955,7 +2818,6 @@ Height = 0.7
 Weight = 6.9
 Color = Red
 Shape = Serpentine
-
 Category = Snake
 Pokedex = ???
 Evolutions = JIARAGON,Level,30
@@ -2980,7 +2842,6 @@ Height = 0.7
 Weight = 6.9
 Color = Red
 Shape = Serpentine
-
 Category = Oriental Dragon
 Pokedex = ???
 Evolutions = SHENRAGON,Level,55
@@ -3004,7 +2865,6 @@ Height = 0.7
 Weight = 6.9
 Color = Red
 Shape = Serpentine
-
 Category = Ancient Dragon
 Pokedex = ???
 #-------------------------------
@@ -3027,7 +2887,6 @@ Height = 0.4
 Weight = 4.0
 Color = Red
 Shape = HeadArms
-
 Category = Life Bringer
 Pokedex = ???
 Flags = Legendary
@@ -3051,7 +2910,6 @@ Height = 0.4
 Weight = 4.0
 Color = Red
 Shape = HeadArms
-
 Category = Soul
 Pokedex = ???
 Flags = Legendary
@@ -3075,7 +2933,6 @@ Height = 0.4
 Weight = 4.0
 Color = Red
 Shape = HeadArms
-
 Category = Judge
 Pokedex = ???
 Flags = Legendary
@@ -3099,7 +2956,6 @@ Height = 0.4
 Weight = 4.0
 Color = Yellow
 Shape = Winged
-
 Category = Overseer
 Pokedex = ???
 Flags = Legendary
