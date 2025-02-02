@@ -5947,10 +5947,10 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [SPARKATIEL]
-BackSprite = 0,20
-FrontSprite = 0,24
+BackSprite = 0,0
+FrontSprite = 1,20
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [CUBOLT]
 BackSprite = 0,0
@@ -6102,12 +6102,6 @@ FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[KARAKID]
-BackSprite = 0,0
-FrontSprite = -5,19
-ShadowX = 0
-ShadowSize = 1
-#-------------------------------
 [ADEMORAN]
 BackSprite = 0,0
 FrontSprite = 0,0
@@ -6127,18 +6121,6 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [CHINDORION]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[KARAKING]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[KARABELT]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
@@ -6198,12 +6180,6 @@ FrontSprite = 0,13
 ShadowX = -1
 ShadowSize = 1
 #-------------------------------
-[DRACRUIT]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
 [JOLTUTER]
 BackSprite = 0,0
 FrontSprite = 0,0
@@ -6235,12 +6211,6 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [DROMEDA]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[FRUITRAGON]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
@@ -6445,6 +6415,18 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [INFULL]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ELECKATIEL]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[FLORBIRB]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0

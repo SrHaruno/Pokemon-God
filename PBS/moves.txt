@@ -9040,7 +9040,7 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 30
 Description = WIP
 #-------------------------------
-[ZEUSPUNCH]
+[ZEUSSTRIKE]
 Name = Zeus Punch
 Type = ANGEL
 Category = Physical
@@ -9051,7 +9051,7 @@ Target = NearOther
 FunctionCode = ParalyzeTarget
 EffectChance = 10
 Flags = Contact,CanProtect,CanMirrorMove,Punching
-Description = The target is punched with an electrified fist. May Paralyze the target.
+Description = The target is striked with an electrified blow. May Paralyze the target.
 #-------------------------------
 [PLUMEOFPROMETHEUS]
 Name = Plume of Prometheus

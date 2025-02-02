@@ -160,22 +160,26 @@ SuperRod
 [042] # Route 6
 Land,20
 	40,PASSCIZOR,9
-	30,CUBOLT,7,9	
-	20,KARAKID,8
+	30,CUBOLT,7,9
+	20,SPARKATIEL,6,8
     10,FLORBIRB,9
 LandNight,20
 	30,PASSCIZOR,9
-	40,CUBOLT,7,9	
-	20,KARAKID,8
+	40,CUBOLT,7,9
+	20,SPARKATIEL,6,8
     10,FRUCTERA,9
 #-------------------------------
 [052] # Route 7
 Land,20
-    40,CUBOLT,9,10
+	40,DWILD,7,10
+    20,CUBOLT,9,10
     30,PASSCIZOR,9,10
+	20,SPARKATIEL,6,8
 LandNight,20
+	40,DWILD,7,10
     30,CUBOLT,9,10
-    40,PASSCIZOR,9,10
+    20,PASSCIZOR,9,10
+	20,SPARKATIEL,6,8
 #-------------------------------
 [067] # Route 8
 Land,15
@@ -230,8 +234,8 @@ Land,20
 LandNight,20
 	20,TATURUG,10,12
     40,LARVENGUE,10,12
-	10,PURIRD,10
-	30,SPYRE,10,12
+	30,PURIRD,10
+	10,SPYRE,10,12
 #-------------------------------
 [083] # Route 15
 Land,20

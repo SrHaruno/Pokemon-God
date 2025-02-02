@@ -7,7 +7,7 @@ Name = Intro
 Name = Satus Town
 Outdoor = true
 ShowArea = true
-MapPosition = 0,24,4
+MapPosition = 0,27,4
 BattleBack = field
 #-------------------------------
 [003]   # Player's house
@@ -27,7 +27,7 @@ MapPosition = 0,24,3
 BattleBack = field
 MapSize = 3,010011111
 #-------------------------------
-[006]   # Satus_Gate
+[006]   # Satus Gate
 Name = Satus Town
 MapPosition = 0,24,4
 #-------------------------------
@@ -235,7 +235,7 @@ MapPosition = 0,28,4
 BattleBack = field
 MapSize = 2,1010
 #-------------------------------
-[053]   # Route 7 Gate
+[053]   # Marine Gate
 Name = Route 7
 Bicycle = true
 MapPosition = 0,24,4

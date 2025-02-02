@@ -383,7 +383,7 @@ Pokemon = MAGIKARP,15
 #-------------------------------
 [CRUSHGIRL, Sakura]
 LoseText = Back to training I should go!
-Pokemon = KARAKID,8
+Pokemon = CHIKATE,8
 #-------------------------------
 [BLACKBELT, Noharu]
 LoseText = Even if I lose, im not giving up!

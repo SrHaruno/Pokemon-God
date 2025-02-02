@@ -3,8 +3,6 @@
 [0]
 Name = Sehand
 Filename = mapRegion0.png
-
-#Towns
 Point = 27,4,Satus Town,Pokémon Lab,2,28,23
 Point = 23,5,Viridis Town,,13,42,14
 Point = 25,7,Plateau City,,22,14,49
@@ -19,21 +17,17 @@ Point = 13,4,Gigantopolis,,66,61,30
 Point = 12,4,Gigantopolis,,66,61,30
 Point = 10,1,Safari Zone,,143,17,21
 Point = 6,11,Tranquor Village
-Point = 13,17,Tormaline City
-Point = 17,18,Shurayuki Village,Mt.Kõji
-
-
-#Routes
+Point = 17,18,Route 26,Mt.Kõji
 Point = 26,4,Route 1
 Point = 25,4,Route 1
 Point = 25,5,Route 1
-Point = 24,5,Route 1
+Point = 24,5,Viridis Town,,13,42,14
 Point = 25,3,Route 1,Serenity Pond
 Point = 23,6,Route 2
 Point = 23,7,Route 2
 Point = 23,8,Route 2
 Point = 24,7,Route 3,,18,44,38
-Point = 23,9,Route 4,Café
+Point = 23,9,Route 4
 Point = 23,10,Route 4
 Point = 23,11,Route 4
 Point = 23,12,Route 5
@@ -61,9 +55,6 @@ Point = 13,7,Route 14
 Point = 13,8,Route 14
 Point = 13,10,Route 15
 Point = 13,11,Route 15
-
-
-#Dungeons
 Point = 24,6,Viridis Forest
 Point = 25,6,Viridis Forest
 Point = 18,10,Haunted Desert
@@ -89,7 +80,39 @@ Point = 21,8,Mt.Solar
 Point = 20,8,Mt.Solar
 Point = 24,9,Mt.Hope
 Point = 25,9,Mt.Hope
-Point = 16,18,Mt.Kõji
-Point = 18,18,Mt.Kõji
+Point = 16,18,Route 27,Mt.Kõji
+Point = 18,18,Route 27,Mt.Kõji
 Point = 20,18,Victory Road
 Point = 19,18,Victory Road
+Point = 7,11,Route 16
+Point = 8,11,Route 16
+Point = 8,10,Route 17
+Point = 8,9,Route 17
+Point = 5,11,Route 18
+Point = 4,11,Route 18
+Point = 3,9,Route 19
+Point = 2,9,Route 19
+Point = 3,8,Route 19
+Point = 3,7,Route 20
+Point = 15,18,Tourmaline City,
+Point = 18,17,Shurayuki Village,
+Point = 21,18,Pokémon League,
+Point = 4,10,Route 18,
+Point = 4,9,Route 19,
+Point = 4,8,Route 19,
+Point = 2,8,Route 19,
+Point = 4,7,Route 20,
+Point = 4,6,Route 21,
+Point = 13,2,Route 22,
+Point = 13,1,Route 22,
+Point = 12,1,Route 23,
+Point = 11,1,Route 23,
+Point = 13,12,Route 24,
+Point = 12,12,Route 24,
+Point = 12,13,Route 24,
+Point = 13,13,Route 24,
+Point = 13,14,Route 24,
+Point = 12,14,Route 24,
+Point = 12,15,Route 24,
+Point = 13,18,Route 25,
+Point = 14,18,Route 25,
