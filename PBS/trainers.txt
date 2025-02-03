@@ -278,7 +278,7 @@ Pokemon = YOUNROW,16
 
 #Nikolai Mansion
 #-------------------------------
-[PI,Melon]
+[RICHBOY,Melon]
 Items = FULLRESTORE
 LoseText = You are as strong as Nikolai!
 Pokemon = GAMBILLO,18
@@ -334,7 +334,7 @@ Pokemon = MOSSELIN,5
 
 #Route 3
 #-------------------------------
-[FARMER, Ethan]
+[RANCHER, Ethan]
 LoseText = That's how farm life works.
 Pokemon = MOMBER,6
 Pokemon = CHIKATE,7
@@ -412,7 +412,7 @@ Pokemon = FRILLZARD,12
 
 #Route 8
 #-------------------------------
-[PI, Elon]
+[RICHBOY, Elon]
 Items = FULLRESTORE
 LoseText = Unlike Pokémon, fortune doesn't fail me!
 Pokemon = DWILD,14

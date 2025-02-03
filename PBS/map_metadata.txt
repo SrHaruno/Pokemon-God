@@ -11,7 +11,7 @@ MapPosition = 0,27,4
 BattleBack = field
 #-------------------------------
 [003]   # Player's house
-Name = \PN's House
+Name = Haruno's House
 HealingSpot = 2,8,8
 MapPosition = 0,24,4
 #-------------------------------

@@ -114,8 +114,8 @@ Gender = Male
 BaseMoney = 32
 IntroBGM = Trainer Eyes Meet! Hiker
 #-------------------------------
-[PI]
-Name = PI
+[RICHBOY]
+Name = Rich Boy
 Gender = Male
 BaseMoney = 72
 IntroBGM = Trainer Eyes Meet! Rich
@@ -169,8 +169,8 @@ Gender = Male
 BaseMoney = 100
 IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
-[ROCKER]
-Name = Rocker
+[GUITARIST]
+Name = Guitarist
 Gender = Male
 BaseMoney = 24
 IntroBGM = Trainer Eyes Meet! Psychic
@@ -313,8 +313,8 @@ BaseMoney = 4
 SkillLevel = 16
 IntroBGM = Trainer Eyes Meet! Swimmer_F
 #-------------------------------
-[FARMER]
-Name = Farmer
+[RANCHER]
+Name = Rancher
 Gender = Male
 BaseMoney = 16
 IntroBGM = Trainer Eyes Meet! Hiker
