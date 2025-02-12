@@ -23,7 +23,7 @@ MapPosition = 0,24,4
 Name = Route 1
 Outdoor = true
 ShowArea = true
-MapPosition = 0,24,3
+MapPosition = 0,25,4
 BattleBack = field
 MapSize = 3,010011111
 #-------------------------------
@@ -34,7 +34,7 @@ MapPosition = 0,24,4
 [007]   # Route 1 Gate
 Name = Route 1
 Bicycle = true
-MapPosition = 0,21,4
+MapPosition = 0,25,5
 #-------------------------------
 [008]   # Bruno House
 Name = Satus Town
@@ -50,21 +50,21 @@ MapPosition = 0,22,7
 Name = Viridis Town
 Outdoor = true
 ShowArea = true
-MapPosition = 0,20,5
+MapPosition = 0,23,5
 BattleBack = field
 #-------------------------------
 [014]   # Route 2
 Name = Route 2
 Outdoor = true
 ShowArea = true
-MapPosition = 0,22,6
+MapPosition = 0,23,7
 BattleBack = field
 MapSize = 3,010010010
 #-------------------------------
 [015]   # Route 2 Gate
 Name = Route 2
 Bicycle = true
-MapPosition = 0,20,7
+MapPosition = 0,13,5
 #-------------------------------
 [016]   # Viridisi Town PC
 Name = Viridis Town
@@ -86,8 +86,8 @@ MapPosition = 0,24,7
 BattleBack = field
 #-------------------------------
 [019]   # Day-Care
-Name = Day-Care
-MapPosition = 0,21,7
+Name = Route 3
+MapPosition = 0,24,7
 #-------------------------------
 [020]   # Viridis Forest
 Name = Viridis Forest
@@ -99,7 +99,7 @@ BattleBack = forest
 [021]   # Route 3 Gate
 Name = Route 3
 Bicycle = true
-MapPosition = 0,21,7
+MapPosition = 0,23,7
 #-------------------------------
 [022]   # Plateau City
 Name = Plateau City
@@ -141,9 +141,17 @@ BattleBack = indoor1
 Name = Marine City
 MapPosition = 0,26,6
 #-------------------------------
+[031]   # Viridis Town
+Name = Viridis Town
+MapPosition = 0,23,5
+#-------------------------------
+[032]   # Virids Town
+Name = Virids Town
+MapPosition = 0,23,5
+#-------------------------------
 [036]   # Route 2
 Name = Route 2
-MapPosition = 0,20,7
+MapPosition = 0,23,7
 #-------------------------------
 [039]   # Route 4
 Name = Route 4
@@ -180,7 +188,7 @@ MapSize = 6,111110100000100000100000100000
 [043]   # Route 5 Gate
 Name = Route 5
 Bicycle = true
-MapPosition = 0,24,4
+MapPosition = 0,25,12
 #-------------------------------
 [044]   # Lunar Cave
 Name = Lunar Cave
@@ -220,7 +228,7 @@ MapPosition = 0,20,9
 [050]   # Route 6 Gate
 Name = Route 6
 Bicycle = true
-MapPosition = 0,24,4
+MapPosition = 0,28,8
 #-------------------------------
 [051]   # Marine City PC
 Name = Marine City
@@ -275,8 +283,7 @@ Environment = Cave
 Name = Serenity Pond
 Outdoor = true
 ShowArea = true
-Weather = Rain,20
-MapPosition = 0,22,4
+MapPosition = 0,25,3
 BattleBack = field
 #-------------------------------
 [061]   # Route 18
@@ -348,7 +355,7 @@ TrainerBattleBGM = Battle! Vs Gym Leader
 [075]   # Route 8 Gate
 Name = Route 8
 Bicycle = true
-MapPosition = 0,24,4
+MapPosition = 0,14,9
 #-------------------------------
 [076]   # Route 9
 Name = Route 9
@@ -554,7 +561,7 @@ MapPosition = 0,12,3
 Name = Gigantopolis
 MapPosition = 0,12,3
 #-------------------------------
-[118]   # Lesta Lab.
+[118]   # Laboratory
 Name = Gigantopolis
 #-------------------------------
 [119]   # Purifier_Room
