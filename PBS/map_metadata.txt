@@ -12,12 +12,12 @@ BattleBack = field
 #-------------------------------
 [003]   # Player's house
 Name = Haruno's House
-HealingSpot = 2,8,8
-MapPosition = 0,24,4
+HealingSpot = 3,4,5
+MapPosition = 0,27,4
 #-------------------------------
 [004]   # Pokémon Lab
 Name = Pokémon Lab
-MapPosition = 0,24,4
+MapPosition = 0,27,4
 #-------------------------------
 [005]   # Route 1
 Name = Route 1
@@ -38,13 +38,12 @@ MapPosition = 0,25,5
 #-------------------------------
 [008]   # Bruno House
 Name = Satus Town
-HealingSpot = 2,8,8
-MapPosition = 0,24,4
+MapPosition = 0,27,4
 #-------------------------------
 [009]   # Plateau City PC
 Name = Plateau City
 HealingSpot = 9,8,6
-MapPosition = 0,22,7
+MapPosition = 0,23,5
 #-------------------------------
 [013]   # Viridis Town
 Name = Viridis Town
@@ -69,11 +68,11 @@ MapPosition = 0,13,5
 [016]   # Viridisi Town PC
 Name = Viridis Town
 HealingSpot = 16,8,6
-MapPosition = 0,20,5
+MapPosition = 0,23,5
 #-------------------------------
 [017]   # Viridisi PC 2F
 Name = Viridis Town
-MapPosition = 0,20,5
+MapPosition = 0,23,5
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
@@ -119,7 +118,7 @@ Environment = Cave
 #-------------------------------
 [024]   # Plateau PC 2F
 Name = Plateau City
-MapPosition = 0,22,7
+MapPosition = 0,25,7
 BattleBack = Online
 TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
@@ -130,7 +129,7 @@ BattleBack = inside
 #-------------------------------
 [028]   # Player's House 2F
 Name = \PN's house
-MapPosition = 0,24,4
+MapPosition = 0,27,4
 #-------------------------------
 [029]   # Pokémon School 2F
 Name = Plateau City
@@ -741,6 +740,14 @@ MapPosition = 0,6,11
 Name = Tranquor Village
 MapPosition = 0,6,11
 #-------------------------------
+[160]   # Tranquor_House
+Name = Tranqour Village
+MapPosition = 0,6,11
+#-------------------------------
+[161]   # Tranquor_House
+Name = Tranqour Village
+MapPosition = 0,6,11
+#-------------------------------
 [162]   # Route 16
 Name = Route 16
 Outdoor = true
@@ -775,3 +782,26 @@ MapPosition = 0,17,13
 [168]   # Dock_Down
 Name = S.S Atlantic
 MapPosition = 0,17,13
+#-------------------------------
+[169]   # Port
+Name = Tranqour Village
+MapPosition = 0,6,11
+#-------------------------------
+[170]   # Tranqour_Gym
+Name = Tranqour Village
+MapPosition = 0,6,11
+#-------------------------------
+[171]   # Tranqour_Gym_1
+Name = Tranqour Village
+MapPosition = 0,6,11
+BattleBack = Cave1
+#-------------------------------
+[172]   # Tranqour_Gym_2
+Name = Tranqour Village
+MapPosition = 0,6,11
+BattleBack = Cave1
+#-------------------------------
+[174]   # Tranqour_Gymleader
+Name = Tranqour Village
+MapPosition = 0,6,11
+BattleBack = Cave1

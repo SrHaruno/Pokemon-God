@@ -176,10 +176,18 @@ Land,20
     30,PASSCIZOR,9,10
 	20,SPARKATIEL,6,8
 LandNight,20
-	40,DWILD,7,10
+	40,CAPYBURA,7,10
     30,CUBOLT,9,10
     20,PASSCIZOR,9,10
 	20,SPARKATIEL,6,8
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33
 #-------------------------------
 [067] # Route 8
 Land,15
