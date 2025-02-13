@@ -297,7 +297,7 @@ MapSize = 3,111000000
 Name = Gigantopolis
 Outdoor = true
 ShowArea = true
-MapPosition = 0,11,3
+MapPosition = 0,13,3
 BattleBack = city
 MapSize = 3,111111000
 #-------------------------------
@@ -558,7 +558,7 @@ MapPosition = 0,12,3
 #-------------------------------
 [117]   # Elevator
 Name = Gigantopolis
-MapPosition = 0,12,3
+MapPosition = 0,13,3
 #-------------------------------
 [118]   # Laboratory
 Name = Gigantopolis
@@ -612,6 +612,7 @@ MapSize = 2,1100
 [134]   # Jasmil Gate
 Name = Jasmil City
 Bicycle = true
+MapPosition = 0,15,3
 #-------------------------------
 [135]   # Giga. Gate
 Name = Route 12

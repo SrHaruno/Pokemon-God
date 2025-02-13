@@ -180,16 +180,27 @@ Pokemon = CHOPAXE,24
 Pokemon = JOLTUTER,26
     Moves = THUNDERWAVE,SHOCKWAVE,MOUSEWHIP,METALSOUND
 	Item  = SITRUSBERRY
-
-
-
-#Tranquor Village
-#Room 1
+	
+#Gym Rematch
 #-------------------------------
-[ACEDUOS, James & Jessie]
-LoseText = We are blasting off at the speed of light!
-Pokemon = TURTLOW,18
-Pokemon = MOMBER,18
+[LEADER_Nikolai,Nikolai,1] #Second Rematch
+Items = HYPERPOTION
+LoseText = That was AMAZING!
+Pokemon = CUBOLT,25
+Pokemon = SQUILAZE,25
+Pokemon = CHOPAXE,30
+Pokemon = JOLTUTER,30
+	Item  = SITRUSBERRY
+#-------------------------------
+[LEADER_Nikolai,Nikolai,2] #Third Rematch
+Items = HYPERPOTION,HYPERPOTION
+LoseText = That was AMAZING!
+Pokemon = SQUILAZE,45
+Pokemon = AXESSAUR,45
+Pokemon = JOLTEON,50
+Pokemon = JOLTAH,55
+Pokemon = JOLTUTER,60
+
 
 
 #-------------------------------
@@ -310,6 +321,15 @@ Pokemon = TATURUG,17
 [ENGINEER,Jason]
 LoseText = Don't fix what isn't broken!
 Pokemon = TURTLOW,17
+
+#Tranquor Village
+
+#Room 1
+#-------------------------------
+[ACEDUOS, James & Jessie]
+LoseText = We are blasting off at the speed of light!
+Pokemon = TURTLOW,18
+Pokemon = MOMBER,18
 
 #Route 2
 #-------------------------------
