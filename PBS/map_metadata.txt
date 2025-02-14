@@ -34,7 +34,7 @@ MapPosition = 0,24,4
 [007]   # Route 1 Gate
 Name = Route 1
 Bicycle = true
-MapPosition = 0,25,5
+MapPosition = 0,26,4
 #-------------------------------
 [008]   # Bruno House
 Name = Satus Town
@@ -49,7 +49,7 @@ MapPosition = 0,23,5
 Name = Viridis Town
 Outdoor = true
 ShowArea = true
-MapPosition = 0,23,5
+MapPosition = 0,24,5
 BattleBack = field
 #-------------------------------
 [014]   # Route 2
@@ -104,16 +104,15 @@ MapPosition = 0,23,7
 Name = Plateau City
 Outdoor = true
 ShowArea = true
-MapPosition = 0,22,7
+MapPosition = 0,25,7
 BattleBack = field
 #-------------------------------
 [023]   # Mt.Solar (Route 2)
 Name = Mt.Solar
 ShowArea = true
 Bicycle = true
-MapPosition = 0,17,7
+MapPosition = 0,22,7
 BattleBack = cave1
-MapSize = 3,111111000
 Environment = Cave
 #-------------------------------
 [024]   # Plateau PC 2F
@@ -124,7 +123,7 @@ TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [026]   # Pokémon School
 Name = Plateau City
-MapPosition = 0,22,7
+MapPosition = 0,25,7
 BattleBack = inside
 #-------------------------------
 [028]   # Player's House 2F
@@ -138,25 +137,42 @@ BattleBack = indoor1
 #-------------------------------
 [030]   # Hotel
 Name = Marine City
-MapPosition = 0,26,6
+MapPosition = 0,28,6
 #-------------------------------
 [031]   # Viridis Town
 Name = Viridis Town
-MapPosition = 0,23,5
+MapPosition = 0,24,5
 #-------------------------------
 [032]   # Virids Town
 Name = Virids Town
-MapPosition = 0,23,5
+MapPosition = 0,24,5
+#-------------------------------
+[033]   # Plateau City
+Name = Plateau City
+MapPosition = 0,25,7
+#-------------------------------
+[034]   # Plateau City
+Name = Plateau City
+MapPosition = 0,25,7
+#-------------------------------
+[035]   # Flower Shop
+Name = Plateau City
+MapPosition = 0,25,7
 #-------------------------------
 [036]   # Route 2
 Name = Route 2
 MapPosition = 0,23,7
 #-------------------------------
+[037]   # Viridis Gate
+Name = Route 1
+Bicycle = true
+MapPosition = 0,25,5
+#-------------------------------
 [039]   # Route 4
 Name = Route 4
 Outdoor = true
 ShowArea = true
-MapPosition = 0,22,9
+MapPosition = 0,23,9
 BattleBack = field
 MapSize = 2,0101
 #-------------------------------
@@ -164,7 +180,7 @@ MapSize = 2,0101
 Name = Route 5
 Outdoor = true
 ShowArea = true
-MapPosition = 0,22,12
+MapPosition = 0,23,12
 BattleBack = Water
 MapSize = 3,111000000
 Environment = None
@@ -180,7 +196,7 @@ BattleBack = Cave1
 Name = Route 6
 Outdoor = true
 ShowArea = true
-MapPosition = 0,26,8
+MapPosition = 0,26,10
 BattleBack = field
 MapSize = 6,111110100000100000100000100000
 #-------------------------------
@@ -213,16 +229,16 @@ MapSize = 2,2
 Name = Marine City
 Outdoor = true
 ShowArea = true
-MapPosition = 0,23,8
+MapPosition = 0,28,7
 BattleBack = field
 #-------------------------------
 [048]   # Route 4 (Healpoint)
 Name = Route 4
-MapPosition = 0,20,9
+MapPosition = 0,23,9
 #-------------------------------
 [049]   # Route 4 (Cafe)
 Name = Route 4
-MapPosition = 0,20,9
+MapPosition = 0,23,9
 #-------------------------------
 [050]   # Route 6 Gate
 Name = Route 6
@@ -245,7 +261,7 @@ MapSize = 2,1010
 [053]   # Marine Gate
 Name = Route 7
 Bicycle = true
-MapPosition = 0,24,4
+MapPosition = 0,28,5
 #-------------------------------
 [054]   # Hotel_Gym
 Name = Abandoned Hotel
@@ -255,7 +271,7 @@ BattleBack = indoor1
 #-------------------------------
 [055]   # Police Station
 Name = Marine City
-MapPosition = 0,26,6
+MapPosition = 0,28,6
 #-------------------------------
 [056]   # Hotel_Gym 3F
 Name = Abandoned Hotel
@@ -265,15 +281,17 @@ BattleBack = indoor1
 #-------------------------------
 [057]   # Police Departament 3F
 Name = Marine City
-MapPosition = 0,24,4
+MapPosition = 0,28,6
 #-------------------------------
 [058]   # Port
 Name = Marine City
+MapPosition = 0,28,6
 #-------------------------------
 [059]   # Mt.Solar
 Name = Mt.Solar
 ShowArea = true
-MapPosition = 0,17,7
+Bicycle = true
+MapPosition = 0,18,8
 BattleBack = cave1
 MapSize = 3,111111000
 Environment = Cave
@@ -289,9 +307,9 @@ BattleBack = field
 Name = Route 16
 Outdoor = true
 ShowArea = true
-MapPosition = 0,3,11
+MapPosition = 0,4,11
 BattleBack = Water
-MapSize = 3,111000000
+MapSize = 2,1100
 #-------------------------------
 [066]   # Gigantopolis
 Name = Gigantopolis
@@ -299,7 +317,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,13,3
 BattleBack = city
-MapSize = 3,111111000
+MapSize = 2,1111
 #-------------------------------
 [067]   # Route 8
 Name = Route 8
@@ -313,25 +331,26 @@ Name = Haunted Desert
 Outdoor = true
 ShowArea = true
 Weather = Sandstorm,100
-MapPosition = 0,18,9
+MapPosition = 0,18,10
 BattleBack = Rocky
-MapSize = 2,1100
+MapSize = 2,1111
 #-------------------------------
 [069]   # Forgotten Chamber
 Name = Forgotten Chamber
 ShowArea = true
-MapPosition = 0,18,9
+Bicycle = true
+MapPosition = 0,18,10
 BattleBack = cave1
 #-------------------------------
 [070]   # Food_Maniac
 Name = Route 8
-MapPosition = 0,24,4
+MapPosition = 0,14,9
 #-------------------------------
 [071]   # Vituresa Village
 Name = Vituresa Village
 Outdoor = true
 ShowArea = true
-MapPosition = 0,16,9
+MapPosition = 0,13,9
 BattleBack = Forest
 #-------------------------------
 [072]   # Vituresa Village PC
@@ -368,8 +387,7 @@ MapSize = 2,1100
 Name = Jamsmil City
 Outdoor = true
 ShowArea = true
-MapPosition = 0,16,3
-MapSize = 2,1100
+MapPosition = 0,17,3
 #-------------------------------
 [078]   # Tourmaline City
 Name = Tourmaline City
@@ -387,7 +405,7 @@ BattleBack = Field
 #-------------------------------
 [080]   # Apricorn Maker
 Name = Route 10
-MapPosition = 0,24,4
+MapPosition = 0,17,5
 #-------------------------------
 [081]   # Route 11
 Name = Route 11
@@ -401,7 +419,7 @@ MapSize = 2,1100
 Name = Route 14
 Outdoor = true
 ShowArea = true
-MapPosition = 0,14,7
+MapPosition = 0,13,7
 BattleBack = Field
 MapSize = 3,100100100
 #-------------------------------
@@ -409,7 +427,7 @@ MapSize = 3,100100100
 Name = Route 15
 Outdoor = true
 ShowArea = true
-MapPosition = 0,16,10
+MapPosition = 0,13,10
 BattleBack = Water
 MapSize = 5,1111110000100001000010000
 #-------------------------------
@@ -417,6 +435,15 @@ MapSize = 5,1111110000100001000010000
 Name = Route 11
 Outdoor = true
 ShowArea = true
+MapPosition = 0,18,4
+#-------------------------------
+[085]   # PowerPlant_Inisde
+Name = Power Plant
+MapPosition = 0,18,4
+#-------------------------------
+[086]   # Guard_House
+Name = Route 11
+MapPosition = 0,18,4
 #-------------------------------
 [087]   # Jamsmil City PC
 Name = Jamsmil City
@@ -432,11 +459,11 @@ TrainerBattleBGM = Battle! Vs Gym Leader
 #-------------------------------
 [089]   # House
 Name = Jamsmil City
-MapPosition = 0,16,3
+MapPosition = 0,17,3
 #-------------------------------
 [090]   # House_2
 Name = Jamsmil City
-MapPosition = 0,16,3
+MapPosition = 0,17,3
 #-------------------------------
 [091]   # Nikolai's Mansion
 Name = Jamsmil City
@@ -448,37 +475,37 @@ MapPosition = 0,17,3
 #-------------------------------
 [093]   # Vituresa_HS1
 Name = Vituresa Village
-MapPosition = 0,16,9
+MapPosition = 0,13,9
 #-------------------------------
 [094]   # Vituresa_HS2
 Name = Vituresa Village
-MapPosition = 0,16,9
+MapPosition = 0,13,9
 #-------------------------------
 [095]   # Vituresa_HS3
 Name = Vituresa Village
-MapPosition = 0,16,9
+MapPosition = 0,13,9
 #-------------------------------
 [096]   # Library
 Name = Vituresa Village
-MapPosition = 0,24,4
+MapPosition = 0,13,9
 #-------------------------------
 [097]   # Chief_House
 Name = Vituresa Village
-MapPosition = 0,16,9
+MapPosition = 0,13,9
 #-------------------------------
 [098]   # Route 15 Gate
 Name = Route 15
 Bicycle = true
-MapPosition = 0,16,10
+MapPosition = 0,13,10
 #-------------------------------
 [099]   # Route 11 Gate
-Name = Route 10
+Name = Route 11
 Bicycle = true
-MapPosition = 0,24,4
+MapPosition = 0,17,4
 #-------------------------------
 [100]   # House_3
 Name = Jamsmil City
-MapPosition = 0,16,3
+MapPosition = 0,17,3
 #-------------------------------
 [101]   # Battle Tower
 Name = Battle Island
@@ -490,20 +517,19 @@ Name = Battle Island
 Name = Mt.Solar
 Outdoor = true
 ShowArea = true
-MapPosition = 0,17,7
-MapSize = 3,111111000
+MapPosition = 0,22,9
 #-------------------------------
 [104]   # Klepto Cave
 Name = Klepto Cave
 ShowArea = true
 Bicycle = true
-MapPosition = 0,17,10
+MapPosition = 0,14,10
 BattleBack = Cave1
 #-------------------------------
 [105]   # Klepto Cave (B1F)
 Name = Klepto Cave
 Bicycle = true
-MapPosition = 0,17,10
+MapPosition = 0,14,10
 BattleBack = Cave1
 #-------------------------------
 [106]   # Connection Cave
@@ -524,7 +550,7 @@ MapPosition = 0,13,3
 #-------------------------------
 [109]   # Gigantopolis PC
 Name = Gigantopolis
-MapPosition = 0,12,3
+MapPosition = 0,13,3
 #-------------------------------
 [110]   # Game Corner
 Name = Gigantopolis
@@ -542,19 +568,19 @@ MapPosition = 0,13,3
 #-------------------------------
 [113]   # 2F
 Name = Gigantopolis
-MapPosition = 0,12,3
+MapPosition = 0,13,3
 #-------------------------------
 [114]   # 3F
 Name = Gigantopolis
-MapPosition = 0,12,3
+MapPosition = 0,13,3
 #-------------------------------
 [115]   # 4F
 Name = Gigantopolis
-MapPosition = 0,12,3
+MapPosition = 0,13,3
 #-------------------------------
 [116]   # 5F
 Name = Gigantopolis
-MapPosition = 0,12,3
+MapPosition = 0,13,3
 #-------------------------------
 [117]   # Elevator
 Name = Gigantopolis
@@ -562,16 +588,27 @@ MapPosition = 0,13,3
 #-------------------------------
 [118]   # Laboratory
 Name = Gigantopolis
+MapPosition = 0,12,3
 #-------------------------------
 [119]   # Purifier_Room
 Name = Gigantopolis
+MapPosition = 0,12,3
 #-------------------------------
 [120]   # Fossil_Room
 Name = Gigantopolis
+MapPosition = 0,12,3
 #-------------------------------
 [122]   # Tourmaline City PC
 Name = Tourmaline City
 MapPosition = 0,16,14
+#-------------------------------
+[123]   # Route 11_House
+Name = Route 11
+MapPosition = 0,17,4
+#-------------------------------
+[124]   # Cycling Shop
+Name = Jasmil City
+MapPosition = 0,17,3
 #-------------------------------
 [125]   # Kitchen
 Name = Jamsmil City
@@ -585,27 +622,36 @@ MapPosition = 0,17,3
 Name = Jamsmil City
 MapPosition = 0,17,3
 #-------------------------------
+[128]   # Gigantopolis PC 2F
+Name = Gigantopolis
+MapPosition = 0,13,3
+#-------------------------------
 [129]   # Route 13
 Name = Route 13
 Outdoor = true
 ShowArea = true
-MapPosition = 0,12,5
+MapPosition = 0,13,6
 BattleBack = Field
 MapSize = 3,100100100
 #-------------------------------
 [130]   # Route 14 Gate
 Name = Route 14
-MapPosition = 0,15,9
+MapPosition = 0,13,8
 #-------------------------------
 [131]   # Route 13 Gate
 Name = Route 13
-MapPosition = 0,12,5
+MapPosition = 0,13,5
+#-------------------------------
+[132]   # Route 16 Gate
+Name = Route 16
+Bicycle = true
+MapPosition = 0,7,11
 #-------------------------------
 [133]   # Route 12
 Name = Route 12
 Outdoor = true
 ShowArea = true
-MapPosition = 0,14,3
+MapPosition = 0,15,3
 BattleBack = Field
 MapSize = 2,1100
 #-------------------------------
@@ -625,15 +671,16 @@ MapPosition = 0,13,3
 #-------------------------------
 [137]   # Route 18 Gate
 Name = Route 18
+Bicycle = true
+MapPosition = 0,5,11
 #-------------------------------
 [138]   # Route 19
 Name = Route 17
 Outdoor = true
 ShowArea = true
-Weather = Storm,30
-MapPosition = 0,1,9
+MapPosition = 0,2,8
 BattleBack = Water
-MapSize = 3,111011000
+MapSize = 3,111011001
 #-------------------------------
 [139]   # Giga. Condo_2
 Name = Gigantopolis
@@ -715,6 +762,10 @@ MapPosition = 0,10,1
 SafariMap = true
 BattleBack = Field
 #-------------------------------
+[153]   # Hotel_2
+Name = Hotel_2
+MapPosition = 0,28,6
+#-------------------------------
 [154]   # Nikolai_Gym
 Name = Jasmil City
 MapPosition = 0,17,3
@@ -762,27 +813,27 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,8,10
 BattleBack = field
-MapSize = 2,1010
+MapSize = 3,100100100
 #-------------------------------
 [164]   # S.S Atlantic
 Name = S.S Atlantic
-MapPosition = 0,17,13
+MapPosition = 0,18,13
 #-------------------------------
 [165]   # Rooms
 Name = S.S Atlantic
-MapPosition = 0,17,13
+MapPosition = 0,18,13
 #-------------------------------
 [166]   # Dock_Up
 Name = S.S Atlantic
-MapPosition = 0,17,13
+MapPosition = 0,18,13
 #-------------------------------
 [167]   # Cap_Cabin
 Name = S.S Atlantic
-MapPosition = 0,17,13
+MapPosition = 0,18,13
 #-------------------------------
 [168]   # Dock_Down
 Name = S.S Atlantic
-MapPosition = 0,17,13
+MapPosition = 0,18,13
 #-------------------------------
 [169]   # Port
 Name = Tranqour Village
@@ -806,3 +857,7 @@ BattleBack = Cave1
 Name = Tranqour Village
 MapPosition = 0,6,11
 BattleBack = Cave1
+#-------------------------------
+[176]   # Plateau City (Daniel House)
+Name = Plateau City
+MapPosition = 0,25,7
