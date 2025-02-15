@@ -25,7 +25,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,25,4
 BattleBack = field
-MapSize = 3,010011111
+MapSize = 2,1110
 #-------------------------------
 [006]   # Satus Gate
 Name = Satus Town
@@ -56,7 +56,7 @@ BattleBack = field
 Name = Route 2
 Outdoor = true
 ShowArea = true
-MapPosition = 0,23,7
+MapPosition = 0,22,6
 BattleBack = field
 MapSize = 3,010010010
 #-------------------------------
@@ -92,8 +92,9 @@ MapPosition = 0,24,7
 Name = Viridis Forest
 Outdoor = true
 ShowArea = true
-MapPosition = 0,22,6
+MapPosition = 0,24,6
 BattleBack = forest
+MapSize = 2,1100
 #-------------------------------
 [021]   # Route 3 Gate
 Name = Route 3
@@ -174,7 +175,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,23,9
 BattleBack = field
-MapSize = 2,0101
+MapSize = 3,100100100
 #-------------------------------
 [040]   # Route 5
 Name = Route 5
@@ -421,7 +422,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,13,7
 BattleBack = Field
-MapSize = 3,100100100
+MapSize = 2,1010
 #-------------------------------
 [083]   # Route 15
 Name = Route 15
@@ -630,9 +631,9 @@ MapPosition = 0,13,3
 Name = Route 13
 Outdoor = true
 ShowArea = true
-MapPosition = 0,13,6
+MapPosition = 0,13,5
 BattleBack = Field
-MapSize = 3,100100100
+MapSize = 2,1010
 #-------------------------------
 [130]   # Route 14 Gate
 Name = Route 14
