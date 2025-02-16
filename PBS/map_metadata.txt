@@ -112,7 +112,7 @@ BattleBack = field
 Name = Mt.Solar
 ShowArea = true
 Bicycle = true
-MapPosition = 0,22,7
+MapPosition = 0,22,6
 BattleBack = cave1
 Environment = Cave
 #-------------------------------
@@ -128,7 +128,7 @@ MapPosition = 0,25,7
 BattleBack = inside
 #-------------------------------
 [028]   # Player's House 2F
-Name = \PN's house
+Name = Haruno's house
 MapPosition = 0,27,4
 #-------------------------------
 [029]   # Pokémon School 2F
@@ -183,7 +183,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,23,12
 BattleBack = Water
-MapSize = 3,111000000
+MapSize = 4,1111000000
 Environment = None
 #-------------------------------
 [041]   # Mt.Hope
@@ -192,14 +192,15 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,24,9
 BattleBack = Cave1
+MapSize = 3,1111111000
 #-------------------------------
 [042]   # Route 6
 Name = Route 6
 Outdoor = true
 ShowArea = true
-MapPosition = 0,26,10
+MapPosition = 0,27,8
 BattleBack = field
-MapSize = 6,111110100000100000100000100000
+MapSize = 5,1110010000100001000010000
 #-------------------------------
 [043]   # Route 5 Gate
 Name = Route 5
@@ -210,21 +211,21 @@ MapPosition = 0,25,12
 Name = Lunar Cave
 ShowArea = true
 Bicycle = true
-MapPosition = 0,24,7
+MapPosition = 0,27,7
 BattleBack = cave1
 #-------------------------------
 [045]   # Lunar Cave 1BF
 Name = Lunar Cave
-MapPosition = 0,24,7
+MapPosition = 0,27,7
 BattleBack = cave1
 #-------------------------------
 [046]   # Mt.Hope
 Name = Mt.Hope
 ShowArea = true
 Bicycle = true
-MapPosition = 0,21,9
+MapPosition = 0,24,9
 BattleBack = cave1
-MapSize = 2,2
+MapSize = 3,111111000
 #-------------------------------
 [047]   # Marine City
 Name = Marine City
@@ -292,9 +293,9 @@ MapPosition = 0,28,6
 Name = Mt.Solar
 ShowArea = true
 Bicycle = true
-MapPosition = 0,18,8
+MapPosition = 0,17,7
 BattleBack = cave1
-MapSize = 3,111111000
+MapSize = 3,111111111
 Environment = Cave
 #-------------------------------
 [060]   # Serenity Pond
@@ -342,6 +343,7 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,18,10
 BattleBack = cave1
+MapSize = 2,1111
 #-------------------------------
 [070]   # Food_Maniac
 Name = Route 8
@@ -430,7 +432,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,13,10
 BattleBack = Water
-MapSize = 5,1111110000100001000010000
+MapSize = 2,1010
 #-------------------------------
 [084]   # Power Plant
 Name = Route 11
@@ -536,14 +538,16 @@ BattleBack = Cave1
 [106]   # Connection Cave
 Name = Connection Cave
 Bicycle = true
-MapPosition = 0,16,14
+MapPosition = 0,12,16
 BattleBack = Cave1
+MapSize = 2,1111
 #-------------------------------
 [107]   # Gigantopolis Sewers
 Name = Gigantopolis Sewers
 Bicycle = true
-MapPosition = 0,16,12
+MapPosition = 0,12,3
 BattleBack = Cave1
+MapSize = 2,1111
 #-------------------------------
 [108]   # Gigantopolis_HS1
 Name = Gigantopolis
