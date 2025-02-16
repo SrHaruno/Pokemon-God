@@ -1056,11 +1056,11 @@ Color = Yellow
 Shape = Winged
 Category = Cockatiel
 Pokedex = ???
-Evolutions = ELECKATIEL,Level,26
+Evolutions = ZEUKATIEL,Level,26
 CallRateSOS = 15
 #-------------------------------
-[ELECKATIEL]
-Name = Eleckatiel
+[ZEUKATIEL]
+Name = Zeukatiel
 Types = ANGEL,ELECTRIC
 BaseStats = 60,80,60,100,115,60
 GenderRatio = Female50Percent
@@ -1956,8 +1956,73 @@ Color = Blue
 Shape = HeadArms
 Category = Sombrero
 Pokedex = ???
-
-
+#-------------------------------
+[ARKIDOE]
+Name = Arkidoe
+Types = GRASS
+BaseStats = 45,60,40,60,75,40
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = SPECIAL_ATTACK,1
+CatchRate = 200
+Happiness = 50
+Abilities = CHLOROPHYLL
+Moves = 1,TACKLE,1,TAILWHIP
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggGroups = Field,Grass
+HatchSteps = 4884
+Height = 0.7
+Weight = 6.9
+Color = Yellow
+Shape = Quadruped
+Category = Deer
+Pokedex = ???
+Evolutions = PLANTEMIS,Level,22
+CallRateSOS = 15
+#-------------------------------
+[PLANTEMIS]
+Name = Plantemis
+Types = GRASS
+BaseStats = 55,75,50,75,90,50
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 138
+EVs = SPECIAL_ATTACK,2
+CatchRate = 120
+Happiness = 50
+Abilities = CHLOROPHYLL
+Moves = 1,TACKLE,1,TAILWHIP
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggGroups = Field,Grass
+Height = 0.7
+Weight = 6.9
+Color = Yellow
+Shape = Quadruped
+Category = Deer
+Pokedex = ???
+Evolutions = ARMABAMIS,Level,32
+#-------------------------------
+[ARMABAMIS]
+Name = Armabamis
+Types = GRASS,FAIRY
+BaseStats = 70,80,60,95,120,60
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 221
+EVs = SPECIAL_ATTACK,3
+CatchRate = 45
+Happiness = 50
+Abilities = CHLOROPHYLL
+Moves = 1,TACKLE,1,TAILWHIP
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggGroups = Field,Grass
+Height = 0.7
+Weight = 6.9
+Color = Yellow
+Shape = Quadruped
+Category = Deer
+Pokedex = ???
 #-------------------------------
 [ROOGRE]
 Name = Roogre
@@ -2333,6 +2398,77 @@ Weight = 6.9
 Color = Gray
 Shape = HeadLegs
 Category = Computer
+#-------------------------------
+[DRABY]
+Name = Draby
+Types = POISON
+BaseStats = 45,40,45,55,70,45
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 66
+EVs = SPECIAL_ATTACK,1
+CatchRate = 180
+Happiness = 50
+Abilities = POISONTOUCH
+Moves = 1,SCRATCH,1,LEER
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+TutorMoves = CUT
+EggMoves = DRAGONDANCE
+EggGroups = Dragon,Monster
+HatchSteps = 8960
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Category = Lizard
+Evolutions = TOKODRA,Level,35
+#-------------------------------
+[TOKODRA]
+Name = Tokodra
+Types = POISON,DRAGON
+BaseStats = 60,55,55,90,95,55
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 66
+EVs = SPECIAL_ATTACK,2
+CatchRate = 180
+Happiness = 50
+Abilities = POISONTOUCH
+Moves = 1,SCRATCH,1,LEER
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+TutorMoves = CUT
+EggMoves = DRAGONDANCE
+EggGroups = Dragon,Monster
+HatchSteps = 8960
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Category = Lizard
+Evolutions = DRAZONA,Level,45
+#-------------------------------
+[DRAZONA]
+Name = Drazona
+Types = POISON,DRAGON
+BaseStats = 70,90,60,100,130,60
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 66
+EVs = SPECIAL_ATTACK,3
+CatchRate = 180
+Happiness = 50
+Abilities = POISONTOUCH
+Moves = 1,SCRATCH,1,LEER
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+TutorMoves = CUT
+EggMoves = DRAGONDANCE
+EggGroups = Dragon,Monster
+HatchSteps = 8960
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Category = Lizard
 
 
 
@@ -2783,7 +2919,6 @@ Abilities = PRESSURE
 Moves = 1,SCRATCH,1,GROWL,10,CALMMIND,20,REFRESH,30,HAZE,40,RECOVER,50,RAGNAROK,60,HYDROPUMP,70,ANCIENTPOWER,80,FUTURESIGHT,90,JUDGMENT,100,BESTOWLIFE
 TutorMoves = PROTECT
 EggGroups = Undiscovered
-HatchSteps = 30720
 Height = 0.4
 Weight = 4.0
 Color = Red
@@ -2806,7 +2941,6 @@ Abilities = PRESSURE
 Moves = 1,SCRATCH,1,LEER,10,SHADOWSNEAK,20,LEAFBLADE,30,SLASH,40,NIGHTSLASH,50,DARKPULSE,60,SHADOWBALL,70,ANCIENTPOWER,80,FUTURESIGHT,90,JUDGMENT,100,SPIRITUALSLASH
 TutorMoves = PROTECT
 EggGroups = Undiscovered
-HatchSteps = 30720
 Height = 0.4
 Weight = 4.0
 Color = Red
@@ -2829,7 +2963,6 @@ Abilities = PRESSURE
 Moves = 1,TACKLE,1,LEER,10,SLAM,20,DARKPULSE,30,HYPNOSIS,40,NIGHTSLASH,50,RECKLESSWRECK,60,GIGAIMPACT,70,ANCIENTPOWER,80,FUTURESIGHT,90,JUDGMENT,100,JUDGMENTALHAMMER
 TutorMoves = PROTECT
 EggGroups = Undiscovered
-HatchSteps = 30720
 Height = 0.4
 Weight = 4.0
 Color = Red

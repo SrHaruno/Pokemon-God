@@ -6420,12 +6420,6 @@ FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[ELECKATIEL]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
 [FLORBIRB]
 BackSprite = 0,0
 FrontSprite = 0,0

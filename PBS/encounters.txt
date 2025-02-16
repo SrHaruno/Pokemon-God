@@ -198,13 +198,17 @@ Land,15
     5,FRILLZARD,15
 #-------------------------------
 [076] # Route 9
-Land,15
-    20,ROOGRE,10,14
+Land,20
+    30,ARKIDOE,12,15
+    5,PINATAYA,15
+LandNight,20
+    30,ARKIDOE,12,15
     5,PINATAYA,15
 #-------------------------------
 [079] # Route 10
 Land,15
-    20,ROOGRE,10,14
+    5,PINATAYA,15
+LandNight,20
     5,PINATAYA,15
 Water
 	80,MAGIKARP,5
@@ -217,9 +221,11 @@ SuperRod
 #-------------------------------
 [81] # Route 11
 Land,20
-    30,CHOPAXE,12,15
+    30,ARKIDOE,12,15
+    5,PINATAYA,15
 LandNight,20
-    30,CHOPAXE,12,15
+    30,ARKIDOE,12,15
+    5,PINATAYA,15
 #-------------------------------
 [133] # Route 12
 Land,20
@@ -403,7 +409,7 @@ SuperRod
 [023] # Mt.Solar #Route 2 Side
 Cave,7
 	40,FRUCTERA,5
-	30,MOMBER,2,5
+	30,MOSSELIN,2,5
 Water
 	80,MAGIKARP,5
 OldRod
@@ -416,7 +422,7 @@ SuperRod
 [103] # Mt.Solar #Route 4 Side
 Cave,7
 	40,FRUCTERA,6,9
-    30,MOMBER,7,9
+    30,MOSSELIN,7,9
 Water
 	80,MAGIKARP,5
 OldRod
@@ -429,7 +435,7 @@ SuperRod
 [059] # Mt.Solar #Haunted Desert Entrance
 Cave,7
 	40,FRUCTERA,9,10
-	30,MOMBER,9,10
+	30,MOSSELIN,9,10
 Water
 	80,MAGIKARP,5
 OldRod
@@ -481,6 +487,7 @@ SuperRod
 [107] # Gigantopolis Sewer
 Cave,7
 	20,DITTO,12,16
+	5,DRABY,15
 Water
 	80,MAGIKARP,10
 OldRod

@@ -518,9 +518,9 @@ Name = Battle Island
 #-------------------------------
 [103]   # Mt.Solar(Route 4)
 Name = Mt.Solar
-Outdoor = true
-ShowArea = true
+Bicycle = true
 MapPosition = 0,22,9
+BattleBack = cave1
 #-------------------------------
 [104]   # Klepto Cave
 Name = Klepto Cave
