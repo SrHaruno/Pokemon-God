@@ -6425,3 +6425,15 @@ BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[ARKIDOE]
+BackSprite = 0,0
+FrontSprite = 4,12
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ARMABAMIS]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
