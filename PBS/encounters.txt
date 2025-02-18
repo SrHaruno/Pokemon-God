@@ -159,12 +159,12 @@ SuperRod
 #-------------------------------
 [042] # Route 6
 Land,20
-	40,PASSCIZOR,9
+	40,SQUT,9
 	30,CUBOLT,7,9
 	20,SPARKATIEL,6,8
     10,FLORBIRB,9
 LandNight,20
-	30,PASSCIZOR,9
+	30,SQUT,9
 	40,CUBOLT,7,9
 	20,SPARKATIEL,6,8
     10,FRUCTERA,9
@@ -173,12 +173,12 @@ LandNight,20
 Land,20
 	40,DWILD,7,10
     20,CUBOLT,9,10
-    30,PASSCIZOR,9,10
+    30,SQUT,9,10
 	20,SPARKATIEL,6,8
 LandNight,20
 	40,CAPYBURA,7,10
     30,CUBOLT,9,10
-    20,PASSCIZOR,9,10
+    20,SQUT,9,10
 	20,SPARKATIEL,6,8
 Water
 	80,MAGIKARP,5
@@ -229,15 +229,23 @@ LandNight,20
 #-------------------------------
 [133] # Route 12
 Land,20
-    30,CHOPAXE,12,15
+    30,CHOPAXE,11,12
+	20,SQUT,12,13
+	5,ANGDEP,10,13
 LandNight,20
     30,CHOPAXE,12,15
+	20,SQUT,12,13
+	5,ANGDEP,10,13
 #-------------------------------
 [129] # Route 13
 Land,20
-    30,CHOPAXE,12,15
+    30,CHOPAXE,11,12
+	20,SQUT,12,13
+	5,ANGDEP,10,13
 LandNight,20
     30,CHOPAXE,12,15
+	20,SQUT,12,13
+	5,ANGDEP,10,13
 #-------------------------------
 [82] # Route 14
 Land,20

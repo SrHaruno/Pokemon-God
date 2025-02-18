@@ -313,6 +313,11 @@ MapPosition = 0,4,11
 BattleBack = Water
 MapSize = 2,1100
 #-------------------------------
+[065]   # Battle Island
+Name = Battle Island
+Outdoor = true
+MapPosition = 0,27,17
+#-------------------------------
 [066]   # Gigantopolis
 Name = Gigantopolis
 Outdoor = true

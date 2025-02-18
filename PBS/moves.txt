@@ -605,6 +605,17 @@ Flags = CanProtect,CanMirrorMove,Sound,CannotMetronome
 EffectChance = 100
 Description = The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease.
 #-------------------------------
+[BROKENHEART]
+Name = Broken Heart
+Type = DARK
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The foe is struck with an emotion filled strike. Power depends on happiness.
+#-------------------------------
 [PAYBACK]
 Name = Payback
 Type = DARK

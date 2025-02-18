@@ -592,7 +592,7 @@ Abilities = LEAFGUARD,CHLOROPHYLL
 HiddenAbilities = STEADFAST
 Moves = 1,SCRATCH,1,LEER,5,LEAFAGE,9,SHADOWSNEAK,12,RAZORLEAF,15,LEECHSEED,18,METALCLAW,21,SLASH,24,GROWTH,27,NIGHTSLASH,30,SMARTSTRIKE,33,LEAFBLADE
 TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
-TutorMoves = CUT,WORKUP
+TutorMoves = CUT,WORKUP,FALSESWIPE
 EggMoves = SECRETSWORD
 EggGroups = Grass
 HatchSteps = 3840
@@ -603,6 +603,7 @@ Shape = Bipedal
 Category = Origami
 Pokedex = ???
 Evolutions = ORIKEN,LevelMale,20,BLOSSIGAMI,LevelFemale,20
+SpeciesSOS = ORBEAF,ORBEAF_1
 CallRateSOS = 10
 #-------------------------------
 [ORIKEN]
@@ -619,7 +620,7 @@ Abilities = LEAFGUARD,CHLOROPHYLL
 HiddenAbilities = STEADFAST
 Moves = 0,SHUMERANG,1,SCRATCH,1,LEER,1,LEAFAGE,1,SHADOWSNEAK,12,RAZORLEAF,15,LEECHSEED,18,METALCLAW,23,SLASH,26,GROWTH,29,NIGHTSLASH,32,SMARTSTRIKE,35,LEAFBLADE,38,SWORDSDANCE
 TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
-TutorMoves = CUT,WORKUP
+TutorMoves = CUT,WORKUP,FALSESWIPE
 EggGroups = Grass
 Height = 0.7
 Weight = 6.9
@@ -643,7 +644,7 @@ Abilities = LEAFGUARD,CHLOROPHYLL
 HiddenAbilities = SHARPNESS
 Moves = 0,IAIJUTSU,1,SCRATCH,1,LEER,1,LEAFAGE,1,SHADOWSNEAK,12,RAZORLEAF,15,LEECHSEED,18,METALCLAW,23,SLASH,26,GROWTH,29,NIGHTSLASH,34,SMARTSTRIKE,37,LEAFBLADE,39,SWORDSDANCE,42,SACREDSWORD,45,SOLARBLADE
 TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
-TutorMoves = CUT,WORKUP,AERIALACE
+TutorMoves = CUT,WORKUP,FALSESWIPE,AERIALACE
 EggGroups = Grass
 Height = 0.7
 Weight = 6.9
@@ -1355,8 +1356,8 @@ Shape = Quadruped
 Category = Thunder God
 Pokedex = This Pokémon has been venerated by many ancient civilizations. it's in constant fight for territory against Luxray.
 #-------------------------------
-[PASSCIZOR]
-Name = Passcizor
+[SQUT]
+Name = Squt
 Types = NORMAL,FLYING
 BaseStats = 45,60,50,70,40,30
 GenderRatio = Female50Percent
@@ -1377,10 +1378,10 @@ Color = Blue
 Shape = Winged
 Category = Squirell
 CallRateSOS = 15
-Evolutions = PASSHARP,Level,24
+Evolutions = SKYRELL,Level,24
 #-------------------------------
-[PASSHARP]
-Name = Passharp
+[SKYRELL]
+Name = Skyrell
 Types = NORMAL,FLYING
 BaseStats = 60,105,70,115,80,65
 GenderRatio = Female50Percent
@@ -1763,8 +1764,9 @@ Color = Yellow
 Shape = Quadruped
 Category = Fox
 Pokedex = ???
-CallRateSOS = 10
 Evolutions = DEVITSUNE,Item,DUSKSTONE
+SpeciesSOS = KITSU,KITSU_1
+CallRateSOS = 10
 #-------------------------------
 [DEVITSUNE]
 Name = Devitsune
@@ -2008,7 +2010,7 @@ CatchRate = 200
 Happiness = 50
 Abilities = INNERFOCUS,JUSTIFIED
 Moves = 1,POUND,1,TAILWHIP
-TutorMoves = PROTECT
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
 EggMoves = CLOSECOMBAT,IRONTAIL,PLAYROUGH,BELLYDRUM
 EggGroups = Humanlike,Monster
 HatchSteps = 5120
@@ -2033,7 +2035,8 @@ Happiness = 50
 Abilities = SHEDSKIN,LEAFGUARD
 HiddenAbilities = MARVELSCALE
 Moves = 1,SCRATCH,1,LEER,5,LEECHSEED,9,ABSORB,13,GROWTH,17,AROMATHERAPY,21,DRAGONRAGE,25,MAGICALLEAF,29,SYNTHESIS,33,GLARE,37,MEGADRAIN,41,DRAGONBREATH,45,GIGADRAIN,50,DRAGONPULSE,55,LEAFSTORM,60,HYPERBEAM
-TutorMoves = PROTECT,DRACOMETEOR,TOXIC
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+TutorMoves = DRACOMETEOR
 EggMoves = SCRATCH
 EggGroups = Grass,Dragon
 HatchSteps = 10240
@@ -2044,80 +2047,6 @@ Shape = Quadruped
 Category = Pinhata
 Pokedex = These Pokémon love to hang in trees sunbathing. It's said to have existed for decades, even on prehistoric times.
 CallRateSOS = 9
-
-
-
-#-------------------------------
-[MEOWTUNO]
-Name = Meowtuno
-Types = DARK
-BaseStats = 40,65,30,80,65,30
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 62
-EVs = SPEED,1
-CatchRate = 200
-Happiness = 50
-Abilities = QUICKFEET
-Moves = 1,SCRATCH,1,TAILWHIP
-TutorMoves = PROTECT
-EggMoves = DARKPULSE
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Gray
-Shape = Bipedal
-Category = Cat
-Pokedex = ???
-CallRateSOS = 9
-Evolutions = KLEPTUNO,Level,28
-#-------------------------------
-[KLEPTUNO]
-Name = Kleptuno
-Types = DARK
-BaseStats = 60,85,40,90,85,40
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 62
-EVs = SPEED,2
-CatchRate = 100
-Happiness = 50
-Abilities = QUICKFEET
-Moves = 1,SCRATCH,1,TAILWHIP
-TutorMoves = PROTECT
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Gray
-Shape = Bipedal
-Category = Cat
-Pokedex = ???
-Evolutions = KLEPURR,Level,48
-#-------------------------------
-[KLEPURR]
-Name = Klepurr
-Types = DARK
-BaseStats = 80,95,50,130,95,50
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseExp = 62
-EVs = SPEED,2
-CatchRate = 50
-Happiness = 50
-Abilities = QUICKFEET
-Moves = 1,SCRATCH,1,TAILWHIP
-TutorMoves = PROTECT
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Gray
-Shape = Bipedal
-Category = Cat
-Pokedex = ???
-
 
 
 #-------------------------------
@@ -2133,7 +2062,8 @@ CatchRate = 235
 Happiness = 50
 Abilities = OVERCOAT
 Moves = 1,SCRATCH,1,LEER,4,STRINGSHOT,6,BUGBITE,9,FLAMEWHEEL,11,SPIDERWEB,14,FIREFANG,18,STICKYWEB,22,POISONFANG,26,UTURN,30,SUCKERPUNCH,38,EGGBOMB,41,LEECHLIFE
-TutorMoves = PROTECT,SWORDSDANCE,KNOCKOFF
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+TutorMoves = SWORDSDANCE,KNOCKOFF
 EggMoves = SEEDBOMB
 EggGroups = Bug,Field
 HatchSteps = 5120
@@ -2158,7 +2088,8 @@ CatchRate = 45
 Happiness = 50
 Abilities = SWARM
 Moves = 1,SCRATCH,1,LEER,4,STRINGSHOT,6,BUGBITE,9,FLAMEWHEEL,11,SPIDERWEB,14,FIREFANG,18,STICKYWEB,22,POISONFANG,28,UTURN,32,SUCKERPUNCH,39,EGGBOMB,43,LEECHLIFE,46,SLUDGEBOMB,49,XSCISSOR
-TutorMoves = PROTECT,SWORDSDANCE,KNOCKOFF
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+TutorMoves = SWORDSDANCE,KNOCKOFF
 EggGroups = Bug,Field
 Height = 0.7
 Weight = 6.9
@@ -2213,6 +2144,79 @@ Weight = 6.9
 Color = Gray
 Shape = HeadLegs
 Category = Axe
+#-------------------------------
+[ANGDEP]
+Name = Angdep
+Types = DARK,FAIRY
+BaseStats = 55,50,60,30,40,60
+GenderRatio = Female50Percent
+GrowthRate = Fast
+BaseExp = 110
+EVs = HP,1
+CatchRate = 130
+Happiness = 0
+Abilities = CUTECHARM,NATURALCURE
+Moves = 1,POUND,1,LEER,4,DEFENSECURL,8,DOUBLESLAP,11,LOVELYKISS,15,CHARM,18,BROKENHEART,21,FEINTATTACK,24,HELPINGHAND,27,HEADBUTT,31,RECOVER,34,PARTINGSHOT,37,BODYSLAM,41,DARKPULSE,45,PLAYROUGH
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = AROMATHERAPY,HEALBELL,WISH,SEISMICTOSS
+EggGroups = Fairy,Field
+HatchSteps = 8960
+Height = 0.7
+Weight = 6.9
+Color = Pink
+Shape = Bipedal
+Category = Sadness
+Pokedex = ???
+Evolutions = HACHEART,Happiness,
+SpeciesSOS = ANGDEP,HACHEART,SILLEARPPY
+CallRateSOS = 9
+#-------------------------------
+[HACHEART]
+Name = Hacheart
+Types = NORMAL,FAIRY
+BaseStats = 65,60,70,35,45,70
+GenderRatio = Female50Percent
+GrowthRate = Fast
+BaseExp = 395
+EVs = HP,2
+CatchRate = 30
+Happiness = 50
+Abilities = CUTECHARM,NATURALCURE
+Moves = 1,POUND,1,LEER,4,DEFENSECURL,8,DOUBLESLAP,11,LOVELYKISS,15,CHARM,18,BROKENHEART,21,FEINTATTACK,24,HELPINGHAND,27,HEADBUTT,31,RECOVER,34,PARTINGSHOT,37,BODYSLAM,41,DARKPULSE,45,PLAYROUGH
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = AROMATHERAPY,HEALBELL,WISH,SEISMICTOSS
+EggGroups = Fairy,Field
+HatchSteps = 8960
+Height = 0.7
+Weight = 6.9
+Color = Pink
+Shape = Bipedal
+Category = Hapiness
+Pokedex = ???
+Evolutions = SILLEARPPY,Item,SHINYSTONE
+#-------------------------------
+[SILLEARPPY]
+Name = Sillearppy
+Types = NORMAL,FAIRY
+BaseStats = 100,80,125,40,55,125
+GenderRatio = Female50Percent
+GrowthRate = Fast
+BaseExp = 635
+EVs = HP,3
+CatchRate = 30
+Happiness = 50
+Abilities = CUTECHARM,NATURALCURE
+Moves = 1,POUND,1,LEER,4,DEFENSECURL,8,DOUBLESLAP,11,LOVELYKISS,15,CHARM,18,BROKENHEART,21,FEINTATTACK,24,HELPINGHAND,27,HEADBUTT,31,RECOVER,34,PARTINGSHOT,37,BODYSLAM,41,DARKPULSE,45,PLAYROUGH
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = AROMATHERAPY,HEALBELL,WISH,SEISMICTOSS
+EggGroups = Fairy,Field
+HatchSteps = 8960
+Height = 0.7
+Weight = 6.9
+Color = Pink
+Shape = Bipedal
+Category = Hapiness
+Pokedex = ???
 
 
 
@@ -2442,6 +2446,78 @@ Color = Green
 Shape = Quadruped
 Category = Lizard
 
+
+
+#-------------------------------
+[MEOWTUNO]
+Name = Meowtuno
+Types = DARK
+BaseStats = 40,65,30,80,65,30
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPEED,1
+CatchRate = 200
+Happiness = 50
+Abilities = QUICKFEET
+Moves = 1,SCRATCH,1,TAILWHIP
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = DARKPULSE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Category = Cat
+Pokedex = ???
+CallRateSOS = 9
+Evolutions = KLEPTUNO,Level,28
+#-------------------------------
+[KLEPTUNO]
+Name = Kleptuno
+Types = DARK
+BaseStats = 60,85,40,90,85,40
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPEED,2
+CatchRate = 100
+Happiness = 50
+Abilities = QUICKFEET
+Moves = 1,SCRATCH,1,TAILWHIP
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Category = Cat
+Pokedex = ???
+Evolutions = KLEPURR,Level,48
+#-------------------------------
+[KLEPURR]
+Name = Klepurr
+Types = DARK
+BaseStats = 80,95,50,130,95,50
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 62
+EVs = SPEED,2
+CatchRate = 50
+Happiness = 50
+Abilities = QUICKFEET
+Moves = 1,SCRATCH,1,TAILWHIP
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Bipedal
+Category = Cat
+Pokedex = ???
 
 
 #-------------------------------

@@ -6431,3 +6431,15 @@ BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[ANGDEP]
+BackSprite = 0,0
+FrontSprite = -1,19
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[HACHEART]
+BackSprite = 0,0
+FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 2
