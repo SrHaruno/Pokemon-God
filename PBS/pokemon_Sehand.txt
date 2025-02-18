@@ -1358,7 +1358,7 @@ Pokedex = This Pokémon has been venerated by many ancient civilizations. it's i
 [PASSCIZOR]
 Name = Passcizor
 Types = NORMAL,FLYING
-BaseStats = 45,60,30,55,30,30
+BaseStats = 45,60,50,70,40,30
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 50
@@ -1366,25 +1366,23 @@ EVs = SPEED,1
 CatchRate = 255
 Happiness = 50
 Abilities = KEENEYE
-Moves = 1,PECK,1,LEER,5,QUICKATTACK,9,WINGATTACK,13,SANDATTACK,17,WHIRLWIND,21,AERIALACE,25,ROOST,29,AGILITY,33,BRAVEBIRD,37,FEATHERDANCE,41,CLOSECOMBAT
+Moves = 1,TACKLE,1,TAILWHIP,5,QUICKATTACK,9,WINGATTACK,13,HELPINGHAND,17,DOUBLEHIT,21,ACROBATICS,25,AGILITY,29,HEADBUTT,33,ACECOMBAT,37,HYPERFANG,41,TAILWIND
 TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
-TutorMoves = FLY
-EggMoves = DUALWINGBEAT
-EggGroups = Field,Flying
+TutorMoves = ROOST
+EggGroups = Field
 HatchSteps = 3840
 Height = 0.7
 Weight = 6.9
 Color = Blue
 Shape = Winged
-Category = Bird
-Pokedex = It's sharp like wings could cut trought paper like scizors. Passcizors enjoy scouting forest for bugs, using it's wings to cut trought dense forests.
+Category = Squirell
 CallRateSOS = 15
-Evolutions = PASSHARP,Level,14
+Evolutions = PASSHARP,Level,24
 #-------------------------------
 [PASSHARP]
 Name = Passharp
 Types = NORMAL,FLYING
-BaseStats = 50,80,40,75,40,40
+BaseStats = 60,105,70,115,80,65
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 122
@@ -1392,41 +1390,15 @@ EVs = SPEED,1
 CatchRate = 120
 Happiness = 50
 Abilities = KEENEYE
-Moves = 0,WINGPOLISH,1,PECK,1,LEER,1,QUICKATTACK,9,WINGATTACK,13,SANDATTACK,18,WHIRLWIND,22,AERIALACE,26,ROOST,30,AGILITY,34,BRAVEBIRD,40,FEATHERDANCE,44,CLOSECOMBAT,47,SKYATTACK
+Moves = 1,TACKLE,1,TAILWHIP,1,QUICKATTACK,9,WINGATTACK,13,HELPINGHAND,18,DOUBLEHIT,22,ACROBATICS,26,AGILITY,30,HEADBUTT,34,ACECOMBAT,40,HYPERFANG,44,TAILWIND,47,SKYATTACK
 TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
-TutorMoves = FLY
-EggGroups = Field,Flying
-HatchSteps = 3840
+TutorMoves = ROOST
+EggGroups = Field
 Height = 0.7
 Weight = 6.9
 Color = Blue
 Shape = Winged
-Category = Bird
-Evolutions = PASSAZOR,Level,34
-#-------------------------------
-[PASSAZOR]
-Name = Passazor
-Types = NORMAL,FLYING
-BaseStats = 70,120,60,105,60,50
-GenderRatio = Female50Percent
-GrowthRate = Parabolic
-BaseExp = 240
-EVs = SPEED,1
-CatchRate = 45
-Happiness = 50
-Abilities = KEENEYE
-Moves = 0,STEELWING,1,PECK,1,LEER,1,QUICKATTACK,9,WINGATTACK,13,SANDATTACK,18,WHIRLWIND,22,AERIALACE,26,ROOST,30,AGILITY,36,BRAVEBIRD,42,FEATHERDANCE,46,CLOSECOMBAT,49,SKYATTACK
-TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
-TutorMoves = FLY
-EggGroups = Field,Flying
-HatchSteps = 3840
-Height = 0.7
-Weight = 6.9
-Color = Blue
-Shape = Winged
-Category = Bird
-CallRateSOS = 15
-
+Category = Squirell
 #-------------------------------
 [MOSSELIN]
 Name = Mosselin

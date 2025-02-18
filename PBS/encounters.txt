@@ -199,17 +199,17 @@ Land,15
 #-------------------------------
 [076] # Route 9
 Land,20
-    30,ARKIDOE,12,15
-    5,PINATAYA,15
+    30,ARKIDOE,9,10
+    5,PINATAYA,13
 LandNight,20
-    30,ARKIDOE,12,15
-    5,PINATAYA,15
+    30,ARKIDOE,9,10
+    5,PINATAYA,13
 #-------------------------------
 [079] # Route 10
 Land,15
-    5,PINATAYA,15
+    5,PINATAYA,13
 LandNight,20
-    5,PINATAYA,15
+    5,PINATAYA,13
 Water
 	80,MAGIKARP,5
 OldRod
@@ -221,11 +221,11 @@ SuperRod
 #-------------------------------
 [81] # Route 11
 Land,20
-    30,ARKIDOE,12,15
-    5,PINATAYA,15
+    30,ARKIDOE,9,10
+    5,PINATAYA,13
 LandNight,20
-    30,ARKIDOE,12,15
-    5,PINATAYA,15
+    30,ARKIDOE,9,10
+    5,PINATAYA,13
 #-------------------------------
 [133] # Route 12
 Land,20

@@ -53,7 +53,7 @@ Pokemon = EGDON,10
 #-------------------------------
 [RIVAL1,Bruno,7] #Grass Starter
 LoseText = Hopefully the locals enjoyed this battle!
-Pokemon = PASSHARP,14
+Pokemon = YOUNROW,14
 Pokemon = FLAMUNNY,16
 Pokemon = KITSU,16
 	Gender = Male
@@ -62,7 +62,7 @@ Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,8] #Fire Starter
 LoseText = Hopefully the locals enjoyed this battle!
-Pokemon = PASSHARP,14
+Pokemon = YOUNROW,14
 Pokemon = GYARADOS,20
 Pokemon = KITSU,16
 	Gender = Male
@@ -71,7 +71,7 @@ Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,9] #Water Starter
 LoseText = Hopefully the locals enjoyed this battle!
-Pokemon = PASSHARP,14
+Pokemon = YOUNROW,14
 Pokemon = ORBEAF,16
 	Gender = Male
 Pokemon = KITSU,16
@@ -84,7 +84,7 @@ Pokemon = EGDON,16
 # Fifth Gym -- Bruno Tags with player
 #-------------------------------
 [RIVAL1,Bruno,10] #Grass Starter
-Pokemon = PASSHARP,20
+Pokemon = YOUNROW,20
 Pokemon = FLAMUNNY,20
 Pokemon = KITSU,23
 	Gender = Male
@@ -92,7 +92,7 @@ Pokemon = PSYLOTE,25
 Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,11] #Fire Starter
-Pokemon = PASSHARP,20
+Pokemon = YOUNROW,20
 Pokemon = GYARADOS,20
 Pokemon = KITSU,23
 	Gender = Male
@@ -100,7 +100,7 @@ Pokemon = EVIRASS,25
 Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,12] #Water Starter
-Pokemon = PASSHARP,20
+Pokemon = YOUNROW,20
 Pokemon = ORBEAF,20
 	Gender = Male
 Pokemon = KITSU,23
