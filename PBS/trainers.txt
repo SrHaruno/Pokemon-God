@@ -406,24 +406,36 @@ Pokemon = FLAMUNNY,8
 #-------------------------------
 [YOUNGSTER, Tobias]
 LoseText = My Pokémon!
-Pokemon = DWILD,11
-Pokemon = TURTEED,12
+Pokemon = DWILD,9
+Pokemon = TURTEED,9
 #-------------------------------
 [AROMALADY, Rafaela]
 LoseText = My sweet babies!
-Pokemon = ORBEAF,10
+Pokemon = ORBEAF,8
 	Gender = Female
-Pokemon = PANSAGE,14	
+Pokemon = ORBEAF,8
+	Gender = Male
+#-------------------------------
+[NURSE, Sharon]
+LoseText = Oh my, what an healthy Pokémon you have!
+Pokemon = ANGDEP,9
+
 
 #Route 7
 #-------------------------------
 [PICNICKER, Sabrina]
 LoseText = My cuties!
-Pokemon = ORBEAF,14
+Pokemon = ORBEAF,10
 	Gender = Female
 [CAMPER, Hamilton]
 LoseText = Atleast I learn about the region!
-Pokemon = FRILLZARD,12
+Pokemon = FRILLZARD,10
+
+#Route 10
+#-------------------------------
+[NURSE, Debora]
+LoseText = Your Pokémon are very healthy!
+Pokemon = HACHEART,12
 
 #Route 8
 #-------------------------------

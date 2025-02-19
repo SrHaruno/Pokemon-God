@@ -6443,3 +6443,15 @@ BackSprite = 0,0
 FrontSprite = 0,12
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[SQUT]
+BackSprite = 0,0
+FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[DRABY]
+BackSprite = 0,0
+FrontSprite = -7,20
+ShadowX = 0
+ShadowSize = 2

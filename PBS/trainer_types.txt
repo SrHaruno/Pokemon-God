@@ -145,6 +145,12 @@ BaseMoney = 160
 SkillLevel = 72
 IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
+[NURSE]
+Name = Nurse
+Gender = Female
+BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Lass
+#-------------------------------
 [PAINTER]
 Name = Painter
 Gender = Female

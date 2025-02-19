@@ -191,11 +191,11 @@ SuperRod
 #-------------------------------
 [067] # Route 8
 Land,15
-	40,BOUDYENA,10,14
-	30,CUBTURN,10,14
-	20,KITSU,10,14
-	10,VOODOLL,15
-    5,FRILLZARD,15
+	40,BOUDYENA,10,12
+	30,CUBTURN,10,12
+	20,KITSU,11,13
+	5,VOODOLL,12
+    5,FRILLZARD,12
 #-------------------------------
 [076] # Route 9
 Land,20

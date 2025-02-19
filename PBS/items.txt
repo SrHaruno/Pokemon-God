@@ -607,7 +607,7 @@ Description = A stone figure made in a civilization about 3,000 years ago. A man
 Name = Relic Crown
 NamePlural = Relic Crowns
 Pocket = 1
-Price = 0
+Price = 300000
 Flags = Fling_30
 Description = A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
 #-------------------------------
@@ -6607,6 +6607,7 @@ Pocket = 1
 Price = 0
 Flags = Fossil,Fling_100
 Description = A fossil of an ancient Pokémon that absorbed the sun in the ancient times. It appears to be part of it's spike-plate.
+#-------------------------------
 #
 # // Megas Stones
 #
@@ -6615,7 +6616,7 @@ Description = A fossil of an ancient Pokémon that absorbed the sun in the ancie
 Name = Junvilite
 NamePlural = Junvilites
 Pocket = 1
-Price = 0
+Price = 1500
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have Junvil hold it, and it will be able to Mega Evolve.
 #-------------------------------
@@ -6623,7 +6624,7 @@ Description = One of a variety of mysterious Mega Stones. Have Junvil hold it, a
 Name = Komodraite
 NamePlural = Komodraites
 Pocket = 1
-Price = 0
+Price = 1500
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have Komo-dra hold it, and it will be able to Mega Evolve.
 #-------------------------------
@@ -6631,7 +6632,7 @@ Description = One of a variety of mysterious Mega Stones. Have Komo-dra hold it,
 Name = Axolysticite
 NamePlural = Axolysticites
 Pocket = 1
-Price = 0
+Price = 1500
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have Axolystic hold it, and it will be able to Mega Evolve.
 #-------------------------------
@@ -6642,6 +6643,7 @@ Pocket = 1
 Price = 0
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have Flygon hold it, and it will be able to Mega Evolve.
+#-------------------------------
 #
 # //Key Items
 #

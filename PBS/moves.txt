@@ -1641,6 +1641,18 @@ Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
 EffectChance = 100
 Description = The user attacks the target with immense force. This also lowers the target's Sp. Atk stat.
 #-------------------------------
+[HEARTSLAM]
+Name = Heart Slam
+Type = FAIRY
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithUserHappiness
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A love filled attack that becomes strongert he more the user likes its Trainer.
+#-------------------------------
 [DRAININGKISS]
 Name = Draining Kiss
 Type = FAIRY
