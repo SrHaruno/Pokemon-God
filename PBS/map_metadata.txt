@@ -608,6 +608,12 @@ MapPosition = 0,12,3
 Name = Gigantopolis
 MapPosition = 0,12,3
 #-------------------------------
+[121]   # Mt.Harmony [Entrance]
+Name = Mt.Harmony
+Bicycle = true
+MapPosition = 0,8,9
+BattleBack = Cave1
+#-------------------------------
 [122]   # Tourmaline City PC
 Name = Tourmaline City
 MapPosition = 0,16,14
@@ -865,6 +871,12 @@ Name = Tranqour Village
 MapPosition = 0,6,11
 BattleBack = Cave1
 #-------------------------------
+[173]   # Mt.Harmony [Hall]
+Name = Mt.Harmony
+Bicycle = true
+MapPosition = 0,8,9
+BattleBack = Cave1
+#-------------------------------
 [174]   # Tranqour_Gymleader
 Name = Tranqour Village
 MapPosition = 0,6,11
@@ -873,3 +885,25 @@ BattleBack = Cave1
 [176]   # Plateau City (Daniel House)
 Name = Plateau City
 MapPosition = 0,25,7
+#-------------------------------
+[178]   # Mt.Harmony [Trial 1]
+Name = Mt.Harmony
+MapPosition = 0,8,9
+BattleBack = Cave1
+#-------------------------------
+[179]   # Mt.Harmony [1F]
+Name = Mt.Harmony
+Bicycle = true
+MapPosition = 0,8,9
+BattleBack = Cave1
+#-------------------------------
+[180]   # Mt.Harmony [2F]
+Name = Mt.Harmony
+Bicycle = true
+MapPosition = 0,8,9
+BattleBack = Cave1
+#-------------------------------
+[181]   # Mt.Harmony [Trial 2]
+Name = Mt.Harmony
+MapPosition = 0,8,9
+BattleBack = Cave1
