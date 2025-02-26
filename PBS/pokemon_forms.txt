@@ -372,8 +372,8 @@ Pokedex = This gorgeous Magearna looks as it did at the time of its invention. I
 [JUNVIL,1]
 FormName = Mega Junvil
 MegaStone = JUNVILITE
-Types = GRASS,NORMAL
-BaseStats = 105,160,120,85,70,90
+Types = GRASS,DARK
+BaseStats = 105,100,150,80,95,100
 BaseExp = 313
 Abilities = MOXIE
 HiddenAbilities = MOXIE
@@ -390,7 +390,7 @@ HiddenAbilities = MOLDBREAKER
 FormName = Mega Axolystic
 MegaStone = AXOLYSTICITE
 Types = WATER,ANGEL
-BaseStats = 108,78,120,80,100,140
+BaseStats = 108,88,160,50,70,160
 BaseExp = 315
 Abilities = NATURALCURE
 HiddenAbilities = NATURALCURE
@@ -399,7 +399,7 @@ HiddenAbilities = NATURALCURE
 FormName = Mega Flygon
 MegaStone = FLYGONITE
 Types = GHOST,GROUND
-BaseStats = 80,110,90,120,130,90
+BaseStats = 80,100,95,150,100,95
 BaseExp = 317
 Abilities = LEVITATE
 #
@@ -437,7 +437,6 @@ Abilities = SYNCHRONIZE,TRACE
 HiddenAbilities = MAGICGUARD
 Moves = 1,SCRATCH,1,LEER,4,CONFUSION,8,TELEPORT,12,CONFUSERAY,16,PSYBEAM,20,WISH,24,AMNESIA,28,CALMMIND,36,PSYCHIC,40,MOONBLAST,46,MOONLIGHT,50,DAZZLINGGLEAM,54,FUTURESIGHT
 TutorMoves = PROTECT,LIGHTSCREEN,REFLECT
-EggMoves = MENTALPRESSURE
 Evolutions = LUNARTSUNE,Item,MOONSTONE
 SpeciesSOS = KITSU,KITSU_1
 #-------------------------------

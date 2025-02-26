@@ -7146,6 +7146,18 @@ FunctionCode = RemoveScreens
 Flags = Contact,CanProtect,CanMirrorMove,Biting
 Description = The user bites the target using psychic capabilities. This can also destroy Light Screen and Reflect.
 #-------------------------------
+[MENTALPULSE]
+Name = Mental Pulse
+Type = PSYCHIC		
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user releases a mental wave towards the foe. Power depends on the user's Special Defense.
+#-------------------------------
 [EERIESPELL]
 Name = Eerie Spell
 Type = PSYCHIC
@@ -8970,18 +8982,6 @@ Target = NearOther
 FunctionCode = LowerTargetDefSpDef1SwitchOutUser
 Flags = CanProtect,CanMirrorMove,Sound
 Description = With a frightening roar, the user lowers the target's Defense and Sp. Def stats. Then it switches out.
-#-------------------------------
-[MENTALPRESSURE]
-Name = Mental Pressure
-Type = PSYCHIC		
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = None
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = The user attacks with it's mental power. The power depends on the foe Sp.Defense.
 #-------------------------------
 [SWORDOFJUSTICE]
 Name = Sword of Justice

@@ -908,13 +908,13 @@ Name = Mt.Harmony
 MapPosition = 0,8,9
 BattleBack = Cave1
 #-------------------------------
-[182]   # Mt.Harmony [3F]
+[182]   # Mt.Harmony [2F]
 Name = Mt.Harmony
 Bicycle = true
 BattleBack = Cave1
 #-------------------------------
 [183]   # Mt.Harmony [3F]
-Name = MT.Harmony
+Name = Mt.Harmony
 Bicycle = true
 BattleBack = Cave1
 #-------------------------------
@@ -923,3 +923,14 @@ Name = Mt.Harmony
 Outdoor = true
 BattleBack = Field
 Environment = Rock
+#-------------------------------
+[185]   # Mt.Harmony [3F]
+Name = Mt.Harmony
+Bicycle = true
+BattleBack = Cave1
+#-------------------------------
+[186]   # Mt.Harmony [Trial 3]
+Name = Mt.Harmony
+Outdoor = true
+BattleBack = Field
+Environment = Cave
