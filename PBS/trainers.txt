@@ -214,6 +214,17 @@ Pokemon = PSYLOTE,20
 Pokemon = VAPOREON,26
 Pokemon = FLAREON,26
 
+#Solo Battle
+#-------------------------------
+[LEADER_Gyan, Gyan]
+Items = SUPERPOTION,SUPERPOTION,MEGARING
+LoseText = Even with the power of mega evolution... not strong enought...
+Pokemon = MOMBER,23
+Pokemon = FLAREON,26
+Pokemon = KOMODRA,36
+	Item = KOMODRAITE
+
+
 #===========================================================================
 
 
