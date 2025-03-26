@@ -226,10 +226,42 @@ Pokemon = KOMODRA,36
 
 
 #===========================================================================
+#Special Battles
+#-------------------------------
+[ACETRAINER_M, Sr.Haruno]
+Items = FULLRESTORE,FULLRESTORE,MEGARING
+LoseText = I can see why you defeated the Champions Challange Tournament
+
+ Pokemon   = POLLUTLAS,65
+	Moves  = STEALTHROCK,EXPLOSION
+	Item   = FOCUSSASH
+
+ Pokemon    = DRAGONITE,65
+    Ability = MULTISCALE
+    Moves   = OUTRAGE,DRAGONDANCE,EXTREMESPEED,EARTHQUAKE
+	Item    = LUMBERRY
+
+ Pokemon    = JOLTUTER,65
+	Ability = BROKENSPEAKER
+	Moves   = THUNDERBOLT,VOLTSWITCH,FOCUSBLAST,TRICK
+	Item    = CHOICESCARF
+	
+ Pokemon    = TURTANK,65
+	Moves   = HYDROPUMP,ICEBEAM,FLASHCANNON,BODYPRESS
+ 	Item    = LEFTOVERS
+	
+  Pokemon   = KATAGAMI,65
+    Ability = SHARPNESS
+	Moves   = LEAFBLADE,SACREDSWORD,SWORDSDANCE,NIGHTSLASH
+	Item    = LIFEORB
+	
+ Pokemon    = KOMODRA,75
+    Ability = UNLEASH
+	Moves   = FLAMETHROWER,DRACOMETEOR,SLUDGEWAVE,SCORCHINGSANDS
+	Item    = KOMODRAITE
 
 
-
-
+#===========================================================================
 #Cities
 
 #Plateau Gym
@@ -346,29 +378,27 @@ Pokemon = MOMBER,18
 #-------------------------------
 [YOUNGSTER,Arthur]
 LoseText = Aww, I lost.
-Pokemon = DWILD,5
+Pokemon = DWILD,7
 #-------------------------------
 [LASS,Bianca]
 LoseText = Noo! My precious Pokémon!
-Pokemon = ORBEAF,5
-	Gender = female
+Pokemon = PURIRD,7
 #-------------------------------
 [HIKER,Scott]
 LoseText = My strategy wasn't rock solid!
-Pokemon = MOSLEEP,4
-Pokemon = MOSSELIN,5
+Pokemon = MOSLEEP,6
+Pokemon = MOSLEEP,6
 
 #Route 3
 #-------------------------------
 [RANCHER, Ethan]
 LoseText = That's how farm life works.
-Pokemon = MOMBER,6
-Pokemon = CHIKATE,7
+Pokemon = MOMBER,9
+
 #-------------------------------
 [COWGIRL, Hannah]
 LoseText = Yeehaw!
-Pokemon = DWILD,6
-Pokemon = CHIKATE,7
+Pokemon = CHIKATE,9
 
 #Route 4
 #-------------------------------
@@ -482,13 +512,11 @@ Pokemon = CHOPAXE,12
 #-------------------------------
 [BUGCATCHER, Satoshi]
 LoseText = No!
-Pokemon = TATURUG,4
-Pokemon = PUPENGUE,5
+Pokemon = TATURUG,7
 #-------------------------------
 [BUGCATCHER, Tajiri]
 LoseText = No way!
-Pokemon = LARVENGUE,4
-Pokemon = ELECOON,5	
+Pokemon = LARVENGUE,7
 
 #Route 14
 #-------------------------------
@@ -558,7 +586,7 @@ Pokemon = MOSSELIN,12
 [REAPER, Yian]
 LoseText = How this little kiddo beat me!
 Pokemon = BOUDYENA,12
-Pokemon = MEOWTUNO,10
+Pokemon = MEOWTUNO,12
 #-------------------------------
 [REAPER, Edgar]
 LoseText = It's time to bye-bye go! go!

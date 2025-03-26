@@ -62,11 +62,11 @@ SuperRod
 Land,20
     40,DWILD,3,5
     30,PURIRD,3,5
-    10,CAPYBURA,5
+    20,CAPYBURA,3,5
 LandNight,20
     40,CAPYBURA,5
     30,PURIRD,3,5
-    10,DWILD,3,5
+    20,DWILD,3,5
 Water
 	80,MAGIKARP,5
 OldRod
@@ -79,12 +79,12 @@ SuperRod
 [060] # Serenity Pond
 Land,20
     40,DWILD,3,5
-    30,PURIRD,3,5
-    10,CAPYBURA,5
+    40,PURIRD,3,5
+    20,CAPYBURA,3,6
 LandNight,20
-    40,CAPYBURA,5
-    30,PURIRD,3,5
-    10,DWILD,3,5
+    40,CAPYBURA,3,5
+    40,PURIRD,3,5
+    20,DWILD,3,6
 Water
 	80,MAGIKARP,5
 OldRod
@@ -96,13 +96,13 @@ SuperRod
 #-------------------------------
 [014] # Route 2
 Land,20
-    40,DWILD,3,5
-    30,PURIRD,3,5
-    5,MOSLEEP,5
+    40,DWILD,5,7
+    40,PURIRD,5,7
+    20,MOSLEEP,5,6
 LandNight,20
-	10,DWILD,3,5
-    30,PURIRD,3,5
-	40,MOSLEEP,5
+	20,DWILD,5,7
+    40,PURIRD,5,7
+	40,MOSLEEP,5,6
 Water
 	80,MAGIKARP,5
 OldRod
@@ -114,37 +114,32 @@ SuperRod
 #-------------------------------
 [018] # Route 3
 Land,20
-    40,PURIRD,5,6
-    30,MOMBER,5,6
-	20,CHIKATE,6
-    10,EEVEE,8
+    40,MOMBER,7,9
+	20,CHIKATE,8
+	20,FLAMUNNY,8
+    10,EEVEE,9
 LandNight,20
-    40,PURIRD,5,6
-    30,MOMBER,5,6
-	20,FLAMUNNY,6
-    10,EEVEE,8
+    40,MOMBER,7,9
+	20,FLAMUNNY,8
+    20,EEVEE,9
 #-------------------------------
 [039] # Route 4
 Land,20
-	40,PURIRD,6,8
-	30,DWILD,8
-    20,SPARKATIEL,6,8
-    10,FLORBIRB,9
+	10,PURIRD,9,11
+	10,DWILD,10
+    40,SPARKATIEL,9,11
+    20,FLORBIRB,11
 LandNight,20
-    40,PURIRD,6,8
-	30,CAPYBURA,8
-    20,SPARKATIEL,6,8
-    10,FLORBIRB,9
+	10,PURIRD,9,11
+	10,CAPYBURA	,10
+    40,SPARKATIEL,9,11
+    20,FLORBIRB,11
 #-------------------------------
 [040] # Route 5
 Land,20
-	40,KARANSHELL,7,9
-	30,MEDULLISH,7,8
-    10,TURTEED,8
-LandNight,20
-	30,KARANSHELL,7,9
-	40,MEDULLISH,7,9
-    10,TURTEED,8
+	40,KARANSHELL,11,13
+	30,MEDULLISH,12
+    10,TURTEED,13
 Water
 	80,MAGIKARP,5
 OldRod
@@ -159,27 +154,27 @@ SuperRod
 #-------------------------------
 [042] # Route 6
 Land,20
-	40,SQUT,9
-	30,CUBOLT,7,9
-	20,SPARKATIEL,6,8
-    10,FLORBIRB,9
+	40,SQUT,13,15
+	40,CUBOLT,13,15
+	20,SPARKATIEL,14
+    10,FLORBIRB,14
 LandNight,20
-	30,SQUT,9
-	40,CUBOLT,7,9
-	20,SPARKATIEL,6,8
-    10,FRUCTERA,9
+	40,SQUT,13,15
+	40,CUBOLT,13,15
+	20,SPARKATIEL,14
+    10,FLORBIRB,14
 #-------------------------------
 [052] # Route 7
 Land,20
-	40,DWILD,7,10
-    20,CUBOLT,9,10
-    30,SQUT,9,10
-	20,SPARKATIEL,6,8
+	10,DWILD,17,19
+    40,CUBOLT,17,19
+    20,SQUT,18
+	20,SPARKATIEL,18
 LandNight,20
-	40,CAPYBURA,7,10
-    30,CUBOLT,9,10
-    20,SQUT,9,10
-	20,SPARKATIEL,6,8
+	10,CAPYBURA,17,19
+    40,CUBOLT,17,19
+    20,SQUT,18
+	20,SPARKATIEL,18
 Water
 	80,MAGIKARP,5
 OldRod
@@ -359,10 +354,10 @@ LandNight,20
 #-------------------------------
 [020] # Viridis Forest
 Land,15
-    40,LARVENGUE,3,5
-    30,TATURUG,3,6
-	20,ORBEAF,5
-	5,SQUILAZE,5
+    40,LARVENGUE,5,7
+    40,TATURUG,5,7
+	20,ORBEAF,6
+	10,SQUILAZE,6
 Water
 	80,MAGIKARP,5
 OldRod
@@ -376,13 +371,13 @@ SuperRod
 #-------------------------------
 [041] # Mt.Hope
 Cave,7
-    40,UNOWN,6,8
-    4,SNAKRE,10
+    40,UNOWN,10
+    5,SNAKRE,11
 #-------------------------------
 [046] # Mt.Hope Route 5 Cave
 Cave,7
-    40,UNOWN,6,8
-    5,SNAKRE,9
+    40,UNOWN,10
+    5,SNAKRE,11
 Water
 	80,MAGIKARP,5
 OldRod
@@ -399,9 +394,9 @@ SuperRod
 #-------------------------------
 [044] # Lunar Cave
 Cave,7
-    40,FRUCTERA,7,10
-    30,MOSSELIN,7,10
-    10,DROMEDA,12
+    40,FRUCTERA,15,17
+    30,MOSSELIN,15,17
+    10,DROMEDA,16
 Water
 	80,MAGIKARP,5
 OldRod

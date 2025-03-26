@@ -934,3 +934,7 @@ Name = Mt.Harmony
 Outdoor = true
 BattleBack = Field
 Environment = Cave
+#-------------------------------
+[187]   # Giga. Condo_3
+Name = Gigantopolis
+MapPosition = 0,13,3
