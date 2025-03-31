@@ -1,24 +1,30 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 
+#===========================================================================
+# Rival Battles
+
 # First Rival Battle
 #-------------------------------
 [RIVAL1,Bruno,1] #Grass Starter
 LoseText = I might have lost that battle, but I learned somenthing with that battle!
-Pokemon = AXOLOBY,5
-    Gender = Male
-	Moves = TACKLE,TAILWHIP
+
+ Pokemon = AXOLOBY,5
+  Gender = Male
+   Moves = TACKLE,TAILWHIP
 #-------------------------------
 [RIVAL1,Bruno,2] #Fire Starter
 LoseText = I might have lost that battle, but I learned somenthing with that battle!
-Pokemon = GRALING,5
-	Gender = Male
-	Moves = TACKLE,LEER
+
+ Pokemon = GRALING,5
+  Gender = Male
+   Moves = TACKLE,LEER
 #-------------------------------
 [RIVAL1,Bruno,3] #Water Starter
 LoseText = I might have lost that battle, but I learned somenthing with that battle!
-Pokemon = EGDON,5
-	Gender = Male
-	Moves = SCRATCH,TAILWHIP
+
+ Pokemon = EGDON,5
+  Gender = Male
+   Moves = SCRATCH,TAILWHIP
 
 
 
@@ -26,26 +32,39 @@ Pokemon = EGDON,5
 #-------------------------------
 [RIVAL1,Bruno,4] #Grass Starter
 LoseText = Well, I lost.
-Pokemon = PURIRD,9
-Pokemon = FLAMUNNY,9
-	Gender = Male
-Pokemon = AXOLOBY,10
+
+ Pokemon = PURIRD,9
+  Gender = Male
+ 
+ Pokemon = FLAMUNNY,9
+  Gender = Male
+ 
+ Pokemon = AXOLOBY,11
 	Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,5] #Fire Starter
 LoseText = Well, I lost.
-Pokemon = PURIRD,9
-Pokemon = MAGIKARP,9
-Pokemon = GRALING,10
-	Gender = Male
+
+ Pokemon = PURIRD,9
+  Gender = Male
+ 
+ Pokemon = MAGIKARP,9
+  Gender = Female
+
+ Pokemon = GRALING,11
+  Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,6] #Water Starter
 LoseText = Well, I lost.
-Pokemon = PURIRD,9
-Pokemon = ORBEAF,9
-	Gender = Male
-Pokemon = EGDON,10
-	Gender = Male
+
+ Pokemon = PURIRD,9
+  Gender = Male
+
+ Pokemon = ORBEAF,9
+  Gender = Male
+
+ Pokemon = EGDON,11
+  Gender = Male
 
 
 
@@ -53,30 +72,47 @@ Pokemon = EGDON,10
 #-------------------------------
 [RIVAL1,Bruno,7] #Grass Starter
 LoseText = Hopefully the locals enjoyed this battle!
-Pokemon = YOUNROW,14
-Pokemon = FLAMUNNY,16
-Pokemon = KITSU,16
-	Gender = Male
-Pokemon = AXOLOBY,16
-Gender = Male
+
+ Pokemon = YOUNROW,20
+  Gender = Male
+
+ Pokemon = FLAMUNNY,20
+  Gender = Male
+
+ Pokemon = KITSU,20
+  Gender = Male
+
+ Pokemon = PSYLOTE,22
+  Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,8] #Fire Starter
 LoseText = Hopefully the locals enjoyed this battle!
-Pokemon = YOUNROW,14
-Pokemon = GYARADOS,20
-Pokemon = KITSU,16
-	Gender = Male
-Pokemon = GRALING,16
-Gender = Male
+ 
+ Pokemon = YOUNROW,20
+   Gender = Male
+ 
+ Pokemon = GYARADOS,20
+   Gender = Female
+ 
+ Pokemon = KITSU,20
+  Gender = Male
+
+ Pokemon = EVIRASS,22
+  Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,9] #Water Starter
 LoseText = Hopefully the locals enjoyed this battle!
-Pokemon = YOUNROW,14
-Pokemon = ORBEAF,16
+
+ Pokemon = YOUNROW,20
+   Gender = Male
+ 
+ Pokemon = ORBEAF,20
 	Gender = Male
-Pokemon = KITSU,16
+ 
+ Pokemon = KITSU,20
 	Gender = Male
-Pokemon = EGDON,16
+ 
+ Pokemon = DRAMODO,22
 	Gender = Male
 
 
@@ -84,33 +120,45 @@ Pokemon = EGDON,16
 # Fifth Gym -- Bruno Tags with player
 #-------------------------------
 [RIVAL1,Bruno,10] #Grass Starter
-Pokemon = YOUNROW,20
-Pokemon = FLAMUNNY,20
-Pokemon = KITSU,23
+ Pokemon = YOUNROW,27
+  Gender = Male
+  
+ Pokemon = FLAMUNNY,27
+  Gender = Male
+
+ Pokemon = KITSU,27
 	Gender = Male
-Pokemon = PSYLOTE,25
-Gender = Male
+
+ Pokemon = PSYLOTE,29
+  Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,11] #Fire Starter
-Pokemon = YOUNROW,20
-Pokemon = GYARADOS,20
-Pokemon = KITSU,23
+ Pokemon = YOUNROW,27
+ 
+ Pokemon = GYARADOS,27
+  Gender = Female
+ 
+ Pokemon = KITSU,27
 	Gender = Male
-Pokemon = EVIRASS,25
-Gender = Male
+
+ Pokemon = EVIRASS,29
+  Gender = Male
 #-------------------------------
 [RIVAL1,Bruno,12] #Water Starter
-Pokemon = YOUNROW,20
-Pokemon = ORBEAF,20
-	Gender = Male
-Pokemon = KITSU,23
-	Gender = Male
-Pokemon = DRAMODO,25
-	Gender = Male
+ Pokemon = YOUNROW,27
+  Gender = Male
+   
+ Pokemon = ORBEAF,27
+  Gender = Male
+ 
+ Pokemon = KITSU,27
+  Gender = Male
+
+ Pokemon = DRAMODO,29
+  Gender = Male
 
 
 #===========================================================================
-
 #Gyms
 
 #Plateau Gym
@@ -138,37 +186,6 @@ LoseText = Very impressive! You deserve the knowledge badge!
 
 
 
-#Gym Rematch
-#-------------------------------
-[LEADER_Daniel,Daniel,1]
-Items = SUPERPOTION,SUPERPOTION
-LoseText = Very good! Your skills have surely improved!
-Pokemon = MOSSENGE,25
-Pokemon = SIMISAGE,25
-Pokemon = ORIKEN,25
-Pokemon = EVIRASS,25
-#-------------------------------
-[LEADER_Daniel,Daniel,2]
-Items = HYPERPOTION,HYPERPOTION
-LoseText = Very good! Your skills have surely improved!
-Pokemon = MOSSENGE,30
-Pokemon = SIMISAGE,30
-Pokemon = IVYSAUR,30
-Pokemon = KATAGAMI,30
-Pokemon = JUNVIL,40
-#-------------------------------
-[LEADER_Daniel,Daniel,3]
-Items = HYPERPOTION,HYPERPOTION
-LoseText = Very good! Your skills have surely improved!
-Pokemon = MOSSOLEM,45
-Pokemon = SIMISAGE,45
-Pokemon = VENUSAUR,45
-Pokemon = KATAGAMI,45
-Pokemon = JUNVIL,55
-	Item = JUNVILITE
-
-
-
 #Marine City Gym
 
 #Abandoned Hotel 1F
@@ -187,10 +204,13 @@ Pokemon = CAPYBURA,15
 LoseText = The forces of evil weren't enought for you!
 Pokemon = BOUDYENA,14
 Pokemon = CAPYBURA,14
+
+#Abandoned Hotel 3F
 #-------------------------------
 [REAPERBOSS, Alcapone]
 LoseText = Huh...
 Items = SUPERPOTION
+ 
  Pokemon = BOUDYENA,17
    Moves = TACKLE,TAILWHIP
 
@@ -203,7 +223,7 @@ Items = SUPERPOTION
 #Nikolai Lab
 #-------------------------------
 [SCIENTIST,Teo]
-Items = XDEFENSE
+Items = XSPATK
 LoseText = Now I see why Nikolai invited you.
 Pokemon = TATURUG,23
 Pokemon = MOUSELECTRIC,23
@@ -213,7 +233,6 @@ LoseText = Oh boy, you are indeed shocking.
 Pokemon = SQUILAZE,24
 #-------------------------------
 [ENGINEER,Kusha]
-Items = XATTACK
 LoseText = Oh no! My math was wrong this whole time!
 Pokemon = CHOPAXE,23
 Pokemon = CHOPAXE,23
@@ -225,35 +244,27 @@ Pokemon = CHOPAXE,24
 [LEADER_Nikolai,Nikolai]
 Items = SUPERPOTION,SUPERPOTION
 LoseText = That was AMAZING!
-Pokemon = CUBOLT,26
-    Moves = THUNDERWAVE,VOLTSWITCH,NOBLEROAR
-Pokemon = CHOPAXE,26
-    Moves = SCRATCH
-Pokemon = CASEECH,28
-    Moves = THUNDERWAVE,VOLTSWITCH,MOUSEWHIP,METALSOUND
-	Item  = SITRUSBERRY
-	
-#Gym Rematch
-#-------------------------------
-[LEADER_Nikolai,Nikolai,1] #Second Rematch
-Items = HYPERPOTION
-LoseText = That was AMAZING!
-Pokemon = CUBOLT,25
-Pokemon = SQUILAZE,25
-Pokemon = CHOPAXE,30
-Pokemon = JOLTUTER,30
-	Item  = SITRUSBERRY
-#-------------------------------
-[LEADER_Nikolai,Nikolai,2] #Third Rematch
-Items = HYPERPOTION,HYPERPOTION
-LoseText = That was AMAZING!
-Pokemon = SQUILAZE,45
-Pokemon = AXESSAUR,45
-Pokemon = JOLTEON,50
-Pokemon = JOLTAH,55
-Pokemon = JOLTUTER,60
+
+ Pokemon = CUBOLT,26
+   Moves = THUNDERWAVE,VOLTSWITCH,THUNDERSHOCK,SCRATCH
+
+ Pokemon = CHOPAXE,26
+   Moves = SCRATCH
+
+ Pokemon = CASEECH,28
+   Moves = THUNDERWAVE,VOLTSWITCH,MOUSEWHIP,METALSOUND
+   Item  = SITRUSBERRY
 
 
+
+#Tranquour Village Gym
+
+#Room 1
+#-------------------------------
+[ACEDUOS, James & Jessie]
+LoseText = We are blasting off at the speed of light!
+Pokemon = TURTLOW,26
+Pokemon = FLAMUNNY,26
 
 #-------------------------------
 [LEADERS, Ying & Gyan]
@@ -276,6 +287,59 @@ Pokemon = KOMODRA,36
 
 
 #===========================================================================
+
+#Gym Rematch - Daniel
+#-------------------------------
+[LEADER_Daniel,Daniel,1]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = Very good! Your skills have surely improved!
+Pokemon = MOSSENGE,25
+Pokemon = SIMISAGE,25
+Pokemon = ORIKEN,25
+Pokemon = EVIRASS,25
+#-------------------------------
+[LEADER_Daniel,Daniel,2]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Very good! Your skills have surely improved!
+Pokemon = MOSSENGE,30
+Pokemon = SIMISAGE,30
+Pokemon = IVYSAUR,30
+Pokemon = KATAGAMI,30
+Pokemon = JUNVIL,40
+#-------------------------------
+[LEADER_Daniel,Daniel,3]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Very good! Your skills have surely improved!
+Pokemon = MOSSOLEM,55
+Pokemon = SIMISAGE,55
+Pokemon = VENUSAUR,55
+Pokemon = KATAGAMI,55
+Pokemon = JUNVIL,65
+	Item = JUNVILITE
+
+
+
+#Gym Rematch - Nikolai
+#-------------------------------
+[LEADER_Nikolai,Nikolai,1] #Second Rematch
+Items = HYPERPOTION
+LoseText = That was AMAZING!
+Pokemon = CUBOLT,25
+Pokemon = SQUILAZE,25
+Pokemon = CHOPAXE,30
+Pokemon = CASEECH,30
+	Item  = SITRUSBERRY
+#-------------------------------
+[LEADER_Nikolai,Nikolai,2] #Third Rematch
+Items = HYPERPOTION,HYPERPOTION
+LoseText = That was AMAZING!
+Pokemon = SQUILAZE,55
+Pokemon = AXESSAUR,55
+Pokemon = JOLTEON,55
+Pokemon = JOLTAH,55
+Pokemon = JOLTUTER,65
+
+
 #Special Battles
 #-------------------------------
 [ACETRAINER_M, Sr.Haruno]
@@ -331,6 +395,7 @@ LoseText = That was fishy...
 Pokemon = BOTOLPHIN,14
 Pokemon = PSYLOTE,16
 
+
 #Vituresa Town
 #-------------------------------
 [REAPER, Drake]
@@ -339,7 +404,6 @@ Pokemon = BOUDYENA,14
 Pokemon = VOODOLL,14
 Pokemon = YOUNROW,16
 
-
 #Jamsmil City
 
 #Nikolai Mansion
@@ -347,18 +411,11 @@ Pokemon = YOUNROW,16
 [RICHBOY,Melon]
 Items = FULLRESTORE
 LoseText = You are as strong as Nikolai!
-Pokemon = GAMBILLO,18
-Pokemon = GAMBILLO,18
+Pokemon = GAMBILLO,22
+Pokemon = GAMBILLO,22
 
-
-#Tranquor Village
-
-#Room 1
-#-------------------------------
-[ACEDUOS, James & Jessie]
-LoseText = We are blasting off at the speed of light!
-Pokemon = TURTLOW,18
-Pokemon = MOMBER,18
+#===========================================================================
+#Routes
 
 #Route 2
 #-------------------------------
@@ -434,10 +491,10 @@ Pokemon = FLAMUNNY,15
 [AROMALADY, Rafaela]
 LoseText = My sweet babies!
 
-Pokemon = ORBEAF,14
-	Gender = Female
+ Pokemon = ORBEAF,14
+  Gender = Female
 	
-Pokemon = ARKIDOE,14
+ Pokemon = ARKIDOE,14
 #-------------------------------
 [NURSE, Sharon]
 LoseText = Oh my, what an healthy Pokémon you have!
@@ -454,11 +511,38 @@ Pokemon = ORBEAF,17
 LoseText = Atleast I learn about the region!
 Pokemon = FRILLZARD,17
 
+
+#Route 8
+#-------------------------------
+[CHANNELER, Sight]
+LoseText = My foresight was all wrong about you!
+Pokemon = KITSU,23
+#-------------------------------
+[ACETRAINER_M, Might]
+LoseText = You weren't weak at all!
+Pokemon = CUBTURN,22
+Pokemon = YOUNROW,22
+#-------------------------------
+[CHANNELER, Sense]
+LoseText = My senses where all wrong!
+Pokemon = VOODOLL,22
+Pokemon = VOODOLL,22
+Pokemon = VOODOLL,22
+#-------------------------------
+[SHINYMANIAC, Gleam]
+LoseText = Your Pokémon blinded me with their shine!
+Pokemon = BOUDYENA,22
+  Shiny = Yes
+Pokemon = CUBTURN,22
+  Shiny = Yes
+Pokemon = VOODOLL,22
+  Shiny = Yes 
+
 #Route 10
 #-------------------------------
 [NURSE, Debora]
 LoseText = Your Pokémon are very healthy!
-Pokemon = HACHEART,21
+Pokemon = ANGDEP,21
 
 
 #Route 11

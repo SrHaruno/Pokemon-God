@@ -85,11 +85,23 @@ Gender = Male
 BaseMoney = 32
 IntroBGM = Trainer Eyes Meet! Youngster
 #-------------------------------
+[COWGIRL]
+Name = Cowgirl
+Gender = Female
+BaseMoney = 16
+IntroBGM = Trainer Eyes Meet! Hiker
+#-------------------------------
 [DRAGONTAMER]
 Name = Dragon Tamer
 Gender = Male
 BaseMoney = 32
 IntroBGM = Trainer Eyes Meet! Youngster
+#-------------------------------
+[FIREBREATHER]
+Name = Firebreather
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Hiker
 #-------------------------------
 [BIRDKEEPER]
 Name = Bird Keeper
@@ -155,7 +167,7 @@ IntroBGM = Trainer Eyes Meet! Lass
 [NURSE]
 Name = Nurse
 Gender = Female
-BaseMoney = 32
+BaseMoney = 40
 IntroBGM = Trainer Eyes Meet! Lass
 #-------------------------------
 [PAINTER]
@@ -203,7 +215,25 @@ IntroBGM = Trainer Eyes Meet! Hiker
 [SCIENTIST]
 Name = Scientist
 Gender = Male
-BaseMoney = 48
+BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Hex_Maniac
+#-------------------------------
+[SCHOOLKID_M]
+Name = School Kid
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Youngster
+#-------------------------------
+[SCHOOLKID_F]
+Name = School Kid
+Gender = Female
+BaseMoney = 32
+IntroBGM = Trainer Eyes Meet! Lass
+#-------------------------------
+[SHINYMANIAC]
+Name = Shiny Maniac
+Gender = Male
+BaseMoney = 32
 IntroBGM = Trainer Eyes Meet! Hex_Maniac
 #-------------------------------
 [SUPERNERD]
@@ -251,8 +281,7 @@ IntroBGM = Trainer Eyes Meet! Psychic
 [ACEDUOS]
 Name = Ace Duos
 Gender = Unknown
-BaseMoney = 72
-SkillLevel = 48
+BaseMoney = 60
 IntroBGM = Trainer Eyes Meet! Psychic
 #-------------------------------
 [YOUNGSTER]
@@ -295,14 +324,12 @@ IntroBGM = Trainer Eyes Meet! Psychic
 Name = Swimmer
 Gender = Male
 BaseMoney = 16
-SkillLevel = 32
 IntroBGM = Trainer Eyes Meet! Swimmer_F
 #-------------------------------
 [SWIMMER_F]
 Name = Swimmer
 Gender = Female
 BaseMoney = 16
-SkillLevel = 32
 IntroBGM = Trainer Eyes Meet! Swimmer_F
 #-------------------------------
 [TUBER_M]
@@ -329,32 +356,8 @@ IntroBGM = Trainer Eyes Meet! Swimmer_F
 [RANCHER]
 Name = Rancher
 Gender = Male
-BaseMoney = 16
+BaseMoney = 40
 IntroBGM = Trainer Eyes Meet! Hiker
-#-------------------------------
-[COWGIRL]
-Name = Cowgirl
-Gender = Female
-BaseMoney = 16
-IntroBGM = Trainer Eyes Meet! Hiker
-#-------------------------------
-[SCHOOLKID_M]
-Name = School Kid
-Gender = Male
-BaseMoney = 16
-IntroBGM = Trainer Eyes Meet! Youngster
-#-------------------------------
-[SCHOOLKID_F]
-Name = School Kid
-Gender = Female
-BaseMoney = 16
-IntroBGM = Trainer Eyes Meet! Lass
-#-------------------------------
-[SHINYMANIAC]
-Name = Shiny Maniac
-Gender = Male
-BaseMoney = 32
-IntroBGM = Trainer Eyes Meet! Hex_Maniac
 #-------------------------------
 [REAPER]
 Name = Reaper

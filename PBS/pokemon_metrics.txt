@@ -6278,9 +6278,9 @@ ShadowSize = 2
 #-------------------------------
 [BALMPOSTOR]
 BackSprite = 0,0
-FrontSprite = 0,0
+FrontSprite = 0,28
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [GYARADOS,1]
 BackSprite = 2,0

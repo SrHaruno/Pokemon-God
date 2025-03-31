@@ -188,18 +188,21 @@ SuperRod
 Land,15
 	40,BOUDYENA,21,23
 	20,CUBTURN,21,23
-	20,KITSU,21,23
-	10,VOODOLL,22
+	30,KITSU,23
+	10,YOUNROW,22
+	10,VOODOLL,22,23
 LandNight,15
 	20,BOUDYENA,21,23
 	40,CUBTURN,21,23
-	30,KITSU,21,23
+	30,KITSU,23
+	10,YOUNROW,22
 	10,VOODOLL,22
 #-------------------------------
 [076] # Route 9
 Land,20
-    30,ARKIDOE,19,21
-    5,PINATAYA,20
+    40,ARKIDOE,19,21
+	10,PEACIRD,20
+    10,PINATAYA,20,21
 #-------------------------------
 [079] # Route 10
 Water
@@ -213,14 +216,14 @@ SuperRod
 #-------------------------------
 [81] # Route 11
 Land,20
-    30,ARKIDOE,19,21
-    5,PINATAYA,20
+    40,ARKIDOE,19,21
+    10,PINATAYA,20
 #-------------------------------
 [133] # Route 12
 Land,20
-    30,CHOPAXE,22,24
-	20,SQUT,22,24
-	10,ANGDEP,23
+    30,CHOPAXE,23,25
+	20,SQUT,23,25
+	10,ANGDEP,24
 #-------------------------------
 [129] # Route 13
 Land,20
@@ -256,24 +259,24 @@ SuperRod
 #-------------------------------
 [162] # Route 16
 Land,20
-    40,CAIBORA,25
+    40,CAIBORA,25,27
 LandNight,20
-    20,CAIBORA,25
+    20,CAIBORA,25,27
 #-------------------------------
 [163] # Route 17
 Land,20
-    20,CAIBORA,27
+    20,CAIBORA,27,29
 LandNight,20
-    20,CAIBORA,27
+    20,CAIBORA,27,29
 Water
-	40,ZOSTEELA,24,26
-	20,MAGIKARP,25
-	10,BOTOLPHIN,25
+	40,ZOSTEELA,27,29
+	20,MAGIKARP,26
+	10,BOTOLPHIN,26
 OldRod
-    60,ZOSTEELA,24,26
+    60,ZOSTEELA,27,29
 GoodRod
-    60,ZOSTEELA,24,26
-	30,BOTOLPHIN,25
+    60,ZOSTEELA,27,29
+	30,BOTOLPHIN,26
 SuperRod
     20,BOEELNA,30,33	
 #-------------------------------
@@ -292,14 +295,14 @@ SuperRod
 #-------------------------------
 [138] # Route 19
 Water
-	40,ZOSTEELA,12,15
-	20,MAGIKARP,13,16
-	10,BOTOLPHIN,15
+	40,ZOSTEELA,31,33
+	20,MAGIKARP,29,31
+	10,BOTOLPHIN,30
 OldRod
-    60,ZOSTEELA,10,12
+    60,ZOSTEELA,24,26
 GoodRod
-    60,ZOSTEELA,10,12
-	30,BOTOLPHIN,15
+    60,ZOSTEELA,24,26
+	30,BOTOLPHIN,25
 SuperRod
     20,BOEELNA,30,33	
 #-------------------------------
@@ -307,11 +310,11 @@ SuperRod
 Land,20
     40,DWILD,24,26
 	30,PURIRD,24,26
-	10,EEVEE,25,26
+	10,EEVEE,26
 LandNight,20
     40,CAPYBURA,24,26
-	30,PURIRD,21,23
-	10,EEVEE,25,26
+	30,PURIRD,24,26
+	10,EEVEE,26
 Water
 	80,MAGIKARP,5
 OldRod
@@ -323,13 +326,13 @@ SuperRod
 #-------------------------------
 [142] # Route 23
 Land,20
-    40,DWILD,24,26
-	30,PURIRD,24,26
-	10,EEVEE,25,26
+    40,DWILD,25,27
+	30,PURIRD,25,27
+	10,EEVEE,26
 LandNight,20
-    40,CAPYBURA,24,26
-	30,PURIRD,21,23
-	10,EEVEE,25,26
+    40,CAPYBURA,25,27
+	30,PURIRD,25,27
+	10,EEVEE,26
 
 
 
@@ -377,9 +380,9 @@ SuperRod
 #-------------------------------
 [044] # Lunar Cave
 Cave,7
-    40,FRUCTERA,15,17
-    30,MOSSELIN,15,17
-    10,DROMEDA,16
+    30,FRUCTERA,15,17
+    50,MOSSELIN,15,17
+    20,DROMEDA,16
 Water
 	80,MAGIKARP,5
 OldRod
@@ -393,8 +396,8 @@ SuperRod
 #-------------------------------
 [023] # Mt.Solar #Route 2 Side
 Cave,7
-	40,FRUCTERA,5
-	30,MOSSELIN,2,5
+	30,FRUCTERA,3,5
+	50,MOSSELIN,3,5
 Water
 	80,MAGIKARP,5
 OldRod
@@ -406,8 +409,8 @@ SuperRod
 #-------------------------------
 [103] # Mt.Solar #Route 4 Side
 Cave,7
-	40,FRUCTERA,6,9
-    30,MOSSELIN,7,9
+	30,FRUCTERA,9,11
+    50,MOSSELIN,9,11
 Water
 	80,MAGIKARP,5
 OldRod
@@ -419,8 +422,8 @@ SuperRod
 #-------------------------------
 [059] # Mt.Solar #Haunted Desert Entrance
 Cave,7
-	40,FRUCTERA,9,10
-	30,MOSSELIN,9,10
+	30,FRUCTERA,19,21
+	50,MOSSELIN,19,21
 Water
 	80,MAGIKARP,5
 OldRod
@@ -443,22 +446,22 @@ LandNight,20
 #-------------------------------
 [069] # Forgotten Chamber
 Cave,7
-    40,FRUCTERA,19,21
-    40,MOSSELIN,19,21
+    30,FRUCTERA,19,21
+    50,MOSSELIN,19,21
 	
 	
 #-------------------------------
 [104] # Klepto Cave
 Cave,7
-    40,FRUCTERA,12,15
-	40,MOSSELIN,9,10
-	20,MEOWTUNO,15
+    30,FRUCTERA,21,23
+	50,MOSSELIN,21,23
+	20,MEOWTUNO,22,23
 #-------------------------------
 [105] # Klepto Cave B1F
 Cave,7
-    40,FRUCTERA,9,10
-	20,MOSSELIN,9,10
-	20,MEOWTUNO,15
+    20,FRUCTERA,21,23
+	40,MOSSELIN,21,23
+	25,MEOWTUNO,22,23
 Water
 	80,MAGIKARP,5
 OldRod
@@ -471,8 +474,8 @@ SuperRod
 #-------------------------------
 [107] # Gigantopolis Sewer
 Cave,7
-	20,DITTO,12,15
-	5,DRABY,15
+	30,DITTO,21,23
+	10,DRABY,22
 Water
 	80,MAGIKARP,10
 OldRod
@@ -488,32 +491,37 @@ SuperRod
 #-------------------------------
 [121] # Entrance
 Cave,7
-    40,FRUCTERA,12,15
+    30,FRUCTERA,29,31
+	50,MOSSENGE,30
 #-------------------------------
 [173] # Hall
 Cave,7
-    40,FRUCTERA,12,15
+    30,FRUCTERA,29,31
+	50,MOSSENGE,30
 #-------------------------------
 [179] # 1F
 Cave,7
-    40,FRUCTERA,12,15
+    30,FRUCTERA,29,31
+	50,MOSSENGE,30
 
 #2F
 #-------------------------------
 [180] # 2F
 Cave,7
-    40,FRUCTERA,12,15
+    30,FRUCTERA,29,31
+	50,MOSSENGE,30
 #-------------------------------
 [182] # 2F
 Cave,7
-    40,FRUCTERA,12,15
-
+    30,FRUCTERA,29,31
+	50,MOSSENGE,30
 
 #3F
 #-------------------------------
 [183] # 3F
 Cave,7
-    40,FRUCTERA,12,15
+    30,FRUCTERA,29,31
+	50,MOSSENGE,30
 
 
 
@@ -523,24 +531,24 @@ Cave,7
 #-------------------------------
 [145] # Plain Area
 Land,20
-    40,PIDGEY,10,14
-    30,SHINX,12,14
-    20,BLITZLE,12,15
-    5,GIRAFARIG,15
+    40,PIDGEY,27,29
+    30,SHINX,27,29
+    20,BLITZLE,28
+    10,GIRAFARIG,28
 #-------------------------------
 [146] # Forest Area
 Land,20
-    40,SEWADDLE,10,15
-	30,VENIPEDE,12,14
-	20,SHROOMISH,9,15
-	5,BUDEW,15
+    40,SEWADDLE,27,29
+	30,VENIPEDE,27,29
+	20,SHROOMISH,28
+	10,BUDEW,28,29
 #-------------------------------
 [147] # Beach Area
 Land,20
-    40,WINGULL,10,14
-	30,MARILL,12,15
-	20,SHELLOS,12,14
-	5,CHEWTLE,15
+    40,WINGULL,27,29
+	30,MARILL,27,29
+	20,SHELLOS,28
+	10,CHEWTLE,28
 Water
 	80,MAGIKARP,5
 OldRod
@@ -554,15 +562,15 @@ SuperRod
 #-------------------------------
 [148] # Mountain Area
 Land,20
-    40,ROGGENROLA,10,14
-	30,STARLY,10,13
-	20,RALTS,10,15
-	5,BAGON,15
+    40,ROGGENROLA,27,29
+	30,STARLY,27,29
+	20,RALTS,28,29
+	10,BAGON,28
 #-------------------------------
 [149] # Cave Area
 Cave,7
-    40,ZUBAT,11,14
-    30,ROGGENROLA,10,14
-	20,WOOPER,12,14
-	5,BUIZEL,15
+    40,ZUBAT,27,29
+    30,ROGGENROLA,27,29
+	20,WOOPER,28
+	20,BUIZEL,28
 	
