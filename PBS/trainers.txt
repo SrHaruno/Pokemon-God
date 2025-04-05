@@ -265,6 +265,28 @@ LoseText = That was AMAZING!
 LoseText = We are blasting off at the speed of light!
 Pokemon = TURTLOW,26
 Pokemon = FLAMUNNY,26
+#-------------------------------
+[FIREBREATHER, Rick]
+LoseText = We are blasting off at the speed of light!
+Pokemon = MOMBER,26
+Pokemon = MOMBER,26
+Pokemon = MOMBER,26
+Pokemon = MOMBER,26
+
+#Room 2
+#-------------------------------
+[ACEDUOS, Gabriel & Ashley]
+LoseText = We are blasting off at the speed of light!
+Pokemon = BOTOLPHIN,26
+Pokemon = MOMBER,26
+#-------------------------------
+[SAILOR, Anchor]
+LoseText = We are blasting off at the speed of light!
+Pokemon = ZOSTEELA,26
+Pokemon = ZOSTEELA,26
+Pokemon = ZOSTEELA,26
+Pokemon = ZOSTEELA,26
+
 
 #-------------------------------
 [LEADERS, Ying & Gyan]
@@ -411,11 +433,24 @@ Pokemon = YOUNROW,16
 [RICHBOY,Melon]
 Items = FULLRESTORE
 LoseText = You are as strong as Nikolai!
-Pokemon = GAMBILLO,22
-Pokemon = GAMBILLO,22
+Pokemon = GAMBILLO,21
+Pokemon = GAMBILLO,21
 
 #===========================================================================
 #Routes
+
+
+#Route 1 - Serenity Pond
+#-------------------------------
+[ACETRAINER_M,Max]
+LoseText = I need to reavaluate my team!
+Pokemon = HOGGO,30
+Pokemon = DEMYVARA,30
+#-------------------------------
+[FISHERMAN,Hook]
+LoseText = I've been splashed away!
+Pokemon = GYARADOS,31
+
 
 #Route 2
 #-------------------------------
@@ -614,31 +649,38 @@ Pokemon = CAPYBURA,17
 #-------------------------------
 [REAPER, Yian]
 LoseText = How this little kiddo beat me!
-Pokemon = BOUDYENA,20
-Pokemon = MEOWTUNO,20
+Pokemon = BOUDYENA,22
+Pokemon = MEOWTUNO,22
 #-------------------------------
 [REAPER, Edgar]
 LoseText = It's time to bye-bye go! go!
-Pokemon = MEOWTUNO,21
+Pokemon = MEOWTUNO,23
 #-------------------------------
 [REAPER, Tulio]
 LoseText = Great, beated by a kid.
-Pokemon = CAPYBURA,21
-Pokemon = CUBTURN,21
+Pokemon = CAPYBURA,22
+Pokemon = CUBTURN,22
 #-------------------------------
 [REAPER, Silva]
 LoseText = Retreat! Retreat!
-Pokemon = MEOWTUNO,21
+Pokemon = MEOWTUNO,23
 #-------------------------------
 [REAPER, Ryden]
 LoseText = Standing here I realised that I lost!
-Pokemon = MEOWTUNO,21
+Pokemon = MEOWTUNO,23
 #-------------------------------
 [REAPER, Drake,1]
 LoseText = I was gonna make a fortune!
-Pokemon = BOUDYENA,20
-Pokemon = VOODOLL,20
-Pokemon = YOUNROW,20
+Pokemon = BOUDYENA,22
+Pokemon = VOODOLL,22
+Pokemon = YOUNROW,22
+
+#Lunar Cave
+#-------------------------------
+[SCIENTIST, Everton]
+LoseText = My research!
+Pokemon = DRABY,23
+
 
 #S.S Atlantic.
 #-------------------------------
