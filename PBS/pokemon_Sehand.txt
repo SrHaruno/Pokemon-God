@@ -2266,70 +2266,6 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 #-------------------------------
-[MOUSELECTRIC]
-Name = Mouselectric
-Types = ELECTRIC
-BaseStats = 40,50,30,100,50,30
-GenderRatio = Genderless
-GrowthRate = Parabolic
-BaseExp = 50
-EVs = SPEED,1
-CatchRate = 45
-Happiness = 50
-Abilities = INFILTRATOR,STATIC
-Moves = 1,TACKLE,1,TAILWHIP
-TutorMoves = PROTECT,THUNDERWAVE
-EggGroups = Mineral
-HatchSteps = 5120
-Height = 0.7
-Weight = 6.9
-Color = Gray
-Shape = Head
-Category = Mouse
-Pokedex = Mouselectric disguises them selfs as computer mouses, once installed into a computer, they will drain the energy from it.
-Evolutions = CASEECH,Level,28
-#-------------------------------
-[CASEECH]
-Name = Caseech
-Types = ELECTRIC
-BaseStats = 60,90,100,40,95,100
-GenderRatio = Genderless
-GrowthRate = Parabolic
-BaseExp = 50
-EVs = DEFENSE,1,SPECIAL_DEFENSE,1
-CatchRate = 45
-Happiness = 50
-Abilities = LEVITATE,STATIC
-Moves = 0,ELECTRODRAIN,1,TACKLE,1,THUNDERSHOCK
-TutorMoves = PROTECT,THUNDERWAVE
-EggGroups = Mineral
-Height = 0.7
-Weight = 6.9
-Color = Gray
-Shape = Head
-Category = Computer Case
-Evolutions = JOLTUTER,Level,38
-#-------------------------------
-[JOLTUTER]
-Name = Joltuter
-Types = ELECTRIC
-BaseStats = 50,130,40,110,120,40
-GenderRatio = Genderless
-GrowthRate = Parabolic
-BaseExp = 50
-EVs = SPEED,3
-CatchRate = 45
-Happiness = 50
-Abilities = BROKENSPEAKER,BAREWIRE
-Moves = 0,MOUSEWHIP,1,SELFDESTRUCT,1,THUNDERSHOCK
-TutorMoves = PROTECT,THUNDERWAVE
-EggGroups = Mineral
-Height = 0.7
-Weight = 6.9
-Color = Gray
-Shape = HeadLegs
-Category = Computer
-#-------------------------------
 [DRABY]
 Name = Draby
 Types = POISON
@@ -2400,7 +2336,69 @@ Weight = 6.9
 Color = Green
 Shape = Quadruped
 Category = Lizard
-
+#-------------------------------
+[RAJOLT]
+Name = Rajolt
+Types = ELECTRIC
+BaseStats = 30,30,30,140,30,30
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 50
+EVs = SPEED,1
+CatchRate = 45
+Happiness = 50
+Abilities = INFILTRATOR,STATIC
+Moves = 1,TACKLE,1,TAILWHIP,1,THUNDERWAVE
+EggGroups = Mineral
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Head
+Category = Mouse
+Pokedex = RAJOLT disguises them selfs as computer mouses, once installed into a computer, they will drain the energy from it.
+Evolutions = CASEECH,Level,29
+#-------------------------------
+[CASEECH]
+Name = Caseech
+Types = ELECTRIC
+BaseStats = 60,90,100,40,95,100
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 50
+EVs = DEFENSE,1,SPECIAL_DEFENSE,1
+CatchRate = 45
+Happiness = 50
+Abilities = LEVITATE,STATIC
+Moves = 0,ELECTRODRAIN,1,TACKLE,1,THUNDERSHOCK
+TutorMoves = PROTECT,THUNDERWAVE
+EggGroups = Mineral
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = Head
+Category = Computer Case
+Evolutions = JOLTUTER,Item,THUNDERSTONE
+#-------------------------------
+[JOLTUTER]
+Name = Joltuter
+Types = ELECTRIC
+BaseStats = 50,130,40,110,120,40
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 50
+EVs = SPEED,3
+CatchRate = 45
+Happiness = 50
+Abilities = BROKENSPEAKER,BAREWIRE
+Moves = 0,MOUSEWHIP,1,SELFDESTRUCT,1,THUNDERSHOCK
+TutorMoves = PROTECT,THUNDERWAVE
+EggGroups = Mineral
+Height = 0.7
+Weight = 6.9
+Color = Gray
+Shape = HeadLegs
+Category = Computer
 
 
 #-------------------------------

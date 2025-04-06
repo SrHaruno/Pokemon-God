@@ -547,7 +547,7 @@ MapPosition = 0,12,16
 BattleBack = Cave1
 MapSize = 2,1111
 #-------------------------------
-[107]   # Gigantopolis Sewers
+[107]   # Gigantopolis Sewers [1F]
 Name = Gigantopolis Sewers
 Bicycle = true
 MapPosition = 0,12,3
@@ -936,5 +936,21 @@ BattleBack = Field
 Environment = Cave
 #-------------------------------
 [187]   # Giga. Condo_3
+Name = Gigantopolis
+MapPosition = 0,13,3
+#-------------------------------
+[191]   # Sus bulding [1F]
+Name = Gigantopolis
+MapPosition = 0,13,3
+#-------------------------------
+[192]   # Sus bulding [2F]
+Name = Gigantopolis
+MapPosition = 0,13,3
+#-------------------------------
+[193]   # Sus Bulding [3F]
+Name = Gigantopolis
+MapPosition = 0,13,3
+#-------------------------------
+[194]   # Sus Bulding [4F]
 Name = Gigantopolis
 MapPosition = 0,13,3

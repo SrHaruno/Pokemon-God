@@ -226,7 +226,7 @@ Items = SUPERPOTION
 Items = XSPATK
 LoseText = Now I see why Nikolai invited you.
 Pokemon = TATURUG,23
-Pokemon = MOUSELECTRIC,23
+Pokemon = RAJOLT,23
 #-------------------------------
 [ENGINEER,Jeff]
 LoseText = Oh boy, you are indeed shocking.
@@ -435,6 +435,51 @@ Items = FULLRESTORE
 LoseText = You are as strong as Nikolai!
 Pokemon = GAMBILLO,21
 Pokemon = GAMBILLO,21
+
+
+#Gigantopolis
+
+#Sus Bulding
+
+2F
+#-------------------------------
+[SCIENTIST,Brendan]
+Items = XSPATK
+LoseText = Nooooooo! My plans have been fooled!
+Pokemon = RAJOLT,31
+
+#3F
+#-------------------------------
+[SCIENTIST,Steven]
+Items = XSPATK
+LoseText = Nooooooo! My plans have been fooled!
+Pokemon = RAJOLT,30
+Pokemon = RAJOLT,30
+#-------------------------------
+[SCIENTIST,Robert]
+Items = XSPATK
+LoseText = Nooooooo! My plans have been fooled!
+Pokemon = RAJOLT,30
+#-------------------------------
+[SCIENTIST,Rudolf]
+Items = XSPATK
+LoseText = Nooooooo! My plans have been fooled!
+Pokemon = RAJOLT,30
+
+#4F
+#-------------------------------
+[SCIENTIST,Stephan]
+Items = XSPATK
+LoseText = Nooooooo! My plans have been fooled!
+Pokemon = RAJOLT,31
+#-------------------------------
+[SCIENTIST,Mikali]
+Items = XSPATK
+LoseText = Nooooooo! My plans have been fooled!
+Pokemon = RAJOLT,30
+Pokemon = CASEECH,30
+Pokemon = JOLTUTER,30
+
 
 #===========================================================================
 #Routes
