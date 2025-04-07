@@ -2355,9 +2355,9 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Head
-Category = Mouse
+Category = Leecher
 Pokedex = RAJOLT disguises them selfs as computer mouses, once installed into a computer, they will drain the energy from it.
-Evolutions = CASEECH,Level,29
+Evolutions = CASEECH,Level,39
 #-------------------------------
 [CASEECH]
 Name = Caseech
@@ -2377,8 +2377,8 @@ Height = 0.7
 Weight = 6.9
 Color = Gray
 Shape = Head
-Category = Computer Case
-Evolutions = JOLTUTER,Item,THUNDERSTONE
+Category = Leecher
+Evolutions = JOLTUTER,Item,UPGRADE
 #-------------------------------
 [JOLTUTER]
 Name = Joltuter

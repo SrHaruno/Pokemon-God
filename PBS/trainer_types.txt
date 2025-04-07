@@ -21,6 +21,12 @@ Name = Friend
 Gender = Male
 BaseMoney = 36
 BattleBGM = Battle! Vs Rival
+#-------------------------------
+[RIVAL3]
+Name = ???
+Gender = Male
+BaseMoney = 36
+BattleBGM = Battle! Vs Rival
 
 #Gym Leaders
 #-------------------------------

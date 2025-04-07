@@ -159,6 +159,25 @@ LoseText = Hopefully the locals enjoyed this battle!
 
 
 #===========================================================================
+# Peon Battles
+
+# First Peon Battle
+#-------------------------------
+[RIVAL3,Peon]
+LoseText = Hmph...
+
+ Pokemon = YOUNROW,33
+  Gender = Male
+  Moves  = AIRCUTTER,FOULPLAY,FEATHERDANCE,ROOST
+   
+ Pokemon = VOOTED,33
+  Gender = Male
+
+ Pokemon = PUPITAR,35
+  Gender = Male
+   Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
+
+#===========================================================================
 #Gyms
 
 #Plateau Gym
