@@ -26,7 +26,7 @@ BattleBGM = Battle! Vs Rival
 Name = ???
 Gender = Male
 BaseMoney = 36
-BattleBGM = Battle! Vs Rival
+BattleBGM = Battle! Vs Peon
 
 #Gym Leaders
 #-------------------------------
@@ -69,7 +69,14 @@ BaseMoney = 100
 SkillLevel = 100
 BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Victory! Gym Leader
-
+#-------------------------------
+[LEADER_Sparrow]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+SkillLevel = 100
+BattleBGM = Battle! Vs Gym Leader
+VictoryBGM = Victory! Gym Leader
 
 
 #-------------------------------

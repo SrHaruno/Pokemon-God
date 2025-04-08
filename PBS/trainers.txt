@@ -327,6 +327,17 @@ Pokemon = KOMODRA,36
 	Item = KOMODRAITE
 
 
+#Ghost Town Gym
+
+#-------------------------------
+[LEADER_Sparrow,Sparrow]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Mwuahahaha! You know how to traverse! in battle!
+
+ Pokemon = VOOLEASE,35
+   Moves = SHADOWBALL,FEARSOMESLASH
+
+
 #===========================================================================
 
 #Gym Rematch - Daniel
