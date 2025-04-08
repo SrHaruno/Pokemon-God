@@ -294,6 +294,10 @@ SuperRod
     20,BOEELNA,30,33	
 #-------------------------------
 [138] # Route 19
+Land,20
+	40,CAIBORA,31,33
+LandNight,20
+	40,CAIBORA,31,33
 Water
 	40,ZOSTEELA,31,33
 	20,MAGIKARP,29,31
