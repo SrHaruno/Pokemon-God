@@ -28,5 +28,7 @@
 152,South,0,148,North,7
 # Route 17 (163) - Route 16 (162)
 163,West,61,162,East,0
-# Route 19 (138) - Route 18 (61)
-138,South,57,61,North,0
+# Route 18 (61) - Route 19 (138)
+61,North,0,138,South,57
+# Sea Heart (195) - Route 19 (138)
+195,East,0,138,West,8
