@@ -1881,6 +1881,25 @@ SellPrice = 500
 Flags = Fling_90
 Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fairy-type moves.
 #-------------------------------
+[CHAOSPLATE]
+Name = Chaos Plate
+NamePlural = Chaos Plates
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Demon-type moves.
+#-------------------------------
+[HARMONYPLATE]
+Name = Harmony Plate
+NamePlural = Harmony Plates
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Angel-type moves.
+
+#-------------------------------
 [FIREGEM]
 Name = Fire Gem
 NamePlural = Fire Gems

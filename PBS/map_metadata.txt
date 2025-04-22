@@ -954,3 +954,16 @@ MapPosition = 0,13,3
 [194]   # Sus Bulding [4F]
 Name = Gigantopolis
 MapPosition = 0,13,3
+#-------------------------------
+[195]   # Sea Heart
+Name = Route 19
+Outdoor = true
+MapPosition = 0,2,8
+#-------------------------------
+[196]   # Sea Heart [1F]
+Name = Sea Heart
+MapPosition = 0,2,8
+#-------------------------------
+[197]   # Sea Heart [B1F]
+Name = Sea Heart
+MapPosition = 0,2,8

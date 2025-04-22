@@ -165,6 +165,14 @@ FormName = Fairy Type
 Types = FAIRY
 Generation = 6
 #-------------------------------
+[ARCEUS,19]
+FormName = Demon Type
+Types = DEMON
+#-------------------------------
+[ARCEUS,20]
+FormName = Angel Type
+Types = ANGEL
+#-------------------------------
 [TORNADUS,1]
 FormName = Therian Forme
 BaseStats = 79,100,80,121,110,90
