@@ -2266,6 +2266,55 @@ Weight = 6.9
 Color = Gray
 Shape = Bipedal
 #-------------------------------
+[FISHICTIM]
+Name = Fishictim
+Types = WATER
+BaseStats = 40,40,40,40,40,40
+GenderRatio = Female50Percent
+GrowthRate = Erratic
+BaseExp = 40
+EVs = SPEED,1
+CatchRate = 255
+Happiness = 50
+Abilities = SWIFTSWIM
+HiddenAbilities = ADAPTABILITY
+Moves = 1,SPLASH,15,TACKLE
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = POISONTAIL
+EggGroups = Water1
+HatchSteps = 5120
+Height = 0.6
+Weight = 7.4
+Color = Gray
+Shape = Finned
+Habitat = WatersEdge
+Category = Fish
+CallRateSOS = 9
+#-------------------------------
+[MUTAFISH]
+Name = Mutafish
+Types = WATER,POISON
+BaseStats = 40,40,40,40,40,40
+GenderRatio = Female50Percent
+GrowthRate = Erratic
+BaseExp = 40
+EVs = SPEED,1
+CatchRate = 255
+Happiness = 50
+Abilities = SWIFTSWIM
+HiddenAbilities = ADAPTABILITY
+Moves = 1,SPLASH,15,TACKLE
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = POISONTAIL
+EggGroups = Water1
+HatchSteps = 5120
+Height = 0.6
+Weight = 7.4
+Color = Gray
+Shape = Finned
+Habitat = WatersEdge
+Category = Fish
+#-------------------------------
 [DRABY]
 Name = Draby
 Types = POISON
@@ -2278,8 +2327,7 @@ CatchRate = 180
 Happiness = 50
 Abilities = POISONTOUCH
 Moves = 1,SCRATCH,1,LEER
-TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
-TutorMoves = CUT
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE,CUT
 EggMoves = DRAGONDANCE
 EggGroups = Dragon,Monster
 HatchSteps = 8960

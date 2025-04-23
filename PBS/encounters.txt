@@ -282,9 +282,9 @@ SuperRod
 #-------------------------------
 [061] # Route 18
 Water
-	40,ZOSTEELA,25,27
-	20,MAGIKARP,25,27
-	10,BOTOLPHIN,26
+	40,ZOSTEELA,31,33
+	20,MAGIKARP,31,33
+	10,BOTOLPHIN,30
 OldRod
     60,ZOSTEELA,24,26
 GoodRod
@@ -308,7 +308,21 @@ GoodRod
     60,ZOSTEELA,24,26
 	30,BOTOLPHIN,25
 SuperRod
+    20,BOEELNA,30,33
+#-------------------------------
+[198] # Route 20
+Water
+	40,ZOSTEELA,31,33
+	20,MAGIKARP,29,31
+	10,BOTOLPHIN,30
+OldRod
+    60,ZOSTEELA,24,26
+GoodRod
+    60,ZOSTEELA,24,26
+	30,BOTOLPHIN,25
+SuperRod
     20,BOEELNA,30,33	
+	
 #-------------------------------
 [140] # Route 22
 Land,20
@@ -513,22 +527,32 @@ Cave,7
 Cave,7
     30,FRUCTERA,29,31
 	50,MOSSENGE,30
-
-
+#-------------------------------
+[195] # Sea Heart Outside
+Water
+	40,ZOSTEELA,31,33
+	20,MAGIKARP,31,33
+	10,BOTOLPHIN,30
+OldRod
+    60,ZOSTEELA,24,26
+GoodRod
+    60,ZOSTEELA,24,26
+	30,BOTOLPHIN,25
+SuperRod
+    20,BOEELNA,30,33	
 #-------------------------------
 [107] # Gigantopolis Sewer #1F
 Cave,7
 	30,FRUCTERA,21,23
 	10,MOSSELIN,21,23
 Water
-	80,MAGIKARP,5
+	80,FISHICTIM,21,23
 OldRod
-    70,MAGIKARP,8,10
+    70,FISHICTIM,21,23
 GoodRod
-    60,MAGIKARP,8,10
-	5,FEEBAS,8,13
+    60,FISHICTIM,21,23
 SuperRod
-    20,GYARADOS,30,33
+    20,MUTAFISH,30,33
 #-------------------------------
 [189] # Gigantopolis Sewer #B1F
 Cave,7
