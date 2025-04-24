@@ -68,6 +68,14 @@ SkillLevel = 120
 BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Victory! Gym Leader
 #-------------------------------
+[LEADER_Ying]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+SkillLevel = 100
+BattleBGM = Battle! Vs Gym Leader
+VictoryBGM = Victory! Gym Leader
+#-------------------------------
 [LEADER_Gyan]
 Name = Gym Leader
 Gender = Male

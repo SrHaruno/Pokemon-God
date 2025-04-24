@@ -959,11 +959,14 @@ MapPosition = 0,13,3
 Name = Route 19
 Outdoor = true
 MapPosition = 0,2,8
+BattleBack = Water
 #-------------------------------
 [196]   # Sea Heart [1F]
 Name = Sea Heart
 MapPosition = 0,2,8
+BattleBack = Cave1
 #-------------------------------
 [197]   # Sea Heart [B1F]
 Name = Sea Heart
 MapPosition = 0,2,8
+BattleBack = Cave1

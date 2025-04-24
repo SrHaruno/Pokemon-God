@@ -539,7 +539,16 @@ GoodRod
     60,ZOSTEELA,24,26
 	30,BOTOLPHIN,25
 SuperRod
-    20,BOEELNA,30,33	
+    20,BOEELNA,30,33
+#-------------------------------
+[196] # Sea Heart Pillar room
+Cave,7
+	30,UNOWN,31,33
+#-------------------------------
+[197] # Sea Heart Lord Room
+Cave,7
+	30,UNOWN,31,33
+	
 #-------------------------------
 [107] # Gigantopolis Sewer #1F
 Cave,7

@@ -188,6 +188,10 @@ LoseText = How?
   Gender = Male
   Moves  = DRAGONCLAW,RAGNAROK,FLAMETHROWER,IRONTAIL
 
+ Pokemon = CRORIRD,45
+  Gender = Female
+  Moves  = AIRSLASH,DARKPULSE
+
 #===========================================================================
 #Gyms
 
@@ -356,10 +360,10 @@ LoseText = Mwuahahaha! You know how to traverse! in battle!
 [LEADER_Daniel,Daniel,1]
 Items = SUPERPOTION,SUPERPOTION
 LoseText = Very good! Your skills have surely improved!
-Pokemon = MOSSENGE,25
-Pokemon = SIMISAGE,25
-Pokemon = ORIKEN,25
-Pokemon = EVIRASS,25
+Pokemon = MOSSENGE,33
+Pokemon = SIMISAGE,33
+Pokemon = ORIKEN,33
+Pokemon = JUNVIL,36
 #-------------------------------
 [LEADER_Daniel,Daniel,2]
 Items = HYPERPOTION,HYPERPOTION
@@ -387,10 +391,10 @@ Pokemon = JUNVIL,65
 [LEADER_Nikolai,Nikolai,1] #Second Rematch
 Items = HYPERPOTION
 LoseText = That was AMAZING!
-Pokemon = CUBOLT,25
-Pokemon = SQUILAZE,25
-Pokemon = CHOPAXE,30
-Pokemon = CASEECH,30
+Pokemon = CUBOLT,33
+Pokemon = SQUILAZE,33
+Pokemon = CHOPAXE,33
+Pokemon = CASEECH,36
 	Item  = SITRUSBERRY
 #-------------------------------
 [LEADER_Nikolai,Nikolai,2] #Third Rematch
@@ -401,6 +405,62 @@ Pokemon = AXESSAUR,55
 Pokemon = JOLTEON,55
 Pokemon = JOLTAH,55
 Pokemon = JOLTUTER,65
+
+
+
+#Gym Rematch - Ying
+#-------------------------------
+[LEADER_Ying, Ying] #First Rematch
+Items = SUPERPOTION,SUPERPOTION,MEGARING
+LoseText = You still strong as ever!
+Pokemon = BOTOLPHIN,31
+Pokemon = VAPOREON,31
+Pokemon = AXOLYSTIC,36
+   Item = AXOLYSTICITE
+#-------------------------------
+[LEADER_Ying, Ying,1] #Second Rematch
+Items = HYPERPOTION,HYPERPOTION,MEGARING
+LoseText = You still strong as ever!
+Pokemon = BOTOLPHIN,31
+Pokemon = VAPOREON,31
+Pokemon = AXOLYSTIC,36
+   Item = AXOLYSTICITE
+#-------------------------------
+[LEADER_Ying, Ying,2] #Third Rematch
+Items = SUPERPOTION,SUPERPOTION,MEGARING
+LoseText = You still strong as ever!
+Pokemon = BOTOLPHIN,31
+Pokemon = VAPOREON,31
+Pokemon = AXOLYSTIC,36
+   Item = AXOLYSTICITE
+
+
+#Gym Rematch - Gyan
+#-------------------------------
+[LEADER_Gyan, Gyan,1] #First Rematch
+Items = SUPERPOTION,SUPERPOTION,MEGARING
+LoseText = You still strong as ever!
+Pokemon = MOMBER,33
+Pokemon = FLAREON,33
+Pokemon = DRAMODO,36
+   Item = KOMODRAITE
+#-------------------------------
+[LEADER_Gyan, Gyan,2] #Second Rematch
+Items = HYPERPOTION,HYPERPOTION,MEGARING
+LoseText = You still strong as ever!
+Pokemon = MOMBER,33
+Pokemon = FLAREON,33
+Pokemon = DRAMODO,36
+   Item = KOMODRAITE
+#-------------------------------
+[LEADER_Gyan, Gyan,3] #Third Rematch
+Items = FULLRESTORE,FULLRESTORE,MEGARING
+LoseText = You still strong as ever!
+Pokemon = MOMBER,33
+Pokemon = FLAREON,33
+Pokemon = DRAMODO,36
+   Item = KOMODRAITE
+
 
 
 #Special Battles
