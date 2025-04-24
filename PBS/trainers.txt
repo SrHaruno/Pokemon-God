@@ -159,7 +159,7 @@ LoseText = Hopefully the locals enjoyed this battle!
 
 
 #===========================================================================
-# Peon Battles
+# Peon & Caelum Battles
 
 # First Peon Battle
 #-------------------------------
@@ -176,6 +176,17 @@ LoseText = Hmph...
  Pokemon = PUPITAR,35
   Gender = Male
    Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
+
+
+
+# First Caelum Battle #Can't win
+#-------------------------------
+[PLASMA,Caelum]
+LoseText = How?
+
+ Pokemon = SHENRAGON,55
+  Gender = Male
+  Moves  = DRAGONCLAW,RAGNAROK,FLAMETHROWER,IRONTAIL
 
 #===========================================================================
 #Gyms

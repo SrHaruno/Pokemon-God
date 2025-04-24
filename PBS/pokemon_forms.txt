@@ -166,12 +166,12 @@ Types = FAIRY
 Generation = 6
 #-------------------------------
 [ARCEUS,19]
-FormName = Demon Type
-Types = DEMON
-#-------------------------------
-[ARCEUS,20]
 FormName = Angel Type
 Types = ANGEL
+#-------------------------------
+[ARCEUS,20]
+FormName = Demon Type
+Types = DEMON
 #-------------------------------
 [TORNADUS,1]
 FormName = Therian Forme

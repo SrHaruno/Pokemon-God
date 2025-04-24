@@ -27,6 +27,12 @@ Name = ???
 Gender = Male
 BaseMoney = 36
 BattleBGM = Battle! Vs Peon
+#-------------------------------
+[PLASMA]
+Name = ???
+Gender = Male
+BaseMoney = 36
+
 
 #Gym Leaders
 #-------------------------------
