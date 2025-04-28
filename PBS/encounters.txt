@@ -438,7 +438,7 @@ GoodRod
 SuperRod
     20,GYARADOS,30,33	
 #-------------------------------
-[059] # Mt.Solar #Haunted Desert Entrance
+[059] # Mt.Solar #Entrance
 Cave,7
 	30,FRUCTERA,19,21
 	50,MOSSELIN,19,21
@@ -450,6 +450,24 @@ GoodRod
     60,MAGIKARP,8,10
 SuperRod
     20,GYARADOS,30,33	
+#-------------------------------
+[200] # Mt.Solar [2F]
+Cave,7
+	30,CHIROPEEL,29,31
+	50,MOSSENGE,29,31
+#-------------------------------
+[201] # Mt.Solar [2F]
+Cave,7
+	30,CHIROPEEL,29,31
+	50,MOSSENGE,29,31
+#-------------------------------
+[202] # Mt.Solar [Outside]
+Land,20
+    20,LARVITAR,29,31
+    10,FRILLZARD,30
+LandNight,20
+    20,LARVITAR,29,31
+    10,FRILLZARD,30
 
 
 #-------------------------------
@@ -496,36 +514,36 @@ SuperRod
 #-------------------------------
 [121] # Entrance
 Cave,7
-    30,FRUCTERA,29,31
+    30,CHIROPEEL,29,31
 	50,MOSSENGE,30
 #-------------------------------
 [173] # Hall
 Cave,7
-    30,FRUCTERA,29,31
+    30,CHIROPEEL,29,31
 	50,MOSSENGE,30
 #-------------------------------
 [179] # 1F
 Cave,7
-    30,FRUCTERA,29,31
+    30,CHIROPEEL,29,31
 	50,MOSSENGE,30
 
 #2F
 #-------------------------------
 [180] # 2F
 Cave,7
-    30,FRUCTERA,29,31
+    30,CHIROPEEL,29,31
 	50,MOSSENGE,30
 #-------------------------------
 [182] # 2F
 Cave,7
-    30,FRUCTERA,29,31
+    30,CHIROPEEL,29,31
 	50,MOSSENGE,30
 
 #3F
 #-------------------------------
 [183] # 3F
 Cave,7
-    30,FRUCTERA,29,31
+    30,CHIROPEEL,29,31
 	50,MOSSENGE,30
 #-------------------------------
 [195] # Sea Heart Outside

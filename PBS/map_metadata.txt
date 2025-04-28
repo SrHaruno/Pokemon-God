@@ -289,7 +289,7 @@ MapPosition = 0,28,6
 Name = Marine City
 MapPosition = 0,28,6
 #-------------------------------
-[059]   # Mt.Solar
+[059]   # Mt.Solar [Entrance]
 Name = Mt.Solar
 ShowArea = true
 Bicycle = true
@@ -970,3 +970,19 @@ BattleBack = Cave1
 Name = Sea Heart
 MapPosition = 0,2,8
 BattleBack = Cave1
+#-------------------------------
+[200]   # Mt.Solar [2F]
+Name = Mt.Solar
+Bicycle = true
+BattleBack = Cave1
+#-------------------------------
+[201]   # Mt.Solar [2F]
+Name = Mt.Solar
+Bicycle = true
+BattleBack = Cave1
+#-------------------------------
+[202]   # Mt.Solar [Outside]
+Name = Mt.Solar
+Outdoor = true
+MapPosition = 0,18,7
+BattleBack = Rocky
