@@ -986,3 +986,20 @@ Name = Mt.Solar
 Outdoor = true
 MapPosition = 0,18,7
 BattleBack = Rocky
+#-------------------------------
+[211]   # Haunted Tower [1F]
+Name = Haunted Tower
+#-------------------------------
+[212]   # Haunted Tower [2F]
+Name = Haunted Tower
+#-------------------------------
+[213]   # Haunted Tower [3F]
+Name = Haunted Tower
+#-------------------------------
+[214]   # Haunted Tower[4F]
+Name = Haunted Tower
+#-------------------------------
+[215]   # Haunted Tower[5F]
+Name = Haunted Tower
+Outdoor = true
+BattleBack = Indoor1
