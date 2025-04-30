@@ -566,6 +566,7 @@ Cave,7
 [197] # Sea Heart Lord Room
 Cave,7
 	30,UNOWN,31,33
+
 	
 #-------------------------------
 [107] # Gigantopolis Sewer #1F
@@ -591,9 +592,22 @@ Cave,7
 	27,DITTO,21,23
 	13,DRABY,22
 
-
-
-
+#-------------------------------
+[212] # Haunted Tower 2F
+Cave,7
+	50,CHINDORION,31,33
+#-------------------------------
+[213] # Haunted Tower 3F
+Cave,7
+	50,CHINDORION,31,33
+#-------------------------------
+[214] # Haunted Tower 4F
+Cave,7
+	50,CHINDORION,31,33
+#-------------------------------
+[215] # Haunted Tower 5F
+Cave,7
+	50,CHINDORION,31,33
 
 #Safari Zone
 #-------------------------------
