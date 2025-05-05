@@ -856,3 +856,38 @@ LoseText = My fire has been put down! My fire has been put down!
 Pokemon = BIDOOF,24
 Pokemon = SNOVER,24
 
+#Haunted Tower
+
+#2F
+[CHANNELER, Laura]
+LoseText = Don't Disturb the spirits!!!
+Pokemon = CHINDORION,30
+Pokemon = VOODOLL,30
+[CHANNELER, Agnes]
+LoseText = Don't Disturb the spirits!!!
+Pokemon = CHINDORION,30
+Pokemon = CHINDORION,30
+Pokemon = CHINDORION,30
+
+#3F
+[CHANNELER, Emily]
+LoseText = Don't Disturb the spirits!!!
+Pokemon = CHINDORION,31
+[CHANNELER, Sidney]
+LoseText = Don't Disturb the spirits!!!
+Pokemon = CHINDORION,30
+Pokemon = CHINDORION,30
+[NURSE, Hidori]
+LoseText = What an healthy team!
+Pokemon = HACHEART,31
+
+
+#4F
+[CHANNELER, Lily]
+LoseText = Don't Disturb the spirits!!!
+Pokemon = VOODOLL,30
+Pokemon = VOODOLL,30
+Pokemon = VOODOLL,30
+[CHANNELER, Nathaly]
+LoseText = Don't Disturb the spirits!!!
+Pokemon = VOODOLL,30
