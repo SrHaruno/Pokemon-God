@@ -444,8 +444,9 @@ Name = Route 11
 Outdoor = true
 ShowArea = true
 MapPosition = 0,18,4
+BattleBack = Field
 #-------------------------------
-[085]   # PowerPlant_Inisde
+[085]   # Power Plant
 Name = Power Plant
 MapPosition = 0,18,4
 #-------------------------------
