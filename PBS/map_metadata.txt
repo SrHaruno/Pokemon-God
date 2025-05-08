@@ -1012,3 +1012,9 @@ Name = Haunted Tower
 Name = Haunted Tower
 Outdoor = true
 BattleBack = Indoor1
+#-------------------------------
+[216]   # Jungle of Souls
+Name = Forest Heart
+Outdoor = true
+ShowArea = true
+BattleBack = Forest

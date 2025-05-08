@@ -185,7 +185,7 @@ SuperRod
     20,GYARADOS,30,33
 #-------------------------------
 [067] # Route 8
-Land,15
+Land,20
 	40,BOUDYENA,21,23
 	20,CUBTURN,21,23
 	30,KITSU,23
@@ -357,7 +357,7 @@ LandNight,20
 #Dungeons
 #-------------------------------
 [020] # Viridis Forest
-Land,15
+Land,20
     40,LARVENGUE,5,7
     40,TATURUG,5,7
 	20,ORBEAF,6
@@ -668,3 +668,26 @@ Cave,7
 	20,WOOPER,28
 	20,BUIZEL,28
 	
+#-------------------------------
+[216] # Jungle of Spirits
+Land,20
+    40,LARVENGUE,19,21
+    40,TATURUG,19,21
+DarkGrass,20
+	40,PUPENGUE,40,45
+	40,ELECOON,40,45
+Water
+	80,MAGIKARP,45
+OldRod
+    70,MAGIKARP,45
+GoodRod
+    60,MAGIKARP,45
+SuperRod
+    20,GYARADOS,40,45
+	
+	
+#Islands
+#-------------------------------
+[65] #Battle Island
+RockSmash,50
+    60,GEODUDE,30
