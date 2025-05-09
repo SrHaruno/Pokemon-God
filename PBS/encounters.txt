@@ -690,4 +690,4 @@ SuperRod
 #-------------------------------
 [65] #Battle Island
 RockSmash,50
-    60,GEODUDE,30
+    60,MOSSENGE,30

@@ -6,4 +6,4 @@ Name = Steve
 BeginSpeech = Im gonna get to 300 win streaks!
 EndSpeechWin = Dreams? Crushed!!
 EndSpeechLose = God dang it!
-PokemonNos = 0,1,2,3
+PokemonNos = 0,1,2

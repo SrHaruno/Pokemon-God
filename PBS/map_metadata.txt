@@ -317,6 +317,7 @@ MapSize = 2,1100
 Name = Battle Island
 Outdoor = true
 MapPosition = 0,27,17
+BattleBack = Water
 #-------------------------------
 [066]   # Gigantopolis
 Name = Gigantopolis
@@ -519,8 +520,10 @@ MapPosition = 0,17,3
 [101]   # Battle Tower
 Name = Battle Island
 #-------------------------------
-[102]   # Battle Tower Arena
+[102]   # Arena
 Name = Battle Island
+BattleBack = indoor2
+TrainerBattleBGM = Battle! Vs Battle Tower Trainer
 #-------------------------------
 [103]   # Mt.Solar(Route 4)
 Name = Mt.Solar
@@ -1013,8 +1016,23 @@ Name = Haunted Tower
 Outdoor = true
 BattleBack = Indoor1
 #-------------------------------
-[216]   # Jungle of Souls
+[216]   # Forest Heart
 Name = Forest Heart
 Outdoor = true
 ShowArea = true
 BattleBack = Forest
+#-------------------------------
+[219]   # Herb Shop
+Name = Battle Island
+#-------------------------------
+[220]   # Battle Hall
+Name = Battle Island
+#-------------------------------
+[221]   # Battle Elevator
+Name = Battle Island
+#-------------------------------
+[222]   # Port
+Name = Battle Island
+#-------------------------------
+[223]   # House
+Name = Battle Island

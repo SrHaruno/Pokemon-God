@@ -891,3 +891,22 @@ Pokemon = VOODOLL,30
 [CHANNELER, Nathaly]
 LoseText = Don't Disturb the spirits!!!
 Pokemon = VOODOLL,30
+
+
+
+#Battle Island
+[ACETRAINER_M, Alpha] #4 Badges
+LoseText = What amazing skills you have!
+Pokemon  = PUPITAR,30
+Pokemon  = GABITE,30
+Pokemon  = HACHEART,30
+[ACETRAINER_M, Alpha,1] #6 Badges
+LoseText = What amazing skills you have!
+Pokemon  = PUPITAR,38
+Pokemon  = GABITE,38
+Pokemon  = HACHEART,38
+[ACETRAINER_M, Alpha,2] #8 Badges
+LoseText = What amazing skills you have!
+Pokemon  = TYRANITAR,55
+Pokemon  = GARCHOMP,55
+Pokemon  = SILLEARPPY,55
