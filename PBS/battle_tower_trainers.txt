@@ -1,9 +1,9 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [000]
-Type = ACETRAINER_M
-Name = Steve
-BeginSpeech = Im gonna get to 300 win streaks!
-EndSpeechWin = Dreams? Crushed!!
 EndSpeechLose = God dang it!
+Name = Steve
 PokemonNos = 0,1,2
+BeginSpeech = Im gonna get to 300 win streaks!
+Type = ACETRAINER_M
+EndSpeechWin = Dreams? Crushed!!

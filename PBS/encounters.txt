@@ -689,5 +689,16 @@ SuperRod
 #Islands
 #-------------------------------
 [65] #Battle Island
-RockSmash,50
+RockSmash,100
     60,MOSSENGE,30
+Water
+	40,ZOSTEELA,31,33
+	20,MAGIKARP,31,33
+	10,BOTOLPHIN,30
+OldRod
+    60,ZOSTEELA,24,26
+GoodRod
+    60,ZOSTEELA,24,26
+	30,BOTOLPHIN,25
+SuperRod
+    20,BOEELNA,30,33

@@ -3,3 +3,8 @@
 [DefaultTrainerList]
 Trainers = battle_tower_trainers.txt
 Pokemon = battle_tower_pokemon.txt
+#-------------------------------
+[TrainerList] #Post-Game
+Trainers = battle_tower_trainers.txt
+Pokemon = natdex_battle_tower_pokemon.txt
+Challenges = supersingle
