@@ -975,6 +975,12 @@ Name = Sea Heart
 MapPosition = 0,2,8
 BattleBack = Cave1
 #-------------------------------
+[198]   # Route 20
+Name = Route 20
+Outdoor = true
+ShowArea = true
+Weather = HeavyRain,30
+#-------------------------------
 [200]   # Mt.Solar [2F]
 Name = Mt.Solar
 Bicycle = true
