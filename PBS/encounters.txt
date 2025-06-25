@@ -322,7 +322,20 @@ GoodRod
 	30,BOTOLPHIN,25
 SuperRod
     20,BOEELNA,30,33	
-	
+#-------------------------------
+[224] # Route 21
+Land,20
+    30,YOUNROW,33,35
+LandNight,20
+    30,YOUNROW,33,35
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,8,10
+SuperRod
+    20,GYARADOS,30,33	
 #-------------------------------
 [140] # Route 22
 Land,20

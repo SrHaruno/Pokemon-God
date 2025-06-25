@@ -979,7 +979,7 @@ BattleBack = Cave1
 Name = Route 20
 Outdoor = true
 ShowArea = true
-Weather = HeavyRain,30
+MapPosition = 0,4,7
 #-------------------------------
 [200]   # Mt.Solar [2F]
 Name = Mt.Solar
@@ -1042,3 +1042,11 @@ Name = Battle Island
 #-------------------------------
 [223]   # House
 Name = Battle Island
+#-------------------------------
+[224]   # Route 21
+Name = Route 21
+Outdoor = true
+ShowArea = true
+Weather = Fog,100
+MapPosition = 0,4,6
+BattleBack = Field
