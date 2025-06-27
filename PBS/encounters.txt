@@ -326,8 +326,10 @@ SuperRod
 [224] # Route 21
 Land,20
     30,YOUNROW,33,35
+	10,VOOTED,34
 LandNight,20
     30,YOUNROW,33,35
+	10,VOOTED,34
 Water
 	80,MAGIKARP,5
 OldRod
@@ -641,7 +643,6 @@ Land,20
     40,PIDGEY,27,29
     30,SHINX,27,29
     20,BLITZLE,28
-    10,GIRAFARIG,28
 #-------------------------------
 [146] # Forest Area
 Land,20

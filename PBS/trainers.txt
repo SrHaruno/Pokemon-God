@@ -765,6 +765,31 @@ LoseText = Oh no, my bugnet broke!
 Pokemon = SPYRE,20
 Pokemon = LARVENGUE,20
 
+#Route 21
+#-------------------------------
+[CHANNELER,Bruna]
+LoseText = I was guided into a defeat!
+Pokemon = VOODOLL,34
+Pokemon = VOODOLL,34
+Pokemon = VOODOLL,34
+#-------------------------------
+[ACETRAINER_M,Everson]
+LoseText = You scared me for a second.
+Pokemon = BALMPOSTOR,35
+#-------------------------------
+[ACETRAINER_F,Jeniffer]
+LoseText = Seems like I was the one to find a defeat!
+Pokemon = BALMPOSTOR,34
+Pokemon = SOMBROOM,34
+#-------------------------------
+[CHANNELER,Garnet]
+LoseText = Oh, I ran out of Pokémon!
+Pokemon = VOOTED,35	
+
+
+
+
+
 #Indi Forest
 #-------------------------------
 [BUGCATCHER, Satoshi]
