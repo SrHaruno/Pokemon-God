@@ -6,6 +6,8 @@
 14,South,0,39,North,12
 # Route 4 (39) - Route 5 (40)
 39,South,0,40,North,8
+# Route 18 (61) - Route 19 (138)
+61,North,0,138,South,63
 # Route 9 (76) - Route 10 (79)
 76,North,0,79,South,28
 # Route 10 (79) - Route 11 (81)
@@ -14,9 +16,13 @@
 84,South,0,81,North,20
 # Route 14 (82) - Route 13 (129)
 82,North,0,129,South,0
-# Route 22 (140) - Route 23 (142)
+# Route 19 (138) - Route 20 (198)
+138,North,45,198,South,0
+# Sea Heart (195) - Route 19 (138)
+195,East,0,138,West,7
+# Route 26 (140) - Route 27 (142)
 140,West,2,142,East,0
-# Route 23 (142) - Safari Zone (143)
+# Route 27 (142) - Safari Zone (143)
 142,North,2,143,South,0
 # Plain_Zone (145) - Mountain_Zone (148)
 145,North,26,148,South,0
@@ -30,9 +36,5 @@
 163,West,61,162,East,0
 # Route 20 (198) - Route 21 (224)
 198,North,5,224,South,0
-# Route 19 (138) - Route 20 (198)
-138,North,45,198,South,0
-# Route 18 (61) - Route 19 (138)
-61,North,0,138,South,63
-# Sea Heart (195) - Route 19 (138)
-195,East,0,138,West,7
+# Route 22 (225) - Route 15 (83)
+225,North,0,83,South,3

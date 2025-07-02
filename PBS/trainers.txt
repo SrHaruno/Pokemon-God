@@ -119,7 +119,7 @@ LoseText = Hopefully the locals enjoyed this battle!
 
 # Fifth Gym -- Bruno Tags with player
 #-------------------------------
-[RIVAL1,Bruno,10] #Grass Starter
+[RIVAL2,Bruno,1] #Grass Starter
  Pokemon = YOUNROW,27
   Gender = Male
   
@@ -132,7 +132,7 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = PSYLOTE,29
   Gender = Male
 #-------------------------------
-[RIVAL1,Bruno,11] #Fire Starter
+[RIVAL2,Bruno,2] #Fire Starter
  Pokemon = YOUNROW,27
  
  Pokemon = GYARADOS,27
@@ -144,11 +144,11 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = EVIRASS,29
   Gender = Male
 #-------------------------------
-[RIVAL1,Bruno,12] #Water Starter
+[RIVAL2,Bruno,3] #Water Starter
  Pokemon = YOUNROW,27
   Gender = Male
    
- Pokemon = ORBEAF,27
+ Pokemon = ORIKEN,27
   Gender = Male
  
  Pokemon = KITSU,27
@@ -156,6 +156,70 @@ LoseText = Hopefully the locals enjoyed this battle!
 
  Pokemon = DRAMODO,29
   Gender = Male
+
+
+# Fourth Battle
+#-------------------------------
+[RIVAL2,Bruno,4] #Grass Starter
+  Items  = MEGARING
+
+ Pokemon = YOUNROW,35
+  Gender = Male
+  Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
+  
+ Pokemon = SAMURUNNY,35
+  Gender = Male
+  Moves  = SHADOWSNEAK,INFERNORAZOR,KARATECHOP
+
+ Pokemon = DEVITSUNE,35
+  Gender = Male
+  Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
+
+ Pokemon = AXOLYSTIC,38
+  Gender = Male
+  Item   = AXOLYSTICITE
+  Moves  = MENTALPULSE,SURF,CONFUSERAY
+  
+#-------------------------------
+[RIVAL2,Bruno,5] #Fire Starter
+  Items  = MEGARING
+ 
+ Pokemon = YOUNROW,35
+  Gender = Male
+  Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
+ 
+ Pokemon = GYARADOS,35
+  Gender = Female
+  Moves  = DRAGONDANCE,ICEFANG,BITE,DRAGONRAGE
+ 
+ Pokemon = DEVITSUNE,35
+  Gender = Male
+  Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
+
+ Pokemon = JUNVIL,37
+  Gender = Male
+  Item   = JUNVILITE
+  Moves  = GAIAWRATH,BULLDOZE,RAZORLEAF
+  
+#-------------------------------
+[RIVAL2,Bruno,6] #Water Starter
+  Items  = MEGARING
+ 
+ Pokemon = YOUNROW,35
+  Gender = Male
+  Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
+   
+ Pokemon = KATAGAMI,35
+  Moves  = SLASH,NIGHTSLASH,SMARTSTRIKE,RAZORLEAF
+ 
+ Pokemon = DEVITSUNE,35
+  Gender = Male
+  Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
+
+ Pokemon = KOMODRA,29
+  Gender = Male
+  Item   = KOMODRAITE
+  Moves  = DRACOSPHERE,FLAMEBURST
 
 
 #===========================================================================
