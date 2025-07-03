@@ -4058,7 +4058,7 @@ Pocket = 3
 Price = 1000
 BattleUse = OnFoe
 Flags = PokeBall
-Description = A special Poké Ball designed to catch Ultra Beasts. It has a low success rate for catching others.
+Description = A special Poké Ball designed to catch extraterrestrial Pokémon. It has a low success rate for catching others.
 #-------------------------------
 [TM01]
 Name = TM01

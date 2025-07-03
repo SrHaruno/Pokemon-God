@@ -65,7 +65,7 @@ Name = Route 2
 Bicycle = true
 MapPosition = 0,13,5
 #-------------------------------
-[016]   # Viridisi Town PC
+[016]   # Viridis Town PC
 Name = Viridis Town
 HealingSpot = 16,8,6
 MapPosition = 0,23,5
@@ -716,7 +716,7 @@ MapPosition = 0,13,1
 BattleBack = Field
 MapSize = 2,1010
 #-------------------------------
-[141]   # Route 25 Gate
+[141]   # Route 26 Gate
 Name = Route 22
 Bicycle = true
 MapPosition = 0,13,2
@@ -1059,3 +1059,24 @@ ShowArea = true
 MapPosition = 0,12,12
 BattleBack = Water
 MapSize = 4,1100110011001100
+#-------------------------------
+[234]   # Lostown City
+Name = Lostown City
+Outdoor = true
+ShowArea = true
+Weather = Fog,100
+MapPosition = 0,4,5
+BattleBack = Field
+#-------------------------------
+[236]   # Route 21 Gate
+Name = Route 21
+Bicycle = true
+MapPosition = 0,4,6
+#-------------------------------
+[237]   # Lostown PC
+Name = Lostown City
+MapPosition = 0,4,5
+#-------------------------------
+[238]   # Lostown PC 2F
+Name = Lostown City
+MapPosition = 0,4,5

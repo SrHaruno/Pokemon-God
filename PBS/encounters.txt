@@ -55,6 +55,18 @@ GoodRod
 	30,BOTOLPHIN,23
 SuperRod
     20,BOEELNA,30,33	
+#-------------------------------
+[234] # Lostown City
+Water
+	40,ZOSTEELA,35,38
+OldRod
+    60,ZOSTEELA,35,38
+GoodRod
+    60,ZOSTEELA,35,38
+	30,BOTOLPHIN,37
+SuperRod
+    20,BOEELNA,35,38
+
 
 #Routes
 #-------------------------------
@@ -90,8 +102,9 @@ Water
 OldRod
     70,MAGIKARP,8,10
 GoodRod
-    60,MAGIKARP,8,10
+    60,MAGIKARP,1,100
 SuperRod
+    80,MAGIKARP,1,100
     20,GYARADOS,30,33
 #-------------------------------
 [014] # Route 2
@@ -145,12 +158,12 @@ Water
 OldRod
     70,MAGIKARP,8,10
 GoodRod
-    60,MAGIKARP,8,10
-	5,DRATINI,20,25
+    60,MAGIKARP,22,25
+	5,DRATINI,24
 SuperRod
-    20,GYARADOS,30,33	
-	10,DRATINI,20,25
-	1,DRAGONAIR,30,35
+    20,GYARADOS,35,38
+	10,DRATINI,36,38
+	1,DRAGONAIR,37
 #-------------------------------
 [042] # Route 6
 Land,20
@@ -402,12 +415,12 @@ Water
 OldRod
     70,MAGIKARP,8,10
 GoodRod
-    60,MAGIKARP,8,10
-	5,DRATINI,20,25
+    60,MAGIKARP,22,25
+	5,DRATINI,24
 SuperRod
-    20,GYARADOS,30,33	
-	10,DRATINI,20,25
-	1,DRAGONAIR,30,35
+    20,GYARADOS,35,38	
+	10,DRATINI,36,38
+	1,DRAGONAIR,37
 	
 	
 #-------------------------------
