@@ -1080,3 +1080,66 @@ MapPosition = 0,4,5
 [238]   # Lostown PC 2F
 Name = Lostown City
 MapPosition = 0,4,5
+#-------------------------------
+[239]   # Lostown Gym
+Name = Lostown City
+Outdoor = true
+Weather = Fog,100
+MapPosition = 0,4,5
+BattleBack = Forest
+#-------------------------------
+[240]   # Lostown Gym Room 1
+Name = Lostown City
+Outdoor = true
+Weather = Fog,100
+MapPosition = 0,4,5
+BattleBack = Forest
+#-------------------------------
+[241]   # Lostown Gym Room 2
+Name = Lostown City
+Outdoor = true
+Weather = Fog,100
+MapPosition = 0,4,5
+BattleBack = Forest
+#-------------------------------
+[242]   # Lostown Gym Room 3
+Name = Lostown City
+Outdoor = true
+Weather = Fog,100
+MapPosition = 0,4,5
+BattleBack = Forest
+#-------------------------------
+[243]   # Lostown Gym Room 4
+Name = Lostown City
+Outdoor = true
+Weather = Fog,100
+MapPosition = 0,4,5
+BattleBack = Forest
+#-------------------------------
+[244]   # Lostown Gym Room 5
+Name = Lostown City
+Outdoor = true
+Weather = Fog,100
+MapPosition = 0,4,5
+BattleBack = Forest
+#-------------------------------
+[245]   # Lostown Gym Room 6
+Name = Lostown City
+Outdoor = true
+Weather = Fog,100
+MapPosition = 0,4,5
+BattleBack = Forest
+#-------------------------------
+[246]   # Lostown Gym [Trap]
+Name = Lostown City
+Outdoor = true
+Weather = Fog,100
+MapPosition = 0,4,5
+BattleBack = Forest
+#-------------------------------
+[247]   # Lostown Gym [Trap 2]
+Name = Lostown City
+Outdoor = true
+Weather = Fog,100
+MapPosition = 0,4,5
+BattleBack = Forest

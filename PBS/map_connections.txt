@@ -16,6 +16,8 @@
 84,South,0,81,North,20
 # Route 14 (82) - Route 13 (129)
 82,North,0,129,South,0
+# Route 22 (225) - Route 15 (83)
+225,North,0,83,South,3
 # Route 19 (138) - Route 20 (198)
 138,North,45,198,South,0
 # Sea Heart (195) - Route 19 (138)
@@ -36,5 +38,43 @@
 163,West,61,162,East,0
 # Route 20 (198) - Route 21 (224)
 198,North,5,224,South,0
-# Route 22 (225) - Route 15 (83)
-225,North,0,83,South,3
+# Lostown Gym Room 1 (240) - Lostown Gym (239)
+240,West,0,239,East,0
+# Lostown Gym Room 2 (241) - Lostown Gym (239)
+241,West,33,239,East,0
+# Lostown Gym Room 3 (242) - Lostown Gym (239)
+242,South,0,239,North,100
+# Lostown Gym Room 6 (245) - Lostown Gym (239)
+245,West,99,239,East,0
+# Lostown Gym [Trap] (246) - Lostown Gym (239)
+246,East,0,239,West,3
+# Lostown Gym Room 2 (241) - Lostown Gym Room 1 (240)
+241,South,0,240,North,0
+# Lostown Gym Room 3 (242) - Lostown Gym Room 1 (240)
+242,West,33,240,East,0
+# Lostown Gym Room 4 (243) - Lostown Gym Room 1 (240)
+243,West,66,240,East,0
+# Lostown Gym Room 5 (244) - Lostown Gym Room 1 (240)
+244,West,99,240,East,0
+# Lostown Gym Room 3 (242) - Lostown Gym Room 2 (241)
+242,West,0,241,East,0
+# Lostown Gym Room 4 (243) - Lostown Gym Room 2 (241)
+243,West,33,241,East,0
+# Lostown Gym Room 5 (244) - Lostown Gym Room 2 (241)
+244,West,66,241,East,0
+# Lostown Gym Room 4 (243) - Lostown Gym Room 3 (242)
+243,South,0,242,North,0
+# Lostown Gym Room 6 (245) - Lostown Gym Room 3 (242)
+245,East,66,242,West,0
+# Lostown Gym [Trap 2] (247) - Lostown Gym Room 3 (242)
+247,East,30,242,West,0
+# Lostown Gym Room 5 (244) - Lostown Gym Room 4 (243)
+244,South,0,243,North,0
+# Lostown Gym Room 6 (245) - Lostown Gym Room 4 (243)
+245,East,33,243,West,0
+# Lostown Gym [Trap 2] (247) - Lostown Gym Room 4 (243)
+247,East,0,243,West,3
+# Lostown Gym Room 6 (245) - Lostown Gym Room 5 (244)
+245,East,0,244,West,0
+# Lostown Gym [Trap 2] (247) - Lostown Gym Room 5 (244)
+247,East,0,244,West,36
