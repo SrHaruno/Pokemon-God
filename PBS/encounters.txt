@@ -315,6 +315,7 @@ Water
 	40,ZOSTEELA,31,33
 	20,MAGIKARP,29,31
 	10,BOTOLPHIN,30
+	5,DHELMISE,30
 OldRod
     60,ZOSTEELA,24,26
 GoodRod
@@ -328,6 +329,7 @@ Water
 	40,ZOSTEELA,31,33
 	20,MAGIKARP,29,31
 	10,BOTOLPHIN,30
+	5,DHELMISE,30
 OldRod
     60,ZOSTEELA,24,26
 GoodRod
@@ -350,9 +352,39 @@ OldRod
 GoodRod
     60,MAGIKARP,8,10
 SuperRod
-    20,GYARADOS,30,33	
+    20,GYARADOS,30,33
 #-------------------------------
-[140] # Route 22
+[225] # Route 22
+Water
+	40,MEDULLISH,31,33
+	20,MAGIKARP,31,33
+	5,RELICANTH,32
+OldRod
+    60,MAGIKARP,19,21
+GoodRod
+    60,MAGIKARP,22,24
+SuperRod
+    20,GYARADOS,35,38	
+#-------------------------------
+[226] # Route 23
+Land,20
+    30,JYNX,35,38
+LandNight,20
+    30,JYNX,35,38
+Water
+	80,MAGIKARP,35,38
+OldRod
+    70,MAGIKARP,35,38
+GoodRod
+    60,MAGIKARP,35,38
+SuperRod
+    20,GYARADOS,35,38
+	
+	
+	
+	
+#-------------------------------
+[140] # Route 26
 Land,20
     40,DWILD,24,26
 	30,PURIRD,24,26
@@ -370,7 +402,7 @@ GoodRod
 SuperRod
     20,GYARADOS,30,33	
 #-------------------------------
-[142] # Route 23
+[142] # Route 27
 Land,20
     40,DWILD,25,27
 	30,PURIRD,25,27
@@ -591,6 +623,7 @@ Water
 	40,ZOSTEELA,31,33
 	20,MAGIKARP,31,33
 	10,BOTOLPHIN,30
+	5,DHELMISE,30
 OldRod
     60,ZOSTEELA,24,26
 GoodRod
@@ -649,6 +682,16 @@ Cave,7
 Cave,7
 	50,CHINDORION,31,33
 
+#-------------------------------
+[106] # Connection Cave
+Cave,7
+	30,FRUCTERA,31,33
+	50,MOSSENGE,31,33
+
+
+
+
+
 #Safari Zone
 #-------------------------------
 [145] # Plain Area
@@ -660,15 +703,13 @@ Land,20
 [146] # Forest Area
 Land,20
     40,SEWADDLE,27,29
-	30,VENIPEDE,27,29
-	20,SHROOMISH,28
+	30,SHROOMISH,28
 	10,BUDEW,28,29
 #-------------------------------
 [147] # Beach Area
 Land,20
     40,WINGULL,27,29
 	30,MARILL,27,29
-	20,SHELLOS,28
 	10,CHEWTLE,28
 Water
 	80,MAGIKARP,5
@@ -683,8 +724,7 @@ SuperRod
 #-------------------------------
 [148] # Mountain Area
 Land,20
-    40,ROGGENROLA,27,29
-	30,STARLY,27,29
+    40,STARLY,27,29
 	20,RALTS,28,29
 	10,BAGON,28
 #-------------------------------
@@ -693,7 +733,6 @@ Cave,7
     40,ZUBAT,27,29
     30,ROGGENROLA,27,29
 	20,WOOPER,28
-	20,BUIZEL,28
 	
 #-------------------------------
 [216] # Jungle of Spirits

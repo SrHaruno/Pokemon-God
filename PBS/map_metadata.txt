@@ -1143,3 +1143,8 @@ Outdoor = true
 Weather = Fog,100
 MapPosition = 0,4,5
 BattleBack = Forest
+#-------------------------------
+[248]   # Lostown Gym [Gym Leader Room]
+Name = Lostown City
+Outdoor = true
+BattleBack = Water

@@ -161,6 +161,7 @@ LoseText = Hopefully the locals enjoyed this battle!
 # Fourth Battle
 #-------------------------------
 [RIVAL2,Bruno,4] #Grass Starter
+  LoseText = You still got this!
   Items  = MEGARING
 
  Pokemon = YOUNROW,35
@@ -182,6 +183,7 @@ LoseText = Hopefully the locals enjoyed this battle!
   
 #-------------------------------
 [RIVAL2,Bruno,5] #Fire Starter
+  LoseText = You still got this!
   Items  = MEGARING
  
  Pokemon = YOUNROW,35
@@ -203,6 +205,7 @@ LoseText = Hopefully the locals enjoyed this battle!
   
 #-------------------------------
 [RIVAL2,Bruno,6] #Water Starter
+  LoseText = You still got this!
   Items  = MEGARING
  
  Pokemon = YOUNROW,35
@@ -866,8 +869,19 @@ Pokemon = SOMBROOM,34
 LoseText = Oh, I ran out of Pokémon!
 Pokemon = VOOTED,35	
 
-
-
+#Route 22
+#-------------------------------
+[SWIMMER_M,Splash]
+LoseText = You strategy splashed me out!
+ 
+ Pokemon  = MEDULLISH,32
+ Pokemon  = MEDULLISH,32
+ Pokemon  = MEDULLISH,32
+#-------------------------------
+[FISHERMAN,Fishy]
+LoseText = I reeled a strong trainer!
+ 
+ Pokemon  = GYARADOS,33
 
 
 #Indi Forest
