@@ -1060,6 +1060,15 @@ MapPosition = 0,12,12
 BattleBack = Water
 MapSize = 4,1100110011001100
 #-------------------------------
+[226]   # Route 23
+Name = Route 23
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,13,18
+BattleBack = Snow
+MapSize = 2,1100
+#-------------------------------
 [234]   # Lostown City
 Name = Lostown City
 Outdoor = true
@@ -1148,3 +1157,7 @@ BattleBack = Forest
 Name = Lostown City
 Outdoor = true
 BattleBack = Water
+#-------------------------------
+[249]   # Fishing Guru [Route 23]
+Name = Route 23
+MapPosition = 0,13,18

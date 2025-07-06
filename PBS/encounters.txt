@@ -364,6 +364,7 @@ OldRod
 GoodRod
     60,MAGIKARP,22,24
 SuperRod
+    80,MAGIKARP,35,38
     20,GYARADOS,35,38	
 #-------------------------------
 [226] # Route 23
@@ -378,6 +379,7 @@ OldRod
 GoodRod
     60,MAGIKARP,35,38
 SuperRod
+    80,MAGIKARP,35,38
     20,GYARADOS,35,38
 	
 	
