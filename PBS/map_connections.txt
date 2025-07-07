@@ -79,4 +79,4 @@
 # Lostown Gym [Trap 2] (247) - Lostown Gym Room 5 (244)
 247,East,0,244,West,36
 # Tourmaline City (78) - Route 23 (226)
-78,South,0,226,North,66
+78,South,0,226,North,28
