@@ -16,6 +16,8 @@
 84,South,0,81,North,20
 # Route 14 (82) - Route 13 (129)
 82,North,0,129,South,0
+# Route 22 (225) - Route 15 (83)
+225,North,2,83,South,0
 # Route 19 (138) - Route 20 (198)
 138,North,45,198,South,0
 # Sea Heart (195) - Route 19 (138)
@@ -76,5 +78,5 @@
 245,East,0,244,West,0
 # Lostown Gym [Trap 2] (247) - Lostown Gym Room 5 (244)
 247,East,0,244,West,36
-# Route 22 (225) - Route 15 (83)
-225,North,2,83,South,0
+# Tourmaline City (78) - Route 23 (226)
+78,South,0,226,North,66

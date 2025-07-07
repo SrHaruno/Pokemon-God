@@ -402,7 +402,8 @@ MapPosition = 0,17,3
 Name = Tourmaline City
 Outdoor = true
 ShowArea = true
-MapPosition = 0,16,14
+Weather = Snow,100
+MapPosition = 0,15,18
 #-------------------------------
 [079]   # Route 10
 Name = Route 10
