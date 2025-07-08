@@ -689,9 +689,32 @@ Cave,7
 Cave,7
 	30,FRUCTERA,31,33
 	50,MOSSENGE,31,33
-
-
-
+	
+	
+#-------------------------------
+[250] # Crystal Cave
+Cave,7
+    40,MOSSENGE,38,40
+    30,CHIROPEEL,39
+#-------------------------------
+[251] # Crystal Cave
+Cave,7
+    40,MOSSENGE,38,40
+    30,CHIROPEEL,39
+#-------------------------------
+[252] # Crystal Cave
+Cave,7
+    40,MOSSENGE,38,40
+    30,CHIROPEEL,39
+Water
+	80,MAGIKARP,5
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,22,25
+	5,DRATINI,24
+SuperRod
+    20,GYARADOS,35,38	
 
 
 #Safari Zone

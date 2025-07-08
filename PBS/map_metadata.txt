@@ -1162,3 +1162,24 @@ BattleBack = Water
 [249]   # Fishing Guru [Route 23]
 Name = Route 23
 MapPosition = 0,13,18
+#-------------------------------
+[250]   # Crystal Cave [1F]
+Name = Crystal Cave
+ShowArea = true
+Bicycle = true
+MapPosition = 0,15,18
+BattleBack = Cave1
+#-------------------------------
+[251]   # Crystal Cave [2F]
+Name = Crystal Cave
+ShowArea = true
+Bicycle = true
+MapPosition = 0,15,18
+BattleBack = Cave1
+#-------------------------------
+[252]   # Cystal Cave [3F]
+Name = Crystal Cave
+ShowArea = true
+Bicycle = true
+MapPosition = 0,15,18
+BattleBack = Cave1
