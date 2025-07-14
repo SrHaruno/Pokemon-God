@@ -471,3 +471,262 @@ Clutch is Active!
 "The wild Blastoise fainted!"
 "Your other Pokémon also gained Exp. Points!"
 "Orbeaf grew to Lv. 16!"
+
+================================================================
+
+[Started battle] Single wild battle (1 trainer(s) vs. 1 wild Pokémon)
+"Oh! A wild Jynx appeared!"
+"Go! Shenragon!"
+"Snow is falling."
+[Round order] Shenragon (0), the wild Jynx (1)
+
+===== Round 1 =====
+
+[AI] Jynx (1) is considering using Sing against Shenragon (0)...
+[AI] Jynx (1) is considering using Fake Tears against Shenragon (0)...
+[AI] Jynx (1) is considering using Ice Punch against Shenragon (0)...
+[AI] Jynx (1) is considering using Psychic against Shenragon (0)...
+[AI] Move choices for Jynx (1):
+   *  20.0% to use Sing (target 0): score 100
+   *  20.0% to use Fake Tears (target 0): score 100
+   *  20.0% to use Fake Tears (target 0): score 100
+   *  20.0% to use Ice Punch (target 0): score 100
+   *  20.0% to use Psychic (target 0): score 100
+   => will use Psychic (target 0)
+
+[Round order] Shenragon (0), the wild Jynx (1)
+
+[Use move] Shenragon (0) used Zeus Punch
+"Shenragon used Zeus Punch!"
+"The Harmony Gem strengthened Zeus Punch's power!"
+[HP change] The wild Jynx lost 105 HP (105 -> 0)
+"A critical hit!"
+"The wild Jynx fainted!"
+[Item consumed] Shenragon consumed its held Harmony Gem
+"Shenragon got 1155 Exp. Points!"
+"Your other Pokémon also gained Exp. Points!"
+"Celesteon grew to Lv. 31!"
+
+===== Player won =====
+
+
+================================================================
+
+[Started battle] Single wild battle (1 trainer(s) vs. 1 wild Pokémon)
+"Oh! A wild Jynx appeared!"
+"Go! Celesteon!"
+"Snow is falling."
+[Round order] The wild Jynx (1), Celesteon (0)
+
+===== Round 1 =====
+
+[AI] Jynx (1) is considering using Sing against Celesteon (0)...
+[AI] Jynx (1) is considering using Fake Tears against Celesteon (0)...
+[AI] Jynx (1) is considering using Ice Punch against Celesteon (0)...
+[AI] Jynx (1) is considering using Psychic against Celesteon (0)...
+[AI] Move choices for Jynx (1):
+   *  20.0% to use Sing (target 0): score 100
+   *  20.0% to use Fake Tears (target 0): score 100
+   *  20.0% to use Ice Punch (target 0): score 100
+   *  20.0% to use Ice Punch (target 0): score 100
+   *  20.0% to use Psychic (target 0): score 100
+   => will use Ice Punch (target 0)
+
+[Round order] The wild Jynx (1), Celesteon (0)
+
+[Use move] The wild Jynx (1) used Ice Punch
+"The wild Jynx used Ice Punch!"
+[HP change] Celesteon lost 24 HP (110 -> 86)
+[Use move] Celesteon (0) used Chaotic Beam
+"Celesteon used Chaotic Beam!"
+"The Chaos Gem strengthened Chaotic Beam's power!"
+[HP change] The wild Jynx lost 59 HP (95 -> 36)
+"It's super effective!"
+[Item consumed] Celesteon consumed its held Chaos Gem
+
+[End of round 1]
+"The snow is falling down."
+
+===== Round 2 =====
+
+[AI] Celesteon (0) is forced to use a multi-turn move
+[AI] Jynx (1) is considering using Sing against Celesteon (0)...
+[AI] Jynx (1) is considering using Fake Tears against Celesteon (0)...
+[AI] Jynx (1) is considering using Ice Punch against Celesteon (0)...
+[AI] Jynx (1) is considering using Psychic against Celesteon (0)...
+[AI] Move choices for Jynx (1):
+   *  20.0% to use Sing (target 0): score 100
+   *  20.0% to use Fake Tears (target 0): score 100
+   *  20.0% to use Ice Punch (target 0): score 100
+   *  20.0% to use Ice Punch (target 0): score 100
+   *  20.0% to use Psychic (target 0): score 100
+   => will use Fake Tears (target 0)
+
+[Round order] The wild Jynx (1), Celesteon (0)
+
+[Use move] The wild Jynx (1) used Fake Tears
+"The wild Jynx used Fake Tears!"
+[Stat change] Celesteon's Special Defense changed by -2 (0 -> -2)
+"Celesteon's Special Defense harshly fell!"
+[Use move] Celesteon (0) used Chaotic Beam
+[Move failed] Celesteon is recharging after using Chaotic Beam
+"Celesteon must recharge!"
+
+[End of round 2]
+"The snow is falling down."
+
+===== Round 3 =====
+
+[AI] Jynx (1) is considering using Sing against Celesteon (0)...
+[AI] Jynx (1) is considering using Fake Tears against Celesteon (0)...
+[AI] Jynx (1) is considering using Ice Punch against Celesteon (0)...
+[AI] Jynx (1) is considering using Psychic against Celesteon (0)...
+[AI] Move choices for Jynx (1):
+   *  20.0% to use Sing (target 0): score 100
+   *  20.0% to use Fake Tears (target 0): score 100
+   *  20.0% to use Ice Punch (target 0): score 100
+   *  20.0% to use Ice Punch (target 0): score 100
+   *  20.0% to use Psychic (target 0): score 100
+   => will use Ice Punch (target 0)
+
+[Round order] The wild Jynx (1), Celesteon (0)
+
+[Use move] The wild Jynx (1) used Ice Punch
+"The wild Jynx used Ice Punch!"
+[HP change] Celesteon lost 23 HP (86 -> 63)
+[Use move] Celesteon (0) used Chaotic Beam
+"Celesteon used Chaotic Beam!"
+[HP change] The wild Jynx lost 36 HP (36 -> 0)
+"It's super effective!"
+"The wild Jynx fainted!"
+"Celesteon got 1899 Exp. Points!"
+"Your other Pokémon also gained Exp. Points!"
+
+===== Player won =====
+
+[Ability triggered] Celesteon's Natural Cure
+
+================================================================
+
+[Started battle] Single wild battle (1 trainer(s) vs. 1 wild Pokémon)
+"Oh! A wild Jynx appeared!"
+"Go! Celesteon!"
+"Snow is falling."
+[Round order] The wild Jynx (1), Celesteon (0)
+
+===== Round 1 =====
+
+"You couldn't get away!"
+[AI] Jynx (1) is considering using Sing against Celesteon (0)...
+[AI] Jynx (1) is considering using Fake Tears against Celesteon (0)...
+[AI] Jynx (1) is considering using Ice Punch against Celesteon (0)...
+[AI] Jynx (1) is considering using Psychic against Celesteon (0)...
+[AI] Move choices for Jynx (1):
+   *  20.0% to use Sing (target 0): score 100
+   *  20.0% to use Sing (target 0): score 100
+   *  20.0% to use Fake Tears (target 0): score 100
+   *  20.0% to use Ice Punch (target 0): score 100
+   *  20.0% to use Psychic (target 0): score 100
+   => will use Sing (target 0)
+
+[Round order] The wild Jynx (1), Celesteon (0)
+
+[Use move] The wild Jynx (1) used Sing
+"The wild Jynx used Sing!"
+"Celesteon fell asleep!"
+[Status change] Celesteon's sleep count is 3
+
+[End of round 1]
+"The snow is falling down."
+
+===== Round 2 =====
+
+"You got away safely!"
+[Ability triggered] Celesteon's Natural Cure
+
+================================================================
+
+[Started battle] Single wild battle (1 trainer(s) vs. 1 wild Pokémon)
+"Oh! A wild Chiropeel appeared!"
+"Go! Celesteon!"
+[Round order] The wild Chiropeel (1), Celesteon (0)
+
+===== Round 1 =====
+
+[AI] Chiropeel (1) is considering using Aerial Ace against Celesteon (0)...
+[AI] Chiropeel (1) is considering using Super Fang against Celesteon (0)...
+[AI] Chiropeel (1) is considering using Seed Bomb against Celesteon (0)...
+[AI] Chiropeel (1) is considering using Crunch against Celesteon (0)...
+[AI] Move choices for Chiropeel (1):
+   *  20.0% to use Aerial Ace (target 0): score 100
+   *  20.0% to use Aerial Ace (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Seed Bomb (target 0): score 100
+   *  20.0% to use Crunch (target 0): score 100
+   => will use Aerial Ace (target 0)
+
+[Round order] The wild Chiropeel (1), Celesteon (0)
+
+[Use move] The wild Chiropeel (1) used Aerial Ace
+"The wild Chiropeel used Aerial Ace!"
+[HP change] Celesteon lost 63 HP (63 -> 0)
+"Celesteon fainted!"
+
+[End of round 1]
+"Use next Pokémon?"
+"You're in charge, Joltah!"
+
+===== Round 2 =====
+
+[AI] Chiropeel (1) is considering using Aerial Ace against Joltah (0)...
+[AI] Chiropeel (1) is considering using Super Fang against Joltah (0)...
+[AI] Chiropeel (1) is considering using Seed Bomb against Joltah (0)...
+[AI] Chiropeel (1) is considering using Crunch against Joltah (0)...
+[AI] Move choices for Chiropeel (1):
+   *  20.0% to use Aerial Ace (target 0): score 100
+   *  20.0% to use Aerial Ace (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Seed Bomb (target 0): score 100
+   *  20.0% to use Crunch (target 0): score 100
+   => will use Aerial Ace (target 0)
+
+[Round order] Joltah (0), the wild Chiropeel (1)
+
+[Use move] Joltah (0) used Volt Switch
+"Joltah used Volt Switch!"
+[HP change] The wild Chiropeel lost 47 HP (105 -> 58)
+"Joltah went back to Haruno!"
+"Go for it, Shenragon!"
+[Use move] The wild Chiropeel (1) used Aerial Ace
+"The wild Chiropeel used Aerial Ace!"
+[HP change] Shenragon lost 46 HP (164 -> 118)
+
+[End of round 2]
+
+===== Round 3 =====
+
+[AI] Chiropeel (1) is considering using Aerial Ace against Shenragon (0)...
+[AI] Chiropeel (1) is considering using Super Fang against Shenragon (0)...
+[AI] Chiropeel (1) is considering using Seed Bomb against Shenragon (0)...
+[AI] Chiropeel (1) is considering using Crunch against Shenragon (0)...
+[AI] Move choices for Chiropeel (1):
+   *  20.0% to use Aerial Ace (target 0): score 100
+   *  20.0% to use Aerial Ace (target 0): score 100
+   *  20.0% to use Super Fang (target 0): score 100
+   *  20.0% to use Seed Bomb (target 0): score 100
+   *  20.0% to use Crunch (target 0): score 100
+   => will use Aerial Ace (target 0)
+
+[Round order] Shenragon (0), the wild Chiropeel (1)
+
+"Haruno threw an Ultra Ball!"
+[Threw Poké Ball] Ultra Ball, 4 shakes (4=capture)
+"Gotcha! Chiropeel was caught!"
+"Joltah got 699 Exp. Points!"
+"Joltah grew to Lv. 34!"
+"Shenragon got 385 Exp. Points!"
+
+===== Pokémon caught =====
+
+"Chiropeel's data was added to the Pokédex."
+"Chiropeel has been added to your party."

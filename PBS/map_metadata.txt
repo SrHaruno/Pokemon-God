@@ -1070,6 +1070,14 @@ MapPosition = 0,13,18
 BattleBack = Snow
 MapSize = 2,1100
 #-------------------------------
+[227]   # Route 24
+Name = Route 24
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,16,18
+BattleBack = Snow
+#-------------------------------
 [234]   # Lostown City
 Name = Lostown City
 Outdoor = true
@@ -1177,9 +1185,14 @@ Bicycle = true
 MapPosition = 0,15,18
 BattleBack = Cave1
 #-------------------------------
-[252]   # Cystal Cave [3F]
+[252]   # Cystal Cave [B1F]
 Name = Crystal Cave
 ShowArea = true
 Bicycle = true
 MapPosition = 0,15,18
 BattleBack = Cave1
+#-------------------------------
+[255]   # Route 24 Gate
+Name = Tourmaline City
+Bicycle = true
+MapPosition = 0,15,18
