@@ -1898,7 +1898,6 @@ Price = 10000
 SellPrice = 500
 Flags = Fling_90
 Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Angel-type moves.
-
 #-------------------------------
 [FIREGEM]
 Name = Fire Gem
@@ -2043,6 +2042,22 @@ Pocket = 1
 Price = 4000
 Flags = TypeGem
 Description = A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move only once.
+#-------------------------------
+[CHAOSGEM]
+Name = Chaos Gem
+NamePlural = Chaos Gems
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = A gem with an ordinary essence. When held, it strengthens the power of a Demon-type move only once.
+#-------------------------------
+[HARMONYGEM]
+Name = Harmony Gem
+NamePlural = Harmony Gems
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = A gem with an ordinary essence. When held, it strengthens the power of a Angel-type move only once.
 #-------------------------------
 [LIGHTBALL]
 Name = Light Ball

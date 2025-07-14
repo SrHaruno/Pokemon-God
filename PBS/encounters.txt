@@ -388,31 +388,23 @@ SuperRod
 #-------------------------------
 [140] # Route 26
 Land,20
-    40,DWILD,24,26
-	30,PURIRD,24,26
-	10,EEVEE,26
-LandNight,20
-    40,CAPYBURA,24,26
-	30,PURIRD,24,26
-	10,EEVEE,26
+    40,CHOPAXE,24,26
+	30,SQUT,24,26
+	10,ANGDEP,25
 Water
 	80,MAGIKARP,5
 OldRod
-    70,MAGIKARP,8,10
+    70,MAGIKARP,25
 GoodRod
-    60,MAGIKARP,8,10
+    60,MAGIKARP,22,24
 SuperRod
-    20,GYARADOS,30,33	
+    20,GYARADOS,35,38	
 #-------------------------------
 [142] # Route 27
 Land,20
-    40,DWILD,25,27
-	30,PURIRD,25,27
-	10,EEVEE,26
-LandNight,20
-    40,CAPYBURA,25,27
-	30,PURIRD,25,27
-	10,EEVEE,26
+    40,CHOPAXE,24,26
+	30,SQUT,24,26
+	10,ANGDEP,25
 
 
 
