@@ -2882,7 +2882,52 @@ Shape = Quadruped
 Category = Sun Absorber
 Pokedex = ???
 
-
+#-------------------------------
+[SCARRET]
+Name = Scarret
+Types = NORMAL
+BaseStats = 40,60,45,70,40,45
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 56
+EVs = SPEED,1
+CatchRate = 200
+Happiness = 60
+Abilities = TOUGHFUR,RUNAWAY
+HiddenAbilities = CLUTCH
+Moves = 1,TACKLE,1,TAILWHIP
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = TAILSLAP
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Brown
+Shape = Bipedal
+Category = Fur
+CallRateSOS = 15
+Evolutions = MAJESFUR,Item,ICESTONE
+#-------------------------------
+[MAJESFUR]
+Name = Majesfur
+Types = NORMAL,ICE
+BaseStats = 50,110,65,120,50,65
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 56
+EVs = SPEED,2
+CatchRate = 45
+Happiness = 60
+Abilities = TOUGHFUR,QUICKFEET
+HiddenAbilities = CLUTCH
+Moves = 1,TACKLE,1,TAILWHIP
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggGroups = Field
+Height = 0.7
+Weight = 6.9
+Color = Brown
+Shape = Bipedal
+Category = Fur
 
 #-------------------------------
 [SNAKRE]

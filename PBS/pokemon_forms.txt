@@ -418,14 +418,6 @@ Abilities = LEVITATE
 #
 #
 #-------------------------------
-[DWILD,1]
-FormName = Halloween Skin
-Evolutions = HOGGO,None,
-#-------------------------------
-[DWILD,2]
-FormName = Christmas Skin
-Evolutions = HOGGO,None,
-#-------------------------------
 [ORBEAF,1]
 FormName = Female
 BaseStats = 45,30,40,60,65,40

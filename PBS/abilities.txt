@@ -1147,3 +1147,7 @@ Description = May poison targets when a Pokémon makes contact.
 [CLUTCH]
 Name = Clutch
 Description = Boost Attack, Sp.Atk and Defense in a pinch.
+#-------------------------------
+[TOUGHFUR]
+Name = Tough Fur
+Description = Ups resistance to Fire- and Ice-type moves.

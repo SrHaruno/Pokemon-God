@@ -369,9 +369,9 @@ SuperRod
 #-------------------------------
 [226] # Route 23
 Land,20
-    30,SNEASEL,35,38
+    30,SCARRET,35,38
 LandNight,20
-    30,SNEASEL,35,38
+    30,SCARRET,35,38
 Water
 	80,MAGIKARP,35,38
 OldRod
@@ -384,9 +384,9 @@ SuperRod
 #-------------------------------
 [227] # Route 24
 Land,20
-    30,SNEASEL,40,42
+    30,SCARRET,40,42
 LandNight,20
-    30,SNEASEL,40,42
+    30,SCARRET,40,42
 	
 	
 	
