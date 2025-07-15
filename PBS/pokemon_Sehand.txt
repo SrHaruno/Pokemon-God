@@ -2928,6 +2928,58 @@ Weight = 6.9
 Color = Brown
 Shape = Bipedal
 Category = Fur
+#-------------------------------
+[ICEPHANT]
+Name = Icephant
+Types = ICE
+BaseStats = 70,80,50,30,45,50
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 56
+EVs = ATTACK,1
+CatchRate = 200
+Happiness = 60
+Abilities = THICKFAT,ICEBODY
+HiddenAbilities = SLUSHRUSH
+Moves = 1,TACKLE,1,TAILWHIP
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = TAILSLAP
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Blue
+Shape = Bipedal
+Category = Elephant
+CallRateSOS = 10
+Evolutions = PERMAPHANT,Level,48
+#-------------------------------
+[PERMAPHANT]
+Name = Permaphant
+Types = ICE,ROCK
+BaseStats = 105,130,70,60,55,70
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 56
+EVs = ATTACK,1
+CatchRate = 200
+Happiness = 60
+Abilities = THICKFAT,ICEBODY
+HiddenAbilities = SLUSHRUSH
+Moves = 1,TACKLE,1,TAILWHIP
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = TAILSLAP
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Blue
+Shape = Bipedal
+Category = Elephant
+
+
+
+
 
 #-------------------------------
 [SNAKRE]

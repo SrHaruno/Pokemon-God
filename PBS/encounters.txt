@@ -384,11 +384,29 @@ SuperRod
 #-------------------------------
 [227] # Route 24
 Land,20
-    30,SCARRET,40,42
+    40,SCARRET,40,42
 LandNight,20
-    30,SCARRET,40,42
-	
-	
+    40,SCARRET,40,42
+#-------------------------------
+[228] # Route 25 [1F]
+Land,20
+    40,SCARRET,42,44
+	30,ICEPHANT,42,44
+	5,JYNX,43
+LandNight,20
+    40,SCARRET,42,44
+	30,ICEPHANT,42,44
+	5,JYNX,43
+#-------------------------------
+[257] # Route 25 [2F]
+Land,20
+    40,SCARRET,42,44
+	30,ICEPHANT,42,44
+	5,JYNX,43
+LandNight,20
+    40,SCARRET,42,44
+	30,ICEPHANT,42,44
+	5,JYNX,43
 	
 #-------------------------------
 [140] # Route 26
@@ -712,6 +730,16 @@ GoodRod
 	5,DRATINI,24
 SuperRod
     20,GYARADOS,35,38	
+#-------------------------------
+[253] # Mt.Koji [1F]
+Cave,7
+    40,MOSSENGE,42,44
+    30,CHIROPEEL,43
+#-------------------------------
+[256] # Mt.Koji [2F]
+Cave,7
+    40,MOSSENGE,42,44
+    30,CHIROPEEL,43
 
 
 #Safari Zone
