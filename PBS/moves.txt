@@ -3763,6 +3763,19 @@ FunctionCode = None
 Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Slashing
 Description = Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.
 #-------------------------------
+[SEASONALSPIN]
+Name = Seasonal Spin
+Type = GRASS
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 40
+Target = NearOther
+FunctionCode = RemoveUserBindingAndEntryHazards
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = A seasonal changing spin that raises the user's Speed and eliminates the effects of Bind, Spikes, etc.
+#-------------------------------
 [VINEWHIP]
 Name = Vine Whip
 Type = GRASS
@@ -9038,6 +9051,18 @@ Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 30
 Description = The user bites with flame-cloaked fangs. It may also make the target flinch.
 #-------------------------------
+[PACIFYINGSTRIKE]
+Name = Pacifying Strike
+Type = ANGEL
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Contact
+Description = TBD
+#-------------------------------
 [HARMONYMAW]
 Name = Harmony Maw
 Type = ANGEL
@@ -9158,6 +9183,31 @@ Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The user belly presses the foe with all it's strenght. It also damages the user a little.
+#-------------------------------
+[MALICEWAVE]
+Name = Malice Wave
+Type = DEMON
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = Other
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove,Pulse
+EffectChance = 20
+Description = The user releases chaotic energy towards the foe. It may also make the target flinch.
+#-------------------------------
+[DREADFULWAVE]
+Name = Dreadful Wave
+Type = DEMON		
+Category = Special
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user strikes the target with a dread filled wave. This attack cannot be evaded.
 #-------------------------------
 [FEARSOMESLASH]
 Name = Fearsome Slash

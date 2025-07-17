@@ -214,8 +214,8 @@ LandNight,15
 [076] # Route 9
 Land,20
     40,ARKIDOE,19,21
-	10,PEACIRD,20
-    10,PINATAYA,20,21
+	10,PEACIRD,20,21
+    10,TUTULENTA,20
 #-------------------------------
 [079] # Route 10
 Water
@@ -230,7 +230,8 @@ SuperRod
 [081] # Route 11
 Land,20
     40,ARKIDOE,19,21
-    10,PINATAYA,20
+    30,CHOPAXE,19,21
+    10,TUTULENTA,20
 #-------------------------------
 [133] # Route 12
 Land,20

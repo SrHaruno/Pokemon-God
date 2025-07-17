@@ -6090,7 +6090,7 @@ FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[VAMPADGER]
+[BADGTURN]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
@@ -6151,12 +6151,6 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [KHECARAB]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[ROOGRE]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
@@ -6229,12 +6223,6 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [RAJOLT]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[PINATAYA]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
@@ -6378,7 +6366,7 @@ FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
-[ASTAREON]
+[BERSERKEON]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
