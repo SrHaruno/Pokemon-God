@@ -1651,7 +1651,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = PowerHigherWithUserHappiness
 Flags = Contact,CanProtect,CanMirrorMove
-Description = A love filled attack that becomes strongert he more the user likes its Trainer.
+Description = A love filled attack that becomes strongert the more the user likes its Trainer.
 #-------------------------------
 [DRAININGKISS]
 Name = Draining Kiss
@@ -4668,7 +4668,7 @@ Accuracy = 100
 TotalPP = 5
 Target = AllNearOthers
 FunctionCode = UserFaintsExplosive
-Flags = CanProtect,CanMirrorMove,Slashing
+Flags = CanProtect,CanMirrorMove
 Description = The user explodes to inflict damage on those around it. The user faints upon using this move.
 #-------------------------------
 [SELFDESTRUCT]
@@ -8096,6 +8096,18 @@ Target = NearOther
 FunctionCode = IgnoreTargetAbility
 Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
 Description = The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability.
+#-------------------------------
+[WOODSMANCHOP]
+Name = Wood'sman Chop
+Type = STEEL
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Slashing
+Description = The user headbutts the foe with it's axe-like head.
 #-------------------------------
 [METEORMASH]
 Name = Meteor Mash
