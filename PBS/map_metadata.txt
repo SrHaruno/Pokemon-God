@@ -944,6 +944,11 @@ Environment = Cave
 Name = Gigantopolis
 MapPosition = 0,13,3
 #-------------------------------
+[188]   # Viridis Forest Gate
+Name = Viridan Forest
+Bicycle = true
+MapPosition = 0,25,6
+#-------------------------------
 [191]   # Sus bulding [1F]
 Name = Gigantopolis
 MapPosition = 0,13,3

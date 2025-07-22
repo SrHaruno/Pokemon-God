@@ -5828,7 +5828,7 @@ ShadowSize = 3
 #-------------------------------
 [LARVENGUE]
 BackSprite = 0,0
-FrontSprite = 0,20
+FrontSprite = 0,18
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5882,7 +5882,7 @@ ShadowSize = 2
 #-------------------------------
 [PUPENGUE]
 BackSprite = 0,20
-FrontSprite = 0,24
+FrontSprite = -1,19
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -6449,3 +6449,27 @@ BackSprite = 0,0
 FrontSprite = 0,6
 ShadowX = 0
 ShadowSize = 1
+#-------------------------------
+[MUTAFISH]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SILLEARPPY]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TOKODRA]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SOLISAUR]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
