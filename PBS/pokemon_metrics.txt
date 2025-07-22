@@ -5881,7 +5881,7 @@ ShadowX = 2
 ShadowSize = 2
 #-------------------------------
 [PUPENGUE]
-BackSprite = 0,20
+BackSprite = 0,6
 FrontSprite = -1,19
 ShadowX = 0
 ShadowSize = 2
@@ -6469,6 +6469,18 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [SOLISAUR]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[MAJESFUR]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[PLANTEMIS]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
