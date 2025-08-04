@@ -1099,6 +1099,14 @@ Weather = Fog,100
 MapPosition = 0,4,5
 BattleBack = Field
 #-------------------------------
+[235]   # Shurayuki Village
+Name = Shurayuki Village
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,18,17
+BattleBack = Snow
+#-------------------------------
 [236]   # Route 21 Gate
 Name = Route 21
 Bicycle = true
@@ -1236,4 +1244,17 @@ Outdoor = true
 ShowArea = true
 Weather = Blizzard,100
 MapPosition = 0,17,18
+BattleBack = Snow
+#-------------------------------
+[259]   # Mt.Koji [4F]
+Name = Mt.Koji
+Bicycle = true
+MapPosition = 0,16,16
+#-------------------------------
+[261]   # Route 25 [3F]
+Name = Route 25
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,18,18
 BattleBack = Snow

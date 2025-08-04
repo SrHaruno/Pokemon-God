@@ -397,9 +397,16 @@ Land,20
 LandNight,20
     40,SCARRET,42,44
 	30,ICEPHANT,42,44
-	5,JYNX,43
 #-------------------------------
 [257] # Route 25 [2F]
+Land,20
+    40,SCARRET,42,44
+	30,ICEPHANT,42,44
+LandNight,20
+    40,SCARRET,42,44
+	30,ICEPHANT,42,44
+#-------------------------------
+[261] # Route 25 [3F]
 Land,20
     40,SCARRET,42,44
 	30,ICEPHANT,42,44
@@ -407,7 +414,7 @@ Land,20
 LandNight,20
     40,SCARRET,42,44
 	30,ICEPHANT,42,44
-	5,JYNX,43
+	
 	
 #-------------------------------
 [140] # Route 26

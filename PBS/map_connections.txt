@@ -10,6 +10,8 @@
 61,North,0,138,South,63
 # Route 9 (76) - Route 10 (79)
 76,North,0,79,South,28
+# Tourmaline City (78) - Route 23 (226)
+78,South,0,226,North,28
 # Route 10 (79) - Route 11 (81)
 79,North,2,81,South,0
 # Power Plant (84) - Route 11 (81)
@@ -78,5 +80,5 @@
 245,East,0,244,West,0
 # Lostown Gym [Trap 2] (247) - Lostown Gym Room 5 (244)
 247,East,0,244,West,36
-# Tourmaline City (78) - Route 23 (226)
-78,South,0,226,North,28
+# Route 25 [3F] (261) - Shurayuki Village (235)
+261,North,0,235,South,1
