@@ -916,22 +916,26 @@ BattleBack = Cave1
 [182]   # Mt.Harmony [2F]
 Name = Mt.Harmony
 Bicycle = true
+MapPosition = 0,8,9
 BattleBack = Cave1
 #-------------------------------
 [183]   # Mt.Harmony [3F]
 Name = Mt.Harmony
 Bicycle = true
+MapPosition = 0,8,9
 BattleBack = Cave1
 #-------------------------------
 [184]   # Mt.Harmony [3F Outside]
 Name = Mt.Harmony
 Outdoor = true
+MapPosition = 0,8,9
 BattleBack = Field
 Environment = Rock
 #-------------------------------
 [185]   # Mt.Harmony [3F]
 Name = Mt.Harmony
 Bicycle = true
+MapPosition = 0,8,9
 BattleBack = Cave1
 #-------------------------------
 [186]   # Mt.Harmony [Trial 3]
@@ -991,11 +995,13 @@ BattleBack = Water
 [200]   # Mt.Solar [2F]
 Name = Mt.Solar
 Bicycle = true
+MapPosition = 0,22,6
 BattleBack = Cave1
 #-------------------------------
 [201]   # Mt.Solar [2F]
 Name = Mt.Solar
 Bicycle = true
+MapPosition = 0,22,6
 BattleBack = Cave1
 #-------------------------------
 [202]   # Mt.Solar [Outside]
@@ -1014,25 +1020,31 @@ MapPosition = 0,18,7
 #-------------------------------
 [211]   # Haunted Tower [1F]
 Name = Haunted Tower
+MapPosition = 0,18,6
 #-------------------------------
 [212]   # Haunted Tower [2F]
 Name = Haunted Tower
+MapPosition = 0,18,6
 #-------------------------------
 [213]   # Haunted Tower [3F]
 Name = Haunted Tower
+MapPosition = 0,18,6
 #-------------------------------
 [214]   # Haunted Tower [4F]
 Name = Haunted Tower
+MapPosition = 0,18,6
 #-------------------------------
 [215]   # Haunted Tower [5F]
 Name = Haunted Tower
 Outdoor = true
+MapPosition = 0,18,6
 BattleBack = Indoor1
 #-------------------------------
 [216]   # Forest Heart
 Name = Forest Heart
 Outdoor = true
 ShowArea = true
+MapPosition = 0,17,4
 BattleBack = Forest
 #-------------------------------
 [219]   # Herb Shop
@@ -1258,3 +1270,11 @@ ShowArea = true
 Weather = Snow,100
 MapPosition = 0,18,18
 BattleBack = Snow
+#-------------------------------
+[262]   # Shurayuki Village PC
+Name = Shurayuki Village
+MapPosition = 0,18,17
+#-------------------------------
+[263]   # Shurayuki PC 2F
+Name = Shurayuki Village
+MapPosition = 0,18,17
