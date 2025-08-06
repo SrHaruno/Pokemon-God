@@ -51,11 +51,11 @@ LoseText = Well, I lost.
  Pokemon = PURIRD,9
   Gender = Male
  
-  Pokemon = FLAMUNNY,9
-  Gender = Male
- 
  Pokemon = MAGIKARP,9
   Gender = Female
+ 
+ Pokemon = FLAMUNNY,9
+  Gender = Male
 
  Pokemon = GRALING,11
   Gender = Male
@@ -66,11 +66,11 @@ LoseText = Well, I lost.
  Pokemon = PURIRD,9
   Gender = Male
 
- Pokemon = ORBEAF,9
-  Gender = Male
-
  Pokemon = MAGIKARP,9
   Gender = Female
+
+ Pokemon = ORBEAF,9
+  Gender = Male
 
  Pokemon = EGDON,11
   Gender = Male
@@ -88,11 +88,11 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = FLAMUNNY,20
   Gender = Male
 
- Pokemon = KITSU,20
-  Gender = Male
-
  Pokemon = ORBEAF,20
 	Gender = Male
+
+ Pokemon = KITSU,20
+  Gender = Male
 
  Pokemon = PSYLOTE,22
   Gender = Male
@@ -102,12 +102,12 @@ LoseText = Hopefully the locals enjoyed this battle!
  
  Pokemon = YOUNROW,20
    Gender = Male
- 
- Pokemon = FLAMUNNY,20
-  Gender = Male
- 
+
  Pokemon = GYARADOS,20
    Gender = Female
+
+ Pokemon = FLAMUNNY,20
+  Gender = Male
  
  Pokemon = KITSU,20
   Gender = Male
@@ -120,15 +120,15 @@ LoseText = Hopefully the locals enjoyed this battle!
 
  Pokemon = YOUNROW,20
    Gender = Male
+
+ Pokemon = GYARADOS,20
+   Gender = Female
  
  Pokemon = ORBEAF,20
 	Gender = Male
  
  Pokemon = KITSU,20
 	Gender = Male
- 
- Pokemon = GYARADOS,20
-   Gender = Female
  
  Pokemon = DRAMODO,22
 	Gender = Male
@@ -145,11 +145,11 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = FLAMUNNY,27
   Gender = Male
 
- Pokemon = KITSU,27
-	Gender = Male
-	
  Pokemon = ORIKEN,27
   Gender = Male
+
+ Pokemon = KITSU,27
+	Gender = Male
 
  Pokemon = PSYLOTE,29
   Gender = Male
@@ -175,15 +175,15 @@ LoseText = Hopefully the locals enjoyed this battle!
 
  Pokemon = YOUNROW,27
   Gender = Male
+
+ Pokemon = GYARADOS,27
+  Gender = Female
    
  Pokemon = ORIKEN,27
   Gender = Male
  
  Pokemon = KITSU,27
   Gender = Male
-
- Pokemon = GYARADOS,27
-  Gender = Female
 
  Pokemon = DRAMODO,29
   Gender = Male
@@ -203,12 +203,12 @@ LoseText = Hopefully the locals enjoyed this battle!
   Gender = Male
   Moves  = SHADOWSNEAK,INFERNORAZOR,KARATECHOP
 
+ Pokemon = KATAGAMI,35
+  Moves  = SLASH,NIGHTSLASH,SMARTSTRIKE,RAZORLEAF
+
  Pokemon = DEVITSUNE,35
   Gender = Male
   Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
-
- Pokemon = KATAGAMI,35
-  Moves  = SLASH,NIGHTSLASH,SMARTSTRIKE,RAZORLEAF
 
  Pokemon = AXOLYSTIC,38
   Gender = Male
@@ -224,13 +224,13 @@ LoseText = Hopefully the locals enjoyed this battle!
   Gender = Male
   Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
  
-  Pokemon = SAMURUNNY,35
-  Gender = Male
-  Moves  = SHADOWSNEAK,INFERNORAZOR,KARATECHOP
- 
  Pokemon = GYARADOS,35
   Gender = Female
-  Moves  = DRAGONDANCE,ICEFANG,BITE,DRAGONRAGE
+  Moves  = DRAGONDANCE,ICEFANG,BITE,DRAGONRAGE 
+ 
+ Pokemon = SAMURUNNY,35
+  Gender = Male
+  Moves  = SHADOWSNEAK,INFERNORAZOR,KARATECHOP
  
  Pokemon = DEVITSUNE,35
   Gender = Male
@@ -239,7 +239,7 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = JUNVIL,38
   Gender = Male
   Item   = JUNVILITE
-  Moves  = GAIAWRATH,BULLDOZE,RAZORLEAF
+  Moves  = GAIAWRATH,BULLDOZE,NIGHTSLASH,BULKUP
   
 #-------------------------------
 [RIVAL2,Bruno,6] #Water Starter
@@ -249,17 +249,17 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = YOUNROW,35
   Gender = Male
   Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
-   
+
+ Pokemon = GYARADOS,35
+  Gender = Female
+  Moves  = DRAGONDANCE,ICEFANG,BITE,DRAGONRAGE
+
  Pokemon = KATAGAMI,35
   Moves  = SLASH,NIGHTSLASH,SMARTSTRIKE,RAZORLEAF
  
  Pokemon = DEVITSUNE,35
   Gender = Male
   Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
-
- Pokemon = GYARADOS,35
-  Gender = Female
-  Moves  = DRAGONDANCE,ICEFANG,BITE,DRAGONRAGE
 
  Pokemon = KOMODRA,38
   Gender = Male
@@ -274,7 +274,7 @@ LoseText = Hopefully the locals enjoyed this battle!
   LoseText = Well T-T-That a cold shower!
   Items  = MEGARING
 
- Pokemon = YOUNROW,44
+ Pokemon = CRORIRD,44
   Gender = Male
   Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
   
@@ -282,13 +282,13 @@ LoseText = Hopefully the locals enjoyed this battle!
   Gender = Male
   Moves  = SHADOWSNEAK,INFERNORAZOR,KARATECHOP
 
- Pokemon = DEVITSUNE,44
-  Gender = Male
-  Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
-
  Pokemon = KATAGAMI,44
   Gender = Male
   Moves  = SLASH,NIGHTSLASH,SMARTSTRIKE,RAZORLEAF
+
+ Pokemon = DEVITSUNE,44
+  Gender = Male
+  Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
 
  Pokemon = AXOLYSTIC,48
   Gender = Male
@@ -300,7 +300,7 @@ LoseText = Hopefully the locals enjoyed this battle!
   LoseText = Well T-T-That a cold shower!
   Items  = MEGARING
  
- Pokemon = YOUNROW,44
+ Pokemon = CRORIRD,44
   Gender = Male
   Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
  
@@ -308,27 +308,31 @@ LoseText = Hopefully the locals enjoyed this battle!
   Gender = Female
   Moves  = DRAGONDANCE,ICEFANG,AQUATAIL,CRUNCH
  
+ Pokemon = SAMURUNNY,44
+  Gender = Male
+  Moves  = SHADOWSNEAK,INFERNORAZOR,KARATECHOP
+ 
  Pokemon = DEVITSUNE,44
   Gender = Male
   Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
 
- Pokemon = KATAGAMI,44
-  Gender = Male
-  Moves  = SLASH,NIGHTSLASH,SMARTSTRIKE,RAZORLEAF
-
  Pokemon = JUNVIL,48
   Gender = Male
   Item   = JUNVILITE
-  Moves  = GAIAWRATH,EARTHQUAKE,WOODHAMMER
+  Moves  = GAIAWRATH,EARTHQUAKE,NIGHTSLASH,BULKUP
   
 #-------------------------------
 [RIVAL2,Bruno,9] #Water Starter
   LoseText = Well T-T-That was a cold shower!
   Items  = MEGARING
  
- Pokemon = YOUNROW,44
+ Pokemon = CRORIRD,44
   Gender = Male
   Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
+   
+ Pokemon = GYARADOS,44
+  Gender = Female
+  Moves  = DRAGONDANCE,ICEFANG,AQUATAIL,CRUNCH  
    
  Pokemon = KATAGAMI,44
   Moves  = SLASH,NIGHTSLASH,SMARTSTRIKE,RAZORLEAF
@@ -336,10 +340,6 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = DEVITSUNE,44
   Gender = Male
   Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
-
- Pokemon = GYARADOS,44
-  Gender = Female
-  Moves  = DRAGONDANCE,ICEFANG,AQUATAIL,CRUNCH
 
  Pokemon = KOMODRA,48
   Gender = Male
@@ -788,6 +788,14 @@ LoseText = Nooooooo! My plans have been fooled!
 Pokemon = RAJOLT,30
 Pokemon = CASEECH,30
 Pokemon = JOLTUTER,30
+
+
+#Shurayuki Village
+#-------------------------------
+[SNOWCLOAK,Shinji]
+LoseText = Huh?
+Pokemon = MAJESFUR,46
+
 
 
 #===========================================================================

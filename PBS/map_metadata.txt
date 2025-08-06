@@ -1225,7 +1225,7 @@ Bicycle = true
 MapPosition = 0,15,18
 BattleBack = Cave1
 #-------------------------------
-[253]   # Mt.Koji [1F]
+[253]   # Mt.Kõji [1F]
 Name = Mt.Kõji
 ShowArea = true
 Bicycle = true
@@ -1243,7 +1243,7 @@ Name = Tourmaline City
 Bicycle = true
 MapPosition = 0,15,18
 #-------------------------------
-[256]   # Mt.Koji [2F]
+[256]   # Mt.Kõji [2F]
 Name = Mt.Kõji
 ShowArea = true
 Bicycle = true
@@ -1258,10 +1258,23 @@ Weather = Blizzard,100
 MapPosition = 0,17,18
 BattleBack = Snow
 #-------------------------------
-[259]   # Mt.Koji [4F]
-Name = Mt.Koji
+[258]   # Mt.Kõji [3F]
+Name = Mt.Kõji
 Bicycle = true
 MapPosition = 0,16,16
+BattleBack = Cave1
+#-------------------------------
+[259]   # Mt.Kõji [4F]
+Name = Mt.Kõji
+Bicycle = true
+MapPosition = 0,16,16
+BattleBack = Cave1
+#-------------------------------
+[260]   # Mt.Kõji [3F]
+Name = Mt.Kõji
+Bicycle = true
+MapPosition = 0,16,16
+BattleBack = Cave1
 #-------------------------------
 [261]   # Route 25 [3F]
 Name = Route 25

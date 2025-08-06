@@ -385,6 +385,9 @@ Name = Rancher
 Gender = Male
 BaseMoney = 40
 IntroBGM = Trainer Eyes Meet! Hiker
+
+
+
 #-------------------------------
 [REAPER]
 Name = Reaper
@@ -392,3 +395,11 @@ Gender = Male
 BaseMoney = 32
 BattleBGM = Battle! Vs Reaper
 IntroBGM = Trainer Eyes Meet! Reaper
+#-------------------------------
+[SNOWCLOAK]
+Name = Snowcloak
+Gender = Male
+BaseMoney = 60
+SkillLevel = 100
+IntroBGM = Trainer Eyes Meet! Psychic
+
