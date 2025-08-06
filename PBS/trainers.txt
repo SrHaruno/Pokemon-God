@@ -3,7 +3,7 @@
 #===========================================================================
 # Rival Battles
 
-# First Rival Battle
+# First Rival Battle -- Pokemon Lab
 #-------------------------------
 [RIVAL1,Bruno,1] #Grass Starter
 LoseText = I might have lost that battle, but I learned somenthing with that battle!
@@ -28,7 +28,7 @@ LoseText = I might have lost that battle, but I learned somenthing with that bat
 
 
 
-# Second Rival Battle
+# Second Rival Battle -- Route 2
 #-------------------------------
 [RIVAL1,Bruno,4] #Grass Starter
 LoseText = Well, I lost.
@@ -39,6 +39,9 @@ LoseText = Well, I lost.
  Pokemon = FLAMUNNY,9
   Gender = Male
  
+ Pokemon = ORBEAF,9
+  Gender = Male
+ 
  Pokemon = AXOLOBY,11
 	Gender = Male
 #-------------------------------
@@ -46,6 +49,9 @@ LoseText = Well, I lost.
 LoseText = Well, I lost.
 
  Pokemon = PURIRD,9
+  Gender = Male
+ 
+  Pokemon = FLAMUNNY,9
   Gender = Male
  
  Pokemon = MAGIKARP,9
@@ -63,12 +69,15 @@ LoseText = Well, I lost.
  Pokemon = ORBEAF,9
   Gender = Male
 
+ Pokemon = MAGIKARP,9
+  Gender = Female
+
  Pokemon = EGDON,11
   Gender = Male
 
 
 
-# Third Rival Battle
+# Third Rival Battle -- Vituresa Village
 #-------------------------------
 [RIVAL1,Bruno,7] #Grass Starter
 LoseText = Hopefully the locals enjoyed this battle!
@@ -82,6 +91,9 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = KITSU,20
   Gender = Male
 
+ Pokemon = ORBEAF,20
+	Gender = Male
+
  Pokemon = PSYLOTE,22
   Gender = Male
 #-------------------------------
@@ -90,6 +102,9 @@ LoseText = Hopefully the locals enjoyed this battle!
  
  Pokemon = YOUNROW,20
    Gender = Male
+ 
+ Pokemon = FLAMUNNY,20
+  Gender = Male
  
  Pokemon = GYARADOS,20
    Gender = Female
@@ -112,6 +127,9 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = KITSU,20
 	Gender = Male
  
+ Pokemon = GYARADOS,20
+   Gender = Female
+ 
  Pokemon = DRAMODO,22
 	Gender = Male
 
@@ -120,6 +138,7 @@ LoseText = Hopefully the locals enjoyed this battle!
 # Fifth Gym -- Bruno Tags with player
 #-------------------------------
 [RIVAL2,Bruno,1] #Grass Starter
+
  Pokemon = YOUNROW,27
   Gender = Male
   
@@ -128,15 +147,23 @@ LoseText = Hopefully the locals enjoyed this battle!
 
  Pokemon = KITSU,27
 	Gender = Male
+	
+ Pokemon = ORIKEN,27
+  Gender = Male
 
  Pokemon = PSYLOTE,29
   Gender = Male
 #-------------------------------
 [RIVAL2,Bruno,2] #Fire Starter
+
  Pokemon = YOUNROW,27
- 
+  Gender = Male 
+
  Pokemon = GYARADOS,27
   Gender = Female
+ 
+ Pokemon = FLAMUNNY,27
+  Gender = Male
  
  Pokemon = KITSU,27
 	Gender = Male
@@ -145,6 +172,7 @@ LoseText = Hopefully the locals enjoyed this battle!
   Gender = Male
 #-------------------------------
 [RIVAL2,Bruno,3] #Water Starter
+
  Pokemon = YOUNROW,27
   Gender = Male
    
@@ -154,11 +182,14 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = KITSU,27
   Gender = Male
 
+ Pokemon = GYARADOS,27
+  Gender = Female
+
  Pokemon = DRAMODO,29
   Gender = Male
 
 
-# Fourth Battle
+# Sixth Battle -- Route 21
 #-------------------------------
 [RIVAL2,Bruno,4] #Grass Starter
   LoseText = You still got this!
@@ -176,6 +207,9 @@ LoseText = Hopefully the locals enjoyed this battle!
   Gender = Male
   Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
 
+ Pokemon = KATAGAMI,35
+  Moves  = SLASH,NIGHTSLASH,SMARTSTRIKE,RAZORLEAF
+
  Pokemon = AXOLYSTIC,38
   Gender = Male
   Item   = AXOLYSTICITE
@@ -190,6 +224,10 @@ LoseText = Hopefully the locals enjoyed this battle!
   Gender = Male
   Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
  
+  Pokemon = SAMURUNNY,35
+  Gender = Male
+  Moves  = SHADOWSNEAK,INFERNORAZOR,KARATECHOP
+ 
  Pokemon = GYARADOS,35
   Gender = Female
   Moves  = DRAGONDANCE,ICEFANG,BITE,DRAGONRAGE
@@ -198,7 +236,7 @@ LoseText = Hopefully the locals enjoyed this battle!
   Gender = Male
   Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
 
- Pokemon = JUNVIL,37
+ Pokemon = JUNVIL,38
   Gender = Male
   Item   = JUNVILITE
   Moves  = GAIAWRATH,BULLDOZE,RAZORLEAF
@@ -219,10 +257,94 @@ LoseText = Hopefully the locals enjoyed this battle!
   Gender = Male
   Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
 
- Pokemon = KOMODRA,29
+ Pokemon = GYARADOS,35
+  Gender = Female
+  Moves  = DRAGONDANCE,ICEFANG,BITE,DRAGONRAGE
+
+ Pokemon = KOMODRA,38
   Gender = Male
   Item   = KOMODRAITE
-  Moves  = DRACOSPHERE,FLAMEBURST
+  Moves  = DRACOSPHERE,FLAMEBURST,POISONFANG
+
+
+
+# Seventh Battle -- Mt.Koji
+#-------------------------------
+[RIVAL2,Bruno,7] #Grass Starter
+  LoseText = Well T-T-That a cold shower!
+  Items  = MEGARING
+
+ Pokemon = YOUNROW,44
+  Gender = Male
+  Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
+  
+ Pokemon = SAMURUNNY,44
+  Gender = Male
+  Moves  = SHADOWSNEAK,INFERNORAZOR,KARATECHOP
+
+ Pokemon = DEVITSUNE,44
+  Gender = Male
+  Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
+
+ Pokemon = KATAGAMI,44
+  Gender = Male
+  Moves  = SLASH,NIGHTSLASH,SMARTSTRIKE,RAZORLEAF
+
+ Pokemon = AXOLYSTIC,48
+  Gender = Male
+  Item   = AXOLYSTICITE
+  Moves  = MENTALPULSE,SURF,CONFUSERAY,RECOVER
+  
+#-------------------------------
+[RIVAL2,Bruno,8] #Fire Starter
+  LoseText = Well T-T-That a cold shower!
+  Items  = MEGARING
+ 
+ Pokemon = YOUNROW,44
+  Gender = Male
+  Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
+ 
+ Pokemon = GYARADOS,44
+  Gender = Female
+  Moves  = DRAGONDANCE,ICEFANG,AQUATAIL,CRUNCH
+ 
+ Pokemon = DEVITSUNE,44
+  Gender = Male
+  Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
+
+ Pokemon = KATAGAMI,44
+  Gender = Male
+  Moves  = SLASH,NIGHTSLASH,SMARTSTRIKE,RAZORLEAF
+
+ Pokemon = JUNVIL,48
+  Gender = Male
+  Item   = JUNVILITE
+  Moves  = GAIAWRATH,EARTHQUAKE,WOODHAMMER
+  
+#-------------------------------
+[RIVAL2,Bruno,9] #Water Starter
+  LoseText = Well T-T-That was a cold shower!
+  Items  = MEGARING
+ 
+ Pokemon = YOUNROW,44
+  Gender = Male
+  Moves  = AIRSLASH,DARKPULSE,ROOST,QUICKATTACK
+   
+ Pokemon = KATAGAMI,44
+  Moves  = SLASH,NIGHTSLASH,SMARTSTRIKE,RAZORLEAF
+ 
+ Pokemon = DEVITSUNE,44
+  Gender = Male
+  Moves  = HONECLAWS,CLOSECOMBAT,BERSERKSMASH
+
+ Pokemon = GYARADOS,44
+  Gender = Female
+  Moves  = DRAGONDANCE,ICEFANG,AQUATAIL,CRUNCH
+
+ Pokemon = KOMODRA,48
+  Gender = Male
+  Item   = KOMODRAITE
+  Moves  = DRACOSPHERE,FLAMETHROWER,SLUDGEBOMB
 
 
 #===========================================================================

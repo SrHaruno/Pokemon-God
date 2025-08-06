@@ -748,7 +748,16 @@ Cave,7
 Cave,7
     40,MOSSENGE,42,44
     30,CHIROPEEL,43
-
+#-------------------------------
+[260] # Mt.Koji [3F]
+Cave,7
+    40,MOSSENGE,42,44
+    30,CHIROPEEL,43
+#-------------------------------
+[259] # Mt.Koji [4F]
+Cave,7
+    40,MOSSENGE,42,44
+    30,CHIROPEEL,43
 
 #Safari Zone
 #-------------------------------
