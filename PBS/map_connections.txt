@@ -82,3 +82,5 @@
 247,East,0,244,West,36
 # Route 25 [3F] (261) - Shurayuki Village (235)
 261,North,0,235,South,1
+# Sharayuki Peak (266) - Shurayuki Village (235)
+266,South,0,235,North,2

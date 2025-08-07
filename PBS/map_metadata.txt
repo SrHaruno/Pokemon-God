@@ -108,7 +108,7 @@ ShowArea = true
 MapPosition = 0,25,7
 BattleBack = field
 #-------------------------------
-[023]   # Mt.Solar (Route 2)
+[023]   # Mt.Solar [Route 2]
 Name = Mt.Solar
 ShowArea = true
 Bicycle = true
@@ -526,7 +526,7 @@ Name = Battle Island
 BattleBack = indoor2
 TrainerBattleBGM = Battle! Vs Battle Tower Trainer
 #-------------------------------
-[103]   # Mt.Solar(Route 4)
+[103]   # Mt.Solar [Route 4]
 Name = Mt.Solar
 Bicycle = true
 MapPosition = 0,22,9
@@ -539,7 +539,7 @@ Bicycle = true
 MapPosition = 0,14,10
 BattleBack = Cave1
 #-------------------------------
-[105]   # Klepto Cave (B1F)
+[105]   # Klepto Cave [B1F]
 Name = Klepto Cave
 Bicycle = true
 MapPosition = 0,14,10
@@ -1225,7 +1225,7 @@ Bicycle = true
 MapPosition = 0,15,18
 BattleBack = Cave1
 #-------------------------------
-[253]   # Mt.Kõji [1F]
+[253]   # Mt.Koji [1F]
 Name = Mt.Kõji
 ShowArea = true
 Bicycle = true
@@ -1243,7 +1243,7 @@ Name = Tourmaline City
 Bicycle = true
 MapPosition = 0,15,18
 #-------------------------------
-[256]   # Mt.Kõji [2F]
+[256]   # Mt.Koji [2F]
 Name = Mt.Kõji
 ShowArea = true
 Bicycle = true
@@ -1258,19 +1258,19 @@ Weather = Blizzard,100
 MapPosition = 0,17,18
 BattleBack = Snow
 #-------------------------------
-[258]   # Mt.Kõji [3F]
+[258]   # Mt.Koji [3F]
 Name = Mt.Kõji
 Bicycle = true
 MapPosition = 0,16,16
 BattleBack = Cave1
 #-------------------------------
-[259]   # Mt.Kõji [4F]
+[259]   # Mt.Koji [4F]
 Name = Mt.Kõji
 Bicycle = true
 MapPosition = 0,16,16
 BattleBack = Cave1
 #-------------------------------
-[260]   # Mt.Kõji [3F]
+[260]   # Mt.Koji [3F]
 Name = Mt.Kõji
 Bicycle = true
 MapPosition = 0,16,16
@@ -1291,3 +1291,15 @@ MapPosition = 0,18,17
 [263]   # Shurayuki PC 2F
 Name = Shurayuki Village
 MapPosition = 0,18,17
+#-------------------------------
+[264]   # Victory Road Gate
+Name = Route 25
+Bicycle = true
+MapPosition = 0,18,18
+#-------------------------------
+[266]   # Sharayuki Peak
+Name = Sharayuki Village
+Outdoor = true
+Weather = Snow,100
+MapPosition = 0,18,17
+BattleBack = Snow
