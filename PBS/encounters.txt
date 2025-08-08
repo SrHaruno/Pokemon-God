@@ -215,7 +215,7 @@ LandNight,15
 Land,20
     40,ARKIDOE,19,21
 	10,PEACIRD,20,21
-    10,TUTULENTA,20
+    10,SUCULLET,20
 #-------------------------------
 [079] # Route 10
 Water
@@ -231,7 +231,7 @@ SuperRod
 Land,20
     40,ARKIDOE,19,21
     30,CHOPAXE,19,21
-    10,TUTULENTA,20
+    10,SUCULLET,20
 #-------------------------------
 [133] # Route 12
 Land,20
@@ -402,9 +402,11 @@ LandNight,20
 Land,20
     40,SCARRET,42,44
 	30,ICEPHANT,42,44
+	5,JYNX,43
 LandNight,20
     40,SCARRET,42,44
 	30,ICEPHANT,42,44
+	5,JYNX,43
 #-------------------------------
 [261] # Route 25 [3F]
 Land,20
@@ -414,6 +416,7 @@ Land,20
 LandNight,20
     40,SCARRET,42,44
 	30,ICEPHANT,42,44
+	5,JYNX,43
 	
 	
 #-------------------------------
@@ -758,6 +761,8 @@ Cave,7
 Cave,7
     40,MOSSENGE,42,44
     30,CHIROPEEL,43
+
+
 
 #Safari Zone
 #-------------------------------

@@ -91,7 +91,14 @@ BaseMoney = 100
 SkillLevel = 100
 BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Victory! Gym Leader
-
+#-------------------------------
+[LEADER_Ayumi]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+SkillLevel = 100
+BattleBGM = Battle! Vs Gym Leader
+VictoryBGM = Victory! Gym Leader
 
 #-------------------------------
 [AROMALADY]

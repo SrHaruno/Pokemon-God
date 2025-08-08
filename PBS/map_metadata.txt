@@ -1303,3 +1303,7 @@ Outdoor = true
 Weather = Snow,100
 MapPosition = 0,18,17
 BattleBack = Snow
+#-------------------------------
+[276]   # Shurayuki Gym [4F]
+Name = Shurayuki Village
+MapPosition = 0,18,17

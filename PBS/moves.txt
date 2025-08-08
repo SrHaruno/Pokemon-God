@@ -4639,6 +4639,16 @@ Target = BothSides
 FunctionCode = StartHailWeather
 Description = The user summons a hail storm lasting five turns. It damages all Pokémon except the Ice type.
 #-------------------------------
+[CHILLYRECEPTION]
+Name = Chilly Reception
+Type = ICE
+Category = Status
+Accuracy = 0
+TotalPP = 16
+Target = BothSides
+FunctionCode = SnowstormSwitchOutUser
+Description = The user tells a chillingly bad joke before switching places with a party Pokémon in waiting. This summons snowstorm lasting five turns.
+#-------------------------------
 [HAZE]
 Name = Haze
 Type = ICE

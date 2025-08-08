@@ -133,4 +133,5 @@ Point = 16,16,Mt.Kõji,,,,,
 Point = 17,16,Mt.Kõji,,,,,
 Point = 18,16,Mt.Kõji,,,,,
 Point = 4,5,Lostown City,,234,21,52,
+Point = 18,6,Krakahot Village,Haunted Tower,203,16,24,
 

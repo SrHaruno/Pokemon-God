@@ -475,8 +475,8 @@ LoseText = That was AMAZING!
    Moves = SCRATCH
 
  Pokemon = CASEECH,28
-   Moves = THUNDERWAVE,VOLTSWITCH,MOUSEWHIP,METALSOUND
    Item  = SITRUSBERRY
+   Moves = THUNDERWAVE,VOLTSWITCH,MOUSEWHIP,METALSOUND
 
 
 
@@ -486,11 +486,13 @@ LoseText = That was AMAZING!
 #-------------------------------
 [ACEDUOS, James & Jessie]
 LoseText = We are blasting off at the speed of light!
+
 Pokemon = TURTLOW,26
 Pokemon = FLAMUNNY,26
 #-------------------------------
 [FIREBREATHER, Rick]
 LoseText = We are blasting off at the speed of light!
+
 Pokemon = MOMBER,26
 Pokemon = MOMBER,26
 Pokemon = MOMBER,26
@@ -500,11 +502,14 @@ Pokemon = MOMBER,26
 #-------------------------------
 [ACEDUOS, Gabriel & Ashley]
 LoseText = We are blasting off at the speed of light!
+
 Pokemon = BOTOLPHIN,26
 Pokemon = MOMBER,26
+
 #-------------------------------
 [SAILOR, Anchor]
 LoseText = We are blasting off at the speed of light!
+
 Pokemon = ZOSTEELA,26
 Pokemon = ZOSTEELA,26
 Pokemon = ZOSTEELA,26
@@ -515,21 +520,28 @@ Pokemon = ZOSTEELA,26
 [LEADERS, Ying & Gyan]
 Items = SUPERPOTION,SUPERPOTION
 LoseText = Gyan: Of course we lose, with Ying Passiveness we never deal damage... Ying: It's your reckless strategies that lead us to an defeat...
+
 Pokemon = MOMBER,29
 Pokemon = FLAREON,29
+ Gender = Female
 Pokemon = DRAMODO,31
+ Gender = Male
+
+
 Pokemon = BOTOLPHIN,29
 Pokemon = VAPOREON,29
+ Gender = Male
 Pokemon = PSYLOTE,31
+ Gender = Female
 
 #Solo Battle
 #-------------------------------
 [LEADER_Gyan, Gyan]
 Items = SUPERPOTION,SUPERPOTION,MEGARING
 LoseText = Even with the power of mega evolution... not strong enought...
-Pokemon = KOMODRA,36
-	Item = KOMODRAITE
 
+ Pokemon = KOMODRA,36
+ Item = KOMODRAITE
 
 #Lostown City Gym
 
@@ -555,8 +567,36 @@ LoseText = Mwuahahaha! You know how to traverse! in battle!
    Moves = SHADOWCLAW,FEARSOMESLASH
 
  Pokemon = DHELMISE,38
-   Moves = SHADOWCLAW,GIGADRAIN
    Item  = SITRUSBERRY
+   Moves = SHADOWCLAW,GIGADRAIN
+
+#Shurayuki Village Gym
+
+#-------------------------------
+[LEADER_Ayumi,Ayumi]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = ...
+
+ Pokemon = MAJESFUR,44
+  Gender = Female
+   Moves = CHILLYRECEPTION
+   
+ Pokemon = PERMAPHANT,44
+  Gender = Male 
+   Moves = CHILLYRECEPTION
+   
+ Pokemon = WALREIN,44
+  Gender = Male 
+   Moves = CHILLYRECEPTION
+   
+ Pokemon = GLACEON,44
+  Gender = Female
+ Ability = SNOWCLOAK
+   Moves = ICEBEAM,SHADOWBALL,BLIZZARD,CHILLYRECEPTION
+
+ Pokemon = JYNX,48
+   Item  = SITRUSBERRY
+   Moves = PSYCHIC,BLIZZARD,ICEBEAM,CHILLYRECEPTION
 
 #===========================================================================
 

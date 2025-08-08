@@ -5186,6 +5186,17 @@ Flags = Fling_90
 Move = FROSTBREATH
 Description = The user blows its cold breath on the target. This attack always results in a critical hit.
 #-------------------------------
+[TM102]
+Name = TM102
+NamePlural = TM102s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_90
+Move = CHILLYRECEPTION
+Description = The user tells a chillingly bad joke before switching places with a party Pokémon in waiting. This summons snowstorm lasting five turns.
+#-------------------------------
 [HM01]
 Name = HM01
 NamePlural = HM01s
