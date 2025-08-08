@@ -575,7 +575,7 @@ LoseText = Mwuahahaha! You know how to traverse! in battle!
 #-------------------------------
 [LEADER_Ayumi,Ayumi]
 Items = HYPERPOTION,HYPERPOTION
-LoseText = ...
+LoseText = I can't belive it, only my sensei was able to meet my strenght! Well rules are rules, you won!
 
  Pokemon = MAJESFUR,44
   Gender = Female
