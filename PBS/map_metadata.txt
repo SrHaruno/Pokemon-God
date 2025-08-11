@@ -555,7 +555,7 @@ MapSize = 2,1111
 [107]   # Gigantopolis Sewers [1F]
 Name = Gigantopolis Sewers
 Bicycle = true
-MapPosition = 0,12,3
+MapPosition = 0,13,3
 BattleBack = Cave1
 MapSize = 2,1111
 #-------------------------------
@@ -952,6 +952,18 @@ MapPosition = 0,13,3
 Name = Viridan Forest
 Bicycle = true
 MapPosition = 0,25,6
+#-------------------------------
+[189]   # Gigantopolis Sewer [B1F]
+Name = Gigantopolis
+Bicycle = true
+MapPosition = 0,13,3
+BattleBack = Cave1
+#-------------------------------
+[190]   # Gigantopolis Sewer [B1F]
+Name = Gigantopolis
+Bicycle = true
+MapPosition = 0,13,3
+BattleBack = Cave1
 #-------------------------------
 [191]   # Sus bulding [1F]
 Name = Gigantopolis
