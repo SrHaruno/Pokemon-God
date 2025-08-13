@@ -145,9 +145,6 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = FLAMUNNY,27
   Gender = Male
 
- Pokemon = ORIKEN,27
-  Gender = Male
-
  Pokemon = KITSU,27
 	Gender = Male
 
@@ -162,9 +159,6 @@ LoseText = Hopefully the locals enjoyed this battle!
  Pokemon = GYARADOS,27
   Gender = Female
  
- Pokemon = FLAMUNNY,27
-  Gender = Male
- 
  Pokemon = KITSU,27
 	Gender = Male
 
@@ -175,9 +169,6 @@ LoseText = Hopefully the locals enjoyed this battle!
 
  Pokemon = YOUNROW,27
   Gender = Male
-
- Pokemon = GYARADOS,27
-  Gender = Female
    
  Pokemon = ORIKEN,27
   Gender = Male
