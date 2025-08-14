@@ -100,6 +100,37 @@ SkillLevel = 100
 BattleBGM = Battle! Vs Gym Leader
 VictoryBGM = Victory! Gym Leader
 
+
+
+#Champions
+#-------------------------------
+[CHAMPION_Lance]
+Name = Champion
+Gender = Male
+BaseMoney = 100
+SkillLevel = 100
+BattleBGM = Battle! Vs Gym Leader
+VictoryBGM = Victory! Gym Leader
+#-------------------------------
+[CHAMPION_Steven]
+Name = Champion
+Gender = Male
+BaseMoney = 100
+SkillLevel = 100
+BattleBGM = Battle! Vs Gym Leader
+VictoryBGM = Victory! Gym Leader
+#-------------------------------
+[CHAMPION_Cynthia]
+Name = Champion
+Gender = Female
+BaseMoney = 100
+SkillLevel = 100
+BattleBGM = Battle! Vs Gym Leader
+VictoryBGM = Victory! Gym Leader
+
+
+
+#Trainer Classes
 #-------------------------------
 [AROMALADY]
 Name = Aroma Lady

@@ -1209,7 +1209,6 @@ BattleBack = Forest
 #-------------------------------
 [248]   # Lostown Gym [Gym Leader Room]
 Name = Lostown City
-Outdoor = true
 BattleBack = Water
 #-------------------------------
 [249]   # Fishing Guru [Route 23]

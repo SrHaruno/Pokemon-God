@@ -347,6 +347,7 @@ LoseText = Hopefully the locals enjoyed this battle!
   Moves  = DRACOSPHERE,FLAMETHROWER,SLUDGEBOMB
 
 
+
 #===========================================================================
 # Peon & Caelum Battles
 
@@ -597,6 +598,93 @@ LoseText = I can't belive it, only my sensei was able to meet my strenght! Well 
  Pokemon = JYNX,48
    Item  = SITRUSBERRY
    Moves = PSYCHIC,BLIZZARD,ICEBEAM,CHILLYRECEPTION
+
+
+
+#===========================================================================
+# Champions Challange Tournament
+
+# Lance
+#-------------------------------
+[CHAMPION_Lance,Lance]
+Items = FULLRESTORE,FULLRESTORE,MEGARING
+LoseText = So this is the power of Sehand trainers!
+   
+ Pokemon = FLYGON,48
+  Gender = Male 
+   Moves = DRAGONCLAW,EARTHQUAKE,ROCKSLIDE,UTURN
+   
+ Pokemon = TOKODRA,48
+  Gender = Female 
+   Moves = SLUDGEWAVE,DRAGONPULSE,NASTYPLOT
+   
+ Pokemon = GYARADOS,48
+  Gender = Male
+   Item  = GYARADOSITE
+   Moves = CRUNCH,ICEFANG,AQUATAIL,DRAGONDANCE
+   
+ Pokemon = MIGHTRILL,48
+  Gender = Female
+   Moves = DRAGONCLAW,IRONHEAD,SCALESHOT,EARTHQUAKE
+
+ Pokemon = SHENRAGON,48
+  Gender = Male
+   Item  = SITRUSBERRY
+   Moves = RAGNAROK,DRAGONCLAW,FLAMETHROWER,ROAR
+
+ Pokemon = DRAGONITE,55
+   Item  = LUMBERRY
+   Moves = OUTRAGE,DRAGONDANCE,EARTHQUAKE,EXTREMESPEED
+
+# Steven
+#-------------------------------
+[CHAMPION_Steven,Steven]
+Items = FULLRESTORE,FULLRESTORE,MEGARING
+LoseText = So this is the power of Sehand trainers!
+   
+ Pokemon = STEGOSOLIS,48
+  Gender = Male
+   Moves = JURASSICSUN,DRAGONPULSE,BODYPRESS,IRONDEFENSE
+   
+ Pokemon = UMBRAPTOR,48
+  Gender = Male
+   Moves = OUTRAGE,PRIMORDIALSNAG,SWORDSDANCE
+
+ Pokemon = AXESSAUR,55
+   Item  = SITRUSBERRY
+   Moves = WOODSMANCHOP,TRIPLEAXEL,EARTHQUAKE,SHIFTGEAR
+
+# Cynthia
+#-------------------------------
+[CHAMPION_Cynthia,Cynthia]
+Items = FULLRESTORE,FULLRESTORE,MEGARING
+LoseText = That strenght, you remind me of someon I battled in Sinnoh! Anyway! You won the Tournament!
+   
+ Pokemon = ARMOGHOUL,48
+  Gender = Male 
+ Ability = DARKNESSARMOUR
+   Moves = TOXIC,IRONHEAD,PROTECT
+   
+ Pokemon = BULWRECK,48
+  Gender = Male
+   Moves = BELLYDRUM,FLAREBLITZ,RECKLESSWRECK,HAMMERARM
+   
+ Pokemon = ZEUKATIEL,48
+  Gender = Male
+   Moves = THUNDERBOLT,AIRSLASH,RAGNAROK,ROOST
+   
+ Pokemon = SWAMIGAMI,48
+   Moves = ENERGYBALL,AIRSLASH
+
+ Pokemon = TURTANK,48
+  Gender = Male
+   Moves = SURF,ICEBEAM,FLASHCANNON,RAPIDSPIN
+
+ Pokemon = GARCHOMP,55
+   Item  = GARCHOMPITE
+   Moves = OUTRAGE,SWORDSDANCE,EARTHQUAKE,IRONHEAD
+
+
 
 #===========================================================================
 

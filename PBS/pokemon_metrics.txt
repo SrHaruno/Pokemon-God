@@ -6330,18 +6330,6 @@ FrontSprite = -2,10
 ShadowX = -4
 ShadowSize = 3
 #-------------------------------
-[EGG_1]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[EGG_2]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
 [FARIGIRAF]
 BackSprite = 0,0
 FrontSprite = 0,0

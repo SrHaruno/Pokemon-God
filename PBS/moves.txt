@@ -420,6 +420,18 @@ Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 20
 Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
 #-------------------------------
+[PRIMORDIALSNAG]
+Name = Primordial Snag
+Type = DARK
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = UserTakesTargetItem
+Flags = Contact,CanProtect,CanMirrorMove,Stealing
+Description = The foe is struck with ancient forces, stealing the target's held item.
+#-------------------------------
 [DARKPULSE]
 Name = Dark Pulse
 Type = DARK
@@ -528,7 +540,7 @@ Accuracy = 100
 TotalPP = 20
 Target = NearOther
 FunctionCode = RemoveTargetItem
-Flags = Contact,CanProtect,CanMirrorMove
+Flags = Contact,CanProtect,CanMirrorMove,Stealing
 Description = The user slaps down the target's held item, preventing that item from being used in the battle.
 #-------------------------------
 [ASSURANCE]
@@ -589,7 +601,7 @@ Accuracy = 100
 TotalPP = 25
 Target = NearOther
 FunctionCode = UserTakesTargetItem
-Flags = Contact,CanProtect,CanMirrorMove
+Flags = Contact,CanProtect,CanMirrorMove,Stealing
 Description = The user attacks and steals the foe's held item simultaneously. It can't steal if the user holds an item.
 #-------------------------------
 [SNARL]
@@ -815,7 +827,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = UserTargetSwapItems
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Stealing
 Description = The user trades held items with the target faster than the eye can follow.
 #-------------------------------
 [TAUNT]
@@ -2686,6 +2698,18 @@ Target = NearOther
 FunctionCode = FirePledge
 Flags = CanProtect,CanMirrorMove
 Description = A column of fire hits opposing Pokémon. When used with its Grass equivalent, it makes a sea of fire.
+#-------------------------------
+[JURASSICSUN]
+Name = Jurassic Sun
+Type = FIRE
+Category = Special
+Power = 85
+Accuracy = 90
+TotalPP = 15
+Target = AllNearOthers
+FunctionCode = SunSetAttack
+Flags = CanProtect,CanMirrorMove
+Description = An jurassic heat wave strucks everything around the user. It starts harsh sunlight.
 #-------------------------------
 [LAVAPLUME]
 Name = Lava Plume
@@ -5169,7 +5193,7 @@ Accuracy = 100
 TotalPP = 25
 Target = NearOther
 FunctionCode = UserTakesTargetItem
-Flags = Contact,CanProtect,CanMirrorMove
+Flags = Contact,CanProtect,CanMirrorMove,Stealing
 Description = The user endearingly approaches the target, then steals the target's held item.
 #-------------------------------
 [HIDDENPOWER]
