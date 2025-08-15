@@ -1,96 +1,124 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+
+
 #-------------------------------
-[DEOXYS,1]
-FormName = Attack Forme
-BaseStats = 50,180,20,150,180,20
-EVs = ATTACK,2,SPECIAL_ATTACK,1
-Moves = 1,LEER,1,WRAP,7,NIGHTSHADE,13,TELEPORT,19,TAUNT,25,TOXICSPIKES,31,PSYCHIC,37,SUPERPOWER,43,PSYCHOSHIFT,49,ZENHEADBUTT,55,COSMICPOWER,61,ZAPCANNON,67,PSYCHOBOOST,73,HYPERBEAM
-TutorMoves = AERIALACE,ALLYSWITCH,AVALANCHE,BIND,BODYSLAM,BRICKBREAK,BRUTALSWING,CALMMIND,CHARGEBEAM,CONFIDE,COUNTER,CUT,DARKPULSE,DOUBLEEDGE,DOUBLETEAM,DRAINPUNCH,DREAMEATER,DYNAMICPUNCH,ENDURE,ENERGYBALL,FACADE,FLASH,FLASHCANNON,FLING,FOCUSBLAST,FOCUSPUNCH,FRUSTRATION,GIGAIMPACT,GRASSKNOT,GRAVITY,HEADBUTT,HIDDENPOWER,HYPERBEAM,ICEBEAM,LASERFOCUS,LIGHTSCREEN,LOWKICK,LOWSWEEP,MAGICCOAT,MEGAKICK,MEGAPUNCH,MIMIC,MUDSLAP,NASTYPLOT,NATURALGIFT,POISONJAB,POWERUPPUNCH,PROTECT,PSYCHIC,PSYCHUP,PSYSHOCK,RAINDANCE,RECYCLE,REFLECT,REST,RETURN,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROLEPLAY,ROUND,SAFEGUARD,SECRETPOWER,SEISMICTOSS,SHADOWBALL,SHOCKWAVE,SIGNALBEAM,SKILLSWAP,SLEEPTALK,SNATCH,SNORE,SOLARBEAM,STEALTHROCK,STOMPINGTANTRUM,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERPOWER,SWAGGER,TAUNT,TELEKINESIS,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERWAVE,TORMENT,TRICK,TRICKROOM,WATERPULSE,WONDERROOM,ZENHEADBUTT
+#  //Megas\\
 #-------------------------------
-[DEOXYS,2]
-FormName = Defense Forme
-BaseStats = 50,70,160,90,70,160
-EVs = DEFENSE,2,SPECIAL_DEFENSE,1
-Moves = 1,LEER,1,WRAP,7,NIGHTSHADE,13,TELEPORT,19,KNOCKOFF,25,SPIKES,31,PSYCHIC,37,SWITCHEROO,43,PSYCHOSHIFT,49,ZENHEADBUTT,55,IRONDEFENSE,55,AMNESIA,61,RECOVER,67,PSYCHOBOOST,73,COUNTER,73,MIRRORCOAT
-TutorMoves = AERIALACE,ALLYSWITCH,AVALANCHE,BIND,BODYSLAM,BRICKBREAK,BRUTALSWING,CALMMIND,CHARGEBEAM,CONFIDE,COUNTER,CUT,DARKPULSE,DOUBLEEDGE,DOUBLETEAM,DRAINPUNCH,DREAMEATER,DYNAMICPUNCH,ENDURE,ENERGYBALL,FACADE,FLASH,FLASHCANNON,FLING,FOCUSBLAST,FOCUSPUNCH,FRUSTRATION,GIGAIMPACT,GRASSKNOT,GRAVITY,HEADBUTT,HIDDENPOWER,HYPERBEAM,ICEBEAM,IRONDEFENSE,KNOCKOFF,LASERFOCUS,LIGHTSCREEN,LOWKICK,LOWSWEEP,MAGICCOAT,MEGAKICK,MEGAPUNCH,MIMIC,MUDSLAP,NASTYPLOT,NATURALGIFT,POISONJAB,POWERUPPUNCH,PROTECT,PSYCHIC,PSYCHUP,PSYSHOCK,RAINDANCE,RECYCLE,REFLECT,REST,RETURN,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROLEPLAY,ROUND,SAFEGUARD,SEISMICTOSS,SHADOWBALL,SHOCKWAVE,SECRETPOWER,SIGNALBEAM,SKILLSWAP,SLEEPTALK,SNATCH,SNORE,SOLARBEAM,STEALTHROCK,STOMPINGTANTRUM,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,TAUNT,TELEKINESIS,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERWAVE,TORMENT,TRICK,TRICKROOM,WATERPULSE,WONDERROOM,ZENHEADBUTT
+
+
 #-------------------------------
-[DEOXYS,3]
-FormName = Speed Forme
-BaseStats = 50,95,90,180,95,90
-EVs = SPEED,3
-Moves = 1,LEER,1,WRAP,7,NIGHTSHADE,13,DOUBLETEAM,19,KNOCKOFF,25,TOXICSPIKES,31,PSYCHIC,37,SWIFT,43,PSYCHOSHIFT,49,ZENHEADBUTT,55,AGILITY,61,RECOVER,67,PSYCHOBOOST,73,EXTREMESPEED
-TutorMoves = AERIALACE,ALLYSWITCH,AVALANCHE,BIND,BODYSLAM,BRICKBREAK,BRUTALSWING,CALMMIND,CHARGEBEAM,CONFIDE,COUNTER,CUT,DARKPULSE,DOUBLEEDGE,DOUBLETEAM,DRAINPUNCH,DREAMEATER,DYNAMICPUNCH,ENDURE,ENERGYBALL,FACADE,FIREPUNCH,FLASH,FLASHCANNON,FLING,FOCUSBLAST,FOCUSPUNCH,FRUSTRATION,GIGAIMPACT,GRASSKNOT,GRAVITY,HEADBUTT,HIDDENPOWER,HYPERBEAM,ICEBEAM,ICEPUNCH,KNOCKOFF,LASERFOCUS,LIGHTSCREEN,LOWKICK,LOWSWEEP,MAGICCOAT,MEGAKICK,MEGAPUNCH,MIMIC,MUDSLAP,NASTYPLOT,NATURALGIFT,POISONJAB,POWERUPPUNCH,PROTECT,PSYCHIC,PSYCHUP,PSYSHOCK,RAINDANCE,RECYCLE,REFLECT,REST,RETURN,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROLEPLAY,ROUND,SAFEGUARD,SECRETPOWER,SEISMICTOSS,SHADOWBALL,SHOCKWAVE,SIGNALBEAM,SKILLSWAP,SLEEPTALK,SNATCH,SNORE,SOLARBEAM,STEALTHROCK,STOMPINGTANTRUM,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,TAUNT,TELEKINESIS,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERPUNCH,THUNDERWAVE,TORMENT,TRICK,TRICKROOM,WATERPULSE,WONDERROOM,ZENHEADBUTT
+[JUNVIL,1]
+FormName = Mega Junvil
+MegaStone = JUNVILITE
+Types = GRASS,DARK
+BaseStats = 105,100,150,80,95,100
+BaseExp = 313
+Abilities = MOXIE
+HiddenAbilities = MOXIE
 #-------------------------------
-[CHERRIM,1]
-FormName = Sunshine Form
-Color = Pink
-Pokedex = After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.
+[KOMODRA,1]
+FormName = Mega Komo-dra
+MegaStone = KOMODRAITE
+BaseStats = 80,120,100,90,150,90
+BaseExp = 317
+Abilities = MOLDBREAKER
+HiddenAbilities = MOLDBREAKER
 #-------------------------------
-[SHELLOS,1]
-FormName = East Sea
-Color = Blue
-Pokedex = Its appearance changes depending on the environment. One theory suggests that living in cold seas causes Shellos to take on this form.
+[AXOLYSTIC,1]
+FormName = Mega Axolystic
+MegaStone = AXOLYSTICITE
+Types = WATER,ANGEL
+BaseStats = 108,88,160,50,70,160
+BaseExp = 315
+Abilities = NATURALCURE
+HiddenAbilities = NATURALCURE
 #-------------------------------
-[GASTRODON,1]
-FormName = East Sea
-Color = Blue
-Pokedex = Its body is covered in a sticky slime. It's very susceptible to dehydration, so it can't spend too much time on land.
-#-------------------------------
-[ROTOM,1]
-FormName = Heat Rotom
-Types = ELECTRIC,FIRE
-BaseStats = 50,65,107,86,105,107
-BaseExp = 182
-Pokedex = This Rotom has possessed a convection microwave oven that uses a special motor. It also has a flair for manipulating flames.
-#-------------------------------
-[ROTOM,2]
-FormName = Wash Rotom
-Types = ELECTRIC,WATER
-BaseStats = 50,65,107,86,105,107
-BaseExp = 182
-Pokedex = This form of Rotom enjoys coming up with water-based pranks. Be careful with it if you don't want your room flooded.
-#-------------------------------
-[ROTOM,3]
-FormName = Frost Rotom
-Types = ELECTRIC,ICE
-BaseStats = 50,65,107,86,105,107
-BaseExp = 182
-Pokedex = Rotom assumes this form when it takes over a refrigerator powered by a special motor. It battles by spewing cold air.
-#-------------------------------
-[ROTOM,4]
-FormName = Fan Rotom
-Types = ELECTRIC,FLYING
-BaseStats = 50,65,107,86,105,107
-BaseExp = 182
-Pokedex = In this form, Rotom applies its new power over wind to its love of pranks. It will happily blow away any important documents it can find.
-#-------------------------------
-[ROTOM,5]
-FormName = Mow Rotom
-Types = ELECTRIC,GRASS
-BaseStats = 50,65,107,86,105,107
-BaseExp = 182
-Pokedex = This is Rotom after it's seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere.
-#-------------------------------
-[GIRATINA,1]
-FormName = Origin Forme
-BaseStats = 150,120,100,90,120,100
+[FLYGON,1]
+FormName = Mega Flygon
+MegaStone = FLYGONITE
+Types = GHOST,GROUND
+BaseStats = 80,100,95,150,100,95
+BaseExp = 317
 Abilities = LEVITATE
-HiddenAbilities = LEVITATE
-TutorMoves = AERIALACE,AIRCUTTER,ANCIENTPOWER,AQUATAIL,AURASPHERE,BODYSLAM,BREAKINGSWIPE,BRUTALSWING,BULLDOZE,CALMMIND,CHARGEBEAM,CONFIDE,CUT,DARKPULSE,DEFOG,DOUBLEEDGE,DOUBLETEAM,DOUBLETEAM,DRACOMETEOR,DRAGONCLAW,DRAGONPULSE,DRAGONTAIL,DREAMEATER,DUALWINGBEAT,EARTHPOWER,EARTHQUAKE,ECHOEDVOICE,ENDURE,ENERGYBALL,FACADE,FLY,FRUSTRATION,FURYCUTTER,GIGAIMPACT,GRAVITY,HEADBUTT,HEX,HIDDENPOWER,HONECLAWS,HYPERBEAM,HYPERVOICE,ICYWIND,IRONHEAD,IRONTAIL,MAGICCOAT,MIMIC,MUDSLAP,NATURALGIFT,OMINOUSWIND,OUTRAGE,PAYBACK,PHANTOMFORCE,POLTERGEIST,PROTECT,PSYCHIC,PSYCHUP,RAINDANCE,REST,RETURN,ROAR,ROCKCLIMB,ROCKSMASH,ROUND,SAFEGUARD,SCARYFACE,SECRETPOWER,SHADOWBALL,SHADOWCLAW,SHOCKWAVE,SILVERWIND,SLEEPTALK,SNORE,SPITE,STEELWING,STONEEDGE,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,TAILWIND,TELEKINESIS,THUNDER,THUNDERBOLT,THUNDERWAVE,TWISTER,WILLOWISP
-Height = 6.9
-Weight = 650.0
-Shape = Serpentine
 #-------------------------------
-[SHAYMIN,1]
-FormName = Sky Forme
-Types = GRASS,FLYING
-BaseStats = 100,103,75,127,120,75
-EVs = SPEED,3
-Abilities = SERENEGRACE
-Moves = 1,GROWTH,10,MAGICALLEAF,19,LEECHSEED,28,QUICKATTACK,37,SWEETSCENT,46,HEALINGWISH,55,WORRYSEED,64,AIRSLASH,73,ENERGYBALL,82,SWEETKISS,91,LEAFSTORM,100,SEEDFLARE
-TutorMoves = AIRCUTTER,BULLETSEED,CONFIDE,COVET,DAZZLINGGLEAM,DOUBLEEDGE,DOUBLETEAM,ENDURE,ENERGYBALL,FACADE,FLASH,FRUSTRATION,GIGADRAIN,GIGAIMPACT,GRASSKNOT,HEADBUTT,HIDDENPOWER,HYPERBEAM,LASERFOCUS,LASTRESORT,MIMIC,MUDSLAP,NATURALGIFT,NATUREPOWER,OMINOUSWIND,PROTECT,PSYCHIC,PSYCHUP,REST,RETURN,ROUND,SAFEGUARD,SECRETPOWER,SEEDBOMB,SLEEPTALK,SNORE,SOLARBEAM,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,SWORDSDANCE,SYNTHESIS,TAILWIND,WORRYSEED,ZENHEADBUTT
-Height = 0.4
-Weight = 5.2
+[GARCHOMP,1]
+FormName = Mega Garchomp
+MegaStone = GARCHOMPITE
+BaseStats = 108,170,115,92,120,95
+BaseExp = 350
+Abilities = SANDFORCE
+HiddenAbilities = SANDFORCE
+Pokedex = Its vaunted wings become scythes, sending it mad with rage. It swings its scythes wildly and slices the ground to pieces.
+#-------------------------------
+[TYRANITAR,1]
+FormName = Mega Tyranitar
+MegaStone = TYRANITARITE
+BaseStats = 100,164,150,71,95,120
+BaseExp = 350
+HiddenAbilities = SANDSTREAM
+Height = 2.5
+Weight = 255.0
+Pokedex = Due to the colossal power poured into it, this Pokémon's back split right open. Its destructive instincts are the only thing keeping it moving.
+#-------------------------------
+[GYARADOS,1]
+FormName = Mega Gyarados
+MegaStone = GYARADOSITE
+Types = WATER,DARK
+BaseStats = 95,155,109,81,70,130
+BaseExp = 224
+Abilities = MOLDBREAKER
+HiddenAbilities = MOLDBREAKER
+Weight = 305.0
+Pokedex = It zooms out of the water at Mach speeds. Even large ships caught in its path are split cleanly in two!
+
+
+
+#-------------------------------
+#  //Gender Difference\\
+#-------------------------------
+
+#-------------------------------
+[ORBEAF,1]
+FormName = Female
+BaseStats = 45,30,40,60,65,40
+HiddenAbilities = STEADFAST
+EVs = SPECIAL_ATTACK,1
+Moves = 1,SCRATCH,1,LEER,5,ABSORB,9,SHADOWSNEAK,12,MAGICALLEAF,15,LEECHSEED,18,METALCLAW,21,GIGADRAIN,24,GROWTH,27,AIRCUTTER,30,FLASHCANNON,33,ENERGYBALL
+Pokedex = WIP
+CallRateSOS = 10
+SpeciesSOS = ORBEAF,ORBEAF_1
+#-------------------------------
+[KITSU,1]
+FormName = Female
+Types = PSYCHIC
+BaseStats = 50,30,65,43,50,70
+EVs = SPECIAL_ATTACK,1
+Abilities = SYNCHRONIZE,TRACE
+HiddenAbilities = MAGICGUARD
+Moves = 1,SCRATCH,1,LEER,4,CONFUSION,8,TELEPORT,12,CONFUSERAY,16,PSYBEAM,20,WISH,24,AMNESIA,28,CALMMIND,36,PSYCHIC,40,MOONBLAST,46,MOONLIGHT,50,DAZZLINGGLEAM,54,FUTURESIGHT
+TutorMoves = PROTECT,LIGHTSCREEN,REFLECT
+Evolutions = LUNARTSUNE,Item,MOONSTONE
+SpeciesSOS = KITSU,KITSU_1
+
+
+
+#-------------------------------
+#  //Alternate Forms & Gender Difference\\
+#-------------------------------
+
+#-------------------------------
+[ARMOGHOUL,1]
+FormName = Warrior Form
+BaseStats = 90,145,45,108,145,45
+Abilities = CURSEDBODY
+EVs = SPEED,2
+
+
+
+#-------------------------------
+#  //Arceus Forms\\
+#-------------------------------
+
 #-------------------------------
 [ARCEUS,1]
 FormName = Fighting Type
@@ -172,276 +200,3 @@ Types = ANGEL
 [ARCEUS,20]
 FormName = Demon Type
 Types = DEMON
-#-------------------------------
-[TORNADUS,1]
-FormName = Therian Forme
-BaseStats = 79,100,80,121,110,90
-EVs = SPEED,3
-Abilities = REGENERATOR
-HiddenAbilities = REGENERATOR
-Height = 1.4
-Shape = Winged
-#-------------------------------
-[THUNDURUS,1]
-FormName = Therian Forme
-BaseStats = 79,105,70,101,145,80
-EVs = SPECIAL_ATTACK,3
-Abilities = VOLTABSORB
-HiddenAbilities = VOLTABSORB
-Height = 3.0
-Shape = BipedalTail
-#-------------------------------
-[LANDORUS,1]
-FormName = Therian Forme
-BaseStats = 89,145,90,91,105,80
-EVs = ATTACK,3
-Abilities = INTIMIDATE
-HiddenAbilities = INTIMIDATE
-Height = 1.3
-Shape = Quadruped
-#-------------------------------
-[KYUREM,1]
-FormName = White Kyurem
-BaseStats = 125,120,90,95,170,100
-BaseExp = 350
-EVs = SPECIAL_ATTACK,3
-Abilities = TURBOBLAZE
-Moves = 1,ICYWIND,1,DRAGONRAGE,8,IMPRISON,15,ANCIENTPOWER,22,ICEBEAM,29,DRAGONBREATH,36,SLASH,43,FUSIONFLARE,50,ICEBURN,57,DRAGONPULSE,64,NOBLEROAR,71,ENDEAVOR,78,BLIZZARD,85,OUTRAGE,92,HYPERVOICE
-Height = 3.6
-Pokedex = It has foreseen that a world of truth will arrive for people and Pokémon. It strives to protect that future.
-#-------------------------------
-[KYUREM,2]
-FormName = Black Kyurem
-BaseStats = 125,170,100,95,120,90
-BaseExp = 350
-EVs = ATTACK,3
-Abilities = TERAVOLT
-Moves = 1,ICYWIND,1,DRAGONRAGE,8,IMPRISON,15,ANCIENTPOWER,22,ICEBEAM,29,DRAGONBREATH,36,SLASH,43,FUSIONBOLT,50,FREEZESHOCK,57,DRAGONPULSE,64,NOBLEROAR,71,ENDEAVOR,78,BLIZZARD,85,OUTRAGE,92,HYPERVOICE
-Height = 3.3
-Pokedex = It's said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.
-#-------------------------------
-[KYUREM,3]
-PokedexForm = 1
-BaseStats = 125,120,90,95,170,100
-BaseExp = 350
-EVs = SPECIAL_ATTACK,3
-Abilities = TURBOBLAZE
-Moves = 1,ICYWIND,1,DRAGONRAGE,8,IMPRISON,15,ANCIENTPOWER,22,ICEBEAM,29,DRAGONBREATH,36,SLASH,43,FUSIONFLARE,50,ICEBURN,57,DRAGONPULSE,64,NOBLEROAR,71,ENDEAVOR,78,BLIZZARD,85,OUTRAGE,92,HYPERVOICE
-Height = 3.6
-#-------------------------------
-[KYUREM,4]
-PokedexForm = 2
-BaseStats = 125,170,100,95,120,90
-BaseExp = 350
-EVs = ATTACK,3
-Abilities = TERAVOLT
-Moves = 1,ICYWIND,1,DRAGONRAGE,8,IMPRISON,15,ANCIENTPOWER,22,ICEBEAM,29,DRAGONBREATH,36,SLASH,43,FUSIONBOLT,50,FREEZESHOCK,57,DRAGONPULSE,64,NOBLEROAR,71,ENDEAVOR,78,BLIZZARD,85,OUTRAGE,92,HYPERVOICE
-Height = 3.3
-#-------------------------------
-[KELDEO,1]
-FormName = Resolute Form
-Pokedex = The power that lay hidden in its body now covers its horn, turning it into a sword that can slice through anything.
-#-------------------------------
-[MELOETTA,1]
-FormName = Pirouette Forme
-Types = NORMAL,FIGHTING
-BaseStats = 100,128,90,128,77,77
-EVs = ATTACK,1,DEFENSE,1,SPEED,1
-#-------------------------------
-[GENESECT,1]
-FormName = Shock Drive
-#-------------------------------
-[GENESECT,2]
-FormName = Burn Drive
-#-------------------------------
-[GENESECT,3]
-FormName = Chill Drive
-#-------------------------------
-[GENESECT,4]
-FormName = Douse Drive
-#-------------------------------
-[MEOWSTIC,1]
-FormName = Female
-HiddenAbilities = COMPETITIVE
-Moves = 1,STOREDPOWER,1,MEFIRST,1,MAGICALLEAF,1,SCRATCH,1,LEER,1,COVET,1,CONFUSION,5,COVET,9,CONFUSION,13,LIGHTSCREEN,17,PSYBEAM,19,FAKEOUT,22,DISARMINGVOICE,25,PSYSHOCK,28,CHARGEBEAM,31,SHADOWBALL,35,EXTRASENSORY,40,PSYCHIC,43,ROLEPLAY,45,SIGNALBEAM,48,SUCKERPUNCH,50,FUTURESIGHT,53,STOREDPOWER
-Color = White
-Pokedex = Females are a bit more selfish and aggressive than males. If they don't get what they want, they will torment you with their psychic abilities.
-#-------------------------------
-[XERNEAS,1]
-FormName = Active Mode
-#-------------------------------
-[ZYGARDE,1]
-FormName = 10% Forme
-BaseStats = 54,100,71,115,61,85
-BaseExp = 243
-Height = 1.2
-Weight = 33.5
-Color = Black
-Shape = Quadruped
-Pokedex = This is Zygarde when about 10% of its pieces have been assembled. It leaps at its opponent's chest and sinks its sharp fangs into them.
-Generation = 7
-#-------------------------------
-[ZYGARDE,2]
-FormName = Complete Forme
-BaseStats = 216,100,121,85,91,95
-BaseExp = 354
-Abilities = POWERCONSTRUCT
-HiddenAbilities = POWERCONSTRUCT
-Height = 4.5
-Weight = 610.0
-Color = Black
-Shape = BipedalTail
-Pokedex = This is Zygarde's perfected form. From the orifice on its chest, it radiates high-powered energy that eliminates everything.
-Generation = 7
-#-------------------------------
-[ZYGARDE,3]
-PokedexForm = 2
-BaseStats = 216,100,121,85,91,95
-BaseExp = 354
-Abilities = POWERCONSTRUCT
-HiddenAbilities = POWERCONSTRUCT
-Height = 4.5
-Weight = 610.0
-Color = Black
-Shape = BipedalTail
-#-------------------------------
-[HOOPA,1]
-FormName = Hoopa Unbound
-Types = PSYCHIC,DARK
-BaseStats = 80,160,60,80,170,130
-BaseExp = 340
-Moves = 1,HYPERSPACEFURY,1,TRICK,1,DESTINYBOND,1,ALLYSWITCH,1,CONFUSION,6,ASTONISH,10,MAGICCOAT,15,LIGHTSCREEN,19,PSYBEAM,25,SKILLSWAP,29,POWERSPLIT,29,GUARDSPLIT,46,KNOCKOFF,50,WONDERROOM,50,TRICKROOM,55,DARKPULSE,75,PSYCHIC,85,HYPERSPACEFURY
-Height = 6.5
-Weight = 490.0
-Shape = BipedalTail
-#-------------------------------
-[NECROZMA,1]
-FormName = Dusk Mane
-Types = PSYCHIC,STEEL
-BaseStats = 97,157,127,77,113,109
-BaseExp = 340
-EVs = ATTACK,3
-Height = 3.8
-Weight = 460.0
-Color = Yellow
-Shape = Quadruped
-Pokedex = This is Necrozma's form while it's absorbing the power of Solgaleo, making it extremely ferocious and impossible to control.
-#-------------------------------
-[NECROZMA,2]
-FormName = Dawn Wings
-Types = PSYCHIC,GHOST
-BaseStats = 97,113,109,77,157,127
-BaseExp = 340
-EVs = SPECIAL_ATTACK,3
-Height = 4.2
-Weight = 350.0
-Color = Blue
-Pokedex = Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.
-#-------------------------------
-[NECROZMA,3]
-FormName = Ultra Necrozma
-Types = PSYCHIC,DRAGON
-BaseStats = 97,167,97,129,167,97
-BaseExp = 377
-EVs = ATTACK,1,SPECIAL_ATTACK,1,SPEED,1
-Abilities = NEUROFORCE
-Height = 7.5
-Color = Yellow
-Pokedex = The light pouring out from all over its body affects living things and nature, impacting them in various ways.
-#-------------------------------
-[NECROZMA,4]
-PokedexForm = 3
-Types = PSYCHIC,DRAGON
-BaseStats = 97,167,97,129,167,97
-BaseExp = 377
-EVs = ATTACK,1,SPECIAL_ATTACK,1,SPEED,1
-Abilities = NEUROFORCE
-Height = 7.5
-Color = Yellow
-#-------------------------------
-[MAGEARNA,1]
-FormName = Original Color
-Color = Red
-Pokedex = This gorgeous Magearna looks as it did at the time of its invention. Its luxurious decoration pleased the king's daughter.
-#-------------------------------
-#
-#
-#-------------------------------
-# //Pokémon God Forms\\
-#-------------------------------
-#
-#
-#-------------------------------
-#  //Megas\\
-#-------------------------------
-#
-#
-#-------------------------------
-[JUNVIL,1]
-FormName = Mega Junvil
-MegaStone = JUNVILITE
-Types = GRASS,DARK
-BaseStats = 105,100,150,80,95,100
-BaseExp = 313
-Abilities = MOXIE
-HiddenAbilities = MOXIE
-#-------------------------------
-[KOMODRA,1]
-FormName = Mega Komo-dra
-MegaStone = KOMODRAITE
-BaseStats = 80,120,100,90,150,90
-BaseExp = 317
-Abilities = MOLDBREAKER
-HiddenAbilities = MOLDBREAKER
-#-------------------------------
-[AXOLYSTIC,1]
-FormName = Mega Axolystic
-MegaStone = AXOLYSTICITE
-Types = WATER,ANGEL
-BaseStats = 108,88,160,50,70,160
-BaseExp = 315
-Abilities = NATURALCURE
-HiddenAbilities = NATURALCURE
-#-------------------------------
-[FLYGON,1]
-FormName = Mega Flygon
-MegaStone = FLYGONITE
-Types = GHOST,GROUND
-BaseStats = 80,100,95,150,100,95
-BaseExp = 317
-Abilities = LEVITATE
-#
-#
-#-------------------------------
-#  //Alternate Forms & Gender Difference\\
-#-------------------------------
-#
-#
-#-------------------------------
-[ORBEAF,1]
-FormName = Female
-BaseStats = 45,30,40,60,65,40
-HiddenAbilities = STEADFAST
-EVs = SPECIAL_ATTACK,1
-Moves = 1,SCRATCH,1,LEER,5,ABSORB,9,SHADOWSNEAK,12,MAGICALLEAF,15,LEECHSEED,18,METALCLAW,21,GIGADRAIN,24,GROWTH,27,AIRCUTTER,30,FLASHCANNON,33,ENERGYBALL
-Pokedex = WIP
-CallRateSOS = 10
-SpeciesSOS = ORBEAF,ORBEAF_1
-#-------------------------------
-[KITSU,1]
-FormName = Female
-Types = PSYCHIC
-BaseStats = 50,30,65,43,50,70
-EVs = SPECIAL_ATTACK,1
-Abilities = SYNCHRONIZE,TRACE
-HiddenAbilities = MAGICGUARD
-Moves = 1,SCRATCH,1,LEER,4,CONFUSION,8,TELEPORT,12,CONFUSERAY,16,PSYBEAM,20,WISH,24,AMNESIA,28,CALMMIND,36,PSYCHIC,40,MOONBLAST,46,MOONLIGHT,50,DAZZLINGGLEAM,54,FUTURESIGHT
-TutorMoves = PROTECT,LIGHTSCREEN,REFLECT
-Evolutions = LUNARTSUNE,Item,MOONSTONE
-SpeciesSOS = KITSU,KITSU_1
-#-------------------------------
-[ARMOGHOUL,1]
-FormName = Warrior Form
-BaseStats = 90,145,45,108,145,45
-Abilities = CURSEDBODY
-EVs = SPEED,2

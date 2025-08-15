@@ -2170,7 +2170,8 @@ Name = Rusted Sword
 NamePlural = Rusted Swords
 Pocket = 1
 Price = 0
-Description = It is said that a hero used this sword to halt a disaster in ancient times. But it's grown rusty and worn.
+Flags = Fling_60
+Description = Once used by a brave warrior in ancient times. But it's grown rusty and worn.
 #-------------------------------
 [RUSTEDSHIELD]
 Name = Rusted Shield
