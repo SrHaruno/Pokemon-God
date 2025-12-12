@@ -1315,6 +1315,17 @@ Weather = Snow,100
 MapPosition = 0,18,17
 BattleBack = Snow
 #-------------------------------
+[271]   # Tourmaline Gym
+Name = Tormaline City
+Bicycle = true
+BattleBack = Cave1
+#-------------------------------
 [276]   # Shurayuki Gym [4F]
 Name = Shurayuki Village
 MapPosition = 0,18,17
+#-------------------------------
+[277]   # Mt.Solar [Krakahot Village]
+Name = Mt.Solar
+Bicycle = true
+MapPosition = 0,18,7
+BattleBack = Cave1

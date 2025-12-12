@@ -571,6 +571,15 @@ LoseText = Mwuahahaha! You know how to traverse! in battle!
    Item  = SITRUSBERRY
    Moves = SHADOWCLAW,GIGADRAIN
 
+#Tourmaline Gym
+
+#-------------------------------
+[BLACKBELT,Shin]
+LoseText = My fist will make a path ahead!
+
+Pokemon  = BOXICKEN,38
+
+
 #Shurayuki Village Gym
 
 #-------------------------------

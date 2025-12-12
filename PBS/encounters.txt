@@ -556,6 +556,12 @@ Land,20
 LandNight,20
     20,LARVITAR,29,31
     10,FRILLZARD,30
+#-------------------------------
+[277] # Mt.Solar #Krakahot Village
+Cave,7
+	30,FRUCTERA,30,31
+	50,MOSSELIN,30,31
+	5,CERPUP,30
 
 
 #-------------------------------

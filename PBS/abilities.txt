@@ -1151,3 +1151,7 @@ Description = Boost Attack, Sp.Atk and Defense in a pinch.
 [TOUGHFUR]
 Name = Tough Fur
 Description = Ups resistance to Fire- and Ice-type moves.
+#-------------------------------
+[INSYNC]
+Name = In Sync
+Description = Guarantees that multi-strike moves will always hit all strikes.

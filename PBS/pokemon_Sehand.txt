@@ -2972,6 +2972,81 @@ Category = Elephant
 
 
 #-------------------------------
+[CERPUP]
+Name = Cerpup
+Types = DEMON,DARK
+BaseStats = 45,70,45,60,35,45
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 50
+EVs = ATTACK,1
+CatchRate = 45
+Happiness = 50
+Abilities = INTIMIDATE,STRONGJAW
+Moves = 1,TACKLE,1,TAILWHIP,5,BITE,10,FEARSOMESLASH,15,FAKETEARS,20,FEINTATTACK,25,HOWL,30,BERSERKSMASH,35,SHADOWCLAW,40,KNOCKOFF,45,NIGHTSLASH,50,SLASH,55,RECKLESSWRECK
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = ROAR
+EggGroups = Field,Monster
+HatchSteps = 10240
+Height = 0.7
+Weight = 6.9
+Color = Red
+Shape = Bipedal
+Category = Pup
+Pokedex = ???
+Evolutions = CERMUNCH,Level,30
+CallRateSOS = 3
+#-------------------------------
+[CERMUNCH]
+Name = Cermunch
+Types = DEMON,DARK
+BaseStats = 65,100,60,80,50,60
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 50
+EVs = ATTACK,1
+CatchRate = 45
+Happiness = 50
+Abilities = INTIMIDATE,
+Moves = 0,DOUBLEHIT,1,TACKLE,1,TAILWHIP,5,BITE,10,FEARSOMESLASH,15,FAKETEARS,20,FEINTATTACK,25,HOWL,30,BERSERKSMASH,35,SHADOWCLAW,40,KNOCKOFF,45,NIGHTSLASH,50,SLASH,55,RECKLESSWRECK
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = ROAR
+EggGroups = Field,Monster
+HatchSteps = 10240
+Height = 0.7
+Weight = 6.9
+Color = Red
+Shape = Bipedal
+Category = Pup
+Pokedex = ???
+Evolutions = CERBERNO,Level,55
+CallRateSOS = 3
+#-------------------------------
+[CERBERNO]
+Name = Cerberno
+Types = DEMON,DARK
+BaseStats = 108,130,90,102,80,90
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 50
+EVs = ATTACK,1
+CatchRate = 45
+Happiness = 50
+Abilities = INSYNC
+Moves = 0,TRIMUNCH,1,TACKLE,1,TAILWHIP,5,BITE,10,FEARSOMESLASH,15,FAKETEARS,20,FEINTATTACK,25,HOWL,30,BERSERKSMASH,35,SHADOWCLAW,40,KNOCKOFF,45,NIGHTSLASH,50,SLASH,55,RECKLESSWRECK
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggMoves = ROAR
+EggGroups = Field,Monster
+HatchSteps = 10240
+Height = 0.7
+Weight = 6.9
+Color = Red
+Shape = Bipedal
+Category = Pup
+Pokedex = ???
+CallRateSOS = 3
+
+#-------------------------------
 [SNAKRE]
 Name = Snakre
 Types = ANGEL
