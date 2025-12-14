@@ -579,6 +579,20 @@ LoseText = My fist will make a path ahead!
 
 Pokemon  = BOXICKEN,38
 
+#-------------------------------
+[LEADER_Fiston,Fiston]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = You where able to beat these muscles!
+
+ Pokemon = BOXICKEN,38
+  Moves  = BRICKBREAK,DUALWINGBEAT,FEATHERDANCE
+  
+ Pokemon = TUTULENTA,38
+  Moves  = SYNTHESIS,BRICKBREAK,TROPKICK
+  
+ Pokemon = SAMURUNNY,40
+ Item    = SITRUSBERRY
+  Moves  = INFERNORAZOR,BRICKBREAK,SHADOWSNEAK,SWORDSDANCE
 
 #Shurayuki Village Gym
 
