@@ -557,11 +557,25 @@ LandNight,20
     20,LARVITAR,29,31
     10,FRILLZARD,30
 #-------------------------------
-[277] # Mt.Solar #Krakahot Village
-Cave,7
-	30,FRUCTERA,30,31
-	50,MOSSELIN,30,31
+[277] # Mt.Solar [3F]
+Cave,7 
+	30,CHIROPEEL,30,31
+	50,MOSSENGE,30,31
 	5,CERPUP,30
+#-------------------------------
+[278] # Mt.Solar [4F]
+Cave,7 
+	30,CHIROPEEL,30,31
+	50,MOSSENGE,30,31
+	5,CERPUP,30
+#-------------------------------
+[279] # Mt.Solar [5F]
+Cave,7 
+	30,CHIROPEEL,42,44
+	50,MOSSENGE,42,44
+	20,CERPUP,43
+	5,CERMUNCH,43
+
 
 
 #-------------------------------

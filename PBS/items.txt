@@ -5198,6 +5198,17 @@ Flags = Fling_90
 Move = CHILLYRECEPTION
 Description = The user tells a chillingly bad joke before switching places with a party Pokémon in waiting. This summons snowstorm lasting five turns.
 #-------------------------------
+[TM103]
+Name = TM103
+NamePlural = TM103s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_90
+Move = FEARSOMESLASH
+Description = The foe is cut with terrifying sharp claws.
+#-------------------------------
 [HM01]
 Name = HM01
 NamePlural = HM01s

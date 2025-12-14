@@ -3045,7 +3045,6 @@ Shape = Bipedal
 Category = Pup
 Pokedex = ???
 CallRateSOS = 3
-
 #-------------------------------
 [SNAKRE]
 Name = Snakre

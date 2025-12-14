@@ -1324,8 +1324,18 @@ BattleBack = Cave1
 Name = Shurayuki Village
 MapPosition = 0,18,17
 #-------------------------------
-[277]   # Mt.Solar [Krakahot Village]
+[277]   # Mt.Solar [3F]
 Name = Mt.Solar
 Bicycle = true
 MapPosition = 0,18,7
+BattleBack = Cave1
+#-------------------------------
+[278]   # Mt.Solar [4F]
+Name = Mt.Solar
+Bicycle = true
+BattleBack = Cave1
+#-------------------------------
+[279]   # Mt.Solar [5F]
+Name = Mt.Solar
+Bicycle = true
 BattleBack = Cave1
