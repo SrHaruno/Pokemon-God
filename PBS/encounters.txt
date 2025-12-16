@@ -359,7 +359,6 @@ SuperRod
 Water
 	40,MEDULLISH,31,33
 	20,MAGIKARP,31,33
-	5,RELICANTH,32
 OldRod
     60,MAGIKARP,19,21
 GoodRod
@@ -827,18 +826,34 @@ Cave,7
 	20,WOOPER,28
 	
 #-------------------------------
-[216] # Jungle of Spirits
+[216] # Forest Heart #North
 Land,20
     40,LARVENGUE,19,21
-    40,TATURUG,19,21
+    30,TATURUG,19,21
 Water
-	80,MAGIKARP,45
+	80,MAGIKARP,31,33
 OldRod
-    70,MAGIKARP,45
+    60,MAGIKARP,19,21
 GoodRod
-    60,MAGIKARP,45
+    60,MAGIKARP,22,24
 SuperRod
-    20,GYARADOS,40,45
+    80,MAGIKARP,35,38
+    20,GYARADOS,35,38	
+#-------------------------------
+[281] # Forest Heart #South
+Land,20
+    40,PUPENGUE,31,33
+    30,ELECOON,31,33
+Water
+	80,MAGIKARP,31,33
+OldRod
+    60,MAGIKARP,19,21
+GoodRod
+    60,MAGIKARP,22,24
+SuperRod
+    80,MAGIKARP,35,38
+    20,GYARADOS,35,38	
+	
 	
 	
 #Islands
