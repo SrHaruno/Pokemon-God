@@ -40,6 +40,8 @@
 163,West,61,162,East,0
 # Route 20 (198) - Route 21 (224)
 198,North,5,224,South,0
+# Forest Heart (281) - Forest Heart (216)
+281,North,0,216,South,36
 # Route 25 [3F] (261) - Shurayuki Village (235)
 261,North,0,235,South,1
 # Sharayuki Peak (266) - Shurayuki Village (235)
@@ -84,5 +86,3 @@
 245,East,0,244,West,0
 # Lostown Gym [Trap 2] (247) - Lostown Gym Room 5 (244)
 247,East,0,244,West,36
-# Forest Heart (281) - Forest Heart (216)
-281,North,0,216,South,36
