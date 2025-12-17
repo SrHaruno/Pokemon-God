@@ -1350,9 +1350,9 @@ MapPosition = 0,18,5
 BattleBack = forest
 #-------------------------------
 [282]   # Route 28
-Name = 
+Name = Route 28
 Outdoor = true
 ShowArea = true
-MapPosition = 0,23,3
+MapPosition = 0,22,2
 BattleBack = Field
-MapSize = 4,0101
+MapSize = 3,010010010

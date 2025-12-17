@@ -5712,6 +5712,22 @@ Price = 20
 Flags = Berry,Fling_10,NaturalGift_NORMAL_80
 Description = Weakens a Normal-type attack against the Pokémon holding this berry.
 #-------------------------------
+[AURELIBERRY]
+Name = Aureli Berry
+NamePlural = Aureli Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_ANGEL_80
+Description = If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fairy-type attack.
+#-------------------------------
+[BERSKBERRY]
+Name = Bersk Berry
+NamePlural = Bersk Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_DEMON_80
+Description = If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fairy-type attack.
+#-------------------------------
 [LIECHIBERRY]
 Name = Liechi Berry
 NamePlural = Liechi Berries

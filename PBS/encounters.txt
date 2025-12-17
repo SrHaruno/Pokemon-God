@@ -416,8 +416,6 @@ LandNight,20
     40,SCARRET,42,44
 	30,ICEPHANT,42,44
 	5,JYNX,43
-	
-	
 #-------------------------------
 [140] # Route 26
 Land,20
@@ -438,6 +436,16 @@ Land,20
     40,CHOPAXE,24,26
 	30,SQUT,24,26
 	10,ANGDEP,25
+#-------------------------------
+[282] # Route 28
+Land,20
+    40,DWILD,3,5
+    30,PURIRD,3,5
+    20,CAPYBURA,3,5
+LandNight,20
+    40,CAPYBURA,5
+    30,PURIRD,3,5
+    20,DWILD,3,5
 
 
 
