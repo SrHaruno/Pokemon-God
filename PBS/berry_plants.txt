@@ -325,6 +325,16 @@ HoursPerStage = 18
 DryingPerHour = 6
 Yield = 1,5
 #-------------------------------
+[AURELIBERRY]
+HoursPerStage = 18
+DryingPerHour = 6
+Yield = 1,5
+#-------------------------------
+[BERSKBERRY]
+HoursPerStage = 18
+DryingPerHour = 6
+Yield = 1,5
+#-------------------------------
 [KEEBERRY]
 HoursPerStage = 24
 DryingPerHour = 7
