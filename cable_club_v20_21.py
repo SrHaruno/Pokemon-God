@@ -14,8 +14,8 @@ import logging
 
 HOST = r"0.0.0.0"
 PORT = 9999
-PBS_DIR = r"./PBS"
-LOG_DIR = r"."
+PBS_DIR = r"./home/minigamer255/PBS"
+LOG_DIR = r"./home/minigamer255/"
 RULES_DIR = "./BattleRules"
 # Aprox. in seconds
 RULES_REFRESH_RATE = 60
