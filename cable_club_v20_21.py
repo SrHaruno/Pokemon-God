@@ -12,7 +12,7 @@ import logging
 
 # This is the v20\v21 version of the server. It is not compatible with earlier versions of the script
 
-HOST = r"127.0.0.1"
+HOST = r"0.0.0.0"
 PORT = 9999
 PBS_DIR = r"./PBS"
 LOG_DIR = r"."
