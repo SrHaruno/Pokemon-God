@@ -20,7 +20,7 @@ RULES_DIR = "./BattleRules"
 # Aprox. in seconds
 RULES_REFRESH_RATE = 60
 
-GAME_VERSION = StrictVersion("2.0.0")
+GAME_VERSION = StrictVersion("1.0.0")
 
 POKEMON_MAX_NAME_SIZE = 10
 PLAYER_MAX_NAME_SIZE = 10
