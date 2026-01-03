@@ -48,7 +48,7 @@ class PokemonOnlineRules
   attr_reader :rules_hash
   
   def initialize
-    @team_preview = 60
+    @team_preview = 0
     @ruleset=ruleset ? ruleset : PokemonRuleSet.new
     @levelAdjustment=nil
     @battlerules=[]
