@@ -299,11 +299,11 @@ class PokemonTrainerCard_Scene
       #[_INTL(" ", $game_variables[100]), 302 + 2 + 48 + 63 * 2, 112 - 16, 1, base, shadow],
 
       [_INTL("LINK BATTLES"), 32, 118 + 32 - 16, 0, base, shadow],
-      [_INTL("{1}", $game_variables[32]), 302 + 2 + 48 - 2, 118 + 32 - 16, 1, base, shadow], #Won
-      [_INTL("{1}", $game_variables[33]), 302 + 2 + 48 + 63 *2, 118 + 32 - 16, 1, base, shadow], #Lost
+      [_INTL("{1}", $stats.online_battles_wins), 302 + 2 + 48 - 2, 118 + 32 - 16, 1, base, shadow], #Won
+      [_INTL("{1}",$stats.online_battles_lost), 302 + 2 + 48 + 63 *2, 118 + 32 - 16, 1, base, shadow], #Lost
 
       [_INTL("LINK TRADES"), 32, 118 + 32 - 16 + 32, 0, base, shadow],
-      [_INTL("{1}", $game_variables[34]), 302 + 2 + 48 + 63 * 2, 118 + 32 - 16 + 32, 1, base, shadow],
+      [_INTL("{1}",  $stats.online_trade_count), 302 + 2 + 48 + 63 * 2, 118 + 32 - 16 + 32, 1, base, shadow],
     ]
     @sprites["overlay"].z += 20
     pbDrawTextPositions(@overlay, textPositions)
