@@ -16,7 +16,7 @@ HOST = r"0.0.0.0"
 PORT = 9999
 PBS_DIR = r"./home/minigamer255/PBS"
 LOG_DIR = r"./home/minigamer255/"
-RULES_DIR = ".home/minigamer255/BattleRules"
+RULES_DIR = "./home/minigamer255/BattleRules"
 # Aprox. in seconds
 RULES_REFRESH_RATE = 60
 
