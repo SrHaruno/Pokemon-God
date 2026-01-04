@@ -101,14 +101,16 @@ def generate_server_pokemon_PBS(mode,input_files,output_file,forms_files,tm_file
         else:
             output_parser.set(internal_name,'gender_ratio',species['GenderRatio'])
         ability_names = []
-        if 'Abilities ' in species:
-            ability_names |= species['Abilities'].split(',')
+        if 'Abilities' in species:
+            ability_names = species['Abilities'].split(',')
+            abilities = set(ability_names)
         if 'HiddenAbility' in species:
             ability_names.extend(species['HiddenAbility'].split(','))
         elif 'HiddenAbilities' in species:
             ability_names.extend(species['HiddenAbilities'].split(','))
+            abilities.update(species['HiddenAbilities'].split(','))
         abilities = {a for a in ability_names if a}
-        output_parser.set(internal_name,'abilities',",".join(abilities))
+        output_parser.set(internal_name, 'abilities', ",".join(abilities))
         moves = set()
         if 'Moves' in species:
             moves |= {m for m in species['Moves'].split(',')[1::2] if m}
@@ -128,15 +130,18 @@ def generate_server_pokemon_PBS(mode,input_files,output_file,forms_files,tm_file
             form_nums.append(f_num)
             output_parser.set(internal_name,'forms',','.join(form_nums))
             ability_names = []
-            if 'Abilities ' in fspecies:
-                ability_names |= fspecies['Abilities'].split(',')
+            if 'Abilities' in fspecies:
+                ability_names = fspecies['Abilities'].split(',')
+                abilities = set(output_parser.get(internal_name, 'abilities').split(','))
             if 'HiddenAbility' in fspecies:
                 ability_names.extend(fspecies['HiddenAbility'].split(','))
             elif 'HiddenAbilities' in fspecies:
                 ability_names.extend(fspecies['HiddenAbilities'].split(','))
+                abilities.update(fspecies['HiddenAbilities'].split(','))
             abilities = {a for a in ability_names if a}
             abilities.update(output_parser[internal_name]['abilities'].split(','))
-            output_parser.set(internal_name,'abilities',",".join(abilities))
+            abilities.update(ability_names)
+            output_parser.set(internal_name, 'abilities', ",".join(abilities))
             moves = set()
             if 'Moves' in fspecies:
                 moves |= {m for m in fspecies['Moves'].split(',')[1::2] if m}

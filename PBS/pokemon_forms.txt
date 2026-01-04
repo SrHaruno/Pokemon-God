@@ -1,122 +1,7 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 
-
 #-------------------------------
-#  //Megas\\
-#-------------------------------
-
-
-#-------------------------------
-[JUNVIL,1]
-FormName = Mega Junvil
-MegaStone = JUNVILITE
-Types = GRASS,DARK
-BaseStats = 105,100,150,80,95,100
-BaseExp = 313
-Abilities = MOXIE
-HiddenAbilities = MOXIE
-#-------------------------------
-[KOMODRA,1]
-FormName = Mega Komo-dra
-MegaStone = KOMODRAITE
-BaseStats = 80,120,100,90,150,90
-BaseExp = 317
-Abilities = MOLDBREAKER
-HiddenAbilities = MOLDBREAKER
-#-------------------------------
-[AXOLYSTIC,1]
-FormName = Mega Axolystic
-MegaStone = AXOLYSTICITE
-Types = WATER,ANGEL
-BaseStats = 108,88,160,50,70,160
-BaseExp = 315
-Abilities = NATURALCURE
-HiddenAbilities = NATURALCURE
-#-------------------------------
-[FLYGON,1]
-FormName = Mega Flygon
-MegaStone = FLYGONITE
-Types = GHOST,GROUND
-BaseStats = 80,100,95,150,100,95
-BaseExp = 317
-Abilities = LEVITATE
-#-------------------------------
-[GARCHOMP,1]
-FormName = Mega Garchomp
-MegaStone = GARCHOMPITE
-BaseStats = 108,170,115,92,120,95
-BaseExp = 350
-Abilities = SANDFORCE
-HiddenAbilities = SANDFORCE
-Pokedex = Its vaunted wings become scythes, sending it mad with rage. It swings its scythes wildly and slices the ground to pieces.
-#-------------------------------
-[TYRANITAR,1]
-FormName = Mega Tyranitar
-MegaStone = TYRANITARITE
-BaseStats = 100,164,150,71,95,120
-BaseExp = 350
-HiddenAbilities = SANDSTREAM
-Height = 2.5
-Weight = 255.0
-Pokedex = Due to the colossal power poured into it, this Pokémon's back split right open. Its destructive instincts are the only thing keeping it moving.
-#-------------------------------
-[GYARADOS,1]
-FormName = Mega Gyarados
-MegaStone = GYARADOSITE
-Types = WATER,DARK
-BaseStats = 95,155,109,81,70,130
-BaseExp = 224
-Abilities = MOLDBREAKER
-HiddenAbilities = MOLDBREAKER
-Weight = 305.0
-Pokedex = It zooms out of the water at Mach speeds. Even large ships caught in its path are split cleanly in two!
-
-
-
-#-------------------------------
-#  //Gender Difference\\
-#-------------------------------
-
-#-------------------------------
-[ORBEAF,1]
-FormName = Female
-BaseStats = 45,30,40,60,65,40
-HiddenAbilities = STEADFAST
-EVs = SPECIAL_ATTACK,1
-Moves = 1,SCRATCH,1,LEER,5,ABSORB,9,SHADOWSNEAK,12,MAGICALLEAF,15,LEECHSEED,18,METALCLAW,21,GIGADRAIN,24,GROWTH,27,AIRCUTTER,30,FLASHCANNON,33,ENERGYBALL
-Pokedex = WIP
-CallRateSOS = 10
-SpeciesSOS = ORBEAF,ORBEAF_1
-#-------------------------------
-[KITSU,1]
-FormName = Female
-Types = PSYCHIC
-BaseStats = 50,30,65,43,50,70
-EVs = SPECIAL_ATTACK,1
-Abilities = SYNCHRONIZE,TRACE
-HiddenAbilities = MAGICGUARD
-Moves = 1,SCRATCH,1,LEER,4,CONFUSION,8,TELEPORT,12,CONFUSERAY,16,PSYBEAM,20,WISH,24,AMNESIA,28,CALMMIND,36,PSYCHIC,40,MOONBLAST,46,MOONLIGHT,50,DAZZLINGGLEAM,54,FUTURESIGHT
-TutorMoves = PROTECT,LIGHTSCREEN,REFLECT
-Evolutions = LUNARTSUNE,Item,MOONSTONE
-SpeciesSOS = KITSU,KITSU_1
-
-
-
-#-------------------------------
-#  //Alternate Forms & Gender Difference\\
-#-------------------------------
-
-#-------------------------------
-[ARMOGHOUL,1]
-FormName = Warrior Form
-BaseStats = 90,145,45,108,145,45
-Abilities = CURSEDBODY
-EVs = SPEED,2
-
-
-
-#-------------------------------
-#  //Arceus Forms\\
+#  \\Canon Forms
 #-------------------------------
 
 #-------------------------------
@@ -200,3 +85,114 @@ Types = ANGEL
 [ARCEUS,20]
 FormName = Demon Type
 Types = DEMON
+
+#-------------------------------
+[FLYGON,1]
+FormName = Mega Flygon
+MegaStone = FLYGONITE
+Types = GHOST,GROUND
+BaseStats = 80,100,95,150,100,95
+BaseExp = 317
+Abilities = LEVITATE
+#-------------------------------
+[GARCHOMP,1]
+FormName = Mega Garchomp
+MegaStone = GARCHOMPITE
+BaseStats = 108,170,115,92,120,95
+BaseExp = 350
+Abilities = SANDFORCE
+HiddenAbilities = SANDFORCE
+Pokedex = Its vaunted wings become scythes, sending it mad with rage. It swings its scythes wildly and slices the ground to pieces.
+#-------------------------------
+[TYRANITAR,1]
+FormName = Mega Tyranitar
+MegaStone = TYRANITARITE
+BaseStats = 100,164,150,71,95,120
+BaseExp = 350
+HiddenAbilities = SANDSTREAM
+Height = 2.5
+Weight = 255.0
+Pokedex = Due to the colossal power poured into it, this Pokémon's back split right open. Its destructive instincts are the only thing keeping it moving.
+#-------------------------------
+[GYARADOS,1]
+FormName = Mega Gyarados
+MegaStone = GYARADOSITE
+Types = WATER,DARK
+BaseStats = 95,155,109,81,70,130
+BaseExp = 224
+Abilities = MOLDBREAKER
+HiddenAbilities = MOLDBREAKER
+Weight = 305.0
+Pokedex = It zooms out of the water at Mach speeds. Even large ships caught in its path are split cleanly in two!
+
+
+
+#-------------------------------
+#  //Mega Evolutions
+#-------------------------------
+
+#-------------------------------
+[JUNVIL,1]
+FormName = Mega Junvil
+MegaStone = JUNVILITE
+Types = GRASS,DARK
+BaseStats = 105,100,150,80,95,100
+BaseExp = 313
+Abilities = MOXIE
+HiddenAbilities = MOXIE
+#-------------------------------
+[KOMODRA,1]
+FormName = Mega Komo-dra
+MegaStone = KOMODRAITE
+BaseStats = 80,120,100,90,150,90
+BaseExp = 317
+Abilities = MOLDBREAKER
+HiddenAbilities = MOLDBREAKER
+#-------------------------------
+[AXOLYSTIC,1]
+FormName = Mega Axolystic
+MegaStone = AXOLYSTICITE
+Types = WATER,ANGEL
+BaseStats = 108,88,160,50,70,160
+BaseExp = 315
+Abilities = NATURALCURE
+HiddenAbilities = NATURALCURE
+
+
+#-------------------------------
+#  //Gender Difference 
+#-------------------------------
+
+#-------------------------------
+[ORBEAF,1]
+FormName = Female
+BaseStats = 45,30,40,60,65,40
+HiddenAbilities = STEADFAST
+EVs = SPECIAL_ATTACK,1
+Moves = 1,SCRATCH,1,LEER,5,ABSORB,9,SHADOWSNEAK,12,MAGICALLEAF,15,LEECHSEED,18,METALCLAW,21,GIGADRAIN,24,GROWTH,27,AIRCUTTER,30,FLASHCANNON,33,ENERGYBALL
+Pokedex = WIP
+CallRateSOS = 10
+SpeciesSOS = ORBEAF,ORBEAF_1
+#-------------------------------
+[KITSU,1]
+FormName = Female
+Types = PSYCHIC
+BaseStats = 50,30,65,43,50,70
+EVs = SPECIAL_ATTACK,1
+Abilities = SYNCHRONIZE,TRACE
+HiddenAbilities = MAGICGUARD
+Moves = 1,SCRATCH,1,LEER,4,CONFUSION,8,TELEPORT,12,CONFUSERAY,16,PSYBEAM,20,WISH,24,AMNESIA,28,CALMMIND,36,PSYCHIC,40,MOONBLAST,46,MOONLIGHT,50,DAZZLINGGLEAM,54,FUTURESIGHT
+TutorMoves = PROTECT,LIGHTSCREEN,REFLECT
+Evolutions = LUNARTSUNE,Item,MOONSTONE
+SpeciesSOS = KITSU,KITSU_1
+
+#-------------------------------
+#  //Alternate Forms 
+#-------------------------------
+
+#-------------------------------
+[ARMOGHOUL,1]
+FormName = Warrior Form
+BaseStats = 90,145,45,108,145,45
+Abilities = CURSEDBODY
+EVs = SPEED,2
