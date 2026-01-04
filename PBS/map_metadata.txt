@@ -70,7 +70,7 @@ Name = Viridis Town
 HealingSpot = 16,8,6
 MapPosition = 0,23,5
 #-------------------------------
-[017]   # Viridisi PC 2F
+[017]   # Viridis PC 2F
 Name = Viridis Town
 MapPosition = 0,23,5
 BattleBack = Online
@@ -943,7 +943,7 @@ BattleBack = Cave1
 [186]   # Mt.Harmony [Trial 3]
 Name = Mt.Harmony
 Outdoor = true
-BattleBack = Field
+BattleBack = Rock
 Environment = Cave
 #-------------------------------
 [187]   # Giga. Condo_3
