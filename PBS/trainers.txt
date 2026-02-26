@@ -945,8 +945,18 @@ Pokemon = JOLTUTER,30
 #-------------------------------
 [SNOWCLOAK,Shinji]
 LoseText = Huh?
-Pokemon = MAJESFUR,46
+Pokemon = MAJESFUR,44
 
+
+#Shurayuki Peak
+#-------------------------------
+[SNOWCLOAK,Hanzo]
+LoseText = You seem ready for your destiny!
+Pokemon = MAJESFUR,44
+#-------------------------------
+[SNOWCLOAK,Nobunaga]
+LoseText = Onward trainer!
+Pokemon = ICEPHANT,44
 
 
 #===========================================================================
