@@ -1342,6 +1342,24 @@ LoseText = NOT AGAIN!!!
   Item   = SITRUSBERRY
 
 
+#Mt.Hope
+
+#2F
+#-------------------------------
+[REAPER, Jimmy]
+LoseText = Im not getting that console!
+ Pokemon = MURAMARIS,44
+#-------------------------------
+[REAPER, Alvin]
+LoseText = There's goes my summer vacation!
+ Pokemon = MURAMARIS,43
+ Pokemon = YOUNROW,43
+#-------------------------------
+[REAPER, Rubio]
+LoseText = I didn't even wanted that much money anyway!
+ Pokemon = YOUNROW,44
+
+
 
 #Battle Island
 [ACETRAINER_M, Alpha] #4 Badges
