@@ -1356,3 +1356,13 @@ ShowArea = true
 MapPosition = 0,22,2
 BattleBack = Field
 MapSize = 3,010010010
+#-------------------------------
+[284]   # Mt.Hope [2F]
+Name = Mt.Hope
+#-------------------------------
+[285]   # Mt.Hope [3F]
+Name = Mt.Hope
+#-------------------------------
+[286]   # Mt.Hope [Outside]
+Name = Mt.Hope
+Outdoor = true
