@@ -1024,6 +1024,10 @@ Outdoor = true
 MapPosition = 0,18,7
 BattleBack = Rocky
 #-------------------------------
+[203]   # Krakahot Vilage
+Outdoor = true
+ShowArea = true
+#-------------------------------
 [205]   # Krakahot PC
 Name = Krakahot Village
 MapPosition = 0,18,7
