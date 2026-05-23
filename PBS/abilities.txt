@@ -1155,3 +1155,11 @@ Description = Ups resistance to Fire- and Ice-type moves.
 [INSYNC]
 Name = In Sync
 Description = Guarantees that multi-strike will hit on every strike.
+#-------------------------------
+[NEFARIOUS]
+Name = Nefarious
+Description = Deal double damage to Fairy- and Fighting-types.
+#-------------------------------
+[ETHEREALAURA]
+Name = Ethereal Aura
+Description = Heals allies while out in battle.
