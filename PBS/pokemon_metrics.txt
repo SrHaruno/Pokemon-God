@@ -6360,12 +6360,6 @@ FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[DRAKRILL]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
 [DWILD,2]
 BackSprite = 0,0
 FrontSprite = 0,17

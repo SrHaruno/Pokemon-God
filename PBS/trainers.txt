@@ -646,7 +646,7 @@ LoseText = So this is the power of Sehand trainers!
    Item  = GYARADOSITE
    Moves = CRUNCH,ICEFANG,AQUATAIL,DRAGONDANCE
    
- Pokemon = MIGHTRILL,48
+ Pokemon = DRAKRAGE,48
   Gender = Female
    Moves = DRAGONCLAW,IRONHEAD,SCALESHOT,EARTHQUAKE
 
