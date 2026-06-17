@@ -83,10 +83,12 @@ class PokemonEvolutionScene
   # Opens the evolution screen
   def pbEvolution(cancancel = true)
     pbBGMStop
-    pbMessageDisplay(@sprites["msgwindow"], "\\se[]" + _INTL("What?") + "\1") { pbUpdate }
-    pbPlayDecisionSE
-    @pokemon.play_cry
-    @sprites["msgwindow"].text = _INTL("{1} is evolving!", @pokemon.name)
+	@pokemon.play_cry
+	
+	# FRAME2 PROJECT ADDITION
+    @sprites["rsprite1"].pbPlayIntroAnimation
+	
+    pbMessageDisplay(@sprites["msgwindow"], "\\se[]" + _INTL("What?\\n{1} is evolving!", @pokemon.name)) { pbUpdate }
     timer_start = System.uptime
     loop do
       Graphics.update
@@ -94,7 +96,7 @@ class PokemonEvolutionScene
       pbUpdate
       break if System.uptime - timer_start >= 1
     end
-    pbMEPlay("Evolution start")
+    #pbMEPlay("Evolution start")
     pbBGMPlay("Evolution")
     canceled = false
     timer_start = System.uptime
@@ -224,7 +226,7 @@ class PokemonEvolutionScene
 
     pbBGMStop
     # Success jingle/message
-    pbMEPlay("Evolution success")
+    pbMEPlay("Battle capture success")
     pbMessageDisplay(@sprites["msgwindow"],
                      "\\se[]" + _INTL("Congratulations! Your {1} evolved into {2}!",
                       oldspeciesname, newspeciesname) + "\\wt[80]") { pbUpdate }

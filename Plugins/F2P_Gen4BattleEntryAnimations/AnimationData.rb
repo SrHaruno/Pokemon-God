@@ -970,10 +970,17 @@ module PokemonIntroAnimationSettings
 	
 #Pokémon God
 
-	ANIMATION_DATA[:GRALING]  = ["StompSmall",       "ABA",                  nil,        nil]
-	ANIMATION_DATA[:EGDON]    = ["HopAround",       "ABA",                  nil,        nil]
-	ANIMATION_DATA[:DRAMODO]  = ["StompBig",       "ABA",                  nil,        nil]
-	ANIMATION_DATA[:KOMODRA]  = ["StompDouble",       "ABA",                  nil,        nil]
-	ANIMATION_DATA[:AXOLOBY]  = ["RotateJump",       "ABA",                  nil,        nil]
+	ANIMATION_DATA[:GRALING]    = ["StompSmall",        "ABA",                  nil,        nil]
+	ANIMATION_DATA[:EVIRASS]    = ["StompSmall",        "ABA",                  nil,        nil]
+	ANIMATION_DATA[:JUNVIL]     = ["StompBig",          "ABA",                  nil,        nil]
+	ANIMATION_DATA[:EGDON]      = ["HopAround",         "ABA",                  nil,        nil]
+	ANIMATION_DATA[:DRAMODO]    = ["Explosion",         "ABA",                  nil,        nil]
+	ANIMATION_DATA[:KOMODRA]    = ["BlinkRed",          "ABA",                  nil,        nil]
+	ANIMATION_DATA[:AXOLOBY]    = ["RotateJump",        "ABA",                  nil,        nil]
+	ANIMATION_DATA[:PSYLOTE]    = ["RotateJump",        "ABA",                  nil,        nil]
+	ANIMATION_DATA[:AXOLYSTIC]  = ["BlinkBlue",         "ABA",                  nil,        nil]
+	ANIMATION_DATA[:PURIRD]     = ["Bounce",   "ABA",                  nil,        nil]
+	
+	
 
 end
