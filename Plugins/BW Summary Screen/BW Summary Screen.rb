@@ -1617,6 +1617,10 @@
 
     def pbScene
       @pokemon.play_cry
+	  
+    # FRAME2 PROJECT ADDITION
+    @sprites["pokemon"].pbPlayIntroAnimation
+	
       loop do
         Graphics.update
         Input.update

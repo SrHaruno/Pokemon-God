@@ -1,0 +1,5 @@
+﻿Name       = [F2P] Gen 4 Battle Entry Animations
+Version    = 1.0.0
+Essentials = 21.1
+Website    = https://github.com/PikachuMazzinga/frame2-project
+Credits    = PikachuMazzinga, Brawligator
