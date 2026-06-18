@@ -970,16 +970,23 @@ module PokemonIntroAnimationSettings
 	
 #Pokémon God
 
-	ANIMATION_DATA[:GRALING]    = ["StompSmall",        "ABA",                  nil,        nil]
 	ANIMATION_DATA[:EVIRASS]    = ["StompSmall",        "ABA",                  nil,        nil]
 	ANIMATION_DATA[:JUNVIL]     = ["StompBig",          "ABA",                  nil,        nil]
 	ANIMATION_DATA[:EGDON]      = ["HopAround",         "ABA",                  nil,        nil]
 	ANIMATION_DATA[:DRAMODO]    = ["Explosion",         "ABA",                  nil,        nil]
 	ANIMATION_DATA[:KOMODRA]    = ["BlinkRed",          "ABA",                  nil,        nil]
-	ANIMATION_DATA[:AXOLOBY]    = ["RotateJump",        "ABA",                  nil,        nil]
-	ANIMATION_DATA[:PSYLOTE]    = ["RotateJump",        "ABA",                  nil,        nil]
-	ANIMATION_DATA[:AXOLYSTIC]  = ["BlinkBlue",         "ABA",                  nil,        nil]
-	ANIMATION_DATA[:PURIRD]     = ["Bounce",   "ABA",                  nil,        nil]
+	ANIMATION_DATA[:AXOLOBY]    = ["Bounce",            "ABA",                  nil,        nil]
+	ANIMATION_DATA[:PSYLOTE]    = ["StretchHorizontal", "ABA",                  nil,        nil]
+	ANIMATION_DATA[:AXOLYSTIC]  = ["FlyHorizontal",     "ABA",                  nil,        nil]
+	ANIMATION_DATA[:PURIRD]     = ["StretchVertical",   "BBABA",                nil,        nil]
+	ANIMATION_DATA[:PEACIRD]    = ["StretchVertical",   "BBA",                  nil,        nil]
+	ANIMATION_DATA[:DOVENESS]   = ["SlideVertical",     "ABA",                  nil,        nil]
+	ANIMATION_DATA[:YOUNROW]    = ["StretchVertical",   "BBA",                  nil,        nil]
+	ANIMATION_DATA[:CRORIRD]    = ["ShakeBig",          "BBA",                  nil,        nil]
+	ANIMATION_DATA[:DWILD]      = ["StretchVertical",   "BBBA",                 nil,        nil]
+	ANIMATION_DATA[:HOGGO]      = ["StretchVertical",   "BBBA",                 nil,        nil]
+	ANIMATION_DATA[:CAPYBURA]   = ["ShakeSmall",        "ABA",                  nil,        nil]
+	ANIMATION_DATA[:DEMYVARA]   = ["ShakeSmall",        "ABA",                  nil,        nil]
 	
 	
 

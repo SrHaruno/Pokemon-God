@@ -5774,7 +5774,7 @@ ShadowSize = 1
 #-------------------------------
 [HOGGO]
 BackSprite = 0,0
-FrontSprite = 0,20
+FrontSprite = -7,12
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -6469,6 +6469,18 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [SUCULLET]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CERPUP]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[FLOHARMONY]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
