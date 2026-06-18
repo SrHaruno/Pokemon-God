@@ -1025,6 +1025,7 @@ MapPosition = 0,18,7
 BattleBack = Rocky
 #-------------------------------
 [203]   # Krakahot Vilage
+Name = Krakahot Vilage
 Outdoor = true
 ShowArea = true
 #-------------------------------
@@ -1064,6 +1065,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,17,4
 BattleBack = Forest
+Flags = MossRock
 #-------------------------------
 [219]   # Herb Shop
 Name = Battle Island
@@ -1248,6 +1250,7 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,16,15
 BattleBack = Cave1
+Flags = IceRock
 #-------------------------------
 [254]   # Crystal Cave [B2F]
 Name = Crystal Cave
@@ -1266,6 +1269,7 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,16,15
 BattleBack = Cave1
+Flags = IceRock
 #-------------------------------
 [257]   # Route 25 [2F]
 Name = Route 25
@@ -1280,18 +1284,21 @@ Name = Mt.Kõji
 Bicycle = true
 MapPosition = 0,16,16
 BattleBack = Cave1
+Flags = IceRock
 #-------------------------------
 [259]   # Mt.Koji [4F]
 Name = Mt.Kõji
 Bicycle = true
 MapPosition = 0,16,16
 BattleBack = Cave1
+Flags = IceRock
 #-------------------------------
 [260]   # Mt.Koji [3F]
 Name = Mt.Kõji
 Bicycle = true
 MapPosition = 0,16,16
 BattleBack = Cave1
+Flags = IceRock
 #-------------------------------
 [261]   # Route 25 [3F]
 Name = Route 25

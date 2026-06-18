@@ -84,10 +84,6 @@ class PokemonEvolutionScene
   def pbEvolution(cancancel = true)
     pbBGMStop
 	@pokemon.play_cry
-	
-	# FRAME2 PROJECT ADDITION
-    @sprites["rsprite1"].pbPlayIntroAnimation
-	
     pbMessageDisplay(@sprites["msgwindow"], "\\se[]" + _INTL("What?\\n{1} is evolving!", @pokemon.name)) { pbUpdate }
     timer_start = System.uptime
     loop do

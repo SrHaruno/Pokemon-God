@@ -988,6 +988,22 @@ module PokemonIntroAnimationSettings
 	ANIMATION_DATA[:HOGGO]      = ["StretchVertical",   "BBBA",                 "HopSmall",         nil]
 	ANIMATION_DATA[:CAPYBURA]   = ["ShakeSmall",        "ABA",                  "ShakeSmall",       nil]
 	ANIMATION_DATA[:DEMYVARA]   = ["ShakeSmall",        "ABA",                  "ShakeSmall",       nil]
+	ANIMATION_DATA[:TATURUG]    = ["BlinkYellow",       "ABA",                  "ShakeSmall",       nil]
+	ANIMATION_DATA[:ELECOON]    = ["Bounce",            "ABA",                  "ShakeSmall",       nil]
+	ANIMATION_DATA[:THUNDOTH]   = ["FlyHorizontal",     "ABA",                  "ShakeSmall",       nil]
+	ANIMATION_DATA[:LARVENGUE]  = ["StretchVertical",   "ABA",                  "ShakeSmall",       nil]
+	ANIMATION_DATA[:PUPENGUE]   = ["SlideHorizontal",   "ABA",                  "ShakeSmall",       nil]
+	ANIMATION_DATA[:MOSQUENTE]  = ["Explosion",         "ABA",                  "ShakeSmall",       nil]
+	ANIMATION_DATA[:ORBEAF]     = ["HopAround",         "ABA",                  "ShakeSmall",       nil]
+	ANIMATION_DATA[:ORIKEN]     = ["SlideHorizontal",   "ABA",                  "ShakeSmall",       nil]
+	ANIMATION_DATA[:KATAGAMI]   = ["Explosion",         "ABA",                  "ShakeSmall",       nil]
+	
+	ANIMATION_DATA[:SQUILAZE]   = ["HopSmall",          "ABA",                  "BlinkYellow",      nil]
+	ANIMATION_DATA[:MOSLEEP]    = ["FlyHorizontal",     "ABA",                  "ShakeSmall",       nil]
+	
+	ANIMATION_DATA[:MOMBER]     = ["StretchVertical",   "BBA",                  "ShakeSmall",       nil]
+
+	
 	
 	
 
