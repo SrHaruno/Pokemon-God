@@ -1377,3 +1377,7 @@ Name = Mt.Hope
 [286]   # Mt.Hope [Outside]
 Name = Mt.Hope
 Outdoor = true
+#-------------------------------
+[287]   # Museum
+Name = Gigantopolis
+MapPosition = 0,13,3
