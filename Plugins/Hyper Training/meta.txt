@@ -1,0 +1,4 @@
+Name         = Hyper Training
+Version      = 1.2.1
+Essentials   = 20.1,21.1
+Credits      = Jonas930

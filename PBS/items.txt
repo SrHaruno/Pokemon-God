@@ -534,6 +534,22 @@ Price = 100
 Flags = Fling_30
 Description = A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.
 #-------------------------------
+[BOTTLECAP]
+Name = Bottle Cap
+NamePlural = Bottle Caps
+Pocket = 1
+Price = 0
+Flags = Fling_30
+Description = A beautiful bottle cap that gives off a silver gleam. Some people are happy to receive one.
+#-------------------------------
+[GOLDBOTTLECAP]
+Name = Gold Bottle Cap
+NamePlural = Gold Bottle Caps
+Pocket = 1
+Price = 0
+Flags = Fling_30
+Description = A beautiful bottle cap that gives off a golden gleam. Some people are happy to receive one.
+#-------------------------------
 [SLOWPOKETAIL]
 Name = Slowpoke Tail
 NamePlural = Slowpoke Tails
