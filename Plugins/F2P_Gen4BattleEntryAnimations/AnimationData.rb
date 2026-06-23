@@ -1003,7 +1003,8 @@ module PokemonIntroAnimationSettings
 	
 	ANIMATION_DATA[:MOMBER]     = ["StretchVertical",   "BBA",                  "ShakeSmall",       nil]
 	
-	ANIMATION_DATA[:MEDULLISH]  = ["Fluid",             "BBA",                  "ShakeSmall",       nil]
+	ANIMATION_DATA[:MEDULLISH]  = ["FlyHorizontal",     "BABA",                 "ShakeSmall",       nil]
+	ANIMATION_DATA[:TURTEED]    = ["StretchVertical",   "BBA",                  "ShakeSmall",       nil]
 
 	
 	
