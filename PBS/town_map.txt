@@ -137,5 +137,11 @@ Point = 18,6,Krakahot Village,Haunted Tower,203,16,24
 Point = 23,3,Route 28
 Point = 23,4,Route 28
 Point = 23,2,Route 28
-Point = 23,1,Route 28,
-Point = 23,0,Route 28,
+Point = 23,1,Route 28
+Point = 23,0,Route 28
+#-------------------------------
+[1]
+Name = Sehand
+Filename = mapRegion1.png
+Point = 23,19,Route 29
+Point = 23,18,Route 29

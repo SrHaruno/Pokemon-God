@@ -86,5 +86,5 @@
 245,East,0,244,West,0
 # Lostown Gym [Trap 2] (247) - Lostown Gym Room 5 (244)
 247,East,0,244,West,36
-# Route 29 (288) - Route 28 (282)
-288,South,0,282,North,0
+# Route 28 (282) - Route 29 (288)
+282,North,8,288,South,0
