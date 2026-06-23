@@ -1005,6 +1005,8 @@ module PokemonIntroAnimationSettings
 	
 	ANIMATION_DATA[:SPARKATIEL] = ["BlinkYellow",       "BBA",                  "ShakeSmall",       nil]
 	
+	ANIMATION_DATA[:FLORBIRB]   = ["SlideVertical",     "BABA",                 "ShakeSmall",       nil]
+	
 	ANIMATION_DATA[:MEDULLISH]  = ["RotateTop",         "BABA",                 "ShakeSmall",       nil]
 	ANIMATION_DATA[:TURTEED]    = ["StretchVertical",   "BBA",                  "ShakeSmall",       nil]
 

@@ -1391,3 +1391,9 @@ BattleBack = field
 WildBattleBGM = Battle! Vs Wild Pokémon [North Sehand]
 TrainerBattleBGM = Battle! Vs Trainer [North Sehand]
 MapSize = 2,0101
+#-------------------------------
+[289]   # Gigantopolis Sewer [1F]
+Name = Gigantopolis
+Bicycle = true
+MapPosition = 0,13,3
+BattleBack = Cave1

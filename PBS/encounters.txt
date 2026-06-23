@@ -720,23 +720,38 @@ Cave,7
 	30,FRUCTERA,21,23
 	10,MOSSELIN,21,23
 Water
-	80,FISHICTIM,21,23
+	80,FISHICTIM,31,33
 OldRod
     70,FISHICTIM,21,23
 GoodRod
-    60,FISHICTIM,21,23
+    60,FISHICTIM,22,25
 SuperRod
     20,MUTAFISH,30,33
 #-------------------------------
 [189] # Gigantopolis Sewer #B1F
 Cave,7
-	30,DITTO,21,23
-	10,DRABY,22
+	10,DITTO,32,33
+	5,DRABY,33
 #-------------------------------
 [190] # Gigantopolis Sewer #B1F
 Cave,7
-	27,DITTO,21,23
-	13,DRABY,22
+	10,DITTO,32,33
+	5,DRABY,33
+#-------------------------------
+[289] # Gigantopolis Sewer #1F Second exit
+Cave,7
+	30,CHIROPEEL,31,33
+	10,MOSSENGE,32,33
+Water
+	80,FISHICTIM,31,33
+OldRod
+    70,FISHICTIM,21,23
+GoodRod
+    60,FISHICTIM,22,25
+SuperRod
+    20,MUTAFISH,30,33
+#----------------------
+
 
 #-------------------------------
 [212] # Haunted Tower 2F
