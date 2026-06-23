@@ -165,7 +165,7 @@ Name = Route 2
 MapPosition = 0,23,7
 #-------------------------------
 [037]   # Viridis Gate
-Name = Route 1
+Name = Viridis Town
 Bicycle = true
 MapPosition = 0,25,5
 #-------------------------------
@@ -1381,3 +1381,12 @@ Outdoor = true
 [287]   # Museum
 Name = Gigantopolis
 MapPosition = 0,13,3
+#-------------------------------
+[288]   # Route 29
+Name = Route 29
+Outdoor = true
+ShowArea = true
+MapPosition = 1,18,2
+BattleBack = field
+WildBattleBGM = Battle! Vs Wild Pokémon [North Sehand]
+TrainerBattleBGM = Battle! Vs Trainer [North Sehand]

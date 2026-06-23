@@ -454,6 +454,16 @@ LandNight,20
     40,CAPYBURA,5
     30,PURIRD,3,5
     20,DWILD,3,5
+#-------------------------------
+[288] # Route 29
+Land,20
+    40,HOGGO,42,44
+    30,PURIRD,42,44
+    20,DEMYVARA,43,44
+LandNight,20
+    40,DEMYVARA,42,44
+    30,PURIRD,42,44
+    20,HOGGO,43,44
 
 
 
