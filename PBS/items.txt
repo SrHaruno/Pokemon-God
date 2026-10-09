@@ -6742,6 +6742,7 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = It's an key I found in the Marine Abandoned Hotel.
+
 #-------------------------------
 [THIRDKEY]
 Name =  Third Floor Key
@@ -6760,3 +6761,12 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = It's an package received from Looker, it looks important.
+#-------------------------------
+[PORTABLEHEALINGMCHN]
+Name =  P.H Machince
+NamePlural = P.H Machine
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = The Portable Healing Machine fully heals your party. it recharges as you walk.

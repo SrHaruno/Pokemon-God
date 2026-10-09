@@ -896,6 +896,16 @@ SuperRod
     20,GYARADOS,35,38	
 	
 	
+#Victory Road
+#-------------------------------
+[270] # Victory Road - Outside
+Land,20
+    40,SCARRET,44,46
+	30,ICEPHANT,44,46
+LandNight,20
+    40,SCARRET,44,46
+	30,ICEPHANT,44,46
+	
 	
 #Islands
 #-------------------------------

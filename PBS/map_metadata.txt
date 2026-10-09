@@ -1328,6 +1328,13 @@ Weather = Snow,100
 MapPosition = 0,18,17
 BattleBack = Snow
 #-------------------------------
+[270]   # Victory Road
+Name = Victory Road
+Outdoor = true
+MapPosition = 0,19,18
+BattleBack = Snow
+MapSize = 2,1100
+#-------------------------------
 [271]   # Tourmaline Gym
 Name = Tormaline City
 Bicycle = true
