@@ -1375,15 +1375,20 @@ MapPosition = 0,22,2
 BattleBack = Field
 MapSize = 3,010010010
 #-------------------------------
-[284]   # Mt.Hope [2F]
+[284]   # Mt.Hope [1F]
 Name = Mt.Hope
+Bicycle = true
+BattleBack = cave1
 #-------------------------------
-[285]   # Mt.Hope [3F]
+[285]   # Mt.Hope [2F]
 Name = Mt.Hope
+Bicycle = true
+BattleBack = cave1
 #-------------------------------
-[286]   # Mt.Hope [Outside]
+[286]   # Mt.Hope [Outside - 1F]
 Name = Mt.Hope
 Outdoor = true
+BattleBack = field
 #-------------------------------
 [287]   # Museum
 Name = Gigantopolis
