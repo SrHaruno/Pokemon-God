@@ -1409,3 +1409,8 @@ Name = Gigantopolis
 Bicycle = true
 MapPosition = 0,13,3
 BattleBack = Cave1
+#-------------------------------
+[291]   # Mt.Hope[3F]
+Name = Mt.Hope
+Bicycle = true
+BattleBack = Cave1
