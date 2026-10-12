@@ -231,17 +231,20 @@ SuperRod
 Land,20
     40,ARKIDOE,19,21
     30,CHOPAXE,19,21
+	25,TEDCUB,20,21
     10,SUCULLET,20
 #-------------------------------
 [133] # Route 12
 Land,20
-    30,CHOPAXE,23,25
+    40,CHOPAXE,23,25
+	30,TEDCUB,24,25
 	20,SQUT,23,25
 	10,ANGDEP,24
 #-------------------------------
 [129] # Route 13
 Land,20
-    30,CHOPAXE,21,23
+    40,CHOPAXE,21,23
+	30,TEDCUB,22,23
 	20,SQUT,21,23
 	10,ANGDEP,22
 #-------------------------------
@@ -260,8 +263,10 @@ LandNight,20
 [083] # Route 15
 Land,20
     40,KARANSHELL,19,21
+	30,TEDCUB,20,21
 LandNight,20
     40,KARANSHELL,19,21
+	30,TEDCUB,20,21
 Water
 	80,MAGIKARP,5
 OldRod
@@ -428,7 +433,8 @@ LandNight,20
 [140] # Route 26
 Land,20
     40,CHOPAXE,24,26
-	30,SQUT,24,26
+	30,TEDCUB,25,26
+	20,SQUT,24,26
 	10,ANGDEP,25
 Water
 	80,MAGIKARP,5
@@ -442,7 +448,8 @@ SuperRod
 [142] # Route 27
 Land,20
     40,CHOPAXE,24,26
-	30,SQUT,24,26
+	30,TEDCUB,25,26
+	20,SQUT,24,26
 	10,ANGDEP,25
 #-------------------------------
 [282] # Route 28
@@ -457,13 +464,13 @@ LandNight,20
 #-------------------------------
 [288] # Route 29
 Land,20
-    40,HOGGO,42,44
-    30,PURIRD,42,44
-    20,DEMYVARA,43,44
+    40,HOGGO,46,48
+    30,PURIRD,46,48
+    20,DEMYVARA,46,48
 LandNight,20
-    40,DEMYVARA,42,44
-    30,PURIRD,42,44
-    20,HOGGO,43,44
+    40,DEMYVARA,46,48
+    30,PURIRD,46,48
+    20,HOGGO,46,48
 
 
 

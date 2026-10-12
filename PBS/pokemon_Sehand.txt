@@ -2510,7 +2510,51 @@ Color = Gray
 Shape = Bipedal
 Category = Cat
 Pokedex = ???
-
+#-------------------------------
+[TEDCUB]
+Name = Tedcub
+Types = FIRE
+BaseStats = 50,80,45,60,70,45
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 70
+EVs = ATTACK,1
+CatchRate = 190
+Happiness = 50
+Abilities = FLASHFIRE
+HiddenAbilities = MOXIE
+Moves = 1,TACKLE,5,TAILWHIP,9,EMBER,13,FURYSWIPES,17,ARMTHRUST,21,FLAMEWHEEL,25,SLASH,29,FLAMEBURST,33,VACUUMWAVE,37,THRASH,41,FLAMETHROWER,45,HAMMERARM,49,BODYSLAM,53,CLOSECOMBAT,57,GIGAIMPACT
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE,CUT,WORKUP,ROCKSMASH
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Red
+Shape = Bipedal
+Category = Cub
+Evolutions = BEARNIZE,Item,FIRESTONE
+#-------------------------------
+[BEARNIZE]
+Name = Bearnize
+Types = FIRE
+BaseStats = 70,110,65,87,130,65
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 70
+EVs = ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = FLASHFIRE
+HiddenAbilities = MOXIE
+Moves = 1,TACKLE,1,TAILWHIP,1,EMBER,1,FURYSWIPES,53,CLOSECOMBAT,57,GIGAIMPACT
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE,CUT,WORKUP,ROCKSMASH
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Red
+Shape = Bipedal
+Category = Cub
 
 #-------------------------------
 [CAIBORA]

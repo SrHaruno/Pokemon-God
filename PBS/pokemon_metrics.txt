@@ -5965,8 +5965,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [TURTEED]
-BackSprite = 0,20
-FrontSprite = 0,27
+BackSprite = 0,4
+FrontSprite = 0,25
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -6485,3 +6485,33 @@ BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[CERMUNCH]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[DRAKRAGE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[PERMAPHANT]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TUTULENTA]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TEDCUB]
+BackSprite = 0,0
+FrontSprite = 3,13
+ShadowX = 0
+ShadowSize = 1
