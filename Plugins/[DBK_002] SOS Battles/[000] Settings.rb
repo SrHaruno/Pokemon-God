@@ -20,5 +20,5 @@ module Settings
   # SOS chain. The number set here multiplies the number of shiny rolls by that
   # number. Set to 1 by default for the normal SOS chain shiny rolls.
   #-----------------------------------------------------------------------------
-  SOS_CHAIN_SHINY_MULTIPLIER = 100
+  SOS_CHAIN_SHINY_MULTIPLIER = 1
 end

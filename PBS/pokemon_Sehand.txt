@@ -3110,7 +3110,8 @@ Shape = Serpentine
 Category = Snake
 Pokedex = ???
 Evolutions = JIARAGON,Level,30
-CallRateSOS = 3
+SpeciesSOS = SNAKRE,SHENRAGON
+CallRateSOS = 9
 #-------------------------------
 [JIARAGON]
 Name = Jiaragon
@@ -3134,6 +3135,7 @@ Shape = Serpentine
 Category = Oriental Dragon
 Pokedex = ???
 Evolutions = SHENRAGON,Level,55
+CallRateSOS = 9
 #-------------------------------
 [SHENRAGON]
 Name = Shenragon
@@ -3156,6 +3158,7 @@ Color = Red
 Shape = Serpentine
 Category = Ancient Dragon
 Pokedex = ???
+CallRateSOS = 9
 #-------------------------------
 [EDELORD]
 Name = Edelord

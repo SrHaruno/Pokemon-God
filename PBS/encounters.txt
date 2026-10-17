@@ -531,18 +531,38 @@ Cave,7
     40,UNOWN,44
     25,SNAKRE,43,44
 	5,JIARAGON,44
+Water
+	80,GYARADOS,42,44
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,24,26
+SuperRod
+    20,GYARADOS,42,44
+	20,DRATINI,43,44
+	 5,DRAGONAIR,44
 #-------------------------------
 [294] # Mt.Hope 4F
 Cave,7
     40,UNOWN,44
     25,SNAKRE,43,44
 	5,JIARAGON,44
+Water
+	80,GYARADOS,42,44
+OldRod
+    70,MAGIKARP,8,10
+GoodRod
+    60,MAGIKARP,24,26
+SuperRod
+    20,GYARADOS,42,44
+	20,DRATINI,43,44
+	 5,DRAGONAIR,44
 #-------------------------------
 [296] # Mt.Hope 5F
 Cave,7
     40,UNOWN,44
-    25,SNAKRE,43,44
-	5,JIARAGON,44
+    30,SNAKRE,43,44
+	10,JIARAGON,44
 
 #Outside
 #-------------------------------
