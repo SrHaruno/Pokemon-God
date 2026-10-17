@@ -984,7 +984,7 @@ module PokemonIntroAnimationSettings
 	ANIMATION_DATA[:DOVENESS]   = ["SlideVertical",     "ABA",                  "ShakeSmall",       nil]
 	ANIMATION_DATA[:YOUNROW]    = ["StretchVertical",   "BBA",                  "ShakeSmall",       nil]
 	ANIMATION_DATA[:CRORIRD]    = ["StretchHorizontal", "BBA",                  "ShakeBig",         nil]
-	ANIMATION_DATA[:DWILD]      = ["StretchVertical",   "BBBA",                 "HopSmall",         nil]
+	ANIMATION_DATA[:DWILD]      = ["StretchHorizontal", "BBBA",                 "HopSmall",         nil]
 	ANIMATION_DATA[:HOGGO]      = ["StretchVertical",   "BBBA",                 "HopSmall",         nil]
 	ANIMATION_DATA[:CAPYBURA]   = ["ShakeSmall",        "ABA",                  "ShakeSmall",       nil]
 	ANIMATION_DATA[:DEMYVARA]   = ["ShakeSmall",        "ABA",                  "ShakeSmall",       nil]
