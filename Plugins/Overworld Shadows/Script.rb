@@ -25,7 +25,8 @@ class Sprite_Character < RPG::Sprite
       "CutTree",
       "Door",
       "Stairs",
-      "Fireplace"
+      "Fireplace",
+	  "Healing balls"
     ].freeze
 
     #  List of event name inclusions that will always render a shadow

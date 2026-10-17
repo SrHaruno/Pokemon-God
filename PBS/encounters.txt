@@ -513,6 +513,50 @@ SuperRod
     20,GYARADOS,35,38	
 	10,DRATINI,36,38
 	1,DRAGONAIR,37
+#-------------------------------
+[284] # Mt.Hope 1F
+Cave,7
+    40,UNOWN,44
+    25,SNAKRE,43,44
+	5,JIARAGON,44
+#-------------------------------
+[285] # Mt.Hope 2F
+Cave,7
+    40,UNOWN,44
+    25,SNAKRE,43,44
+	5,JIARAGON,44
+#-------------------------------
+[291] # Mt.Hope 3F
+Cave,7
+    40,UNOWN,44
+    25,SNAKRE,43,44
+	5,JIARAGON,44
+#-------------------------------
+[294] # Mt.Hope 4F
+Cave,7
+    40,UNOWN,44
+    25,SNAKRE,43,44
+	5,JIARAGON,44
+#-------------------------------
+[296] # Mt.Hope 5F
+Cave,7
+    40,UNOWN,44
+    25,SNAKRE,43,44
+	5,JIARAGON,44
+
+#Outside
+#-------------------------------
+[286] # Mt.Hope 2F - Outside
+Land,20
+    40,HOGGO,42,44
+LandNight,20
+    40,HOGGO,42,44
+#-------------------------------
+[295] # Mt.Hope 4F - Outside
+Land,20
+    40,HOGGO,42,44
+LandNight,20
+    40,HOGGO,42,44	
 	
 	
 #-------------------------------

@@ -1360,6 +1360,12 @@ Name = Mt.Solar
 Bicycle = true
 BattleBack = Cave1
 #-------------------------------
+[280]   # Spes Village
+Name = Spes Village
+Outdoor = true
+ShowArea = true
+MapPosition = 0,25,9
+#-------------------------------
 [281]   # Forest Heart
 Name = Forest Heart
 Outdoor = true
@@ -1385,9 +1391,10 @@ Name = Mt.Hope
 Bicycle = true
 BattleBack = cave1
 #-------------------------------
-[286]   # Mt.Hope [Outside - 1F]
+[286]   # Mt.Hope [Outside - 2F]
 Name = Mt.Hope
 Outdoor = true
+MapPosition = 0,24,9
 BattleBack = field
 #-------------------------------
 [287]   # Museum
@@ -1410,7 +1417,26 @@ Bicycle = true
 MapPosition = 0,13,3
 BattleBack = Cave1
 #-------------------------------
-[291]   # Mt.Hope[3F]
+[291]   # Mt.Hope [3F]
 Name = Mt.Hope
 Bicycle = true
+BattleBack = Cave1
+#-------------------------------
+[294]   # Mt.Hope [4F]
+Name = Mt.Hope
+Bicycle = true
+MapPosition = 0,24,9
+BattleBack = Cave1
+#-------------------------------
+[295]   # Mt.Hope [Outside - 4F]
+Name = Mt.Hope
+Outdoor = true
+ShowArea = true
+MapPosition = 0,24,9
+BattleBack = field
+#-------------------------------
+[296]   # Mt.Hope [5F]
+Name = Mt.Hope
+Bicycle = true
+MapPosition = 0,24,9
 BattleBack = Cave1
