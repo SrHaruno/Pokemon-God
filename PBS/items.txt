@@ -5221,9 +5221,18 @@ Pocket = 4
 Price = 2000
 BPPrice = 32
 FieldUse = TM
-Flags = Fling_90
 Move = FEARSOMESLASH
 Description = The foe is cut with terrifying sharp claws.
+#-------------------------------
+[TM104]
+Name = TM104
+NamePlural = TM104s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TM
+Move = RAGNAROK
+Description = Call's upon the foe an powerful beam from the skies, may lower the target Special Attack.
 #-------------------------------
 [HM01]
 Name = HM01

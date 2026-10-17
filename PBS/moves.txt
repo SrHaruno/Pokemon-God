@@ -9132,7 +9132,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpAtk1
 Flags = CanProtect,CanMirrorMove
 EffectChance = 30
-Description = WIP
+Description = Call's upon the foe an powerful beam from the skies, may lower the target Special Attack.
 #-------------------------------
 [ZEUSSTRIKE]
 Name = Zeus Punch

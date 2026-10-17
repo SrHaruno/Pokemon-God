@@ -3110,7 +3110,7 @@ Shape = Serpentine
 Category = Snake
 Pokedex = ???
 Evolutions = JIARAGON,Level,30
-SpeciesSOS = SNAKRE,SHENRAGON
+SpeciesSOS = SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,JIARAGON,JIARAGON,JIARAGON,SHENRAGON,SHENRAGON
 CallRateSOS = 9
 #-------------------------------
 [JIARAGON]
@@ -3135,6 +3135,7 @@ Shape = Serpentine
 Category = Oriental Dragon
 Pokedex = ???
 Evolutions = SHENRAGON,Level,55
+SpeciesSOS = SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,SNAKRE,JIARAGON,JIARAGON,JIARAGON,SHENRAGON,SHENRAGON
 CallRateSOS = 9
 #-------------------------------
 [SHENRAGON]
@@ -3158,7 +3159,6 @@ Color = Red
 Shape = Serpentine
 Category = Ancient Dragon
 Pokedex = ???
-CallRateSOS = 9
 #-------------------------------
 [EDELORD]
 Name = Edelord
