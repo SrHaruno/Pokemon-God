@@ -1167,3 +1167,7 @@ Description = Heals allies while out in battle.
 [DRAGONSPIRIT]
 Name = Dragon Spirit
 Description = Dragon-Type moves receive STAB effect.
+#-------------------------------
+[THUNDERSTORM]
+Name = Thunderstorm
+Description = The Pokémon summons storms if it appears in battle.

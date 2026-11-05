@@ -1221,7 +1221,7 @@ Shape = Quadruped
 Category = Turtle
 Pokedex = ???
 Evolutions = TURTLOW,Level,16
-CallRateSOS = 15
+CallRateSOS = 9
 #-------------------------------
 [TURTLOW]
 Name = Turtlow
@@ -1234,7 +1234,7 @@ EVs = DEFENSE,1
 CatchRate = 120
 Happiness = 50
 Abilities = CLEARBODY,STURDY
-HiddenAbilities = SHELLARMOR
+HiddenAbilities = SWIFTSWIM
 Moves = 1,TACKLE,4,GROWL,6,WATERGUN,11,RAPIDSPIN,15,METALCLAW,19,BUBBLEBEAM,24,BODYPRESS,28,HEADBUTT,33,BRINE,37,SURF,42,IRONDEFENSE,46,IRONHEAD,50,HYDROPUMP
 TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE,SURF,ICEBEAM
 EggMoves = HARDEN
@@ -1247,11 +1247,12 @@ Shape = Quadruped
 Category = Turtle
 Pokedex = ???
 Evolutions = TURTANK,Level,36
+CallRateSOS = 15
 #-------------------------------
 [TURTANK]
 Name = Turtank
 Types = WATER,STEEL
-BaseStats = 108,60,100,40,133,100
+BaseStats = 108,68,110,40,130,85
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 200
@@ -1271,9 +1272,6 @@ Color = Blue
 Shape = Quadruped
 Category = Turtle
 Pokedex = ???
-
-
-
 #-------------------------------
 [CUBOLT]
 Name = Cubolt
@@ -3041,7 +3039,7 @@ BaseStats = 90,85,85,100,125,85
 GenderRatio = Genderless
 GrowthRate = Slow
 BaseExp = 261
-EVs = ATTACK,3
+EVs = SPECIAL_ATTACK,3
 CatchRate = 3
 Happiness = 100
 Abilities = SNOWWARNING
@@ -3052,12 +3050,31 @@ Height = 0.4
 Weight = 4.0
 Color = Red
 Shape = Serpentine
-Category = Heatwave
+Category = Snowstorm
 Pokedex = ???
 Flags = Legendary
-
-
-
+#-------------------------------
+[TEMYRM]
+Name = Temyrm
+Types = DRAGON,ELECTRIC
+BaseStats = 90,110,85,95,110,85
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 261
+EVs = SPEED,3
+CatchRate = 3
+Happiness = 100
+Abilities = THUNDERSTORM
+Moves = 1,PECK,1,LEER,5,THUNDERSHOCK,10,SAFEGUARD,15,TWISTER,20,AGILITY,25,ANCIENTPOWER,30,SHOCKWAVE,35,DRAGONBREATH,40,SCARYFACE,45,DRAGONPULSE,50,THUNDERWAVE,55,THUNDERBOLT,60,WEATHERBALL,65,THUNDER,70,OUTRAGE
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE
+EggGroups = Undiscovered
+Height = 0.4
+Weight = 4.0
+Color = Red
+Shape = Serpentine
+Category = Thunderstorm
+Pokedex = ???
+Flags = Legendary
 #-------------------------------
 [CERPUP]
 Name = Cerpup
