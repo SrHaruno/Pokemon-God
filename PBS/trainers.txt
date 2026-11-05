@@ -633,24 +633,27 @@ LoseText = I can't belive it, only my sensei was able to meet my strenght! Well 
 Items = FULLRESTORE,FULLRESTORE,MEGARING
 LoseText = So this is the power of Sehand trainers!
    
- Pokemon = FLYGON,48
-  Gender = Male 
+ Pokemon = FLYGON,50
+  Gender = Male
+   Item  = LEFTOVERS
    Moves = DRAGONCLAW,EARTHQUAKE,ROCKSLIDE,UTURN
    
- Pokemon = TOKODRA,48
-  Gender = Female 
+ Pokemon = TOKODRA,50
+  Gender = Female
+   Item  = CHOICESPECS
    Moves = SLUDGEWAVE,DRAGONPULSE,NASTYPLOT
    
- Pokemon = GYARADOS,48
+ Pokemon = GYARADOS,50
   Gender = Male
    Item  = GYARADOSITE
    Moves = CRUNCH,ICEFANG,AQUATAIL,DRAGONDANCE
    
- Pokemon = DRAKRAGE,48
+ Pokemon = DRAKRAGE,50
   Gender = Female
+   Item  = CHOICEBAND
    Moves = DRAGONCLAW,IRONHEAD,SCALESHOT,EARTHQUAKE
 
- Pokemon = SHENRAGON,48
+ Pokemon = SHENRAGON,50
   Gender = Male
    Item  = SITRUSBERRY
    Moves = RAGNAROK,DRAGONCLAW,FLAMETHROWER,ROAR
@@ -663,13 +666,13 @@ LoseText = So this is the power of Sehand trainers!
 #-------------------------------
 [CHAMPION_Steven,Steven]
 Items = FULLRESTORE,FULLRESTORE,MEGARING
-LoseText = So this is the power of Sehand trainers!
+LoseText = I never seen such strenght like that back in Hoenn!
    
- Pokemon = STEGOSOLIS,48
+ Pokemon = STEGOSOLIS,50
   Gender = Male
    Moves = JURASSICSUN,DRAGONPULSE,BODYPRESS,IRONDEFENSE
    
- Pokemon = UMBRAPTOR,48
+ Pokemon = UMBRAPTOR,50
   Gender = Male
    Moves = OUTRAGE,PRIMORDIALSNAG,SWORDSDANCE
 
@@ -683,25 +686,31 @@ LoseText = So this is the power of Sehand trainers!
 Items = FULLRESTORE,FULLRESTORE,MEGARING
 LoseText = That strenght, you remind me of someon I battled in Sinnoh! Anyway! You won the Tournament!
    
- Pokemon = ARMOGHOUL,48
+ Pokemon = ARMOGHOUL,50
   Gender = Male 
+  Item   = LEFTOVERS
  Ability = DARKNESSARMOUR
-   Moves = TOXIC,IRONHEAD,PROTECT
+   Moves = TOXIC,IRONHEAD,PROTECT,STEALTHROCK
    
- Pokemon = BULWRECK,48
+ Pokemon = BULWRECK,50
   Gender = Male
+   Item  = SITRUSBERRY
    Moves = BELLYDRUM,FLAREBLITZ,RECKLESSWRECK,HAMMERARM
    
- Pokemon = ZEUKATIEL,48
+ Pokemon = ZEUKATIEL,50
   Gender = Male
+   Item  = CHOICESPECS
    Moves = THUNDERBOLT,AIRSLASH,RAGNAROK,ROOST
-   
- Pokemon = SWAMIGAMI,48
-   Moves = ENERGYBALL,AIRSLASH
 
- Pokemon = TURTANK,48
-  Gender = Male
+ Pokemon = TURTANK,50
+  Gender = Female
+   Item  = LEFTOVERS
    Moves = SURF,ICEBEAM,FLASHCANNON,RAPIDSPIN
+   
+ Pokemon = TYRANITAR,55
+  Gender = Male
+   Item  = SMOOTHROCK
+   Moves = DRAGONDANCE,CRUNCH,EARTHQUAKE,STONEEDGE
 
  Pokemon = GARCHOMP,55
    Item  = GARCHOMPITE
