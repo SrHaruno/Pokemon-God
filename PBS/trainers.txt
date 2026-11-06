@@ -360,95 +360,98 @@ LoseText = Hmph...
   Gender = Male
   Moves  = AIRCUTTER,FOULPLAY,FEATHERDANCE,ROOST
    
+ Pokemon = PUPITAR,35
+  Gender = Male
+   Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE   
+   
  Pokemon = VOOTED,33
   Gender = Male
 
- Pokemon = PUPITAR,35
-  Gender = Male
-   Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
    
 # Second Peon Battle - Route 22
 #-------------------------------
 [RIVAL3,Peon,1]
 LoseText = I will revive my parents!
 
- Pokemon = CRORIRD,35
-  Gender = Male
-  Moves  = AIRCUTTER,SNARL,FEATHERDANCE,ROOST
-   
- Pokemon = TURTLOW,35
-  Gender = Female
-   Moves = BODYPRESS,SURF,RAPIDSPIN
-   
- Pokemon = VOOLEASE,35
-  Gender = Male
-   Moves = CONFUSERAY,DREADFULWAVE,HEX,TORMENT
-
  Pokemon = CERMUNCH,35
   Gender = Male
    Moves = SHADOWCLAW,BERSERKSMASH,DOUBLEHIT
 
- Pokemon = PUPITAR,40
+ Pokemon = CRORIRD,35
+  Gender = Male
+  Moves  = AIRCUTTER,SNARL,FEATHERDANCE,ROOST
+   
+ Pokemon = TURTLOW,38
+  Gender = Female
+   Moves = BODYPRESS,SURF,RAPIDSPIN
+   
+ Pokemon = PUPITAR,38
   Gender = Male
    Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
+   
+ Pokemon = VOOLEASE,40
+  Gender = Male
+   Moves = CONFUSERAY,DREADFULWAVE,HEX,TORMENT
 
 # Third Peon Battle - Shurayuki Peak
 #-------------------------------
 [RIVAL3,Peon,2]
 LoseText = Doesn't metter if I lose!
 
- Pokemon = CRORIRD,45
-  Gender = Male
-  Moves  = AIRSLASH,SNARL,FEATHERDANCE,ROOST
-   
- Pokemon = TURTANK,45
-  Gender = Female
-   Moves = BODYPRESS,SURF,IRONDEFENSE,ICEBEAM
-   
- Pokemon = VOOLEASE,45
-  Gender = Male
-   Moves = CONFUSERAY,DREADFULWAVE,SHADOWBALL,TORMENT
-
- Pokemon = UMBRAPTOR,45
-  Gender = Male
-   Moves = DRAGONCLAW,KNOCKOFF,HONECLAWS,PRIMORDIALSNAG
-
  Pokemon = CERMUNCH,45
   Gender = Male
    Moves = SHADOWCLAW,BERSERKSMASH,DOUBLEHIT
 
- Pokemon = PUPITAR,50
-  Gender = Male
-   Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
-   
-# Final Peon Battle - Mt.Hope Peak
-#-------------------------------
-[RIVAL3,Peon,3]
-LoseText = WHY DO YOU WANNA STOP ME FROM REVIVING MY PARENTS!
-
- Pokemon = CRORIRD,50
+ Pokemon = CRORIRD,48
   Gender = Male
   Moves  = AIRSLASH,SNARL,FEATHERDANCE,ROOST
    
- Pokemon = TURTANK,50
+ Pokemon = TURTANK,48
   Gender = Female
    Moves = BODYPRESS,SURF,IRONDEFENSE,ICEBEAM
-   
- Pokemon = VOOLEASE,50
-  Gender = Male
-   Moves = CONFUSERAY,DREADFULWAVE,SHADOWBALL,TORMENT
 
  Pokemon = UMBRAPTOR,50
   Gender = Male
    Moves = DRAGONCLAW,KNOCKOFF,HONECLAWS,PRIMORDIALSNAG
 
- Pokemon = CERMUNCH,50
-  Gender = Male
-   Moves = SHADOWCLAW,BERSERKSMASH,DOUBLEHIT
-
- Pokemon = TYRANITAR,55
+ Pokemon = PUPITAR,50
   Gender = Male
    Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
+   
+ Pokemon = VOOLEASE,50
+  Gender = Male
+   Moves = CONFUSERAY,DREADFULWAVE,SHADOWBALL,TORMENT
+   
+# Final Peon Battle - Mt.Hope Peak
+#-------------------------------
+[RIVAL4,Peon]
+LoseText = WHY DO YOU WANNA STOP ME FROM REVIVING MY PARENTS!
+Items = MEGARING,HYPERPOTION,HYPERPOTION
+
+ Pokemon = CERBERNO,55
+  Gender = Male
+   Moves = SHADOWCLAW,TRIMUNCH,NIGHTSLASH,FAKETEARS
+
+ Pokemon = CRORIRD,55
+  Gender = Male
+  Moves  = AIRSLASH,SNARL,FEATHERDANCE,ROOST
+   
+ Pokemon = TURTANK,56
+  Gender = Female
+   Moves = BODYPRESS,SURF,IRONDEFENSE,ICEBEAM
+
+ Pokemon = UMBRAPTOR,56
+  Gender = Male
+   Moves = DRAGONCLAW,KNOCKOFF,HONECLAWS,PRIMORDIALSNAG
+
+ Pokemon = TYRANITAR,58
+  Gender = Male
+   Item  = TYRANITARITE
+   Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
+   
+ Pokemon = VOOLEASE,58
+  Gender = Male
+   Moves = CONFUSERAY,DREADFULWAVE,SHADOWBALL,TORMENT
 
 
 # First Caelum Battle #Can't win

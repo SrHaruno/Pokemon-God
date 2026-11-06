@@ -28,10 +28,18 @@ Gender = Male
 BaseMoney = 36
 BattleBGM = Battle! Vs Peon
 #-------------------------------
+[RIVAL4]
+Name = ???
+Gender = Male
+BaseMoney = 36
+SkillLevel = 100
+BattleBGM = Battle! Vs Final Peon
+#-------------------------------
 [PLASMA]
 Name = ???
 Gender = Male
 BaseMoney = 36
+SkillLevel = 100
 
 
 #Gym Leaders
