@@ -351,7 +351,7 @@ LoseText = Hopefully the locals enjoyed this battle!
 #===========================================================================
 # Peon & Caelum Battles
 
-# First Peon Battle
+# First Peon Battle - Route 18 Gate
 #-------------------------------
 [RIVAL3,Peon]
 LoseText = Hmph...
@@ -367,14 +367,18 @@ LoseText = Hmph...
   Gender = Male
    Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
    
-# Second Peon Battle
+# Second Peon Battle - Route 22
 #-------------------------------
 [RIVAL3,Peon,1]
-LoseText = Hmph...
+LoseText = I will revive my parents!
 
  Pokemon = CRORIRD,35
   Gender = Male
   Moves  = AIRCUTTER,SNARL,FEATHERDANCE,ROOST
+   
+ Pokemon = TURTLOW,35
+  Gender = Female
+   Moves = BODYPRESS,SURF,RAPIDSPIN
    
  Pokemon = VOOLEASE,35
   Gender = Male
@@ -388,6 +392,63 @@ LoseText = Hmph...
   Gender = Male
    Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
 
+# Third Peon Battle - Shurayuki Peak
+#-------------------------------
+[RIVAL3,Peon,2]
+LoseText = Doesn't metter if I lose!
+
+ Pokemon = CRORIRD,45
+  Gender = Male
+  Moves  = AIRSLASH,SNARL,FEATHERDANCE,ROOST
+   
+ Pokemon = TURTANK,45
+  Gender = Female
+   Moves = BODYPRESS,SURF,IRONDEFENSE,ICEBEAM
+   
+ Pokemon = VOOLEASE,45
+  Gender = Male
+   Moves = CONFUSERAY,DREADFULWAVE,SHADOWBALL,TORMENT
+
+ Pokemon = UMBRAPTOR,45
+  Gender = Male
+   Moves = DRAGONCLAW,KNOCKOFF,HONECLAWS,PRIMORDIALSNAG
+
+ Pokemon = CERMUNCH,45
+  Gender = Male
+   Moves = SHADOWCLAW,BERSERKSMASH,DOUBLEHIT
+
+ Pokemon = PUPITAR,50
+  Gender = Male
+   Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
+   
+# Final Peon Battle - Mt.Hope Peak
+#-------------------------------
+[RIVAL3,Peon,3]
+LoseText = WHY DO YOU WANNA STOP ME FROM REVIVING MY PARENTS!
+
+ Pokemon = CRORIRD,50
+  Gender = Male
+  Moves  = AIRSLASH,SNARL,FEATHERDANCE,ROOST
+   
+ Pokemon = TURTANK,50
+  Gender = Female
+   Moves = BODYPRESS,SURF,IRONDEFENSE,ICEBEAM
+   
+ Pokemon = VOOLEASE,50
+  Gender = Male
+   Moves = CONFUSERAY,DREADFULWAVE,SHADOWBALL,TORMENT
+
+ Pokemon = UMBRAPTOR,50
+  Gender = Male
+   Moves = DRAGONCLAW,KNOCKOFF,HONECLAWS,PRIMORDIALSNAG
+
+ Pokemon = CERMUNCH,50
+  Gender = Male
+   Moves = SHADOWCLAW,BERSERKSMASH,DOUBLEHIT
+
+ Pokemon = TYRANITAR,55
+  Gender = Male
+   Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
 
 
 # First Caelum Battle #Can't win
