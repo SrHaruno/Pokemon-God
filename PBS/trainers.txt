@@ -367,19 +367,24 @@ LoseText = Hmph...
   Gender = Male
    Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
    
-# First Peon Battle
+# Second Peon Battle
 #-------------------------------
-[RIVAL3,Peon]
+[RIVAL3,Peon,1]
 LoseText = Hmph...
 
- Pokemon = YOUNROW,33
+ Pokemon = CRORIRD,35
   Gender = Male
-  Moves  = AIRCUTTER,FOULPLAY,FEATHERDANCE,ROOST
+  Moves  = AIRCUTTER,SNARL,FEATHERDANCE,ROOST
    
- Pokemon = VOOTED,33
+ Pokemon = VOOLEASE,35
   Gender = Male
+   Moves = CONFUSERAY,DREADFULWAVE,HEX,TORMENT
 
- Pokemon = PUPITAR,35
+ Pokemon = CERMUNCH,35
+  Gender = Male
+   Moves = SHADOWCLAW,BERSERKSMASH,DOUBLEHIT
+
+ Pokemon = PUPITAR,40
   Gender = Male
    Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
 
