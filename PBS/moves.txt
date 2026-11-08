@@ -8925,14 +8925,14 @@ Description = The user engages the foe like an ace. It also cuts the user's Defe
 Name = Excaliboo
 Type = GHOST
 Category = Physical
-Power = 60
-Accuracy = 90
+Power = 80
+Accuracy = 100
 TotalPP = 10
 Target = NearOther
-Priority = -6
-FunctionCode = SwitchOutTargetDamagingMove
+FunctionCode = CurseTarget
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user scares the foe with a ghostly sword. Drags out another Pokémon in its party. In the wild, the battle ends.
+EffectChance = 10
+Description = The foe is struck with ghostly sword. The target struck is affected with curse.
 #-------------------------------
 [GAIAWRATH]
 Name = Gaia's Wrath
