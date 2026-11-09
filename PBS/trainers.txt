@@ -432,9 +432,9 @@ Items = MEGARING,HYPERPOTION,HYPERPOTION
   Gender = Male
    Moves = SHADOWCLAW,TRIMUNCH,NIGHTSLASH,FAKETEARS
 
- Pokemon = CRORIRD,55
+ Pokemon = DOVENESS,55
   Gender = Male
-  Moves  = AIRSLASH,SNARL,FEATHERDANCE,ROOST
+  Moves  = AIRSLASH,HYPERVOICE,FEATHERDANCE,ROOST
    
  Pokemon = TURTANK,56
   Gender = Female
@@ -449,9 +449,9 @@ Items = MEGARING,HYPERPOTION,HYPERPOTION
    Item  = TYRANITARITE
    Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE
    
- Pokemon = VOOLEASE,58
+ Pokemon = SILLEARPPY,58
   Gender = Male
-   Moves = CONFUSERAY,DREADFULWAVE,SHADOWBALL,TORMENT
+   Moves = PARTINGSHOT,BODYSLAM,BROKENHEART,RECOVER
 
 
 # First Caelum Battle #Can't win
@@ -472,37 +472,35 @@ LoseText = How?
 #-------------------------------
 [PLASMA,Caelum,1]
 LoseText = How can a Kid be so powerful!
-
+Items = HYPERPOTION,HYPERPOTION
 
  Pokemon = ARMOGHOUL,55
   Item   = LEFTOVERS
   Gender = Female
   Moves  = EXCALIBOO,IRONHEAD,STEALTHROCK,CONFUSERAY
 
- Pokemon = VOOTED,55
-  Item   = GHOSTGEM
+ Pokemon = BULWRECK,58
+  Item   = LUMBERRY
+  Moves  = BELLYDRUM,FLAREBLITZ,RECKLESSWRECK,FLAMECHARGE
+
+ Pokemon = PETRILLISH,55
+  Item   = WATERGEM
   Gender = Female
-  Moves  = SHADOWBALL,CHAOTICBEAM,CONFUSERAY,PAINSPLIT
+  Moves  = THUNDERBOLT,HYDROPUMP,CONFUSERAY,CALMMIND
 
  Pokemon = DEVITSUNE,56
   Item   = SITRUSBERRY
   Moves  = CLOSECOMBAT,RECKLESSWRECK,CRUNCH,CHAOTICBEAM
 
- Pokemon = CRORIRD,56
+ Pokemon = JOLTUTER,56
   Item   = CHOICESPECS
-  Gender = Female
-  Moves  = AIRSLASH,DARKPULSE,FEATHERDANCE,TAUNT
-
- Pokemon = DRAKRAGE,58
-  Item   = LUMBERRY
-  Gender = Male
-  Moves  = DRAGONDANCE,DRAGONCLAW,MIGHTYROAR,GIGAIMPACT
+  Moves  = VOLTSWITCH,DISCHARGE,HYPERVOICE,CONFUSERAY
 
  Pokemon = SHENRAGON,58
-     Item   = LIFEORB
-     Gender = Male
+  Item   = LIFEORB
+  Gender = Male
   Happiness = 0
-     Moves  = OUTRAGE,RAGNAROK,FLAMETHROWER,FRUSTRATION
+  Moves  = OUTRAGE,RAGNAROK,FLAMETHROWER,FRUSTRATION
 
 #===========================================================================
 #Gyms

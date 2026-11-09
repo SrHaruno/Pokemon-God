@@ -964,7 +964,7 @@ Pokedex = ???
 [CELESTEON]
 Name = Celesteon
 Types = ANGEL
-BaseStats = 110,60,95,65,65,130
+BaseStats = 95,65,110,60,65,130
 GenderRatio = FemaleOneEighth
 GrowthRate = Medium
 BaseExp = 184
