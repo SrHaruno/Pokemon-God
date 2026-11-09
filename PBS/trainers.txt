@@ -466,6 +466,43 @@ LoseText = How?
  Pokemon = CRORIRD,45
   Gender = Female
   Moves  = AIRSLASH,DARKPULSE
+  
+  
+# Last Caelum Battle
+#-------------------------------
+[PLASMA,Caelum,1]
+LoseText = How can a Kid be so powerful!
+
+
+ Pokemon = ARMOGHOUL,55
+  Item   = LEFTOVERS
+  Gender = Female
+  Moves  = EXCALIBOO,IRONHEAD,STEALTHROCK,CONFUSERAY
+
+ Pokemon = VOOTED,55
+  Item   = GHOSTGEM
+  Gender = Female
+  Moves  = SHADOWBALL,CHAOTICBEAM,CONFUSERAY,PAINSPLIT
+
+ Pokemon = DEVITSUNE,56
+  Item   = SITRUSBERRY
+  Moves  = CLOSECOMBAT,RECKLESSWRECK,CRUNCH,CHAOTICBEAM
+
+ Pokemon = CRORIRD,56
+  Item   = CHOICESPECS
+  Gender = Female
+  Moves  = AIRSLASH,DARKPULSE,FEATHERDANCE,TAUNT
+
+ Pokemon = DRAKRAGE,58
+  Item   = LUMBERRY
+  Gender = Male
+  Moves  = DRAGONDANCE,DRAGONCLAW,MIGHTYROAR,GIGAIMPACT
+
+ Pokemon = SHENRAGON,58
+     Item   = LIFEORB
+     Gender = Male
+  Happiness = 0
+     Moves  = OUTRAGE,RAGNAROK,FLAMETHROWER,FRUSTRATION
 
 #===========================================================================
 #Gyms

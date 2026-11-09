@@ -8931,7 +8931,6 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = CurseTarget
 Flags = Contact,CanProtect,CanMirrorMove
-EffectChance = 10
 Description = The foe is struck with ghostly sword. The target struck is affected with curse.
 #-------------------------------
 [GAIAWRATH]
