@@ -425,7 +425,7 @@ LoseText = Doesn't metter if I lose!
 # Final Peon Battle - Mt.Hope Peak
 #-------------------------------
 [RIVAL4,Peon]
-LoseText = WHY DO YOU WANNA STOP ME FROM REVIVING MY PARENTS!
+LoseText = JUST LET ME REVIVE MY PARENTS!!!
 Items = MEGARING,HYPERPOTION,HYPERPOTION
 
  Pokemon = CERBERNO,55
