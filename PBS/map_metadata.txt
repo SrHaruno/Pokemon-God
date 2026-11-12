@@ -1446,3 +1446,8 @@ Name = Mt.Hope
 Outdoor = true
 MapPosition = 0,25,9
 BattleBack = Rocky
+#-------------------------------
+[299]   # Gigantopolis Gym [Illusion]
+Name = Gigantopolis
+MapPosition = 0,13,3
+BattleBack = Sky

@@ -744,6 +744,32 @@ LoseText = I can't belive it, only my sensei was able to meet my strenght! Well 
 
 
 
+#Gigantopolis Gym
+
+#Fake Gym
+#-------------------------------
+[ACETRAINER_M, Ezekiel]
+LoseText = You were tougher than I tought!
+Pokemon = PEACIRD,43
+Pokemon = PEACIRD,43
+Pokemon = PEACIRD,43
+#-------------------------------
+[ACETRAINER_F, Rafaela]
+LoseText = Guess I will need to train more!
+Pokemon = HOGGO,43
+Pokemon = PEACIRD,43
+Pokemon = JIARAGON,43
+#-------------------------------
+[ACETRAINER_M, Hitomi]
+LoseText = Oh my, I've been defeated!
+Pokemon = HOGGO,43
+Pokemon = DOVENESS,43
+Pokemon = ZEUKATIEL,43
+Pokemon = JIARAGON,43
+
+
+#True Gym
+
 #===========================================================================
 # Champions Challange Tournament
 
