@@ -769,6 +769,62 @@ Pokemon = JIARAGON,43
 
 
 #True Gym
+#-------------------------------
+[ACETRAINER_M, Sebastian]
+LoseText = You were tougher than I tought!
+Pokemon = PEACIRD,43
+Pokemon = PEACIRD,43
+#-------------------------------
+[ACETRAINER_M, Kazuma]
+LoseText = You were tougher than I tought!
+Pokemon = HOGGO,43
+Pokemon = PEACIRD,43
+#-------------------------------
+[ACETRAINER_F, Hinata]
+LoseText = You were tougher than I tought!
+Pokemon = HOGGO,44
+#-------------------------------
+[ACETRAINER_F, Kobayashi]
+LoseText = You were tougher than I tought!
+Pokemon = HOGGO,43
+Pokemon = HOGGO,43
+#-------------------------------
+[ACETRAINER_M, Suzuhara]
+LoseText = You were tougher than I tought!
+Pokemon = CELESTEON,44
+#-------------------------------
+[ACETRAINER_M, Ikari]
+LoseText = You were tougher than I tought!
+Pokemon = JIARAGON,43
+Pokemon = JIARAGON,43
+Pokemon = JIARAGON,43
+
+
+#-------------------------------
+[LEADER_Solarie,Solarie]
+Items = HYPERPOTION,HYPERPOTION,HYPERPOTION
+LoseText = Splendid!You truly deserve to be here!
+   
+ Pokemon = HOGGO,48
+  Gender = Male
+
+ Pokemon = ZEUKATIEL,48
+  Gender = Female
+   Moves = AIRSLASH,THUNDERBOLT,FEATHERDANCE,THUNDERWAVE
+   
+ Pokemon = JIARAGON,48
+  Gender = Male
+
+ Pokemon = JIARAGON,48
+  Gender = Female
+   
+ Pokemon = CELESTEON,48
+  Gender = Female
+   Moves = CONFUSERAY,TELEPORT,OLYMPUSBLESSING,RAGNAROK
+
+ Pokemon = SHENRAGON,50
+   Item  = SITRUSBERRY
+   Moves = DRAGONCLAW,RAGNAROK,EXTREMESPEED
 
 #===========================================================================
 # Champions Challange Tournament

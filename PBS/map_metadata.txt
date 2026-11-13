@@ -323,8 +323,8 @@ BattleBack = Water
 Name = Gigantopolis
 Outdoor = true
 ShowArea = true
-MapPosition = 0,13,3
 BattleBack = city
+MapPosition = 0,13,3
 MapSize = 2,1111
 #-------------------------------
 [067]   # Route 8
@@ -1417,6 +1417,11 @@ Bicycle = true
 MapPosition = 0,13,3
 BattleBack = Cave1
 #-------------------------------
+[290]   # Gigantopolis Gym
+Name = Gigantopolis Gym
+MapPosition = 0,13,3
+MapSize = 2,1111
+#-------------------------------
 [291]   # Mt.Hope [3F]
 Name = Mt.Hope
 Bicycle = true
@@ -1449,5 +1454,11 @@ BattleBack = Rocky
 #-------------------------------
 [299]   # Gigantopolis Gym [Illusion]
 Name = Gigantopolis
-MapPosition = 0,13,3
 BattleBack = Sky
+MapPosition = 0,13,3
+MapSize = 2,1111
+#-------------------------------
+[300]   # Gigantopolis Gym [Real]
+Name = Gigantopolis
+MapPosition = 0,13,3
+MapSize = 2,1111
