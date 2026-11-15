@@ -565,7 +565,7 @@ Pokedex = ???
 Name = Orbeaf
 FormName = Male
 Types = GRASS
-BaseStats = 45,65,40,60,30,40
+BaseStats = 45,70,50,65,30,50
 GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 62
@@ -586,13 +586,13 @@ Shape = Bipedal
 Category = Origami
 Pokedex = ???
 Evolutions = ORIKEN,LevelMale,20,BLOSSIGAMI,LevelFemale,20
-SpeciesSOS = ORBEAF,ORBEAF_1
+SpeciesSOS = ORBEAF,ORBEAF,ORBEAF_1,ORBEAF_1,ORBEAF,ORBEAF,ORBEAF_1,ORBEAF_1,ORBEAF,ORBEAF,ORBEAF_1,BLOSSIGAMI,BLOSSIGAMI,ORIKEN,ORIKEN
 CallRateSOS = 10
 #-------------------------------
 [ORIKEN]
 Name = Oriken
 Types = GRASS
-BaseStats = 55,90,50,75,50,50
+BaseStats = 55,90,60,75,40,60
 GenderRatio = AlwaysMale
 GrowthRate = Slow
 BaseExp = 122
@@ -608,14 +608,15 @@ Height = 0.7
 Weight = 6.9
 Color = White
 Shape = HeadBase
-Category = Shuriken
+Category = Origami
 Pokedex = ???
-Evolutions = KATAGAMI,Level,30
+Evolutions = KATAGAMI,Level,34
+SpeciesSOS = ORBEAF,ORBEAF,ORBEAF_1,ORBEAF_1,ORBEAF,ORBEAF,ORBEAF_1,ORBEAF_1,ORBEAF,ORBEAF,ORBEAF_1,ORBEAF,ORBEAF,ORBEAF_1,ORBEAF_1
 #-------------------------------
 [KATAGAMI]
 Name = Katagami
 Types = GRASS
-BaseStats = 65,135,60,95,60,60
+BaseStats = 68,135,70,97,60,70
 GenderRatio = AlwaysMale
 GrowthRate = Slow
 BaseExp = 225
@@ -631,13 +632,13 @@ Height = 0.7
 Weight = 6.9
 Color = White
 Shape = Bipedal
-Category = Forest Guardian
+Category = Origami
 Pokedex = ???
 #-------------------------------
 [BLOSSIGAMI]
 Name = Blossigami
 Types = GRASS
-BaseStats = 65,60,50,75,90,50
+BaseStats = 55,40,60,75,90,60
 GenderRatio = AlwaysFemale
 GrowthRate = Slow
 BaseExp = 122
@@ -654,14 +655,14 @@ Height = 0.7
 Weight = 6.9
 Color = White
 Shape = HeadBase
-Category = WIP
+Category = Origami
 Pokedex = ???
-Evolutions = SWAMIGAMI,Level,30
+Evolutions = SWAMIGAMI,Level,34
 #-------------------------------
 [SWAMIGAMI]
 Name = Swamigami
 Types = GRASS
-BaseStats = 65,60,60,95,135,60
+BaseStats = 68,60,70,97,135,70
 GenderRatio = AlwaysFemale
 GrowthRate = Slow
 BaseExp = 225
@@ -677,7 +678,7 @@ HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = White
-Shape = Bipedal
+Shape = Origami
 Category = WIP
 Pokedex = ???
 #-------------------------------
