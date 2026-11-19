@@ -4357,8 +4357,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [SYLVEON]
-BackSprite = 0,48
-FrontSprite = -2,22
+BackSprite = 0,0
+FrontSprite = -2,15
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
@@ -5810,9 +5810,9 @@ ShadowSize = 1
 #-------------------------------
 [SQUILAZE]
 BackSprite = 0,20
-FrontSprite = 0,20
+FrontSprite = 0,18
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [PURIRD]
 BackSprite = 0,0
@@ -6536,7 +6536,7 @@ ShadowSize = 2
 #-------------------------------
 [FISHICTIM]
 BackSprite = 0,0
-FrontSprite = 0,0
+FrontSprite = 0,22
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -6553,6 +6553,48 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [INFERLORD]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[BOIKRA]
+BackSprite = 0,0
+FrontSprite = -2,23
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[CERBERNO]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[PYROTATA]
+BackSprite = 0,0
+FrontSprite = 4,3
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[SALVAKEN]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SCARRET]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TATAYRO]
+BackSprite = 0,0
+FrontSprite = -11,13
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TEMYRM]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0

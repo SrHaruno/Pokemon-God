@@ -678,8 +678,8 @@ HatchSteps = 1
 Height = 0.7
 Weight = 6.9
 Color = White
-Shape = Origami
-Category = WIP
+Shape = HeadBase
+Category = Origami
 Pokedex = ???
 #-------------------------------
 [SQUILAZE]
@@ -2699,7 +2699,73 @@ Color = Pink
 Shape = Finned
 Category = Dolphin
 Pokedex = ???
-
+#-------------------------------
+[BOIKRA]
+Name = Boikra
+Types = FIRE
+BaseStats = 40,30,30,70,80,50 
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 64
+EVs = SPECIAL_ATTACK,1
+CatchRate = 75
+Happiness = 50
+Abilities = SHEDSKIN,FLASHFIRE
+Moves = 1,TACKLE,1,TAILWHIP,3,LEER,6,POISONGAS,9,SCREECH,12,EMBER,15,ACIDSPRAY,18,GLARE,21,SLUDGE,24,FLAMEBURST,27,GLARE,30,CONFUSERAY,33,CRUNCH,36,COIL,39,FLAMETHROWER,42,SLUDGEBOMB,45,NASTYPLOT,48,OVERHEAT
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE,FIREBLAST
+EggGroups = Field,Dragon
+HatchSteps = 3840
+Height = 0.7
+Weight = 6.9
+Color = Pink
+Shape = Serpentine
+Category = Snake
+Pokedex = ???
+Evolutions = TATAYRO,Level,32
+CallRateSOS = 15
+#-------------------------------
+[TATAYRO]
+Name = Tatáyro
+Types = FIRE,POISON
+BaseStats = 65,45,40,80,90,70
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 144
+EVs = SPECIAL_ATTACK,2
+CatchRate = 60
+Happiness = 50
+Abilities = SHEDSKIN,FLASHFIRE
+Moves = 1,TACKLE,1,TAILWHIP,3,LEER,6,POISONGAS,9,SCREECH,12,EMBER,15,ACIDSPRAY,18,GLARE,21,SLUDGE,24,FLAMEBURST,27,GLARE,30,CONFUSERAY,33,CRUNCH,36,COIL,41,FLAMETHROWER,46,SLUDGEBOMB,51,NASTYPLOT,56,OVERHEAT
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE,FIREBLAST
+EggGroups = Field,Dragon
+Height = 0.7
+Weight = 6.9
+Color = Pink
+Shape = Serpentine
+Category = Snake
+Pokedex = ???
+Evolutions = PYROTATA,Level,42
+#-------------------------------
+[PYROTATA]
+Name = Pyrotatá
+Types = FIRE,POISON
+BaseStats = 70,60,60,105,125,70
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 243
+EVs = SPECIAL_ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = SHEDSKIN,FLASHFIRE
+Moves = 1,TACKLE,1,TAILWHIP,3,LEER,6,POISONGAS,9,SCREECH,12,EMBER,15,ACIDSPRAY,18,GLARE,21,SLUDGE,24,FLAMEBURST,27,GLARE,30,CONFUSERAY,33,CRUNCH,36,COIL,43,FLAMETHROWER,48,SLUDGEBOMB,53,NASTYPLOT,58,OVERHEAT
+TutorMoves = TOXIC,SUNNYDAY,HYPERBEAM,PROTECT,FRUSTRATION,RETURN,DOUBLETEAM,FACADE,SECRETPOWER,REST,ATTRACT,ENDURE,GIGAIMPACT,CAPTIVATE,SLEEPTALK,NATURALGIFT,SUBSTITUTE,FIREBLAST
+EggGroups = Field,Dragon
+Height = 0.7
+Weight = 6.9
+Color = Pink
+Shape = Serpentine
+Category = Snake
+Pokedex = ???
 
 
 
